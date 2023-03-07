@@ -15,6 +15,50 @@
           <items xsi:type="form:FormGroup">
             <name>ГруппаНаименования</name>
             <id>235</id>
+            <items xsi:type="form:Decoration">
+              <name>Декорация1</name>
+              <id>315</id>
+              <title>
+                <key>ru</key>
+                <value>ДОБАВЛЕННАЯ Декорация</value>
+              </title>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>Декорация1РасширеннаяПодсказка</name>
+                <id>317</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>Декорация1КонтекстноеМеню</name>
+                <id>316</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </items>
             <items xsi:type="form:FormField">
               <name>Наименование</name>
               <id>4</id>
