@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce381b23-b421-4f30-95f2-a6c600deb056">
+  <producedTypes>
+    <objectType typeId="87e7fc64-b54d-4097-b5fa-7f906201d565" valueTypeId="1ed3aa6d-e380-4210-937f-5fc9e7f80553"/>
+    <refType typeId="93b137e7-7430-41ef-a2a8-61137f29b43a" valueTypeId="c3dadb2c-43ac-401e-9ee3-13a6f2da3524"/>
+    <selectionType typeId="4914bffa-6929-449a-b0f6-69fa16583bb6" valueTypeId="4882592e-1f56-49fa-a515-348cbf7634e7"/>
+    <listType typeId="120bad08-8e1f-4f3a-ae9b-82deff1f1646" valueTypeId="150a3553-80a9-4129-86a8-0a4a8d242b98"/>
+    <managerType typeId="3ee04051-1dc0-484b-894e-37bd191b3067" valueTypeId="17ecfb92-66e4-497b-9967-032ef2f35d44"/>
+  </producedTypes>
+  <name>Scan_КонтактныеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактные лица (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Contact persons (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_КонтактныеЛица.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_КонтактныеЛица.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Контактное лицо</value>
+  </objectPresentation>
+  <dataHistory>Use</dataHistory>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Scan_Контрагенты</owners>
+  <owners>Catalog.Scan_Компании</owners>
+  <owners>Catalog.Scan_Сотрудники</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_КонтактныеЛица.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_КонтактныеЛица.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Scan_КонтактныеЛица.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="7d63a08d-99c8-44eb-8cbb-a0facadba53e">
+    <name>IDExternalSystem</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID External System</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ID External System</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="806dab6e-3f30-44f4-a83b-2cdb5f959d70">
+    <name>ВидКонтактногоЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид контактного лица</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Type of contact person</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Scan_ВидыКонтактныхЛиц</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид контактного лица.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Type of contact person</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="87e2029b-6385-463b-85ed-495b3ec44d2b">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of renewal</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fd915696-1d5a-4fdb-8729-909a5cecd8aa">
+    <name>ДатаРождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата рождения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of Birth</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата рождения контактного лица</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Date of birth of the contact person</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f86c6f45-1a8a-4f71-99f6-2b1a23f0b9aa">
+    <name>ДилерскаяСтанция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дилерская станция</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Dealer station</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Компании</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3e1cfa3d-7bfd-49fb-a9fa-7a31655324d6">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Position</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Должности</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Должность контактного лица</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Position of contact person</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f3a49746-2cde-4cc7-abf0-a9439de0f715">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя контактного лица</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Name of contact person</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bed47a8a-5c71-4128-a3ce-7cc9e9e572e7">
+    <name>Недействителен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Недействителен</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Not valid</value>
+    </synonym>
+    <comment>Контактное лицо больше не используется в программе, но сведения о нем сохранены. Недействительные контактные лица скрываются из всех списков при выборе или подборе в документах, и других местах программы.</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ee063dd0-15d6-4a86-9df6-0274d12895d1">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Description</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дополнительное описание</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Additional description</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="54bc86dd-adff-48e6-bd5f-90228b7b4375">
+    <name>ОтправлятьДетализированныйАкт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлять детализированный акт</value>
+    </synonym>
+    <comment>#15689</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Установка признака позволит отправлять контактному лицу письмо с вложением детализированного акта приема-передачи</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d6886f73-b6a8-45e7-807b-72e61f6512bc">
+    <name>ОтправлятьПисьмаНапоминанияПоДоставкеИзделий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлять письма-напоминания по доставке продуктов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Send reminder letters for delivery of products</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Установка признака позволит отправлять контактному лицу письмо-напоминание о необходимости подачи заявки на доставку изделий при вывозе из порта (импорт)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Installation of the sign will allow the contact person to send a reminder letter about the need to submit an application for the delivery of products when exporting from the port (import)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5667f3ff-2207-456c-a288-0b1cf6de89de">
+    <name>ОтправлятьПисьмаНапоминанияПоДоставкеИзделийПовторно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлять письма-напоминания по доставке продуктов повторно</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Send reminder letters for delivery of goods re</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Установка признака позволит отправлять контактному лицу повторное письмо-напоминание о необходимости подачи заявки на доставку изделий при вывозе из порта (импорт)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Installation of the feature will allow sending a repeated reminder letter to the contact person about the need to submit an application for the delivery of products when exporting from the port (import)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="29deb2f1-d804-4cf8-abb1-27e0570ed774">
+    <name>ОтправлятьПисьмаОбОтклоненияхПоКлючевымДатамЗаказовНаЗавод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлять письма об отклонениях по ключевым датам заказов на завод</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Send letters of variances on the key order dates in the plant</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Установка признака позволит автоматически подставлять эл.адрес контактного лица в список получателей письма об отклонениях по ключевым датам заказа на завод</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="449c9a94-9acd-4477-bf09-3888a988daeb">
+    <name>ОтправлятьПисьмоСОтчетомDeliveriesReport</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлять письмо с отчетом Deliveries Report</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Send Deliveries Report Email</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Установка признака позволит автоматически подставлять эл.адрес контактного лица в список получателей письма отчета по Deliveries Report</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6bc013f6-fd3c-4ea0-9781-18986b3246e1">
+    <name>ОтправлятьПФЗаявкиНаДействие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлять ПФ заявки на действие</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>PF send requests for action</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Установка признака позволит автоматически подставлять эл. почту контактного лица в список получателей при отправке печатных форм документа &quot;Заявка на действие&quot;</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Setting a sign will automatically substitute email of the contact person to the list of recipients when sending printed forms of the document &quot;Application for action&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b25983cc-a585-4424-8672-f8a1891fd29b">
+    <name>ОтправлятьПФЗаявкиНаСервисныеРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлять ПФ заявки на сервисные работы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>PF send requests for service work</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Установка признака позволит автоматически подставлять эл. почту контактного лица в список получателей при отправке печатных форм документа &quot;Заявка на сервисные работы&quot;</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Setting a sign will automatically substitute email of the contact person to the list of recipients when sending printed forms of the document &quot;Application for service work&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bc5b85ea-0e5a-4371-b5db-15563b50ee0e">
+    <name>ОтправлятьПФЗаявкиПеревозчику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлять ПФ заявки перевозчику</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>PF application send to the carrier</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Установка признака позволит автоматически подставлять эл. почту контактного лица в список получателей при отправке печатных форм документа &quot;Заявка перевозчику&quot;</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Setting a sign will automatically substitute email of the contact person to the list of recipients when sending printed forms of the document &quot;Application to the carrier&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c667142f-789d-4c62-9302-d4b5157802b4">
+    <name>ОтправлятьПФМ15</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлять ПФ М-15</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Send M PD-15</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Установка признака позволит отправлять контактному лицу письмо с вложенной печатной формой М-15</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Installation of the feature will allow sending email to the contact person with the enclosed printed form M-15</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="43e1a4e1-4dbe-4277-aeb7-ce4ef60f230f">
+    <name>ОтправлятьПФМХ1МХ3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлять ПФ МХ-1/МХ-3</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Send PF MH-1 / MH-3</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Установка признака позволит отправлять контактному лицу письмо с вложенной печатной формой МХ-1</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Installation of the feature will allow sending email to the contact person with the enclosed printed form MH-1</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9e3db075-087b-4baf-8a2a-fdfbdfd105d7">
+    <name>ОтправлятьПФМХ3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлять ПФ МХ-3</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Send PF MX 3</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Установка признака позволит отправлять контактному лицу письмо с вложенной печатной формой МХ-3</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Installation of the feature will allow sending email to the contact person with the enclosed printed form MH-3</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="edd4e745-279b-42b4-a710-a0a817ee4bdc">
+    <name>ОтправлятьЧекЛистПроверкиТехсостояния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлять письма с чек-листом проверки техсостояния</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Send mail with a check-list of technical condition inspection</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Установка признака позволит отправлять контактному лицу письмо с чек листом проверки техсостояния</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Installation of the sign will allow sending email to the contact person with a check of the technical condition check sheet</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6055e298-2f60-4933-8183-2200537aa93a">
+    <name>Отчество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчество</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Middle name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Отчество контактного лица</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Middle name of the contact person</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b124d69c-06b8-47dd-bbeb-0f265ba6773a">
+    <name>Фамилия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фамилия</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Surname</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Фамилия контактного лица</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Surname of contact person</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="6586d7e3-4a9e-4079-9ebd-90fc85d0bdea">
+    <producedTypes>
+      <objectType typeId="55152943-da0e-4d78-b319-4c3d9d29ada7" valueTypeId="16b6eaab-71dd-4d00-907e-5cfd901f0941"/>
+      <rowType typeId="cdc8eb3b-c2cc-4bfa-91df-4fb9186cbda1" valueTypeId="8455917b-ee3e-4575-8ff7-431d0e04b7c0"/>
+    </producedTypes>
+    <name>КонтактнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактная информация</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Contact Information</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="f3f8f549-4a1b-462a-b84a-ae1f2f04a48c">
+      <name>Тип</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Type of</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ТипыКонтактнойИнформации</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Тип контактной информации (телефон, адрес и т.п.)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Type of contact information (address, phone, etc.)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ef7b35c8-f7da-4271-86f3-aaf6517c6b1f">
+      <name>Вид</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>View</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыКонтактнойИнформации</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Вид контактной информации</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Type of contact information</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b0f08add-9716-44ac-9df4-6f4ca41734f2">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Representation</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Представление контактной информации для отображения в формах</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Submission of contact information to be displayed in forms</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e4fe1154-6e70-4a0c-9038-2ce360e67593">
+      <name>ЗначенияПолей</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значения полей</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Field values</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Служебное поле, для хранения контактной информации</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Service field for contact information storing</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9e4524df-0edc-4d31-9c57-d74e0ea20b4e">
+      <name>Страна</name>
+      <synonym>
+        <key>ru</key>
+        <value>Страна</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Country </value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Страна (заполняется для адреса)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Country (filled in for address)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="13f2b6c8-96d6-497b-ae11-397c47d7da6c">
+      <name>Регион</name>
+      <synonym>
+        <key>ru</key>
+        <value>Регион</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Region</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Регион (заполняется для адреса)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Region (to be completed for the address)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8d449ccf-1e93-424e-992a-df0980e8046d">
+      <name>Город</name>
+      <synonym>
+        <key>ru</key>
+        <value>Город</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>City</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Город (заполняется для адреса)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>City (to be completed for the address)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ec4df5e5-24c3-4e59-99bd-0e5422d113a7">
+      <name>АдресЭП</name>
+      <synonym>
+        <key>ru</key>
+        <value>Адрес ЭП</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Address EP</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Адрес электронной почты</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Email address</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f0333fd9-7ae2-4ec1-b050-bf9692ba8d8b">
+      <name>ДоменноеИмяСервера</name>
+      <synonym>
+        <key>ru</key>
+        <value>Доменное имя сервера</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Domain server name </value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Доменное имя сервера электронной почты или веб-страницы</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>The domain name of the email server or web page</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d33df3c3-42ba-4287-89d1-a15b0ca3aad6">
+      <name>НомерТелефона</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер телефона</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Phone number</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Полный номер телефона</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Full phone number</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9a890762-f8d3-4c65-a531-36f58f325a4e">
+      <name>НомерТелефонаБезКодов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер телефона без кодов</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Phone number without codes</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Номер телефона без кодов и добавочного номера</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Phone number without codes and extension number</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c20c1af9-f4b3-4702-be09-6c77a5e6eb7d">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Value</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Служебное поле, для хранения контактной информации</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Service field for contact information storing</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="06d08145-621a-4735-8e98-59ac68c2e5c6">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form element</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b88c69a4-c661-4ca6-ab47-9db393895d9c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2de35701-ce0d-4fe8-aeb8-e0e7787b5b0d">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of selection</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d8407e07-036d-4daa-8909-e456c19413fc">
+    <name>ФормаВыбораНескольких</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора нескольких</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of select multiple</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

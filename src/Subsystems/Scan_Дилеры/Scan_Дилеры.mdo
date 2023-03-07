@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8783537-a857-4f60-af6a-c011f4c1e955">
+  <name>Scan_Дилеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дилеры</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Dealers</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РабочееМестоДилера2</picture>
+  </picture>
+  <content>DataProcessor.Scan_КалькуляторТарифовНаДоставку</content>
+  <content>Role.ДобавлениеИзменениеСтолаДилеров</content>
+  <content>CommonPicture.РабочееМестоДилера</content>
+  <content>DataProcessor.Scan_РМДилера</content>
+  <content>Role.Scan_ПросмотрПодсистемыДилеры</content>
+  <content>Role.Scan_ДобавлениеИзменениеРМДилера</content>
+</mdclass:Subsystem>

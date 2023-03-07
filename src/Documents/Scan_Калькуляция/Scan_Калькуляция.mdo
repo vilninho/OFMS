@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="002c3d50-70a5-4e32-a01b-5dda5b172cce">
+  <producedTypes>
+    <objectType typeId="8b05fde0-6447-4e53-8901-d0ff01a796c7" valueTypeId="39173a83-9583-4009-b704-3feb87189f0f"/>
+    <refType typeId="3df98fd1-fde0-4ee4-a3a6-6f804ce325c2" valueTypeId="16be22e6-becb-4730-9286-8500d7d1f8a3"/>
+    <selectionType typeId="2d3c3319-5a07-43e1-8264-2392611f5e89" valueTypeId="23d92ba7-a380-4e7c-a828-3da00c8766fc"/>
+    <listType typeId="cbf50883-95e3-4b0c-a4dd-dd7947ced394" valueTypeId="45eda2ae-3d15-4ec1-a072-235c42342b79"/>
+    <managerType typeId="4ab4f38a-28f0-4fa9-b0f2-ab0cdd0de46b" valueTypeId="99ab550d-8648-4091-b234-0ca65d550b23"/>
+  </producedTypes>
+  <name>Scan_Калькуляция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Калькуляция (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Calculation (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Scan_Калькуляция.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <synonym>
+      <key>en</key>
+      <value>Date</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <synonym>
+      <key>en</key>
+      <value>Number</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <basedOn>Document.Scan_Калькуляция</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Калькуляция</value>
+  </objectPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Scan_Калькуляция.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.Scan_Калькуляция.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.Scan_Калькуляция.Form.ФормаВыбора</defaultChoiceForm>
+  <posting>Deny</posting>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="d9fddec3-4415-40cd-bfee-2b62c8ad9416">
+    <name>ИдентификаторПрайсЛиста</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID прайс-листа (ETBO)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Price list ID (ETBO)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="55dcca70-ad9a-4945-8cc9-a277a24c2d5c">
+    <name>НаименованиеПрайсЛиста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование прайс-листа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Price list name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="49dc932b-7d49-4bce-a0b5-1c86a8f83c43">
+    <name>ДействуетСДаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>С даты</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>From date</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Прайс-лист действует с даты</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d97bfc13-24a6-47e2-9cb0-0dec05b7fc01">
+    <name>ДействуетСPartPeriod</name>
+    <synonym>
+      <key>ru</key>
+      <value>С Part Period</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>From PP</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>7</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Прайс-лист действует с даты</value>
+    </toolTip>
+    <mask>99 99 9</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5671121f-f115-487e-82f4-65e40f7e58c3">
+    <name>КоэффициентDealerNet</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэф. Dealer Net</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Dealer Net factor</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_СоставляющиеРасчетаЦеныПродуктов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="31ac05fd-a8c6-47d6-8bd4-b8b37e9740b4">
+    <name>КоэффициентRetailPrice</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэф. Retail Price</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Retail Price factor</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_СоставляющиеРасчетаЦеныПродуктов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="40d7d256-87e0-470f-a5bd-eef8cfc70fa5">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Status</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_СтатусыКалькуляций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="acf609b1-c002-41e8-a51f-22684b978049">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Base document</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Scan_Калькуляция</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="578ac6fb-8ab8-4174-8160-8ab251c03ce7">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3d23b82d-d2ee-476d-ac1c-dc568d76a9bf">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1558c23d-2879-49e7-a573-53ccf6c4ce4f">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="4e56e569-6577-4faa-beaa-cdbabb7444db">
+    <producedTypes>
+      <objectType typeId="d260bb53-95f4-4cb7-a7cd-dcf3012ad7c1" valueTypeId="f7f181bf-33d4-4b85-9a0e-ebb4b3ca1b4f"/>
+      <rowType typeId="f1337b46-3707-47b1-9043-99f68b2c97a2" valueTypeId="bbb430bc-9dae-4dd4-a9a2-4557a214e4ab"/>
+    </producedTypes>
+    <name>НерасчетныеСоставляющие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нерасчетные составляющие</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Non-calculated components</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="8fb24483-2fe2-4b12-ac97-4e4135644f32">
+      <name>РазделКалькуляции</name>
+      <synonym>
+        <key>ru</key>
+        <value>Раздел калькуляции</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Section of calculation</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_РазделыКалькуляции</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fd422432-f6be-46ab-b032-56427d77b402">
+      <name>СтандартнаяСпецификация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стандартная спецификация</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>STD</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.Scan_СпецификацияСтандартнойМодели</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8537ee05-e5d0-405e-9033-7f5804fefdb9">
+      <name>Принадлежность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Принадлежность</value>
+      </synonym>
+      <type>
+        <types>EnumRef.Scan_ПринадлежностьСоставляющихКалькуляции</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e4fc5d77-769a-4054-9bda-024bec5b89ef">
+      <name>НомерСтрокиКалькуляции</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер строки</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Line number</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e927e1ef-0517-4a9f-9a6c-174d8a1b047e">
+      <name>СоставляющаяРасчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Составляющая расчета</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Component of calculation</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_СоставляющиеРасчетаЦеныПродуктов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="580542d2-136d-470e-adc2-5541d329aa88">
+      <name>Идентификатор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Identifier</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="338a5747-5bd8-4290-924f-559cdbbff03b">
+      <name>ЗначениеПоУмолчанию</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение по ум.</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Default value</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ef432476-391a-40d4-8fdb-08807b61e903">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Value</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="589a5e3a-1648-428d-a9bc-cce89931d886">
+    <producedTypes>
+      <objectType typeId="5458a830-fee3-481e-bcb1-06df7504b870" valueTypeId="6763a321-acd1-4d06-86bb-99507fb979d4"/>
+      <rowType typeId="ab55d1f6-e6ed-4451-9a29-f5049c7580cf" valueTypeId="3c2f9f50-5e45-4e12-bd6e-940c08406419"/>
+    </producedTypes>
+    <name>РасчетныеСоставляющие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчетные составляющие</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Calculated components</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="a1fc54b2-77ae-4cd3-89f5-09d926c94460">
+      <name>РазделКалькуляции</name>
+      <synonym>
+        <key>ru</key>
+        <value>Раздел калькуляции</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Section of calculation</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_РазделыКалькуляции</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c8f3a019-f57e-40d3-8f37-d6df6b34c561">
+      <name>СтандартнаяСпецификация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стандартная спецификация</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>STD</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.Scan_СпецификацияСтандартнойМодели</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9dd0063d-ae8d-4aa6-9447-1092a4439643">
+      <name>Принадлежность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Принадлежность</value>
+      </synonym>
+      <type>
+        <types>EnumRef.Scan_ПринадлежностьСоставляющихКалькуляции</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a9a6e2ff-b36f-4004-a3f2-09bf67a4f909">
+      <name>НомерСтрокиКалькуляции</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер строки</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Line number</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a3136b55-4cad-4661-bda6-ce8f47c18d60">
+      <name>СоставляющаяРасчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Составляющая расчета</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Component of calculation</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_СоставляющиеРасчетаЦеныПродуктов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="851063fc-41ee-42b5-8ef4-0d37d5bf9d6f">
+      <name>ФормулаРасчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Формула расчета</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Calculation formula</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a20c5136-c0c4-452f-a49a-0399e205bfea">
+      <name>Идентификатор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Identifier</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8489d471-2a6b-4922-b6f3-872c57130d13">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Value</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="45aa2440-9d9b-41dd-9d99-9fd2d1f20520">
+    <producedTypes>
+      <objectType typeId="891a7392-62ab-4314-bc87-e98a0024a982" valueTypeId="1cb8eb98-293f-43f3-b2aa-7c9d72571f26"/>
+      <rowType typeId="fc4587ca-3635-467a-98da-3d093685e865" valueTypeId="5bb7cdd8-3780-4db5-a2d6-cc55c07e1f36"/>
+    </producedTypes>
+    <name>СтандартныеСпецификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартные спецификации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>STD</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="dfa54e0b-8785-47d5-a030-eacfcdb1f980">
+      <name>РазделКалькуляции</name>
+      <synonym>
+        <key>ru</key>
+        <value>Раздел калькуляции</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Section of calculation</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_РазделыКалькуляции</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4aab1f6c-5887-4e15-8765-030779363b90">
+      <name>СтандартнаяСпецификация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стандартная спецификация</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>STD</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.Scan_СпецификацияСтандартнойМодели</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c65bbe8d-a668-437f-a1e7-c3866a322419">
+      <name>СтоимостьБазовыхОпций</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стоимость базовых опций</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Basic options cost</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1a3daaab-7c87-4ace-8110-cd467bec565c">
+      <name>СтоимостьНадстройки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стоимость надстройки</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Body cost</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b0c3f670-c8ba-4a3f-8eff-8d24f0f5a924">
+      <name>СтоимостьОборудования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стоимость оборудования</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Equipment cost</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="ab2beb53-b40b-4a24-84f5-dd7de2f18c6d">
+    <name>КалькуляцияПриглашение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Калькуляция приглашение</value>
+    </synonym>
+  </templates>
+  <templates uuid="b72e3f5c-ee52-4191-9a25-ec807c32d43a">
+    <name>Калькуляция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Калькуляция</value>
+    </synonym>
+  </templates>
+</mdclass:Document>

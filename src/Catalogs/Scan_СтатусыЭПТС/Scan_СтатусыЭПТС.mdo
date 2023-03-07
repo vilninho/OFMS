@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="462ac9d2-31a6-4998-ae09-1b6f31cba02b">
+  <producedTypes>
+    <objectType typeId="bc540b9a-c80a-46c9-b0ce-d7e95e087a8f" valueTypeId="c3a9b302-9cb6-484f-8c69-d264c2705a2d"/>
+    <refType typeId="b0f9aa27-719a-4420-8775-cc335a5e0b6a" valueTypeId="96c4aba0-60dd-47a5-9c13-9eb581c2565d"/>
+    <selectionType typeId="acbcf92a-1b82-4882-a3ce-d45f4941c4ed" valueTypeId="0110082a-4bb9-45d4-a2c2-c460681d6bb4"/>
+    <listType typeId="a34f0e7d-12d0-460d-aa4a-6f8772cb4d00" valueTypeId="ae2860ec-26d0-4f98-872d-16f625de7ef3"/>
+    <managerType typeId="54c51ff3-9e2e-4940-aa7b-f68ad6a7a98f" valueTypeId="b79ec33a-b0b3-4f30-8d8f-94ddee1e02b8"/>
+  </producedTypes>
+  <name>Scan_СтатусыЭПТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Cтатусы ЭПТС (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_СтатусыЭПТС.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_СтатусыЭПТС.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_СтатусыЭПТС.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_СтатусыЭПТС.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Scan_СтатусыЭПТС.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="28dec623-c08b-4328-81f4-a8e30141e3c8">
+    <name>IDExternalSystem</name>
+    <synonym>
+      <key>ru</key>
+      <value>IDExternalSystem</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>IDExternalSystem</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8e79dadb-e4f3-48c1-a882-3030ef0445c0">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of renewal</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2bce8300-797f-44db-b1b0-2254873f961e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e6397362-7cc0-48bd-b460-e3053262cb6b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dc32fec9-5156-413d-9b00-a526e34a5157">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

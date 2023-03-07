@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="927bbeaf-84cf-4c9e-a5ac-39f6e886605a">
+  <name>Предприятие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предприятие</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Company</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Организации</content>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.Scan_Должности</content>
+  <content>Catalog.Scan_Подразделения</content>
+  <content>Catalog.Scan_Сотрудники</content>
+  <content>InformationRegister.Scan_СведенияОСотрудниках</content>
+  <content>Catalog.Scan_СтавкиНДС</content>
+  <content>Catalog.Календари</content>
+  <content>DataProcessor.ЗаполнениеГрафиковРаботы</content>
+  <content>Catalog.ПроизводственныеКалендари</content>
+  <content>DataProcessor.ЗаполнениеКалендарныхГрафиков</content>
+  <content>Catalog.Scan_ХозяйственныеОперации</content>
+  <parentSubsystem>Subsystem.Scan_НСИ</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>InformationRegister.Scan_ЗамечанияПоАктамПриемоПередачи.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>InformationRegister.Scan_ЗамечанияПоАктамПриемоПередачи.StandardCommand.OpenList</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>InformationRegister.Scan_ЗамечанияПоАктамПриемоПередачи.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+  <subsystemsOrder>
+    <subsystems>Subsystem.Scan_ХранениеИзделий.Subsystem.Документы</subsystems>
+    <subsystems>Subsystem.Scan_ХранениеИзделий.Subsystem.ДополнительныеРаботыИДоукомплектование</subsystems>
+    <subsystems>Subsystem.Scan_ХранениеИзделий.Subsystem.Справочники</subsystems>
+    <subsystems>Subsystem.Scan_ХранениеИзделий.Subsystem.УчетАКБ</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

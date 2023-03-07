@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="778f5cc8-a7ec-4392-8414-ed444df741e4">
+  <producedTypes>
+    <selectionType typeId="9437fb64-ddf6-4ee2-951a-0f6e730ec647" valueTypeId="9fa0e94d-b183-4528-b486-78a630880154"/>
+    <listType typeId="dca96afa-1e06-45ff-ad11-79bce688bd5b" valueTypeId="b558b3fa-18f5-414d-a9c6-e26708f66bc9"/>
+    <managerType typeId="29a21fd0-308e-4de7-92bb-5ccc2cfbbd64" valueTypeId="f56003ab-3810-4df3-a558-2bbda5e37c2c"/>
+    <recordSetType typeId="cd14bd5a-3b79-42c0-8fa2-adddb79b339b" valueTypeId="b41160c1-df18-4dc8-bb5a-537a5206a5b1"/>
+    <recordKeyType typeId="a82aaf0c-3cb0-415f-8aeb-3a8bf52ba37d" valueTypeId="fcc9f427-4489-43c7-bc76-167d5061b703"/>
+    <recordType typeId="8cae2aea-333e-41ce-abbe-3daa3c170e3c" valueTypeId="c9653b3d-4d0a-4aeb-9585-585b5eae6674"/>
+  </producedTypes>
+  <name>Scan_ДвиженияКомплектующих</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движения комплектующих</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Движения комплектующих</value>
+  </synonym>
+  <comment>Движения комплектующих (scania)</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>AccumulationRegister.Scan_ДвиженияКомплектующих.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="586abec9-e350-4615-add5-b55f4efd0d53">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="cc16f50d-6f51-4079-8aba-fb8b6561a670">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="dc27cba1-1cf3-4411-b517-441254d17d33">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_МестаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="15b102dd-06ee-4d13-addb-2f9b608edc3f">
+    <name>Изделие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукт</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Продукт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Изделия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="99055b6b-ec74-40bf-9e53-7d39566f105f">
+    <name>Комплектующие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплектующие</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Комплектующие</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Комплектующие</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="e05c0221-70cb-4300-bd50-23b5b4c61f92">
+    <name>ЗаявкаНаКомплектующие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка на комплектующие</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Заявка на комплектующие</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Scan_ЗаявкаНаКомплектующие</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <forms uuid="3f157bdb-90d8-44de-a07e-0740d03c6e24">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:AccumulationRegister>

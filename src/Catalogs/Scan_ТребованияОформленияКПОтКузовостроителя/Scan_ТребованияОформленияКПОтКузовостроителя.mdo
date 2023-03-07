@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1cad377f-0b51-4fe7-a770-7befb1dd7b32">
+  <producedTypes>
+    <objectType typeId="dfeb4484-7cce-4d0b-a50d-e7d33e136295" valueTypeId="9c2964b8-fa4e-406a-8652-55ab798e386d"/>
+    <refType typeId="3074fc9c-f050-4827-9290-24a4a696a6a5" valueTypeId="6cfc317e-2db4-4915-9fbb-ae82a3eb7988"/>
+    <selectionType typeId="e770957f-6e4f-4cda-a630-e64b0d5f8c8f" valueTypeId="6dd8c83e-89d9-4759-949c-b8e690c923f9"/>
+    <listType typeId="d4e2a2d6-6176-4968-8b2a-b3fbfac726a1" valueTypeId="8e1db525-574a-468b-8711-6b5442e2123f"/>
+    <managerType typeId="02643d57-3622-4963-83b6-9719212051d4" valueTypeId="519cba6e-8d99-4774-80b0-a3c8a497b48b"/>
+  </producedTypes>
+  <name>Scan_ТребованияОформленияКПОтКузовостроителя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Требования оформления КП от кузовостроителя (scania)</value>
+  </synonym>
+  <comment>Используется в соглашении о поставке</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_ТребованияОформленияКПОтКузовостроителя.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_ТребованияОформленияКПОтКузовостроителя.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_ТребованияОформленияКПОтКузовостроителя.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_ТребованияОформленияКПОтКузовостроителя.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="29ca22a5-e3a4-4626-92ed-c4323f618374">
+    <name>ТекстТребований</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст требований</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9057751f-ce4b-4f6c-9b73-356249136b85">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cc2bb7b5-113c-4142-83e1-178078ace163">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

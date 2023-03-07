@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d774e2c9-608d-43ff-9e21-9210aeed6033">
+  <producedTypes>
+    <objectType typeId="727d0c43-d417-4c45-a0ff-b7934c76e569" valueTypeId="ee200ca0-67cb-430f-8e8b-53194b8462e8"/>
+    <managerType typeId="9ac74fc4-3c5c-4274-9e43-3389dbe10f26" valueTypeId="2d35ff95-bcbe-4ce4-8e9f-1b8eea5743cf"/>
+  </producedTypes>
+  <name>Scan_OrderIntakeAndOrderBook</name>
+  <synonym>
+    <key>ru</key>
+    <value>Order intake and order book (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Order intake and order book (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.Scan_OrderIntakeAndOrderBook.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="9ac2f936-9870-4c5f-811e-9a2423ad3dd0">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

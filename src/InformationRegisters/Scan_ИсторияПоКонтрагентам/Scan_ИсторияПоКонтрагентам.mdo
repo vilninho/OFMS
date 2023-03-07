@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c84be14c-8f9a-41d2-91f5-5514e741cce8">
+  <producedTypes>
+    <selectionType typeId="e14750b8-289c-476c-aac1-549fdbcee2b5" valueTypeId="714d0286-2a1e-44f3-b8ac-c46ac259248a"/>
+    <listType typeId="be58368b-da9f-46b0-b46e-48e47721fe54" valueTypeId="a949dd75-f2ca-4934-b9c1-101b0252d6a7"/>
+    <managerType typeId="4a77dec8-1f60-4916-88ad-426f15dd04c9" valueTypeId="30fa7c8d-b49e-4540-bb55-6f2116904fec"/>
+    <recordSetType typeId="397e8498-b729-40fb-8f80-be8fe59ac0d6" valueTypeId="8ee2057f-08ec-4077-95fb-2e503739b998"/>
+    <recordKeyType typeId="6dd68f95-3a27-4903-834a-907459f00f25" valueTypeId="504a14b8-116d-492f-aa14-54bf3407a134"/>
+    <recordType typeId="9e6fecfc-9288-4ae9-8261-d906c6be7838" valueTypeId="2a186348-cdfb-4194-a903-4e57d6770e3f"/>
+    <recordManagerType typeId="e7f629a0-cdc2-4885-a546-1aab2a6dfe83" valueTypeId="3f083828-3646-45e9-acbf-b625508080a2"/>
+  </producedTypes>
+  <name>Scan_ИсторияПоКонтрагентам</name>
+  <synonym>
+    <key>ru</key>
+    <value>История по контрагентам (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Counterparty History (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_ИсторияПоКонтрагентам.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_ИсторияПоКонтрагентам.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="08037ba7-15fe-4742-a380-65e51aca0f05">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Value</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+      <types>CatalogRef.Scan_ДоговорыВзаиморасчетов</types>
+      <types>String</types>
+      <types>Date</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="487806e5-a515-4020-891c-4bc7dabd6b28">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="de0bd6a0-27e8-4f03-9d5b-8d347305a4d2">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Counterparty</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d0a57d21-9343-4273-9182-d3afbeedc2dc">
+    <name>ВидЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид значения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Value type</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Scan_ДополнительнаяИнформацияПоКонтрагентам</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="362163c5-608e-46af-b71a-2895deb2e914">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d7fd2041-b789-43ac-bdf1-2002e4d88d7d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

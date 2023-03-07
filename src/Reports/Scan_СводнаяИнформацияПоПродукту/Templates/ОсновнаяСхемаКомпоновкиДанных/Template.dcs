@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>PDD</dataPath>
+			<field>PDD</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаказНаЗавод</dataPath>
+			<field>ЗаказНаЗавод</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Продукт</dataPath>
+			<field>Продукт</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Длина</dataPath>
+			<field>Длина</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>WED</dataPath>
+			<field>WED</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>DDD</dataPath>
+			<field>DDD</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>БроньДилера</dataPath>
+			<field>БроньДилера</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерБортовогоУстройстваПлатон</dataPath>
+			<field>НомерБортовогоУстройстваПлатон</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>CRD</dataPath>
+			<field>CRD</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>SDDate</dataPath>
+			<field>SDDate</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаПоступленияИнвойса1С</dataPath>
+			<field>ДатаПоступленияИнвойса1С</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>CDD2</dataPath>
+			<field>CDD2</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипПродукта</dataPath>
+			<field>ТипПродукта</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>DCD</dataPath>
+			<field>DCD</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>PODOD</dataPath>
+			<field>PODOD</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>EDD</dataPath>
+			<field>EDD</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаПокупкиБУИзделия</dataPath>
+			<field>ДатаПокупкиБУИзделия</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>FinishDate</dataPath>
+			<field>FinishDate</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Finish Date</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>CDD</dataPath>
+			<field>CDD</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПаромнаяЛиния</dataPath>
+			<field>ПаромнаяЛиния</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>RFT</dataPath>
+			<field>RFT</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>CDDПоставщик</dataPath>
+			<field>CDDПоставщик</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПортСПБ</dataPath>
+			<field>ПортСПБ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ADD</dataPath>
+			<field>ADD</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ETA</dataPath>
+			<field>ETA</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ГосударственныйНомер</dataPath>
+			<field>ГосударственныйНомер</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Гос. Номер</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ADDLBB</dataPath>
+			<field>ADDLBB</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>AN</dataPath>
+			<field>AN</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ширина</dataPath>
+			<field>Ширина</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>PAD</dataPath>
+			<field>PAD</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>AAD</dataPath>
+			<field>AAD</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>PTSD</dataPath>
+			<field>PTSD</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаПродажиИзделия</dataPath>
+			<field>ДатаПродажиИзделия</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаПередачиИзделияДилеру</dataPath>
+			<field>ДатаПередачиИзделияДилеру</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КомплектностьПоставки</dataPath>
+			<field>КомплектностьПоставки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>SoW</dataPath>
+			<field>SoW</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаПродажиКлиенту</dataPath>
+			<field>ДатаПродажиКлиенту</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПродуктВАрхиве</dataPath>
+			<field>ПродуктВАрхиве</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>DD</dataPath>
+			<field>DD</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>DD2</dataPath>
+			<field>DD2</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>SOrderНомер</dataPath>
+			<field>SOrderНомер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>DDS</dataPath>
+			<field>DDS</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаИнвойса</dataPath>
+			<field>ДатаИнвойса</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>RDB</dataPath>
+			<field>RDB</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаПродажиБУДилеру</dataPath>
+			<field>ДатаПродажиБУДилеру</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаПродажиБУКлиенту</dataPath>
+			<field>ДатаПродажиБУКлиенту</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаОтгрузкиСЗаводаПриEXW</dataPath>
+			<field>ДатаОтгрузкиСЗаводаПриEXW</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КодАдресаДоставки</dataPath>
+			<field>КодАдресаДоставки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>MarketChange</dataPath>
+			<field>MarketChange</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Market Change</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:boolean</v8:Type>
+			</valueType>
+			<availableValue>
+				<value xsi:type="xs:boolean">false</value>
+				<presentation xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>нет</v8:content>
+					</v8:item>
+				</presentation>
+			</availableValue>
+			<availableValue>
+				<value xsi:type="xs:boolean">true</value>
+				<presentation xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>да</v8:content>
+					</v8:item>
+				</presentation>
+			</availableValue>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Клиент</dataPath>
+			<field>Клиент</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>PartPeriod</dataPath>
+			<field>PartPeriod</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Part Period</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType"/>
+				</dcscor:item>
+			</appearance>
+			<inputParameters>
+				<dcscor:item>
+					<dcscor:parameter>Маска</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">99 99 9</dcscor:value>
+				</dcscor:item>
+				<dcscor:item>
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ФорматРедактирования</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType"/>
+				</dcscor:item>
+			</inputParameters>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>FFUНомер</dataPath>
+			<field>FFUНомер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Вес</dataPath>
+			<field>Вес</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ГосударственныйНомерДатаПолучения</dataPath>
+			<field>ГосударственныйНомерДатаПолучения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Высота</dataPath>
+			<field>Высота</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>CDDX</dataPath>
+			<field>CDDX</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>CDD-X</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаОбновленияЗаписи</dataPath>
+			<field>ДатаОбновленияЗаписи</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата обновления записи</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛокальныйСтатусПродукта</dataPath>
+			<field>ЛокальныйСтатусПродукта</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ГодВыпускаПродукта</dataPath>
+			<field>ГодВыпускаПродукта</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДФ=yyyy</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаВводаДанныхОПробеге</dataPath>
+			<field>ДатаВводаДанныхОПробеге</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Пробег</dataPath>
+			<field>Пробег</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаСписания</dataPath>
+			<field>ДатаСписания</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ETAсклад</dataPath>
+			<field>ETAсклад</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаПродажиПродуктаКлиенту</dataPath>
+			<field>ДатаПродажиПродуктаКлиенту</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Квота</dataPath>
+			<field>Квота</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Квота</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВнутреннийРезервДилера</dataPath>
+			<field>ВнутреннийРезервДилера</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	Scan_СводнаяИнформацияПоПродукту.Продукт КАК Продукт,
+	Scan_СводнаяИнформацияПоПродукту.ЗаказНаЗавод КАК ЗаказНаЗавод,
+	Scan_СводнаяИнформацияПоПродукту.ЛокальныйСтатусПродукта КАК ЛокальныйСтатусПродукта,
+	Scan_СводнаяИнформацияПоПродукту.ТипПродукта КАК ТипПродукта,
+	Scan_СводнаяИнформацияПоПродукту.DCD КАК DCD,
+	Scan_СводнаяИнформацияПоПродукту.DDD КАК DDD,
+	Scan_СводнаяИнформацияПоПродукту.PODOD КАК PODOD,
+	Scan_СводнаяИнформацияПоПродукту.SDDate КАК SDDate,
+	Scan_СводнаяИнформацияПоПродукту.PDD КАК PDD,
+	Scan_СводнаяИнформацияПоПродукту.EDD КАК EDD,
+	Scan_СводнаяИнформацияПоПродукту.CRD КАК CRD,
+	Scan_СводнаяИнформацияПоПродукту.FinishDate КАК FinishDate,
+	Scan_СводнаяИнформацияПоПродукту.CDD КАК CDD,
+	Scan_СводнаяИнформацияПоПродукту.CDD2 КАК CDD2,
+	Scan_СводнаяИнформацияПоПродукту.CDDПоставщик КАК CDDПоставщик,
+	Scan_СводнаяИнформацияПоПродукту.ПортСПБ КАК ПортСПБ,
+	Scan_СводнаяИнформацияПоПродукту.ADD КАК ADD,
+	Scan_СводнаяИнформацияПоПродукту.ETA КАК ETA,
+	Scan_СводнаяИнформацияПоПродукту.ETAсклад КАК ETAсклад,
+	Scan_СводнаяИнформацияПоПродукту.ADDLBB КАК ADDLBB,
+	Scan_СводнаяИнформацияПоПродукту.AN КАК AN,
+	Scan_СводнаяИнформацияПоПродукту.PAD КАК PAD,
+	Scan_СводнаяИнформацияПоПродукту.AAD КАК AAD,
+	Scan_СводнаяИнформацияПоПродукту.PTSD КАК PTSD,
+	Scan_СводнаяИнформацияПоПродукту.RFT КАК RFT,
+	Scan_СводнаяИнформацияПоПродукту.ДатаПродажиИзделия КАК ДатаПродажиИзделия,
+	Scan_СводнаяИнформацияПоПродукту.ДатаПередачиИзделияДилеру КАК ДатаПередачиИзделияДилеру,
+	Scan_СводнаяИнформацияПоПродукту.ДатаПродажиКлиенту КАК ДатаПродажиКлиенту,
+	Scan_СводнаяИнформацияПоПродукту.SoW КАК SoW,
+	Scan_СводнаяИнформацияПоПродукту.WED КАК WED,
+	Scan_СводнаяИнформацияПоПродукту.ПродуктВАрхиве КАК ПродуктВАрхиве,
+	Scan_СводнаяИнформацияПоПродукту.DD КАК DD,
+	Scan_СводнаяИнформацияПоПродукту.DD2 КАК DD2,
+	Scan_СводнаяИнформацияПоПродукту.DDS КАК DDS,
+	Scan_СводнаяИнформацияПоПродукту.ДатаИнвойса КАК ДатаИнвойса,
+	Scan_СводнаяИнформацияПоПродукту.ДатаПокупкиБУИзделия КАК ДатаПокупкиБУИзделия,
+	Scan_СводнаяИнформацияПоПродукту.ДатаПродажиБУДилеру КАК ДатаПродажиБУДилеру,
+	Scan_СводнаяИнформацияПоПродукту.ДатаПродажиБУКлиенту КАК ДатаПродажиБУКлиенту,
+	Scan_СводнаяИнформацияПоПродукту.ДатаОтгрузкиСЗаводаПриEXW КАК ДатаОтгрузкиСЗаводаПриEXW,
+	Scan_СводнаяИнформацияПоПродукту.БроньДилера КАК БроньДилера,
+	Scan_СводнаяИнформацияПоПродукту.RDB КАК RDB,
+	Scan_СводнаяИнформацияПоПродукту.ДатаПоступленияИнвойса1С КАК ДатаПоступленияИнвойса1С,
+	Scan_СводнаяИнформацияПоПродукту.КодАдресаДоставки КАК КодАдресаДоставки,
+	Scan_СводнаяИнформацияПоПродукту.MarketChange КАК MarketChange,
+	Scan_СводнаяИнформацияПоПродукту.Клиент КАК Клиент,
+	Scan_СводнаяИнформацияПоПродукту.PartPeriod КАК PartPeriod,
+	Scan_СводнаяИнформацияПоПродукту.КомплектностьПоставки КАК КомплектностьПоставки,
+	Scan_СводнаяИнформацияПоПродукту.SOrderНомер КАК SOrderНомер,
+	Scan_СводнаяИнформацияПоПродукту.FFUНомер КАК FFUНомер,
+	Scan_СводнаяИнформацияПоПродукту.Вес КАК Вес,
+	Scan_СводнаяИнформацияПоПродукту.Длина КАК Длина,
+	Scan_СводнаяИнформацияПоПродукту.Высота КАК Высота,
+	Scan_СводнаяИнформацияПоПродукту.Ширина КАК Ширина,
+	Scan_СводнаяИнформацияПоПродукту.ГосударственныйНомер КАК ГосударственныйНомер,
+	Scan_СводнаяИнформацияПоПродукту.ГосударственныйНомерДатаПолучения КАК ГосударственныйНомерДатаПолучения,
+	Scan_СводнаяИнформацияПоПродукту.НомерБортовогоУстройстваПлатон КАК НомерБортовогоУстройстваПлатон,
+	Scan_СводнаяИнформацияПоПродукту.ПаромнаяЛиния КАК ПаромнаяЛиния,
+	Scan_СводнаяИнформацияПоПродукту.CDDX КАК CDDX,
+	Scan_СводнаяИнформацияПоПродукту.ДатаОбновленияЗаписи КАК ДатаОбновленияЗаписи,
+	Scan_СводнаяИнформацияПоПродукту.ГодВыпускаПродукта КАК ГодВыпускаПродукта,
+	Scan_СводнаяИнформацияПоПродукту.ДатаВводаДанныхОПробеге КАК ДатаВводаДанныхОПробеге,
+	Scan_СводнаяИнформацияПоПродукту.Пробег КАК Пробег,
+	Scan_СводнаяИнформацияПоПродукту.ДатаСписания КАК ДатаСписания,
+	Scan_СводнаяИнформацияПоПродукту.ДатаПродажиПродуктаКлиенту КАК ДатаПродажиПродуктаКлиенту,
+	Scan_СводнаяИнформацияПоПродукту.ВнутреннийРезервДилера КАК ВнутреннийРезервДилера,
+	Scan_СводнаяИнформацияПоПродукту.Квота КАК Квота
+ИЗ
+	РегистрСведений.Scan_СводнаяИнформацияПоПродукту КАК Scan_СводнаяИнформацияПоПродукту</query>
+	</dataSet>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сводная информация по продукту</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Product Summary</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Продукт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗаказНаЗавод</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЛокальныйСтатусПродукта</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипПродукта</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>DCD</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>DDD</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>PODOD</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>SDDate</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>PDD</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>EDD</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>CRD</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>FinishDate</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>CDD</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>CDD2</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>CDDПоставщик</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>CDDX</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПортСПБ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ADD</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ETA</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ETAсклад</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ADDLBB</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>AN</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>PAD</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>AAD</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>PTSD</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>RFT</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаПродажиИзделия</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаПередачиИзделияДилеру</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаПродажиКлиенту</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаПродажиПродуктаКлиенту</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>SoW</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>WED</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПродуктВАрхиве</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>DD</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Квота</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>DD2</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>DDS</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаИнвойса</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаПокупкиБУИзделия</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаПродажиБУДилеру</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаПродажиБУКлиенту</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаОтгрузкиСЗаводаПриEXW</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>БроньДилера</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>RDB</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаПоступленияИнвойса1С</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КодАдресаДоставки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>MarketChange</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Клиент</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВнутреннийРезервДилера</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>PartPeriod</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КомплектностьПоставки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>SOrderНомер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>FFUНомер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Вес</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Длина</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Высота</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ширина</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ГосударственныйНомер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ГосударственныйНомерДатаПолучения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НомерБортовогоУстройстваПлатон</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПаромнаяЛиния</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ГодВыпускаПродукта</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаВводаДанныхОПробеге</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Пробег</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаОбновленияЗаписи</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаСписания</dcsset:field>
+				</dcsset:item>
+				<dcsset:viewMode>Normal</dcsset:viewMode>
+				<dcsset:userSettingID>947f0319-a2e6-4a4c-a39b-33ac44a2c4d8</dcsset:userSettingID>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Продукт</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>3cc27f4b-ca23-4429-9078-a11413f2d272</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ЗаказНаЗавод</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>93a8244e-2b8c-49da-895d-bf8e77371d60</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Античный</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">Output</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">Output</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>АвтоПозицияРесурсов</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionResourcesAutoPosition">DontUse</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

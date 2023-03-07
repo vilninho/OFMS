@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6c83f72-314f-43f1-bdee-46c6275477f7">
+  <producedTypes>
+    <objectType typeId="17c16486-0ad2-4fea-9439-dbb91086e266" valueTypeId="399db443-77a6-44ab-bf49-39506b8e9898"/>
+    <managerType typeId="635ea78b-9032-4b39-a92e-46d938842fb1" valueTypeId="4536fb4d-6b8e-4fed-a91f-61477edb5ce1"/>
+  </producedTypes>
+  <name>Scan_ИсторияЗаявокНаИзделия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продукты. История заявок на действие</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Продукты. История заявок на действие</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.Scan_ИсторияЗаявокНаИзделия.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.Scan_ИсторияЗаявокНаИзделия.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>Report.Scan_ИсторияЗаявокНаИзделия.Form.ФормаНастроек</defaultSettingsForm>
+  <forms uuid="0194f8e5-fe38-48d5-b019-dab872cdef4b">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1f2f0d42-9da0-4f5e-afda-c93d5ec1c434">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="09e191b3-3e9c-4fad-b846-e773bd58cb13">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

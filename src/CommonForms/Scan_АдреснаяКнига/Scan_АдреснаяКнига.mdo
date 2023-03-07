@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ccb6a48-b025-4cfb-b97d-36c35784ffa8">
+  <name>Scan_АдреснаяКнига</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адресная книга (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Адресная книга (scania)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

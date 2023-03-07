@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1b6acf1-fad0-4f77-92bc-1070cdf925b7">
+  <name>Scan_РабочееМестоДепартаментаПродажАвтобусов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочее место департамента продаж автобусов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Scan_РабочееМестоДепартаментаПродажАвтобусов</picture>
+  </picture>
+  <content>DataProcessor.Scan_РММенеджераДепартаментаПродажАвтобусов</content>
+  <content>Role.Scan_ДобавлениеИзменениеРМДепартаментаПродажАвтобусов</content>
+  <content>Role.Scan_ПросмотрПодсистемыРабочееМестоДепартаментаПродажАвтобусов</content>
+  <content>Document.Scan_ЗакреплениеМенеджеровДепартаментаПродажАвтобусовЗаДилерами</content>
+  <content>InformationRegister.Scan_ЗакреплениеМенеджеровДепартаментаПродажАвтобусовЗаДилерами</content>
+  <content>Role.Scan_ДобавлениеИзменениеЗакрепленияМенеджеровПродажАвтобусовЗаДилерами</content>
+  <content>Role.Scan_ЧтениеПросмотрЗакрепленияМенеджеровЗаДилерами</content>
+  <content>Document.Scan_ПрайсЛистАренда</content>
+</mdclass:Subsystem>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4344dcf-05a8-4266-a3a0-63d23dfd68a3">
+  <producedTypes>
+    <selectionType typeId="6000c64b-8fcb-4f51-9fd0-34b083a73c37" valueTypeId="2b2b9c12-c6db-4ac1-beb9-8838bf71b3c5"/>
+    <listType typeId="e7775218-dfc7-4203-a4b1-3602cc0805bb" valueTypeId="ed2be9ca-acd1-445e-8944-a971a7c30b25"/>
+    <managerType typeId="cebedc2c-6dfe-4140-88e0-20ef10e62e54" valueTypeId="10905347-807a-4d39-b581-cdedb8bb142d"/>
+    <recordSetType typeId="3db67ff4-8710-4c96-9341-e1c9517b8785" valueTypeId="d45dc982-b3be-44d2-a8a0-a6bec466eacd"/>
+    <recordKeyType typeId="0bd22c8f-3274-4195-b719-56bd60651f6e" valueTypeId="ab57ad30-4ab3-44cb-b03a-ae1f13efa0b1"/>
+    <recordType typeId="56401dc4-1d5a-46b2-ac5c-cbd1826f40e3" valueTypeId="9f7f84e9-43a6-4e0d-92e6-136af4a5d024"/>
+    <recordManagerType typeId="f8b603b4-79da-4800-a896-30a676ef3727" valueTypeId="523852ca-c67c-4509-acc1-b8f9848bbd01"/>
+  </producedTypes>
+  <name>Scan_OrderIntake</name>
+  <synonym>
+    <key>ru</key>
+    <value>Order Intake (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Order Intake (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_OrderIntake.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_OrderIntake.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceFirst>true</enableTotalsSliceFirst>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="8e697225-6cfd-4e45-bc34-bc9d35a06525">
+    <name>ИспользоватьВОтчетах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать в отчетах</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="f0d7a194-2da3-43e9-b116-db2f2ca1b819">
+    <name>ИдентификаторЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор записи</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="57bb80ff-2403-4dd1-947a-c761e7c3cf73">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="000f6b9f-afb9-4393-9d08-7df8ecafcb56">
+    <name>ДатаКорректировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата корректировки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="00f24ef5-4f73-46c8-866e-e93b810b5aae">
+    <name>ЗаказНаЗавод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ на завод</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Order to factory</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ЗаказыНаЗавод</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="baec1f54-d211-47a7-b248-c16dc60af119">
+    <name>ВидДаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид даты</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Type of date</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Scan_ДатыДляФормированияОтчетаOI</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="385e7a3a-874f-4f72-b489-f0df4ced0e12">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e7b13dc7-bd4e-441e-9a24-c4d69445dbd9">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

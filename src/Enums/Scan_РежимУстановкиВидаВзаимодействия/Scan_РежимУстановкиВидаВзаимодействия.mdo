@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0eb3b207-064b-48d2-b931-5498c5d5c88c">
+  <producedTypes>
+    <refType typeId="5652fd27-473c-4b92-b3c5-00d23a70cce3" valueTypeId="3cdf7107-021f-49c9-af1a-a5a3a8afc102"/>
+    <listType typeId="dcf7843d-6dbc-4e38-91fb-362df246728b" valueTypeId="b6fca143-8f50-4248-92b8-207fc9835bdc"/>
+    <managerType typeId="31e0d913-e5aa-469e-ae39-c58059a849fb" valueTypeId="47e800b4-219e-43ab-803a-88df72bc9dc1"/>
+  </producedTypes>
+  <name>Scan_РежимУстановкиВидаВзаимодействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим установки вида взаимодействия (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Interaction mode setting (scania)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d55e63f8-fdfb-47cc-8d33-0a5ad8012a12">
+    <name>Вручную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вручную</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Manually</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4082bc43-c9fe-4eb4-9009-fcf643361073">
+    <name>Автоматически</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматически</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Automatically</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

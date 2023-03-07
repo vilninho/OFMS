@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="283a4821-dbdd-44de-abaf-08442955c9b9">
+  <name>Scan_ДобавлениеИзменениеПрайсЛистаНаДвигатели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение прайс-листа SCV на двигатели (scania)</value>
+  </synonym>
+</mdclass:Role>

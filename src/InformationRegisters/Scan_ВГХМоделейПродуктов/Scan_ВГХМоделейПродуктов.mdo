@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c1a6176-2db2-4608-9bb7-bb64a1667547">
+  <producedTypes>
+    <selectionType typeId="585f20fc-20bb-4d0d-bff3-f0d291ecf358" valueTypeId="c7ebb91d-cd7e-4ad4-a930-39664decaec3"/>
+    <listType typeId="b74b2498-6f27-42eb-bc09-de75d1121a0c" valueTypeId="f39f3a38-18ac-4939-82e3-20bf878cae8d"/>
+    <managerType typeId="bf481047-082c-43a9-bc53-00eff7c9d973" valueTypeId="4beedd4d-f440-4530-a42c-5a0bb511566c"/>
+    <recordSetType typeId="af57c955-1c4f-4d32-ae69-ff7ae9b65fbf" valueTypeId="b0ca530e-cfa0-46c0-817b-90be75dd91d6"/>
+    <recordKeyType typeId="5c246af6-a717-499a-877e-286eaf4e25cc" valueTypeId="16fbdeef-4f37-4243-a576-87790dde0b78"/>
+    <recordType typeId="bfb09637-6018-4cd8-8b46-8a767c560162" valueTypeId="c4c2af3d-12b6-4712-9147-a914d90f8634"/>
+    <recordManagerType typeId="7c30179c-681d-4013-b052-217325b97033" valueTypeId="5be22402-1f96-4059-9f03-583e797b44cb"/>
+  </producedTypes>
+  <name>Scan_ВГХМоделейПродуктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВГХ моделей продуктов (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>LHW product models (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_ВГХМоделейПродуктов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_ВГХМоделейПродуктов.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="687599ab-e95e-4d2a-912d-687b665449dc">
+    <name>ДлинаПродукта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длина</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Length</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f1fc6716-e9b9-4dfc-bd13-e574520d7704">
+    <name>ВысотаПродукта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высота</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Height</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="70f1bce2-59a4-4062-a694-9f12ed2a5945">
+    <name>ШиринаПродукта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ширина</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Width</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1f5e47b6-76bb-4d84-93c4-e05ec41012b0">
+    <name>ВесПродукта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вес</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Weight</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="121d677b-8a71-4352-8838-2beaac53cd9c">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="de00e77f-81c9-4e6b-9471-348598bba2dd">
+    <name>МодельПродукта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель продукта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Product model</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_МоделиПродуктов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="076b4b78-0ebd-4c47-9bff-b6926473a382">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Recording form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6166cdfc-dd9d-47a4-8822-e4a581ccf2b9">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

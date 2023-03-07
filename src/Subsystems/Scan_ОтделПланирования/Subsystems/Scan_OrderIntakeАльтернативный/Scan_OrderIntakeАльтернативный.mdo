@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43ee120a-d481-4876-a979-e4e4509d5379">
+  <name>Scan_OrderIntakeАльтернативный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Order Intake (альтернативный)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.Scan_НастройкиРасчетаOrderIntake</content>
+  <content>InformationRegister.Scan_РасчетOrderIntake</content>
+  <content>InformationRegister.Scan_OrderIntakeАльтернативный</content>
+  <content>Report.Scan_OrderIntakeАльтернативный</content>
+  <content>Report.Scan_OrderIntakeAndOrderBookАльтернативный</content>
+  <content>Report.Scan_OrderBookStatisticsАльтернативный</content>
+  <content>ScheduledJob.Scan_АльтернативныйРасчетДатOrderIntake</content>
+  <content>CommonModule.Scan_OrderIntake</content>
+  <content>Enum.Scan_ВидыСобытийOrderIntake</content>
+  <parentSubsystem>Subsystem.Scan_ОтделПланирования</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9937f8ad-9be1-474f-8c90-f9cdfd11aced">
+  <producedTypes>
+    <objectType typeId="01a48e27-07a6-4154-ac30-975637756e78" valueTypeId="efabf226-a9bf-4da9-8140-7fe800438c37"/>
+    <refType typeId="567eb86a-2674-4fb6-a58f-8b011520c1ef" valueTypeId="bffa4b79-3f7f-49bd-969c-e4b332d0bfed"/>
+    <selectionType typeId="1c012203-56a1-46ea-8c1c-e6734c06ddb4" valueTypeId="8dee8552-c19d-4e6f-8676-c2e3278950d9"/>
+    <listType typeId="24e9a668-6da6-40f3-9b9f-5ccfeccfd6ff" valueTypeId="a9b22f0d-d8d6-42c9-bd8e-d72e18c17f45"/>
+    <managerType typeId="a3755f89-7ccf-4b44-aafa-f62fb0adfd53" valueTypeId="fe3ce7d6-1d6d-4194-9922-b962039482aa"/>
+  </producedTypes>
+  <name>Scan_ПричиныОтклоненийПоDD</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины отклонений по DD (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>DD deviation (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_ПричиныОтклоненийПоDD.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_ПричиныОтклоненийПоDD.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Причина отклонения по DD</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_ПричиныОтклоненийПоDD.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_ПричиныОтклоненийПоDD.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Scan_ПричиныОтклоненийПоDD.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="efabdbd9-d2a6-4faa-8421-b07e8fae6f55">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e0a58957-5afd-4dd7-91d2-bfe649fb86be">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1d802c32-7f27-44c6-983d-2668379dda42">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

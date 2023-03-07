@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91d2d798-1498-4c52-aa7b-99db4b992876">
+  <producedTypes>
+    <containerType typeId="e7accf99-1514-4798-903b-880155ad161c" valueTypeId="80526102-d297-4100-9c16-ddc788bc55b9"/>
+  </producedTypes>
+  <name>ВерсионируемыеДанныеОбъект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версионируемые данные объект</value>
+  </synonym>
+  <type>
+    <types>CatalogObject.Scan_МаркиПродуктов</types>
+    <types>CatalogObject.Scan_ДоговорыВзаиморасчетов</types>
+    <types>CatalogObject.Scan_Компании</types>
+    <types>CatalogObject.Scan_ГруппыПродуктов</types>
+    <types>CatalogObject.УчетныеЗаписиЭлектроннойПочты</types>
+    <types>CatalogObject.Scan_Сотрудники</types>
+    <types>CatalogObject.Scan_МоделиПродуктов</types>
+    <types>CatalogObject.Scan_Подразделения</types>
+    <types>CatalogObject.Scan_ЗаказыНаЗавод</types>
+    <types>CatalogObject.Scan_ТипыПродуктов</types>
+    <types>CatalogObject.Scan_Изделия</types>
+    <types>CatalogObject.Scan_АдресаХранения</types>
+    <types>CatalogObject.Организации</types>
+    <types>CatalogObject.Scan_КонтактныеЛица</types>
+    <types>CatalogObject.Scan_ХозяйственныеОперации</types>
+    <types>CatalogObject.Scan_Должности</types>
+    <types>CatalogObject.Scan_ВидыПродуктов</types>
+    <types>CatalogObject.Scan_ТипыПродуктовЛогистика</types>
+    <types>CatalogObject.ИдентификаторыОбъектовМетаданных</types>
+    <types>CatalogObject.Scan_СпецификацииПродуктов</types>
+    <types>CatalogObject.Scan_Контрагенты</types>
+    <types>ChartOfCharacteristicTypesObject.Scan_ПраваИНастройки</types>
+    <types>CatalogObject.Scan_МестаХранения</types>
+    <types>CatalogObject.Пользователи</types>
+  </type>
+</mdclass:DefinedType>

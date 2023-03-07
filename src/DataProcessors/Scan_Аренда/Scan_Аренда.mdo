@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4a271b0-b7ed-45e0-ba31-ac44ce654607">
+  <producedTypes>
+    <objectType typeId="d0f8053a-6060-4653-9289-e6372d17dc0a" valueTypeId="8cd8b96a-5112-4fa2-926e-2a2cd37ade52"/>
+    <managerType typeId="1020c9be-f786-4b8b-9747-de179577ddd4" valueTypeId="ee86f1b9-d38d-4fca-9703-0b54ec8a6a54"/>
+  </producedTypes>
+  <name>Scan_Аренда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аренда (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Rent (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Scan_Аренда.Form.Форма</defaultForm>
+  <forms uuid="825dcc8c-6448-4d84-ac6d-16a9c4486ada">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

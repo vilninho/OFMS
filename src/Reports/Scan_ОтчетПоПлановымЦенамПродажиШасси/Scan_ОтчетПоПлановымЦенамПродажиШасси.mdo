@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68572c7e-eb85-4472-8451-b21369c7c10d">
+  <producedTypes>
+    <objectType typeId="36bd58bf-a62b-4808-96c8-be2f89b88254" valueTypeId="90ebe569-458a-4eca-b37b-23aa45f98800"/>
+    <managerType typeId="09889006-7369-4444-8086-fb9e330a5c55" valueTypeId="4cca3b98-52ba-4fcb-b865-7a8e1923c8ce"/>
+  </producedTypes>
+  <name>Scan_ОтчетПоПлановымЦенамПродажиШасси</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по плановым ценам продажи шасси (Scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Chassis price</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.Scan_ОтчетПоПлановымЦенамПродажиШасси.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.Scan_ОтчетПоПлановымЦенамПродажиШасси.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="6dc08eb5-53d7-48ee-988e-5a581e193bb0">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="4ba3fadb-121d-457a-8447-d07fd1b83294">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

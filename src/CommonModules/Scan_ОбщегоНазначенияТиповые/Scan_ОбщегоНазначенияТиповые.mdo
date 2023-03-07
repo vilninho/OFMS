@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="529aa755-bbbc-4b48-b889-5b39b0b9fc9e">
+  <name>Scan_ОбщегоНазначенияТиповые</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общего назначения типовые</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Общего назначения типовые</value>
+  </synonym>
+  <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

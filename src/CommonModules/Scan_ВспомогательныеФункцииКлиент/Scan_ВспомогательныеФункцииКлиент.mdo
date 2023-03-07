@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfb5b72e-33a6-4ef7-8aca-3084b411eba5">
+  <name>Scan_ВспомогательныеФункцииКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вспомогательные функции (клиент) (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Вспомогательные функции (клиент) (scania)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

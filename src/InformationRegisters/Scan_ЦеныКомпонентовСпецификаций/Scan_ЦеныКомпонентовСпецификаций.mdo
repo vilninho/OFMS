@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2403bc87-eb0e-48e8-bc74-f6c4dee919d3">
+  <producedTypes>
+    <selectionType typeId="140d6e75-1467-4241-9c5b-75c06d5efc57" valueTypeId="e913e455-ef76-4ee2-9878-c5405e330957"/>
+    <listType typeId="1a6370ba-e7ff-471d-b45c-e58e5707d987" valueTypeId="423f1ffe-d3e2-4e99-bd3e-932e04a0db18"/>
+    <managerType typeId="258d1257-f6bf-42ee-a7be-0a1480bb1830" valueTypeId="40cc4561-0869-492b-ab89-938cdfa0e831"/>
+    <recordSetType typeId="fb6198c7-a15a-40ea-a7b7-5b93ff67c301" valueTypeId="f057a656-1c0b-4793-80a9-a31074ed6887"/>
+    <recordKeyType typeId="e80ae905-402c-4b53-8525-36ddac2f013c" valueTypeId="6e6faa62-8a06-4be8-b25a-660fe20d2a10"/>
+    <recordType typeId="86bec56d-f4b9-44c6-bf80-ec6c8bb8d7aa" valueTypeId="8b7824e7-4cd8-4031-9830-b03b87e1d3f2"/>
+    <recordManagerType typeId="84221b04-8a94-48ac-9f15-9c5252ae2f9a" valueTypeId="d82916d8-4c1f-4024-977e-c8294e50b6f0"/>
+  </producedTypes>
+  <name>Scan_ЦеныКомпонентовСпецификаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены компонентов спецификаций (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Prices of components (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.Scan_ЦеныКомпонентовСпецификаций.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <synonym>
+      <key>en</key>
+      <value>Recorder</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <synonym>
+      <key>en</key>
+      <value>Period</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="67b6fc41-4a4d-44dc-8f98-a0616842c507">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Price</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f66b7f14-3969-4094-9a6a-cff258ef90fb">
+    <name>ЦенаРегл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена (регл.)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Price regulated</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="89692043-7925-478f-b1ce-b49b9d0e123b">
+    <name>ТипЗначенияЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип значения цены</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Price value type</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Scan_ТипыЗначенийЦены</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="31717f12-8f39-45b9-9956-f24f8ae3d105">
+    <name>Файл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>File</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование файла из которого выполнялась загрузка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="0c41f23a-98ec-4925-aeb8-8daf48cc775f">
+    <name>ДействуетДоДаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует до даты</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>To date</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="558ebc7c-0654-4aff-a825-1890902abf68">
+    <name>ДействуетДоPartPeriod</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует до PP</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>To PP</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>7</length>
+      </stringQualifiers>
+    </type>
+    <mask>99 99 9</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="41add078-4350-4f45-ba87-de2979e55b3b">
+    <name>ИдентификаторПрайсЛиста</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID (ETBO)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Price list ID (ETBO)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fffabfe7-998b-4ed2-815e-9effd044e1f6">
+    <name>ДействуетСPartPeriod</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует с PP</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>From PP</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>7</length>
+      </stringQualifiers>
+    </type>
+    <mask>99 99 9</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7694d7b0-9cbd-4e42-ab93-48ef7cbb8d72">
+    <name>ТипЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип цен</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Price type</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ТипыЦен</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="53e67df6-ca18-45a2-bade-00bdb3d35a2d">
+    <name>Опции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опции</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Options</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ЦеновыеПакеты</types>
+      <types>CatalogRef.Scan_ОпцииПродуктов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="2fc23bb9-33a8-464f-95b5-b350aca84603">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

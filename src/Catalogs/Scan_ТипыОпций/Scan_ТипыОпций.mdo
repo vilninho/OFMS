@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea6fb6a3-715e-465c-82a1-6121397bf8ba">
+  <producedTypes>
+    <objectType typeId="b0fdfb48-7187-4e2f-b42f-9aaf5c02987f" valueTypeId="5c7dfeee-8497-47d1-a732-01ec3aa0fbdc"/>
+    <refType typeId="bc2b971c-67be-42f5-a354-099458a416a3" valueTypeId="d664cd8c-8f2c-44f1-ae46-fca99f276f13"/>
+    <selectionType typeId="b7a49832-09aa-44a2-abe7-578ea7a0e6f5" valueTypeId="0f7b348e-7e5f-462c-a004-05f40da9847e"/>
+    <listType typeId="00c6c439-6df1-4d45-b9bb-f19259d1d6d2" valueTypeId="0a291f1e-cc09-4197-b61e-974e521540d4"/>
+    <managerType typeId="9aedad07-b5ec-46ba-adaf-f3647d2ecc57" valueTypeId="e7ebb43a-f6ba-42a9-a9b9-0048b70c1c76"/>
+  </producedTypes>
+  <name>Scan_ТипыОпций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы опций (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Types of options (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_ТипыОпций.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_ТипыОпций.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>7</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="05531230-5201-4ee6-8a6a-4406cc10823d">
+      <name>FFUОпции</name>
+      <description>FFU</description>
+      <code xsi:type="core:StringValue">
+        <value>0000003</value>
+      </code>
+    </items>
+    <items id="6a71e246-ce4e-4036-9a22-006beb6854af">
+      <name>SOrderОпции</name>
+      <description>S-order</description>
+      <code xsi:type="core:StringValue">
+        <value>0000002</value>
+      </code>
+    </items>
+    <items id="ba9ae8da-d56d-425f-b33a-733ae1ec8b24">
+      <name>БазовыеОпции</name>
+      <description>Базовые</description>
+      <code xsi:type="core:StringValue">
+        <value>0000001</value>
+      </code>
+    </items>
+    <items id="1553ced2-e24a-47d1-9de2-90085bd76bd1">
+      <name>ЛокальныеОпции</name>
+      <description>Локальные</description>
+      <code xsi:type="core:StringValue">
+        <value>0000006</value>
+      </code>
+    </items>
+    <items id="86580c5b-8f7f-4b4f-a962-3b2178778241">
+      <name>ОпцииНадстроек</name>
+      <description>Опции надстройки</description>
+      <code xsi:type="core:StringValue">
+        <value>0000005</value>
+      </code>
+    </items>
+    <items id="74acd11e-d159-4f96-ad48-ac81fb375b8e">
+      <name>ОпцииОборудования</name>
+      <description>Опции оборудования</description>
+      <code xsi:type="core:StringValue">
+        <value>0000004</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_ТипыОпций.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_ТипыОпций.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="b8fbce74-b319-42c1-81db-76aafd37edc0">
+    <name>IDExternalSystem</name>
+    <synonym>
+      <key>ru</key>
+      <value>IDExternalSystem</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ffdd6e07-b75f-4ce6-8d67-0284cffa09a7">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of renewal</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="46a0e9a9-c9a3-459f-a8e9-1b1a2b6c56aa">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="99a8c9dc-c90b-4d33-aae0-29b1896aaa06">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

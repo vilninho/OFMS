@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7f4effa-6100-4d59-a3b2-f310332f7b5f">
+  <producedTypes>
+    <objectType typeId="d03389c1-d19e-40c4-bfac-9ddd8f6b902f" valueTypeId="9ac81a8f-9edd-4f68-aba6-b733dd685be3"/>
+    <refType typeId="0b5fd54a-9bb0-48a5-a73a-109f38e777a5" valueTypeId="028aa312-6308-4eb2-bc55-0cbe11fd9047"/>
+    <selectionType typeId="471004de-70ca-4be6-b720-8fe566e1e9b8" valueTypeId="89292b63-ad77-4c36-8f07-5f867101a998"/>
+    <listType typeId="569e316e-6af6-4724-8e38-eafe1ee784ea" valueTypeId="782e66f6-8139-4121-8756-45dbff732ae5"/>
+    <managerType typeId="6fdc12c9-0cb7-4c0c-a7d3-49b8dbdf7ff4" valueTypeId="ecdb7313-1d00-47db-ab5e-109d53f36f5e"/>
+  </producedTypes>
+  <name>Scan_ЦветаКабиныПТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвета кабины ПТС (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>PTS cabin colors</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_ЦветаКабиныПТС.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_ЦветаКабиныПТС.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_ЦветаКабиныПТС.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_ЦветаКабиныПТС.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="9c03a6e6-fb54-4124-9ace-763b20f7f2ae">
+    <name>IDExternalSystem</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID External System</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ea075060-f2f1-41a7-92c6-decc805aa857">
+    <name>ЦветФона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет фона</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9a484406-fcd2-4b2f-b188-6972e15f7971">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c67b55e8-ed4c-439d-a265-ed084a2b51f8">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

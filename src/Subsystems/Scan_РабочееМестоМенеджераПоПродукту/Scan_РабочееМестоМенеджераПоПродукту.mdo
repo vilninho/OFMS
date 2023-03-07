@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28d47ca6-3665-4827-bde7-6821bfd1c26d">
+  <name>Scan_РабочееМестоМенеджераПоПродукту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочее место менеджера по продукту</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Product manager workplace</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Scan_РабочееМестоМенеджераПоПродукту</picture>
+  </picture>
+  <content>InformationRegister.Scan_КвотыSOrderFFUПлан</content>
+  <content>InformationRegister.Scan_КвотыSOrderFFUФакт</content>
+  <content>InformationRegister.Scan_ЦеныКомпонентовСпецификаций</content>
+  <content>Document.Scan_УстановкаЦенКомпонентов</content>
+  <content>Catalog.Scan_УстановкаЦенКомпонентовПрисоединенныеФайлы</content>
+  <content>CommonPicture.Scan_РабочееМестоМенеджераПоПродукту</content>
+  <content>Enum.Scan_ТипыЗапросовPRS</content>
+  <content>Role.Scan_ДобавлениеИзменениеДокументовРММенеджераПоПродукту</content>
+  <content>Report.Scan_ПрименениеSOrderFFU</content>
+  <content>Report.Scan_СводнаяИнформацияSOrderFFU</content>
+  <content>Role.Scan_ДобавлениеИзменениеСправочниковРабочееМестоМенеджераПоПродукту</content>
+  <content>InformationRegister.Scan_ИнформацияПоPartPeriod</content>
+  <content>Document.Scan_СпецификацияСтандартнойМодели</content>
+  <content>Enum.Scan_ДополнительнаяИнформацияПоSTD</content>
+  <content>InformationRegister.Scan_ХарактеристикиSTD</content>
+  <content>DataProcessor.Scan_РММенеджераПоПродукту</content>
+  <content>Role.Scan_ПросмотрПодсистемыРабочееМестоМенеджераПоПродукту</content>
+  <content>Role.Scan_ДобавлениеИзменениеРММенеджераПоПродукту</content>
+  <content>Document.Scan_ЗапросНаНадстройки</content>
+  <content>Document.Scan_ЗаказНаЗакупку</content>
+  <content>Report.Scan_ОтчетПоПлановымЦенамПродажиШасси</content>
+  <content>Document.Scan_ПрайсЛистАренда</content>
+</mdclass:Subsystem>

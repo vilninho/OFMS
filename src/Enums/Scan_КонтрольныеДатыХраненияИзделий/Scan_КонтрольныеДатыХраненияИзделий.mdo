@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da10652c-80b3-4f8e-9386-05a3bc1a1053">
+  <producedTypes>
+    <refType typeId="d2be3926-6840-483d-a83a-5b7762ce2be6" valueTypeId="9ef2cf1c-300e-46fd-be37-4da5ba06b5bc"/>
+    <listType typeId="f62f1cb0-5f1f-42d4-b8f6-cd66c40daa36" valueTypeId="b1cb5abf-6a38-40dd-83aa-70a3ef77c81b"/>
+    <managerType typeId="fdc39369-2622-4e00-b3af-f8886a9d4898" valueTypeId="8ed0b184-96ee-4bd8-9659-9e39fb2e4c51"/>
+  </producedTypes>
+  <name>Scan_КонтрольныеДатыХраненияИзделий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрольные даты хранения продуктов (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Контрольные даты хранения продуктов (scania)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3a6da4f9-b0cd-4257-8363-a69b39108895">
+    <name>ДатаПостановкиНаХранение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата постановки продукта на хранение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дата постановки продукта на хранение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7ba549c7-1a54-448b-b031-690ba6a78680">
+    <name>ДатаВыполненияКТСПлан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плановая дата выполнения КТС</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Плановая дата выполнения КТС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d3ace08e-00fe-4459-a8f1-7f7f66a84fce">
+    <name>ДатаВыполненияКТСФакт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фактическая дата выполнения КТС</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Фактическая дата выполнения КТС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="11224133-7d95-459f-986f-5ea5a416025f">
+    <name>ДатаСнятияСХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата снятия продукта с хранения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дата снятия продукта с хранения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="92d76be0-0b41-4495-bb7d-e22e76d80853">
+    <name>ДатаПродажиИзделия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата продажи продукта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дата продажи продукта</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="408c9f9c-d3b8-4244-8b0b-4aeeecafb079">
+  <producedTypes>
+    <objectType typeId="04fbe1b9-f77a-4286-abb1-918a80441813" valueTypeId="6f59e331-adb6-417b-bc40-f6a0b0b55267"/>
+    <managerType typeId="acd67a81-e7b5-459e-9aeb-72c58717b5f9" valueTypeId="fa0afbce-6afe-43f8-a319-260b80406b24"/>
+  </producedTypes>
+  <name>Scan_OFMSПросмотр</name>
+  <synonym>
+    <key>ru</key>
+    <value>OFMS просмотр (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>OFMS view (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Scan_OFMSПросмотр.Form.Форма</defaultForm>
+  <forms uuid="4c277f75-08c0-45c6-b1fa-26474650b6f4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

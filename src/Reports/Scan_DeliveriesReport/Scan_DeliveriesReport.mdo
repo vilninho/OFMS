@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbd0c227-26d4-4c04-819d-14184c63d04e">
+  <producedTypes>
+    <objectType typeId="cf6efcb7-4bf7-4cd1-bdc5-16a2b6a7409e" valueTypeId="d2f51a1c-1921-4cd1-8949-35d41b17884e"/>
+    <managerType typeId="ba86709a-febe-4597-bf57-14187cd64528" valueTypeId="22c26305-b7f2-4de9-bd72-a5bc6d3df10c"/>
+  </producedTypes>
+  <name>Scan_DeliveriesReport</name>
+  <synonym>
+    <key>ru</key>
+    <value>Deliveries Report (Daily) (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Deliveries Report (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.Scan_DeliveriesReport.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="f4f8b00b-f917-46a1-b3da-4115592479d2">
+    <name>НаДату</name>
+    <synonym>
+      <key>ru</key>
+      <value>На дату</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="296262d0-1132-4dbe-b243-9371e7a8b3a4">
+    <name>ВидДилера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид дилера</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Scan_ВидыДилеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="406c95b5-0edf-4d7a-99db-cda519290574">
+    <name>ВидПродукта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид продукта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ВидыПродуктов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cffad290-2b6a-4c8f-8233-491021eb8cef">
+    <name>ВариантОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант выбора отчета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Report option</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b326c447-9850-4a68-9769-0586496fd671">
+    <name>ВыборЯзыка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор языка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Language selection</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="228fc06a-7baa-4756-843d-58abd0be90a8">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="7e90c227-e596-4e4b-80da-55ab79e46f4b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="5112f0c2-a5f0-4b81-88fd-550b212a2274">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

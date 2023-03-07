@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebb60fcb-174d-4555-9bcd-a8e971d000ed">
+  <producedTypes>
+    <objectType typeId="f092a032-6adc-4d62-b8cc-b087bde9bbec" valueTypeId="ecf949de-ffd3-4e28-8dc3-9583a8d5071a"/>
+    <managerType typeId="7274f5f5-a26f-425d-a719-fee7302624e7" valueTypeId="442855b7-7e7f-46da-a10a-7276cab81c5d"/>
+  </producedTypes>
+  <name>Scan_РМОтделаЛогистики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочее место отдела логистики (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Logistics Department Workplace</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Scan_РМОтделаЛогистики.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="9eeddcbf-e259-4d2e-bb34-47175eeae67a">
+    <name>ФормаВыбораГода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора года</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма выбора года</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9f70ebc2-07c8-4f65-ad0a-0b6e1c53aa30">
+    <name>ФормаЗамечанияПоАктам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замечания по актам</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Замечания по актам</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8b1aa55b-2889-4bb6-9f61-01ce9bffa719">
+    <name>ФормаНастройкиОтображенияЗакладок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки отображения закладок</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Bookmark display settings</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7ef4c3cb-48e6-486b-83a1-ebce028d8ed4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e4aa8d78-7c80-4ca0-a236-b7d865e22171">
+    <name>ФормаПакетноеПроведениеДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пакетное проведение документов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Batch documents</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1e995fd0-62ba-4f6f-bd2e-fcea517d0231">
+    <name>StatisticsПорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>statistics_порт - склад</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>statistics_порт - склад</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e93ca1e-30f3-437a-95ae-9bab01f3508f">
+  <producedTypes>
+    <objectType typeId="699e043b-9f60-4d61-ac72-337dac4fc531" valueTypeId="b809f920-4778-4994-9a43-5c55245af762"/>
+    <refType typeId="3cacd0ee-d74e-41cc-a6a4-7936901f609d" valueTypeId="d589c6a2-c26e-4d12-810d-37cf81e9a14b"/>
+    <selectionType typeId="00b78a59-bd1f-4da0-9f05-c6161475510f" valueTypeId="e65a099d-be8c-453d-a4c7-375ecdad29d3"/>
+    <listType typeId="2bff4277-2b8f-4f16-b07d-cfeb2075cd1e" valueTypeId="02c9c0b1-4f9e-429c-ace0-2a1d03613581"/>
+    <managerType typeId="b9c27b83-c6a6-4512-b33d-4eecceb74b58" valueTypeId="180b4379-f052-458a-9ae7-07a4a26c98d5"/>
+  </producedTypes>
+  <name>Scan_МаркетинговыеТипыПродуктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маркетинговые типы продуктов (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Marketing types of products (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_МаркетинговыеТипыПродуктов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_МаркетинговыеТипыПродуктов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_МаркетинговыеТипыПродуктов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_МаркетинговыеТипыПродуктов.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="dcf85515-74d3-4c18-bb6d-140ae95da3b4">
+    <name>IDExternalSystem</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID External System</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="522adc64-9b62-43c3-ae61-9a187106bef0">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of renewal</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e2373347-137d-4bae-b2a6-9034604c1afb">
+    <name>НаименованиеАнглийское</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование английское</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Name English</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e1f5e056-3ce6-4e86-b058-c42631ce2f4f">
+    <name>ТипПродуктЛогистический</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип (логистический)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Type (logistic)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ТипыПродуктовЛогистика</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d9d37ed4-06d2-41af-85c4-63cfa941cb2f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6ca3e612-e6b9-4c66-9755-6a9406970b07">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

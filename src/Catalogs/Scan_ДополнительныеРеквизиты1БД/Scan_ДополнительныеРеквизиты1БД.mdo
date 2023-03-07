@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ca3a8a1-daf4-4677-867e-6772cd2327e1">
+  <producedTypes>
+    <objectType typeId="ce6bb558-4854-4e65-a940-e1a042dac5c4" valueTypeId="f651c3ba-2ead-4f6b-8920-5110b7f6dbff"/>
+    <refType typeId="4d8a73bb-f754-4c08-ab31-78f58c3089f5" valueTypeId="1fd0273a-d0e0-4b50-9d08-9e824f599dca"/>
+    <selectionType typeId="960e45f8-b3e1-460e-85fc-598568dea60a" valueTypeId="db8bddd9-f5de-4353-92c0-f1b264f52aa0"/>
+    <listType typeId="6e8ef325-8112-4590-a20a-636e2ed5b09a" valueTypeId="5e0fd141-fe37-401b-a207-e31e18d511a6"/>
+    <managerType typeId="0452e7fe-c07d-4f05-9167-18cc0c3d6a60" valueTypeId="310830d4-c2f2-4046-881c-bbcda21daef1"/>
+  </producedTypes>
+  <name>Scan_ДополнительныеРеквизиты1БД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные реквизиты 1БД (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Additional details 1DB (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_ДополнительныеРеквизиты1БД.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_ДополнительныеРеквизиты1БД.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="24920bf9-d03e-43ca-9f69-df46cd4e8fd0">
+      <name>ADDate</name>
+      <description>ADDate</description>
+      <code xsi:type="core:StringValue">
+        <value>000000030</value>
+      </code>
+    </items>
+    <items id="1504e99a-ae63-45ff-9a72-b56e01c163d0">
+      <name>AssemblyLevel</name>
+      <description>Assembly level</description>
+      <code xsi:type="core:StringValue">
+        <value>000000031</value>
+      </code>
+    </items>
+    <items id="e01dc9d8-2313-4d1f-a635-e55e5acc6ee5">
+      <name>CDDate</name>
+      <description>CDDate</description>
+      <code xsi:type="core:StringValue">
+        <value>000000032</value>
+      </code>
+    </items>
+    <items id="a17e4589-af29-4104-824e-8b41cdcbac49">
+      <name>CDDateDeviated</name>
+      <description>CDDateDeviated</description>
+      <code xsi:type="core:StringValue">
+        <value>000000033</value>
+      </code>
+    </items>
+    <items id="e99cb15c-ce59-456d-96d4-137c234c5824">
+      <name>DateOut</name>
+      <description>DateOut</description>
+      <code xsi:type="core:StringValue">
+        <value>000000034</value>
+      </code>
+    </items>
+    <items id="6c28444f-a209-4ec1-959e-04cb5506c0cd">
+      <name>DCD</name>
+      <description>DCD</description>
+      <code xsi:type="core:StringValue">
+        <value>000000035</value>
+      </code>
+    </items>
+    <items id="d9d16cb1-014b-4b5d-bc1b-1ae6938772e6">
+      <name>DD</name>
+      <description>DD</description>
+      <code xsi:type="core:StringValue">
+        <value>000000091</value>
+      </code>
+    </items>
+    <items id="bd31309c-ea9e-424d-b2f7-3a13d20c85c7">
+      <name>DD2</name>
+      <description>DD2</description>
+      <code xsi:type="core:StringValue">
+        <value>000000092</value>
+      </code>
+    </items>
+    <items id="29ed5b94-2d1e-4308-9a36-7fc3d59f851a">
+      <name>DDDate</name>
+      <description>DDDate</description>
+      <code xsi:type="core:StringValue">
+        <value>000000036</value>
+      </code>
+    </items>
+    <items id="bf6ff37f-00e1-4dff-8a74-5591a07b38bf">
+      <name>DDDate_Confirmed</name>
+      <description>DDDate_Confirmed</description>
+      <code xsi:type="core:StringValue">
+        <value>000000089</value>
+      </code>
+    </items>
+    <items id="a4904830-4360-4ad8-9e97-b0d22ff411c5">
+      <name>DDS</name>
+      <description>DDS</description>
+      <code xsi:type="core:StringValue">
+        <value>000000093</value>
+      </code>
+    </items>
+    <items id="20f1ca02-7af5-4fbc-897d-f3b2b8e447c7">
+      <name>DealerID_COW</name>
+      <description>DealerID_COW</description>
+      <code xsi:type="core:StringValue">
+        <value>000000037</value>
+      </code>
+    </items>
+    <items id="f8eb2e25-411b-4b09-bc47-c148332f9ffe">
+      <name>DeliveryAdrCode_Confirmed</name>
+      <description>DeliveryAdrCode_Confirmed</description>
+      <code xsi:type="core:StringValue">
+        <value>000000038</value>
+      </code>
+    </items>
+    <items id="2af3ed6d-a22a-4aa2-8e9f-3eca83bdc7e5">
+      <name>DeliveryDate</name>
+      <description>DeliveryDate</description>
+      <code xsi:type="core:StringValue">
+        <value>000000039</value>
+      </code>
+    </items>
+    <items id="05821a51-d185-4a43-93e8-73870415c8a4">
+      <name>DLV</name>
+      <description>DLV</description>
+      <code xsi:type="core:StringValue">
+        <value>000000018</value>
+      </code>
+    </items>
+    <items id="8a3440d3-e9c9-4541-b58c-a12cee1c11d6">
+      <name>EngineNo</name>
+      <description>EngineNo</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="bf5c1b4d-ec4e-4a4e-bdd5-3ece04e881bf">
+      <name>FactoryInvoiceDate</name>
+      <description>FactoryInvoiceDate</description>
+      <code xsi:type="core:StringValue">
+        <value>000000040</value>
+      </code>
+    </items>
+    <items id="09528487-2c7c-4c18-87a1-781a64baea41">
+      <name>FFU_No_Confirmed</name>
+      <description>FFU_No_Confirmed</description>
+      <code xsi:type="core:StringValue">
+        <value>000000041</value>
+      </code>
+    </items>
+    <items id="dcd53bc5-50da-48da-a772-e2ed59f25cec">
+      <name>FinishDate</name>
+      <description>FinishDate</description>
+      <code xsi:type="core:StringValue">
+        <value>000000042</value>
+      </code>
+    </items>
+    <items id="2ef4e42f-d125-4920-9ca4-f514cd7aec2d">
+      <name>OrderType</name>
+      <description>OrderType</description>
+      <code xsi:type="core:StringValue">
+        <value>000000043</value>
+      </code>
+    </items>
+    <items id="82030c90-ebd3-4670-bc91-30cfbd76163c">
+      <name>PartPeriod</name>
+      <description>PartPeriod</description>
+      <code xsi:type="core:StringValue">
+        <value>000000044</value>
+      </code>
+    </items>
+    <items id="d3750d52-a3a0-43bd-baae-29cb4674d51b">
+      <name>PDDate</name>
+      <description>PDDate</description>
+      <code xsi:type="core:StringValue">
+        <value>000000045</value>
+      </code>
+    </items>
+    <items id="b88a3f9c-7a9c-4751-8557-fc0be7ed20d1">
+      <name>ProductId</name>
+      <description>Product id</description>
+      <code xsi:type="core:StringValue">
+        <value>000000046</value>
+      </code>
+    </items>
+    <items id="7e530fd3-23fe-4f72-abdb-cc7eef8bd896">
+      <name>PRU</name>
+      <description>PRU</description>
+      <code xsi:type="core:StringValue">
+        <value>000000047</value>
+      </code>
+    </items>
+    <items id="78913871-bbee-4ea5-85e5-e7570da6aac2">
+      <name>QuotationNumber</name>
+      <description>Quotation number</description>
+      <code xsi:type="core:StringValue">
+        <value>000000048</value>
+      </code>
+    </items>
+    <items id="074c7e4a-a505-4814-b76c-a9d0cb6c743b">
+      <name>RetailCustomerName</name>
+      <description>RetailCustomerName</description>
+      <code xsi:type="core:StringValue">
+        <value>000000049</value>
+      </code>
+    </items>
+    <items id="bcf5357d-8d0f-450f-b79a-0981282754ef">
+      <name>S_Ord_No_Confirmed</name>
+      <description>S_Ord_No_Confirmed</description>
+      <code xsi:type="core:StringValue">
+        <value>000000050</value>
+      </code>
+    </items>
+    <items id="2d9b20ee-d630-4231-8fa5-47e94b2827d6">
+      <name>SDDate</name>
+      <description>SDDate</description>
+      <code xsi:type="core:StringValue">
+        <value>000000051</value>
+      </code>
+    </items>
+    <items id="504bf927-0eda-4b5a-98f8-33e920487d98">
+      <name>StatusID</name>
+      <description>StatusID</description>
+      <code xsi:type="core:StringValue">
+        <value>000000052</value>
+      </code>
+    </items>
+    <items id="fc790086-8344-4784-a13a-e3f56eac64c3">
+      <name>STDUO</name>
+      <description>STDUO</description>
+      <code xsi:type="core:StringValue">
+        <value>000000101</value>
+      </code>
+    </items>
+    <items id="7871ce21-2ad9-4990-9db9-217c60fb2321">
+      <name>TLMS</name>
+      <description>TLMS</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="79eec9db-0393-49a7-b119-381a7911eccc">
+      <name>VINКод</name>
+      <description>VIN-код</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="a2ec61e2-fb6e-4075-9bdb-ff3efe548e8c">
+      <name>АдресЭлектроннойПочты</name>
+      <description>Адрес электронной почты</description>
+      <code xsi:type="core:StringValue">
+        <value>000000053</value>
+      </code>
+    </items>
+    <items id="ea97a6db-21d6-4d07-9711-931b743d089d">
+      <name>Валюта</name>
+      <description>Валюта</description>
+      <code xsi:type="core:StringValue">
+        <value>000000025</value>
+      </code>
+    </items>
+    <items id="e0a53340-2732-41ad-906f-17ffb6c015cc">
+      <name>ВалютнаяОговорка</name>
+      <description>Валютная оговорка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000028</value>
+      </code>
+    </items>
+    <items id="dac5750a-1c68-4dcd-8659-67cc00ce1149">
+      <name>ВесБрутто</name>
+      <description>Вес брутто</description>
+      <code xsi:type="core:StringValue">
+        <value>000000012</value>
+      </code>
+    </items>
+    <items id="d2f6e453-934b-4ec8-b463-1080d27fbeef">
+      <name>ВидТахографа</name>
+      <description>Вид тахографа</description>
+      <code xsi:type="core:StringValue">
+        <value>000000054</value>
+      </code>
+    </items>
+    <items id="2fde4302-e7b5-4bae-a999-6494ae9cc1f4">
+      <name>ВысотаНезагруженногоТС</name>
+      <description>Высота незагруженного ТС</description>
+      <code xsi:type="core:StringValue">
+        <value>000000014</value>
+      </code>
+    </items>
+    <items id="f9ca4263-175e-4af1-94c3-a854655398ac">
+      <name>ГосНомер</name>
+      <description>Гос номер</description>
+      <code xsi:type="core:StringValue">
+        <value>000000016</value>
+      </code>
+    </items>
+    <items id="4a77abe2-674a-436b-8394-e6c8122dbe79">
+      <name>ГруппаКомпаний</name>
+      <description>Группа компаний</description>
+      <code xsi:type="core:StringValue">
+        <value>000000055</value>
+      </code>
+    </items>
+    <items id="1ecdcb2f-9635-42d6-9051-041c526ae39e">
+      <name>ДатаОкончанияОСАГО</name>
+      <description>Дата окончания ОСАГО</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="eb97d3c9-9be8-4d8e-b859-b55964090d77">
+      <name>ДатаРегистрации</name>
+      <description>Дата регистрации</description>
+      <code xsi:type="core:StringValue">
+        <value>000000017</value>
+      </code>
+    </items>
+    <items id="5d95b1c4-f5f6-4f42-812e-909ba20f8e18">
+      <name>ДилерАктивен</name>
+      <description>Дилер активен</description>
+      <code xsi:type="core:StringValue">
+        <value>000000056</value>
+      </code>
+    </items>
+    <items id="aadbc887-4377-4c8d-a2b0-6cfd3f94cac8">
+      <name>ДилерЗаказчикCOW</name>
+      <description>Дилер заказчик COW</description>
+      <code xsi:type="core:StringValue">
+        <value>000000057</value>
+      </code>
+    </items>
+    <items id="9e8163f7-1702-4349-aa2d-1fcabb939f0d">
+      <name>ДлинаОбщая</name>
+      <description>Длина общая</description>
+      <code xsi:type="core:StringValue">
+        <value>000000013</value>
+      </code>
+    </items>
+    <items id="c054ef9b-4278-4109-8c20-807d11bda3e4">
+      <name>ЗаводскаяГарантияДействительнаДо</name>
+      <description>Заводская гарантия, действительна до</description>
+      <code xsi:type="core:StringValue">
+        <value>000000058</value>
+      </code>
+    </items>
+    <items id="abd84f78-be9e-4c99-a168-ab798fcb3086">
+      <name>ЗамечаниеПоАктуПП</name>
+      <description>Замечание по акту ПП</description>
+      <code xsi:type="core:StringValue">
+        <value>000000020</value>
+      </code>
+    </items>
+    <items id="818824f2-9c6c-4c4b-9480-99fd6498c308">
+      <name>ИдентификационныйНомер</name>
+      <description>Идентификационный номер</description>
+      <code xsi:type="core:StringValue">
+        <value>000000098</value>
+      </code>
+    </items>
+    <items id="332fe4f0-b722-4cad-b496-d0a5ef4a7a83">
+      <name>ИноеНаименованиеТСПоЭПТС</name>
+      <description>Иное наименование ТС по ЭПТС</description>
+      <code xsi:type="core:StringValue">
+        <value>000000100</value>
+      </code>
+    </items>
+    <items id="ea85810d-ec05-462f-88b1-504f3e7ca23a">
+      <name>Иностранец</name>
+      <description>Иностранец</description>
+      <code xsi:type="core:StringValue">
+        <value>000000059</value>
+      </code>
+    </items>
+    <items id="277df00f-3f1d-4fc0-a8ee-a81ee0a710c6">
+      <name>КаптивныйДилер</name>
+      <description>Каптивный дилер</description>
+      <code xsi:type="core:StringValue">
+        <value>000000094</value>
+      </code>
+    </items>
+    <items id="14cd802e-4e79-44f0-b6a1-c2b462a49c38">
+      <name>КодДилера</name>
+      <description>Код дилера</description>
+      <code xsi:type="core:StringValue">
+        <value>000000060</value>
+      </code>
+    </items>
+    <items id="b03e26a9-e48c-41f9-b402-3d27a6116f7f">
+      <name>КодДилераSOWA</name>
+      <description>Код дилера SOWA</description>
+      <code xsi:type="core:StringValue">
+        <value>000000061</value>
+      </code>
+    </items>
+    <items id="bebdf928-e959-4469-a9b7-41851bb894e9">
+      <name>Комментарий</name>
+      <description>Комментарий</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+    </items>
+    <items id="ec9e7e68-5410-4132-bc1f-76cb1c7eba56">
+      <name>КоммерческоеНаименование</name>
+      <description>Коммерческое наименование</description>
+      <code xsi:type="core:StringValue">
+        <value>000000097</value>
+      </code>
+    </items>
+    <items id="59ef1c7c-594b-4895-be7c-790d4494ec07">
+      <name>КонтактныйТелефон</name>
+      <description>Контактный телефон</description>
+      <code xsi:type="core:StringValue">
+        <value>000000062</value>
+      </code>
+    </items>
+    <items id="554a345f-353d-4095-ab08-7e7e829450b8">
+      <name>Контрагент</name>
+      <description>Контрагент</description>
+      <code xsi:type="core:StringValue">
+        <value>000000063</value>
+      </code>
+    </items>
+    <items id="3aef5948-ffd5-448f-ab09-7339ae29e9c6">
+      <name>КонтрольныеПриборыСерийныйТекущий</name>
+      <description>Контрольные приборы. Серийный №, текущий</description>
+      <code xsi:type="core:StringValue">
+        <value>000000064</value>
+      </code>
+    </items>
+    <items id="c120bdee-7b94-4154-8bc5-0ca23070b87b">
+      <name>ЛогистическийТипПродукта</name>
+      <description>Логистический тип продукта</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="301a0a1a-3a09-4250-88fa-0118aeaca600">
+      <name>ЛокальныйСтатус</name>
+      <description>Локальный статус</description>
+      <code xsi:type="core:StringValue">
+        <value>000000019</value>
+      </code>
+    </items>
+    <items id="cf95997e-4e88-4722-acb5-752ef421bc4a">
+      <name>МаркаПоЭПТС</name>
+      <description>Марка по ЭПТС</description>
+      <code xsi:type="core:StringValue">
+        <value>000000096</value>
+      </code>
+    </items>
+    <items id="467bd5b4-0f51-4691-a417-341595b04e1c">
+      <name>МаркетинговыйТипПродукта</name>
+      <description>Маркетинговый тип продукта</description>
+      <code xsi:type="core:StringValue">
+        <value>000000065</value>
+      </code>
+    </items>
+    <items id="28652093-fe92-4c9f-95b8-871b3846c627">
+      <name>МенеджерТС</name>
+      <description>Менеджер т/с</description>
+      <code xsi:type="core:StringValue">
+        <value>000000066</value>
+      </code>
+    </items>
+    <items id="b48a2526-8797-47fa-8792-538cb1e17fb6">
+      <name>МестоПроизводства</name>
+      <description>Место производства</description>
+      <code xsi:type="core:StringValue">
+        <value>000000067</value>
+      </code>
+    </items>
+    <items id="16e59729-9e56-4600-836f-bda883bb3e21">
+      <name>Модель</name>
+      <description>Модель</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="126bbf73-09a9-4891-9bc6-6e8d1b80c030">
+      <name>МодельПоПТС</name>
+      <description>Модель по ПТС</description>
+      <code xsi:type="core:StringValue">
+        <value>000000024</value>
+      </code>
+    </items>
+    <items id="0277a5ef-c6a2-47e7-a7b3-45129f7206d1">
+      <name>Наименование</name>
+      <description>Наименование</description>
+      <code xsi:type="core:StringValue">
+        <value>000000068</value>
+      </code>
+    </items>
+    <items id="c5d97e17-f7b6-4a70-9660-13c79effb299">
+      <name>НаименованиеАнглийское</name>
+      <description>Наименование английское</description>
+      <code xsi:type="core:StringValue">
+        <value>000000069</value>
+      </code>
+    </items>
+    <items id="64f402dc-3286-4fcb-b59b-c6a9a6121c84">
+      <name>НаименованиеПолное</name>
+      <description>Наименование полное</description>
+      <code xsi:type="core:StringValue">
+        <value>000000070</value>
+      </code>
+    </items>
+    <items id="661148e8-e6be-4b6a-be14-05353f495604">
+      <name>НаименованиеСокращенное</name>
+      <description>Наименование сокращенное</description>
+      <code xsi:type="core:StringValue">
+        <value>000000071</value>
+      </code>
+    </items>
+    <items id="a07611e0-6320-4048-9e61-c81bf0c02b3c">
+      <name>НаименованиеТСОпределяемоеЕгоНазначением</name>
+      <description>Наименование ТС, определяемое его назначением</description>
+      <code xsi:type="core:StringValue">
+        <value>000000095</value>
+      </code>
+    </items>
+    <items id="618c1217-aa01-4643-9a72-19e115ef4d24">
+      <name>НомерОСАГО</name>
+      <description>Номер ОСАГО</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="4aff51c8-2149-4535-a2a4-9689d273ec99">
+      <name>НомерСтандартнойСпецификации</name>
+      <description>Номер стандартной спецификации</description>
+      <code xsi:type="core:StringValue">
+        <value>000000102</value>
+      </code>
+    </items>
+    <items id="631168b2-2aa0-4c49-82ae-2bd4a26bd373">
+      <name>НомерШассиРамы</name>
+      <description>Номер шасси (рамы)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000099</value>
+      </code>
+    </items>
+    <items id="a02306e8-c200-4b96-842c-f72891f21b79">
+      <name>ОбозначениеМоделиДвигателя</name>
+      <description>Обозначение модели двигателя</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="0bdd6e6a-7a01-443c-8494-5de0135efefc">
+      <name>ПочтовыйАдрес</name>
+      <description>Почтовый адрес</description>
+      <code xsi:type="core:StringValue">
+        <value>000000072</value>
+      </code>
+    </items>
+    <items id="8efb56ef-896c-4b63-8fbd-98a352d72c97">
+      <name>ПродавецДилера</name>
+      <description>Продавец дилера</description>
+      <code xsi:type="core:StringValue">
+        <value>000000026</value>
+      </code>
+    </items>
+    <items id="a4523375-3b0b-448d-9e33-ef052f19e012">
+      <name>РегиональныйМенеджерОКП</name>
+      <description>Региональный менеджер ОКП</description>
+      <code xsi:type="core:StringValue">
+        <value>000000103</value>
+      </code>
+    </items>
+    <items id="d911861c-e9fa-4473-afbe-b4222d31d8ae">
+      <name>РегиональныйМенеджерОП</name>
+      <description>Региональный менеджер ОП</description>
+      <code xsi:type="core:StringValue">
+        <value>000000104</value>
+      </code>
+    </items>
+    <items id="dab7259d-c4b5-4b52-841b-714fedc5c774">
+      <name>РегиональныйМенеджерОПАвтобусов</name>
+      <description>Региональный менеджер ОП автобусов</description>
+      <code xsi:type="core:StringValue">
+        <value>000000105</value>
+      </code>
+    </items>
+    <items id="c209dac6-057c-43fa-acff-e317ece5c391">
+      <name>СебестоимостьЛогистическая</name>
+      <description>Себестоимость логистическая</description>
+      <code xsi:type="core:StringValue">
+        <value>000000073</value>
+      </code>
+    </items>
+    <items id="5c7f8e65-6ab3-4418-b531-8b05dabc63dd">
+      <name>СегментРынка</name>
+      <description>Сегмент рынка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000074</value>
+      </code>
+    </items>
+    <items id="432a7cbe-5944-4f8f-915b-a02df239294c">
+      <name>СОППоБУ</name>
+      <description>СОП по Б/У</description>
+      <code xsi:type="core:StringValue">
+        <value>000000029</value>
+      </code>
+    </items>
+    <items id="9d1698dc-5400-4eb4-bdb5-dd6c8bb7a959">
+      <name>СрокУстраненияНедостатковДата</name>
+      <description>Срок устранения недостатков дата</description>
+      <code xsi:type="core:StringValue">
+        <value>000000023</value>
+      </code>
+    </items>
+    <items id="796dd9ae-a6db-4b9b-8878-ba56e0dc5f6a">
+      <name>СрокУстраненияНедостатковДни</name>
+      <description>Срок устранения недостатков дни</description>
+      <code xsi:type="core:StringValue">
+        <value>000000022</value>
+      </code>
+    </items>
+    <items id="4f7382e1-8710-4d4f-abbf-2da91f13d54e">
+      <name>Статус</name>
+      <description>Статус</description>
+      <code xsi:type="core:StringValue">
+        <value>000000027</value>
+      </code>
+    </items>
+    <items id="7a414b8c-d1fc-4bf9-8adc-edbf598f7235">
+      <name>СтатусКомпании</name>
+      <description>Статус компании</description>
+      <code xsi:type="core:StringValue">
+        <value>000000075</value>
+      </code>
+    </items>
+    <items id="f3e11a11-0a3b-43dc-ac2c-234492cd2799">
+      <name>СтатусПредоплаты</name>
+      <description>Статус предоплаты</description>
+      <code xsi:type="core:StringValue">
+        <value>000000076</value>
+      </code>
+    </items>
+    <items id="09762c32-f766-4bf0-96fd-21e0df258d63">
+      <name>СтатусПродукта</name>
+      <description>Статус продукта</description>
+      <code xsi:type="core:StringValue">
+        <value>000000106</value>
+      </code>
+    </items>
+    <items id="1207096a-ed92-4c6d-8841-4f8cfa03884f">
+      <name>СуммаПродажиДилеру</name>
+      <description>Сумма продажи дилеру</description>
+      <code xsi:type="core:StringValue">
+        <value>000000077</value>
+      </code>
+    </items>
+    <items id="7511f3c4-a4c9-43be-b40b-08be5e88a607">
+      <name>Тахограф</name>
+      <description>Тахограф</description>
+      <code xsi:type="core:StringValue">
+        <value>000000078</value>
+      </code>
+    </items>
+    <items id="0f0e51b2-3252-448a-a95c-eb126213342c">
+      <name>ТахографУстановлен</name>
+      <description>Тахограф установлен</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="65bfe2fc-faab-44a4-9434-2cf02e90f429">
+      <name>ТипГИБДД</name>
+      <description>Тип ГИБДД</description>
+      <code xsi:type="core:StringValue">
+        <value>000000079</value>
+      </code>
+    </items>
+    <items id="a643e6b8-e2dc-4578-a842-13ce26ba4c6c">
+      <name>ТипДилера</name>
+      <description>Тип дилера</description>
+      <code xsi:type="core:StringValue">
+        <value>000000080</value>
+      </code>
+    </items>
+    <items id="758c8cc0-d07a-4b25-a38d-72995a166127">
+      <name>ТипКабины</name>
+      <description>Тип кабины</description>
+      <code xsi:type="core:StringValue">
+        <value>000000081</value>
+      </code>
+    </items>
+    <items id="e686e7a5-8b40-4b6d-afe5-9669f72bd786">
+      <name>ТипКузова</name>
+      <description>Тип кузова</description>
+      <code xsi:type="core:StringValue">
+        <value>000000082</value>
+      </code>
+    </items>
+    <items id="8aa10f46-48c4-4e66-88ff-2bc4e1371046">
+      <name>ТипПродукта</name>
+      <description>Тип продукта</description>
+      <code xsi:type="core:StringValue">
+        <value>000000083</value>
+      </code>
+    </items>
+    <items id="e692b964-551c-495c-8cd5-74a587a357ad">
+      <name>Топливо</name>
+      <description>Топливо</description>
+      <code xsi:type="core:StringValue">
+        <value>000000084</value>
+      </code>
+    </items>
+    <items id="11143f3c-7de2-410d-86a4-2c8c47cbd0f4">
+      <name>БУ</name>
+      <description>Транспортное средство с пробегом</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="52a96d83-148b-4cd3-a655-ca93d4cbee8e">
+      <name>УровеньТоксичности</name>
+      <description>Уровень токсичности</description>
+      <code xsi:type="core:StringValue">
+        <value>000000085</value>
+      </code>
+    </items>
+    <items id="f872ad9a-56ef-4801-a610-13678a66ed1e">
+      <name>УстановленныйТахограф</name>
+      <description>Установленный тахограф</description>
+      <code xsi:type="core:StringValue">
+        <value>000000021</value>
+      </code>
+    </items>
+    <items id="a536619a-9a7c-48ce-8de9-4acd0bd852d6">
+      <name>ФормаКомпании</name>
+      <description>Форма компании</description>
+      <code xsi:type="core:StringValue">
+        <value>000000086</value>
+      </code>
+    </items>
+    <items id="cb713bda-80b3-44e4-8872-87a31c7608db">
+      <name>ЦветКабиныПТС</name>
+      <description>Цвет кабины ПТС</description>
+      <code xsi:type="core:StringValue">
+        <value>000000087</value>
+      </code>
+    </items>
+    <items id="0c16b2a8-e5c1-4a1f-8785-9fa47a317c65">
+      <name>Ширина</name>
+      <description>Ширина</description>
+      <code xsi:type="core:StringValue">
+        <value>000000015</value>
+      </code>
+    </items>
+    <items id="564e18f3-53df-414a-95dd-f0278516466f">
+      <name>ЭПТС</name>
+      <description>ЭПТС</description>
+      <code xsi:type="core:StringValue">
+        <value>000000090</value>
+      </code>
+    </items>
+    <items id="9ae4b853-6ee9-4817-a09d-1841a9eeb67e">
+      <name>ЮридическийАдрес</name>
+      <description>Юридический адрес</description>
+      <code xsi:type="core:StringValue">
+        <value>000000088</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_ДополнительныеРеквизиты1БД.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_ДополнительныеРеквизиты1БД.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="8aa83223-b5a6-4e8d-b5f9-da64edec3474">
+    <name>IDExternalSystem</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID External System</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e92d141a-2f22-46e0-b0bd-e659c3640c99">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of renewal</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a71f7cd2-0f97-4a83-a644-ff981f7f0e61">
+    <name>ИспользуетсяВOFMS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется для получения (1БД -> OFMS)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Used to get (1DB -> OFMS)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="df6281fa-69af-4b6c-835d-73b9c7a95a83">
+    <name>ИспользуетсяВOFMSДляОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется для отправки (OFMS -> 1БД)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Used for sending (OFMS -> 1DB)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="27b6f645-a128-47e1-91a6-0f59e49b36cf">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5ec8216b-6d8f-4c07-ac88-71cb56aa982e">
+    <name>ПредметДопРеквизита1БД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предмет</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Thing</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="02b590a1-dbe7-4336-8d0f-5540c97152a9">
+    <name>ТипДопРеквизита1БД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Data type</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d3da2cfa-870c-42e8-bbff-b35a5ca2db7f">
+    <name>ТипДопРеквизитаOFMS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Type</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a6f2f89c-838b-41fb-b543-38243937921a">
+    <name>Важность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Важность</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Importance</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="868d0cc7-abc9-4e3f-9987-a8d843edcb45">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ffddc827-59e6-47f3-9f12-1f1f9d3372d1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="450a9bc2-e8ab-4691-b686-8dd2982d39b4">
+    <name>ФормаАдминистрирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администрирование доп. реквизитов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

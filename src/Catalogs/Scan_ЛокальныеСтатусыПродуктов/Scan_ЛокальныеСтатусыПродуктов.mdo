@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5277f8fc-4f6a-422a-a48f-2e55307eda4d">
+  <producedTypes>
+    <objectType typeId="d5b23eb9-691d-4418-942d-5fd64380cb3f" valueTypeId="831fa28f-bc35-4219-8f14-ef7b0f3e304f"/>
+    <refType typeId="622faf83-f8f8-4f06-a92e-adce2c2ef422" valueTypeId="7c47180a-0c8a-4e5d-8f0b-804a5c4c52fb"/>
+    <selectionType typeId="12e48bf3-29c0-4e24-8162-17b26178ea64" valueTypeId="d7cc9b9a-61ce-433a-876b-eeaa6b915604"/>
+    <listType typeId="7f6200f3-afeb-4c07-824b-6bcc24928f94" valueTypeId="224c965d-0e63-432c-aaea-e74472e9d402"/>
+    <managerType typeId="e2e06f4d-d2ef-424e-a615-b2415b556101" valueTypeId="2ca4f58e-7ba2-41a8-b319-601b0cd6ba03"/>
+  </producedTypes>
+  <name>Scan_ЛокальныеСтатусыПродуктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Локальные статусы продуктов (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Local products statuses (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_ЛокальныеСтатусыПродуктов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_ЛокальныеСтатусыПродуктов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="e93e5477-aded-4bb9-b361-4af4569dfac3">
+      <name>DELETED</name>
+      <description>DELETED</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="9bab62a4-b111-4acd-b4a0-cca0f901b6d9">
+      <name>NEW</name>
+      <description>NEW</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="3324326b-ed49-40d1-b043-4a0c1fff9d8e">
+      <name>OPEN</name>
+      <description>OPEN</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="9135623e-778a-4c28-96c8-ab2b91794a07">
+      <name>SOLD</name>
+      <description>SOLD</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_ЛокальныеСтатусыПродуктов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_ЛокальныеСтатусыПродуктов.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="1a441cee-2f15-41de-b537-f9abcd5e4d92">
+    <name>IDExternalSystem</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID external system</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="36c68d8f-1207-4f1a-af48-84c452986365">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of renewal</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="79bdce32-1ad1-42d0-a734-5759dc92be37">
+    <name>КодСтатуса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код статуса</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Status code</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="59cd2e41-8bc3-48a3-99d9-4eab61f6c015">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f9868cb3-4724-4b4c-bf4d-1f8ddd92e943">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

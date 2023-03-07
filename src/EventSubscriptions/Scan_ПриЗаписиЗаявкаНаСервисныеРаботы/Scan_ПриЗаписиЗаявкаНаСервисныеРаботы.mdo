@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6b9d18e-cfe3-42a6-b54f-37dbca62dac3">
+  <name>Scan_ПриЗаписиЗаявкаНаСервисныеРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>При записи заявки на сервисные работы (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>При записи заявки на сервисные работы (scania)</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.Scan_ЗаявкаНаСервисныеРаботы</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.Scan_ДопРаботыИДоукомплектование.Scan_ПриЗаписиЗаявкаНаСервисныеРаботыПриЗаписи</handler>
+</mdclass:EventSubscription>

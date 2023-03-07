@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="827b1353-6d64-4e40-a320-f6b41761cce6">
+  <name>Scan_СборСтатистики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сбор статистики (scania)</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

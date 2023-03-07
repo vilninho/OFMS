@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c22e9bb5-1e56-4b4d-a500-e56ae89f49ea">
+  <name>Scan_ПередЗаписьюДокументаПроверкаПрав</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перед записью документа проверка прав</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Перед записью документа проверка прав</value>
+  </synonym>
+  <comment>(scania)</comment>
+  <source>
+    <types>DocumentObject.Scan_ЗаявкаНаДействие</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.Scan_ОбработчикиПодписокНаСобытия.ПередЗаписьюДокументаПроверкаПрав</handler>
+</mdclass:EventSubscription>

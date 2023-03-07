@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbcb52f5-20a0-4f25-bb6b-8a931feb01e3">
+  <producedTypes>
+    <selectionType typeId="92dd485c-bbcc-4fce-a7b8-9a5f8b790e6e" valueTypeId="cbffabe4-2aa8-4b09-a02a-69e3bed0d990"/>
+    <listType typeId="673fc380-935e-4b65-8281-c48ff3423187" valueTypeId="413cd1d3-85ee-4c8c-a5ea-de662d25239a"/>
+    <managerType typeId="1c72b8c0-78e9-4a3d-8d81-3d70ffe7ab2b" valueTypeId="b669b0a0-13ca-451d-8d95-b602efce8c3f"/>
+    <recordSetType typeId="da7d5831-270f-46e8-b462-e54fb15c4659" valueTypeId="efd4291e-2377-4fc7-9b1f-0952403f867c"/>
+    <recordKeyType typeId="27c3dc5a-529f-4747-9d4f-f13cbfcd8130" valueTypeId="389b37ed-2793-4a57-84a8-9f2e37f29c1f"/>
+    <recordType typeId="6e7085d8-44be-47ee-a514-11ff08c073f9" valueTypeId="55afc55e-45c0-46f1-83e9-b1abf1f12c51"/>
+    <recordManagerType typeId="a43c4303-e39d-47fe-8c70-903deab3f066" valueTypeId="b6b656d1-f3ca-4b90-a2b1-91851470542b"/>
+  </producedTypes>
+  <name>Scan_Обмен1БДПроверкаМетодовОбменаС1БД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка методов обмена с 1БД  (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Проверка методов обмена с 1БД  (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_Обмен1БДПроверкаМетодовОбменаС1БД.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_Обмен1БДПроверкаМетодовОбменаС1БД.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="247da70b-4027-4492-b062-998ec806db65">
+    <name>Запрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Запрос</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d1b4ba4e-33bd-4b94-a149-93977161f9b3">
+    <name>КомментарийПоЗапросу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий по запросу</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Комментарий по запросу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="d4c014b6-8caa-4154-8b40-2147ce82aad4">
+    <name>Ответ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ответ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6dcaaffd-7b07-4529-8d8f-6a9e6ec56226">
+    <name>КомментарийПоОтвету</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий по ответу</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Комментарий по ответу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <attributes uuid="a92c6690-3cce-4ffb-a80c-67a9b2cc833e">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="0b87078e-fb4a-4db4-8e75-98e25d46cd15">
+    <name>ВидЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид запроса</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Вид запроса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ВидыЗапроса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="7ec6a95c-a2c4-417a-a39e-8cb574d5c11b">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="47c55113-e07d-428b-a472-4d463aeaaa6f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

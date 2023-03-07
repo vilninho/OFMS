@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69d82855-5072-4f41-829e-46c57280ddc3">
+  <name>Scan_Документы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы</value>
+  </synonym>
+  <comment>Документы подсистемы отдел продаж новых грузовых автомомбилей</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.Scan_ЗапросНаНадстройки</content>
+  <content>Document.Scan_ЗаказНаЗакупку</content>
+  <content>Document.Scan_Калькуляция</content>
+  <content>Document.Scan_ПечатныйПрайсЛист</content>
+  <content>Document.Scan_ЗакреплениеМенеджеровЗаДилерами</content>
+  <content>Document.Scan_ПрайсЛистАренда</content>
+  <parentSubsystem>Subsystem.Scan_ОтделПродажНовыхГрузовыхАвтомомбилей</parentSubsystem>
+</mdclass:Subsystem>

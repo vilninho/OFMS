@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c548865-3737-429a-aaab-7fb51334a876">
+  <producedTypes>
+    <refType typeId="1764bca9-e2b2-40c8-91b0-82a9a5871f73" valueTypeId="8f4c3110-d4f7-4e3e-9349-2a5b96d8583a"/>
+    <listType typeId="ecf0fecc-adcc-4a12-9d91-288c334c14f2" valueTypeId="17a2b4c8-3539-4661-871d-079f5ed6781b"/>
+    <managerType typeId="981906cd-67c8-4ea0-acb0-6ab8635692f5" valueTypeId="7f19e773-ab4b-4ebd-857b-56df9becd36f"/>
+  </producedTypes>
+  <name>Scan_ТипыСклада</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы склада (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Типы склада (scania)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1c4169ce-6349-417f-a399-104c7bf414af">
+    <name>АдресДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес доставки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Адрес доставки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="04fc44a2-20db-468c-a8e9-c9bba134dde5">
+    <name>Хранение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Хранение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fdb18e07-2a6d-431d-8909-9d7f00a6c354">
+    <name>Производство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производство</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Factory</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

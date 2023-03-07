@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6e67454-a5a8-4397-a839-9876dba6e394">
+  <producedTypes>
+    <objectType typeId="179547a6-545e-4c1b-aa11-77e239136c73" valueTypeId="98af2936-ade7-4722-8299-7a00dbabf5fc"/>
+    <refType typeId="fb990b62-a848-4327-af01-6802e763c154" valueTypeId="b835af88-21f7-4f32-be9d-dc204b6c764a"/>
+    <selectionType typeId="3a09b056-c4c8-4a01-8d8a-d8c4a0dc467c" valueTypeId="52c5bd31-7e93-46bf-8e33-2a3616db5cd4"/>
+    <listType typeId="0a95f784-a9e8-4ba4-b55d-dadb37415108" valueTypeId="a2918051-884b-4aab-affa-4703b14a72f0"/>
+    <managerType typeId="9eff2556-b7ec-41a3-adce-8ddfdfd7fb6c" valueTypeId="6288858a-0810-4997-8fa1-ed6df6acb567"/>
+  </producedTypes>
+  <name>Scan_ЗакреплениеМенеджеровЗаДилерами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрепление менеджеров за дилерами</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Assigning managers to dealers</value>
+  </synonym>
+  <comment>Документ необходим для учета ответственных менеджеров за дилерами, определенных распоряжением по компании</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Scan_ЗакреплениеМенеджеровЗаДилерами.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Scan_ЗакреплениеМенеджеровЗаДилерами.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.Scan_ЗакреплениеМенеджеровЗаДилерами.Form.ФормаСписка</defaultListForm>
+  <registerRecords>InformationRegister.Scan_ЗакреплениеМенеджеровЗаДилерами</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="e36469bb-7f8e-4fa4-9c24-fff1896f6f3e">
+    <name>ДатаРаспоряжения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата распоряжения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Order Date</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="718e8ea5-d157-40c6-a38f-2e4a39b70765">
+    <name>НомерРаспоряжения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер распоряжения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Order number</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9c479dc7-3d78-43e4-9c43-1181723cbcf8">
+    <name>ПодписантВПФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписант в ПФ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>PF signatory</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b821acd4-75b7-4643-becf-0fda322e45eb">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b5eb0215-144b-458d-826f-a43210176e8d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="af2f16bb-3487-461b-884e-4f4d6e6955fc">
+    <producedTypes>
+      <objectType typeId="c8fb95e3-6cbf-48bc-8ec6-184d57bcf5e5" valueTypeId="5158b555-656c-4206-885a-f1dffe99469e"/>
+      <rowType typeId="cde591c1-c047-459c-8d3a-7d6cc1bae3bd" valueTypeId="3dcec4c4-a127-4682-9808-7692c5b6b98d"/>
+    </producedTypes>
+    <name>ОтветственныеМенеджеры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственные менеджеры</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ответственные менеджеры</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="43d2fa00-2748-40cd-8909-be9ee0f41ec7">
+      <name>Дилер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дилер</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Dealer</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_Компании</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ad8f6c38-8872-46be-ab21-6fc9375f6a07">
+      <name>Менеджер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Менеджер</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Manager</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="1b804494-1804-44d0-b1b8-b7c1c2aff747">
+    <name>ПФ_MXL_КураторыПоРегиональнымМенеджерам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кураторы по региональным менеджерам</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Curators by regional managers</value>
+    </synonym>
+  </templates>
+  <templates uuid="8a31bfc1-ea71-407c-ab27-f1523abf7fbc">
+    <name>ПФ_MXL_КураторыПоФедеральнымОкругам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кураторы по федеральным округам</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Curators for federal districts</value>
+    </synonym>
+  </templates>
+  <commands uuid="2f269b82-cea6-46e2-b4e3-4c9b98418e8f">
+    <name>Печать_КураторыПоРегиональнымМенеджерам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кураторы по региональным менеджерам</value>
+    </synonym>
+    <group>CommandGroup.Печать</group>
+    <commandParameterType>
+      <types>DocumentRef.Scan_ЗакреплениеМенеджеровЗаДилерами</types>
+    </commandParameterType>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Print</picture>
+    </picture>
+  </commands>
+  <commands uuid="d62a1fb2-2c52-48a8-ad9f-7eeeacb633ab">
+    <name>Печать_КураторыПоФедеральнымОкругам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кураторы по федеральным округам</value>
+    </synonym>
+    <group>CommandGroup.Печать</group>
+    <commandParameterType>
+      <types>DocumentRef.Scan_ЗакреплениеМенеджеровЗаДилерами</types>
+    </commandParameterType>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Print</picture>
+    </picture>
+  </commands>
+</mdclass:Document>

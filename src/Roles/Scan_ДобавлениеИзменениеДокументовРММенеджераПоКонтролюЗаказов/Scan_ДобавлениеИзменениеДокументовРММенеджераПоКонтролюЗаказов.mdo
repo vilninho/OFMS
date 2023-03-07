@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="016b58f2-69a9-4ec4-a5a7-c330b94a62b5">
+  <name>Scan_ДобавлениеИзменениеДокументовРММенеджераПоКонтролюЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение документов РМ Менеджера по контролю заказов (scania)</value>
+  </synonym>
+</mdclass:Role>

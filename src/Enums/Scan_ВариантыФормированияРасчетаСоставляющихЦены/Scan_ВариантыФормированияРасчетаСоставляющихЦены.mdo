@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6cd04d98-1345-444b-88e7-7658887689b4">
+  <producedTypes>
+    <refType typeId="b30d188d-0302-4d4b-974b-405d340f30c8" valueTypeId="ddb7383b-2e4f-4a53-bfd7-fda797628cfc"/>
+    <listType typeId="fc95e8d8-b61b-4485-9854-745be25f8915" valueTypeId="92798202-470b-4d54-9c08-0134d6d4d6c5"/>
+    <managerType typeId="baed5b78-4481-4fcd-a9be-8e9041338da7" valueTypeId="461786d5-1496-48fe-a1b0-55fa5943a096"/>
+  </producedTypes>
+  <name>Scan_ВариантыФормированияРасчетаСоставляющихЦены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты формирования расчета составляющих цены (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Варианты формирования расчета составляющих цены (scania)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <explanation>
+    <key>ru</key>
+    <value>Варианты формирования расчета составляющих цены продуктов</value>
+  </explanation>
+  <enumValues uuid="4eaedbe3-88eb-40e8-9dd6-94694eb65d0c">
+    <name>ВводитсяВручную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вводится вручную</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Entered manually</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b4797f80-f53e-4643-b859-0f565f572975">
+    <name>РассчитываетсяПоФормуле</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассчитывается по формуле</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Calculated by the formula</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="302c2b47-d56d-4d99-b901-fa0d4f99bfdc">
+    <name>РассчитываетсяАвтоматически</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассчитывается автоматически</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Calculated automatically</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

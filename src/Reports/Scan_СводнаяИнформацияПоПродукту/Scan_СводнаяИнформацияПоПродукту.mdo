@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2767851a-d4a3-463d-9bb2-9e18d7702bfa">
+  <producedTypes>
+    <objectType typeId="4ff89c24-39de-4f81-a6d6-4d07572e941d" valueTypeId="46b49982-4cd7-4693-8d62-f7b9ef66fb17"/>
+    <managerType typeId="a6288681-2068-4c40-8164-315c882b4c67" valueTypeId="c792cc28-77ec-403d-b69c-9297417eedbd"/>
+  </producedTypes>
+  <name>Scan_СводнаяИнформацияПоПродукту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сводная информация по продукту (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Product Summary (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.Scan_СводнаяИнформацияПоПродукту.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.Scan_СводнаяИнформацияПоПродукту.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="d3ad0859-efa7-42e3-9b8f-1a68866f45b1">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="0879b361-7e74-4070-b1c5-66121a3d5725">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

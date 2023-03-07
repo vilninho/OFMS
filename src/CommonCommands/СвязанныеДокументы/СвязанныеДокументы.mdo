@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41f87891-ddd5-4e0f-a4f2-8039fb71981b">
+  <name>СвязанныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связанные документы</value>
+  </synonym>
+  <group>FormNavigationPanelGoTo</group>
+  <commandParameterType>
+    <types>CatalogRef.Scan_СпециальныеУсловия</types>
+    <types>DocumentRef.Scan_ЗаявкаПеревозчику</types>
+    <types>CatalogRef.Scan_СоглашенияОПоставке</types>
+    <types>DocumentRef.Scan_ЗаявкаНаКомплектующие</types>
+    <types>DocumentRef.Scan_СпецификацияСтандартнойМодели</types>
+    <types>DocumentRef.Scan_Калькуляция</types>
+    <types>DocumentRef.Scan_ЗаявкаНаДействие</types>
+    <types>DocumentRef.Scan_ЗаявкаНаОтгрузку</types>
+    <types>DocumentRef.Scan_ЗапросНаНадстройки</types>
+    <types>CatalogRef.Scan_ДоговорыВзаиморасчетов</types>
+    <types>DocumentRef.Scan_УстановкаПланаПоОтгрузкам</types>
+    <types>DocumentRef.Scan_ДвижениеИзделий</types>
+    <types>DocumentRef.Scan_ПеремещениеИзделий</types>
+    <types>DocumentRef.Scan_ПоступлениеКомплектующих</types>
+    <types>DocumentRef.Scan_УстановкаПланаПоOrderIntake</types>
+    <types>DocumentRef.Scan_ПечатныйПрайсЛист</types>
+    <types>DocumentRef.Scan_ЗаказНаЗакупку</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Перейти к иерархическому списку связанных документов</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.СтруктураПодчиненности</picture>
+  </picture>
+</mdclass:CommonCommand>

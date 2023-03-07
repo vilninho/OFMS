@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Task.ЗадачаИсполнителя.Command.ВсеЗадачи</commands>
+      <commands>Task.ЗадачаИсполнителя.Command.МоиЗадачи</commands>
+      <commands>BusinessProcess.Scan_Согласование.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.Scan_УчетныеЗаписиЭлектроннойПочтыДляСогласованияДокументовПоЭлектроннойПочте.StandardCommand.OpenList</commands>
+      <commands>Catalog.Scan_ШаблоныСогласования.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

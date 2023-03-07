@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9345c075-c0eb-47a1-b5f7-a628563eab24">
+  <producedTypes>
+    <selectionType typeId="defc9cb4-d03a-4f5b-a619-7e85588f6001" valueTypeId="6311ec4e-4044-4db2-ba3d-03693252a428"/>
+    <listType typeId="ada88d57-5bc5-4c43-b879-ecec1f8d4671" valueTypeId="36f5ea86-7b02-4c4d-9697-2873f0589715"/>
+    <managerType typeId="edbc158a-3615-4533-8684-7a4557b1c412" valueTypeId="433a8c45-a7d1-4f9c-8f82-25aa686dc4ce"/>
+    <recordSetType typeId="983ef0fc-807e-4136-9e85-fdc4393fff9f" valueTypeId="8eef5c3f-998e-4e3a-8f97-bb889db7078e"/>
+    <recordKeyType typeId="0806e5be-374c-4333-9870-451797c9ddd4" valueTypeId="a100138d-d7f2-4446-8e56-230ded295e50"/>
+    <recordType typeId="0e58c2b4-b216-488e-97ec-bd3fb270fd40" valueTypeId="d1a53a84-d8e9-45fd-abe3-ff873cabc903"/>
+    <recordManagerType typeId="7d35fcea-d07d-402d-8d10-9833ad8f9fdc" valueTypeId="f74521fd-f24d-49ba-8bb8-1aeb79a92be2"/>
+  </producedTypes>
+  <name>Scan_ПараметрыВидимостиОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры видимости объектов (scania)</value>
+  </synonym>
+  <comment>Регистр для хранения настроек видимости полей &quot;Соглашения о поставке&quot; и &quot;Специальные условия&quot;</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_ПараметрыВидимостиОбъектов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_ПараметрыВидимостиОбъектов.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c247adb5-2451-4479-801f-1404f75e783b">
+    <name>Видимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Видимость</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6d5c822f-7a7b-43d6-b28a-a8b6b9a681d3">
+    <name>Доступность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступность</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="77bc0f42-387e-4580-9830-724e022af135">
+    <name>РучноеИзменение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ручное изменение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="9efc97d9-ee0c-4d20-bab5-0c12aae65373">
+    <name>ОбъектНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект настройки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>80</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="623a888b-4e31-48c7-82c8-6da9526e88b7">
+    <name>РольИсполнителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль исполнителя</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РолиИсполнителей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="713544d3-8a06-49af-b049-de3fb61138d8">
+    <name>ТипСоглашенияОПоставке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип соглашения о поставке</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Scan_ТипыСоглашенийОПоставке</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d38eba4f-2933-405f-90cd-e41d5a75f9dc">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_СтатусыЗаявокНаДействие</types>
+      <types>CatalogRef.Scan_СтатусыСоглашенийОПоставкеИСпециальныхУсловий</types>
+      <types>CatalogRef.Scan_СтатусыКалькуляций</types>
+      <types>CatalogRef.Scan_СтатусыЗаявокНаОтгрузку</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4a46600a-7789-4091-8003-5dcdaa837c75">
+    <name>ИмяЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя элемента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="dac27865-23dc-47c5-86f2-8e8052702c85">
+    <name>ХозОперация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операция</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Operation</value>
+    </synonym>
+    <comment>Выполняемая документом операция</comment>
+    <type>
+      <types>CatalogRef.Scan_ХозяйственныеОперации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выполняемая документом операция</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Выполняемая документом операция</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="74ae2fa0-1454-48fc-9c77-b9c578ff332f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ad6c3f0e-9d75-4d1e-86af-c36e1a1d7f44">
+    <name>ФормаПараметровКопированияНабора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма параметров копирования набора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="90af6f4d-8352-45dc-b25d-aa5b100294e5">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="81b1d162-ab4b-4afb-a728-fd9e6e2d4e26">
+    <name>ПоставляемыеПараметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставляемые параметры</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:InformationRegister>

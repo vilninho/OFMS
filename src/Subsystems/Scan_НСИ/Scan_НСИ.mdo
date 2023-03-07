@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b53fa1fa-920f-439a-bad3-16e3e9888734">
+  <name>Scan_НСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>НСИ </value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>NSI</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.НСИ48</picture>
+  </picture>
+  <content>Role.Scan_ДобавлениеИзменениеСправочниковScaniaОбщие</content>
+  <content>CommonForm.Scan_ПараметрыДокумента</content>
+  <content>Report.СведенияОПользователях</content>
+  <content>CommonCommand.Scan_ДополнительныеОтчетыНСИ</content>
+  <content>CommonCommand.Scan_ДополнительныеОбработкиНСИ</content>
+  <content>Enum.Scan_СтатусыОплатПоСОП</content>
+  <content>Enum.Scan_ДополнительнаяИнформацияПоСОП</content>
+  <content>CommonPicture.ЛоготипСкания</content>
+  <content>Enum.Scan_СпособыДоставкиПродуктов</content>
+  <content>Enum.Scan_ВариантыСортировкиХО</content>
+  <content>InformationRegister.Scan_ВзаимосвязьИзделийИЗаказов</content>
+  <content>InformationRegister.Scan_СоответствияТиповВидовИГрупп</content>
+  <content>Enum.Scan_ГруппыИзделийOFMS</content>
+  <content>Enum.Scan_ДополнительнаяИнформацияПоКонтрагентам</content>
+  <content>InformationRegister.Scan_ИсторияПоКонтрагентам</content>
+  <content>InformationRegister.Scan_ХарактеристикиЗаказовНаЗавод</content>
+  <content>Role.Scan_ПросмотрПодсистемыНСИ</content>
+  <content>Enum.Scan_ДополнительнаяИнформацияПоКомпаниям</content>
+  <content>InformationRegister.Scan_ИсторияИзмененияДанныхПоСОП</content>
+  <subsystems>Предприятие</subsystems>
+  <subsystems>КонтрагентыИКонтакты</subsystems>
+  <subsystems>Продукты</subsystems>
+  <subsystems>Логистика</subsystems>
+  <subsystems>Классификаторы</subsystems>
+  <subsystems>Тарифы</subsystems>
+</mdclass:Subsystem>

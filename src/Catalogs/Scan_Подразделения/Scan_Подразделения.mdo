@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e881ea1a-f2b8-4863-b9d2-0b9d52b07958">
+  <producedTypes>
+    <objectType typeId="3fbed4c8-6cfd-4ef0-9b6a-4c1b4f0665ad" valueTypeId="5f4603e6-a99d-425c-86e4-ec13ccc25e81"/>
+    <refType typeId="f5095cf7-a3bd-4b62-8197-7bd5f0d6c3b4" valueTypeId="21eef0e8-4e2d-4531-a281-2600dafd6c73"/>
+    <selectionType typeId="f656c3e4-b97f-41ab-a26c-dade7c606c2a" valueTypeId="6f4fa7cc-3df5-456f-8cdd-53d53148a43d"/>
+    <listType typeId="71fec121-5371-4ebc-bcd9-b550d7210ff8" valueTypeId="000498a9-d514-4004-bf76-98e78f6c08d2"/>
+    <managerType typeId="b101c6a0-8adc-4e2a-ae3b-588cba3a2008" valueTypeId="bcc598c8-0858-46fa-bd96-2ae17b8f10da"/>
+  </producedTypes>
+  <name>Scan_Подразделения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подразделения (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Divisions (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_Подразделения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_Подразделения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Подразделение</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Организации</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_Подразделения.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_Подразделения.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Scan_Подразделения.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="a607415c-07bf-47d4-96d3-b62afb76efaa">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form element</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e5359ff8-22dd-4d29-8b67-6bdda3b08034">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3a03f2e3-2efd-43f9-9cd7-43d4b97a47b7">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of selection</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

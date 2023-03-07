@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="546bd531-fd9e-46a4-afc7-97de724b5229">
+  <producedTypes>
+    <refType typeId="818dede9-e2de-435c-8120-3aec5e3eb8e5" valueTypeId="e6722d3f-96a0-4d24-b916-37eac0ca0102"/>
+    <listType typeId="d89e5235-bec9-4e98-842c-31d31f39b60c" valueTypeId="0fd48100-5352-40d3-b955-f2c4417d17ac"/>
+    <managerType typeId="267513ad-694e-4ab4-a45e-6cc19710a38f" valueTypeId="08d653d7-140c-47ab-8fb6-e48c1c4e310c"/>
+  </producedTypes>
+  <name>Scan_ПризнакТягачШасси</name>
+  <synonym>
+    <key>ru</key>
+    <value>Признак тягач / шасси</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Tractor / chassis sign</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f618d3f4-52b6-411d-a3dd-828998c750b0">
+    <name>A</name>
+    <synonym>
+      <key>ru</key>
+      <value>A</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>A</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ac7bdb17-8eda-4f26-88b6-7bbb97f27a2d">
+    <name>B</name>
+    <synonym>
+      <key>ru</key>
+      <value>B</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>B</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

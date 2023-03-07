@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40da0927-9343-418a-9aff-284d6a19ca5e">
+  <producedTypes>
+    <objectType typeId="b2410cb6-a2ee-441a-8ee3-d58a08e2da8d" valueTypeId="ccce9ddc-b1d0-41d2-bfef-827187fda431"/>
+    <managerType typeId="ef8b9ebe-642d-4d0d-a528-138501d05b0d" valueTypeId="e76d03e3-ace6-46fc-8799-6f34bb095210"/>
+  </producedTypes>
+  <name>Scan_DD2DDSИнформер</name>
+  <synonym>
+    <key>ru</key>
+    <value>DD2/DDS информер (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>DD2/DDS informer (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Scan_DD2DDSИнформер.Form.Форма</defaultForm>
+  <forms uuid="bae79c98-d79a-4206-9237-24f6f7bf5d35">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

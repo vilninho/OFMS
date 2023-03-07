@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05165504-99f6-4325-8ac7-8d5f8f891dbe">
+  <producedTypes>
+    <objectType typeId="9e5cc8f3-157e-48ae-994d-07055938f641" valueTypeId="e369e3d9-4386-439d-9960-fab552c6a76e"/>
+    <managerType typeId="3ed1e6f2-1a76-4527-8304-69aa73166aae" valueTypeId="c0d00d8d-aca6-4681-a39e-2bce6784a2cd"/>
+  </producedTypes>
+  <name>Scan_СтатистикаПорт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статистика порт (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Статистика порт (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.Scan_СтатистикаПорт.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.Scan_СтатистикаПорт.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="12655437-356d-4815-97f1-292eef4dcf31">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1d82acf5-a5e5-4115-b7a3-50bc071898f2">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

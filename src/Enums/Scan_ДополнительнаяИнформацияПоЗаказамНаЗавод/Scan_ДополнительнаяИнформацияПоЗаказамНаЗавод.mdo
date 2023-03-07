@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a295f5d8-35b5-4773-88d1-68d88d18960b">
+  <producedTypes>
+    <refType typeId="e4ff9950-ea63-4963-85de-1ff80dbeff5d" valueTypeId="c4fa6428-9047-4ed4-a8bb-3efb669828f5"/>
+    <listType typeId="54f0ac0c-92b8-4f87-85a5-b93578557f31" valueTypeId="9064edeb-8009-4c3e-8f4e-ed08cc924fa3"/>
+    <managerType typeId="0b6762c0-52e5-48d0-8bf9-e1b35d6cad1d" valueTypeId="19db5c6d-876d-497a-9d0d-b445d3280d37"/>
+  </producedTypes>
+  <name>Scan_ДополнительнаяИнформацияПоЗаказамНаЗавод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительная информация по заказам на завод</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Additional information by orders to the factory</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f275ad51-aac2-447e-ba5f-39c180b79362">
+    <name>ADD</name>
+    <synonym>
+      <key>ru</key>
+      <value>ADD</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ADD</value>
+    </synonym>
+    <comment>10271</comment>
+  </enumValues>
+  <enumValues uuid="5344e4f7-59eb-49d9-8841-489a79a7bc17">
+    <name>CDD</name>
+    <synonym>
+      <key>ru</key>
+      <value>CDD</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>CDD</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="be4fdbdd-dd5c-46ef-9f3e-490b800c437a">
+    <name>CDD2</name>
+    <synonym>
+      <key>ru</key>
+      <value>CDD2</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>CDD2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8fe6a219-0ed3-45df-941a-39e12a3cf120">
+    <name>CDDX</name>
+    <synonym>
+      <key>ru</key>
+      <value>CDD - X</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>CDD - X</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="34de15bc-3289-4ad2-a9a8-262cdf3eaf98">
+    <name>CDDY</name>
+    <synonym>
+      <key>ru</key>
+      <value>CDD - Y</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>CDD - Y</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a6ac1a57-d587-4d6e-817f-a8c087094ad5">
+    <name>CDDПоставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>CDD Поставщик</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>CDD Supplier</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a5e51ebc-112b-4c38-a75e-90cce3677cb0">
+    <name>DDDeviation</name>
+    <synonym>
+      <key>ru</key>
+      <value>DD deviation</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="43a0ca76-214a-4980-bed9-bc5ee0ecee5b">
+    <name>DDPriority</name>
+    <synonym>
+      <key>ru</key>
+      <value>DD priority</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="96e79143-1add-484a-af55-ae42679b93e6">
+    <name>DealerID_COW</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID дилера (COW)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Dealer ID (COW)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f78f703b-6638-4486-b310-83c9fc06ea97">
+    <name>FFUНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер FFU</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>№ FFU</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6c68bc7c-4475-48bf-b939-46911aac853a">
+    <name>IDExternalSystem</name>
+    <synonym>
+      <key>ru</key>
+      <value>IDExternal system</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>IDExternal system</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3026a4b0-cb70-4eb4-ba6a-c329a5790add">
+    <name>MarketChange</name>
+    <synonym>
+      <key>ru</key>
+      <value>Market Change</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Market Change</value>
+    </synonym>
+    <comment>14327</comment>
+  </enumValues>
+  <enumValues uuid="94987c19-76bf-49a9-b5cd-bf64de27d9ab">
+    <name>PartPeriod</name>
+    <synonym>
+      <key>ru</key>
+      <value>Part Period</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Part Period</value>
+    </synonym>
+    <comment>14312</comment>
+  </enumValues>
+  <enumValues uuid="60247738-5eba-466a-96ce-f39628236ec2">
+    <name>SOrderНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер S-order</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>№ S-order</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fb0ec0f4-b055-4409-83ec-5c54386e28b3">
+    <name>АвтомобильПроданСоСканияРусь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус 440</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Status 440</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ebfd184e-9d75-40a0-925a-f01d8c17b2a7">
+    <name>ВывозИзПорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вывоз из порта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Export from the port</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4a203ef0-cb32-496d-9457-952732d7a2a4">
+    <name>ГотовностьТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готовность ТС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7cc782ed-f9d4-4fa8-a661-1b3ba2babb3b">
+    <name>ДатаБукингЛиста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата букинг-листа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Booking list date</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="18b8ec8c-3808-4d39-b958-f021b2faafd0">
+    <name>ДатаГрузовогоБилета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата грузового билета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of cargo ticket</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="be7d8148-f3f9-4de0-8736-d9a6e4ff75dc">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of renovation</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="45c1081a-300e-4f0f-9a7a-80f36e928094">
+    <name>ЕстьАдресДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть адрес доставки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Address available</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0ff44c6a-829b-4d7a-8205-453ffd93019f">
+    <name>ЕстьБукингЛист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть букинг-лист</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Booking list available</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d4feabd4-90af-42e9-8d6b-e52f17cdd901">
+    <name>ЗаводскойСтатусЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заводской статус заказа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Status ID</value>
+    </synonym>
+    <comment>14223</comment>
+  </enumValues>
+  <enumValues uuid="eea92521-6a0a-444d-8073-2ef69e2dadea">
+    <name>Заказчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказчик</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Customer</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="97058d9a-bf78-42f3-84cc-5a962a591934">
+    <name>ЗаказчикCOW</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказчик COW</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Customer COW</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="37387307-8d65-479f-9525-eeb1454f3139">
+    <name>ЗаказыНаЗакупкуOFMSПредставление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказы на закупку (№ OFMS)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>OFMS Purchase Orders No.</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d07af70b-6a8b-4828-a44b-1a384917850a">
+    <name>ЗаказыНаЗакупкуПредставление</name>
+    <synonym>
+      <key>ru</key>
+      <value>№ заказов на закупку</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="87e23177-ee38-4699-85b1-f307026bb347">
+    <name>ЗапретНаИзменениеСкладаОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрет изменять склад отгрузки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3e3820d0-9f3f-41ed-b8c1-0ffedc606e9b">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент COW</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Customer</value>
+    </synonym>
+    <comment>14327</comment>
+  </enumValues>
+  <enumValues uuid="58c33f23-9e5c-4d79-85c0-710cf7ba605a">
+    <name>КодАдресаДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код адреса доставки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Code of the delivery address</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9edd55f7-ef1c-4181-b799-cd69b5e4d6d7">
+    <name>КомплектностьПоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплектность поставки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Package Content</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b33ee25d-b03e-4c1d-958b-58ddedf966a7">
+    <name>Кузовостроитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кузовостроитель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1421defc-e050-445d-bf70-de819a399a82">
+    <name>КузовщикиПредставление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кузовщики</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="39e1ba73-5791-4a6f-af88-b7ad5c869a75">
+    <name>МестоПроизводства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место производства</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Place of production</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c93baaa1-68b0-411c-bf00-f281e169030c">
+    <name>НапоминаниеАдмПродажОтправлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Напоминание администратору продаж отправлено</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Reminder to sales manager sent</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="810d4a78-3d28-4956-a095-8e87515a740f">
+    <name>НапоминаниеДилерамОтправлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Напоминание дилерам отправлено</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Reminder sent to dealers</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="06217734-d3d7-45cc-be6c-25464483c531">
+    <name>НомерБукингЛиста</name>
+    <synonym>
+      <key>ru</key>
+      <value>№ букинг листа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Booking list number</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="da68d178-de49-40ec-99a2-2b0684c79256">
+    <name>НомерГрузовогоБилета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер грузового билета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Cargo Ticket Number</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="739b8894-a9c4-4f94-9b10-1e855934619d">
+    <name>ОбработаноОП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработано ОП</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Processed OP</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="959d3b77-d5f5-4b98-a641-50acc6c04f42">
+    <name>ОдобреноПолучениеПродукта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Одобрено получение продукта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Approved for the product</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3cc9b5fe-fadf-48a3-8c01-95bfcafbda37">
+    <name>ПолученГрузовойБилет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получен грузовой билет</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Cargo ticket recieved</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6e3965d8-1d6c-46d4-a2a0-88fd4288c0ae">
+    <name>ПортСПБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>CDD факт</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Actual CDD</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9a297d05-7aca-48e1-9e9f-128f47aad18d">
+    <name>ПоступилМашинокомплект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус 99</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Status 99</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="380c4561-c12e-4c19-a7ff-cb8b51cf6ef6">
+    <name>ПродавецЗаказчика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продавец заказчика</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Customer`s manager</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9b72b9a5-7655-4940-81e7-9d75048f9f8d">
+    <name>ПродуктГотов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукт готов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Product is ready</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b23d9b95-2621-45a5-a0c6-bc5d6c5edf43">
+    <name>ПродуктГотовКПродаже</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус 120</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Status 120</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="00cf8eeb-8f46-4ec8-9904-e4f5533c3b87">
+    <name>ПродуктДатаГотовности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукт дата готовности</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Product availability date</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e7af074b-421a-40ce-8207-198b7112d684">
+    <name>СкладОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад отгрузки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="00d43c9f-c7dc-4c21-a0e8-3f55cb14518a">
+    <name>СозданВручную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создан вручную</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Created manually</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="35ea4f01-3431-4fd7-b6fa-31076b84a8fb">
+    <name>СтатусЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус заказа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Order status</value>
+    </synonym>
+    <comment>14226</comment>
+  </enumValues>
+  <enumValues uuid="bdf56c5a-6e13-4707-8a1d-ad00f7a03875">
+    <name>Тахограф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тахограф</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Tachograph</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f9a3862c-a4f2-4ed0-ab4d-e4e01f8a9f2d">
+    <name>ТипЗаказаНаЗавод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип заказа на завод</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Order type</value>
+    </synonym>
+    <comment>14226</comment>
+  </enumValues>
+  <enumValues uuid="0cbfb110-aa3d-4837-ba05-64a2c03a6585">
+    <name>ТОВыполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТОВыполнено</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Maintenance operation done</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b296498d-dfbd-4bb0-9636-3324b09faa40">
+    <name>ТягачШасси</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тягач\шасси</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

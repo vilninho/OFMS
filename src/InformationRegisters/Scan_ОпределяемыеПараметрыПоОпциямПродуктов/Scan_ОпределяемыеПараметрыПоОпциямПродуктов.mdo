@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="314a1292-5422-49b2-abe7-42c63e4fe678">
+  <producedTypes>
+    <selectionType typeId="ec537121-05b1-4be2-a2aa-4aad46eb397d" valueTypeId="91209e68-d018-44d0-a8e7-3b8ddd2e6f26"/>
+    <listType typeId="bd8488ce-abb0-4731-811c-1314afefe2db" valueTypeId="14491e83-08ea-408c-b4ac-f8574d845b7f"/>
+    <managerType typeId="54ba1756-946f-4293-9abe-efa56c2c7f78" valueTypeId="2816b5d6-dd86-417b-92cb-76c38377b97a"/>
+    <recordSetType typeId="7958c6c0-c482-4ef0-99e9-273d8dee914d" valueTypeId="ef555319-0a03-410f-b505-874223d7cc0f"/>
+    <recordKeyType typeId="2e4bbd2e-02b8-421a-ba34-c39fadb79b80" valueTypeId="0df445a4-7b10-4ac4-962b-e2d752daf5ac"/>
+    <recordType typeId="f6b080d1-db66-4d40-b7b7-b1e5935546d8" valueTypeId="1a5009ab-66ad-410c-9fd7-f9b2142d89d9"/>
+    <recordManagerType typeId="7ce1bd48-fa1a-42fd-a744-33bce6758a61" valueTypeId="c41aaa66-f594-4012-95d3-40d8d07b06b3"/>
+  </producedTypes>
+  <name>Scan_ОпределяемыеПараметрыПоОпциямПродуктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Определяемые параметры по опциям продуктов (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Defined parameters by product options (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_ОпределяемыеПараметрыПоОпциямПродуктов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_ОпределяемыеПараметрыПоОпциямПродуктов.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="5765041e-1338-41d9-b515-3ba166035df2">
+    <name>Изделие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукт</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Product</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Изделия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ca26ecfb-bab7-44f3-896f-3634aa355b00">
+    <name>Параметр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Parameter</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ОпределяемыеПараметрыПоОпциямПродуктов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="6392e696-1fbd-4a60-8e40-8d2a61699da3">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f7dcf849-94fd-4a65-a1d1-d16d39aa36ab">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

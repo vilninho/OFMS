@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6696af43-065d-4e36-b50d-3bb5143737a1">
+  <producedTypes>
+    <objectType typeId="31f27c22-579d-4446-a01f-cc1c5ce429db" valueTypeId="3df44f20-4b3d-4ee7-94b9-d81a436e5fa8"/>
+    <refType typeId="5df08844-90a3-4225-81e6-f4bcee65e243" valueTypeId="e6ed2c3e-a6a0-4568-96f4-1abcbbdcfb1c"/>
+    <selectionType typeId="c6417579-71e8-4f81-ab11-f0fc10081228" valueTypeId="6959fc1e-d19e-4e9e-8b81-d89ce84f4456"/>
+    <listType typeId="a6bdcbfa-7eca-41fa-a999-3d146712b6d0" valueTypeId="577e7154-3cca-4e7a-bd98-06ff359e1733"/>
+    <managerType typeId="a65532b3-9e42-4286-8e50-e5fa89543976" valueTypeId="920b05ff-a8cd-496d-8658-ecac1bda4cd4"/>
+  </producedTypes>
+  <name>Scan_ЗадачаИз1ДБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задача из 1БД (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>1DB task (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Scan_ЗадачаИз1ДБ.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>14</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Scan_ЗадачаИз1ДБ.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.Scan_ЗадачаИз1ДБ.Form.ФормаСписка</defaultListForm>
+  <registerRecords>InformationRegister.Scan_ИсторияПоступленийИПродажПродуктов</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="f1716696-c7c5-43ac-9fb9-251184f81e3d">
+    <name>ВидСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид события</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Event Type</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ВидыСобытий1БД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d1bb6c41-da97-43b4-a8f6-6ca832de095c">
+    <name>IDExternalSystemTask</name>
+    <synonym>
+      <key>ru</key>
+      <value>IDExternalSystemTask</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fc5aa984-3774-46d6-8e59-c6afb30fbac2">
+    <name>НаименованиеЗадачи1ДБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование задачи 1БД</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Name of task 1DB</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f00985e9-79a0-4212-86d7-f7cc50dbaf2c">
+    <name>НомерЗадачи1ДБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер задачи 1БД</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>1DB Task Number</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="be293656-ea2f-4ff4-ae7c-35110482eb9e">
+    <name>СтатусЗадачи1ДБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус задачи 1БД</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>1DB task status</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="46d60c73-3ffc-4392-bbab-38a0e916242a">
+    <name>IDExternalSystemInvoice</name>
+    <synonym>
+      <key>ru</key>
+      <value>IDExternalSystemInvoice</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5d52bf7a-eada-4458-af31-89dc129e48e7">
+    <name>ВидДокументаНакладной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид документа накладной</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Type of invoice document</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="655ace2c-947f-4ef0-a9d6-62c74b0e7546">
+    <name>НомерНакладной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер накладной</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Invoice number</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cd83e3ce-9f7a-43bd-a6a1-c8b2e4d8fa95">
+    <name>СтатусНакладной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус накладной</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Invoice status</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_СтатусыНакладных1ДБ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8de10016-d459-4e18-9800-e8e8f72afd1f">
+    <name>ЗаказчикНакладной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказчик накладной</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Customer invoice</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a5bb6bce-83b9-4645-91ee-9872555b883d">
+    <name>ПлательщикНакладной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плательщик накладной</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Invoice payer</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="01dfb552-a24b-427e-aadc-888b61c86bcd">
+    <name>ДилерНакладной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дилер накладной</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Invoice dealer</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Компании</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4cc72739-5a52-4c2b-aafd-1169b647f510">
+    <name>ДатаНакладной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата накладной</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date Invoice</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="497b30bd-b217-49fb-bcd0-8ef2c9aac751">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="24412ebc-8e59-4d2e-ab8f-85eb5814cc55">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="7a7b4c4e-c046-47a7-b767-bf243a2af84e">
+    <producedTypes>
+      <objectType typeId="9ee49465-359f-46dc-8f07-1700ace9d042" valueTypeId="c73f19a3-daee-4907-b98d-7e25aab55e8e"/>
+      <rowType typeId="85ac697e-4218-4e34-9e4f-9c0c41863e35" valueTypeId="d87e6bb1-3c5d-4765-9b7c-ef8a57f937e6"/>
+    </producedTypes>
+    <name>Продукты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукты</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Products</value>
+    </synonym>
+    <attributes uuid="a44a8083-e96f-43eb-8e17-809b446558b4">
+      <name>Продукт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Продукт</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Product</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_Изделия</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

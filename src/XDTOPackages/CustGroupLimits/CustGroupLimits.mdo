@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01b0d4b2-6857-4e6f-89f6-f34cb877e9cc">
+  <name>CustGroupLimits</name>
+  <synonym>
+    <key>ru</key>
+    <value>Cust group limits</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Cust group limits</value>
+  </synonym>
+  <namespace>http://www.scania.org/webservice/SRUService/CustGroupLimits</namespace>
+</mdclass:XDTOPackage>

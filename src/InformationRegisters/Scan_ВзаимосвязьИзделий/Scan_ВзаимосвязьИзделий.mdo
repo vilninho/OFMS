@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d58bd7e-d0ca-4bea-8d87-c2b03c90ef8e">
+  <producedTypes>
+    <selectionType typeId="3df63741-9379-4eb2-be0a-2818098d99be" valueTypeId="e2c7eb91-b10d-417e-8d15-1a05ca1264ac"/>
+    <listType typeId="e0f2fe75-e568-48ac-9fd1-79a6ac57e64f" valueTypeId="9f1d29f5-8aaa-4b23-9a6a-5ff4788068a1"/>
+    <managerType typeId="da3fdfba-eb17-44cc-999b-b7c98e2eed5a" valueTypeId="c838c137-0c6c-45ce-ad4c-708c4762961e"/>
+    <recordSetType typeId="c494db10-dbe2-440f-bbd4-60b5fce0c32c" valueTypeId="3f3e07e4-c97a-45d6-82f2-8f3a94cfe423"/>
+    <recordKeyType typeId="ec7201b4-d2a0-4545-b34e-4a5488a9593e" valueTypeId="3dc800aa-b25c-4685-b52f-879d389895ee"/>
+    <recordType typeId="a265d6f4-a620-4f1a-b37b-2289cdf3cc80" valueTypeId="e02c292a-3756-4244-986b-a7a011106bf7"/>
+    <recordManagerType typeId="8a476ff7-cccc-4f6d-8961-a9f3930f409b" valueTypeId="a44170c5-f4ce-4dc7-946b-a6dbb2ce90d0"/>
+  </producedTypes>
+  <name>Scan_ВзаимосвязьИзделий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаимосвязь продуктов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Product Relationship</value>
+  </synonym>
+  <comment>Взаимосвязь продуктов (scania)</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_ВзаимосвязьИзделий.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_ВзаимосвязьИзделий.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="fcd65f0d-74d9-47b4-bedb-2025621d100c">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e5908503-eb2d-4564-959c-95ad636575d0">
+    <name>ДатаИзмененияСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения связи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of changing</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="ecb41a2f-f0c3-4c24-9852-1d52fc7d88e6">
+    <name>ИзделиеТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортное средство</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Vehicle</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Изделия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fa58cbf3-f56c-430b-b767-97f159061417">
+    <name>НадстройкиОборудованияПрицепы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Надстройка / оборудование / прицепная техника</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Superstructure / equipment / trailers</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Изделия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="3e7f063f-98fa-4574-8bd0-b3efecd2c8ef">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Recording form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="66d5b0d2-5cee-4b33-b3c5-478a855bb4ee">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dfd91af4-9004-42eb-a1b6-c4f623979884">
+    <name>УказаниеВзаимосвязиМеждуИзделиями</name>
+    <synonym>
+      <key>ru</key>
+      <value>Указание взаимосвязи между продуктами</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Combinations of product</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

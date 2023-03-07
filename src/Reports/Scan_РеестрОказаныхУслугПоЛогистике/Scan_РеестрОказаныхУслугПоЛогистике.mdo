@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="059a2b14-a75a-4809-8c28-837c620bc013">
+  <producedTypes>
+    <objectType typeId="d17df845-bc64-434b-92ba-fbb2829054bf" valueTypeId="b7a3fa8e-b9de-4d9d-bd40-a96c51eeb714"/>
+    <managerType typeId="c0233f93-aa4d-4523-976d-30f9d1632fa2" valueTypeId="e95eefe9-a189-45f5-b376-729c722ca733"/>
+  </producedTypes>
+  <name>Scan_РеестрОказаныхУслугПоЛогистике</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр полученных услуг от перевозчиков и оказанных услуг по доставке дилерам (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Реестр полученных услуг от перевозчиков и оказанных услуг по доставке дилерам (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.Scan_РеестрОказаныхУслугПоЛогистике.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.Scan_РеестрОказаныхУслугПоЛогистике.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="9029e000-ec69-4fd0-adc5-27bd6d66e3b2">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="c5a13701-d39e-4131-884c-d017f6380866">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="02cbe9b7-ba06-40ed-be79-730b2c0c9f3e">
+    <name>ОткрытьОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестр оказанных услуг по логистике (scania)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Реестр оказанных услуг по логистике (scania)</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

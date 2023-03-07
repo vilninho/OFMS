@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a13c74c-8659-4f8f-a7d1-33f149abb530">
+  <name>УчетАКБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет АКБ</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Accounting AKB</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Scan_ЕмкостиАКБ</content>
+  <content>Enum.Scan_ХарактеристикиАКБ</content>
+  <content>Catalog.Scan_СостоянияАКБ</content>
+  <content>Catalog.Scan_АккумуляторныеБатареи</content>
+  <content>InformationRegister.Scan_ДанныеПоАКБИзделий</content>
+  <parentSubsystem>Subsystem.Scan_ХранениеИзделий</parentSubsystem>
+</mdclass:Subsystem>

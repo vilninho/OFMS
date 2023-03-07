@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97fe73a8-e438-4658-8309-65358983b313">
+  <producedTypes>
+    <objectType typeId="642f07d9-1eed-40fd-91fa-2a69fe591964" valueTypeId="ee668eeb-f466-45bb-9845-af41b718acf7"/>
+    <managerType typeId="59f7df72-0963-4b33-b2a5-46419dbcb415" valueTypeId="2fef5fe0-c554-4f2c-a345-41142895a8cd"/>
+  </producedTypes>
+  <name>Scan_МатрицаТарифовДляДилеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Матрица тарифов для дилеров (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Matrix tariffs for dealers (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.Scan_МатрицаТарифовДляДилеров.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.Scan_МатрицаТарифовДляДилеров.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="96affa86-ff5c-4c3b-ab1f-5ea1e92c622f">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of report </value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="12703c57-f4e7-4bb5-b9c0-fb3cc0e68dfa">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

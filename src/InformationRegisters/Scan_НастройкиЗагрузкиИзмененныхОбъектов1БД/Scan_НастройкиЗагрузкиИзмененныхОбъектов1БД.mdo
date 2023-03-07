@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c31a2d87-7e37-4268-9beb-1239e9b10db1">
+  <producedTypes>
+    <selectionType typeId="5e1570b4-f2d2-4738-9ec3-abc00ec436ab" valueTypeId="b3a37b1e-e340-406a-93c2-c04da9216e8e"/>
+    <listType typeId="1d046a8b-9cd9-47ff-8b7d-854d2bc1401a" valueTypeId="0ee1e061-fde8-41a2-915c-83bad8df51e1"/>
+    <managerType typeId="16998f19-36f9-42c8-8710-8d179392c3a9" valueTypeId="84dd2c12-075c-4a65-a9d6-0bd3d619ea22"/>
+    <recordSetType typeId="42dcfd16-0325-4a7c-bf86-345985854b1c" valueTypeId="b9aa1519-f694-4a69-aebe-c980b487ab3c"/>
+    <recordKeyType typeId="9ae4aa57-7016-4273-89fb-f02e15ed3298" valueTypeId="01ffb718-b9d3-40ad-a6ab-b9ec11bc926f"/>
+    <recordType typeId="4c4dbb6e-c132-471b-b24d-53457dd1d2c6" valueTypeId="1dcd74bc-35bf-457c-af1c-e94f4459a6b5"/>
+    <recordManagerType typeId="11b37fe6-c5dd-4865-977d-c8cd0b0c2f25" valueTypeId="e13e2529-c814-4932-abe1-685c5a1a5b39"/>
+  </producedTypes>
+  <name>Scan_НастройкиЗагрузкиИзмененныхОбъектов1БД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки загрузки измененных объектов 1БД (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Settings for loading modified 1DB objects (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.Scan_НастройкиЗагрузкиИзмененныхОбъектов1БД.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="19a7cf97-1470-40c0-9ccd-ce1d339657fe">
+    <name>Загружать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загружать</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Download</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b01f2507-62ee-4d97-adfb-ec1b2ea39283">
+    <name>Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Order</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6d6d4121-3b95-4ca0-b25e-7c6c869bd6ed">
+    <name>ТипИзменяемыхОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип изменяемых объектов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Type of modified objects</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Scan_ТипыИзмененныхОбъектов1БД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="54f07103-15f9-44cb-b73c-de19dcf3d63e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

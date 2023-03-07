@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="593a1c61-9ec0-4cdc-9d69-3727a168a5f4">
+  <name>ЛоготипСкания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логотип скания</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Логотип скания</value>
+  </synonym>
+</mdclass:CommonPicture>

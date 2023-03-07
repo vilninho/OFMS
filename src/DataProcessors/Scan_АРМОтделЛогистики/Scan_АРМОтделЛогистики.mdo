@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40436d45-9170-46bf-a791-4d755f89184e">
+  <producedTypes>
+    <objectType typeId="3637dd5e-c79a-4ce7-a0da-7994b0cb3e08" valueTypeId="8fe44ece-13f9-4a8b-8243-b1c55c1f6e88"/>
+    <managerType typeId="def43a75-18fa-4e4e-b951-9ad05765520a" valueTypeId="af4bf69f-6868-4c65-886f-f50d4f64b2a5"/>
+  </producedTypes>
+  <name>Scan_АРМОтделЛогистики</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ Отдел логистики (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>АРМ Отдел логистики (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Scan_АРМОтделЛогистики.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="24062d74-fa21-4dc0-9202-afabf90e0066">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9f05ea23-b480-4bbc-bfc2-1c04026f453e">
+    <name>ФормаВыбораГода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора года</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма выбора года</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="39589573-e26b-45c9-9595-5ef0953b9c64">
+    <name>ФормаЗагрузкиФайлаОтПоставщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма загрузки файла от поставщика</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма загрузки файла от поставщика</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7e846164-280b-4836-a6f9-86cecf386d6f">
+    <name>ФормаБукингЛист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма букинг лист</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма букинг лист</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="287559b5-8af7-4553-857a-4d2ccc4ac881">
+    <name>УдалитьФормаГрузовогоБилета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить форма грузового билета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Удалить форма грузового билета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9c03a0ab-f018-43ea-9493-a941104aa8e7">
+    <name>ФормаЗамечанияПоАктам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замечания по актам</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Замечания по актам</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="756f376c-67a4-4206-b8ce-418f83b7df6f">
+    <name>StatisticsПорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>statistics_порт - склад</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>statistics_порт - склад</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

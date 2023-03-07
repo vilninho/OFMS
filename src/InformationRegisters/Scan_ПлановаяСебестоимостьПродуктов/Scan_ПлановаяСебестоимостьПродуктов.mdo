@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c74d6d9b-8a57-4af6-a0f5-09027dee17b7">
+  <producedTypes>
+    <selectionType typeId="efce3673-0c05-424b-9faa-b8903cc8fa0e" valueTypeId="1df8a1a4-0295-4ccb-9cbb-22c202e94306"/>
+    <listType typeId="1cb472dc-cb49-4020-98a9-9ce179910206" valueTypeId="525f42da-ce50-482b-9c21-45b2b5341ad3"/>
+    <managerType typeId="67973638-4af2-4f07-834e-da526e039e0f" valueTypeId="a1cbfa52-89c8-47b9-b536-1bfca9a152f2"/>
+    <recordSetType typeId="2212e7bc-4f33-406c-a010-20dfe4a59f78" valueTypeId="18c28892-7545-4c86-b5f1-de9ff42c6a19"/>
+    <recordKeyType typeId="b6f02ccc-e4c4-4595-8269-3340d98ee77d" valueTypeId="beec0047-5815-49bb-9c3a-498e1df09e39"/>
+    <recordType typeId="544d81b1-b7a3-4e79-9c92-47793ec36c09" valueTypeId="964acab3-7b54-46ae-b865-6590cc0b377a"/>
+    <recordManagerType typeId="47320ee2-ee9a-4d31-8245-b46c44a05294" valueTypeId="0e4c2455-bb6e-4b89-8397-5e58c3c8b66a"/>
+  </producedTypes>
+  <name>Scan_ПлановаяСебестоимостьПродуктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Плановая себестоимость продуктов (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_ПлановаяСебестоимостьПродуктов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_ПлановаяСебестоимостьПродуктов.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="b5e7fdc6-ce2e-456f-b5a4-b045ff866cf5">
+    <name>СебестоимостьСНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Себестоимость с НДС</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="acbadee1-ef5d-4f7f-ba7e-c547243179ad">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="5d6ad3c8-f9a0-41db-a119-bf023cc00f55">
+    <name>Продукт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Изделия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="72238e49-be7c-4bec-9d40-52a5534f2e75">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e70f1723-62d4-43de-91eb-29b1a21f8732">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b0a8ba0-1a6e-45f4-b1ba-98e7e080902f">
+  <producedTypes>
+    <objectType typeId="e520ad83-8fd8-48ec-89a5-da7102bce5e8" valueTypeId="443a47b4-cba0-4883-9872-f1ac9291e3cc"/>
+    <refType typeId="aec6066e-f181-4cbb-a1bf-01fcfcd8669f" valueTypeId="6615086b-1f13-41da-96fc-c1eaf850cdbe"/>
+    <selectionType typeId="21258742-5405-44c5-8d2f-a3f08bd32853" valueTypeId="a0364a1a-f09e-441a-9c1e-c5fe0fe0903d"/>
+    <listType typeId="cd55747a-89e7-4a32-806c-34b9d9b19dfb" valueTypeId="5ce0a6f1-d9a0-4f6d-82cc-54c9e9e3152d"/>
+    <managerType typeId="29cb4014-3173-4d6b-b567-ad8fdd9cbb40" valueTypeId="9d2955b3-a3d4-4a79-a445-ed76c8e80e9a"/>
+  </producedTypes>
+  <name>Scan_ВидыТахографов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды тахографов (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Types of tachographs (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_ВидыТахографов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_ВидыТахографов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид тахографа</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>1</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="e42d7c47-cf51-4f47-94b1-bac51ea95db9">
+      <name>Штрих</name>
+      <description>1</description>
+      <code xsi:type="core:StringValue">
+        <value>000000014</value>
+      </code>
+    </items>
+    <items id="fdaea4ca-c271-4e4f-9e54-c3d88d590a7c">
+      <name>A</name>
+      <description>A</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="ffd5ce48-d564-4415-a1f2-615e60673d82">
+      <name>B</name>
+      <description>B</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="e291b4df-d824-4d27-8bb6-e038c27e71de">
+      <name>E</name>
+      <description>E</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="193b091f-b02d-4a21-b75c-399696171227">
+      <name>F</name>
+      <description>F</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="4b68af8f-bfb6-43ee-9e17-e73820bea5ca">
+      <name>G</name>
+      <description>G</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="cec17eae-68f9-4437-a691-4dfa7ccdb5ca">
+      <name>H</name>
+      <description>H</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="ee300c03-0037-4041-9e37-400584014fc7">
+      <name>J</name>
+      <description>J</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="3caedf70-19da-427f-a0eb-297335ddc107">
+      <name>K</name>
+      <description>K</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="fa8e7206-fba1-4616-949a-e6e4434a67be">
+      <name>L</name>
+      <description>L</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="979e5aba-9fbe-4eb3-9bd8-50fa859bf5f0">
+      <name>N</name>
+      <description>N</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="159eb428-c3ec-4db2-9a78-fa38c8e4a56e">
+      <name>P</name>
+      <description>P</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+    </items>
+    <items id="e98131a5-8ea1-46d3-953d-943a19ed099b">
+      <name>Q</name>
+      <description>Q</description>
+      <code xsi:type="core:StringValue">
+        <value>000000012</value>
+      </code>
+    </items>
+    <items id="1abefb2c-918e-4638-980d-4fd400d97298">
+      <name>R</name>
+      <description>R</description>
+      <code xsi:type="core:StringValue">
+        <value>000000013</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_ВидыТахографов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_ВидыТахографов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Scan_ВидыТахографов.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="8b3a78d9-8a3b-4e5f-97eb-0110d0cf325a">
+    <name>IDExternalSystem</name>
+    <synonym>
+      <key>ru</key>
+      <value>IDExternal system</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>IDExternal system</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7257e306-d893-436a-994d-a04da1f90580">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of renewal</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5fbfa580-5832-4ef6-beae-b8ae34872b89">
+    <name>Расшифровка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расшифровка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Decryption</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b515ff39-fe02-4cdb-bbb7-1621919965c0">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form element</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="236e22e4-6edd-4d34-af07-ec1f428c073d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ac05b765-9705-496f-bc23-5d81589f54a1">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of selection</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

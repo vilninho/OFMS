@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Перевозчик</dataPath>
+			<field>Перевозчик</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтатусЗаявки</dataPath>
+			<field>СтатусЗаявки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СпособДоставкиИзделий</dataPath>
+			<field>СпособДоставкиИзделий</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дата</dataPath>
+			<field>Дата</field>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДФ=dd.MM.yyyy</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>ДФ=dd.MM.yyyy</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МестоДоставкиАдресСкладаЛогистический</dataPath>
+			<field>МестоДоставкиАдресСкладаЛогистический</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес логистический</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Адрес логистический</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаУходаФакт</dataPath>
+			<field>ДатаУходаФакт</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата получения (факт)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Дата получения (факт)</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КомпанияПолучатель</dataPath>
+			<field>КомпанияПолучатель</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МестоДоставки</dataPath>
+			<field>МестоДоставки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаПолучения</dataPath>
+			<field>ДатаПолучения</field>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МестоОтгрузки</dataPath>
+			<field>МестоОтгрузки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МестоОтгрузкиАдресСкладаЛогистический</dataPath>
+			<field>МестоОтгрузкиАдресСкладаЛогистический</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес логистический</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Адрес логистический</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КомпанияОтправитель</dataPath>
+			<field>КомпанияОтправитель</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаДоставки</dataPath>
+			<field>ДатаДоставки</field>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номер</dataPath>
+			<field>Номер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаДоставкиФакт</dataPath>
+			<field>ДатаДоставкиФакт</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата доставки (фактическая)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Дата доставки (фактическая)</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИзделиеVIN</dataPath>
+			<field>ИзделиеVIN</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>№</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>№</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИзделиеМодельПродукта</dataPath>
+			<field>ИзделиеМодельПродукта</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Модель</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Модель</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИзделиеТипПродуктаЛогистический</dataPath>
+			<field>ИзделиеТипПродуктаЛогистический</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип логистический</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Тип логистический</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Всего</dataPath>
+			<field>Всего</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Стоимость доставки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Стоимость доставки</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТочностьИсполненияЗаявки</dataPath>
+			<field>ТочностьИсполненияЗаявки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Точность исполнения заявки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Точность исполнения заявки</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПоздняяДоставка</dataPath>
+			<field>ПоздняяДоставка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поздняя доставка</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Поздняя доставка</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СрокОтНаправленияЗаявкиДоДатыОтгрузки</dataPath>
+			<field>СрокОтНаправленияЗаявкиДоДатыОтгрузки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Срок от направления заявки до даты отгрузки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Срок от направления заявки до даты отгрузки</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РанняяДоставка</dataPath>
+			<field>РанняяДоставка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ранняя доставка</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Ранняя доставка</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Delivery</dataPath>
+			<field>Delivery</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Delivery</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Delivery</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИзделиеБУ</dataPath>
+			<field>ИзделиеБУ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Б/У</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Б/У</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИзделиеАренда</dataPath>
+			<field>ИзделиеАренда</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аренда</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Аренда</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПереносДатыСогласован</dataPath>
+			<field>ПереносДатыСогласован</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перенос даты согласован</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Перенос даты согласован</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПравоНастройка</dataPath>
+			<field>ПравоНастройка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Объект</dataPath>
+			<field>Объект</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ссылка</dataPath>
+			<field>Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИзделиеТест</dataPath>
+			<field>ИзделиеТест</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИзделиеДемо</dataPath>
+			<field>ИзделиеДемо</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Демо</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.Дата КАК Дата,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.СтатусЗаявки КАК СтатусЗаявки,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.Перевозчик КАК Перевозчик,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.СпособДоставкиИзделий КАК СпособДоставкиИзделий,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.КомпанияОтправитель КАК КомпанияОтправитель,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.МестоОтгрузки.АдресСкладаЛогистический КАК МестоОтгрузкиАдресСкладаЛогистический,
+	ВЫБОР
+		КОГДА Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.МестоОтгрузки.КраткоеНаименование = ""
+			ТОГДА Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.МестоОтгрузки.Наименование
+		ИНАЧЕ Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.МестоОтгрузки.КраткоеНаименование
+	КОНЕЦ КАК МестоОтгрузки,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.ДатаПолучения КАК ДатаПолучения,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаУходаФакт КАК ДатаУходаФакт,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.КомпанияПолучатель КАК КомпанияПолучатель,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.МестоДоставки.АдресСкладаЛогистический КАК МестоДоставкиАдресСкладаЛогистический,
+	ВЫБОР
+		КОГДА Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.МестоДоставки.КраткоеНаименование = ""
+			ТОГДА Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.МестоДоставки.Наименование
+		ИНАЧЕ Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.МестоДоставки.КраткоеНаименование
+	КОНЕЦ КАК МестоДоставки,
+	ВЫБОР
+		КОГДА ЕСТЬNULL(Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиПлан, ДАТАВРЕМЯ(1, 1, 1)) = ДАТАВРЕМЯ(1, 1, 1)
+			ТОГДА Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.ДатаДоставки
+		ИНАЧЕ Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиПлан
+	КОНЕЦ КАК ДатаДоставки,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиФакт КАК ДатаДоставкиФакт,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.Номер КАК Номер,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Изделие.МодельПродукта КАК ИзделиеМодельПродукта,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Изделие.ТипПродуктаЛогистический КАК ИзделиеТипПродуктаЛогистический,
+	СУММА(Scan_ЗаявкаПеревозчикуОказанныеУслуги.Всего) КАК Всего,
+	РАЗНОСТЬДАТ(ВЫБОР
+			КОГДА ЕСТЬNULL(Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиПлан, ДАТАВРЕМЯ(1, 1, 1)) = ДАТАВРЕМЯ(1, 1, 1)
+				ТОГДА Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.ДатаДоставки
+			ИНАЧЕ Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиПлан
+		КОНЕЦ, Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиФакт, ДЕНЬ) КАК ТочностьИсполненияЗаявки,
+	ВЫБОР
+		КОГДА РАЗНОСТЬДАТ(ВЫБОР
+					КОГДА ЕСТЬNULL(Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиПлан, ДАТАВРЕМЯ(1, 1, 1)) = ДАТАВРЕМЯ(1, 1, 1)
+						ТОГДА Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.ДатаДоставки
+					ИНАЧЕ Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиПлан
+				КОНЕЦ, Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиФакт, ДЕНЬ) &lt; 0
+			ТОГДА ИСТИНА
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ КАК РанняяДоставка,
+	ВЫБОР
+		КОГДА РАЗНОСТЬДАТ(ВЫБОР
+					КОГДА ЕСТЬNULL(Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиПлан, ДАТАВРЕМЯ(1, 1, 1)) = ДАТАВРЕМЯ(1, 1, 1)
+						ТОГДА Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.ДатаДоставки
+					ИНАЧЕ Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиПлан
+				КОНЕЦ, Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиФакт, ДЕНЬ) &gt; 0
+			ТОГДА ИСТИНА
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ КАК ПоздняяДоставка,
+	РАЗНОСТЬДАТ(Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.Дата, Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.ДатаПолучения, ДЕНЬ) КАК СрокОтНаправленияЗаявкиДоДатыОтгрузки,
+	ВЫБОР
+		КОГДА Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.КомпанияОтправитель = Scan_ИсторияИзмененияПравИНастроекСрезПоследних.Значение
+			ТОГДА "From EU"
+		ИНАЧЕ ВЫБОР
+				КОГДА Scan_СоответствиеКодовАдресовДоставки.КодАдресаДоставки = ЗНАЧЕНИЕ(Справочник.Scan_КодыАдресовДоставки.PORTSTP)
+					ТОГДА "from port"
+				ИНАЧЕ "from local yard"
+			КОНЕЦ
+	КОНЕЦ КАК Delivery,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Изделие.НомерИзделия КАК ИзделиеVIN,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Изделие.БУ КАК ИзделиеБУ,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Изделие.Аренда КАК ИзделиеАренда,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Изделие.Тест КАК ИзделиеТест,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Изделие.Демо КАК ИзделиеДемо,
+	ВЫБОР
+		КОГДА Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиПлан &lt;&gt; Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.ДатаДоставки
+				И НАЧАЛОПЕРИОДА(Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиПлан, ДЕНЬ) = НАЧАЛОПЕРИОДА(Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиФакт, ДЕНЬ)
+				И Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиФакт &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)
+			ТОГДА ИСТИНА
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ КАК ПереносДатыСогласован,
+	Scan_ЗаявкаПеревозчикуОказанныеУслуги.Ссылка.Организация КАК Организация,
+	Scan_ЗаявкаПеревозчикуОказанныеУслуги.Ссылка КАК Ссылка
+ИЗ
+	Документ.Scan_ЗаявкаПеревозчику.СоставЗаявки КАК Scan_ЗаявкаПеревозчикуСоставЗаявки
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.Scan_ЗаявкаПеревозчику.ОказанныеУслуги КАК Scan_ЗаявкаПеревозчикуОказанныеУслуги
+		ПО Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка = Scan_ЗаявкаПеревозчикуОказанныеУслуги.Ссылка
+			И Scan_ЗаявкаПеревозчикуСоставЗаявки.Изделие = Scan_ЗаявкаПеревозчикуОказанныеУслуги.Изделие
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Scan_СоответствиеКодовАдресовДоставки КАК Scan_СоответствиеКодовАдресовДоставки
+		ПО Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.МестоОтгрузки = Scan_СоответствиеКодовАдресовДоставки.МестоХранения
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Scan_ИсторияИзмененияПравИНастроек.СрезПоследних(, ПравоНастройка = ЗНАЧЕНИЕ(ПланВидовХарактеристик.Scan_ПраваИНастройки.КонтрагентДляПризнакаFromEU)) КАК Scan_ИсторияИзмененияПравИНастроекСрезПоследних
+		ПО Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.КомпанияОтправитель = Scan_ИсторияИзмененияПравИНастроекСрезПоследних.Значение
+ГДЕ
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.Дата МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода
+	И Scan_ЗаявкаПеревозчикуОказанныеУслуги.Ссылка.Проведен = ИСТИНА
+	И Scan_ЗаявкаПеревозчикуОказанныеУслуги.Ссылка.Сторнирован = ЛОЖЬ
+	И Scan_ЗаявкаПеревозчикуОказанныеУслуги.Ссылка.СтатусЗаявки &lt;&gt; ЗНАЧЕНИЕ(Справочник.Scan_СтатусыЗаявокНаДействие.Аннулирована)
+	И Scan_ЗаявкаПеревозчикуОказанныеУслуги.Ссылка.ПометкаУдаления = ЛОЖЬ
+
+СГРУППИРОВАТЬ ПО
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.Дата,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.СтатусЗаявки,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.Перевозчик,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.СпособДоставкиИзделий,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.КомпанияОтправитель,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.МестоОтгрузки.АдресСкладаЛогистический,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.ДатаПолучения,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаУходаФакт,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.КомпанияПолучатель,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.МестоДоставки.АдресСкладаЛогистический,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиФакт,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.Номер,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Изделие.МодельПродукта,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Изделие.ТипПродуктаЛогистический,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Изделие.НомерИзделия,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Изделие.БУ,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Изделие.Аренда,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Изделие.Демо,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Изделие.Тест,
+	РАЗНОСТЬДАТ(ВЫБОР
+			КОГДА ЕСТЬNULL(Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиПлан, ДАТАВРЕМЯ(1, 1, 1)) = ДАТАВРЕМЯ(1, 1, 1)
+				ТОГДА Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.ДатаДоставки
+			ИНАЧЕ Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиПлан
+		КОНЕЦ, Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиФакт, ДЕНЬ),
+	ВЫБОР
+		КОГДА РАЗНОСТЬДАТ(ВЫБОР
+					КОГДА ЕСТЬNULL(Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиПлан, ДАТАВРЕМЯ(1, 1, 1)) = ДАТАВРЕМЯ(1, 1, 1)
+						ТОГДА Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.ДатаДоставки
+					ИНАЧЕ Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиПлан
+				КОНЕЦ, Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиФакт, ДЕНЬ) &lt; 0
+			ТОГДА ИСТИНА
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА РАЗНОСТЬДАТ(ВЫБОР
+					КОГДА ЕСТЬNULL(Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиПлан, ДАТАВРЕМЯ(1, 1, 1)) = ДАТАВРЕМЯ(1, 1, 1)
+						ТОГДА Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.ДатаДоставки
+					ИНАЧЕ Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиПлан
+				КОНЕЦ, Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиФакт, ДЕНЬ) &gt; 0
+			ТОГДА ИСТИНА
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА ЕСТЬNULL(Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиПлан, ДАТАВРЕМЯ(1, 1, 1)) = ДАТАВРЕМЯ(1, 1, 1)
+			ТОГДА Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.ДатаДоставки
+		ИНАЧЕ Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиПлан
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.МестоОтгрузки.КраткоеНаименование = ""
+			ТОГДА Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.МестоОтгрузки.Наименование
+		ИНАЧЕ Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.МестоОтгрузки.КраткоеНаименование
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.МестоДоставки.КраткоеНаименование = ""
+			ТОГДА Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.МестоДоставки.Наименование
+		ИНАЧЕ Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.МестоДоставки.КраткоеНаименование
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиПлан &lt;&gt; Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.ДатаДоставки
+				И НАЧАЛОПЕРИОДА(Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиПлан, ДЕНЬ) = НАЧАЛОПЕРИОДА(Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиФакт, ДЕНЬ)
+				И Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиФакт &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)
+			ТОГДА ИСТИНА
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ,
+	Scan_ЗаявкаПеревозчикуОказанныеУслуги.Ссылка.Организация,
+	Scan_ЗаявкаПеревозчикуОказанныеУслуги.Ссылка,
+	ВЫБОР
+		КОГДА Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.КомпанияОтправитель = Scan_ИсторияИзмененияПравИНастроекСрезПоследних.Значение
+			ТОГДА "From EU"
+		ИНАЧЕ ВЫБОР
+				КОГДА Scan_СоответствиеКодовАдресовДоставки.КодАдресаДоставки = ЗНАЧЕНИЕ(Справочник.Scan_КодыАдресовДоставки.PORTSTP)
+					ТОГДА "from port"
+				ИНАЧЕ "from local yard"
+			КОНЕЦ
+	КОНЕЦ</query>
+	</dataSet>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+		<availableAsField>false</availableAsField>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+		<availableAsField>false</availableAsField>
+		<denyIncompleteValues>true</denyIncompleteValues>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Дата</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СтатусЗаявки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Перевозчик</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СпособДоставкиИзделий</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КомпанияОтправитель</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МестоОтгрузкиАдресСкладаЛогистический</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МестоОтгрузки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаПолучения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаУходаФакт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КомпанияПолучатель</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МестоДоставкиАдресСкладаЛогистический</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МестоДоставки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаДоставки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаДоставкиФакт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПереносДатыСогласован</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Номер</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер заявки перевозчику</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Номер заявки перевозчику</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИзделиеVIN</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>№ шасси</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>№ шасси</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИзделиеМодельПродукта</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИзделиеТипПродуктаЛогистический</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Всего</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТочностьИсполненияЗаявки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>РанняяДоставка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПоздняяДоставка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СрокОтНаправленияЗаявкиДоДатыОтгрузки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Delivery</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИзделиеБУ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИзделиеАренда</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИзделиеДемо</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИзделиеТест</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Delivery</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:string"/>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>e5be78bd-1081-49cc-93a9-699858d60821</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Всего</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>dcfbda11-e0f9-4f2a-b1ef-d5070c3c074a</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Дата</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">Custom</v8:variant>
+						<v8:date>0001-01-01T00:00:00</v8:date>
+					</dcsset:right>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>fb6c250a-693d-4aea-acf5-5b3c3645f28b</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ДатаДоставки</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">Custom</v8:variant>
+						<v8:date>0001-01-01T00:00:00</v8:date>
+					</dcsset:right>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>21234f60-bb8e-4278-bb26-35ce204d9a35</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ДатаДоставкиФакт</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">Custom</v8:variant>
+						<v8:date>0001-01-01T00:00:00</v8:date>
+					</dcsset:right>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>685531ca-4126-4176-a969-d27de933d30e</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ДатаПолучения</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">Custom</v8:variant>
+						<v8:date>0001-01-01T00:00:00</v8:date>
+					</dcsset:right>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>cbe99dd5-e8be-4cd4-9d70-b2c17b594acc</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ДатаУходаФакт</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">Custom</v8:variant>
+						<v8:date>0001-01-01T00:00:00</v8:date>
+					</dcsset:right>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>d104dd08-b26d-458a-b1a6-cdcb28d1818e</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ИзделиеVIN</dcsset:left>
+					<dcsset:comparisonType>Contains</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:string"/>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>c16ca15f-9692-46f7-be6b-3180420985a2</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ИзделиеМодельПродукта</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>160d35fd-9347-410d-83cb-3a7a23a73df2</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ИзделиеТипПродуктаЛогистический</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>38d2ed59-a8a9-4499-9a02-236c2b304fb8</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">КомпанияОтправитель</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>b0f6c7a3-2008-44bd-a52a-1751c67d6e7c</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">КомпанияПолучатель</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>b2dfb140-e2be-4d35-bf71-f0e743686c2e</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">МестоДоставки</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>e660251b-f890-4c3e-960c-a4ece48a7bef</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">МестоДоставкиАдресСкладаЛогистический</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>7590a747-dca3-4082-9a49-53cb49569465</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">МестоОтгрузки</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>b920b970-9033-40d4-aebf-e13600752a5b</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">МестоОтгрузкиАдресСкладаЛогистический</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>feac0862-fce5-4513-a07c-299d051fdaad</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Номер</dcsset:left>
+					<dcsset:comparisonType>Contains</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:string"/>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>fce3f8a3-e8e5-49f6-9e5d-026be6745ad3</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Перевозчик</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>673c4efe-c32c-473e-b566-9f6346f8432e</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ПоздняяДоставка</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>c22704b5-d817-40cb-a724-708308fc0e1b</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">РанняяДоставка</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>cd9870b4-2e87-4a31-8541-6c8472b481b5</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">СпособДоставкиИзделий</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>e44efd6e-0233-44ba-b35c-4a327890e7ce</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">СрокОтНаправленияЗаявкиДоДатыОтгрузки</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>c5e4b5b3-27d2-4464-9086-b95f8916c20c</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">СтатусЗаявки</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>ba62878b-4655-4b5c-990f-ac6081dd8490</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ТочностьИсполненияЗаявки</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>59cd4644-6581-4171-86a6-cfd79d68f231</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>НачалоПериода</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcsset:userSettingID>3a464554-05cd-4a68-9756-251caa7e6b78</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>КонецПериода</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfNextDay</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>2e3be027-e4f1-4a91-9df5-2e8e85bfe68f</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Дата</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>Всего</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ТочностьИсполненияЗаявки</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>СрокОтНаправленияЗаявкиДоДатыОтгрузки</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧН=0</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>ЧН=0</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection/>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+					<dcsset:useInGroup>DontUse</dcsset:useInGroup>
+					<dcsset:useInHierarchicalGroup>DontUse</dcsset:useInHierarchicalGroup>
+					<dcsset:useInOverall>DontUse</dcsset:useInOverall>
+					<dcsset:useInParameters>DontUse</dcsset:useInParameters>
+					<dcsset:useInFilter>DontUse</dcsset:useInFilter>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Море</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьЗаголовок</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">Output</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Общий список доставок</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Общий список доставок</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

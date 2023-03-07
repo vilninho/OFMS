@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20e35bf5-e36c-485e-9b94-b413808e9261">
+  <name>ЗаполнитьПоБукингЛисту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнить по букинг-листу</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Заполнить по букинг-листу</value>
+  </synonym>
+</mdclass:CommonPicture>

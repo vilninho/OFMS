@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da8fa4ec-fef3-4778-b5d5-4332fdb83703">
+  <name>Scan_ЗадачаЗамечание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задача замечание</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Задача замечание</value>
+  </synonym>
+  <transparentPixel>
+    <x>13</x>
+    <y>3</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

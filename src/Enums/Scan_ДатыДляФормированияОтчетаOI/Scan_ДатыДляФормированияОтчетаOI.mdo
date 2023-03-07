@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="169394f2-65d3-45ff-ba10-1345085a1ca9">
+  <producedTypes>
+    <refType typeId="a958c9f9-c525-4d64-8bd3-a61c5cd6580e" valueTypeId="a9725802-9785-4bf8-9c0b-415f0cecfc08"/>
+    <listType typeId="b203aba5-5e20-48b9-958d-96c1a89eaef3" valueTypeId="9533e8e7-59b1-4cae-bc78-138330694919"/>
+    <managerType typeId="ff4c45f7-6f10-4cc1-b1c3-af84234f30fc" valueTypeId="45b7d86a-208a-4e0b-a89e-9c6a1bc32569"/>
+  </producedTypes>
+  <name>Scan_ДатыДляФормированияОтчетаOI</name>
+  <synonym>
+    <key>ru</key>
+    <value>Даты для формирования отчета OI (Scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Service date Order Intake report</value>
+  </synonym>
+  <comment>Bспользуется в регистре «Order intake»</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a0cb370a-a554-434c-bf8f-b24da262fa6b">
+    <name>ПодтверждениеЗавода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждение завода</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Factory accept</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9aeacd9c-6e6f-4d6f-b50c-4b0416ca3173">
+    <name>ВнесениеОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление оплаты</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Receipt of payment</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7be3cf19-5ef7-4bd9-aa22-efae9c863dcb">
+    <name>ОтменаОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отмена оплаты</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Cancellation of payment</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b2dc72a6-07c1-47aa-9e31-c075023068ae">
+    <name>ДатаОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгрузка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Shipment</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="452e3008-16fa-483a-b5e1-6c9ef036db50">
+    <name>ОтменаОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отмена отгрузки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Cancellation of shipment</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="16e5ba04-a713-4c5c-aace-b672e1f8d1d6">
+    <name>ДатаРасторжения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расторжение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Cancellation</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="57d42cd1-fb23-47cf-a7eb-c6a366233307">
+    <name>ТипЗаказаНеOpen</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип заказа не Open</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Order type is not Open</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4724f828-d9e2-4d67-afbb-14c2046ea00e">
+    <name>ЛокальныйCтатусПродуктаНеDELETED</name>
+    <synonym>
+      <key>ru</key>
+      <value>Локальный cтатус продукта не DELETED</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Local product status is not DELETED</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2759a057-a971-4607-9199-3070afcf8ef1">
+    <name>ЛокальныйCтатусПродуктаDELETED</name>
+    <synonym>
+      <key>ru</key>
+      <value>Локальный cтатус продукта DELETED</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Local product status is DELETED</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0d48a4f2-2c00-4522-9ac2-683cff90eb35">
+    <name>ДатаOrderIntake</name>
+    <synonym>
+      <key>ru</key>
+      <value>Order Intake</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Order Intake</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

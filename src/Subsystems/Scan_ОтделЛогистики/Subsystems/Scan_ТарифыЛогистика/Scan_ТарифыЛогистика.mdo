@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b79e721e-41fd-40d1-946b-eb5524e3a534">
+  <name>Scan_ТарифыЛогистика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарифы</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Tariffs</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.Scan_ИзменениеЦен</content>
+  <content>Catalog.Scan_НоменклатураУслуг</content>
+  <content>InformationRegister.Scan_ЗначенияДанныхДляРасчетаУслугиПлатон</content>
+  <content>InformationRegister.Scan_МатрицаТарифовДляДилеровПоДоставкеИзделий</content>
+  <content>InformationRegister.Scan_МатрицаТарифовПоДоставкеИзделий</content>
+  <content>InformationRegister.Scan_ПараметрыКалькулятораТарифовНаДоставку</content>
+  <content>InformationRegister.Scan_РасстояниеМеждуАдресами</content>
+  <content>InformationRegister.Scan_РеестрОказанныхУслугДилеру</content>
+  <content>InformationRegister.Scan_СтоимостьУслугДляРасчетаСтоимостиДоставки</content>
+  <content>InformationRegister.Scan_ЦеныУслугПоЛогистике</content>
+  <content>Catalog.Scan_ПакетыУслугДоставки</content>
+  <content>InformationRegister.Scan_РеестрОказанныхУслуг</content>
+  <content>Report.Scan_МатрицаТарифовДляДилеров</content>
+  <content>Report.Scan_МатрицаТарифовПоДоставкеИзделий</content>
+  <parentSubsystem>Subsystem.Scan_ОтделЛогистики</parentSubsystem>
+</mdclass:Subsystem>

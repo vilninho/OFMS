@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d944ad6-cc29-4b42-8ea1-07fec42eb129">
+  <producedTypes>
+    <selectionType typeId="c510ae2e-6796-4db3-9a54-6e9379e5a35a" valueTypeId="de3f9151-adab-4dd5-aa36-9bc475f33055"/>
+    <listType typeId="15fdd5cb-55ca-4f95-a931-77060e6b575f" valueTypeId="3cdf2073-c988-4535-a4c5-4325e9b988ec"/>
+    <managerType typeId="0a7d9afd-4bb4-44e8-9828-62551392c8b7" valueTypeId="2d2ea099-b64a-41a4-b1e1-36d137877e87"/>
+    <recordSetType typeId="6f8342e4-1d5d-43d4-8f5c-6de0d0d3e966" valueTypeId="d8a0bb7c-4f72-4e95-8271-f063515c5a21"/>
+    <recordKeyType typeId="02842282-95c8-437c-8a3e-f35bebcfe56e" valueTypeId="f6af4a50-34e4-4ed1-920e-de291f17f973"/>
+    <recordType typeId="92eaf701-b3db-4127-8a4f-068abd810e51" valueTypeId="60017eda-efdc-4f91-8614-21938290bf5d"/>
+    <recordManagerType typeId="3abdd3d4-92b9-427a-9f1a-71466856d51d" valueTypeId="136169f1-67a0-4838-a599-0212cae287db"/>
+  </producedTypes>
+  <name>Scan_ХарактеристикиЗаказовНаЗавод</name>
+  <synonym>
+    <key>ru</key>
+    <value>История заказов на завод (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Orders to plant history</value>
+  </synonym>
+  <comment>История заказов на завод  (scania)</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_ХарактеристикиЗаказовНаЗавод.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_ХарактеристикиЗаказовНаЗавод.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceFirst>true</enableTotalsSliceFirst>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="c2729954-4bf9-4066-a20e-330f5942bd19">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Value</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ПричиныОтклоненийПоDD</types>
+      <types>Boolean</types>
+      <types>CatalogRef.Scan_ЛокальныеСтатусыПродуктов</types>
+      <types>EnumRef.Scan_ТипыЗаказовНаЗавод</types>
+      <types>CatalogRef.Scan_Компании</types>
+      <types>CatalogRef.Scan_Контрагенты</types>
+      <types>String</types>
+      <types>CatalogRef.Scan_ОпцииПродуктов</types>
+      <types>Date</types>
+      <types>Number</types>
+      <types>EnumRef.Scan_КомплектностьПоставкиЗначения</types>
+      <types>CatalogRef.Scan_МестаХранения</types>
+      <types>CatalogRef.Scan_ЗаводскиеСтатусыЗаказаНаЗавод</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="5aa9982b-791d-41cb-8383-7f91e2ec137e">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="384c7e78-c424-476b-9465-163464d48392">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Order</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ЗаказыНаЗавод</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="790ba583-f0c3-4198-b925-bbfc19f8b508">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Detail</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Scan_ДополнительнаяИнформацияПоЗаказамНаЗавод</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="99e9a645-b421-44dd-b511-471417f2b955">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="49a0ce8a-dc71-447c-a22c-d8b5489d8862">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Recording form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

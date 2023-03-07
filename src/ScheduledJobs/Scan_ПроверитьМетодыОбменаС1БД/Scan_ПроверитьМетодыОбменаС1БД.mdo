@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6121b79d-d6b0-473d-88ce-c7e0ba37e2f0">
+  <name>Scan_ПроверитьМетодыОбменаС1БД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверить методы обмена с 1БД</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Проверить методы обмена с 1БД</value>
+  </synonym>
+  <methodName>CommonModule.Scan_РегламентныеЗадания.ПроверитьМетодыОбменаС1БД</methodName>
+  <description>Проверить методы обмена с 1БД</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

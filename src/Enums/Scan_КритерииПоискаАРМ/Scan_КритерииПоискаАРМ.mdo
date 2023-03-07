@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99a18705-037b-45f2-be05-266a34118901">
+  <producedTypes>
+    <refType typeId="77d1d12d-6235-4457-b041-ca4e285f9e10" valueTypeId="6d7b8327-9cc7-46b6-af46-562d492054f2"/>
+    <listType typeId="130885d6-9ee3-4b68-9c40-e0ee21fa136d" valueTypeId="6798da33-e35c-424f-8e1f-af59ffc1f8d0"/>
+    <managerType typeId="e0402e33-f578-46d7-bbd0-5b22a4a0d74e" valueTypeId="6d67e48f-2ea2-452f-9f3c-e53240c74190"/>
+  </producedTypes>
+  <name>Scan_КритерииПоискаАРМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Критерии поиска АРМ (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Критерии поиска АРМ (scania)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fecce6d5-f565-4c62-83ca-c3a1e7ddc828">
+    <name>НомерИзделия</name>
+    <synonym>
+      <key>ru</key>
+      <value>№ продукта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>№ продукта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2ab13a50-5f4f-45ff-b6a7-2915dff9f56c">
+    <name>МодельПродукта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель продукта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Модель продукта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="24ab7e3f-75b6-40f1-a80c-aa128efe228b">
+    <name>VIN</name>
+    <synonym>
+      <key>ru</key>
+      <value>VIN</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>VIN</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="14ac1c1e-065d-487e-81b1-8262f3d52a8a">
+    <name>НомерЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>№ заказа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>№ заказа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5ccece0d-50f0-4abe-be29-0604ee02b452">
+    <name>МестоХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Место хранения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="20ab8d3d-02f0-4a65-b5ef-0e953e8b7b11">
+    <name>Дилер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дилер</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дилер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ddaae095-ebf0-4301-b6f1-8b4816ad6955">
+    <name>НомерСоп</name>
+    <synonym>
+      <key>ru</key>
+      <value>№ СОП</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

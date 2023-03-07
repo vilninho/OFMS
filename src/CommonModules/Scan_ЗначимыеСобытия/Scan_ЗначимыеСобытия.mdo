@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1010e9af-c871-4ccd-b574-10a915044b7a">
+  <name>Scan_ЗначимыеСобытия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значимые события (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Значимые события (scania)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

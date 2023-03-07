@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec330da4-7e98-4a9b-a6ae-9b239c2aef7e">
+  <name>ПараметрыДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры документа</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Параметры документа</value>
+  </synonym>
+</mdclass:CommonPicture>

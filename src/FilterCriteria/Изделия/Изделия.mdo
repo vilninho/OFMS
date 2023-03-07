@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="948b98df-54a3-4330-a213-410c0e460f3f">
+  <producedTypes>
+    <listType typeId="7d206961-fcf4-4895-95fc-26884d450b5c" valueTypeId="d5bb0ee0-d6b9-4dc4-9a88-905dfe553cc1"/>
+    <managerType typeId="3790d3b5-725a-4567-ad70-bba7cb1be469" valueTypeId="293bf7d4-60eb-48d4-95a9-1ddc07390cce"/>
+  </producedTypes>
+  <name>Изделия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продукты</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Продукты</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Scan_Изделия</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Document.Scan_ДвижениеИзделий.TabularSection.СоставЗаявки.Attribute.Изделие</content>
+  <content>Document.Scan_ЗаявкаПеревозчику.TabularSection.СоставЗаявки.Attribute.Изделие</content>
+  <content>Document.Scan_ЗаявкаНаДействие.TabularSection.ПродуктыПоЗаявке.Attribute.Изделие</content>
+  <content>Document.Scan_ПеремещениеИзделий.TabularSection.ИзделияДляПеремещения.Attribute.Изделие</content>
+  <defaultForm>FilterCriterion.Изделия.Form.ФормаСписка</defaultForm>
+  <forms uuid="57500a77-248c-4f48-addc-928f0667ffa6">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:FilterCriterion>

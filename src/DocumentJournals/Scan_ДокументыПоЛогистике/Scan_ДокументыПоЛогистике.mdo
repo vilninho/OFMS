@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95ebb9cf-df76-4cb2-b927-d14a9b44b395">
+  <producedTypes>
+    <selectionType typeId="c3d2285e-9a3b-4f2e-938a-52752fd10531" valueTypeId="8820ccd1-74bd-4705-983b-a2b800e4a4b8"/>
+    <listType typeId="ed16b6f2-4f62-475a-81e0-5c0ce5040a5e" valueTypeId="d6c23f32-6504-4024-9caa-b67018818124"/>
+    <managerType typeId="7e6341c1-0571-4737-acb6-1c85e0eed73f" valueTypeId="a7f367d8-6fc9-4644-9b96-7a4d480c5680"/>
+  </producedTypes>
+  <name>Scan_ДокументыПоЛогистике</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы по логистике (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Документы по логистике (scania)</value>
+  </synonym>
+  <comment>Документы по логистике </comment>
+  <defaultForm>DocumentJournal.Scan_ДокументыПоЛогистике.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.Scan_ЗаявкаНаДействие</registeredDocuments>
+  <registeredDocuments>Document.Scan_ЗаявкаПеревозчику</registeredDocuments>
+  <registeredDocuments>Document.Scan_ДвижениеИзделий</registeredDocuments>
+  <registeredDocuments>Document.Scan_ПеремещениеИзделий</registeredDocuments>
+  <columns uuid="fcf3b044-7744-4bb1-a101-c499303f48e9">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Статус</value>
+    </synonym>
+    <references>Document.Scan_ЗаявкаНаДействие.Attribute.СтатусЗаявки</references>
+  </columns>
+  <columns uuid="3c0028ca-f413-42c7-827b-51e6a8d5f60e">
+    <name>Грузополучатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грузополучатель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Грузополучатель</value>
+    </synonym>
+    <references>Document.Scan_ЗаявкаНаДействие.Attribute.Грузополучатель</references>
+    <references>Document.Scan_ЗаявкаПеревозчику.Attribute.КомпанияПолучатель</references>
+  </columns>
+  <columns uuid="2bb1acc4-46f0-4d8f-8ea5-aeabb8e30a7e">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Договор</value>
+    </synonym>
+    <references>Document.Scan_ЗаявкаНаДействие.Attribute.Договор</references>
+  </columns>
+  <columns uuid="3fa21355-e3f3-4cc7-81f0-d8b05df525d8">
+    <name>ДатаДоставкиПлановая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата доставки плановая</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дата доставки плановая</value>
+    </synonym>
+    <references>Document.Scan_ЗаявкаНаДействие.Attribute.ДатаДоставкиПлановая</references>
+    <references>Document.Scan_ЗаявкаПеревозчику.Attribute.ДатаДоставки</references>
+  </columns>
+  <columns uuid="a91ad682-84a3-440e-83ed-5f59f97d5683">
+    <name>МестоДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место доставки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Место доставки</value>
+    </synonym>
+    <references>Document.Scan_ЗаявкаНаДействие.Attribute.МестоДоставки</references>
+    <references>Document.Scan_ЗаявкаПеревозчику.Attribute.МестоДоставки</references>
+  </columns>
+  <columns uuid="745b8c34-f5aa-4044-bf92-4bcb41fafd78">
+    <name>СпособДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ доставки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Способ доставки</value>
+    </synonym>
+    <references>Document.Scan_ЗаявкаНаДействие.Attribute.СпособДоставки</references>
+    <references>Document.Scan_ЗаявкаПеревозчику.Attribute.СпособДоставкиИзделий</references>
+  </columns>
+  <columns uuid="e5b7659d-ee9a-4cee-a647-b08fc3c87529">
+    <name>ПриемВВыходныеИПраздничные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прием в выходные и праздничные</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Прием в выходные и праздничные</value>
+    </synonym>
+    <references>Document.Scan_ЗаявкаНаДействие.Attribute.ПриемВВыходныеИПраздничные</references>
+  </columns>
+  <columns uuid="c3e0668b-2ea0-453e-9216-526776e4c4d6">
+    <name>ДатаПродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата продажи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дата продажи</value>
+    </synonym>
+    <references>Document.Scan_ЗаявкаНаДействие.Attribute.ДатаПродажи</references>
+  </columns>
+  <columns uuid="e786cb49-2f71-473b-a593-805639dbc609">
+    <name>ДатаВыкупа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выкупа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дата выкупа</value>
+    </synonym>
+    <references>Document.Scan_ЗаявкаНаДействие.Attribute.ДатаВыкупа</references>
+  </columns>
+  <columns uuid="1eca4ba2-d358-4d88-9c3a-9fe2fe789912">
+    <name>Подрядчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подрядчик</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Подрядчик</value>
+    </synonym>
+    <references>Document.Scan_ЗаявкаНаДействие.Attribute.Подрядчик</references>
+  </columns>
+  <columns uuid="e8396ab3-fc9a-41af-8e58-7a9e10e14cba">
+    <name>ДатаПередачиВПроизводство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата передачи в производство</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дата передачи в производство</value>
+    </synonym>
+    <references>Document.Scan_ЗаявкаНаДействие.Attribute.ДатаПередачиВПроизводство</references>
+  </columns>
+  <forms uuid="7fa9edb4-da14-4c75-a478-766a249d57e1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

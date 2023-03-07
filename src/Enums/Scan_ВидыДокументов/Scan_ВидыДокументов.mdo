@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5af186b6-bcc8-4b0f-b460-307bb7f7438a">
+  <producedTypes>
+    <refType typeId="08d72009-dc83-43f4-abaa-0ede9cb14d3f" valueTypeId="b48efeeb-5522-4ea5-a581-a429845a70c4"/>
+    <listType typeId="7240c92c-e98c-48d2-a7e7-fffb5d65b800" valueTypeId="53434a27-6697-47c3-bb05-acfc60820fc0"/>
+    <managerType typeId="e5af8fc1-0d3c-4f06-b886-d516e323f958" valueTypeId="7f62f33d-2fc3-441c-9d54-0751e5672e45"/>
+  </producedTypes>
+  <name>Scan_ВидыДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды документов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Types of documents</value>
+  </synonym>
+  <comment>(scania)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a89258c3-8525-4b8b-b211-3c7ff87a1d74">
+    <name>ЗаявкаНаДействие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка на действие</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Request for action</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d495b15a-7c72-476c-9a81-1b78c4555560">
+    <name>ЗаявкаПеревозчику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка перевозчику</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Order to carrier</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

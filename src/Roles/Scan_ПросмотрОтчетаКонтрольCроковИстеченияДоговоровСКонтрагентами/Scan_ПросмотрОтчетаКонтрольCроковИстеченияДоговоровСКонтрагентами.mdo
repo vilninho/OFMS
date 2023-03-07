@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="435c7faa-8d60-4ee6-86d4-46d830cfa6e6">
+  <name>Scan_ПросмотрОтчетаКонтрольCроковИстеченияДоговоровСКонтрагентами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр отчета Контроль cроков истечения договоров с контрагентами (scania)</value>
+  </synonym>
+</mdclass:Role>

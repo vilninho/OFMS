@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34d24d5b-c523-4383-85e8-2eb4b9eb75bc">
+  <name>Scan_Аннулировано</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аннулировано</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Аннулировано</value>
+  </synonym>
+  <comment>Для отображения аннулированных документов</comment>
+</mdclass:CommonPicture>

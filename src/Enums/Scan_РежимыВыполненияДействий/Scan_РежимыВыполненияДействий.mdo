@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c85dbee2-dedb-4bf1-a009-e279352ee91a">
+  <producedTypes>
+    <refType typeId="0b2a9c4c-ada7-49a3-8de7-7c59e6405631" valueTypeId="51d81cf0-44a5-4adc-9f53-28037294fc2b"/>
+    <listType typeId="7987bfdd-8843-4df2-81a9-abf46ad17796" valueTypeId="4b2e19d9-fd60-4c6f-badd-9f9f3df769e0"/>
+    <managerType typeId="a0bb52ef-c415-47f5-a581-5f793b83f689" valueTypeId="9e1834bc-fb40-4ee2-b6a8-ef09bcfa7cd4"/>
+  </producedTypes>
+  <name>Scan_РежимыВыполненияДействий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы выполнения действий (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Режимы выполнения действий (scania)</value>
+  </synonym>
+  <comment>Режимы выполнения действий</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="72c8a6ab-c170-4758-aa9f-da21a26f1d85">
+    <name>ВТранзакции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнять действия в транзакции</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Выполнять действия в транзакции</value>
+    </synonym>
+    <comment>Выполнять действия в транзакции</comment>
+  </enumValues>
+  <enumValues uuid="17da6953-59a7-40a2-b3e8-12dedaa46516">
+    <name>Прерывать</name>
+    <synonym>
+      <key>ru</key>
+      <value>В случае исключения прерывать выполнение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>В случае исключения прерывать выполнение</value>
+    </synonym>
+    <comment>В случае исключения прерывать выполнение</comment>
+  </enumValues>
+  <enumValues uuid="fe0f4ffb-abfe-498d-82ac-de938f774857">
+    <name>Продолжать</name>
+    <synonym>
+      <key>ru</key>
+      <value>В случае исключения продолжать выполнение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>В случае исключения продолжать выполнение</value>
+    </synonym>
+    <comment>В случае исключения продолжать выполнение</comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="478e4abe-b023-4c67-b083-68d16e6b3a8b">
+  <producedTypes>
+    <selectionType typeId="dafddfa9-c5cc-4099-bac8-34d417597859" valueTypeId="ae6b74f1-76cb-4301-927c-e1df4ae00bd8"/>
+    <listType typeId="30bc7d40-45c5-4ad4-91f2-fa0d5c2d6584" valueTypeId="5fd31997-e42a-448a-b84d-7d68f9748d05"/>
+    <managerType typeId="ba3cef54-be08-45db-97a8-8fb175469cd2" valueTypeId="dfc95de7-3022-4104-8a4d-a07891fc4799"/>
+    <recordSetType typeId="177429e7-47a7-48eb-b502-912bfa66a351" valueTypeId="639e5f07-6a7d-407f-91ba-67d3d9d30b23"/>
+    <recordKeyType typeId="08c89680-9d1b-4bb3-9dfd-73b8346ef1ad" valueTypeId="4caf788f-a074-4989-9334-4b5e2f79638b"/>
+    <recordType typeId="afa882d8-b4b6-43b6-ae06-b1e16d130eda" valueTypeId="f4686c2b-7333-4a4e-b8a3-a41e2e3fe1f4"/>
+    <recordManagerType typeId="2cbdcaae-9d50-4059-a4c8-0ebc7ff13787" valueTypeId="6ef4597c-bdb4-46e3-ac0d-371f86d6db12"/>
+  </producedTypes>
+  <name>Scan_МатрицаТарифовДляДилеровПоДоставкеИзделий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Матрица тарифов для дилеров (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Matrix tariffs for dealers (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_МатрицаТарифовДляДилеровПоДоставкеИзделий.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_МатрицаТарифовДляДилеровПоДоставкеИзделий.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="da601c85-66ce-44b1-a569-3d005eccfe62">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Cost of</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="bac1ee00-fe94-49b0-81f0-b8f37c3358f2">
+    <name>ТарифУказанВручную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф указан вручную</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Tariff Set Manually</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e3f8ac2d-7c1a-41f4-b33b-4922bc0deca2">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="a1881044-43f9-40e7-be7f-de77e792626e">
+    <name>УслугаПакета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга пакета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Package Service</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_НоменклатураУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="159bc6fd-94cb-43c0-8c42-85f79a64cb44">
+    <name>ЛогистическийТип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логистический тип</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Logistic type</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ТипыПродуктовЛогистика</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4c46d33b-845c-49eb-b1fe-2029ec879a96">
+    <name>СпособДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ доставки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Delivery method</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Scan_СпособыДоставкиПродуктов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e2d883cf-66b7-4cfe-a472-8a7f3ee57ede">
+    <name>КолеснаяФормула</name>
+    <synonym>
+      <key>ru</key>
+      <value>Колесная формула</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Wheel configuration</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_КолесныеФормулыИзделий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d5770987-17ef-40b8-8b5f-663886e7ed45">
+    <name>АдресПолучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес получения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Email address</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_АдресаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="de8da306-6b71-47b2-86cd-05f5958b3900">
+    <name>АдресДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес доставки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Delivery address</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_АдресаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="076f30f2-8042-4705-a401-77f918c0f5ea">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="89862891-eeb1-4c40-8b17-6b33cc77fc65">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Recording form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

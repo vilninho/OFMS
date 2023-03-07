@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6340f881-d975-47b8-a6bc-860576541f2f">
+  <name>Scan_ИнтеграцияС1БД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с 1БД</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Integration with 1BD</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>ScheduledJob.Scan_ЗагрузитьДанныеПоСОП</content>
+  <content>ScheduledJob.Scan_ОтправитьДанныеИзделийВ1БД</content>
+  <content>ScheduledJob.Scan_ОтправитьСобытияВ1БД</content>
+  <content>ScheduledJob.Scan_ПроверитьМетодыОбменаС1БД</content>
+  <content>ScheduledJob.Scan_ОтправитьДанныеРеквизитовВ1БД</content>
+  <subsystems>Scan_ДанныеДля1БД</subsystems>
+  <subsystems>Scan_КонтрольСостоянияИнтеграции</subsystems>
+  <subsystems>Scan_НастройкиИнтеграции</subsystems>
+  <subsystems>Scan_ПоддержкаИнтеграции</subsystems>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

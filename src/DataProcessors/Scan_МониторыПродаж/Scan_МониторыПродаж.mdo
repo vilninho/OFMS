@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="033e33e7-b713-4f39-8da9-2e76c3a290fd">
+  <producedTypes>
+    <objectType typeId="5395fc1d-bbd5-435d-8c75-7c9d4c59a8d3" valueTypeId="b5f06a4e-2c8e-4c1e-a004-a80707deb4bf"/>
+    <managerType typeId="a49fdbf5-a9ae-4cf2-845d-c8d2f3e35a7b" valueTypeId="48e1da9f-1c7f-4654-884d-17aa29e8fd01"/>
+  </producedTypes>
+  <name>Scan_МониторыПродаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мониторы продаж (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Sales monitors (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Scan_МониторыПродаж.Form.Форма</defaultForm>
+  <forms uuid="51c6fe0c-7e33-4527-b135-3c33f91f46cd">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="baf5ea64-683f-4b72-91a4-0420f2ba2dfb">
+    <name>ОткрытьБезПродажиКлиенту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мониторы продаж (scania)</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

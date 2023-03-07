@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a9177fe-6699-42b3-9588-eed9c6008c2d">
+  <producedTypes>
+    <containerType typeId="837e6f25-164d-4a9d-8603-96ce0ed382d8" valueTypeId="7d391b16-6b2a-430b-92e8-43416f365938"/>
+  </producedTypes>
+  <name>ВладелецПрисоединенныхФайловОбъект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Владелец присоединенных файлов объект</value>
+  </synonym>
+  <type>
+    <types>CatalogObject.Scan_ДоговорыВзаиморасчетов</types>
+    <types>CatalogObject.ПапкиФайлов</types>
+    <types>DocumentObject.Scan_ЧекЛистТехническогоСостоянияИзделия</types>
+    <types>DocumentObject.Scan_ЗаказНаЗакупку</types>
+    <types>CatalogObject.ШаблоныСообщений</types>
+    <types>CatalogObject.Scan_Компании</types>
+    <types>CatalogObject.Scan_Сотрудники</types>
+    <types>CatalogObject.Scan_ЭПТС</types>
+    <types>CatalogObject.Scan_ЗаказыНаЗавод</types>
+    <types>DocumentObject.Scan_ПрайсЛистSCVНаДвигатели</types>
+    <types>BusinessProcessObject.Задание</types>
+    <types>CatalogObject.Scan_Изделия</types>
+    <types>DocumentObject.Встреча</types>
+    <types>CatalogObject.Scan_СоглашенияОПоставке</types>
+    <types>DocumentObject.Scan_УстановкаЦенКомпонентов</types>
+    <types>CatalogObject.Организации</types>
+    <types>DocumentObject.ЭлектронноеПисьмоВходящее</types>
+    <types>CatalogObject.Scan_КонтактныеЛица</types>
+    <types>CatalogObject.Scan_СпециальныеУсловия</types>
+    <types>DocumentObject.Scan_ЗаявкаНаСервисныеРаботы</types>
+    <types>DocumentObject.Scan_СпецификацияСтандартнойМодели</types>
+    <types>DocumentObject.ЗапланированноеВзаимодействие</types>
+    <types>DocumentObject.Scan_ЗаявкаПеревозчику</types>
+    <types>DocumentObject.СообщениеSMS</types>
+    <types>DocumentObject.Scan_ПрайсЛистАренда</types>
+    <types>DocumentObject.ТелефонныйЗвонок</types>
+    <types>CatalogObject.ИдентификаторыОбъектовМетаданных</types>
+    <types>CatalogObject.Scan_СпецификацииПродуктов</types>
+    <types>DocumentObject.Scan_ЗаявкаНаДействие</types>
+    <types>CatalogObject.Scan_Контрагенты</types>
+    <types>DocumentObject.Scan_ЗапросНаНадстройки</types>
+    <types>DocumentObject.ЭлектронноеПисьмоИсходящее</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="650609d7-5ca8-4006-9261-2d14161a1fce">
+  <producedTypes>
+    <refType typeId="e029a519-070e-47cf-85ad-68e197408afc" valueTypeId="f007455a-ad2a-4f77-a9a1-ed0ea1e43042"/>
+    <listType typeId="2822d51c-21d9-4b5a-ae98-9dc565a5b8e3" valueTypeId="bc8f03da-dafb-4cd3-8d51-82d768b7f4d0"/>
+    <managerType typeId="cd7dd067-6acd-4957-b0c3-7853d1db625b" valueTypeId="7ab866a4-12ca-4af0-9935-6cb6fe802f8e"/>
+  </producedTypes>
+  <name>Scan_ТипыСочетанияОпций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы сочетания опций (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Types of option combination (scania)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8505ea39-c96f-4368-9f8d-07e4e45668f1">
+    <name>ВсеОдновременно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Все одновременно</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>All at the same time</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="577b9bee-7bec-4b38-88de-16698efc3164">
+    <name>ОднаИзСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Одна из списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>One of the list</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c88fe77-4820-49e7-a274-3d4139bdc1ed">
+  <producedTypes>
+    <selectionType typeId="d1927782-d6e9-42f9-a059-2169988b6252" valueTypeId="58812b49-c5ae-4a8c-aa26-229cbbbdf262"/>
+    <listType typeId="9eb5fd54-997c-45b5-a07c-6c716520b5ac" valueTypeId="09327687-740d-484a-93ca-bb96f25637e2"/>
+    <managerType typeId="4d1fa562-7af3-47c9-9921-08913e9ef570" valueTypeId="129cec0c-4f36-419e-8979-54a021676407"/>
+    <recordSetType typeId="1915ecf8-80cc-459f-bef9-31512f9f8ae1" valueTypeId="3b772ccd-6e7a-40f1-8f13-7d6425d035f9"/>
+    <recordKeyType typeId="d8d60535-0c2d-4376-b613-6ed6384c18b2" valueTypeId="e550a899-1433-447d-8306-85db1e4c5339"/>
+    <recordType typeId="58ae00e8-9b82-47fd-b434-e3f3abaf79eb" valueTypeId="e2d98742-1026-4f08-a936-244fb9201154"/>
+    <recordManagerType typeId="5dfa08d1-78b7-4867-bd23-b8fe47fadb86" valueTypeId="f24946f7-291f-4350-8fa3-f4bde369d51a"/>
+  </producedTypes>
+  <name>Scan_СоответствияТиповВидовИГрупп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствия типов, видов и групп продуктов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Product classifier settings</value>
+  </synonym>
+  <comment>Соответствия типов, видов и групп продуктов</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_СоответствияТиповВидовИГрупп.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_СоответствияТиповВидовИГрупп.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="81b1bd8e-d75f-4117-ade9-4f1823a778f9">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9720ad5c-5de2-4606-a4c5-7a12109caa36">
+    <name>ДатаИзмененияСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения связи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of changing</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="05b539fc-ae48-4b28-a62a-b01f505a07fa">
+    <name>ГруппаИзделийOFMS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа продуктов OFMS</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>OFMS product group</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Scan_ГруппыИзделийOFMS</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="7573aa43-bb19-4bca-8aea-dce706e8f001">
+    <name>ГруппаПродукта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа продукта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Pproduct group</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ГруппыПродуктов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="aa4f1c6f-f79f-4f49-9dc5-ee3d5f9f5c7d">
+    <name>ВидПродукта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид продукта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Product type</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ВидыПродуктов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a3d7fd28-1bfd-4fb4-ab45-409999fa7bf9">
+    <name>ТипПродукта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип продукта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Product subtype</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ТипыПродуктов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="60c436d9-7ddd-41c6-81ae-31dc8348daac">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Recording form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bdac1c0b-5a8f-451d-8644-6242b36e9bcf">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="be62745e-9c9d-4c64-a35e-f78db9f6ea97">
+    <name>ОткрытьСписокРазрешенныхВзаимосвязей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешенные взаимосвязи продуктов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Allowed product relationship</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="def9409f-4eb1-4083-aed1-ab71968c63a5">
+  <producedTypes>
+    <selectionType typeId="bf8559e2-02a5-4855-a0dd-cadfba79b967" valueTypeId="6a6ee457-7182-4a06-8257-1cbae0f5f206"/>
+    <listType typeId="04704a7d-81f6-4292-a8c0-883da9ce5fa9" valueTypeId="ba343840-6f1e-4d10-a073-6658f7e01560"/>
+    <managerType typeId="8e37474e-5bca-4f93-aa56-fad5a40cd35c" valueTypeId="831c0cc4-13da-4522-81f5-a4773c8f1a1b"/>
+    <recordSetType typeId="0ba09bb8-1036-4cb2-8b04-e2b44dd668bb" valueTypeId="3c497ef8-e3ed-4601-aada-a31dff568c27"/>
+    <recordKeyType typeId="5696ae1b-eda4-4a93-9167-36353e2d2005" valueTypeId="ba41073b-896c-440a-b055-b700cbfae27a"/>
+    <recordType typeId="da3cf89b-5f1c-484d-b3cb-dd8d154e93e3" valueTypeId="19a0a3ba-43ab-4ba3-ad14-0ec9dad0dc50"/>
+    <recordManagerType typeId="46c1052c-d873-4aaf-bd80-c9fbfef79453" valueTypeId="7822e8cb-598b-4da1-a7ed-20dc787bd2a4"/>
+  </producedTypes>
+  <name>Scan_ПланПоDeliveriesReport</name>
+  <synonym>
+    <key>ru</key>
+    <value>План по Deliveries Report (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Deliveries Report Plan (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.Scan_ПланПоDeliveriesReport.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>en</key>
+    <value>Deliveries Report Plan (scania)</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>en</key>
+    <value>Deliveries Report Plan (scania)</value>
+  </extendedListPresentation>
+  <resources uuid="7cb97a86-b108-4e1a-8f6c-b57bb1dec876">
+    <name>КоличествоПлан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество (план)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Quantity (plan)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1fd3637f-a3a9-4bfa-b229-2b2e21ae13fb">
+    <name>ПланМесяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>План (месяц)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Plan (month)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="40edda6e-b7d7-4fdd-9b81-0747b704034c">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f4d61693-1b6a-4728-8f8b-c027b0a6ecf1">
+    <name>ХозОперация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хозяйственная операция</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Business operation</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ХозяйственныеОперации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b898ae68-3029-459e-9b70-1c83aac2cf35">
+    <name>МесяцПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц планирования</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Planning month</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9db1e47b-294b-40ba-bf34-26815313ea26">
+    <name>ГодПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год планирования</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Year of planning</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧЦ=4; ЧДЦ=0; ЧГ=</value>
+    </format>
+    <format>
+      <key>en</key>
+      <value>ЧЦ=4; ЧДЦ=0; ЧГ=</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧЦ=4; ЧДЦ=0; ЧГ=</value>
+    </editFormat>
+    <editFormat>
+      <key>en</key>
+      <value>ЧЦ=4; ЧДЦ=0; ЧГ=</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="aae772ab-b211-4838-a2fd-0d6312ddec13">
+    <name>ДатаРабочегоДня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата рабочего дня</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Business day</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="03354f9b-ed0c-4484-b472-6f64fdbd2146">
+    <name>ВидДилера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид дилера</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Dealer Type</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Scan_ВидыДилеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="d6a918ca-d712-4cac-a3bb-952883d9f70c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be6bf8fe-459d-4d89-8818-015e0600c4f2">
+  <name>CustSettlement</name>
+  <synonym>
+    <key>ru</key>
+    <value>Cust settlement</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Cust settlement</value>
+  </synonym>
+  <namespace>http://www.scania.org/webservice/SRUService/CustSettlement</namespace>
+</mdclass:XDTOPackage>

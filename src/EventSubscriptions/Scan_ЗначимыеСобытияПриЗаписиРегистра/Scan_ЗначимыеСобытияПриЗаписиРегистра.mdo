@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7004e6d-b457-4ebc-975a-d22ed4f49889">
+  <name>Scan_ЗначимыеСобытияПриЗаписиРегистра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значимые события при записи регистра (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Значимые события при записи регистра (scania)</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet</types>
+    <types>AccumulationRegisterRecordSet</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.Scan_ЗначимыеСобытия.ЗначимыеСобытияПриЗаписиРегистры</handler>
+</mdclass:EventSubscription>

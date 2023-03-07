@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2464472-eb0b-47f4-9fd9-339586134f4b">
+  <producedTypes>
+    <selectionType typeId="e951487f-aa82-4ba7-b1de-53d494637ba2" valueTypeId="b4962495-6241-4c9a-ac47-ca14bd48758d"/>
+    <listType typeId="d0badf60-ceda-4279-ab89-fc846be6bb6c" valueTypeId="ee1ad186-76b2-48e0-82f9-e4b284c434ee"/>
+    <managerType typeId="a38e5680-e98b-4b61-a7fd-da350d30ec30" valueTypeId="40c7fcad-1676-4b6d-9760-b824ee6bfcd5"/>
+    <recordSetType typeId="25bfbd05-0b7f-470c-997e-5edb5a8dd2fa" valueTypeId="93c52cc5-9f2c-4841-badc-b5e687192852"/>
+    <recordKeyType typeId="ebd5b0b2-a8eb-4eac-8aec-0a811aaf3f2f" valueTypeId="e492ac10-c598-41b6-b84c-e05b6a74f74d"/>
+    <recordType typeId="43a38445-31f0-4ebc-b29e-7968423208c6" valueTypeId="e84a01a8-316b-4012-8045-23bdc5b268fa"/>
+    <recordManagerType typeId="000b51d2-c302-4796-99e4-60ed39af0d31" valueTypeId="462fbe42-a120-4e51-bb6c-481460f73245"/>
+  </producedTypes>
+  <name>Scan_ИсторияКомпаний</name>
+  <synonym>
+    <key>ru</key>
+    <value>История компаний (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Company history (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_ИсторияКомпаний.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_ИсторияКомпаний.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2e83e6a1-1615-4997-a2f2-67d41d6fb123">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Scan_ВидыДилеров</types>
+      <types>CatalogRef.Scan_СтатусыКомпаний</types>
+      <types>Boolean</types>
+      <types>CatalogRef.Scan_Контрагенты</types>
+      <types>CatalogRef.Scan_ГруппыКомпаний</types>
+      <types>String</types>
+      <types>CatalogRef.Scan_ФормыКомпаний</types>
+      <types>CatalogRef.Scan_ТипыДилеров</types>
+      <types>Date</types>
+      <types>Number</types>
+      <types>CatalogRef.Scan_МестаХранения</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="f29e1be8-6fea-4948-85de-2be1dee67413">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="aa608353-fe5d-44e5-aa7f-abec91b2c227">
+    <name>Компания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компания</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Компании</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e2f52d00-3114-4662-b665-e12521c71a63">
+    <name>ВидЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид значения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Scan_ДополнительнаяИнформацияПоКомпаниям</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="4a0db160-6c9a-49b6-8953-ead4e1583e07">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a0649728-ec61-4990-9edd-5f1906e1edd5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

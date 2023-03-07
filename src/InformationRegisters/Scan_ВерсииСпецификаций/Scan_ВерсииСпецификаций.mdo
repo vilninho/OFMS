@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6a9212a-9b60-4540-a4d6-8ed62a2674f8">
+  <producedTypes>
+    <selectionType typeId="1f4e18bf-e2bf-4fe2-b948-a1903ea63703" valueTypeId="2b1afe0c-129d-4b8e-b993-d138faae17f1"/>
+    <listType typeId="2534adb0-4698-4c8c-9131-da9093ae24b9" valueTypeId="3e033a85-8dfc-4416-af59-3f6fad8703fa"/>
+    <managerType typeId="6863137a-f281-4c68-9284-7d2b5e3d1b63" valueTypeId="3dc2b9e5-19f0-41a8-9a3f-88d5fee4a10a"/>
+    <recordSetType typeId="b69fbd9c-f86b-4826-a141-df72fc46e0f8" valueTypeId="e601a6d3-8367-4dc3-925d-80a550f18ba6"/>
+    <recordKeyType typeId="ab1b95cb-1eb8-4444-81da-2bab7395131b" valueTypeId="700ff524-11a3-4a80-a42d-eb0ac6bad32d"/>
+    <recordType typeId="92023405-e857-431c-ad2a-f9db4e619321" valueTypeId="665a6507-2424-4d79-941c-253c20126a96"/>
+    <recordManagerType typeId="43ff6c4d-81ac-4a08-8744-f017f0c35972" valueTypeId="05aab020-47ce-4b9a-ac56-4fe718d8f05c"/>
+  </producedTypes>
+  <name>Scan_ВерсииСпецификаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версии спецификаций (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Specification versions (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_ВерсииСпецификаций.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_ВерсииСпецификаций.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1b95e762-d064-4104-b7a2-6580aff2d348">
+    <name>Опции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опции</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Option</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <attributes uuid="ac58b000-7ebf-4de6-9ad0-07a47794f005">
+    <name>ПродуктКП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукт КП</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The product KP</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="905ea406-dd08-4b1c-bcec-9abe57a85b57">
+    <name>ДатаВерсииСпецификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата версии спецификации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date version of the specification</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3a2a1602-5919-4be8-846c-b2bd7ba4054b">
+    <name>НомерКПSPORT</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер КП SPORT</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Number KP SPORT</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="40bca52b-ded5-4554-853d-95b6c9872720">
+    <name>Спецификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спецификация</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Specification</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ВерсииБазовыхСпецификаций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6f8f6310-2a99-4451-98ca-56ed0fad7855">
+    <name>ВидСпецификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид спецификации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Kind of specification</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ВидыСпецификацийПродуктов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e90b3347-e71b-4d0a-a4aa-171958737cb4">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Version</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧН=0</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧН=0</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e83b3372-157d-45e2-b457-c662ad9009d6">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bdf49210-798c-4a5e-9dd3-dac593032b6f">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Recording form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

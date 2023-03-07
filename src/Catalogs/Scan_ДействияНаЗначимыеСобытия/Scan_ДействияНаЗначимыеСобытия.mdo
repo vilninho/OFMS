@@ -1,0 +1,2024 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58e11a8c-a269-463e-b86c-488f4cc3bb06">
+  <producedTypes>
+    <objectType typeId="9b36a064-45ef-4d72-851b-2a97d3f1ff46" valueTypeId="2b74b190-4459-484d-9a24-9635d9515ec5"/>
+    <refType typeId="b01bc52d-8f7b-4b99-91e6-8acfff45d8fd" valueTypeId="04930949-bba3-40b5-ad97-88de2ef3ada5"/>
+    <selectionType typeId="80095e9b-4704-4e10-ba7c-e9983af475b5" valueTypeId="c10fdcd1-d32b-4819-83ea-7dacd24d5f58"/>
+    <listType typeId="5de33206-c777-42f6-a4fb-4e3358439e7e" valueTypeId="f1250942-bb00-4c51-bd64-716088aab71c"/>
+    <managerType typeId="e85436e2-f4d3-4c4a-8454-07d042506ccf" valueTypeId="26bfe947-6cb8-4ed7-9a8a-ba3e217de4a7"/>
+  </producedTypes>
+  <name>Scan_ДействияНаЗначимыеСобытия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действия на значимые события (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Действия на значимые события (scania)</value>
+  </synonym>
+  <comment>Определяет необходимые действия при наступлении значимого события</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_ДействияНаЗначимыеСобытия.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_ДействияНаЗначимыеСобытия.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Действие</value>
+  </extendedObjectPresentation>
+  <extendedObjectPresentation>
+    <key>en</key>
+    <value>Действие</value>
+  </extendedObjectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>
+
+
+</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>
+
+
+</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>8</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_ДействияНаЗначимыеСобытия.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_ДействияНаЗначимыеСобытия.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Scan_ДействияНаЗначимыеСобытия.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="086d7b74-299b-42e1-9cf6-052b4a297a0c">
+    <name>SMSОтправлятьВТранслите</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлять в транслите</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Отправлять в транслите</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что сообщение необходимо отправить в транслите</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Признак того, что сообщение необходимо отправить в транслите</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="80281631-066f-421b-a19a-2c0f4653f7b2">
+    <name>SMSТекстСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текст сообщения SMS</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Текст сообщения SMS</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d4711cc7-8dcc-4555-92fc-feec718eb29a">
+    <name>SMSТекстСообщенияПроизвольныйКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текст сообщения SMS</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Текст сообщения SMS</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b5d88c21-92f3-4f68-81bc-398ec0f1af46">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Автор</value>
+    </synonym>
+    <comment>Пользователь создавший документ</comment>
+    <type>
+      <types>String</types>
+      <types>CatalogRef.Пользователи</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f345c158-4ab2-4111-9cdc-10629536be67">
+    <name>АвторПроизвольныйКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор произвольный код (электронное письмо)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Автор произвольный код (электронное письмо)</value>
+    </synonym>
+    <comment>Пользователь создавший документ</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a1bd4f2e-b92b-468c-a4e2-03f58f011f51">
+    <name>АвторПутьКДанным</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор путь к данным (электронное письмо)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Автор путь к данным (электронное письмо)</value>
+    </synonym>
+    <comment>Путь к данным, ссылке</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0c2f4751-d533-49b2-abe1-cd25f05c6d09">
+    <name>Важность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Важность</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Важность</value>
+    </synonym>
+    <comment>Важность сообщения/письма</comment>
+    <type>
+      <types>EnumRef.Scan_Важность</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Важность сообщения/письма</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Важность сообщения/письма</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="249f4e75-575b-487c-8855-00c44f2cc65b">
+    <name>ВажностьПроизвольныйКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Важность произвольный код (электронное письмо)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Важность произвольный код (электронное письмо)</value>
+    </synonym>
+    <comment>Важность электронного письма (произвольный код)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="55bd7ca4-69c8-44f2-abc1-7da3afc26964">
+    <name>ВидДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид действия</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Вид действия</value>
+    </synonym>
+    <comment>Вид действия</comment>
+    <type>
+      <types>EnumRef.Scan_ВидДействияНаЗначимоеСобытие</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид выполняемого действия при обработке событий </value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Вид выполняемого действия при обработке событий </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f1eedb5e-dc5f-454b-bb70-918aef604194">
+    <name>ВремяСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время события</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Время события</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1405d383-237b-41c3-9a5b-120137c8b905">
+    <name>ДатаНапоминания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата напоминания (Напоминание)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дата напоминания (Напоминание)</value>
+    </synonym>
+    <comment>Дата начала напоминания</comment>
+    <type>
+      <types>String</types>
+      <types>Date</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7e1bd173-3e76-48a1-9da2-f4ee1683bc08">
+    <name>ДатаНапоминанияПроизвольныйКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата напоминания произвольный код (Напоминание)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дата напоминания произвольный код (Напоминание)</value>
+    </synonym>
+    <comment>Дата напоминания произвольный код</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="063fa6e0-783f-4233-a4bd-3c87e8bd9f5d">
+    <name>ДатаНапоминанияПутьКДанным</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата напоминания путь к данным (Напоминание)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дата напоминания путь к данным (Напоминание)</value>
+    </synonym>
+    <comment>Дата напоминания путь к данным</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="587a97e2-b528-45a8-a82c-c5e4e163a06c">
+    <name>жрДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Данные</value>
+    </synonym>
+    <comment>Произвольные данные  (Журнал регистрации)</comment>
+    <type>
+      <types>String</types>
+      <types>AnyRef</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Данные</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Данные</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b98f551d-8009-4b74-87ad-fc5b5ade5ce3">
+    <name>жрДанныеПроизвольныйКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные произвольный код (Журнал регистрации)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Данные произвольный код (Журнал регистрации)</value>
+    </synonym>
+    <comment>Произвольные данные</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2271326b-d388-438f-a498-d8642b488d23">
+    <name>жрДанныеПутьКДанным</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные путь к данным (Журнал регистрации)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Данные путь к данным (Журнал регистрации)</value>
+    </synonym>
+    <comment>Путь к реквизитам объекта-источника</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d497d417-92ab-41df-877b-8f9d6208c550">
+    <name>жрОбъектМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект метаданных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Объект метаданных</value>
+    </synonym>
+    <comment>Строка, хранящая полный путь к объекту метаданных  (Журнал регистрации)</comment>
+    <type>
+      <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полный путь к объекту метаданных</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Полный путь к объекту метаданных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="23856f1e-0951-4321-b33e-1a1130842d39">
+    <name>жрОбъектМетаданныхИмяОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект метаданных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Объект метаданных</value>
+    </synonym>
+    <comment>Строка, хранящая полный путь к объекту метаданных</comment>
+    <type>
+      <types>String</types>
+      <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="63f10044-1dbb-44ef-8f63-cb9f058443ac">
+    <name>жрОбъектМетаданныхПроизвольныйКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект метаданных произвольный код (Журнал регистрации)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Объект метаданных произвольный код (Журнал регистрации)</value>
+    </synonym>
+    <comment>Объект метаданных произвольный код</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8d396803-280e-4044-ab82-4e152b6922e0">
+    <name>жрСобытие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрируемое событие</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Регистрируемое событие</value>
+    </synonym>
+    <comment>Регистрируемое событие (Журнал регистрации)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Регистрируемое событие</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Регистрируемое событие</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8586e639-3182-432b-a865-80d902fac599">
+    <name>жрСобытиеПроизвольныйКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие произвольный код (Журнал регистрации)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Событие произвольный код (Журнал регистрации)</value>
+    </synonym>
+    <comment>Событие произвольный код</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c61b574d-5868-4ffb-a5e8-6879bb518ce0">
+    <name>жрУровеньВажности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень важности</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Уровень важности</value>
+    </synonym>
+    <comment>Уровень важности (Журнал регистрации)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Уровень важности записи</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Уровень важности записи</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ab73e76b-3a0d-40d5-b16c-cb3bd624c17f">
+    <name>ЗадействоватьВводНаОсновании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввести объект на основании источника</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ввести объект на основании источника</value>
+    </synonym>
+    <comment>Ввести объект на основании объекта-источника</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a40406f6-96a3-4961-9799-395efb82a7a8">
+    <name>ЗаполнитьРеквизитыПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнить реквизиты по-умолчанию</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Заполнить реквизиты по-умолчанию</value>
+    </synonym>
+    <comment>Признак использования для создаваемого объекта ссылочного типа механизма заполнения реквизитов по-умолчанию</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c59c74ee-d5e5-48af-9af3-d6819af86a49">
+    <name>ИнтервалВремениНапоминания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервал времени напоминания</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Интервал времени напоминания</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Интервал времени в секундах. Имеет смысл только для относительного способа указания времени напоминания.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Интервал времени в секундах. Имеет смысл только для относительного способа указания времени напоминания.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:NumberValue">
+      <value>3600</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8540cc1e-1eee-44cd-a5a9-624c3eed845c">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий (электронное письмо)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Комментарий (электронное письмо)</value>
+    </synonym>
+    <comment>Комментарий документа</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3fd02a96-762e-45fb-88ab-c828e08daaf2">
+    <name>КомментарийПроизвольныйКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий произвольный код (электронное письмо)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Комментарий произвольный код (электронное письмо)</value>
+    </synonym>
+    <comment>Комментарий документа</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="36b0e230-f2f5-4333-8b23-b4698bc460ac">
+    <name>ОтправитьSMS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправить SMS</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Отправить SMS</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Определяет действия над сообщением после его создания</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Определяет действия над сообщением после его создания</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9479fa6f-7f51-4667-9b6c-f4e925e138c9">
+    <name>ПредставлениеТипаОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление типа объекта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Представление типа объекта</value>
+    </synonym>
+    <comment>Представление типа объекта</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2c960e18-281d-46b3-b662-60aa42623527">
+    <name>ПровестиДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Провести документ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Провести документ</value>
+    </synonym>
+    <comment>В случае, если создается документ, этим реквизитом определяется, нужно ли его проводить.</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="252cd257-80d2-4c44-aa85-ba026f317dd7">
+    <name>ПроизвольныйКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольный код 1С для выполнения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Произвольный код 1С для выполнения</value>
+    </synonym>
+    <comment>Произвольный код </comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7a0d7d97-b090-4bd6-b7d2-8689a19a40ba">
+    <name>Расписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расписание</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Расписание</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9aae2ad4-aefe-4146-9134-b9e89f259388">
+    <name>Содержание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Содержание</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Содержание</value>
+    </synonym>
+    <comment>Содержание (Напоминание)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4bc8bb07-0799-4eea-b85c-80914c1e4f4d">
+    <name>СодержаниеПроизвольныйКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Содержание произвольный код(Напоминание)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Содержание произвольный код(Напоминание)</value>
+    </synonym>
+    <comment>Содержание произвольный код</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1bedd427-8708-460c-bd5f-5242128b71da">
+    <name>СпособУстановкиВремениНапоминания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ установки времени напоминания</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Способ установки времени напоминания</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Scan_ВидыПравил</types>
+      <types>EnumRef.СпособыУстановкиВремениНапоминания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="79d4da0a-8aca-4b0f-a0dd-da295eb0eb01">
+    <name>Тема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Тема</value>
+    </synonym>
+    <comment>Тема сообщения</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тема</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Тема</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ed657370-0658-4c73-b1e6-c48fdf68c424">
+    <name>ТемаПроизвольныйКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема произвольный код (электронное письмо)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Тема произвольный код (электронное письмо)</value>
+    </synonym>
+    <comment>Тема электронного сообщения</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b2ce4554-5379-40f1-88fc-a94df5f1f2e9">
+    <name>ТипОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип объекта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Тип объекта</value>
+    </synonym>
+    <comment>Тип создаваемого объекта</comment>
+    <type>
+      <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.БезДанных</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>ВыбиратьГруппыОбъектовМетаданных</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ПорядокКоллекции</name>
+      <value xsi:type="core:FixedArrayValue">
+        <values xsi:type="core:NumberValue">
+          <value>0</value>
+        </values>
+        <values xsi:type="core:NumberValue">
+          <value>3</value>
+        </values>
+        <values xsi:type="core:NumberValue">
+          <value>4</value>
+        </values>
+        <values xsi:type="core:NumberValue">
+          <value>5</value>
+        </values>
+        <values xsi:type="core:NumberValue">
+          <value>9</value>
+        </values>
+        <values xsi:type="core:NumberValue">
+          <value>10</value>
+        </values>
+        <values xsi:type="core:NumberValue">
+          <value>12</value>
+        </values>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f24132fb-8338-4431-b305-ced63b9423b2">
+    <name>эпТекстПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст письма (электронное письмо)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Текст письма (электронное письмо)</value>
+    </synonym>
+    <comment>Текст электронного сообщения</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5dfec00e-b361-4cbc-9fc7-bc7c47f57401">
+    <name>эпТекстПисьмаПроизвольныйКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст письма произвольный код (электронное письмо)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Текст письма произвольный код (электронное письмо)</value>
+    </synonym>
+    <comment>Текст электронного сообщения</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e0961bd6-34e7-4480-aeca-23948a13d46c">
+    <name>эпУчетнаяЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись (электронное письмо)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Учетная запись (электронное письмо)</value>
+    </synonym>
+    <comment>Почтовый ящик с которого было принято/отправлено сообщение </comment>
+    <type>
+      <types>String</types>
+      <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Учетная запись отправителя</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Учетная запись отправителя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e9a8b778-216e-47d7-ae9c-33c255fe547b">
+    <name>эпУчетнаяЗаписьПроизвольныйКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись произвольный код (электронное письмо)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Учетная запись произвольный код (электронное письмо)</value>
+    </synonym>
+    <comment>Почтовый ящик с которого было принято/отправлено сообщение </comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3934f8ae-8202-45fd-b7e5-7ea699605e7e">
+    <name>эпУчетнаяЗаписьПутьКДанным</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись путь к данным (электронное письмо)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Учетная запись путь к данным (электронное письмо)</value>
+    </synonym>
+    <comment>Почтовый ящик с которого было принято/отправлено сообщение </comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a65f9f4c-5345-4e79-9983-84f330d4533c">
+    <name>эпФорматТекста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат текста</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Формат текста</value>
+    </synonym>
+    <comment>Вид текста почтового сообщения HTML, Простой текст</comment>
+    <type>
+      <types>EnumRef.ТипыТекстовЭлектронныхПисем</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Определяет формат текста электронного письма: простой текст, либо HTML текст. 
+</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Определяет формат текста электронного письма: простой текст, либо HTML текст. 
+</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ТипыТекстовЭлектронныхПисем.EnumValue.ПростойТекст</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="2b9f2def-3013-45a6-b7ed-61c2d67d52a4">
+    <producedTypes>
+      <objectType typeId="18c85658-a3c7-4dbe-8cb1-7202bb9e33af" valueTypeId="812032a8-4a47-42c5-a6cc-49263a76a917"/>
+      <rowType typeId="b72d9677-0b4a-4bd3-ba89-f39fd36a1024" valueTypeId="8e62da62-8578-411c-941b-d123d388972f"/>
+    </producedTypes>
+    <name>Соответствия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствия</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Соответствия</value>
+    </synonym>
+    <comment>В табличной части хранятся соответствия</comment>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="07b89c0a-ad26-4b2e-afb3-ecc57f19335b">
+      <name>ПредставлениеРеквизита</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реквизит</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Реквизит</value>
+      </synonym>
+      <comment>Представление реквизита</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8f729338-e23c-4b8c-b86f-0c15c10ce530">
+      <name>РеквизитОбъекта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реквизит объекта</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Реквизит объекта</value>
+      </synonym>
+      <comment>Реквизит объекта</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e992b4c0-785e-4112-9a96-6b763aead156">
+      <name>ВидПравила</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид правила</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Вид правила</value>
+      </synonym>
+      <type>
+        <types>EnumRef.Scan_ВидыПравил</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f4765891-cb21-4780-aaee-f9f81b53d764">
+      <name>Правило</name>
+      <synonym>
+        <key>ru</key>
+        <value>Правило</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Правило</value>
+      </synonym>
+      <comment>Представление правила</comment>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <types>AnyRef</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6948bd33-af6e-4f1f-b274-c08cb1b98383">
+      <name>ПутьКДанным</name>
+      <synonym>
+        <key>ru</key>
+        <value>Путь к данным</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Путь к данным</value>
+      </synonym>
+      <comment>Путь к данным</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f370ed22-0ca0-430b-a730-175171bfdd37">
+      <name>ПроизвольныйКод</name>
+      <synonym>
+        <key>ru</key>
+        <value>Произвольный код</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Произвольный код</value>
+      </synonym>
+      <comment>произвольный код</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="89301cfd-a5a3-48a0-9827-db0a1bc76a78">
+      <name>ТипРеквизита</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип реквизита</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Тип реквизита</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <types>AnyRef</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="49df73b3-cc20-4345-a282-9f8caccdd23b">
+    <producedTypes>
+      <objectType typeId="79d2c9d1-a712-43cc-b461-4270885163c9" valueTypeId="4d626d40-d4b0-405d-9eb6-d6ac83c6cd41"/>
+      <rowType typeId="1939ad14-c5d3-4dc9-a06b-8356adc8a454" valueTypeId="2dee5022-258b-4ce2-a1fc-6e366943d8db"/>
+    </producedTypes>
+    <name>ПолучателиНапоминания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатели напоминания</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Получатели напоминания</value>
+    </synonym>
+    <comment>В табличной части хранятся получатели напоминания</comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Получатели напоминания</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Получатели напоминания</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="0b923b98-0604-4b9e-a23c-ef06376aa061">
+      <name>ВидПравила</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид правила</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Вид правила</value>
+      </synonym>
+      <comment>Вид правила</comment>
+      <type>
+        <types>EnumRef.Scan_ВидыПравил</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4e70de2c-7f32-4891-a4c5-479119f58304">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Значение</value>
+      </synonym>
+      <comment>Значение</comment>
+      <type>
+        <types>String</types>
+        <types>CatalogRef.Пользователи</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="57fa7469-d938-480e-a99b-21e617e0dc85">
+      <name>ПутьКДанным</name>
+      <synonym>
+        <key>ru</key>
+        <value>Путь к данным</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Путь к данным</value>
+      </synonym>
+      <comment>Путь к данным</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8931c6aa-7571-4eda-ac27-1a94e1a73533">
+      <name>ПроизвольныйКод</name>
+      <synonym>
+        <key>ru</key>
+        <value>Произвольный код</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Произвольный код</value>
+      </synonym>
+      <comment>Произвольный код</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="b590b0b3-8c62-434d-a2f2-dfe023a2d717">
+    <producedTypes>
+      <objectType typeId="f93306b8-628d-4de7-8a1f-f8657b94bed1" valueTypeId="cba9c18e-3610-47fc-b03f-56b97066b31c"/>
+      <rowType typeId="bcb9a644-ca35-4983-a3c7-eb18a3543f64" valueTypeId="2dea63dc-cc12-4dc9-a9f0-83f610b8b9ca"/>
+    </producedTypes>
+    <name>ПолучателиПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатели письма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Получатели письма</value>
+    </synonym>
+    <comment>В табличной части хранятся получатели сообщения (Поля письма &quot;Кому&quot;, &quot;Копии&quot; и &quot;Скрытые копии&quot;)</comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Получатели письма</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Получатели письма</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="36105e8c-81be-4969-b51d-e2b4ec701adb">
+      <name>ВидПравила</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид правила</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Вид правила</value>
+      </synonym>
+      <comment>Вид правила</comment>
+      <type>
+        <types>EnumRef.Scan_ВидыПравил</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="77652092-7098-451c-84d5-70d1dec61b6d">
+      <name>АдресЭлектроннойПочты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Адрес электронной почты</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Адрес электронной почты</value>
+      </synonym>
+      <comment>Электронный адрес получателя</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2449c620-f649-4ded-a8a1-b2647b2f5858">
+      <name>ПроизвольныйКод</name>
+      <synonym>
+        <key>ru</key>
+        <value>Произвольный код</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Произвольный код</value>
+      </synonym>
+      <comment>Произвольный код</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="33fc132b-4d8e-46d2-b2be-9e087f9ac9ae">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Представление</value>
+      </synonym>
+      <comment>Представление получателя сообщения</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fa33ecab-b941-4372-bf5d-dba6fba8b2a6">
+      <name>КодГруппыАдреса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Группа адреса</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Группа адреса</value>
+      </synonym>
+      <comment>Определяет группу адреса</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="12f18869-bea7-4dda-b265-e38aa2460495">
+      <name>СсылкаНаОбъект</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент или контактное лицо</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Контрагент или контактное лицо</value>
+      </synonym>
+      <comment>Если E-mail принадлежит контрагенту или контактному лицу, то здесь содержится ссылка на этот объект</comment>
+      <type>
+        <types>CatalogRef.Scan_Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="806f3dd2-77f9-44d6-93bf-bf78cb7de8c4">
+      <name>Контакт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контакт</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Контакт</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_Сотрудники</types>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="625de9ea-9bac-4ea1-b4c8-df3b826bdd60">
+    <producedTypes>
+      <objectType typeId="0bb165c6-23e0-4f9b-b638-a8220334d965" valueTypeId="1b02bf3e-6217-4417-a6cf-38c57d9acebe"/>
+      <rowType typeId="b4fb6610-7f11-4b88-afdb-c58127ff8b26" valueTypeId="f46d2ddc-62cd-4cc7-b318-7c667c138247"/>
+    </producedTypes>
+    <name>Вложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вложения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Вложения</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="ff271cdc-cc74-49c3-9b1e-765fcffa9abf">
+      <name>Активность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Активность</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Активность</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="49ae22cf-70c8-4dab-abe4-b873480ef947">
+      <name>НаименованиеПечатнойФормы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование печатной формы</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Наименование печатной формы</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="dd24ad27-5e21-4cf7-904e-ecbd08d3f447">
+      <name>ФорматПФ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Формат ПФ</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Формат ПФ</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5244803e-93ab-463b-a488-3070bd7d7485">
+      <name>УпаковатьВАрхив</name>
+      <synonym>
+        <key>ru</key>
+        <value>Упаковать в архив</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Упаковать в архив</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e3f718b8-b3f2-4ff5-875b-bd9985d854f0">
+      <name>Картинка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Картинка</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Картинка</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="616c141d-f189-409f-b536-8db77b21d5cc">
+      <name>ПредставлениеПечатнойФормы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление печатной формы</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Представление печатной формы</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="136bad64-3d4a-413c-8d45-9169dc8be416">
+      <name>ИмяОбъектовМетаданныхМакета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя объектов метаданных макета</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Имя объектов метаданных макета</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="119b9dcc-93ef-4f44-a52c-c3b61db94ba1">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9b6052ba-0754-4d95-bb8e-a9229d497855">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4444fc44-5ffd-4a58-92d1-62d9a32db945">
+    <name>РедакторВыражений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор выражений</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Редактор выражений</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="98471373-bb25-4550-ae7f-822d31123984">
+    <name>ВыборРеквизитаОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор реквизита объекта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Выбор реквизита объекта</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9de4c9df-bd71-466d-b82b-d9f2006bbe86">
+    <name>ФормаЭлектронногоПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма электронного письма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма электронного письма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="65719067-fdf2-4a8f-9199-b35b370a7340">
+    <name>ФормаЭлектронногоПисьмаСВложением</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма электронного письма с вложением</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма электронного письма с вложением</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="56c0f840-f3d0-4ea3-9be2-07c445df8ae3">
+    <name>ФормаСозданияОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма создания объекта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма создания объекта</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fe3ceb94-9f12-4b22-b2b3-7b070cace84e">
+    <name>ФормаСозданияЗаписиВЖурналРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма создания записи в журнал регистрации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма создания записи в журнал регистрации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2a1a76f3-72e0-464d-adb3-bc9c26f94b79">
+    <name>ФормаПроизвольноеВыражение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма произвольное выражение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма произвольное выражение</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1323150c-eca4-4129-b1e7-0db3b7f6e641">
+    <name>ФормаСоздатьНапоминание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма создать напоминание</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма создать напоминание</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52bd36fa-a8d7-4067-ba16-f613d61a4d73">
+  <name>Scan_ВыгрузкаПараметровВидимостиОбъектовВФайл</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка параметров видимости объектов в файл (scania)</value>
+  </synonym>
+  <methodName>CommonModule.Scan_РегламентныеЗадания.ВыгрузкаПараметровВидимостиОбъектовВФайл</methodName>
+  <description>Выгрузка параметров видимости объектов в файл (scania)</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

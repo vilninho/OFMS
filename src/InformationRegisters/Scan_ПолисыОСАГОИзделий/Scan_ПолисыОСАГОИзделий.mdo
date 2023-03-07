@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb49798f-bf9a-41fd-be40-c12b389781bb">
+  <producedTypes>
+    <selectionType typeId="bc8b9b4b-32e0-4630-a296-2e60ea5247cd" valueTypeId="35b998f2-ffc6-498e-8a94-134bfe978f5c"/>
+    <listType typeId="308ac399-a3f1-4f92-8e3e-048c086a1c12" valueTypeId="a9826a9e-3759-433a-8194-6fe382b04fe9"/>
+    <managerType typeId="316913e7-dd00-45d9-a75d-38a33bd1f76d" valueTypeId="8ece3342-2447-43e5-ad5e-8ce64d8ae011"/>
+    <recordSetType typeId="0d016e6d-d1bd-4761-9c86-b9c5c1f9aaf1" valueTypeId="bfa32a23-eabb-4e46-8d07-ed4e372b7faa"/>
+    <recordKeyType typeId="37382058-5879-4c7e-8a81-0311a3d9409b" valueTypeId="43dd62f3-266c-44ee-92f7-552e71a5a96d"/>
+    <recordType typeId="4d9bdf3c-e09f-400b-8ad3-00ff2d5a2d40" valueTypeId="9e96cf90-eb25-4089-89c2-bc5c8b651391"/>
+    <recordManagerType typeId="07219a44-a9c9-4604-8026-bac681bde298" valueTypeId="0651a22e-5878-4b35-b7cc-35d9c1d29268"/>
+  </producedTypes>
+  <name>Scan_ПолисыОСАГОИзделий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Полисы ОСАГО продуктов (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>OSAGO insurance policies of products (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_ПолисыОСАГОИзделий.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_ПолисыОСАГОИзделий.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="013e6b1b-2f12-4136-a5cc-2947c65f4e8f">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="67daa826-7498-4018-89ef-8c6e6d343b0a">
+    <name>Изделие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукт</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Product</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Изделия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b5175ad5-1354-4091-a727-5d3bb8896587">
+    <name>НомерПолиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер полиса</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Policy number</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>13</length>
+      </stringQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧГ=0</value>
+    </format>
+    <format>
+      <key>en</key>
+      <value>FG = 0</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧГ=0</value>
+    </editFormat>
+    <editFormat>
+      <key>en</key>
+      <value>FG = 0</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7a4d9087-ffce-455c-a1b8-1993d50c92bc">
+    <name>ДатаИстеченияСрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата истечения срока полиса</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Police expiry date</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=dd.MM.yyyy</value>
+    </format>
+    <format>
+      <key>en</key>
+      <value>DF = dd.MM.yyyy</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=dd.MM.yyyy</value>
+    </editFormat>
+    <editFormat>
+      <key>en</key>
+      <value>DF = dd.MM.yyyy</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a66df856-7b4f-4764-a23f-ba49bf3fccf6">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Recording form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5fc71991-81f0-4898-9bd8-7373c363d100">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

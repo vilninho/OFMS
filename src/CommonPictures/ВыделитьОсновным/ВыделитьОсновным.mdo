@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="245c1f3b-fccd-4bff-89ee-58d82b8d4f04">
+  <name>ВыделитьОсновным</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выделить основным</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Выделить основным</value>
+  </synonym>
+  <comment>Выделить основным</comment>
+  <transparentPixel>
+    <x>10</x>
+    <y>5</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

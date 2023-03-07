@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="268a24b5-dc68-47f3-90fd-a3a6914edf77">
+  <name>Scan_ПолучениеЭлектронныхПисемСогласованияПоЭлектроннойПочте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение электронных писем согласования по электронной почте</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Receiving Email Approval Emails</value>
+  </synonym>
+  <methodName>CommonModule.Scan_РегламентныеЗадания.ПолучитьЭлектроннойПисьмоСоглавсованияПоЭлектронойПочте</methodName>
+  <description>Получение электронных писем согласования по электронной почте</description>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

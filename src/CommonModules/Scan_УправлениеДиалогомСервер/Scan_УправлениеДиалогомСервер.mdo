@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6025e38-b129-4818-b7ea-e14b9865999d">
+  <name>Scan_УправлениеДиалогомСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление диалогом сервер (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Управление диалогом сервер (scania)</value>
+  </synonym>
+  <comment>Управление диалогом сервер (scania)</comment>
+  <server>true</server>
+</mdclass:CommonModule>

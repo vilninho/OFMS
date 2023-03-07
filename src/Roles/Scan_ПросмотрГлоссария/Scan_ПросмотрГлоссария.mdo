@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ef0646f-e9d4-498f-b25d-fec9d530f640">
+  <name>Scan_ПросмотрГлоссария</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр глоссария (scania)</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59304092-af1f-45c8-9763-d9596089009d">
+  <name>Scan_ПросмотрОтчетаOrderBookMargin</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр отчета Order book margin (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Просмотр отчета Order book margin (scania)</value>
+  </synonym>
+</mdclass:Role>

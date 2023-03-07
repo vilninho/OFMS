@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94337ddd-6e1f-418a-ae5d-0c406f2162dc">
+  <producedTypes>
+    <refType typeId="89ec0d73-f78d-480c-b7e6-ecb33bda9fb7" valueTypeId="31613266-6979-4442-af5f-38adea8184bb"/>
+    <listType typeId="646b0643-afde-4fbd-b123-d9bb06b88a5f" valueTypeId="bab453c6-3219-4e2b-b173-6cb7eb514009"/>
+    <managerType typeId="17cbc1df-c1b4-4b58-9209-b6efe482b866" valueTypeId="f23549dc-04ad-4f03-9883-0c067fc2d3e3"/>
+  </producedTypes>
+  <name>Scan_СтатусыЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы задач (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Task statuses (scania)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1dbc35c2-f8de-42e2-b343-699a41794440">
+    <name>Зафиксировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зафиксировано</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Fixed</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f11efea9-2adc-4bef-a759-5e0a1ef06e84">
+    <name>Запланировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланировано</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Scheduled</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8357401f-2d92-4995-9f6c-4012520c5b36">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>In work</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="94a4d608-f1ed-4950-90ba-a665b02ec062">
+    <name>ПринятаКИисполнению</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принята к иисполнению</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Accepted for execution</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="38f8c7f3-a34d-49e8-963c-35786fc455f9">
+    <name>Завершено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершено</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Completed</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d50d89cf-a26d-47f6-a223-70e5b3051559">
+    <name>Отклонено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонено</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Refused</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="647e0512-1d9d-490a-aa88-b2d108b284a2">
+    <name>Выполнена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнена</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Done</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

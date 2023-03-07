@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea351363-3b07-43f3-93fd-71d223adc115">
+  <producedTypes>
+    <selectionType typeId="aa60bb05-f212-4166-ba2b-eb20f5b318ef" valueTypeId="c7fa8ef0-27fe-4001-8744-e14f47ad7d58"/>
+    <listType typeId="77869075-3d30-430e-8a75-abf29a1805c3" valueTypeId="e603d04c-4d01-488b-96c4-cca881c177cc"/>
+    <managerType typeId="ab028cce-48a6-4932-b190-abb5022f9963" valueTypeId="5a620385-a646-4022-b384-30f191f3da67"/>
+    <recordSetType typeId="794779df-9fd8-4e50-9d8c-fba4387c20bb" valueTypeId="12ce9e9d-c5ad-43d8-a7a3-d5031269f797"/>
+    <recordKeyType typeId="0a7dab03-3b06-43ce-b08b-2ab84a14bcb7" valueTypeId="2d126e0b-01a6-4de4-994f-fd3d5ad3aebb"/>
+    <recordType typeId="b110e558-4c44-487d-916a-d78a65f3b9af" valueTypeId="fee2a5d8-2fc1-4b51-9b63-05fd3d2a0ca7"/>
+    <recordManagerType typeId="3ec79c1d-7508-4b76-97a9-08f711285891" valueTypeId="5d4a9356-09fe-4820-9d6a-a111b81e6811"/>
+  </producedTypes>
+  <name>Scan_ДоступКДокументам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступ к документам (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Доступ к документам (scania)</value>
+  </synonym>
+  <comment>Доступ к документам (scania)</comment>
+  <defaultListForm>InformationRegister.Scan_ДоступКДокументам.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="da83664f-e437-4c0d-b72b-0843ab23b2cb">
+    <name>ДоступЕсть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступ есть</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Доступ есть</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Доступ есть</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Доступ есть</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b2be0719-e645-4d86-8e37-885328e98746">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Пользователь</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="62f629ee-c20d-48f0-9cd2-6b3a11789c89">
+    <name>Право</name>
+    <synonym>
+      <key>ru</key>
+      <value>Право</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Право</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.Scan_ПраваИНастройки</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Право</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Право</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2d442cd4-ad68-448c-bd89-83e9d7728467">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Объект</value>
+    </synonym>
+    <comment>Объект, на уровне которого производится настройка</comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект, на уровне которого производится настройка</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Объект, на уровне которого производится настройка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="6672f2bc-e713-4223-9c80-b89a570c497f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

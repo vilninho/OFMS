@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c994d09-89d8-4243-9e38-b2121d8fb618">
+  <producedTypes>
+    <selectionType typeId="cea301c4-de0b-4ec0-9cea-ff063fe5bd32" valueTypeId="efde351a-cfb9-40c2-b040-b17491337881"/>
+    <listType typeId="f424f555-436f-4f48-aa40-157e06ae1470" valueTypeId="70cc80ee-c74f-4074-b1fe-2e85f4e01090"/>
+    <managerType typeId="593ad6d8-3e76-4af7-b04f-1e2dcaa74634" valueTypeId="ecbc5ac4-bd17-4837-935c-c6d62f1b9195"/>
+    <recordSetType typeId="8e4d8d53-dcd8-4de1-aa3b-31ca8da500a4" valueTypeId="1aa0ec99-836d-46a2-bcc6-eb9a837d8a6d"/>
+    <recordKeyType typeId="61cba92b-37bf-496d-8297-486ea9023392" valueTypeId="0fb8a534-a9ad-4c6c-a264-5f4347aa8d1a"/>
+    <recordType typeId="e47a46ab-5fdf-4305-8275-66593accae74" valueTypeId="6ff837d4-c53f-47bd-83e6-18d10c6bc16c"/>
+    <recordManagerType typeId="7d63da6c-86ef-408b-8f5b-656dcebc131c" valueTypeId="2be00911-2cea-40ac-acad-8db500217b73"/>
+  </producedTypes>
+  <name>Scan_СоответствиеКодовНеисправныхДеталейИСервисныхРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие кодов неисправных деталей и сервисных работ (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Соответствие кодов неисправных деталей и сервисных работ (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_СоответствиеКодовНеисправныхДеталейИСервисныхРабот.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_СоответствиеКодовНеисправныхДеталейИСервисныхРабот.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="2511434a-66b2-4c7f-8f19-ac4d700be185">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="f8e44755-defb-49d2-9b83-86ed6101f857">
+    <name>КодНеисправнойДетали</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код неисправной детали</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Код неисправной детали</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_КодыНеисправныхДеталей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9bc8666b-ca5b-4301-a49a-f4496829b7f1">
+    <name>Работа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Работа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ВидыСервисныхРабот</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="f4e7b21f-38ad-4c98-add7-70dd8713de6b">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="86ed1f12-b845-4db5-9fc8-b52bc13243cd">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b69b4236-4402-48b4-8412-a28bb3d8afd8">
+  <name>Scan_ФормированиеПисемПоНеобходимостиИзмененияEDD</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование писем по необходимости изменения EDD</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Formation of letters on the need to change the EDD</value>
+  </synonym>
+  <methodName>CommonModule.Scan_РегламентныеЗадания.СформироватьПисьмоПоНеобходимостиИзмененияEDD</methodName>
+  <description>Формирование писем по необходимости изменения EDD</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

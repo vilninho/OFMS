@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fbdd5dc6-e17c-44e1-95e4-2092bc7785f2">
+  <name>Scan_ПрайсЛистETBO</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прайс-лист ETBO (scania)</value>
+  </synonym>
+  <comment>Макет для выгрузки прайс-листа в файл MS Excel</comment>
+</mdclass:CommonTemplate>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a11bf962-333c-4bb5-8485-c6c7ce4eefb2">
+  <producedTypes>
+    <selectionType typeId="a4efc012-9ecf-4b61-a8fd-f650978caadc" valueTypeId="4b864059-b47d-471b-83b3-63503b0bdaad"/>
+    <listType typeId="1adbcc9a-9c68-40b9-8fa0-e76a686d71d8" valueTypeId="f45093bb-5ca5-4bda-a79d-56133c93f9c9"/>
+    <managerType typeId="8f114de5-909d-4c05-88fd-369cb228aad3" valueTypeId="35c8b787-890a-4b11-9d56-0d46e5167f51"/>
+    <recordSetType typeId="3ed5e87a-111e-44ae-9ca2-4963f126c766" valueTypeId="9f622237-2bb9-4949-aa5a-530f6805459a"/>
+    <recordKeyType typeId="da56bcdc-07b7-49d0-849c-eb081f1f2c7c" valueTypeId="29a2016b-a4b8-4fc2-8ff1-9f8210d2408a"/>
+    <recordType typeId="b50b4ec8-fd9d-4cb1-8031-472d8e8ad16a" valueTypeId="f79dcd17-7ccd-4c30-82f1-5d1f72efbf12"/>
+    <recordManagerType typeId="ae0fb176-369e-4b5c-8bd8-ddb1d79174e6" valueTypeId="38d1b178-cd01-42c9-8f0a-d0a27df137b6"/>
+  </producedTypes>
+  <name>Scan_НастройкиКлючевыхДатЗаказаНаЗаводПоГруппамДат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки ключевых дат Заказа на завод по группам дат (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Key date settings in factory order for date groups (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.Scan_НастройкиКлючевыхДатЗаказаНаЗаводПоГруппамДат.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="56228317-41cf-428e-8105-32c065a33a53">
+    <name>ДоступностьДилеру</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступность дилеру</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="836414e6-8d4e-497d-a9fa-8311192b0ee8">
+    <name>Производство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производство</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b1e28905-8971-4739-a90f-b792940c41d4">
+    <name>Надстройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Надстройка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="06c26425-ed42-47f0-83e5-36a15c71dae2">
+    <name>Логистика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логистика</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="26a54def-054b-49bf-b0a9-d50ca2b33172">
+    <name>Отгрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгрузка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="abdcd77c-15ce-4ed1-9cc8-691cfbcb383f">
+    <name>КлючеваяДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключевая дата</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Scan_КлючевыеДаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="10f5c79a-6807-4282-86de-740cc6126a1e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

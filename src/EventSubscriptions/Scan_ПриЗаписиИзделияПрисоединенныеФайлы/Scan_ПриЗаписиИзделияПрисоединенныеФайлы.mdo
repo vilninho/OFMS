@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b7fc6b8-7d18-475a-86dd-df13cc74815f">
+  <name>Scan_ПриЗаписиИзделияПрисоединенныеФайлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Scan при записи продукта присоединенные файлы</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Scan при записи продукта присоединенные файлы</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Scan_ИзделияПрисоединенныеФайлы</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.Scan_ВспомогательныеФункцииСервер.ПриЗаписиИзделияПрисоединенныеФайлы</handler>
+</mdclass:EventSubscription>

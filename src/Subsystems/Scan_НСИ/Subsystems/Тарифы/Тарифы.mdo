@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ede8a566-f3bd-4ee7-94dc-335e46a09c0d">
+  <name>Тарифы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарифы (логистика)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Tariffs (logistics)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.Scan_КалькуляторТарифовНаДоставку</content>
+  <parentSubsystem>Subsystem.Scan_НСИ</parentSubsystem>
+</mdclass:Subsystem>

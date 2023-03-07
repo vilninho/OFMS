@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30a3576c-13a1-4be8-ae05-cc2e120bfd61">
+  <producedTypes>
+    <selectionType typeId="c1b4e7c2-8d78-4642-ae97-03cb5b21853b" valueTypeId="a0feb8a0-c658-48c5-b2d9-aa358c5d0d55"/>
+    <listType typeId="340672a0-7944-4024-8c28-12a1d0235ec1" valueTypeId="16431804-ce64-43aa-91e4-cb544e0e3c31"/>
+    <managerType typeId="e11526c3-3f6d-42c9-8d00-f55fe1b165c8" valueTypeId="75b05d29-e6ff-4836-a550-20b83cba2b06"/>
+    <recordSetType typeId="a5624dfe-aa1e-493a-8eab-714a156d7785" valueTypeId="0f5a4920-2fa5-4dcf-b7aa-c94dcb13fbfa"/>
+    <recordKeyType typeId="14880c25-fb81-4e17-a160-40a824aa3dbc" valueTypeId="93cd5992-9b64-457a-974d-9b44eea379c1"/>
+    <recordType typeId="821c139d-5546-411c-a213-1c02a0699d75" valueTypeId="3b67cab7-db41-4922-99c9-eb4ddfaa9259"/>
+    <recordManagerType typeId="34a0ac63-9514-4b88-834f-d46725a003fb" valueTypeId="0a075ccc-1fe9-44d8-8b3a-33e87560191c"/>
+  </producedTypes>
+  <name>Scan_РасстояниеМеждуАдресами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расстояние между адресами (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Distance between addresses (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_РасстояниеМеждуАдресами.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_РасстояниеМеждуАдресами.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7105d541-ac83-47b2-a5ee-dee83605598e">
+    <name>Расстояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расстояние (км)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Distance (km)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>7</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="c6b5175d-a498-40a1-91fb-e74911776447">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="5e699811-7ad1-450b-a531-7634fde093e6">
+    <name>АдресПолучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес получения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Email address</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_АдресаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="981b17b2-7439-4e54-88ff-d7ba09afb097">
+    <name>АдресДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес доставки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Delivery address</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_АдресаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="4fd96c6d-ea0c-4a73-a16c-52b9293ab7df">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ead675ee-4373-465e-96b9-20c1caa8fc3d">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Recording form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1004ddb5-8432-4b2a-a08d-abef73a6e4cc">
+  <producedTypes>
+    <objectType typeId="dbdd63d7-412f-415f-bb3a-65ee8665ed30" valueTypeId="3a969cda-3e44-4a8c-a2b0-d9de661f2542"/>
+    <refType typeId="c2552bc4-5b7a-4e58-be58-fab3bfecadde" valueTypeId="ac1c4ea2-0bce-4096-835a-700a99849fa5"/>
+    <selectionType typeId="43a9156b-448d-44b8-99ff-84a943373076" valueTypeId="765327df-78a7-4966-b48c-1756d6c054e7"/>
+    <listType typeId="149efc0c-dca4-47ad-af8d-b358f96c13ea" valueTypeId="2bc94804-5d55-410b-a11c-521fab77e5d7"/>
+    <managerType typeId="177801b0-0dc3-4345-bc5b-1964e7bc19cc" valueTypeId="d443c963-5087-45e0-a40e-642b526b2033"/>
+  </producedTypes>
+  <name>Scan_СтатусыЗаявокНаРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заявок на работы (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Статусы заявок на работы (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_СтатусыЗаявокНаРаботы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_СтатусыЗаявокНаРаботы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Статусы заявок на сервисные работы</value>
+  </listPresentation>
+  <listPresentation>
+    <key>en</key>
+    <value>Статусы заявок на сервисные работы</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="29bbd086-0a57-416f-80e7-15aca84a8f63">
+      <name>Аннулирована</name>
+      <description>Аннулирована</description>
+      <code xsi:type="core:StringValue">
+        <value>0000000006</value>
+      </code>
+    </items>
+    <items id="3604af7d-ec01-457a-a431-0e9e39c80a12">
+      <name>ВРаботе</name>
+      <description>В работе</description>
+      <code xsi:type="core:StringValue">
+        <value>0000000004</value>
+      </code>
+    </items>
+    <items id="62cce5ac-4ffc-404b-8b46-cf948a2b9618">
+      <name>Исполнена</name>
+      <description>Исполнена</description>
+      <code xsi:type="core:StringValue">
+        <value>0000000005</value>
+      </code>
+    </items>
+    <items id="6fd4f340-91cd-42c5-81ad-3012d05d4159">
+      <name>Новая</name>
+      <description>Новая</description>
+      <code xsi:type="core:StringValue">
+        <value>0000000001</value>
+      </code>
+    </items>
+    <items id="7096031e-a000-45a2-9454-22de62eb33f9">
+      <name>Подтверждена</name>
+      <description>Подтверждена</description>
+      <code xsi:type="core:StringValue">
+        <value>0000000003</value>
+      </code>
+    </items>
+    <items id="8a8369ad-f592-496e-a21a-aafbdbede3da">
+      <name>Рассмотрена</name>
+      <description>Рассмотрена</description>
+      <code xsi:type="core:StringValue">
+        <value>0000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_СтатусыЗаявокНаРаботы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_СтатусыЗаявокНаРаботы.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="73843ee4-bc02-46ee-b6d0-eaafd79e17ac">
+    <name>НедоступноДляВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Недоступно для выбора</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Недоступно для выбора</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1d669f8d-787e-4aa5-be05-ff1592b05fc4">
+    <name>Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Порядок</value>
+    </synonym>
+    <comment>Порядок сортировки</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="70a70992-2e7f-49e5-834a-29c074913ff3">
+    <name>РеквизитДопУпорядочивания</name>
+    <synonym>
+      <key>ru</key>
+      <value>ДопУпорядочивание</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ДопУпорядочивание</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="432c65f7-98b4-43c0-ab72-5c625b727c8b">
+    <name>Цвет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет заказ-наряда в журналах</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Цвет заказ-наряда в журналах</value>
+    </synonym>
+    <comment>Цвет заказ-наряда в журналах</comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0fa5e1e5-21f1-4390-867d-dee04cc70b2d">
+    <name>ЦветТекста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет текста</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Цвет текста</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ceaa498b-4989-4eec-b269-2e0cda07bef1">
+    <name>Шрифт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шрифт</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Шрифт</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="445fade7-23d8-4e85-89a2-61a03d7d56e1">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cbd3906b-5b52-4180-91b8-37c636a6dbc7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

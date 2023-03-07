@@ -1,0 +1,95 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.scania.org/webservice/SRUService/CustReceivables" elementFormQualified="false" attributeFormQualified="false">
+	<property name="CustCurReceivables">
+		<typeDef xsi:type="ObjectType">
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/CustReceivables" ref="d4p1:Customer" lowerBound="0" upperBound="-1"/>
+		</typeDef>
+	</property>
+	<property name="CustReceivables">
+		<typeDef xsi:type="ObjectType">
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/CustReceivables" ref="d4p1:Customer" lowerBound="0" upperBound="-1"/>
+		</typeDef>
+	</property>
+	<property name="Customer">
+		<typeDef xsi:type="ObjectType">
+			<property name="DATAAREAID" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property name="CustomerAccount" type="xs:string" lowerBound="1" form="Attribute"/>
+			<property name="CusGroupID" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:byte" variety="Atomic"/>
+			</property>
+			<property name="CUSTGROUPDESCRIPTION" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property name="CUSTCLASSIFICATIONID" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/CustReceivables" ref="d4p1:Module" upperBound="-1"/>
+		</typeDef>
+	</property>
+	<property name="INVOICE">
+		<typeDef xsi:type="ObjectType">
+			<property name="TOTAL" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic"/>
+			</property>
+			<property name="SALES" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic"/>
+			</property>
+			<property name="RECVERSION" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:byte" variety="Atomic"/>
+			</property>
+			<property name="RECID" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:long" variety="Atomic"/>
+			</property>
+			<property name="PAYMENTS" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic"/>
+			</property>
+			<property name="OVERDUE4" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic"/>
+			</property>
+			<property name="OVERDUE3" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic"/>
+			</property>
+			<property name="OVERDUE2" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic"/>
+			</property>
+			<property name="OVERDUE1" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic"/>
+			</property>
+			<property name="OVERDUE" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic"/>
+			</property>
+			<property name="INVOICEID" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property name="INVOICEDATE" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:dateTime" variety="Atomic"/>
+			</property>
+			<property name="DUE" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic"/>
+			</property>
+		</typeDef>
+	</property>
+	<property name="Module">
+		<typeDef xsi:type="ObjectType">
+			<property name="MODULEDESCRIPTION" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property name="MODULECODE" lowerBound="0" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property name="CREDITMAX" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic"/>
+			</property>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/CustReceivables" ref="d4p1:RCONTRACT" upperBound="-1"/>
+		</typeDef>
+	</property>
+	<property name="RCONTRACT">
+		<typeDef xsi:type="ObjectType">
+			<property name="RCONTRACTACCOUNT" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/CustReceivables" ref="d4p1:INVOICE" upperBound="-1"/>
+		</typeDef>
+	</property>
+</package>

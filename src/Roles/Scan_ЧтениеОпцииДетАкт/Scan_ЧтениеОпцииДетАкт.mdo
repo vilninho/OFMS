@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9954848-3ee6-475a-9bad-bfe835af106d">
+  <name>Scan_ЧтениеОпцииДетАкт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение опций для детализированного акта (scania)</value>
+  </synonym>
+</mdclass:Role>

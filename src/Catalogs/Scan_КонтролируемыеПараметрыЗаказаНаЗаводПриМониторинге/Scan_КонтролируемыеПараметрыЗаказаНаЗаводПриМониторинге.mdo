@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="771f2966-3f27-47d8-8bd9-bfff1c8cab80">
+  <producedTypes>
+    <objectType typeId="ddd48547-84c3-4041-ad08-7c56949b282e" valueTypeId="f999f797-4c9e-452b-8208-b00e0e05b2ad"/>
+    <refType typeId="62c3cfee-f362-4400-8811-484dae5207f6" valueTypeId="bce3e87c-3a09-4e0c-9e44-7f27099f70b7"/>
+    <selectionType typeId="3a73425f-b2b8-47b7-a2b6-e53c3a2aea05" valueTypeId="983d3324-cc53-40fd-9286-c4d6a7b6aaa0"/>
+    <listType typeId="80642125-2df9-4efd-9e91-56d79f5c5538" valueTypeId="fc35f24c-b978-4052-b5c2-934ea16389c0"/>
+    <managerType typeId="15c93299-d4c0-468a-9aff-00daaf45583e" valueTypeId="a959f9c3-7f01-486e-a16e-788581f738d1"/>
+  </producedTypes>
+  <name>Scan_КонтролируемыеПараметрыЗаказаНаЗаводПриМониторинге</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контролируемые параметры заказа на завод при мониторинге</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Control parameters of the order to the factory for monitoring</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_КонтролируемыеПараметрыЗаказаНаЗаводПриМониторинге.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_КонтролируемыеПараметрыЗаказаНаЗаводПриМониторинге.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_КонтролируемыеПараметрыЗаказаНаЗаводПриМониторинге.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_КонтролируемыеПараметрыЗаказаНаЗаводПриМониторинге.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="84b50bff-6f91-4691-972f-1fd16e4b3327">
+    <name>ИспользоватьПриМониторинге</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать при мониторинге</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use in monitoring</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="964f3c42-97ed-44c5-9699-3dc2bfb98e3c">
+    <name>КонтролируемыйПараметрЗаказаНаЗавод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контролируемый параметр Заказа на завод</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Controlled parameter of the Order to the factory</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Scan_КлючевыеДаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f20cb99d-3afa-4870-8a3b-ae1ff2d8d09d">
+    <name>МаксимальноеОтклонение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальное отклонение, дней</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The maximum deviation, days</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="95369814-2bdd-4581-b035-b1f5afb2b615">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="12716165-7f7d-4e94-aad7-e1b50147e3f2">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

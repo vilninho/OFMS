@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2438ffc-2f27-490f-9fe6-8608f3aa1db8">
+  <producedTypes>
+    <objectType typeId="32d3936e-6b0a-437c-9c25-c04bd4284871" valueTypeId="cae06db3-14a9-4446-bd83-aa6329c0ad4e"/>
+    <refType typeId="f947b9fd-4fed-4973-8598-609e29246e01" valueTypeId="68afb655-4971-43f1-87c7-215cbf396c6e"/>
+    <selectionType typeId="80113985-8ba2-4647-9eda-b877a311bdcb" valueTypeId="f9488a3b-c6f2-4b86-954f-94f4238496a2"/>
+    <listType typeId="0b597a6c-42d7-453b-a153-cc54faf6de25" valueTypeId="afe476a9-7643-48e8-b8fa-4207e2f40708"/>
+    <managerType typeId="28c486cb-e874-496d-accc-f0a136a6bbbc" valueTypeId="1eb3af41-0919-4109-a14b-236979cb56b1"/>
+  </producedTypes>
+  <name>Scan_ДрафтыПродуктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Драфты продуктов (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Product drafts</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_ДрафтыПродуктов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_ДрафтыПродуктов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Драфт продукта</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_ДрафтыПродуктов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_ДрафтыПродуктов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Scan_ДрафтыПродуктов.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="a2086ed6-6925-4ae7-af21-4ad559f4e95a">
+    <name>Модель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Model</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_МоделиПродуктов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="afe5bd08-d695-42f3-b71e-19d11634067d">
+    <name>СегментРынкаПродуктов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сегмент рынка продуктов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Market segment</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_СегментыРынкаПродуктов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="354e973d-b820-4db1-97fb-c77131c10cb4">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e854ef35-4c7b-4d40-8271-fc6938a87234">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2c3c4f90-5412-4518-abb8-2802f4d0aa5b">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

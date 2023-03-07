@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="984d613d-d2b5-4086-9278-bce5d9683c77">
+  <name>Scan_ОбъектыOFMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты OFMS</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>OFMS objects</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Enum.Scan_РежимДоступаПользователяККомпаниям</content>
+  <content>Report.Scan_LeadTimeReport</content>
+  <content>Catalog.Scan_ВидыLeadTime</content>
+  <content>Catalog.Scan_КонтрольныеТочкиLeadTime</content>
+  <content>InformationRegister.Scan_СтатистикаИспользованияОбъектов</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6cbdd5b7-1c73-43c6-a93a-07e338b70005">
+  <name>Scan_Печать</name>
+  <synonym>
+    <key>ru</key>
+    <value>Scan печать</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Scan печать</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+  <privileged>true</privileged>
+</mdclass:CommonModule>

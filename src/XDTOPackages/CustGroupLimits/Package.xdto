@@ -1,0 +1,43 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.scania.org/webservice/SRUService/CustGroupLimits" elementFormQualified="false" attributeFormQualified="false">
+	<property name="CustGroupLimits">
+		<typeDef xsi:type="ObjectType">
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/CustGroupLimits" ref="d4p1:Group" lowerBound="0" upperBound="-1"/>
+		</typeDef>
+	</property>
+	<property name="Customer">
+		<typeDef xsi:type="ObjectType">
+			<property name="CUSTACCOUNT" type="xs:string" lowerBound="1" form="Attribute"/>
+		</typeDef>
+	</property>
+	<property name="Group">
+		<typeDef xsi:type="ObjectType">
+			<property name="HEADCUSTACCOUNT" type="xs:string" lowerBound="1" form="Attribute"/>
+			<property name="DATAAREAID" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/CustGroupLimits" ref="d4p1:Members" lowerBound="0"/>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/CustGroupLimits" ref="d4p1:Limits"/>
+		</typeDef>
+	</property>
+	<property name="Groups">
+		<typeDef xsi:type="ObjectType">
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/CustGroupLimits" ref="d4p1:Group" lowerBound="0" upperBound="-1"/>
+		</typeDef>
+	</property>
+	<property name="Limit">
+		<typeDef xsi:type="ObjectType">
+			<property name="MODULECODE" type="xs:byte" lowerBound="1" form="Attribute"/>
+			<property name="CREDITLIMIT" type="xs:decimal" lowerBound="1" form="Attribute"/>
+		</typeDef>
+	</property>
+	<property name="Limits">
+		<typeDef xsi:type="ObjectType">
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/CustGroupLimits" ref="d4p1:Limit" upperBound="-1"/>
+		</typeDef>
+	</property>
+	<property name="Members">
+		<typeDef xsi:type="ObjectType">
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/CustGroupLimits" ref="d4p1:Customer" upperBound="-1"/>
+		</typeDef>
+	</property>
+</package>

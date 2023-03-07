@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8acfc44c-4df5-4de6-8e3d-4e5a4e864232">
+  <name>Scan_ГлоссарийOFMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Глоссарий OFMS</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Glossary OFMS</value>
+  </synonym>
+</mdclass:CommonTemplate>

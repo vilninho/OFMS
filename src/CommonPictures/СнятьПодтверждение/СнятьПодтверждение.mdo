@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f5ddc8c-455c-4b5c-981f-158910bd43c0">
+  <name>СнятьПодтверждение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Снять подтверждение</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Снять подтверждение</value>
+  </synonym>
+</mdclass:CommonPicture>

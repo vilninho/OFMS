@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b01675c-2e6b-4864-9ad4-543259785eb9">
+  <name>Scan_ПросмотрОтчетаИсторияПеремещенийИзделий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр отчета История перемещений продуктов (scania)</value>
+  </synonym>
+</mdclass:Role>

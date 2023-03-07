@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="634de6eb-f0e2-4974-b70c-cc9d7502ae30">
+  <producedTypes>
+    <selectionType typeId="82bf2f88-fa20-4c15-a2a3-f2ce09abec0b" valueTypeId="460c2f8d-a1de-4edc-b3fc-31d871777a41"/>
+    <listType typeId="8ef5d81c-6a17-451b-9109-04210b14061e" valueTypeId="52683c2b-a759-4160-8321-75b3ba5516c3"/>
+    <managerType typeId="e8f1e6a6-392d-40cd-8d89-b39bbc8ab773" valueTypeId="929f83c2-11f8-4aed-97d2-506ca98d2138"/>
+    <recordSetType typeId="0d2f219c-388d-406a-811e-c364eeff5757" valueTypeId="2ec5016e-3b85-4ff2-a6c0-f2000357fadc"/>
+    <recordKeyType typeId="759bcf03-d82a-428f-ba17-f6214bfe3598" valueTypeId="a11453d9-555c-4957-8415-a5fed9a55596"/>
+    <recordType typeId="e40bcc20-e9a6-4107-9691-4a12e3d5da5c" valueTypeId="935f96df-d4ac-4e07-9eba-9d78942c007e"/>
+    <recordManagerType typeId="78506f93-4850-4994-8d44-f97c00aa22a1" valueTypeId="0819c2b4-243f-401d-9bf2-320623386f28"/>
+  </producedTypes>
+  <name>Scan_СоставСоглашенийОПоставке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состав заявок (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="2084f0e9-46a6-41a7-8795-9a0ab75da798">
+    <name>СоглашениеОПоставке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_СоглашенияОПоставке</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1d0b41f0-beed-4efd-8121-2f0c67eb450d">
+    <name>Изделие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Изделия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

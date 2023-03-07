@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05db94a8-0f78-4aea-9463-56604303a98d">
+  <name>Scan_ЧтениеДрафтовПродуктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение драфтов продуктов (scania)</value>
+  </synonym>
+</mdclass:Role>

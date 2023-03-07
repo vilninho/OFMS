@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b70ab7c-b87f-4e9e-9ada-ea5c4f546ad9">
+  <producedTypes>
+    <refType typeId="24c6da82-7131-4b99-a911-4b38924ce62b" valueTypeId="66f0ba34-cf0b-4df5-b107-991214f0d5fa"/>
+    <listType typeId="903e0566-4d7f-4075-a4b0-8ccb0708781a" valueTypeId="996cd894-e15a-4501-9c20-60c39d830670"/>
+    <managerType typeId="e2d68b4f-44fa-4d5b-a015-51d5874761e9" valueTypeId="a1830c49-a386-418f-acaf-f72c730409f4"/>
+  </producedTypes>
+  <name>Scan_ТипыИзмененныхОбъектов1БД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы измененных объектов 1БД (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Types of modified 1DB objects (scania)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4cefad3d-9583-4c20-9c54-2f8f33116ac2">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Task</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c14eb99a-5f26-4dc4-a42d-2ff30a4d9acf">
+    <name>Автомобиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автомобиль</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Car</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="57afa54d-f24d-48f4-b46e-c7e2d5a7be03">
+    <name>ПредставлениеСпецификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление спецификации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d2b561ea-4e36-4ce8-9ed6-86f11d54724f">
+    <name>ВерсияСпецификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия спецификации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Specification version</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2fbe2bb7-08f0-48da-b8cb-45b8721bd21d">
+    <name>Компания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компания</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Company</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="145faf72-3eaa-4387-95da-4890566011b4">
+    <name>Продукт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукт</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Product</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f00eec34-86db-4371-8576-cba196d4262d">
+    <name>ЗаказНаАвтомобиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ на автомобиль</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Order to the plant</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

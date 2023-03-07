@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c207663b-58d8-4db1-b33e-e1e049734802">
+  <name>Scan_НастройкаКлючевыхДатВЗаказеНаЗаводПоГруппам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки ключевых дат в заказе на завод по группам (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Key date settings in factory order for groups (scania)</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

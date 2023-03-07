@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92473f48-bb0e-4d14-9cec-023b1e380caf">
+  <producedTypes>
+    <refType typeId="5d15b681-689d-4114-b52e-2061ef6c4d40" valueTypeId="91a52d31-a1f0-4e50-8415-78329c6df50d"/>
+    <listType typeId="aef7de11-9078-40b8-a6fc-2494ff4617bd" valueTypeId="86dd9cb0-0b3d-48f4-9e99-a00b7d102fc8"/>
+    <managerType typeId="08cf9415-41b3-4c15-9734-97c856d0285a" valueTypeId="a6ca74d8-57c1-4367-aa37-fa6e9cb32d47"/>
+  </producedTypes>
+  <name>Scan_ТипыСпецификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы спецификации (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Specification Types</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cf925d25-294f-4298-a254-22ae0e34874b">
+    <name>Std</name>
+    <synonym>
+      <key>ru</key>
+      <value>Std</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Std</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cbbcd06b-d5d0-4b2d-9aa1-1f61e2a524bd">
+    <name>UO</name>
+    <synonym>
+      <key>ru</key>
+      <value>UO</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>UO</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7827beb0-55f2-475f-b641-c9741b3f181b">
+    <name>UUO</name>
+    <synonym>
+      <key>ru</key>
+      <value>UUO</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>UUO</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

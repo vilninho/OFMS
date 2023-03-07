@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5c9d743-1267-4e53-9be5-9db2846bc8bb">
+  <name>Scan_ПросмотрОтчетаLeadTimeReport</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр отчета Lead Time Report (scania)</value>
+  </synonym>
+</mdclass:Role>

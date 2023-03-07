@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca10f791-726f-4ae6-b48c-5fec29a18cdf">
+  <name>Scan_ЧтениеВзаимодействий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение взаимодействий (scania)</value>
+  </synonym>
+</mdclass:Role>

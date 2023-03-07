@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f4136ee-da9f-43f7-b806-917e6e01084c">
+  <producedTypes>
+    <selectionType typeId="c2727cca-46aa-4401-9700-d51ee9790812" valueTypeId="bcee5f4e-3a7e-4938-aa64-30a7af95c96c"/>
+    <listType typeId="d21cb973-4ccd-4bbb-81a3-a2fb474f6095" valueTypeId="ddf83665-527c-450f-9cdd-c7980c7a1dc8"/>
+    <managerType typeId="85239fa2-a90c-4cf9-bed9-4db109501ae5" valueTypeId="bdd90e14-d832-4e71-ae37-a738011f1893"/>
+    <recordSetType typeId="cb146d85-70cb-4b78-8857-e8b6d03fd464" valueTypeId="f7ae99c7-15b7-4b31-a510-8e02d06db37e"/>
+    <recordKeyType typeId="4d792942-2514-4f4e-b1bb-5a17aa7f5ba6" valueTypeId="9c48fcbb-8315-4ec9-9790-16036648ff7f"/>
+    <recordType typeId="b7e2d64c-15ce-4e43-97d1-86954804038e" valueTypeId="90efbeb6-5143-421a-9953-7f0dd92c1dcb"/>
+  </producedTypes>
+  <name>Scan_МестонахождениеИзделий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Местонахождение продуктов (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Location of product</value>
+  </synonym>
+  <comment>Местонахождение продуктов (scania)</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>AccumulationRegister.Scan_МестонахождениеИзделий.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="da3bab99-933d-4031-8ef5-1c922016940f">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Quantity</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="76960db2-54ea-4675-9fba-d0e96ca0214b">
+    <name>ХозОперация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хоз. операция</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Business transaction</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ХозяйственныеОперации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="cc9e7994-50de-497a-81c2-ec126ec8966e">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="f1b84fe6-6c83-4eeb-937e-5dec53af50d8">
+    <name>Изделие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукт</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Product</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Изделия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="2d2e1a86-2efe-4eb6-ac7b-453b066abf6f">
+    <name>МестоХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Storage</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_МестаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="8ed563db-b02c-4890-80e4-de658716fd9a">
+    <name>ДатаПрихода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата прихода</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of arrival</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <forms uuid="2b12858f-0e1e-4d52-a06e-9ba2dd14f9bf">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80732e3a-792d-4487-b5b8-7c874b58defd">
+  <producedTypes>
+    <objectType typeId="0bd63022-879f-4eb8-aec8-e7bc6680a116" valueTypeId="8d024805-25a9-40c6-9e8c-574a025dfbf8"/>
+    <refType typeId="ac763a99-a583-4b7c-be9d-e5a23371f91d" valueTypeId="e46f6a8b-274d-4497-9b91-b97ff30b3e4b"/>
+    <selectionType typeId="db67d08d-6552-4daf-872e-950b894ac3a9" valueTypeId="61826f85-fdd9-4e1f-97c5-e0b9704f48d4"/>
+    <listType typeId="6ff7e350-08fe-46e7-bac4-27301701db4a" valueTypeId="1cafb5a3-a3c2-49c7-8128-d046fc09820b"/>
+    <managerType typeId="29e91f31-f84a-4cab-82be-b68500d0cfd5" valueTypeId="4ada29d5-4249-4e4c-bd4e-e2d3b771cd98"/>
+  </producedTypes>
+  <name>Scan_ОпределяемыеПараметрыПоОпциямПродуктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Определяемые параметры по опциям продуктов (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Defined parameters by product options (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_ОпределяемыеПараметрыПоОпциямПродуктов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_ОпределяемыеПараметрыПоОпциямПродуктов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_ОпределяемыеПараметрыПоОпциямПродуктов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_ОпределяемыеПараметрыПоОпциямПродуктов.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="bcbf343a-1a59-44d1-85dd-4f2a86f63adc">
+    <name>IDExternalSystem</name>
+    <synonym>
+      <key>ru</key>
+      <value>IDExternalSystem</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c78528b5-fedc-459a-a80a-e8e81c2ba493">
+    <name>ДополнительныйПараметрПродукта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Parameter</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ДополнительныеПараметрыПродуктов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b13aded2-8930-4824-a79a-404c503c23fc">
+    <name>ЗначениеДополнительногоПараметра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение параметра</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Parameter value</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="77b046e0-2fb2-4f5b-b81f-6806387c6c68">
+    <name>Используется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5cd37bb9-e795-426f-872c-7d676269e678">
+    <name>ТипСочетанияОпций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип сочетания опций</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Type of option combination</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Scan_ТипыСочетанияОпций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.Scan_ТипыСочетанияОпций.EnumValue.ВсеОдновременно</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="e55466ea-bee9-4206-9401-ca6776545657">
+    <producedTypes>
+      <objectType typeId="6b7dbdce-9137-49fc-a5d9-934ceac107a4" valueTypeId="b994bad9-6b85-475a-b555-33ec23f0b230"/>
+      <rowType typeId="6801c89c-6885-43cc-9ff8-3670894ff8cd" valueTypeId="0aad5404-9fcc-415f-84c7-4ee78456e92a"/>
+    </producedTypes>
+    <name>СписокОпций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список опций</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>List of options</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="e2ae9739-bd27-4cac-8c6f-1c20c3eb296c">
+      <name>Опция</name>
+      <synonym>
+        <key>ru</key>
+        <value>Опция</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Option</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_ОпцииПродуктов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="cec518b5-4aee-4a87-a0b1-1f983182a4db">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fdc79761-bc48-46b4-a94b-bdf46eec4da6">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c849e005-ad12-4a21-9b20-797bc7207567">
+  <producedTypes>
+    <selectionType typeId="6af4c85d-9e11-4104-b9c1-9ab25dbed955" valueTypeId="22db67df-ad0f-4409-badb-16a88ca728a3"/>
+    <listType typeId="75898ca4-8b9b-4b46-b138-0aeb6b7290c6" valueTypeId="22077aa3-e1fc-466c-b15b-c73007df85bf"/>
+    <managerType typeId="f9abe42c-7e97-4a41-8ce0-5b5cd24f51cb" valueTypeId="17611399-8720-4d54-b8c8-916fe0aa555a"/>
+    <recordSetType typeId="f7d20f66-6e0f-400c-b0b3-eacfb810f366" valueTypeId="1d8a492d-95a2-46ab-8b6f-a0eadf42bda0"/>
+    <recordKeyType typeId="dc906dcb-a3d3-45c3-ba46-c22ce7cf8428" valueTypeId="44478ea4-f8cd-4c94-859b-577bd59d7693"/>
+    <recordType typeId="799569df-2c16-4228-a2c4-d67181cb76ba" valueTypeId="5f2a1a1d-df10-4b57-aef3-4215e44c6f6d"/>
+    <recordManagerType typeId="f786dad2-cfc6-4d51-9883-927f399796f5" valueTypeId="6320fef1-2097-49b7-976a-5695f01ae629"/>
+  </producedTypes>
+  <name>Scan_ПланПоOrderIntake</name>
+  <synonym>
+    <key>ru</key>
+    <value>План по Order Intake (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Order Intake plan (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cbb7e7f2-68ae-442d-8b2f-1ffb80c46853">
+    <name>КоличествоПлан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество (план)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Quantity (plan)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7f3121c1-d5e7-4272-908c-774c7756e8c9">
+    <name>ПланМесяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>План (месяц)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Plan (month)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7c1bfcaf-9173-4a2c-b2a6-48fb024f9bbd">
+    <name>ПланГод</name>
+    <synonym>
+      <key>ru</key>
+      <value>План (год)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Plan (year)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="6183885a-3cf9-4167-a25e-3bc5cfe779ee">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b441d73d-384b-4f08-83d8-cf6373b8c7ba">
+    <name>ХозОперация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хоз. операция</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Business transaction</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ХозяйственныеОперации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="95e77910-3ead-4c20-bf87-2339aa6c913f">
+    <name>ДатаРабочегоДня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата рабочего дня</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Work day</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

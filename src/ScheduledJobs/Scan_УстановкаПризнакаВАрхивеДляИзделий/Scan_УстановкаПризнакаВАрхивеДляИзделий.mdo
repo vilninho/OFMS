@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7de48643-cca8-4e39-9ce0-3e976c14cbb9">
+  <name>Scan_УстановкаПризнакаВАрхивеДляИзделий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Scan установка признака в архиве для продуктов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Scan установка признака в архиве для продуктов</value>
+  </synonym>
+  <methodName>CommonModule.Scan_РегламентныеЗадания.УстановитьПризнакВАрхивеДляИзделий</methodName>
+  <description>Установка признака в архиве для изделий</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

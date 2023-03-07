@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81b0efde-a87f-415c-8a4a-75cca556560e">
+  <name>Scan_СогласованиеДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Cогласование документов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Agreement of documents</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommandGroup.Scan_Согласования</content>
+  <content>CommonPicture.Scan_ЗадачаЗамечание</content>
+  <content>CommonPicture.Scan_ЗадачаОК</content>
+  <content>CommonPicture.Scan_ЗадачаПовторить</content>
+  <content>Catalog.Scan_ШаблоныСогласования</content>
+  <content>Enum.Scan_Важность</content>
+  <content>Enum.Scan_ВариантыСогласования</content>
+  <content>Enum.Scan_РезультатыСогласования</content>
+  <content>Enum.ВариантыВажностиЗадачи</content>
+  <content>Enum.СостоянияБизнесПроцессов</content>
+  <content>BusinessProcess.Scan_Согласование</content>
+  <content>Task.ЗадачаИсполнителя</content>
+  <content>Constant.ИспользоватьБизнесПроцессыИЗадачи</content>
+  <content>FunctionalOption.ИспользоватьБизнесПроцессыИЗадачи</content>
+  <content>InformationRegister.Scan_УчетныеЗаписиЭлектроннойПочтыДляСогласованияДокументовПоЭлектроннойПочте</content>
+  <content>CommonModule.Scan_СогласованиеДокументов</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

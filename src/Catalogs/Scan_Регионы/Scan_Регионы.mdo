@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b591fbdd-cc5f-4326-8b5f-0eb2aab918ed">
+  <producedTypes>
+    <objectType typeId="2ff3fa75-45bd-4a8e-b208-dea9bd390e06" valueTypeId="7d0eaadd-af51-44cb-862b-3697c74eb348"/>
+    <refType typeId="bb60f7c8-3a3c-4b5d-a83c-a7d9e3d667d6" valueTypeId="6bfbe6b9-9e8a-4490-ae01-5a62c0be122b"/>
+    <selectionType typeId="2322ff34-d2ea-4a31-9acb-da6673b93354" valueTypeId="3b388f5b-f0a9-4e7f-ba38-ff841b2ecc2e"/>
+    <listType typeId="7a2a0efd-4633-40a0-9478-d1eae92efdf7" valueTypeId="10feacb0-8929-4efb-ab1c-3709146de458"/>
+    <managerType typeId="615e9c35-9765-4cc4-a092-a3f208480f70" valueTypeId="c2bbd4b9-6718-4cea-9bb6-9dd290de3aaf"/>
+  </producedTypes>
+  <name>Scan_Регионы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регионы (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Regions (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_Регионы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_Регионы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Регион</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_Регионы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_Регионы.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Scan_Регионы.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="a863433d-41be-4a09-9295-00eaa1187ce3">
+    <name>IDExternalSystem</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID External System</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ID External System</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9503234c-c51b-46a7-9a42-60f033f1e0b8">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of renewal</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0e369065-a474-42c1-aaf8-6771c6f97846">
+    <name>НаименованиеАнглийское</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование английское</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Name English</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3355468c-d140-4a72-8974-bd10212026e3">
+    <name>ФедеральныйОкруг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Федеральный округ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Federal district</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ФедеральныеОкруга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="20bff491-6d78-4838-9b81-e2536ade9afb">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6f5a4bc6-4ea6-4b1e-bfca-71b6fd683065">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2e9e846a-f7d4-4b5c-9509-13090529eba1">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a1b1b91-5390-4960-9f8f-3a8a9257edc8">
+  <producedTypes>
+    <objectType typeId="136a43ef-76c5-4ad8-acea-22190a118514" valueTypeId="8a07b71d-e585-49ef-93b7-55134eb04007"/>
+    <managerType typeId="fb817952-7db2-4eb0-863f-4a7f7a6c5a99" valueTypeId="c23f3c3a-3280-441a-99c7-8abc4cdb8d1e"/>
+  </producedTypes>
+  <name>Scan_OrderBookMargin</name>
+  <synonym>
+    <key>ru</key>
+    <value>Order book margin (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Order book margin (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.Scan_OrderBookMargin.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.Scan_OrderBookMargin.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <forms uuid="b02f53b9-4ad6-43a5-88f1-516b743d421a">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a3911060-0165-49a5-b5fb-0c216152e5dc">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

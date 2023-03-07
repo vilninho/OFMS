@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ec5b1e9-69f2-4c64-b1a5-192868a73b2b">
+  <producedTypes>
+    <selectionType typeId="f6e30d16-4f98-45c7-adce-6c186ced8d80" valueTypeId="dc51b05f-8961-4192-bdd9-1a6f79bf9f55"/>
+    <listType typeId="5432a53a-f241-4146-baa5-cb54296c9a75" valueTypeId="5e7b1fb9-aedc-466f-a8c1-2b9c3d1de4ed"/>
+    <managerType typeId="0d0088cd-2d93-49c5-9536-c3b0258ff7e6" valueTypeId="2a23fbd0-cdf1-4a34-9f4a-e637fe3c0c10"/>
+    <recordSetType typeId="34bcb5bd-ff7a-45d2-b1be-6560c2ff8c5e" valueTypeId="09b6decd-74d3-4fb4-80d3-e08dbcc5dbef"/>
+    <recordKeyType typeId="27316b68-f874-4fcd-b887-607e9ccfbcb2" valueTypeId="13e976cc-52da-4270-bead-7d0c61524cad"/>
+    <recordType typeId="ae619cd3-27b9-42c1-adac-6b896839add2" valueTypeId="374615db-f8cb-48b0-895e-831b434f606d"/>
+    <recordManagerType typeId="d695b2c9-8a2a-40da-a4ad-b556cb818284" valueTypeId="e1e2f530-53c3-456a-a966-b917ee5bb9dc"/>
+  </producedTypes>
+  <name>Scan_ЗакреплениеМенеджеровОКПЗаДилерами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрепление менеджеров ОКП за дилерами (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Assigning CSD managers to dealers (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a80db473-dfdb-463d-95a0-174e59029011">
+    <name>Менеджер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Manager</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="a609ef99-9920-42c9-be2d-9f5fd7081a73">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="4472d966-6d63-412c-9689-dd1a2ea4dfbd">
+    <name>Дилер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дилер</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Dealer</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Компании</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef9297fc-5599-4cf5-b203-f3a319b048ad">
+  <name>Scan_ПросмотрОтчетаОбщийСписокДоставок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр отчета Общий список доставок (scania)</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f328d77-452a-403d-ba9e-98ea59822ff0">
+  <producedTypes>
+    <selectionType typeId="ade34fc4-c3e6-49c8-9a8c-70eca19efbd7" valueTypeId="9ea72032-5b58-484d-8edf-140ff53d9d7d"/>
+    <listType typeId="4d2f0c4b-8202-4770-a504-04b804f3b38a" valueTypeId="abc32bc4-e30b-453c-bdc7-92e7c32c613f"/>
+    <managerType typeId="a799339f-f363-4d1c-a56e-f9616d1c4fa8" valueTypeId="c9720df8-077e-4ea5-8b59-0f58955322cc"/>
+    <recordSetType typeId="30522e9a-f92e-4587-863a-9d40125b5c56" valueTypeId="31c6c4e7-e630-4b42-ac2e-f9671ab83f83"/>
+    <recordKeyType typeId="d801acb4-2146-4ea9-b340-2aa63b903203" valueTypeId="81238a40-a8e1-4c18-ae1e-8024f06bbd09"/>
+    <recordType typeId="0af8af88-8eac-4725-b82b-e48ca12ff0bd" valueTypeId="f47f9731-2fb7-4884-8b07-0eed08ed48fa"/>
+    <recordManagerType typeId="88a9bdfc-407c-43b3-bef3-310feb6df77c" valueTypeId="4108cd61-7002-43bb-a24b-244a535ffc62"/>
+  </producedTypes>
+  <name>Scan_НастройкиКлючевыхДатПоПользователям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки ключевых дат по пользователям (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Setting key dates for users (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.Scan_НастройкиКлючевыхДатПоПользователям.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9b69bba7-aa8d-4777-9ec8-d8cb9577d488">
+    <name>Использование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использование</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="27190bf6-8c2d-4984-98cb-3c4314ae1dcf">
+    <name>КлючеваяДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключевая дата</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Scan_КлючевыеДаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="58ac4140-5c07-4569-a15b-a6b6af8dcd75">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="b0e9f8e4-760c-4e25-931c-3bb5c33e0cd4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2a81a2dc-5260-464c-b524-f2d87d664b86">
+    <name>НастройкиОтображенияКлючевыхДат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки отображения ключевых дат</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Key date display settings</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="714e9dc8-220d-4e56-8493-831146100db5">
+    <name>НастройкиКлючевыхДатПоПользователям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки ключевых дат по пользователям (scania)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Setting key dates for users (scania)</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

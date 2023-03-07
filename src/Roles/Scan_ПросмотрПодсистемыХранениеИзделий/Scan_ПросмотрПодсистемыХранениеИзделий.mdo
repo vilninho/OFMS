@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f53db7e-c202-4535-b816-6e6a4fefa561">
+  <name>Scan_ПросмотрПодсистемыХранениеИзделий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр подсистемы Хранение продуктов (scania)</value>
+  </synonym>
+</mdclass:Role>

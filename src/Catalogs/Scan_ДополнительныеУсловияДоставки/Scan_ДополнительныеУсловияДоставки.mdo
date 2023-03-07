@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="770de21a-857d-4a57-b564-7dc38fe0d9ea">
+  <producedTypes>
+    <objectType typeId="15671a01-1906-44fa-a483-c460c07bfd6c" valueTypeId="f15cda1c-8f82-4ac5-9828-3e1ed446a7a7"/>
+    <refType typeId="9c73b330-bf4c-4220-b5aa-811b73d29a30" valueTypeId="be5d6aed-6ba6-44b8-97a0-fce953405eb3"/>
+    <selectionType typeId="9176de1f-55e9-423e-a81b-86972f50acbb" valueTypeId="bc574e47-8bb8-4814-a237-82e2d81a2172"/>
+    <listType typeId="4ae0abb3-277a-4c16-9df6-92fec26b7ebd" valueTypeId="7895c7e3-4b4e-4e5d-8a1f-c7d209c26a04"/>
+    <managerType typeId="67e3c55f-d571-4a51-b1aa-af0a4c1af770" valueTypeId="a03e0213-d1ef-44f0-8fdd-e4029013be66"/>
+  </producedTypes>
+  <name>Scan_ДополнительныеУсловияДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные условия доставки (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Additional terms of delivery (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_ДополнительныеУсловияДоставки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_ДополнительныеУсловияДоставки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_ДополнительныеУсловияДоставки.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_ДополнительныеУсловияДоставки.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="8066d259-b228-4edd-8132-4b52a139390e">
+    <name>ИспользоватьПоУмолчаниюВПФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать по умолчанию В ПФ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use the default PF</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="782a88b5-5c64-437d-a110-c835ecc82495">
+    <producedTypes>
+      <objectType typeId="024cc1c3-648e-4a5c-b109-dbe40dfb95fc" valueTypeId="2c39824b-5ba2-4425-91d4-4a1cd764ef19"/>
+      <rowType typeId="15d25803-ae45-40e6-8467-9efd9cdfcc8d" valueTypeId="dac7bde1-3f90-440a-9e8e-adb34d0fd5cf"/>
+    </producedTypes>
+    <name>ИспользованиеВДокументах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использование в документах</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use in documents</value>
+    </synonym>
+    <attributes uuid="d2f3d902-35e1-4c10-9da7-84730d1678cf">
+      <name>Документ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Document</value>
+      </synonym>
+      <type>
+        <types>EnumRef.Scan_ВидыДокументов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="cb8529e2-6f5c-41cc-8611-5d4a0b9481d3">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form element</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e92238ac-99a2-4075-8e94-9ef5e3c1f5e3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

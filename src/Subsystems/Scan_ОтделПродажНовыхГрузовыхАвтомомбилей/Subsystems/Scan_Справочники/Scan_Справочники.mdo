@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0feb2fdc-01e3-4b27-ad2b-19a0c3526b8d">
+  <name>Scan_Справочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <comment>Справочники подсистемы отдел продаж новых грузовых автомомбилей</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Scan_СоглашенияОПоставке</content>
+  <content>Catalog.Scan_СпециальныеУсловия</content>
+  <content>Catalog.Scan_СтатусыСоглашенийОПоставкеИСпециальныхУсловий</content>
+  <content>Catalog.Scan_ТребованияОформленияКПОтКузовостроителя</content>
+  <content>Role.Scan_ДобавлениеИзменениеСправочниковОтделаПродажНовыхГрузовыхАвтомобилей</content>
+  <content>Catalog.Scan_ТипыПродуктовКПSPORT</content>
+  <content>Catalog.Scan_СтатусыКПSPORT</content>
+  <content>Catalog.Scan_КоммерческиеПредложения</content>
+  <content>Catalog.Scan_СтатусыКалькуляций</content>
+  <content>Catalog.Scan_СоставляющиеРасчетаЦеныПродуктов</content>
+  <content>Catalog.Scan_РазделыКалькуляции</content>
+  <content>Catalog.Scan_ШаблоныУсловийОплаты</content>
+  <content>Catalog.Scan_ВидыLeadTime</content>
+  <content>Catalog.Scan_КонтрольныеТочкиLeadTime</content>
+  <parentSubsystem>Subsystem.Scan_ОтделПродажНовыхГрузовыхАвтомомбилей</parentSubsystem>
+</mdclass:Subsystem>

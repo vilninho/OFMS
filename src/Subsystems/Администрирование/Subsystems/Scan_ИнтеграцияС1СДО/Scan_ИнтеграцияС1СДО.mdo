@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dac0c5fb-de66-4a70-8306-61a967178b83">
+  <name>Scan_ИнтеграцияС1СДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с 1С:ДО</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.Scan_РегистрацияОбменаС1СДО</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ffef6c7-803a-4ca2-a512-d165957375e4">
+  <producedTypes>
+    <refType typeId="bf4641fe-6c8a-4207-af5c-da57bbd66357" valueTypeId="893f32b9-792c-43eb-8a6c-a4e8a5db61e4"/>
+    <listType typeId="fc6d3a0c-0cf4-4c8c-9630-0586e0997ae0" valueTypeId="7188944f-ae86-40dc-8256-02c7740dcc08"/>
+    <managerType typeId="f3f61f96-4c33-4dae-ae2f-7eca9a1cdc4f" valueTypeId="20b69de3-17b1-4483-b095-1fa4e0324ee3"/>
+  </producedTypes>
+  <name>Scan_ВидыРасчетаДатыОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды расчета даты оплаты (scania)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="85298341-b620-42ad-9c0c-8db31b67a89a">
+    <name>ОтДатыДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>От даты договора</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="24a0b35d-f7fa-41a2-b604-2c78cc145db4">
+    <name>ДоДатыОтгрузкиDDS</name>
+    <synonym>
+      <key>ru</key>
+      <value>До даты отгрузки (DDS)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="79c12a63-006f-48d3-a674-dfa6acaf50ab">
+    <name>ОтДатыОтгрузкиDDS</name>
+    <synonym>
+      <key>ru</key>
+      <value>От даты отгрузки (DDS)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

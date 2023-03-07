@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="caef8087-01d3-4b67-a817-0833cfaf0176">
+  <producedTypes>
+    <selectionType typeId="01b32d48-8b2c-4dc6-b0f7-9a66d1f243ef" valueTypeId="9fe4606c-4def-44c9-87bd-eb91e78c839d"/>
+    <listType typeId="e82a1ed6-9e5c-436e-ae7d-167ed8970c55" valueTypeId="73a908a8-fd00-4072-b482-b400091fdd4b"/>
+    <managerType typeId="07aa9b02-c989-4d93-ad4f-daf95cf48f58" valueTypeId="b474d23b-7061-4696-b9a2-4795af2c659a"/>
+    <recordSetType typeId="5910a365-5cd6-486c-b875-93e600d75bf2" valueTypeId="ee83f296-db7b-48ac-a61e-d9decab82207"/>
+    <recordKeyType typeId="d0d0da5c-8252-4374-a33d-58b3c5ffa20b" valueTypeId="d000ffae-3c7e-47e6-8092-12e778f714c1"/>
+    <recordType typeId="02997cee-e42b-4948-b2df-4f9b998e6c50" valueTypeId="bbf4eed7-6512-4800-adba-00a7d5fc7897"/>
+    <recordManagerType typeId="d70b9d8e-bd48-4dbf-bf0e-8d0df3fcb0ed" valueTypeId="804485bd-5a66-4b16-aa7e-bada52c769bb"/>
+  </producedTypes>
+  <name>Scan_СоответствиеЦеновыхПакетовИОпцийПродуктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие ценовых пакетов и опций продуктов (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Matching price packages and product options</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_СоответствиеЦеновыхПакетовИОпцийПродуктов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_СоответствиеЦеновыхПакетовИОпцийПродуктов.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="578829ab-4146-4882-b72b-090577b13706">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="c4031061-cd4a-47e8-88df-01a4d0855333">
+    <name>ЦеновойПакет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ценовой пакет</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Price package</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ЦеновыеПакеты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ef91d5fe-011f-4ef4-a71a-0ff4f2dc85f5">
+    <name>ОпцияПродукта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опция продукта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Product option</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ОпцииПродуктов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="495629e8-7d85-427c-a68b-e8b8a18c0689">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d0c98819-0fb7-46ed-af82-351a8cce3cec">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

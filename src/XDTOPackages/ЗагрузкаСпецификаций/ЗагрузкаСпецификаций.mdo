@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdfc0ad5-77dd-4606-923d-9b9cbdc52a57">
+  <name>ЗагрузкаСпецификаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка спецификаций</value>
+  </synonym>
+  <namespace>http://xmlns.scania.com/factory/schema/productdata/v1</namespace>
+</mdclass:XDTOPackage>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36d0aec4-49e7-4c15-8d01-db609e726484">
+  <producedTypes>
+    <selectionType typeId="60d4c8d1-3d55-4810-9b70-c210352966cc" valueTypeId="d70027b7-59dc-4f05-af0c-db20c79df921"/>
+    <listType typeId="1aba80e4-66ff-4c69-b88b-42bbcdca5a3a" valueTypeId="96884eab-06a5-42d8-9792-b119a8bbc375"/>
+    <managerType typeId="101fd3be-73c7-406e-9d13-41b506b0b247" valueTypeId="e9acb097-46e1-4f46-bd45-8ae514bd3643"/>
+    <recordSetType typeId="08e0cea7-15cb-4e1c-854a-7d016a411157" valueTypeId="ea699810-e316-4fdc-bd02-2f1c1726b3ca"/>
+    <recordKeyType typeId="108aab3c-a485-46a9-8f82-42d87314b9a7" valueTypeId="72b6ad38-bb3d-4ac3-929e-44358ab1fc94"/>
+    <recordType typeId="9454957d-2ee5-4f55-b0e6-d7ccaaf4817d" valueTypeId="1008113a-2c5f-4ca0-b588-fee8a17a8354"/>
+    <recordManagerType typeId="19a8bfdf-83ed-4ddf-8920-eb6713cc3e14" valueTypeId="dca8795d-7ec3-40a1-bcdb-88b30ebd2b33"/>
+  </producedTypes>
+  <name>Scan_ХарактеристикиSTD</name>
+  <synonym>
+    <key>ru</key>
+    <value>История изменения спецификаций стандартных моделей (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="eaf3f5c3-5c4e-499b-843e-3ad270379deb">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Value</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_СтатусыЗаявокНаДействие</types>
+      <types>DocumentRef.Scan_СпецификацияСтандартнойМодели</types>
+      <types>CatalogRef.Scan_РазделыКалькуляции</types>
+      <types>Boolean</types>
+      <types>CatalogRef.Scan_МоделиПродуктов</types>
+      <types>CatalogRef.Scan_Контрагенты</types>
+      <types>String</types>
+      <types>CatalogRef.Scan_ОпцииПродуктов</types>
+      <types>Date</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="ac10d9ed-452f-4197-8aad-a3ca828b7b7f">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="c5cdc877-9704-447c-a49e-1de12a4ea2d1">
+    <name>Спецификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спецификация</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Scan_СпецификацияСтандартнойМодели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3d73600a-6d48-4d7a-9139-9ef83f3ee12e">
+    <name>ВидЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид значения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Scan_ДополнительнаяИнформацияПоSTD</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1117ea9-815a-4f52-9231-8c31adc7c904">
+  <producedTypes>
+    <objectType typeId="48899b0f-0f14-4a7d-ae48-158c56f2cbf5" valueTypeId="6d290f7c-6045-4ff7-979a-b4d523eaa005"/>
+    <refType typeId="ec20a05b-92ef-4a5c-988c-3034daea13aa" valueTypeId="28842dd2-03d5-4315-ba4d-af4650cca197"/>
+    <selectionType typeId="b404882b-967a-4ee7-a78f-e949c714d1e3" valueTypeId="8f45144c-e6ea-479f-94f5-9d1e6c2de74d"/>
+    <listType typeId="6d78587b-90ec-4dc5-9265-783c95f44505" valueTypeId="c4717291-df8d-4fb6-adad-320ca52b7b40"/>
+    <managerType typeId="b09e2271-6add-43d0-999d-40f0290c4c19" valueTypeId="abb88926-d7f6-4050-b3d3-93b90c2d7b22"/>
+  </producedTypes>
+  <name>Scan_ДополнительныеПараметрыПродуктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные параметры продуктов (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Additional product parameters (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_ДополнительныеПараметрыПродуктов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_ДополнительныеПараметрыПродуктов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_ДополнительныеПараметрыПродуктов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_ДополнительныеПараметрыПродуктов.Form.ФормаСписка</defaultListForm>
+  <forms uuid="2dddbacd-a506-40d1-b051-32d216045380">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ee425428-5676-4c84-b0d4-96609a870bcb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6fcd7c1-1a20-40d2-83df-128940052886">
+  <producedTypes>
+    <refType typeId="7a310dd9-763f-4f37-ae2e-79f9f7b95fc0" valueTypeId="49a3cf97-5160-4017-a441-c408a5cb0bc9"/>
+    <listType typeId="5e7a0a8a-e4c2-445b-b99e-5a41a8f2cc64" valueTypeId="9a655d9c-983b-4c10-930f-0078ca2b33f0"/>
+    <managerType typeId="028a56a4-8e15-4682-b1d3-f78a50224eca" valueTypeId="6490f985-8890-4092-9c0d-cac1fa7edd97"/>
+  </producedTypes>
+  <name>Scan_ПричиныНевыполненияКТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины невыполнения КТС(scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Причины невыполнения КТС(scania)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="66a2c506-10e4-4ce5-9e39-fd37523d2f71">
+    <name>КТСНеВыполненДилером</name>
+    <synonym>
+      <key>ru</key>
+      <value>КТС не выполнен дилером</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>КТС не выполнен дилером</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0cf6c9d2-f607-4a24-840c-41efd6171ac2">
+    <name>ИзделиеПроданоУшлоСоСклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукт продан / ушел со склада</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Продукт продан / ушел со склада</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

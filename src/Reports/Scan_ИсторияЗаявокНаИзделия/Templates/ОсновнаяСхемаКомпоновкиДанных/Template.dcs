@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаПрихода</dataPath>
+			<field>ДатаПрихода</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Изделие</dataPath>
+			<field>Изделие</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МестоХранения</dataPath>
+			<field>МестоХранения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Факт</dataPath>
+			<field>Факт</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Факт</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Факт</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокументДвижения</dataPath>
+			<field>ДокументДвижения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документ движения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Документ движения</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:periodNumber>1</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Регистратор</dataPath>
+			<field>Регистратор</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регистратор</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Регистратор</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:periodNumber>2</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ХозОперация</dataPath>
+			<field>ХозОперация</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Хоз операция</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Хоз операция</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	Scan_МестонахождениеИзделий.Регистратор КАК ЗаявкаПеревозчику,
+	Scan_МестонахождениеИзделий.Изделие,
+	Scan_МестонахождениеИзделий.МестоХранения,
+	Scan_МестонахождениеИзделий.ДатаПрихода,
+	ИСТИНА КАК Факт
+ПОМЕСТИТЬ ИсторияПоЗаявкамПеревозчика
+ИЗ
+	РегистрНакопления.Scan_МестонахождениеИзделий КАК Scan_МестонахождениеИзделий
+ГДЕ
+	Scan_МестонахождениеИзделий.ВидДвижения = ЗНАЧЕНИЕ(ВидДвиженияНакопления.Приход)
+	И ТИПЗНАЧЕНИЯ(Scan_МестонахождениеИзделий.Регистратор) = ТИП(Документ.Scan_ЗаявкаПеревозчику)
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Изделие,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.Маршрут,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.ДатаПолучения,
+	ЛОЖЬ
+ИЗ
+	Документ.Scan_ЗаявкаПеревозчику.СоставЗаявки КАК Scan_ЗаявкаПеревозчикуСоставЗаявки
+ГДЕ
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаУходаФакт = &amp;ПустаяДата
+	И Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.Сторнирован = ЛОЖЬ
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Изделие,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.МестоДоставки,
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.ДатаДоставки,
+	ЛОЖЬ
+ИЗ
+	Документ.Scan_ЗаявкаПеревозчику.СоставЗаявки КАК Scan_ЗаявкаПеревозчикуСоставЗаявки
+ГДЕ
+	Scan_ЗаявкаПеревозчикуСоставЗаявки.ДатаДоставкиФакт = &amp;ПустаяДата
+	И Scan_ЗаявкаПеревозчикуСоставЗаявки.Ссылка.Сторнирован = ЛОЖЬ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ИсторияПоЗаявкамПеревозчика.ЗаявкаПеревозчику,
+	ИсторияПоЗаявкамПеревозчика.Изделие,
+	ИсторияПоЗаявкамПеревозчика.МестоХранения,
+	ИсторияПоЗаявкамПеревозчика.ДатаПрихода,
+	ИсторияПоЗаявкамПеревозчика.Факт,
+	Scan_КорректировкаИнформацииПоЗаявкам.ЗаявкаНаДействие
+ПОМЕСТИТЬ ЗаявкиПеревозчикаСЗНД
+ИЗ
+	ИсторияПоЗаявкамПеревозчика КАК ИсторияПоЗаявкамПеревозчика
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Scan_КорректировкаИнформацииПоЗаявкам КАК Scan_КорректировкаИнформацииПоЗаявкам
+		ПО ИсторияПоЗаявкамПеревозчика.ЗаявкаПеревозчику = Scan_КорректировкаИнформацииПоЗаявкам.ЗаявкаПеревозчику
+			И ИсторияПоЗаявкамПеревозчика.Изделие = Scan_КорректировкаИнформацииПоЗаявкам.Изделие
+;
+
+////////////////////////////////////////////////////////////////////////////////
+УНИЧТОЖИТЬ ИсторияПоЗаявкамПеревозчика
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Scan_ПеремещениеИзделийИзделияДляПеремещения.Ссылка КАК Регистратор,
+	Scan_ПеремещениеИзделийИзделияДляПеремещения.Изделие,
+	Scan_ПеремещениеИзделийИзделияДляПеремещения.Ссылка.МестоДоставки КАК МестоХранения,
+	ВЫБОР
+		КОГДА Scan_ПеремещениеИзделийИзделияДляПеремещения.ДатаДоставки = ДАТАВРЕМЯ(1, 1, 1, 0, 0, 0)
+			ТОГДА Scan_ПеремещениеИзделийИзделияДляПеремещения.Ссылка.ДокументОснование.ДатаИВремяПоручения
+		ИНАЧЕ Scan_ПеремещениеИзделийИзделияДляПеремещения.ДатаДоставки
+	КОНЕЦ КАК ДатаПрихода,
+	ВЫБОР
+		КОГДА Scan_ПеремещениеИзделийИзделияДляПеремещения.ДатаДоставки = ДАТАВРЕМЯ(1, 1, 1, 0, 0, 0)
+			ТОГДА ЛОЖЬ
+		ИНАЧЕ ИСТИНА
+	КОНЕЦ КАК Факт,
+	Scan_ПеремещениеИзделийИзделияДляПеремещения.Ссылка.ДокументОснование КАК ЗаявкаНаДействие
+ПОМЕСТИТЬ ПеремещенияИзделий
+ИЗ
+	Документ.Scan_ПеремещениеИзделий.ИзделияДляПеремещения КАК Scan_ПеремещениеИзделийИзделияДляПеремещения
+ГДЕ
+	Scan_ПеремещениеИзделийИзделияДляПеремещения.Ссылка.ДокументОснование &lt;&gt; ЗНАЧЕНИЕ(Документ.Scan_ЗаявкаНаДействие.ПустаяСсылка)
+	И Scan_ПеремещениеИзделийИзделияДляПеремещения.Ссылка.ПометкаУдаления = ЛОЖЬ
+	И Scan_ПеремещениеИзделийИзделияДляПеремещения.Ссылка.Проведен = ИСТИНА
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ЗаявкиПеревозчикаСЗНД.ЗаявкаПеревозчику,
+	ЗаявкиПеревозчикаСЗНД.Изделие,
+	ЗаявкиПеревозчикаСЗНД.МестоХранения,
+	ЗаявкиПеревозчикаСЗНД.ДатаПрихода,
+	ЗаявкиПеревозчикаСЗНД.Факт,
+	ЗаявкиПеревозчикаСЗНД.ЗаявкаНаДействие
+ИЗ
+	ЗаявкиПеревозчикаСЗНД КАК ЗаявкиПеревозчикаСЗНД
+;
+
+////////////////////////////////////////////////////////////////////////////////
+УНИЧТОЖИТЬ ЗаявкиПеревозчикаСЗНД
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Scan_ЗаявкаНаДействиеПродуктыПоЗаявке.Изделие,
+	Scan_ЗаявкаНаДействиеПродуктыПоЗаявке.Ссылка КАК ЗаявкаНаДействие
+ПОМЕСТИТЬ ВсеЗаявкиНаДействие
+ИЗ
+	Документ.Scan_ЗаявкаНаДействие.ПродуктыПоЗаявке КАК Scan_ЗаявкаНаДействиеПродуктыПоЗаявке
+ГДЕ
+	Scan_ЗаявкаНаДействиеПродуктыПоЗаявке.Ссылка.ПометкаУдаления = ЛОЖЬ
+	И Scan_ЗаявкаНаДействиеПродуктыПоЗаявке.Ссылка.СтатусЗаявки &lt;&gt; ЗНАЧЕНИЕ(Справочник.Scan_СтатусыЗаявокНаДействие.Аннулирована)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ЕСТЬNULL(ПеремещенияИзделий.Регистратор, ВсеЗаявкиНаДействие.ЗаявкаНаДействие) КАК ДокументДвижения,
+	ВЫБОР
+		КОГДА ВсеЗаявкиНаДействие.ЗаявкаНаДействие.МестоДоставки = ЗНАЧЕНИЕ(Справочник.Scan_МестаХранения.ПустаяСсылка)
+			ТОГДА ЕСТЬNULL(ПеремещенияИзделий.МестоХранения, ВсеЗаявкиНаДействие.ЗаявкаНаДействие.МестоПолучения)
+		ИНАЧЕ ЕСТЬNULL(ПеремещенияИзделий.МестоХранения, ВсеЗаявкиНаДействие.ЗаявкаНаДействие.МестоДоставки)
+	КОНЕЦ КАК МестоХранения,
+	ЕСТЬNULL(ПеремещенияИзделий.ДатаПрихода, ВсеЗаявкиНаДействие.ЗаявкаНаДействие.ДатаИВремяПоручения) КАК ДатаПрихода,
+	ЕСТЬNULL(ПеремещенияИзделий.Факт, ЛОЖЬ) КАК Факт,
+	ВсеЗаявкиНаДействие.Изделие КАК Изделие,
+	ВсеЗаявкиНаДействие.ЗаявкаНаДействие КАК ЗаявкаНаДействие
+ПОМЕСТИТЬ ВсеЗаявки
+ИЗ
+	ВсеЗаявкиНаДействие КАК ВсеЗаявкиНаДействие
+		ЛЕВОЕ СОЕДИНЕНИЕ ПеремещенияИзделий КАК ПеремещенияИзделий
+		ПО ВсеЗаявкиНаДействие.ЗаявкаНаДействие = ПеремещенияИзделий.ЗаявкаНаДействие
+			И ВсеЗаявкиНаДействие.Изделие = ПеремещенияИзделий.Изделие
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	Scan_МестонахождениеИзделий.Регистратор,
+	Scan_МестонахождениеИзделий.МестоХранения,
+	Scan_МестонахождениеИзделий.ДатаПрихода,
+	ИСТИНА,
+	Scan_МестонахождениеИзделий.Изделие,
+	Scan_МестонахождениеИзделий.Регистратор
+ИЗ
+	РегистрНакопления.Scan_МестонахождениеИзделий КАК Scan_МестонахождениеИзделий
+ГДЕ
+	Scan_МестонахождениеИзделий.ВидДвижения = ЗНАЧЕНИЕ(ВидДвиженияНакопления.Приход)
+	И ТИПЗНАЧЕНИЯ(Scan_МестонахождениеИзделий.Регистратор) = ТИП(Документ.Scan_ДвижениеИзделий)
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	Scan_ПеремещениеИзделийИзделияДляПеремещения.Ссылка,
+	Scan_ПеремещениеИзделийИзделияДляПеремещения.Ссылка.МестоДоставки,
+	Scan_ПеремещениеИзделийИзделияДляПеремещения.ДатаДоставки,
+	ИСТИНА,
+	Scan_ПеремещениеИзделийИзделияДляПеремещения.Изделие,
+	Scan_ПеремещениеИзделийИзделияДляПеремещения.Ссылка
+ИЗ
+	Документ.Scan_ПеремещениеИзделий.ИзделияДляПеремещения КАК Scan_ПеремещениеИзделийИзделияДляПеремещения
+ГДЕ
+	Scan_ПеремещениеИзделийИзделияДляПеремещения.Ссылка.Проведен = ИСТИНА
+	И Scan_ПеремещениеИзделийИзделияДляПеремещения.Ссылка.ДокументОснование = ЗНАЧЕНИЕ(Документ.Scan_ЗаявкаНаДействие.ПустаяСсылка)
+	И Scan_ПеремещениеИзделийИзделияДляПеремещения.Ссылка.ПометкаУдаления = ЛОЖЬ
+	И Scan_ПеремещениеИзделийИзделияДляПеремещения.ДатаДоставки &lt;&gt; ДАТАВРЕМЯ(1, 1, 1, 0, 0, 0)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВсеЗаявки.ДокументДвижения,
+	ВсеЗаявки.ЗаявкаНаДействие КАК Регистратор,
+	ВсеЗаявки.ЗаявкаНаДействие.ХозОперация КАК ХозОперация,
+	ВсеЗаявки.МестоХранения,
+	ВсеЗаявки.ДатаПрихода,
+	ВсеЗаявки.Факт,
+	ВсеЗаявки.Изделие
+ИЗ
+	ВсеЗаявки КАК ВсеЗаявки</query>
+	</dataSet>
+	<parameter>
+		<name>ПустаяДата</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Пустая дата</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Пустая дата</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>История заявок на изделия</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>История заявок на изделия</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Изделие</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МестоХранения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Регистратор</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ХозОперация</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаПрихода</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Изделие</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>e84a823c-b9e9-4c22-abbe-99409530ac7c</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ДатаПрихода</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">Custom</v8:variant>
+						<v8:date>0001-01-01T00:00:00</v8:date>
+					</dcsset:right>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">МестоХранения</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>7ba887ef-bfe4-427f-9d7a-bc4d79c93647</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>ДатаПрихода</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection/>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Факт</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Регистратор.ХозОперация</dcsset:left>
+							<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+							<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.Scan_ХозяйственныеОперации.СнятиеСХраненияИПродажаТретьемуЛицу</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Регистратор.ХозОперация</dcsset:left>
+							<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+							<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.Scan_ХозяйственныеОперации.ПокупкаУПоставщикаИПродажаТретьемуЛицу</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Регистратор.ХозОперация</dcsset:left>
+							<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+							<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.Scan_ХозяйственныеОперации.ПродажаТретьемуЛицуСоСкладаСканияРусь</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">style:SpecialTextColor</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Зеленый</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:use>false</dcsset:use>
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>МестоХранения</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Изделие</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

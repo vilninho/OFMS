@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29a5b11d-af3e-438c-8999-19592487a8c0">
+  <producedTypes>
+    <objectType typeId="3637b919-f5d7-4ed2-a5a5-948531c8e756" valueTypeId="f3a1b88d-f02d-44ef-9d34-14cc3435fa33"/>
+    <refType typeId="9416c851-60a0-4adb-89bb-b47bc5ee5cf9" valueTypeId="35f0176a-047b-4d5e-b48e-86f4c6f0a760"/>
+    <selectionType typeId="c36d12b1-e570-4d3f-b9e1-ca6cbc5e6826" valueTypeId="ec5301a7-3b06-4c7f-b14a-6bc87b2c885b"/>
+    <listType typeId="e5916766-4bed-4a88-ae04-0bfe47fecf43" valueTypeId="2e88e76e-33b9-4a7d-af82-9f6b2e7cb657"/>
+    <managerType typeId="1fd2be86-e8f3-4f0b-9baa-149a29990c89" valueTypeId="cb635f51-e4ba-4f9f-a36e-73ba74cb55af"/>
+  </producedTypes>
+  <name>Scan_ЦеновыеПакеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ценовые пакеты (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Price packages (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_ЦеновыеПакеты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_ЦеновыеПакеты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_ЦеновыеПакеты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_ЦеновыеПакеты.Form.ФормаСписка</defaultListForm>
+  <forms uuid="7573f7b0-10a5-4ad7-bba7-6e0113f60843">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e58fee16-cbd4-4c9f-8dbb-fdfd845821b1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

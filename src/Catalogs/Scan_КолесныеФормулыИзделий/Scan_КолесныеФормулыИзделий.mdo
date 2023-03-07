@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6562eb19-9407-4994-a668-4dfb2392c812">
+  <producedTypes>
+    <objectType typeId="f778f8c2-b12a-4f2e-9d61-02e0f1ed6eb1" valueTypeId="f729706d-88a6-442c-adbb-6bf81056dd76"/>
+    <refType typeId="9446b85f-1970-4bb3-9746-8a36f79805c2" valueTypeId="c651d611-9e1b-4fa2-8fa7-51120a18a1fb"/>
+    <selectionType typeId="1fde881a-8abf-4cf2-bde9-71aa49842ceb" valueTypeId="ee170f96-59f0-4845-b1e8-92fd817ee62c"/>
+    <listType typeId="b4090128-fb1f-4a90-8c95-bfdb4f413e37" valueTypeId="12919155-ef00-47da-a1b0-6b28befb6dea"/>
+    <managerType typeId="55204501-d649-407c-8a60-c979cc074a73" valueTypeId="9e88418f-3bc0-47a5-abeb-f0f40283208b"/>
+  </producedTypes>
+  <name>Scan_КолесныеФормулыИзделий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Колесные формулы продуктов (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Wheel configurations products  (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_КолесныеФормулыИзделий.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_КолесныеФормулыИзделий.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>15</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_КолесныеФормулыИзделий.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_КолесныеФормулыИзделий.Form.ФормаСписка</defaultListForm>
+  <forms uuid="95730bcf-b096-4ac2-a718-c9c4e5903b85">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form element</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="32b56e89-a62b-430b-aa7d-ac0f6ca40ac3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

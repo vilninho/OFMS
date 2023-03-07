@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65f1b392-4c4c-432f-a2d0-dcda921e055e">
+  <producedTypes>
+    <objectType typeId="bfe72568-13fc-499c-a754-a7ab9ef9fe94" valueTypeId="41829c20-22e1-4670-b872-ae5fa4cfb390"/>
+    <managerType typeId="b238c60f-dcc4-48cc-8e64-99fd00a39501" valueTypeId="7cdc501b-0300-49da-b29c-e36b795163b2"/>
+  </producedTypes>
+  <name>Scan_ЕженедельныйОтчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Еженедельный отчет</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Еженедельный отчет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.Scan_ЕженедельныйОтчет.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.Scan_ЕженедельныйОтчет.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="1bd3b7b3-1a4b-480f-8230-cb13e7c7abb8">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="4c2356dd-5603-4fd7-a1a8-7e4320ca9067">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

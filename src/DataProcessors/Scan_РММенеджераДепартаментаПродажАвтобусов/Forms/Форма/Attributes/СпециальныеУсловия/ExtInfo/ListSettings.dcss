@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core">
+	<filter>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">Дилер</left>
+			<comparisonType>Equal</comparisonType>
+			<userSettingID>9cd1f7f6-e291-40dc-93d8-41f06c2cc97e</userSettingID>
+			<userSettingPresentation xsi:type="xs:string">Дилер</userSettingPresentation>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<left xsi:type="dcscor:Field">Статус</left>
+			<comparisonType>Equal</comparisonType>
+			<right xsi:type="dcscor:DesignTimeValue">Справочник.Scan_СтатусыСоглашенийОПоставкеИСпециальныхУсловий.Запрос</right>
+			<userSettingID>e6587cba-ce89-48ac-b7cd-1b1d2bd5b864</userSettingID>
+			<userSettingPresentation xsi:type="xs:string">Статус</userSettingPresentation>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">РегиональныйМенеджер</left>
+			<comparisonType>Equal</comparisonType>
+			<userSettingID>6a192b91-0038-4056-af7b-e2f34ea68882</userSettingID>
+			<userSettingPresentation xsi:type="xs:string">Региональный менеджер</userSettingPresentation>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">КонечныйКлиент</left>
+			<comparisonType>Equal</comparisonType>
+			<userSettingID>966270d6-6561-4871-a268-714c55bf1c5e</userSettingID>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">КонечныйКлиентКомпания</left>
+			<comparisonType>Equal</comparisonType>
+			<userSettingID>19223685-7d03-4072-b889-c88181822862</userSettingID>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">Модель</left>
+			<comparisonType>Equal</comparisonType>
+			<userSettingID>f820e104-2d55-425c-a1fb-58e19c9885c0</userSettingID>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">УникальностьСпецификации</left>
+			<comparisonType>Equal</comparisonType>
+			<userSettingID>6ec35318-0664-409d-87ce-62abd0b44a37</userSettingID>
+			<userSettingPresentation xsi:type="xs:string">STD\UO\UUO</userSettingPresentation>
+		</item>
+		<viewMode>Normal</viewMode>
+		<userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</userSettingID>
+	</filter>
+	<order>
+		<item xsi:type="OrderItemField">
+			<field>Код</field>
+			<orderType>Desc</orderType>
+		</item>
+		<viewMode>Normal</viewMode>
+		<userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</userSettingID>
+	</order>
+	<conditionalAppearance>
+		<viewMode>Normal</viewMode>
+		<userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</userSettingID>
+	</conditionalAppearance>
+	<itemsViewMode>Normal</itemsViewMode>
+	<itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</itemsUserSettingID>
+</Settings>

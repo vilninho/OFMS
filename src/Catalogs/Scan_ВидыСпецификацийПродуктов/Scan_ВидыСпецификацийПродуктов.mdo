@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34a8f21c-0e79-4ae6-a490-3a128343b215">
+  <producedTypes>
+    <objectType typeId="fcd0e242-076a-4114-9f5a-7ff3cac33ee3" valueTypeId="8b73e141-b5bb-4f31-bfb0-81063fb12372"/>
+    <refType typeId="76fa0dda-d64d-47f9-904c-19ebad673867" valueTypeId="e0d4672b-d1bc-4555-8e1d-95f33b418c70"/>
+    <selectionType typeId="e106078d-4fda-4b93-ab5a-45b4f7797675" valueTypeId="71e51437-9aa0-4f15-a0e3-b50c7edb565c"/>
+    <listType typeId="336e57f2-7aff-4e2d-89ef-ac1b4cdb6326" valueTypeId="6adf033d-2664-4a67-9449-588390ee8c61"/>
+    <managerType typeId="496aa261-db75-415f-9d5b-50d507e613fe" valueTypeId="882cf833-d0a3-43e8-a327-b9b553a5bd6a"/>
+  </producedTypes>
+  <name>Scan_ВидыСпецификацийПродуктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды спецификаций продуктов (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Types of product specifications (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_ВидыСпецификацийПродуктов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_ВидыСпецификацийПродуктов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="98d37eaf-824b-4153-8ec3-a008a509dc0c">
+      <name>COWСпецификацияЗаказанная</name>
+      <description>COW спецификация заказанная</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="d97e69c9-051b-47e0-a2d0-15aa6053107b">
+      <name>COWСпецификацияЛокальная</name>
+      <description>COW спецификация локальная</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="c3b745fe-fe86-4cf0-b2fd-a5ad7d33fc47">
+      <name>COWСпецификацияПодтвержденнаяЗаводом</name>
+      <description>COW спецификация подтвержденная заводом</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="8ad68b00-d868-4056-add0-be65c1cf8e21">
+      <name>SPIIСпецификация</name>
+      <description>SPII спецификация</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="aa83025d-45ed-410c-9c5b-34577cac8132">
+      <name>SPORTСпецификация</name>
+      <description>SPORT спецификация</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_ВидыСпецификацийПродуктов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_ВидыСпецификацийПродуктов.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="5d2a76d2-904b-4e3e-aa2f-9e39dba50a7a">
+    <name>IDExternalSystem</name>
+    <synonym>
+      <key>ru</key>
+      <value>IDExternalSystem</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="59972923-63ed-4e77-9730-81b0527babfb">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of renewal</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="be0cf631-800c-436e-b250-f95ff1b37c6a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="002923d5-1b54-4633-ae29-85c49ed3f1c0">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

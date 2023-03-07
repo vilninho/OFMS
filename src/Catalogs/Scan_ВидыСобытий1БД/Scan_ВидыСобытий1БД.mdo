@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36289d81-17aa-415b-986e-de0464012163">
+  <producedTypes>
+    <objectType typeId="efc927dd-df07-4317-958f-4a74186da500" valueTypeId="4dc3f8a8-96fd-45ca-a635-42b7bb572502"/>
+    <refType typeId="90d48df4-6f7b-414d-a5d4-e90bd75da960" valueTypeId="cb55e70f-27cc-4796-9b8a-59a7d033942a"/>
+    <selectionType typeId="6d2a1581-d457-44bb-b238-104adfdb24cc" valueTypeId="4154f32d-8ac8-4a5a-893d-cd439230c097"/>
+    <listType typeId="ef056e95-0f4a-475d-a87c-4498ffd026a6" valueTypeId="48171f1c-4eec-492f-959f-d0ff226aff21"/>
+    <managerType typeId="c32052b2-6164-44e7-8843-9be61c236f0a" valueTypeId="86c47689-43a7-4931-a8cc-47cd04f3a4bd"/>
+  </producedTypes>
+  <name>Scan_ВидыСобытий1БД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды событий 1БД  (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Types of 1BD events (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_ВидыСобытий1БД.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_ВидыСобытий1БД.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>7</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="27a01c11-5b8c-43fa-8705-0114fc715197">
+      <name>ОтменаНакладной</name>
+      <description>Отмена накладной</description>
+      <code xsi:type="core:StringValue">
+        <value>0000003</value>
+      </code>
+    </items>
+    <items id="1183eed2-ee91-479e-bb46-a441b7fd569d">
+      <name>ПоступлениеПродуктов</name>
+      <description>Поступление продуктов</description>
+      <code xsi:type="core:StringValue">
+        <value>0000001</value>
+      </code>
+    </items>
+    <items id="51e7b002-bffa-4f01-b5a1-9d811148a914">
+      <name>ПродажаПродуктов</name>
+      <description>Продажа продуктов</description>
+      <code xsi:type="core:StringValue">
+        <value>0000002</value>
+      </code>
+    </items>
+    <items id="81e6075e-426f-4932-b771-f6fdc66c23c6">
+      <name>СписаниеПродукта</name>
+      <description>Списание продукта</description>
+      <code xsi:type="core:StringValue">
+        <value>0000004</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_ВидыСобытий1БД.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_ВидыСобытий1БД.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="e2207ade-341b-4050-b369-8adaaaa63ed9">
+    <name>IDExternalSystem</name>
+    <synonym>
+      <key>ru</key>
+      <value>IDExternalSystem</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ID External System</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e486cdf5-3ccf-48f8-8ff6-46afdab01d3e">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of renewal</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="91d90c6e-06af-4478-8195-0c9b16e1a2df">
+    <name>Использовать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d7c79d72-1149-44e1-bd38-0d72d7dbf803">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2f5816c5-6ef8-48b5-a394-886853aee451">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

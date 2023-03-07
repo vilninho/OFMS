@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b46017c-2800-4cc2-8788-ab4bfe13b4ca">
+  <producedTypes>
+    <selectionType typeId="ff5795e9-45a6-440f-8d18-aa498676fbe6" valueTypeId="2ab947d1-ce66-4502-a45c-b72735cec594"/>
+    <listType typeId="8997f53c-55d5-47a4-a80d-d6dcdae646c7" valueTypeId="d9cfd563-40da-4620-9129-52df9db2fffa"/>
+    <managerType typeId="5edb3b03-f8c9-400a-9b5b-8b966076cd78" valueTypeId="fefbe4ac-9806-41b0-8e0b-1142727a5f6e"/>
+    <recordSetType typeId="4b862f63-f159-44bd-af48-902578b6de4e" valueTypeId="c82be8ea-62e0-45a0-bf52-3d78d2bbc081"/>
+    <recordKeyType typeId="ca3bf640-e59a-4758-9a20-0375b20ee386" valueTypeId="6346ccfa-da9b-4ced-8296-56e0ed2785ee"/>
+    <recordType typeId="544def97-b7e3-44c0-8971-75c5269fb663" valueTypeId="659dd9a0-bcdf-48eb-bcf9-3c0a96cdca04"/>
+    <recordManagerType typeId="e5e95052-a59e-4a91-990f-b83e423c1f90" valueTypeId="1a97c21b-1951-4ead-a447-2c5d7c9fc766"/>
+  </producedTypes>
+  <name>Scan_PlanForWeek</name>
+  <synonym>
+    <key>ru</key>
+    <value>Plan for week (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Plan for week (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_PlanForWeek.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_PlanForWeek.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="79aedb2c-d5bb-493c-9cf9-ada5d607c07c">
+    <name>SLA</name>
+    <synonym>
+      <key>ru</key>
+      <value>SLA</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>SLA</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8e5a01a3-bad0-4ffb-8c7a-829e35405167">
+    <name>MZ</name>
+    <synonym>
+      <key>ru</key>
+      <value>MZ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>MZ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f841d392-2a0f-46c3-879e-47c5885e7595">
+    <name>MS</name>
+    <synonym>
+      <key>ru</key>
+      <value>MS</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>MS</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="95d84a1d-3895-4232-af2a-5c0105f8f24c">
+    <name>BusChassis</name>
+    <synonym>
+      <key>ru</key>
+      <value>Bus chassis</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Bus chassis</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c85c798d-2b43-4884-bc48-3ee39573c506">
+    <name>Engines</name>
+    <synonym>
+      <key>ru</key>
+      <value>Engines</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Engines</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="57211592-0a10-4acc-8f85-642d1f9964c0">
+    <name>Buses</name>
+    <synonym>
+      <key>ru</key>
+      <value>Buses</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Buses</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="049b1ef7-e435-4b4a-90ed-efa9cbe4e255">
+    <name>BodybuiltUnits</name>
+    <synonym>
+      <key>ru</key>
+      <value>Bodybuilt units</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Bodybuilt units</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="58b8a87b-33ba-4a19-b47e-c5a0e560247e">
+    <name>Jenty</name>
+    <synonym>
+      <key>ru</key>
+      <value>Jenty</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Jenty</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e1d70404-f850-4237-b1c8-36f5590a8dc1">
+    <name>TruckOnTruckDelivery</name>
+    <synonym>
+      <key>ru</key>
+      <value>Truck on truck delivery</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Truck on truck delivery</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b97144b0-8889-4e3d-93ce-87b42fd441f8">
+    <name>JockeyTransportation</name>
+    <synonym>
+      <key>ru</key>
+      <value>Jockey transportation</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Jockey transportation</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5f7d73c1-e7b7-4ecb-aa24-6e2677b764ae">
+    <name>GenSetsTransportation</name>
+    <synonym>
+      <key>ru</key>
+      <value>GenSets transportation</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>GenSets transportation</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7d76528a-9db2-4d8b-9ed8-3ec8b6e80a3c">
+    <name>QuantityOfVehicles</name>
+    <synonym>
+      <key>ru</key>
+      <value>Quantity of vehicles</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Quantity of vehicles</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="34777bc0-108a-4362-b457-e48de5bb5617">
+    <name>QuantityOfVisits</name>
+    <synonym>
+      <key>ru</key>
+      <value>Quantity of visits</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Quantity of visits</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b0db5fe4-eb98-4a1c-bd9d-54a9616e3ef2">
+    <name>AcceptanceHandoverDemoTestRent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Acceptance and/or handover of Demo/Test/Rent vehicles</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Acceptance and/or handover of Demo/Test/Rent vehicles</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9492e54b-99ae-43b3-9fe5-b344e3016ee9">
+    <name>AdministrationOfVehiclesSales</name>
+    <synonym>
+      <key>ru</key>
+      <value>Administration of vehicles sales</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Administration of vehicles sales</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="52191e12-9e51-4166-939f-15662448a498">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0bb872e4-fc72-4e6a-9b8c-b8cc5a993f63">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="eb7ec84a-b2a9-4287-b5a9-69057a68795a">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Год</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧГ=</value>
+    </format>
+    <format>
+      <key>en</key>
+      <value>ЧГ=</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧГ=</value>
+    </editFormat>
+    <editFormat>
+      <key>en</key>
+      <value>ЧГ=</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f33b44f6-6424-4648-84fb-500a52d1cc1b">
+    <name>НомерНедели</name>
+    <synonym>
+      <key>ru</key>
+      <value>№ недели</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>№ недели</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="4f7eb0c4-b118-4ba7-acaf-e311efbe309f">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cc281482-2210-443d-8fe8-35820047c42c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ff1e909-4e7e-41db-91ef-5f9a3a265fda">
+  <producedTypes>
+    <objectType typeId="78ef970b-8f9c-4013-951d-bdae2bb47ad4" valueTypeId="6b17b0c6-47af-4c9f-bdbd-0441af1f5770"/>
+    <managerType typeId="47716940-5f1a-4eb3-aaf6-3cba435ee47c" valueTypeId="21e0caa8-90e8-41a3-978d-8f5db67c32a0"/>
+  </producedTypes>
+  <name>Scan_OrderDeviation</name>
+  <synonym>
+    <key>ru</key>
+    <value>Order deviation (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Order deviation (Scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.Scan_OrderDeviation.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.Scan_OrderDeviation.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <forms uuid="080a2c73-d997-4145-8775-1084a8162c9e">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="5ca64a6b-b596-434b-b020-4c9b5af6094a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The basic layout diagram of a data</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

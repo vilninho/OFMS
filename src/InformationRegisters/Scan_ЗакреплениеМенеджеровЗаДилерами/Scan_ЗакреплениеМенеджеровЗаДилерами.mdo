@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c42bf36-f79b-4be8-8d64-ff9368c51013">
+  <producedTypes>
+    <selectionType typeId="dd876978-9e7d-4231-815a-feb16a8dc7cf" valueTypeId="4258d74e-bdfe-4db4-8439-6e8e1beb7301"/>
+    <listType typeId="6a1175a4-54ca-461d-b84e-ca6e8c721392" valueTypeId="de67668c-16cd-4419-93a8-520a077f2bbc"/>
+    <managerType typeId="84f63c02-3712-4ddc-9628-797734c98ac7" valueTypeId="37b7f706-8074-4a6f-8d7e-9529ab2fd3f6"/>
+    <recordSetType typeId="4410444d-a138-4be5-a54a-bf7f6db8ad7e" valueTypeId="a270dede-29d9-4381-be45-5fd2e53c97ae"/>
+    <recordKeyType typeId="4d3eb16c-4725-463f-b107-4e0ef968b62e" valueTypeId="b1adc957-810d-426b-99ee-0ee18a8dccac"/>
+    <recordType typeId="374079fe-5bce-4486-8988-87d397038b21" valueTypeId="27b41b06-aad9-45eb-a8d9-f60cb5e7b3f0"/>
+    <recordManagerType typeId="01d6aff7-afcf-473d-8904-9dc829c15619" valueTypeId="4f21cbb4-45dd-4d3e-9390-f8ebe2a07363"/>
+  </producedTypes>
+  <name>Scan_ЗакреплениеМенеджеровЗаДилерами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрепление менеджеров за дилерами</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Assigning managers to dealers (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b1662c97-acb7-44ae-bf02-c948b40c0fd2">
+    <name>Менеджер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Manager</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="0afe085e-5e95-4f39-b783-d30dcd94c309">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="21711f38-ac08-486c-8bee-e17a7f0ac804">
+    <name>Дилер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дилер</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Dealer</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Компании</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ddfcd6ce-0717-4875-a0c1-7c7240c17663">
+  <name>Scan_Ценообразование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ценообразование</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Pricing</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Enum.Scan_ВариантыФормированияРасчетаСоставляющихЦены</content>
+  <content>Enum.Scan_ТипыСоставляющихРасчетаСоставляющихЦены</content>
+  <content>Catalog.Scan_СоставляющиеРасчетаЦеныПродуктов</content>
+  <content>Document.Scan_Калькуляция</content>
+  <content>Enum.Scan_ДополнительнаяИнформацияПоСоставляющимРасчетаЦен</content>
+  <content>CommonModule.Scan_ЦенообразованиеСервер</content>
+  <content>CommonForm.Scan_РедактированиеФормулыРасчетаСоставляющей</content>
+  <content>InformationRegister.Scan_ХарактеристикиСоставляющейРасчетыЦеныПродуктов</content>
+  <content>Catalog.Scan_РазделыКалькуляции</content>
+  <content>5331a8a8-23ee-436f-83b5-ec72a8228c52</content>
+  <content>Enum.Scan_ПринадлежностьСоставляющихКалькуляции</content>
+  <content>Catalog.Scan_ТипыЦен</content>
+  <content>Enum.Scan_ПрименимостьТиповЦен</content>
+  <content>Enum.Scan_МетодыОкругленияЦен</content>
+  <content>Document.Scan_ПечатныйПрайсЛист</content>
+  <content>Role.Scan_ЧтениеКалькуляции</content>
+  <content>Role.Scan_ДобавлениеИзменениеКалькуляции</content>
+  <content>Role.Scan_ЧтениеСоставляющихРасчетаЦены</content>
+  <content>Role.Scan_ДобавлениеИзменениеСоставляющихРасчетаЦены</content>
+  <content>Role.Scan_ЧтениеПечатногоПрайсЛиста</content>
+  <content>Role.Scan_ДобавлениеИзменениеПечатногоПрайсЛиста</content>
+  <content>Document.Scan_УстановкаЦенОпцийИПакетов</content>
+  <content>Catalog.Scan_СтатусыКалькуляций</content>
+  <content>Catalog.Scan_ЦеновыеПакеты</content>
+  <content>Enum.Scan_ТипыЗначенийЦены</content>
+  <content>Document.Scan_УстановкаПлановыхЦенПродукта</content>
+  <content>InformationRegister.Scan_ПлановыеЗначенияСоставляющихЦеныПродукта</content>
+  <content>Catalog.Scan_ЦентрыЗатрат</content>
+  <parentSubsystem>Subsystem.Scan_ОтделПланирования</parentSubsystem>
+</mdclass:Subsystem>

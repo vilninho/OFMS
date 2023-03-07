@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ab43f7b-3e46-4b98-b615-ea41ac941d9c">
+  <producedTypes>
+    <objectType typeId="a43b2eae-3a90-421a-8801-58466a67253c" valueTypeId="2beee640-a7d2-412b-9201-cc00813de45d"/>
+    <managerType typeId="74241c78-bd36-47a8-9f8a-d9c60ce5b2d5" valueTypeId="01eaf1c0-4b7d-4646-8fd8-0f60ff09cd70"/>
+  </producedTypes>
+  <name>Scan_НастройкаНаименованияИзделия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка наименования продукта (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Setting Product Name (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Scan_НастройкаНаименованияИзделия.Form.Форма</defaultForm>
+  <attributes uuid="a0518567-743a-4e02-a2dd-9825d488d4cb">
+    <name>СправочникНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник настройки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Directory settings</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ad8fe1c2-465c-4967-82fd-049b7719ec90">
+    <name>РеквизитОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит объекта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Object detail</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7b0f75b9-d0e7-4225-9c2f-82dfaffca63d">
+    <name>НастройкаНаименования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка наименования</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Setting name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="83f0ec0c-5ba3-4275-bb8c-fcc87d6cb73b">
+    <producedTypes>
+      <objectType typeId="2bbf0d9e-7488-4f51-aea4-3ad27c255dab" valueTypeId="2b2d4be0-0113-488c-ab98-23b896d7f66f"/>
+      <rowType typeId="73a80bb5-2b8d-4c4f-8d85-a0bcf2a104d4" valueTypeId="acfb7eaa-3f5e-4107-92d3-35eb639fb09b"/>
+    </producedTypes>
+    <name>СоставляющиеАлгоритма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Составляющие алгоритма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Components of the algorithm</value>
+    </synonym>
+    <attributes uuid="6df0340b-b954-4c6f-8b4a-86cb1a799bfc">
+      <name>Фрагмент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Фрагмент</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Fragment</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="be7f5bc1-4f06-40a1-ab40-40196998ad85">
+      <name>ЭтоРеквизит</name>
+      <synonym>
+        <key>ru</key>
+        <value>Это реквизит</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Requisite</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="b490f529-3547-43d3-ac9f-78b78e046c39">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

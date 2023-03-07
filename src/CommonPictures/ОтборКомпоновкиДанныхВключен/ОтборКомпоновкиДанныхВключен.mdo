@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b118d570-2213-450a-9db0-6c74ea283b42">
+  <name>ОтборКомпоновкиДанныхВключен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отбор компоновки данных включен</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Отбор компоновки данных включен</value>
+  </synonym>
+</mdclass:CommonPicture>

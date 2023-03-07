@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5fe4f26-daa2-4511-8ddc-057a7db737ef">
+  <name>Scan_КонтрольСостоянияИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль состояния интеграции</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.Scan_Обмен1БДНезагруженныеОбъекты</content>
+  <content>InformationRegister.Scan_РегистрацияОбмена1БД</content>
+  <content>Document.Scan_ЗадачаИз1ДБ</content>
+  <parentSubsystem>Subsystem.Администрирование.Subsystem.Scan_ИнтеграцияС1БД</parentSubsystem>
+</mdclass:Subsystem>

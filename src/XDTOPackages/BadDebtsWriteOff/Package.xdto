@@ -1,0 +1,34 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.scania.org/webservice/SRUService/BadDebtsWriteOff" elementFormQualified="false" attributeFormQualified="false">
+	<property name="BadDebtsWriteOff">
+		<typeDef xsi:type="ObjectType">
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/BadDebtsWriteOff" ref="d4p1:Customers"/>
+		</typeDef>
+	</property>
+	<property name="Customer">
+		<typeDef xsi:type="ObjectType">
+			<property name="ACCOUNTNUM" type="xs:string" lowerBound="1" form="Attribute"/>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/BadDebtsWriteOff" ref="d4p1:WriteOffs"/>
+		</typeDef>
+	</property>
+	<property name="Customers">
+		<typeDef xsi:type="ObjectType">
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/BadDebtsWriteOff" ref="d4p1:Customer" upperBound="-1"/>
+		</typeDef>
+	</property>
+	<property name="WriteOff">
+		<typeDef xsi:type="ObjectType">
+			<property name="WRITEOFF_ID" type="xs:string" lowerBound="1" form="Attribute"/>
+			<property name="VOUCHER" type="xs:string" lowerBound="1" form="Attribute"/>
+			<property name="TRANSDATE" type="xs:string" lowerBound="1" form="Attribute"/>
+			<property name="CURRENCYCODE" type="xs:string" lowerBound="1" form="Attribute"/>
+			<property name="COSTCENTER" type="xs:string" lowerBound="0" form="Attribute"/>
+			<property name="AMOUNTMST" type="xs:string" lowerBound="1" form="Attribute"/>
+			<property name="AMOUNTCUR" type="xs:string" lowerBound="1" form="Attribute"/>
+		</typeDef>
+	</property>
+	<property name="WriteOffs">
+		<typeDef xsi:type="ObjectType">
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/BadDebtsWriteOff" ref="d4p1:WriteOff" upperBound="-1"/>
+		</typeDef>
+	</property>
+</package>

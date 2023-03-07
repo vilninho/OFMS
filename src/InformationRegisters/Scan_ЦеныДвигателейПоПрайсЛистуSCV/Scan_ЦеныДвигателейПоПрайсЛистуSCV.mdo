@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca5d6be9-5914-4160-b212-e8ee398749c3">
+  <producedTypes>
+    <selectionType typeId="d91006d5-6a17-419a-9430-2646d9a9d6aa" valueTypeId="ba69ef1e-ca52-415e-9ad3-8fbac0af7c49"/>
+    <listType typeId="fe8ab45f-4ada-4579-bd41-b019a1e0e3ba" valueTypeId="9f0a536e-ccc1-4e37-9f67-03a47476741d"/>
+    <managerType typeId="ff868bd0-d490-4d12-a821-55d58f9d2ce7" valueTypeId="f832dc0d-482b-4a4e-b069-3c7ad6771ce8"/>
+    <recordSetType typeId="f73bda93-0a90-4417-9e08-dda55627021d" valueTypeId="304d8337-c264-4cbe-b4dc-0a9a5278659f"/>
+    <recordKeyType typeId="9842df19-f1bc-4cb4-87f2-37924743b101" valueTypeId="4825501b-2cfe-465e-aef9-127810beef28"/>
+    <recordType typeId="55a51d5e-5603-42dc-88f0-d338264d1779" valueTypeId="776648c7-cc43-4372-aff9-97edd1ce2a9b"/>
+    <recordManagerType typeId="ffa087a1-9040-44c8-8b00-6c85c15b18db" valueTypeId="2e76581f-dcfe-4a27-8c77-159a29af2193"/>
+  </producedTypes>
+  <name>Scan_ЦеныДвигателейПоПрайсЛистуSCV</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены двигателей по прайс-листу SCV (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.Scan_ЦеныДвигателейПоПрайсЛистуSCV.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="da4d1628-ea19-44f6-90e1-c337ce026813">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="aade0f21-2e46-4fff-9800-7ad53765746d">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="c578eaac-19e9-4965-9c5c-1e3d05b1d010">
+    <name>ТипЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип цен</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ТипыЦен</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9e2e4457-34d6-4bd2-83ab-32a102c14568">
+    <name>КодОпции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Variant code</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d7f8f6c4-8d47-496c-a548-36b1a8574863">
+    <name>КодИсполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ref.code</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="09b747d6-e21a-457e-b2a9-05bff15e6511">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3d35fdd4-6418-4191-bb84-f560afd21191">
+    <name>Опция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ОпцииПродуктов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a6c9053a-9ceb-4f4b-b9be-2b3af9b36eb0">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

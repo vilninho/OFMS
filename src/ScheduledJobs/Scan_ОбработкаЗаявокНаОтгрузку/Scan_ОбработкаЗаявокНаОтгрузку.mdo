@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3acb458-0e04-43cc-9ca3-2f7b5eabfd65">
+  <name>Scan_ОбработкаЗаявокНаОтгрузку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка заявок на отгрузку</value>
+  </synonym>
+  <methodName>CommonModule.Scan_РегламентныеЗадания.ОбработкаЗаявокНаОтгрузку</methodName>
+  <description>Обработка заявок на отгрузку</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00e9845d-8784-444a-90a7-90a3c17498d1">
+  <producedTypes>
+    <objectType typeId="2b5d4ada-bbd7-402d-bd53-fee21cf5b646" valueTypeId="a44a856c-cc23-4ece-b7b8-6907db7b8dd9"/>
+    <refType typeId="3351807a-cc3c-4958-8d41-7a8247e82639" valueTypeId="5c3878d4-8d38-4a61-9924-0cec8422a8ee"/>
+    <selectionType typeId="f5cec176-f33e-49ff-afa6-711448afa4e7" valueTypeId="bcb29bf5-c116-4eba-8814-ebf9941392f1"/>
+    <listType typeId="b5a869c2-7ea5-46d2-b334-0e9be787a2e5" valueTypeId="bd4ace7c-b083-4cf6-8211-619733b81a33"/>
+    <managerType typeId="b17577a9-c888-4875-bd1f-b4daa72f0f09" valueTypeId="89968faa-7ef6-40fd-a976-59e533729912"/>
+  </producedTypes>
+  <name>Scan_ПакетыУслугДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пакеты услуг доставки (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Delivery of packages (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_ПакетыУслугДоставки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_ПакетыУслугДоставки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="61dc6eb6-3841-437c-932d-64e17d1ee038">
+      <name>НетУслуг</name>
+      <description>Нет услуг</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_ПакетыУслугДоставки.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_ПакетыУслугДоставки.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="73289261-6640-4e42-bf00-9c60d398f3c8">
+    <name>ИспользуетсяПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется по умолчанию</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Default</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="bb68fdc4-042f-4306-85f8-85d166330d7b">
+    <producedTypes>
+      <objectType typeId="4bd8df34-daca-4ae8-89ab-cddbeba38493" valueTypeId="c8b79100-fec2-4cae-8947-eb0cbf16d8f6"/>
+      <rowType typeId="e655270d-4629-4a38-9449-645817141894" valueTypeId="907da2bf-4a09-4312-a2a4-4b40ca80a131"/>
+    </producedTypes>
+    <name>СоставУслугПакета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав услуг пакета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Services package structure</value>
+    </synonym>
+    <attributes uuid="d53f4372-c4d6-4040-9663-6e6c499fd048">
+      <name>Услуга</name>
+      <synonym>
+        <key>ru</key>
+        <value>Услуга</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Service</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_НоменклатураУслуг</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="7ce8e491-7bdd-4f6d-adf2-8977a8d0dc18">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form element</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="00d72bf5-350b-4a9a-acdb-fb80318d1a90">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25daf4b4-20bd-477a-8d15-574e4ceba92d">
+  <producedTypes>
+    <objectType typeId="2044b1a9-9081-4d30-a82b-38df584b9f26" valueTypeId="c43a2edd-a64c-4cca-be03-68977d862dbf"/>
+    <refType typeId="2879b5c6-fa38-4fa9-bda2-517e61ea29c8" valueTypeId="38865da2-2405-44cb-8759-6f7e39f1d806"/>
+    <selectionType typeId="e6630709-890b-4208-9ea5-e7e15a3b683a" valueTypeId="ce78a0fb-8d44-477c-8563-295cd94dcebc"/>
+    <listType typeId="65ef15b1-cdca-4474-821e-def31da430ee" valueTypeId="635672a4-c897-48f7-9aa1-42e5135df355"/>
+    <managerType typeId="52ed805e-cfeb-4896-ba1f-a37433ba058c" valueTypeId="d1373983-eaf9-4c51-b8e8-11e04b139c59"/>
+  </producedTypes>
+  <name>Scan_СтатусыСоглашенийОПоставкеИСпециальныхУсловий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заявок и специальных условий (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Supply agreement statuses</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_СтатусыСоглашенийОПоставкеИСпециальныхУсловий.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_СтатусыСоглашенийОПоставкеИСпециальныхУсловий.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Статус заявок и специальных условий</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="c948a304-66e4-4fef-a227-5350d37941a7">
+      <name>Запрос</name>
+      <description>Запрос</description>
+      <code xsi:type="core:StringValue">
+        <value>000000014</value>
+      </code>
+    </items>
+    <items id="0a1eb1f2-46e4-42c1-a15e-0070dcc04a1f">
+      <name>ЗапросНаИзменениеСОП</name>
+      <description>Запрос на изменение СОП</description>
+      <code xsi:type="core:StringValue">
+        <value>000000018</value>
+      </code>
+    </items>
+    <items id="136f2327-3f84-4cf4-a4ab-4a5797b39c64">
+      <name>ЗаявкаНаСклад</name>
+      <description>Заявка на склад</description>
+      <code xsi:type="core:StringValue">
+        <value>000000019</value>
+      </code>
+    </items>
+    <items id="86bb4ad7-feb6-4588-94a4-997c7780891c">
+      <name>ЗаявкаНаСОП</name>
+      <description>Заявка на СОП</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="09ca2542-46b1-436e-9040-2b66b9471b36">
+      <name>КРазмещению</name>
+      <description>К размещению</description>
+      <code xsi:type="core:StringValue">
+        <value>000000012</value>
+      </code>
+    </items>
+    <items id="85664ff3-4386-4b83-b019-9bf618933f53">
+      <name>НачатоОформлениеСОП</name>
+      <description>Начато оформление СОП</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="d0e5407f-9cec-4a03-bb99-f51b4c1370d4">
+      <name>НеактуальноЕстьДС</name>
+      <description>Неактуально. Есть ДС</description>
+      <code xsi:type="core:StringValue">
+        <value>000000017</value>
+      </code>
+    </items>
+    <items id="a68aaa6b-7af6-4d40-9dc6-057f58d653a2">
+      <name>ОбработкаЗавершена</name>
+      <description>Обработка завершена</description>
+      <code xsi:type="core:StringValue">
+        <value>000000020</value>
+      </code>
+    </items>
+    <items id="ffd34674-f212-496b-9537-ec33711d07df">
+      <name>Одобрено</name>
+      <description>Одобрено</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="3d39b734-7dc8-4b6b-82c9-ed68515159ca">
+      <name>ОдобреноЕстьВСОП</name>
+      <description>Одобрено, есть в СОП</description>
+      <code xsi:type="core:StringValue">
+        <value>000000021</value>
+      </code>
+    </items>
+    <items id="e25e4698-e4a0-417f-92fd-59e6977d3018">
+      <name>ОдобреноНетВСОП</name>
+      <description>Одобрено, нет в СОП</description>
+      <code xsi:type="core:StringValue">
+        <value>000000022</value>
+      </code>
+    </items>
+    <items id="64594d72-d437-46b9-ab1d-ccc1a24c94fc">
+      <name>Отказ</name>
+      <description>Отказ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="4ffdd339-abfa-41de-b3a6-e9c6bcabca7b">
+      <name>Отменена</name>
+      <description>Отменена</description>
+      <code xsi:type="core:StringValue">
+        <value>000000016</value>
+      </code>
+    </items>
+    <items id="e42f7156-5657-479f-8587-3dbb27204761">
+      <name>Пересмотр</name>
+      <description>Пересмотр</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="36480c61-8006-407a-89f6-73c421bdeb08">
+      <name>ПроектЗаявкиНаСОП</name>
+      <description>Проект заявки на СОП</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="c5d0338b-08df-4b1d-9fe7-747fe3ec11cb">
+      <name>Согласование</name>
+      <description>Согласование</description>
+      <code xsi:type="core:StringValue">
+        <value>000000015</value>
+      </code>
+    </items>
+    <items id="287ea398-77da-4985-8d45-0c2f93a2561d">
+      <name>СОП_Исполнен</name>
+      <description>СОП исполнен</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="0266a78a-12ec-4b95-88a8-c33b0ebf1f73">
+      <name>СОП_ИсполненЧастично</name>
+      <description>СОП исполнен частично</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="46071b98-d83d-4c84-a3ef-31374857a59d">
+      <name>СОП_Отменен</name>
+      <description>СОП отменен</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+    </items>
+    <items id="d0bd1f68-5b3e-4522-8ff3-e2e6601a7bee">
+      <name>СОП_Оформлен</name>
+      <description>СОП Оформлен</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="26486663-92e0-481f-a96d-a19e89e5227e">
+      <name>СОП_Расторгнут</name>
+      <description>СОП расторгнут</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="93534ea2-60d0-46bf-a405-d830a284a91d">
+      <name>Черновик</name>
+      <description>Черновик</description>
+      <code xsi:type="core:StringValue">
+        <value>000000013</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_СтатусыСоглашенийОПоставкеИСпециальныхУсловий.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_СтатусыСоглашенийОПоставкеИСпециальныхУсловий.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Scan_СтатусыСоглашенийОПоставкеИСпециальныхУсловий.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="38bb4c1e-a574-4a2b-a501-b84c8daaf5e6">
+    <name>ИспользуетсяВСоглашенииОПоставке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется в заявках</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6f6dc10c-ebd6-41ba-9929-0ff005a6c060">
+    <name>ИспользуетсяВСпециальныхУсловиях</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется в специальных условиях</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2c381ed8-9457-440b-8e71-767953e69a77">
+    <name>ИспользуетсяВТипеЗаявкаНаСОП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется в типе заявка на СОП</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="84352ee4-8cad-4be8-99f9-972ec5d8aea5">
+    <name>ИспользуетсяВТипеЗаявкаНаСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется в типе заявка на склад</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="df80bf2c-d548-404b-bfef-96b3084f43c6">
+    <name>IDExternalSystem</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID External System</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ID External System</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ae48cfe7-6789-46b5-9fa3-d1236f63ddf4">
+    <name>ИспользуетсяВТипеЗаявкаНаСОПSRU</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется в типе заявка на СОП (SRU)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="92503a68-4bcc-4bf4-b87a-322300e4b109">
+    <producedTypes>
+      <objectType typeId="911bee0d-ac20-4660-ac65-c9c0535be82d" valueTypeId="dcb3494e-ccc9-455f-8348-8041867c5ce3"/>
+      <rowType typeId="5adbe7c9-ad9b-4693-a934-cb97fc164372" valueTypeId="494d540e-79e9-4193-b757-8a448e372ea7"/>
+    </producedTypes>
+    <name>ИспользованиеВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использование В</value>
+    </synonym>
+    <attributes uuid="9b40aac7-7482-4786-b1f3-50a1071e7fef">
+      <name>ТипСоглашенияОПоставке</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип соглашения о поставке</value>
+      </synonym>
+      <type>
+        <types>EnumRef.Scan_ТипыСоглашенийОПоставке</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="74cca78d-6ff0-4eeb-8344-9a1d8eb7610f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3c31dbf6-c7e5-4235-9b57-8e87ce5fbdb4">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ac57e2c1-a9de-4c0b-9f20-ab31c6cc7989">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

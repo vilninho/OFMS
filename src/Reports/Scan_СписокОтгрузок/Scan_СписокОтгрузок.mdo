@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="633eda2d-b4cb-4ba1-94dd-5337e90c3b50">
+  <producedTypes>
+    <objectType typeId="af0a8c8d-6869-4fa3-8240-33afc924802c" valueTypeId="34c52984-a28a-4ebb-8144-40ff6a76d553"/>
+    <managerType typeId="fbc048fc-3878-4b23-b82e-2bab419c38b5" valueTypeId="1326a034-abd5-4ddb-8cc5-b7aea83df449"/>
+  </producedTypes>
+  <name>Scan_СписокОтгрузок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список отгрузок (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>AmToDeliver (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.Scan_СписокОтгрузок.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.Scan_СписокОтгрузок.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="acaf08a8-a317-48be-97a3-64bbdd8d2843">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d4b06a76-1a90-40cb-b149-86ee1060594c">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7c9d5a9-3674-498b-b4b3-1ddcefd08d69">
+  <producedTypes>
+    <refType typeId="d5874880-8577-4ed9-a156-2536cc20d7f6" valueTypeId="6b93a845-0a54-410a-8661-12d2ae615ff7"/>
+    <listType typeId="88b4fd4c-dbef-4651-9fec-552accc8bee0" valueTypeId="d3d3f80f-a207-4a63-b71f-e3339821e835"/>
+    <managerType typeId="38353c60-9434-46aa-87cf-4677dd8efb6e" valueTypeId="a91a4cb1-e288-49a6-aa07-888e4a94982e"/>
+  </producedTypes>
+  <name>Scan_СтатусыОплатПоСОП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы оплат по СОП (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Статусы оплат по СОП (scania)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7cecbeaa-ae36-4704-a08f-1e4ad1621903">
+    <name>Оплачено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплачено</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Оплачено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="27595a17-0df5-46ef-8a24-4c7eb76ad563">
+    <name>ОплаченоЧастично</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплачено частично</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Оплачено частично</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="98e17db6-9042-4f68-a3e0-af69a2352749">
+    <name>НеОплачено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не оплачено</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Не оплачено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="73dfcbe8-40ba-4a10-a8aa-b06d2d232541">
+    <name>ПредоплатаНеТребуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предоплата не требуется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3ac43872-fb70-4d83-bf10-e75d5bd0d756">
+    <name>ПредоплатаОтсутствует</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предоплата отсутствует</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cb7e9a92-4dd8-4d29-addd-ffa4cf3de7ee">
+    <name>ПредоплатаПолученаНесоответствуетГрафику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предоплата получена, не соответствует графику</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="992b4331-b3bc-4082-b888-f91244b2ac65">
+    <name>ПредоплатаПолученаСоответствуетГрафику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предоплата получена, соответствует графику</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="39f267ac-44b2-4579-bf55-8e9c8ca42ad5">
+    <name>ПредоплатаВнесенаПолностью</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предоплата внесена полностью</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="38bbc058-40e1-4d34-881b-0aae8b45332b">
+    <name>ОплаченоПолностью</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплачено полностью</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b6503cdd-8ccc-49ec-8adc-1d94faf535ac">
+    <name>НеТребуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не требуется</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Not required</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c084c63a-7c71-4215-8a6e-018e19175785">
+  <producedTypes>
+    <refType typeId="3458caf0-caf5-4287-85ea-9c02c737e5c4" valueTypeId="873c9308-710b-4e5f-a90b-0d3b6843d333"/>
+    <listType typeId="5c1de477-e29f-41dc-b0d9-ac1a9c335070" valueTypeId="9a65e4a2-beb0-462a-b4a0-908550d9b1ff"/>
+    <managerType typeId="e96360db-6246-43cc-a7b4-3ba9581b4446" valueTypeId="2b8c20c5-7b6d-4e03-8245-9617c4106787"/>
+  </producedTypes>
+  <name>Scan_ТипыСоставляющихРасчетаСоставляющихЦены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы составляющих расчета цены (scania)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ba5771c1-5fcc-495e-916f-a0bbee08b74d">
+    <name>РасчетнаяСоставляющая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчетная составляющая</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Calculated value</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dcb9e6c7-3b35-41a7-96b4-64c061a1e205">
+    <name>КоэффициентДляЦеныDealerNet</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент для цены DealerNet</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>DealerNet price factor</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3da32d91-1be5-4236-a252-1aa8def5c03a">
+    <name>КоэффициентДляЦеныRetailPrice</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент для цены RetailPrice</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>RetailPrice factor</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f41b43e2-62fa-4741-a678-6d1d8161e1aa">
+    <name>НерасчетнаяСоставляющая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нерасчетная составляющая</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Non-calculated value</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

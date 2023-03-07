@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b8ea375-6fa2-46e9-9961-6a4f8b54f302">
+  <name>Scan_ЧтениеЗакреплениеМенеджеровОКПЗаДилерами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение закреплений менеджеров ОКП за дилерами (scania)</value>
+  </synonym>
+</mdclass:Role>

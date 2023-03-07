@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b67bfd5-ef23-4205-b7ba-9466517e9999">
+  <producedTypes>
+    <containerType typeId="315ef181-e743-44aa-91b7-263684edae4a" valueTypeId="55aaba3d-0c41-406e-8a7d-6aeccc730f39"/>
+  </producedTypes>
+  <name>ПрисоединенныйФайлОбъект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Присоединенный файл объект</value>
+  </synonym>
+  <type>
+    <types>CatalogObject.СообщениеSMSПрисоединенныеФайлы</types>
+    <types>CatalogObject.Scan_ЗаявкаНаДействиеПрисоединенныеФайлы</types>
+    <types>CatalogObject.Scan_ЗаявкаНаСервисныеРаботыПрисоединенныеФайлы</types>
+    <types>CatalogObject.ВерсииФайлов</types>
+    <types>CatalogObject.Scan_ПрайсЛистSCVНаДвигателиПрисоединенныеФайлы</types>
+    <types>CatalogObject.ОрганизацииПрисоединенныеФайлы</types>
+    <types>CatalogObject.Scan_КонтрагентыПрисоединенныеФайлы</types>
+    <types>CatalogObject.Scan_ЗапросНаНадстройкиПрисоединенныеФайлы</types>
+    <types>CatalogObject.Scan_ЭПТСПрисоединенныеФайлы</types>
+    <types>CatalogObject.Scan_СпециальныеУсловияПрисоединенныеФайлы</types>
+    <types>CatalogObject.ВстречаПрисоединенныеФайлы</types>
+    <types>CatalogObject.Scan_СпецификацияСтандартнойМоделиПрисоединенныеФайлы</types>
+    <types>CatalogObject.Scan_ДоговорыВзаиморасчетовПрисоединенныеФайлы</types>
+    <types>CatalogObject.ТелефонныйЗвонокПрисоединенныеФайлы</types>
+    <types>CatalogObject.Scan_ИзделияПрисоединенныеФайлы</types>
+    <types>CatalogObject.Scan_СотрудникиПрисоединенныеФайлы</types>
+    <types>CatalogObject.Scan_ЧекЛистТехническогоСостоянияИзделияПрисоединенныеФайлы</types>
+    <types>CatalogObject.Scan_ПрайсЛистАрендаПрисоединенныеФайлы</types>
+    <types>CatalogObject.Scan_ЗаявкаПеревозчикуПрисоединенныеФайлы</types>
+    <types>CatalogObject.ШаблоныСообщенийПрисоединенныеФайлы</types>
+    <types>CatalogObject.Scan_УстановкаЦенКомпонентовПрисоединенныеФайлы</types>
+    <types>CatalogObject.Scan_ЗаказыНаЗаводПрисоединенныеФайлы</types>
+    <types>CatalogObject.Scan_КомпанииПрисоединенныеФайлы</types>
+    <types>CatalogObject.Файлы</types>
+    <types>CatalogObject.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</types>
+    <types>CatalogObject.ЗапланированноеВзаимодействиеПрисоединенныеФайлы</types>
+    <types>CatalogObject.Scan_СоглашенияоПоставкеПрисоединенныеФайлы</types>
+    <types>CatalogObject.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</types>
+    <types>CatalogObject.Scan_СпецификацииПродуктовПрисоединенныеФайлы</types>
+    <types>CatalogObject.Scan_ЗаказНаЗакупкуПрисоединенныеФайлы</types>
+    <types>CatalogObject.Scan_КонтактныеЛицаПрисоединенныеФайлы</types>
+  </type>
+</mdclass:DefinedType>

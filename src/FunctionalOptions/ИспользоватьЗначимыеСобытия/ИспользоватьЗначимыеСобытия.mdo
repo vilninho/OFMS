@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75ee5e05-e31e-454d-8134-e2387a258f41">
+  <name>ИспользоватьЗначимыеСобытия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать значимые события (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Использовать значимые события (scania)</value>
+  </synonym>
+  <location>Constant.Scan_ИспользоватьЗначимыеСобытия</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

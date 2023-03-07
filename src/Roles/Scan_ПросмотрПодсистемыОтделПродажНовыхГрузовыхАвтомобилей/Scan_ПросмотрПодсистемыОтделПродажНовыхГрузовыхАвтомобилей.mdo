@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b9ba293-4c42-41ed-9696-5553b60a98e7">
+  <name>Scan_ПросмотрПодсистемыОтделПродажНовыхГрузовыхАвтомобилей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр подсистемы отдел продаж новых грузовых автомобилей (scania)</value>
+  </synonym>
+</mdclass:Role>

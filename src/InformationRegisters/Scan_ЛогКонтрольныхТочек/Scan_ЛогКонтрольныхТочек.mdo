@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99d8b9ed-6ed8-463a-9495-5719f2a21a63">
+  <producedTypes>
+    <selectionType typeId="5c4a9acb-bbd3-4fcb-8f0a-2e01e1e22a07" valueTypeId="9a390f79-76e5-4d76-acdd-b3eb81bf7b0e"/>
+    <listType typeId="bf56f30a-cf27-45d8-acca-d29d60ee2263" valueTypeId="edb48989-85ff-4333-8dcf-da9f7f4528fd"/>
+    <managerType typeId="4663b40a-e89b-4d1f-9922-74016c50edfa" valueTypeId="d5acf8e3-16fe-4572-8260-875532578a32"/>
+    <recordSetType typeId="3e582723-6100-4a77-90ee-24f806c383f4" valueTypeId="de096826-1a5f-4e3d-9dc1-3cc282503900"/>
+    <recordKeyType typeId="52d92ae9-c8f7-405f-9824-629d7bbd274d" valueTypeId="ef412c62-9972-40dc-aa75-f993a865dcbf"/>
+    <recordType typeId="0033c9a1-51e4-42cd-870d-7e90d5b15f79" valueTypeId="62742986-d49f-4953-a687-20a56f8bc41c"/>
+    <recordManagerType typeId="77254289-9c65-4737-a828-23d44429e75b" valueTypeId="0aeaa220-21d1-4012-afd9-d7016edc3330"/>
+  </producedTypes>
+  <name>Scan_ЛогКонтрольныхТочек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лог контрольных точек бизнес-процессов (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Log checkpoints business processes (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_ЛогКонтрольныхТочек.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_ЛогКонтрольныхТочек.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="710508fd-ae8b-4ba0-890e-dbb93181ec00">
+    <name>ЗначениеКонтрольнойТочки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение контрольной точки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The value of the control point</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+      <types>String</types>
+      <types>Date</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="6d8bd1ee-d596-4346-9791-983501f04409">
+    <name>ПорядковыйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядковый номер</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Serial number</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ab2bef11-a18c-47a6-905d-58247d428ad6">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="90acdccf-748b-4907-84ab-e3c2f9c6a163">
+    <name>КонтрольнаяТочка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрольная точка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Check Point</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_КонтрольныеТочкиБизнесПроцессов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="879367ca-b045-48e8-a1bc-9e2a6fd3d4ee">
+    <name>ЗаказНаЗавод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ на завод</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Orders to the plant</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ЗаказыНаЗавод</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="d7851857-6b16-4d76-aab6-21d5cc61ee7c">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Recording form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8e43b750-376e-4ee8-b639-a472d37b0870">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

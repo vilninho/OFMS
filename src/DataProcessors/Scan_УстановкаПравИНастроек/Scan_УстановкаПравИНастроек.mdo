@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e24b5b70-d490-4fb4-9cc4-8cec839c9bec">
+  <producedTypes>
+    <objectType typeId="067c8777-567b-44b3-b61a-8d2b608354df" valueTypeId="9836c3e5-a2cc-4531-a04b-7b03660d65c3"/>
+    <managerType typeId="9bd5400b-ee54-4f8f-b9fb-561acca8f9a7" valueTypeId="e163ed39-7b3e-41e0-b533-35d17dd850ce"/>
+  </producedTypes>
+  <name>Scan_УстановкаПравИНастроек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка прав и настроек (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Установка прав и настроек (scania)</value>
+  </synonym>
+  <comment>В этой обработке находятся все функции управления правами и настройками</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Scan_УстановкаПравИНастроек.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="d13e42bf-1b26-45f3-9165-9083f05146ea">
+    <name>ДеревоПрав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дерево прав</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дерево прав</value>
+    </synonym>
+    <comment>Визуальное дерево настройки прав</comment>
+    <type>
+      <types>ValueTree</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дерево настройки прав</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Дерево настройки прав</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fe90929e-3f27-4c1e-8cce-3febd89e8202">
+    <name>ЗапросПравИНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос прав и настроек</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Запрос прав и настроек</value>
+    </synonym>
+    <comment>Результат иерархического запроса со структурой прав</comment>
+    <type/>
+    <toolTip>
+      <key>ru</key>
+      <value>Запрос прав и настроек.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Запрос прав и настроек.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e59209e1-7016-42cf-b565-d4619bcc9e2c">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment>Текстовое описание текущей позиции дерева прав</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Комментарий.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Комментарий.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b50fbd36-703a-4825-849f-729a100bab77">
+    <name>ОбъектНастройкиПрав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект настройки прав</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Объект настройки прав</value>
+    </synonym>
+    <comment>Объект по которому производится отображение настраиваемых</comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект по которому производится  настройка прав</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Объект по которому производится  настройка прав</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="500e4949-911d-489e-9d70-efe38d966ec0">
+    <name>ОписаниеПрава</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание права</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Описание права</value>
+    </synonym>
+    <comment>Текстовое описание текущего выбранного права из макета</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Описание выбранного права</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Описание выбранного права</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="409c6f23-7d03-482a-9347-7c072cfbb171">
+    <name>ОтображатьНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображать настройки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Отображать настройки</value>
+    </synonym>
+    <comment>Флаг отображения настроек</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак отображения настроек</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Признак отображения настроек</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e7c9fa04-f5d9-42ee-b463-7f4f441db238">
+    <name>ОтображатьПрава</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображать права</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Отображать права</value>
+    </synonym>
+    <comment>Флаг отображения прав</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак отображения прав</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Признак отображения прав</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f0f78df2-39c3-4e70-805c-78371da34519">
+    <name>СтруктураОписаний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура описаний</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Структура описаний</value>
+    </synonym>
+    <comment>Структура, содержащая описания элементов прав и настроек по кодам</comment>
+    <type/>
+    <toolTip>
+      <key>ru</key>
+      <value>Структура описаний прав и настроек</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Структура описаний прав и настроек</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="958c8de4-c9e6-4ead-981f-da3b66c9f896">
+    <name>СтруктураТекущихПрав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура текущих прав</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Структура текущих прав</value>
+    </synonym>
+    <comment>Структура, содержащая все права текущего объекта</comment>
+    <type/>
+    <toolTip>
+      <key>ru</key>
+      <value>Структура,  содержащая все права текущего объекта.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Структура,  содержащая все права текущего объекта.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4dad01cd-7550-4e47-993f-99b9f4495046">
+    <name>ТабДоступностиДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таб доступности документов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Таб доступности документов</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Таблица доступности документов</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Таблица доступности документов</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="58005569-627f-4f75-bd9e-f3231ea94fc8">
+    <name>ТабДоступностиСправочников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таб доступности справочников</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Таб доступности справочников</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Таблица доступности справочников</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Таблица доступности справочников</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e7524efe-6b0b-4f5b-93d3-aa9e675a8889">
+    <name>ТипОбъектаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип объекта настройки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Тип объекта настройки</value>
+    </synonym>
+    <comment>Тип выбираемого объекта настройки</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип выбираемого объекта настройки.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Тип выбираемого объекта настройки.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="c6c86540-4895-4b1d-af76-5acd5ca304a3">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4ea70277-59a9-4f24-921f-891d54c39692">
+    <name>ФормаКопированиеПрав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма копирование прав</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма копирование прав</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1475d68a-99cf-4d8c-ba47-25d1a9501fbf">
+    <name>ФормаДереваГруппСправочников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма дерева групп справочников</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма дерева групп справочников</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f3496b10-cc85-41cb-8fd3-c0513121e3d8">
+    <name>ФормаНастройкиОчисткиРегистров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки очистки регистров</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

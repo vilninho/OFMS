@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e46ce0e8-0918-487e-aae5-fc6d1e25c10b">
+  <producedTypes>
+    <selectionType typeId="32d83ee6-dabf-4539-afd4-1b73e45ce15e" valueTypeId="2ce1a87d-7f46-46d1-b7c5-6abb32c2e9d7"/>
+    <listType typeId="cc0df4e7-6b90-43dc-bad3-882736fa2e68" valueTypeId="890f11e7-4de1-47ed-a588-b0b47b814992"/>
+    <managerType typeId="78ed7347-aa69-4d15-bdd1-b534e78d8a24" valueTypeId="3d41004f-c900-4c30-86e2-1ae4e0f5289b"/>
+    <recordSetType typeId="91482fa2-22d1-4630-a707-7e644bf3ad4d" valueTypeId="c860c130-8e01-47b9-998c-b099785dcc2e"/>
+    <recordKeyType typeId="d0eb4c99-1871-4326-b414-948fb516cb07" valueTypeId="2028d1f9-201b-4d39-b520-b455efa4f2dc"/>
+    <recordType typeId="cd4bad93-87f4-410d-9b3e-0665a6253fed" valueTypeId="4e0a371c-208b-4374-b015-f6c205d02dd3"/>
+    <recordManagerType typeId="12126396-9e05-41e1-b6fe-4fa793a5a8b7" valueTypeId="3b9214fb-95fd-451d-a5dd-3ad6dcc223ec"/>
+  </producedTypes>
+  <name>Scan_ДетализацияПлановыхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Детализация плановых данных (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Детализация плановых данных (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_ДетализацияПлановыхДанных.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_ДетализацияПлановыхДанных.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1887798a-24c2-4e0e-a5b9-46b404378d67">
+    <name>SLA</name>
+    <synonym>
+      <key>ru</key>
+      <value>SLA</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>SLA</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6051e1e7-ec95-438d-b488-c02fdf865365">
+    <name>MZ</name>
+    <synonym>
+      <key>ru</key>
+      <value>MZ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>MZ</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="867cdc53-f9ac-45b1-a0f6-ff86227ccf35">
+    <name>MS</name>
+    <synonym>
+      <key>ru</key>
+      <value>MS</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>MS</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="97550227-ed3c-40a5-bf48-ff444d16cee6">
+    <name>BusChassis</name>
+    <synonym>
+      <key>ru</key>
+      <value>Bus chassis</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Bus chassis</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b7d576c0-656f-46bb-8a22-75ce278eb423">
+    <name>Engines</name>
+    <synonym>
+      <key>ru</key>
+      <value>Engines</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Engines</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5bd55498-1bbe-4098-aeb2-2b2b4978fa24">
+    <name>Buses</name>
+    <synonym>
+      <key>ru</key>
+      <value>Buses</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Buses</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d37a5f98-82be-4d9a-be99-51c457d4041c">
+    <name>BodybuiltUnits</name>
+    <synonym>
+      <key>ru</key>
+      <value>Bodybuilt units</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Bodybuilt units</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d3838b77-8e0a-4b96-9f2c-0d9f904af7b8">
+    <name>Jenty</name>
+    <synonym>
+      <key>ru</key>
+      <value>Jenty</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Jenty</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="34f54be7-ccce-4ca5-bd96-2c1e41dc746a">
+    <name>TruckOnTruckDelivery</name>
+    <synonym>
+      <key>ru</key>
+      <value>Truck on truck delivery</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Truck on truck delivery</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="246b3717-c10e-4588-aabb-730bb8225719">
+    <name>JockeyTransportation</name>
+    <synonym>
+      <key>ru</key>
+      <value>Jockey transportation</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Jockey transportation</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b32a4300-b1e4-4a86-9417-39246b3fe64f">
+    <name>GenSetsTransportation</name>
+    <synonym>
+      <key>ru</key>
+      <value>GenSets transportation</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>GenSets transportation</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ecb03681-149f-4996-9be4-64a3a21c6828">
+    <name>QuantityOfVehicles</name>
+    <synonym>
+      <key>ru</key>
+      <value>Quantity of vehicles</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Quantity of vehicles</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="01716f89-db7f-4e20-84a8-c7c003066961">
+    <name>QuantityOfVisits</name>
+    <synonym>
+      <key>ru</key>
+      <value>Quantity of visits</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Quantity of visits</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4b89a9dd-4f8d-40b2-9c08-838b1720ac6d">
+    <name>AcceptanceHandoverDemoTestRent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Acceptance and/or handover of Demo/Test/Rent vehicles</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Acceptance and/or handover of Demo/Test/Rent vehicles</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="85a9bf39-f4f5-43df-a32b-3752bbd518ef">
+    <name>AdministrationOfVehiclesSales</name>
+    <synonym>
+      <key>ru</key>
+      <value>Administration of vehicles sales</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Administration of vehicles sales</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="81b0894d-96f2-4407-901c-cbcf5463027a">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6269fbf1-f39d-422c-af85-1a2c4b9c0d94">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="3e82985f-4805-4df2-a462-9d3c4d86005e">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Год</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧГ=</value>
+    </format>
+    <format>
+      <key>en</key>
+      <value>ЧГ=</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧГ=</value>
+    </editFormat>
+    <editFormat>
+      <key>en</key>
+      <value>ЧГ=</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="39865c8d-3b15-4dfe-890e-f3a01576685b">
+    <name>НомерНедели</name>
+    <synonym>
+      <key>ru</key>
+      <value>№ недели</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>№ недели</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="d4562390-ecf1-4b88-8d7d-4ccd9e407125">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="be8c3251-378c-4859-89d7-70f73505c566">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

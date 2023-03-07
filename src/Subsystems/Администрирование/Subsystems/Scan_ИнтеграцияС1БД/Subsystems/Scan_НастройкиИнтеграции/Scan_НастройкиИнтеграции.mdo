@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df091bf8-a45f-447e-8d2d-92a815d19849">
+  <name>Scan_НастройкиИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки интеграции</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Integration settings</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Подсистема содержит справочники, участвующие в настройке интеграции</value>
+  </explanation>
+  <content>Catalog.Scan_ДополнительныеРеквизиты1БД</content>
+  <content>Catalog.Scan_ЛокальныеСтатусыПродуктов</content>
+  <content>InformationRegister.Scan_НастройкиЗагрузкиИзмененныхОбъектов1БД</content>
+  <content>Enum.Scan_СтатусыЗадач</content>
+  <content>Enum.Scan_ТипыСессии</content>
+  <content>Enum.Scan_ТипыИзмененныхОбъектов1БД</content>
+  <content>Catalog.Scan_ВидыСобытий1БД</content>
+  <content>InformationRegister.Scan_РегистрацияСессийИзмененныхОбъектов1БД</content>
+  <content>Catalog.Scan_СтатусыНакладных1ДБ</content>
+  <content>Catalog.Scan_ВидыЗапроса</content>
+  <parentSubsystem>Subsystem.Администрирование.Subsystem.Scan_ИнтеграцияС1БД</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b37f6f7-ab1c-4909-b982-7ae845717d9f">
+  <name>Scan_ВспомогательныеФункцииСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вспомогательные функции (сервер) (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Вспомогательные функции (сервер) (scania)</value>
+  </synonym>
+  <comment>Защищенные функции (сервер) (scania)</comment>
+  <server>true</server>
+  <serverCall>true</serverCall>
+  <privileged>true</privileged>
+</mdclass:CommonModule>

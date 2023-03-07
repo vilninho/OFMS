@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f48421c-c384-45d5-beda-3b44d7088ea9">
+  <name>Scan_ИспользованиеПросмотрАРМСервисныеРаботыИДоукомплектация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование просмотр АРМ Сервисные работы и доукомплектация (scania)</value>
+  </synonym>
+</mdclass:Role>

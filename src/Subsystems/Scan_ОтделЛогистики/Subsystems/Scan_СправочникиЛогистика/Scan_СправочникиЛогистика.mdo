@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94c5a1aa-b2b1-4602-9662-49f1054d3a11">
+  <name>Scan_СправочникиЛогистика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Directories</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Scan_МестаХранения</content>
+  <content>Catalog.Scan_АдресаХранения</content>
+  <content>Catalog.Scan_КодыАдресовДоставки</content>
+  <content>Catalog.Scan_ПаромныеЛинии</content>
+  <content>Catalog.Scan_ВидыТахографов</content>
+  <content>Catalog.Scan_ДополнительныеУсловияДоставки</content>
+  <content>Catalog.Scan_МоделиПоПТС</content>
+  <content>Catalog.Scan_КонтрольныеТочкиБизнесПроцессов</content>
+  <content>Catalog.Scan_СтатусыЗаявокНаДействие</content>
+  <content>Catalog.Scan_СтатусыЗаявокНаОтгрузку</content>
+  <content>Catalog.Scan_ТипыТопливаДвигателейПродуктов</content>
+  <content>Catalog.Scan_Склады</content>
+  <content>Catalog.Scan_ПричиныОтклоненийПоDD</content>
+  <content>Catalog.Scan_ВидыLeadTime</content>
+  <content>Catalog.Scan_КонтрольныеТочкиLeadTime</content>
+  <content>Catalog.Scan_ОпцииДляДетализированногоАкта</content>
+  <parentSubsystem>Subsystem.Scan_ОтделЛогистики</parentSubsystem>
+</mdclass:Subsystem>

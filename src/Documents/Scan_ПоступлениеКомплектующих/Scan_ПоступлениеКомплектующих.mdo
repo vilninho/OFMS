@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f12e57e-cf8b-43f8-a219-c34a7f06ac81">
+  <producedTypes>
+    <objectType typeId="adc1d87c-caee-4814-90f2-29c07927b125" valueTypeId="0c44d8c5-b7c8-4d81-88c8-8e99e1dc394f"/>
+    <refType typeId="a9123356-e25e-4653-a53f-0d7af46d6b2a" valueTypeId="14100d00-feb5-4d63-8764-aaf8a58205b4"/>
+    <selectionType typeId="9163abf3-fdd9-4218-86c1-462356d1c35d" valueTypeId="48179761-3ea3-4acf-bff1-0a4f15d40667"/>
+    <listType typeId="b3c93b98-2b0b-4edb-93e4-ced21c1617f8" valueTypeId="2177280b-c5e7-4791-b954-2ed7d319ff66"/>
+    <managerType typeId="c4e96cd2-694d-4ae8-8709-b078e30b0039" valueTypeId="48457d94-824f-45b1-9424-298bf8f80293"/>
+  </producedTypes>
+  <name>Scan_ПоступлениеКомплектующих</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление комплектующих</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Поступление комплектующих</value>
+  </synonym>
+  <comment>Поступление комплектующих (scania)</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Scan_ПоступлениеКомплектующих.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <basedOn>Document.Scan_ЗаявкаНаКомплектующие</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Scan_ПоступлениеКомплектующих.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.Scan_ПоступлениеКомплектующих.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.Scan_ДвиженияКомплектующих</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="3af009d5-093b-4912-aa7f-07713572416f">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_МестаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1324b5a6-9f35-43fc-9052-74b8192b1a16">
+    <name>НомерВходящегоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вх.№</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Вх.№</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="60b4872f-e8a2-4880-afa8-c69e97e9f177">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Scan_ЗаявкаНаКомплектующие</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="57e8c814-c568-4471-9157-0575e7b3a01c">
+    <name>ДатаВходящегоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата вх. документа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дата вх. документа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="630a2648-85a1-41b8-a358-ef2c256cd2ed">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9c64a86c-2879-42a8-94a4-2760f56a7b52">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="14b90ba8-a9e9-47bd-aa15-49a7e9cc6390">
+    <producedTypes>
+      <objectType typeId="657d47db-903d-4c30-b413-eea08da36d48" valueTypeId="d7bdc284-5894-4a4b-ba68-55c616a6b0ec"/>
+      <rowType typeId="ab701089-b56c-48fe-908b-fbf70380c15c" valueTypeId="db8e6532-fc4c-43c7-9df7-17b9f1573a60"/>
+    </producedTypes>
+    <name>СоставЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав заявки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Состав заявки</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="dc0bf964-ab5f-44b7-8911-8a3d58ef5dc2">
+      <name>КодНеисправнойДетали</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код неисправной детали</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Код неисправной детали</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_КодыНеисправныхДеталей</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="58314d6d-c934-4aa1-a1e3-72823765a8d0">
+      <name>Комплектующие</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комплектующие</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Комплектующие</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_Комплектующие</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="94b47e26-0db9-41b1-8143-cfb6c5836657">
+      <name>Изделие</name>
+      <synonym>
+        <key>ru</key>
+        <value>Продукт</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Продукт</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_Изделия</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7d9e218a-5afb-4620-8e26-cbb5c24f3cc1">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

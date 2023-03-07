@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f9edf9c-61a5-4acb-b5a8-d2cdcc2d3d1c">
+  <name>Scan_ГлоссарийOFMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Глоссарий OFMS</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Glossary OFMS</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85fab657-df0e-49e4-a87a-cf54303889e9">
+  <name>Scan_УстановкаДатыУходаФакт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка даты ухода (факт) </value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Установка даты ухода (факт) </value>
+  </synonym>
+  <methodName>CommonModule.Scan_РегламентныеЗадания.УстановитьДатуФактическогоУхода</methodName>
+  <description>Установка даты ухода (факт)</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

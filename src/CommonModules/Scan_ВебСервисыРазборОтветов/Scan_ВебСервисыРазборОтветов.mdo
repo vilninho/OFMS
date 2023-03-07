@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0be1f44b-45f1-4e74-bd1f-505a30b1038e">
+  <name>Scan_ВебСервисыРазборОтветов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разбор ответов (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Разбор ответов (scania)</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

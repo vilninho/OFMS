@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23081a49-0c23-431f-b639-8931c5a44922">
+  <producedTypes>
+    <selectionType typeId="bad49f2f-33f0-4a9e-951c-a861b3a97063" valueTypeId="fd1bf851-0007-4fe2-984d-e8d8828b9984"/>
+    <listType typeId="f0913552-80d6-49b4-8054-5675cca9cbb5" valueTypeId="cff0ddc8-6aba-49b5-bee7-4dc2ba9592a2"/>
+    <managerType typeId="1b2ff61b-9655-43cf-b288-dd39001912ab" valueTypeId="7c8b29aa-6930-409b-845a-ba1fcee340bf"/>
+    <recordSetType typeId="17047a3c-ed61-4cfa-ba11-6fa57335891a" valueTypeId="3d2768d0-d5ac-42e8-a8a9-7cb964549323"/>
+    <recordKeyType typeId="34beaa11-2f7d-4e25-9f65-115173959488" valueTypeId="281280a8-486e-4a04-a406-4b1f5449d90d"/>
+    <recordType typeId="6aecf342-1cb3-4b69-926f-bbde51352fb9" valueTypeId="a526507d-58c1-4325-bc18-aa88bfceaac3"/>
+    <recordManagerType typeId="ebd968b3-72a6-49b8-ad43-179d0b7a754f" valueTypeId="b195cd7d-faea-4196-9cf6-938f2eeb729b"/>
+  </producedTypes>
+  <name>Scan_УчетныеЗаписиЭлектроннойПочтыДляСогласованияДокументовПоЭлектроннойПочте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетные записи электронной почты для согласования документов по электронной почте (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Email Accounts for Email Document Coordination (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5b6f8f4b-053c-4728-8ac4-3baf1e4993a9">
+    <name>УчетнаяЗаписьЭлектроннойПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись электронной почты</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Account e-mail</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d3487b33-3fa0-470e-8291-718ee68d2ea5">
+    <name>ТипПредметаЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип предмета задачи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Type object of task</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1e26be0-fecc-4b70-8172-e75a738a27a1">
+  <name>Scan_РабочееМестоДепартаментаПродажАвтобусов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочее место департамента продаж автобусов</value>
+  </synonym>
+</mdclass:CommonPicture>

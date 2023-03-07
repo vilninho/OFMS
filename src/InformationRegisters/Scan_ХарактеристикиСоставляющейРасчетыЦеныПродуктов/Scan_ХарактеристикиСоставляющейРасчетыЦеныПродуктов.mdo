@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0341067-fea7-4002-ac06-b7b24ad60f0e">
+  <producedTypes>
+    <selectionType typeId="ac6e77aa-ba10-4357-92aa-c16bb883dac7" valueTypeId="6dfe04ef-1dee-4ca7-b9c7-a1b54041917c"/>
+    <listType typeId="1eb58237-5c01-4905-b7c3-aec03387631c" valueTypeId="e7eb4e7f-508e-4fc8-8593-c665fc4213d5"/>
+    <managerType typeId="c75afc7b-4b35-40da-bfa1-d970db3d913e" valueTypeId="943ea744-46e9-42ff-898e-4a69ea9115e9"/>
+    <recordSetType typeId="72201bad-65e2-4d8f-8fb4-f4f816697a5b" valueTypeId="161a776e-de2d-4294-b5b5-dc30c1ad6c86"/>
+    <recordKeyType typeId="0ecce43b-00bd-4e28-af3a-d3f08d9cc9a9" valueTypeId="c4eb1d29-a7c3-42a6-9a6f-90970ed0ccbb"/>
+    <recordType typeId="49f3aecf-8e83-4f60-a4d1-99dd5f3e735b" valueTypeId="28b2713b-c8de-40f9-bd9a-88f2c9383d66"/>
+    <recordManagerType typeId="da0c2278-fb43-4542-b3a7-0ded8e7b447f" valueTypeId="a883d44c-c638-4de0-b57e-e34902585d08"/>
+  </producedTypes>
+  <name>Scan_ХарактеристикиСоставляющейРасчетыЦеныПродуктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>История изменения составляющих расчета цен продуктов (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Price calculation components of product history (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_ХарактеристикиСоставляющейРасчетыЦеныПродуктов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_ХарактеристикиСоставляющейРасчетыЦеныПродуктов.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c436ace9-b338-496a-a184-bfa6adf0579e">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Value</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Scan_ТипыСоставляющихРасчетаСоставляющихЦены</types>
+      <types>CatalogRef.Валюты</types>
+      <types>Boolean</types>
+      <types>CatalogRef.Scan_ГруппыПродуктов</types>
+      <types>String</types>
+      <types>Number</types>
+      <types>EnumRef.Scan_ВариантыФормированияРасчетаСоставляющихЦены</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="327e7f55-2bb0-4841-ac5e-c86ccd17422f">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="e33dc7aa-c2a4-4443-afd9-7fed7a6d6fad">
+    <name>СоставляющаяРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Составляющая расчета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Calculation component</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_СоставляющиеРасчетаЦеныПродуктов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f9c8497b-f0ba-49e6-9656-9050da3c7e49">
+    <name>ВидЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид значения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Value type</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Scan_ДополнительнаяИнформацияПоСоставляющимРасчетаЦен</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="fab0b1d6-b2a0-468d-bb02-e006487da1b4">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="23fb7e17-906e-46f8-93e8-063805bb0cee">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

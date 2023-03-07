@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1bdf9a0-e293-4627-b8dc-ead3317b371c">
+  <producedTypes>
+    <objectType typeId="3704457e-1e66-4ce4-81e3-ff4abd6cb411" valueTypeId="e58bee6e-e97f-4599-8e77-c26f1dacdcd5"/>
+    <refType typeId="6eb60e47-b270-4015-a364-c8fdd5c958a7" valueTypeId="d3d75a06-3175-44b6-91a4-14eab6496287"/>
+    <selectionType typeId="52963ba4-0f4f-4edc-b07f-ae2603e286ed" valueTypeId="0c6a19ab-45db-4c8f-a10b-304fa3f81067"/>
+    <listType typeId="1dc3c170-d73e-4992-a205-87a82826447e" valueTypeId="94e715ba-3bc4-4858-a76c-f6ff1441edaf"/>
+    <managerType typeId="4ff1834a-8977-4cb5-b5a4-fe594ee43384" valueTypeId="28bae974-3854-4130-a1f2-5596ce8c76c2"/>
+  </producedTypes>
+  <name>Scan_СтавкиНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставки НДС (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>VAT rate (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_СтавкиНДС.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="a435feed-3113-49b3-a109-4d0b5779fa68">
+      <name>ОсновнаяСтавкаНДС</name>
+      <description>18%</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="585f8c5d-f8e1-4832-968e-b1b7869519ed">
+      <name>ОсновнаяСтавкаНДССтарая</name>
+      <description>20%</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="8ff8e234-44c1-404f-ac72-561a896cf328">
+      <name>БезНДС</name>
+      <description>Без НДС</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_СтавкиНДС.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_СтавкиНДС.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="2d400533-8d1c-4da0-8ee0-ba78d1ebb1e8">
+    <name>Ставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Rate</value>
+    </synonym>
+    <comment>Ставка налога на добавленную стоимость</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ставка налога на добавленную стоимость</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Value-added tax rate</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b7e32b81-82a2-49f4-a02a-423bfedc5b47">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form element</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f2b826bc-996e-401d-b6fc-215d44c8c0db">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

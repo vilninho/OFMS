@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12df1662-5f94-431b-a005-8500a3a75d9d">
+  <producedTypes>
+    <selectionType typeId="6f0b8200-69c0-4c58-8f9c-f0f7a3abb5bf" valueTypeId="3da86111-5cae-4b25-91ee-f144d9e66836"/>
+    <listType typeId="a38ccc60-0626-4b61-a5ef-83f980f9ef99" valueTypeId="839a5155-cfb0-4e77-8a6e-c238d79ba8a3"/>
+    <managerType typeId="0a8f3202-c02d-4f6f-be9c-117c486bd3cf" valueTypeId="f85d5e93-ab54-43bf-a9c1-64078a5dc8a4"/>
+    <recordSetType typeId="d79f183a-00f4-4e56-9ca7-12c964b14ebe" valueTypeId="7de700e7-0e4f-438b-a09a-0b32c4eb56ab"/>
+    <recordKeyType typeId="a287d37b-99f3-42a8-9971-5cc483ffd599" valueTypeId="8a3d9055-4be6-4da8-a325-d36961331ad6"/>
+    <recordType typeId="2d64d5ae-a6a8-4efb-992e-1816aae66be8" valueTypeId="9a88a1ab-451b-4268-9f68-8e8a6373543c"/>
+    <recordManagerType typeId="41aa3c74-2c7f-4a9e-9b11-3a5e8b1d2827" valueTypeId="b175aad0-1ebe-43cb-a043-3b22c2016c50"/>
+  </producedTypes>
+  <name>Scan_СоответствиеСкладовИМестХранения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие складов и мест хранения (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Matching warehouses and storage locations (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_СоответствиеСкладовИМестХранения.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_СоответствиеСкладовИМестХранения.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="c7e67e79-ee56-4c17-90c2-468932e5289f">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="92edaebf-7dc6-40d8-8b47-ee854a4f309e">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="cd81538a-77a8-4b4d-af6d-f758b15f35b4">
+    <name>МестоХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_МестаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e81bdcfa-ad21-456f-a4ba-257d09f667eb">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b16082a1-6e2d-4f3d-9fa3-c028804d62ed">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f37728f6-8175-4419-8c96-21c95ec34dbc">
+  <producedTypes>
+    <objectType typeId="b78b3af2-0ac6-46b9-b133-f56a181ec5bd" valueTypeId="2cd6966d-af3b-4f0a-89c0-55b8573c1211"/>
+    <managerType typeId="83a93728-e738-4ac9-ba6d-49fc1bebb96b" valueTypeId="fab07c48-3496-4b78-8e21-9a28205c730e"/>
+  </producedTypes>
+  <name>Scan_ВводИнформацииПоТарифам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод информации по тарифам</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Entering Tariff Information</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Scan_ВводИнформацииПоТарифам.Form.ВводИнформацииПоТарифам</defaultForm>
+  <tabularSections uuid="3630be90-1465-40c2-8905-651a97871356">
+    <producedTypes>
+      <objectType typeId="565efcc0-2507-4266-9ccb-f9c3081f3fd4" valueTypeId="73ae982e-3f0e-43c5-a803-b7c5a2e9d1ef"/>
+      <rowType typeId="c06f9d10-3fb5-4196-9b37-e89e55b0a53b" valueTypeId="f2a7d50b-5bb5-466f-9ec2-da7df67f6010"/>
+    </producedTypes>
+    <name>ТаблицаЛогистическихАдресов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица логистических адресов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Table logistic addresses</value>
+    </synonym>
+    <attributes uuid="9926673d-8895-43a6-b959-639d07c4430d">
+      <name>АдресПолучения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Адрес получения</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Email address</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_АдресаХранения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6ccfdc32-8690-4e1f-a3b5-c4eb4cdd8f8b">
+      <name>АдресДоставки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Адрес доставки</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Delivery address</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_АдресаХранения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ad0c6cea-1ab0-4db2-a982-a3fb454ee191">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Price</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="854fb3e0-6ad5-42bf-af54-08fd1ad57b91">
+    <name>ВводИнформацииПоТарифам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ввода информации по тарифам перевозки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of entry information on the tariffs of transportation</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="6df5f2e7-9bb1-476d-a3f6-7e22d19183d8">
+    <name>ВводИнформацииПоТарифам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод информации по тарифам (scania)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Entering Tariff Information (scania)</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

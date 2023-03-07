@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f97d1ff4-f95b-4cac-9ad0-032d8d85dec1">
+  <producedTypes>
+    <objectType typeId="91a6120c-ded7-46bf-8600-bd9c6660af47" valueTypeId="304a56fa-e2d8-43ac-9941-d82606733d9a"/>
+    <refType typeId="699ede9d-e412-4809-9b59-2d255175cf06" valueTypeId="7d0be3b0-d010-4e39-9317-ceebb8daad31"/>
+    <selectionType typeId="f066501a-e36a-4340-8509-f8c1b39d4885" valueTypeId="07780e81-7c94-40b4-be4f-51d86f05f914"/>
+    <listType typeId="20356dc7-081b-4ed2-bcf3-b673f1341a1c" valueTypeId="2a29286b-1dc2-470a-9cd0-ce90c93888c6"/>
+    <managerType typeId="7ecab4d6-ce41-4100-8bb8-ff0db27ee62b" valueTypeId="7c6690ed-f51f-438d-90f3-4659d20d7a91"/>
+  </producedTypes>
+  <name>Scan_ХозяйственныеОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хозяйственные операции (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Business transactions (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_ХозяйственныеОперации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_ХозяйственныеОперации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Хозяйственная операция</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="502cf500-8948-484e-bb3e-292d9d63461f">
+      <name>ДокументДвижениеИзделий</name>
+      <description>Документ &quot;Движение продуктов&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value>000000020</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="76788a28-ea76-4c63-91c0-f60f9814fefe">
+        <name>ВводНачальныхОстатков</name>
+        <description>Ввод начальных остатков</description>
+        <code xsi:type="core:StringValue">
+          <value>000000021</value>
+        </code>
+      </content>
+      <content id="34bebb25-601a-4bf1-8b50-b1659828e55c">
+        <name>ПоступлениеНаСклад</name>
+        <description>Поступление на склад</description>
+        <code xsi:type="core:StringValue">
+          <value>000000022</value>
+        </code>
+      </content>
+      <content id="9172545d-4239-4467-8292-780b5dae2cd1">
+        <name>УбытиеИзУчета</name>
+        <description>Убытие из учета</description>
+        <code xsi:type="core:StringValue">
+          <value>000000023</value>
+        </code>
+      </content>
+    </items>
+    <items id="d82a7b70-ebc4-441b-9927-171fe16413e2">
+      <name>ДокументЗаказНаЗакупку</name>
+      <description>Документ &quot;Заказ на закупку&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value>000000060</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="0beac8a5-98cb-4ac6-8221-692ccfcda057">
+        <name>ЗаказНаЗакупкуЕвро</name>
+        <description>Заказ на закупку (евро)</description>
+        <code xsi:type="core:StringValue">
+          <value>000000062</value>
+        </code>
+      </content>
+      <content id="abb38c19-1d20-4be9-95fe-6091d0bbe21e">
+        <name>ЗаказНаЗакупкуЛокальный</name>
+        <description>Заказ на закупку (локальный)</description>
+        <code xsi:type="core:StringValue">
+          <value>000000061</value>
+        </code>
+      </content>
+    </items>
+    <items id="c4cec54e-af3f-4364-99dd-496de105fba7">
+      <name>ДокументЗакреплениеМенеджеровДепартаментаПродажАвтобусовЗаДилерами</name>
+      <description>Документ &quot;Закрепление менеджеров департамента продаж автобусов за дилерами&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value>000000063</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="e18d481f-c10b-4074-af2e-313ae21119b0">
+        <name>ЗакреплениеМенеджеровДепартаментаПродажАвтобусовЗаДилерами</name>
+        <description>Закрепление менеджеров департамента продаж автобусов за дилерами</description>
+        <code xsi:type="core:StringValue">
+          <value>000000064</value>
+        </code>
+      </content>
+    </items>
+    <items id="28e86435-b1c1-4798-8f1f-399cff4b0430">
+      <name>ДокументЗакреплениеМенеджеровЗаДилерами</name>
+      <description>Документ &quot;Закрепление менеджеров за дилерами&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value>000000045</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="88bed6c8-6e36-4330-80a9-37a0cbc84374">
+        <name>ЗакреплениеМенеджеровЗаДилерами</name>
+        <description>Закрепление менеджеров за дилерами</description>
+        <code xsi:type="core:StringValue">
+          <value>000000046</value>
+        </code>
+      </content>
+    </items>
+    <items id="69f19246-f1ca-493e-8c15-86d095b12789">
+      <name>ДокументЗаявкаНаДействие</name>
+      <description>Документ &quot;Заявка на действие&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="118f049d-e682-4753-b7d0-a4a1cd4ffe19">
+        <name>Доставка</name>
+        <description>Доставка</description>
+        <code xsi:type="core:StringValue">
+          <value>000000002</value>
+        </code>
+      </content>
+      <content id="badfe956-f243-4cac-bfdd-f7bf9bae7c79">
+        <name>ДоставкаИПередачаВПроизводство</name>
+        <description>Доставка и передача в производство</description>
+        <code xsi:type="core:StringValue">
+          <value>000000029</value>
+        </code>
+      </content>
+      <content id="40f7e256-e768-4272-9382-af5071aba9e5">
+        <name>ДоставкаИПостановкаНаХранение</name>
+        <description>Доставка и постановка на хранение</description>
+        <code xsi:type="core:StringValue">
+          <value>000000028</value>
+        </code>
+      </content>
+      <content id="6428ca26-2e28-4b8d-a204-2df6df2c5122">
+        <name>ПередачаВПроизводство</name>
+        <description>Передача в производство</description>
+        <code xsi:type="core:StringValue">
+          <value>000000015</value>
+        </code>
+      </content>
+      <content id="2f84c80e-e223-4bca-9189-bd3e3dcd23ab">
+        <name>ПокупкаУПоставщикаИПередачаНаХранениеТретьемуЛицу</name>
+        <description>Покупка у поставщика и передача на хранение 3-му лицу</description>
+        <code xsi:type="core:StringValue">
+          <value>000000025</value>
+        </code>
+      </content>
+      <content id="ade5019a-da9d-42da-87cc-8c553721ad86">
+        <name>ПокупкаУПоставщикаИПередачаТК</name>
+        <description>Покупка у поставщика и передача ТК</description>
+        <code xsi:type="core:StringValue">
+          <value>000000006</value>
+        </code>
+      </content>
+      <content id="4e77fa61-3fbf-404c-bb39-5185a1f52e9b">
+        <name>ПокупкаУПоставщикаИПродажаТретьемуЛицу</name>
+        <description>Покупка у поставщика и продажа 3-му лицу</description>
+        <code xsi:type="core:StringValue">
+          <value>000000007</value>
+        </code>
+      </content>
+      <content id="aa35aa48-49a2-4a05-bd95-688496d9cde7">
+        <name>ПокупкаУПоставщикаСПостановкойНаХранение</name>
+        <description>Покупка у поставщика с постановкой на хранение</description>
+        <code xsi:type="core:StringValue">
+          <value>000000009</value>
+        </code>
+      </content>
+      <content id="cc3c1fbd-d87f-4a16-92ba-2537ca4a16b1">
+        <name>ПокупкаУПоставщикаПродажаТретьемуЛицуИПередачаТК</name>
+        <description>Покупка у поставщика, продажа 3-му лицу и передача ТК</description>
+        <code xsi:type="core:StringValue">
+          <value>000000008</value>
+        </code>
+      </content>
+      <content id="45550710-aaa0-42dc-9b36-14910d27878d">
+        <name>ПостановкаНаХранение</name>
+        <description>Постановка на хранение</description>
+        <code xsi:type="core:StringValue">
+          <value>000000010</value>
+        </code>
+      </content>
+      <content id="e65a1886-082f-47d9-aa5c-cf52027f3dc8">
+        <name>ПродажаТретьемуЛицуСоСкладаСканияРусь</name>
+        <description>Продажа 3-му лицу со склада Скания-Русь</description>
+        <code xsi:type="core:StringValue">
+          <value>000000030</value>
+        </code>
+      </content>
+      <content id="97752025-3119-46c2-8236-e47cf0fc4df5">
+        <name>ПродажаТретьемуЛицуСоСкладаСканияРусьИПередачаТК</name>
+        <description>Продажа 3-му лицу со склада Скания-Русь и передача ТК</description>
+        <code xsi:type="core:StringValue">
+          <value>000000031</value>
+        </code>
+      </content>
+      <content id="303bf01d-332d-4407-a23f-c024f7ea90ea">
+        <name>СнятиеСХраненияИПередачаВПроизводство</name>
+        <description>Снятие с хранения и передача в производство</description>
+        <code xsi:type="core:StringValue">
+          <value>000000014</value>
+        </code>
+      </content>
+      <content id="9430743d-06a6-4737-8983-694325e84f81">
+        <name>СнятиеСХраненияИПередачаНаХранениеТретьемуЛицу</name>
+        <description>Снятие с хранения и передача на хранение 3-му лицу</description>
+        <code xsi:type="core:StringValue">
+          <value>000000024</value>
+        </code>
+      </content>
+      <content id="634bcf98-153f-4cd8-b851-077b419533c0">
+        <name>СнятиеСХраненияИПередачаТК</name>
+        <description>Снятие с хранения и передача ТК</description>
+        <code xsi:type="core:StringValue">
+          <value>000000011</value>
+        </code>
+      </content>
+      <content id="510415e5-6e15-4085-a61d-a5f8bc97bf6f">
+        <name>СнятиеСХраненияИПродажаТретьемуЛицу</name>
+        <description>Снятие с хранения и продажа 3-му лицу</description>
+        <code xsi:type="core:StringValue">
+          <value>000000012</value>
+        </code>
+      </content>
+      <content id="630a4e0d-63d8-4360-adc7-88940c90d456">
+        <name>СнятиеСХраненияПродажаТретьемуЛицуИПередачаТК</name>
+        <description>Снятие с хранения, продажа 3-му лицу и передача ТК</description>
+        <code xsi:type="core:StringValue">
+          <value>000000013</value>
+        </code>
+      </content>
+    </items>
+    <items id="da41d940-24ea-4883-8136-b03a08cfc074">
+      <name>ДокументЗаявкаНаКомплектующие</name>
+      <description>Документ &quot;Заявка на комплектующие&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value>000000035</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="52fae292-1a0c-42bc-a0d0-b48b6754de82">
+        <name>ЗаказНаЦС</name>
+        <description>Заказ на ЦС</description>
+        <code xsi:type="core:StringValue">
+          <value>000000037</value>
+        </code>
+      </content>
+      <content id="65a9622d-b958-4faf-aa6e-ce364e7f01b9">
+        <name>СписаниеСЦС</name>
+        <description>Списание с ЦС</description>
+        <code xsi:type="core:StringValue">
+          <value>000000036</value>
+        </code>
+      </content>
+    </items>
+    <items id="2e2fbff2-9a0f-4e85-916f-4ea0e2f0ad31">
+      <name>ДокументЗаявкаПеревозчику</name>
+      <description>Документ &quot;Заявка перевозчику&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value>000000016</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="faac7682-e31b-426a-bee9-a28b0744c316">
+        <name>ЗаявкаПеревозчику</name>
+        <description>Заявка перевозчику</description>
+        <code xsi:type="core:StringValue">
+          <value>000000017</value>
+        </code>
+      </content>
+    </items>
+    <items id="ce3e856b-4451-4641-a15d-9be29dc3e408">
+      <name>ДокументИзменениеЦен</name>
+      <description>Документ &quot;Изменение цен&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value>000000040</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="b8280e11-c8ba-4988-affc-ba5e2d50c102">
+        <name>ИзменениеЦен</name>
+        <description>Изменение цен</description>
+        <code xsi:type="core:StringValue">
+          <value>000000041</value>
+        </code>
+      </content>
+    </items>
+    <items id="8c87695f-5dbe-49a4-8013-c7ee8ee2de9e">
+      <name>ДокументКалькуляция</name>
+      <description>Документ &quot;Калькуляция&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value>000000050</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="bd92f5a8-959a-404c-b939-df2df8f31276">
+        <name>РасчетОтПрайсЛиста</name>
+        <description>Калькуляция</description>
+        <code xsi:type="core:StringValue">
+          <value>000000053</value>
+        </code>
+      </content>
+      <content id="f2b8b637-3b05-42fa-969d-94f8a2323023">
+        <name>ИзменениеСтатейПрайсЛиста</name>
+        <description>Прайс-лист</description>
+        <code xsi:type="core:StringValue">
+          <value>000000051</value>
+        </code>
+      </content>
+    </items>
+    <items id="e3c140e3-5df7-4df9-9c2e-959ea734aac0">
+      <name>ДокументПеремещениеИзделий</name>
+      <description>Документ &quot;Перемещение продуктов&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value>000000026</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="e23a7c07-5532-4a82-88a0-2050c68b117c">
+        <name>ПеремещениеИзделий</name>
+        <description>Перемещение продуктов</description>
+        <code xsi:type="core:StringValue">
+          <value>000000027</value>
+        </code>
+      </content>
+    </items>
+    <items id="cc64f51e-31d6-4e02-a2f2-ab7ce0419b81">
+      <name>ДокументПоступлениеКомплектующих</name>
+      <description>Документ &quot;Поступление комплектующих&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value>000000038</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="e5b5a132-1757-4f98-8a4d-06a40695913c">
+        <name>ПоступлениеКомплектующих</name>
+        <description>Поступление комплектующих</description>
+        <code xsi:type="core:StringValue">
+          <value>000000039</value>
+        </code>
+      </content>
+    </items>
+    <items id="55be216e-d7ca-46d6-845c-bb761d482433">
+      <name>ДокументУстановкаПланаПоOrderIntake</name>
+      <description>Документ &quot;Установка плана по Order Intake&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value>000000047</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="7b7e6ca5-9133-42d9-ba7a-340b1823e294">
+        <name>КорректировкаПланаПоOI</name>
+        <description>Корректировка плана по OI</description>
+        <code xsi:type="core:StringValue">
+          <value>000000048</value>
+        </code>
+      </content>
+      <content id="7eb36959-ac5e-4628-a6ac-f633efe56de7">
+        <name>УстановкаПланаПоOI</name>
+        <description>Установка плана по OI</description>
+        <code xsi:type="core:StringValue">
+          <value>000000049</value>
+        </code>
+      </content>
+    </items>
+    <items id="4711a4a6-eab4-471b-8ec1-e4923205480b">
+      <name>ДокументУстановкаПланаПоОтгрузкам</name>
+      <description>Документ &quot;Установка плана по отгрузкам&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value>000000042</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="4687b6f4-c89e-46b1-9c09-ba0c08c272cf">
+        <name>КорректировкаПланаПоОтгрузкам</name>
+        <description>Корректировка плана по отгрузкам</description>
+        <code xsi:type="core:StringValue">
+          <value>000000044</value>
+        </code>
+      </content>
+      <content id="1becd522-8e6b-4909-8677-b07d719c5300">
+        <name>УстановкаПланаПоОтгрузкам</name>
+        <description>Установка плана по отгрузкам</description>
+        <code xsi:type="core:StringValue">
+          <value>000000043</value>
+        </code>
+      </content>
+    </items>
+    <items id="4fc89fa2-1479-4ea8-a2f2-59f907fb50be">
+      <name>ДокументУстановкаПлановыхЦенПродуктов</name>
+      <description>Документ &quot;Установка плановых цен продуктов&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value>000000054</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="db5f8c04-65d6-4fc1-85ce-ff391a87de5d">
+        <name>КорректировкаПлановыхЦенПродуктов</name>
+        <description>Корректировка плановых цен продуктов</description>
+        <code xsi:type="core:StringValue">
+          <value>000000056</value>
+        </code>
+      </content>
+      <content id="983d7eb7-2c39-46c0-bf27-935745a5cc41">
+        <name>УстановкаПлановыхЦенПродуктов</name>
+        <description>Установка плановых цен продуктов</description>
+        <code xsi:type="core:StringValue">
+          <value>000000055</value>
+        </code>
+      </content>
+    </items>
+    <items id="b8e200a5-6e63-42e0-a921-19d75207dfd4">
+      <name>ДокументУстановкаЦенКомпонентов</name>
+      <description>Документ &quot;Установка цен компонентов&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value>000000057</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="2c9876c4-e3c7-4288-b44e-0eadc8edc126">
+        <name>РасчетОтSOrder</name>
+        <description>Расчет от S-Order</description>
+        <code xsi:type="core:StringValue">
+          <value>000000059</value>
+        </code>
+      </content>
+      <content id="dc6cc85b-fb7a-4d7d-9eb3-32ade9e45d2e">
+        <name>УстановкаЦенКомпонентов</name>
+        <description>Установка цен компонентов</description>
+        <code xsi:type="core:StringValue">
+          <value>000000058</value>
+        </code>
+      </content>
+    </items>
+    <items id="4f050a6a-929c-4a6c-80d5-791ef87cad68">
+      <name>ДокументЧекЛистТехническогоСостоянияИзделия</name>
+      <description>Документ &quot;Чек лист технического состояния продуктов&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value>000000033</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="876afc26-b8e6-4840-80dd-0d5db233f99b">
+        <name>ЧекЛистТехническогоСостоянияИзделия</name>
+        <description>Чек лист технического состояния продуктов</description>
+        <code xsi:type="core:StringValue">
+          <value>000000034</value>
+        </code>
+      </content>
+    </items>
+    <items id="ec53937d-b356-453c-bbdc-75f3906f3803">
+      <name>ПрайсЛистАренда</name>
+      <description>Прайс-лист аренда</description>
+      <code xsi:type="core:StringValue">
+        <value>000000065</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="94dec619-4e62-4d22-87ad-de7764e402e9">
+        <name>StdПрайсЛистНаАренду</name>
+        <description>Std прайс-лист на аренду</description>
+        <code xsi:type="core:StringValue">
+          <value>000000066</value>
+        </code>
+      </content>
+      <content id="90053834-0645-4537-8e0e-56de25e85d71">
+        <name>UOПрайсЛистНаАренду</name>
+        <description>UO прайс-лист на аренду</description>
+        <code xsi:type="core:StringValue">
+          <value>000000067</value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+  <predefinedDataUpdate>AutoUpdate</predefinedDataUpdate>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_ХозяйственныеОперации.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_ХозяйственныеОперации.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Scan_ХозяйственныеОперации.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="6afd7bd2-fe3c-4804-a0b0-2df7c1c47c0e">
+    <name>ПорядковыйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>№ п/п</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>№ p / p</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="33308a79-7b35-4ec0-b00c-b011f65bbb20">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form element</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6554775e-ae9e-4520-a139-e339a0a9f508">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c8794a83-a6ff-413e-838d-a0849ead2b45">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of selection</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

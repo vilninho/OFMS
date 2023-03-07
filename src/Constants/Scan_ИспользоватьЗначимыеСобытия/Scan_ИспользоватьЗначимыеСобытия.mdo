@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85e3a2ce-ecff-4c3d-8c68-c715404564bc">
+  <producedTypes>
+    <managerType typeId="880612d1-b184-4a5b-b9d0-ad22ce01613a" valueTypeId="37e8010c-64c4-4ae2-aecf-1b766406eac0"/>
+    <valueManagerType typeId="b4c2fd67-a196-433d-bfb2-7aabed779a4a" valueTypeId="61251c7d-7b83-46d2-a101-61cc192c8092"/>
+    <valueKeyType typeId="82f1ecd2-afcd-59df-924e-ca5e9b362408" valueTypeId="182b8340-2eb1-584f-8cda-764d20246262"/>
+  </producedTypes>
+  <name>Scan_ИспользоватьЗначимыеСобытия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать значимые события (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Использовать значимые события (scania)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

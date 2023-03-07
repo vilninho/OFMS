@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b748aaa-cb37-4eb0-ad3e-e555ac5640f4">
+  <producedTypes>
+    <selectionType typeId="77140d59-b4fb-49e4-8d19-1e864f24d9c4" valueTypeId="f67453de-d0b2-4a33-8f58-6ff829f3fb45"/>
+    <listType typeId="3b8531f4-e3f3-4994-903e-122d732ad5a2" valueTypeId="deee6782-13c6-4286-a72a-a3dd53e0d46f"/>
+    <managerType typeId="172fff06-b467-4f5b-bd45-d838cb695ae1" valueTypeId="9da01db5-849e-4813-bfd1-a10ee7651089"/>
+    <recordSetType typeId="6f3ddabf-93e3-490c-bfff-3f2e6c7b618f" valueTypeId="c9b701a6-a41d-4617-935a-ace7399dec71"/>
+    <recordKeyType typeId="c70e4154-d906-4727-899e-0d6c4aeffc30" valueTypeId="2d2da903-162e-4ce2-a165-cc6012b3706b"/>
+    <recordType typeId="b9249fb7-ad85-4e43-8313-50cd5b87a9ce" valueTypeId="1add2e9a-9454-47cc-b5a7-141ee9843a34"/>
+    <recordManagerType typeId="cf675490-b729-4129-ae9d-7397381865cc" valueTypeId="63390831-29d2-4a6e-ad53-a90961ae6417"/>
+  </producedTypes>
+  <name>Scan_СоответствиеКодовАдресовДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие кодов адресов доставки (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Match codes of delivery addresses (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_СоответствиеКодовАдресовДоставки.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_СоответствиеКодовАдресовДоставки.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="abb190ca-2e28-48cd-a62d-8f19c4975284">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="50c1a186-5b14-4c8b-82f8-6af16a77ed67">
+    <name>КодАдресаДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код адреса доставки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Code of the delivery address</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_КодыАдресовДоставки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5c290fd1-89b3-4d20-bb6e-a4e7704e54fa">
+    <name>МестоХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Storage</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_МестаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="5f2e964a-afd1-4046-8dd2-b500086e899a">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Recording form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="29792182-6275-46c8-98e8-3425d2137783">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

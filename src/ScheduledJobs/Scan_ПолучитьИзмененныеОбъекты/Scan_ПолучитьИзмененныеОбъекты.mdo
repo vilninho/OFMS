@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4944ec9-00d0-421e-ad11-370aa44d331b">
+  <name>Scan_ПолучитьИзмененныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получить измененные объекты</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Get modified objects</value>
+  </synonym>
+  <methodName>CommonModule.Scan_РегламентныеЗадания.ПолучитьИзмененныеОбъекты</methodName>
+  <description>Получить измененные объекты из 1БД</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

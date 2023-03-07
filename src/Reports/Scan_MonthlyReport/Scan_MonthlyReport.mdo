@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63593c80-1abf-4f18-a29b-7c76e2df53fd">
+  <producedTypes>
+    <objectType typeId="c4378986-294d-499b-bdcf-ff5d89c7dade" valueTypeId="1894e73b-fbf5-4267-b7b2-0284c1093a7c"/>
+    <managerType typeId="fd5fd86b-23fa-4408-99c8-95457e4e7d80" valueTypeId="49b8f06b-b61d-4de0-9b41-56d9372ec084"/>
+  </producedTypes>
+  <name>Scan_MonthlyReport</name>
+  <synonym>
+    <key>ru</key>
+    <value>Monthly report (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Monthly report (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.Scan_MonthlyReport.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="a52def2f-34a1-4170-bc64-5057b42a2efa">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="572a8c41-1863-4ece-ae7c-b27036ce8886">
+  <producedTypes>
+    <refType typeId="33138af0-eca1-4f87-ba18-8fe54ce24dc9" valueTypeId="21cc5380-6298-4a41-8348-5d76ed028ced"/>
+    <listType typeId="3dcbfd1f-290b-41f2-968c-13d896419dce" valueTypeId="d6264ace-c0bf-4f21-95b7-4084ad47c4e6"/>
+    <managerType typeId="3ad0b972-2b6f-4168-8b39-99ff64c1b9c2" valueTypeId="3c8fe9c0-61e0-4dbb-8286-428244b92e43"/>
+  </producedTypes>
+  <name>Scan_МетодыОкругленияЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Методы округления цен (scania)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="848c48db-b5b7-4ef3-be81-c0fa6beea0fa">
+    <name>Арифметически</name>
+    <synonym>
+      <key>ru</key>
+      <value>Арифметически</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Arithmetically</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="04bbfdc7-71cf-40f2-ad72-51c8d2a3346f">
+    <name>ВБольшуюСторону</name>
+    <synonym>
+      <key>ru</key>
+      <value>В большую сторону</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Rounding up</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,51 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.scania.org/webservice/SRUService/CustInv4PaymSettl" elementFormQualified="false" attributeFormQualified="false">
+	<property name="Contract">
+		<typeDef xsi:type="ObjectType">
+			<property name="ContractAccount" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/CustInv4PaymSettl" ref="d4p1:Invoice" lowerBound="0" upperBound="-1"/>
+		</typeDef>
+	</property>
+	<property name="CustInv4PaymSettl">
+		<typeDef xsi:type="ObjectType">
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/CustInv4PaymSettl" ref="d4p1:Customer" lowerBound="0" upperBound="-1"/>
+		</typeDef>
+	</property>
+	<property name="Customer">
+		<typeDef xsi:type="ObjectType">
+			<property name="DATAAREAID" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property name="CustomerAccount" type="xs:string" lowerBound="1" form="Attribute"/>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/CustInv4PaymSettl" ref="d4p1:Contract" upperBound="-1"/>
+		</typeDef>
+	</property>
+	<property name="Invoice">
+		<typeDef xsi:type="ObjectType">
+			<property name="InvPaymID" type="xs:string" lowerBound="0" form="Attribute"/>
+			<property name="InvPaymDate" type="xs:dateTime" lowerBound="0" form="Attribute"/>
+			<property name="InvoiceID" lowerBound="0" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="20"/>
+			</property>
+			<property name="InvoiceDate" type="xs:string" lowerBound="0" form="Attribute"/>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/CustInv4PaymSettl" ref="d4p1:Payment" lowerBound="0" upperBound="-1"/>
+		</typeDef>
+	</property>
+	<property name="Payment">
+		<typeDef xsi:type="ObjectType">
+			<property name="SattleAmountCur" type="xs:decimal" lowerBound="1" form="Attribute"/>
+			<property name="RecVersion" type="xs:byte" lowerBound="1" form="Attribute"/>
+			<property name="RecID" type="xs:long" lowerBound="1" form="Attribute"/>
+			<property name="PaymDocnum" type="xs:short" lowerBound="1" form="Attribute"/>
+			<property name="PaymDate" type="xs:dateTime" lowerBound="1" form="Attribute"/>
+			<property name="CurrencyCode" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property name="Cancelled" type="xs:byte" lowerBound="1" form="Attribute"/>
+			<property name="PaymDesc" lowerBound="0" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="400"/>
+			</property>
+		</typeDef>
+	</property>
+</package>

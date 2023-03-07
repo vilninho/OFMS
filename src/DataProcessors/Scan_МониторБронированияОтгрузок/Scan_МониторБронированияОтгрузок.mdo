@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e706386-8c91-49f4-a09b-e1d3684c2426">
+  <producedTypes>
+    <objectType typeId="e9899ac4-e24b-4a07-a5dc-d7fd5e2511c2" valueTypeId="28d93fd1-eaf1-4f21-9358-25943779a764"/>
+    <managerType typeId="f02680bc-b3dd-4d24-ae2e-3897bee6cb37" valueTypeId="1238aec9-06bf-4c5e-b539-97ccfb252402"/>
+  </producedTypes>
+  <name>Scan_МониторБронированияОтгрузок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Монитор бронирования отгрузок (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Shipment Booking Monitor (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Scan_МониторБронированияОтгрузок.Form.Форма</defaultForm>
+  <forms uuid="a07d5793-b133-48ef-89f6-0af0025bd7f7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="2fac2be6-7929-45c3-9038-a80780630066">
+    <name>МониторБронирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Монитор бронирования</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

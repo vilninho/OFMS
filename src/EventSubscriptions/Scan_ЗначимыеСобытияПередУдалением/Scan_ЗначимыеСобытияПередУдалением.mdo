@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4502603-ba8c-48cd-a6d6-aefd48103ae0">
+  <name>Scan_ЗначимыеСобытияПередУдалением</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значимые события перед удалением (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Значимые события перед удалением (scania)</value>
+  </synonym>
+  <source>
+    <types>ChartOfAccountsObject</types>
+    <types>ChartOfCharacteristicTypesObject</types>
+    <types>ExchangePlanObject</types>
+    <types>CatalogObject</types>
+    <types>DocumentObject</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.Scan_ЗначимыеСобытия.ЗначимыеСобытияПередУдалением</handler>
+</mdclass:EventSubscription>

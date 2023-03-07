@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a158af0-27bb-430e-aef3-d2050f077749">
+  <producedTypes>
+    <refType typeId="33f612ba-4b77-4d26-ab4d-d8ba69eb54a8" valueTypeId="96f724f5-0881-4d60-ba5a-ecea4ec8693e"/>
+    <listType typeId="fdae924b-5fb2-498f-8bbb-15400ff4c203" valueTypeId="44f1ddb9-673f-44a0-b6b3-2dd5e6e95fa0"/>
+    <managerType typeId="16bb70e8-a01a-4c09-b48b-87fc465a3b6b" valueTypeId="d5ba0bf1-84c7-4c65-98e1-6d6935236e2f"/>
+  </producedTypes>
+  <name>Scan_ДополнительнаяИнформацияПоСоставляющимРасчетаЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительная информация по составляющим расчета цен (scania)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c6ac5333-a010-44ec-b718-2d9de6afb1bf">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="70844d44-22e1-4a32-80d4-4bdfd36a100c">
+    <name>НаименованиеРус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование рус</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="151a3067-faf0-4211-b1d8-1790a914ecc4">
+    <name>НеИспользуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не используется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2f24ea44-98bc-4559-9eb2-ca5295af0aa5">
+    <name>ВариантФормированияРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант формирования расчета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="00d84b09-02b5-49ad-aa8f-bc9f968b9efb">
+    <name>ФормулаРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формула расчета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a6ac2c0e-4be3-401e-8897-c0c4014401a4">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="afce647c-67c6-468c-be98-d25b297ff47d">
+    <name>ЗначениеПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение по умолчанию</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0ddcfa80-b658-4711-becd-179165700f47">
+    <name>ЦветСтрокиКалькуляции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет строки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9977d31a-7834-40b3-a656-c16017974929">
+    <name>ЦветТекстаСтрокиКалькуляции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет текста</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Text color</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="65c3a64c-7f5c-4c53-8d98-2f01aa80f1ef">
+    <name>ШрифтСтрокиКалькуляции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шрифт строки калькуляции</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="69dfc166-6577-4e4f-9391-420c4b3b7059">
+    <name>ЯвляетсяПакетомУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Является пакетом услуг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d3d20304-3b47-4017-b906-240c9e735ff0">
+    <name>ВыводитьВКалькуляцию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="687d28cc-2099-450c-ad2e-5e5206d240dc">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5d54f97c-4309-47d4-b9d9-f47cda0ea509">
+    <name>НомерСтрокиКалькуляции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер строки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="93f93b52-bd70-421b-bd81-f4e8df120493">
+    <name>Опция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fc4caf6e-2664-4a27-95bf-ede60dc7e68f">
+    <name>ТипСоставляющейЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип составляющей цены</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0d5383fe-129d-462b-9dfd-f74d1e436d67">
+    <name>Применимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Применимость по группам продуктов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0edf2272-2f91-4a2e-a7e7-040cf96d6bde">
+    <name>Принадлежность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принадлежность</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9fde3444-d5e4-4455-b874-4da71a309af8">
+    <name>РазрядностьОкругления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрядность округления</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

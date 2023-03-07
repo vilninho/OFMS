@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8ea33bf-cbbe-4f30-b4ec-7e0f474c52ca">
+  <name>Scan_ПолучитьВерсииСпецификаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получить версии спецификаций</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Get specification versions</value>
+  </synonym>
+  <methodName>CommonModule.Scan_РегламентныеЗадания.ПолучитьВерсииСпецификаций</methodName>
+  <description>Получить версии спецификаций</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

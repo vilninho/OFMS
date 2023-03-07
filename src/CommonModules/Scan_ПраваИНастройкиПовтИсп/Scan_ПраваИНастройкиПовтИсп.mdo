@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="150c314f-2ccd-49ca-a9ed-be079277a27a">
+  <name>Scan_ПраваИНастройкиПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Права и настройки (повторное использование) (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Права и настройки (повторное использование) (scania)</value>
+  </synonym>
+  <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

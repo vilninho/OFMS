@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4b88208-9554-485a-a364-57f3f70b493f">
+  <producedTypes>
+    <selectionType typeId="ffa1fadf-aa5a-460e-9b51-29999c21f8d7" valueTypeId="20679aee-9e27-4e81-900b-d71c03c21931"/>
+    <listType typeId="1fe349e3-4f31-42dc-b44a-e80960e3eba8" valueTypeId="ced8e370-b9c5-4ed1-91a5-7a1ce4de8960"/>
+    <managerType typeId="ccae971c-7298-4197-9367-a3ff6d980741" valueTypeId="498f4052-5b55-4c6f-8e95-b01ef16782a0"/>
+    <recordSetType typeId="e92cfa0d-c26c-4624-a8ea-98bf67846b15" valueTypeId="d688b293-ca50-4a2d-ba9f-f169aad45b0b"/>
+    <recordKeyType typeId="4c43d0a9-aea9-46f2-8a27-79ee5023a3cf" valueTypeId="732555d0-3be8-4fad-b448-97390c26f72d"/>
+    <recordType typeId="3cc84901-25c8-42bf-9fe2-b91c20decca1" valueTypeId="29e0f4f5-92e4-489b-b0ce-30d08e1a0314"/>
+    <recordManagerType typeId="7ddf6d85-2ae0-4c01-bdc6-869a08fa4746" valueTypeId="2e74765e-e5a7-4fc1-81f6-894e8771976e"/>
+  </producedTypes>
+  <name>Scan_ОчередьDDИнформера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь DD-информера (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.Scan_ОчередьDDИнформера.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7b06c6e2-adef-4c46-9d4d-19c07cbc7ea2">
+    <name>ИзмененаДатаPDD</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменена дата PDD</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8dbdb0f2-80b8-458e-90a0-d04545cba2f2">
+    <name>ИзмененаДатаCDD</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменена дата CDD</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="655723cb-5815-4e66-9dc4-6bd1d9224461">
+    <name>ИзмененаДатаCDD2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменена дата CDD2</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6baf6589-f02b-4f89-91e2-85f8ccea449d">
+    <name>ИзмененаДатаEDD</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменена дата EDD</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="b14fcead-ff27-4a53-b88c-781922f0bdf7">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="7848c346-29db-4655-9211-82dfe21ab7de">
+    <name>ЗаказНаЗавод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ на завод</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ЗаказыНаЗавод</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="7b8145a1-8a6e-4d4d-848d-36a355b998a0">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

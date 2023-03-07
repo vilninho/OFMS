@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffe6f68e-6b9a-4404-89c9-ce2ef1448577">
+  <producedTypes>
+    <refType typeId="783d07cd-9bfc-405c-93cf-fd31f4d5b1a1" valueTypeId="a9a06054-3247-494d-ab13-3ba85aac6c90"/>
+    <listType typeId="d8f929aa-ac2b-4835-9310-d71ff6993773" valueTypeId="33ce11d6-6a1e-48cd-a659-ece764158c9a"/>
+    <managerType typeId="467b0cb3-2129-45f9-9f99-95506df2ed9b" valueTypeId="81efa891-af7d-4282-924f-b615ff674acc"/>
+  </producedTypes>
+  <name>Scan_ТипыЗаказовНаЗавод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы заказов на завод (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Order types</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7dd6a6bb-7b9d-427d-af16-2dea78595ad7">
+    <name>OpenOrder</name>
+    <synonym>
+      <key>ru</key>
+      <value>Open</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Open</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4aea7e10-2ec7-452c-a89d-105bb0d9c76a">
+    <name>FirmOrderNormal</name>
+    <synonym>
+      <key>ru</key>
+      <value>Firm normal</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Firm normal</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f9164ea2-0acc-4ed3-bad7-2f0b2731a498">
+    <name>FirmOrderUrgent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Firm urgent</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Firm urgent</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1990a2d3-f33f-4727-9965-20c033342e2a">
+    <name>FirmOrderRefill</name>
+    <synonym>
+      <key>ru</key>
+      <value>Firm refill</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Firm refill</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75fb8ed0-5b08-4d6c-8946-49f1877ca6ef">
+  <name>Scan_ЦенообразованиеСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ценообразование сервер (scania)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

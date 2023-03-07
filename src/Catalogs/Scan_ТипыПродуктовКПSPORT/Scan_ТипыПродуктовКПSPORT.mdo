@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad2633f7-9a21-4d4c-8316-da1f518eb4cf">
+  <producedTypes>
+    <objectType typeId="2b7bf46f-62c5-45b5-bd89-bcca7990da36" valueTypeId="2025e331-cfd8-4999-acee-569a0ae70c56"/>
+    <refType typeId="020a0f3e-b355-4dbe-8c93-52b2c7897d87" valueTypeId="35fdf3bf-cd2b-41e2-9804-1f31ac032735"/>
+    <selectionType typeId="68afbc59-82f1-4288-9fd1-c0f6a2584a17" valueTypeId="46ff008f-e82a-4023-aefc-bbb426172c74"/>
+    <listType typeId="4b7ad2bf-d339-4f4e-9c42-75a436a66eb6" valueTypeId="fe0e2798-036f-45cd-a08a-84b0cb37d7c6"/>
+    <managerType typeId="ad68d96d-e8d8-48f8-bff7-0dc97cc7f28e" valueTypeId="f0cda89c-d670-43cd-b37e-75cd8c4b3fb3"/>
+  </producedTypes>
+  <name>Scan_ТипыПродуктовКПSPORT</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы продуктов КП SPORT (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_ТипыПродуктовКПSPORT.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_ТипыПродуктовКПSPORT.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_ТипыПродуктовКПSPORT.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_ТипыПродуктовКПSPORT.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="41e87e92-41ee-4f99-ad22-5a005ec3449d">
+    <name>IDExternalSystem</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID External System</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ID External System</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9cb45d99-ccc8-4aa7-aac5-844b3adbf50b">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e5bc2ece-fe0a-427f-a757-b4025fd0349f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f1281127-ef66-4223-9a00-48015bcd52bc">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

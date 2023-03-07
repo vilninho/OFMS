@@ -1,0 +1,3015 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="095ffd78-da3b-494e-91ac-b279c7a40454">
+  <producedTypes>
+    <objectType typeId="f0abe557-1fe8-46e7-b916-ae31655e222c" valueTypeId="017a7197-b7a3-495a-8e22-394b3cf3f115"/>
+    <refType typeId="720b72ee-7441-4611-952a-5d2cb4731d5b" valueTypeId="a9a4779e-1a20-49cb-8ce4-3638fbe3eaa3"/>
+    <selectionType typeId="66586a71-0af0-4cab-88a9-86e69b1c6420" valueTypeId="d1d57e9e-93a0-432a-a80d-426d73ae73e3"/>
+    <listType typeId="7fb6e009-2926-42b8-bb17-45ca3a12ce67" valueTypeId="d20e1167-58c6-41f2-b574-a3a7163c4d29"/>
+    <managerType typeId="46894fca-418e-4d0a-a445-5d6b6ead7b40" valueTypeId="6362f785-16fd-4688-937a-4e353ac274a1"/>
+    <containerType typeId="abb30789-d764-4c52-b2a3-0b94dd4cdf01" valueTypeId="da51464e-e351-4ad9-8604-0eb25fcd49eb"/>
+  </producedTypes>
+  <name>Scan_ПраваИНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Права и настройки (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Права и настройки (scania)</value>
+  </synonym>
+  <comment>Классификатор прав и настроек конфигурации</comment>
+  <inputByString>ChartOfCharacteristicTypes.Scan_ПраваИНастройки.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.Scan_ПраваИНастройки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ValueType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Группа</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>e9e52f6e-2822-41f4-99d8-8923cef00877.00000000-0000-0000-0000-000000000000</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.Scan_ШаблоныПисем</types>
+    <types>CatalogRef.Scan_ВидыПродуктов</types>
+    <types>CatalogRef.Scan_ТипыПродуктов</types>
+    <types>CatalogRef.Scan_ТребованияОформленияКПОтКузовостроителя</types>
+    <types>CatalogRef.Scan_ШаблоныСогласования</types>
+    <types>CatalogRef.Scan_Сотрудники</types>
+    <types>CatalogRef.Валюты</types>
+    <types>EnumRef.Scan_СпособыДоставкиПродуктов</types>
+    <types>Boolean</types>
+    <types>CatalogRef.Scan_ГруппыПродуктов</types>
+    <types>EnumRef.Scan_ВариантыСортировкиХО</types>
+    <types>CatalogRef.Scan_Контрагенты</types>
+    <types>String</types>
+    <types>CatalogRef.Scan_ВидыВзаимодействий</types>
+    <types>CatalogRef.Scan_ШаблоныУсловийОплаты</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>CatalogRef.Scan_СтатусыЭПТС</types>
+    <types>CatalogRef.Организации</types>
+    <types>CatalogRef.Scan_МестаХранения</types>
+    <types>CatalogRef.Scan_КодыАдресовДоставки</types>
+    <types>CatalogRef.Scan_Подразделения</types>
+    <types>CatalogRef.Scan_ГруппыПользователейДляСогласования</types>
+    <types>CatalogRef.ВидыКонтактнойИнформации</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>1000</length>
+    </stringQualifiers>
+    <dateQualifiers/>
+  </type>
+  <hierarchical>true</hierarchical>
+  <codeLength>5</codeLength>
+  <descriptionLength>120</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="51458c34-37de-4f9d-b346-f4e70cee4f9b">
+      <name>Документы</name>
+      <description>ДОКУМЕНТЫ</description>
+      <isFolder>true</isFolder>
+      <code>40000</code>
+      <type/>
+      <content id="2fbd8abf-687d-4535-a89b-bebed8dfd446">
+        <name>ОбщиеПараметрыДокументов</name>
+        <description>ОБЩИЕ ПАРАМЕТРЫ ДОКУМЕНТОВ</description>
+        <isFolder>true</isFolder>
+        <code>41000</code>
+        <type/>
+        <content id="1d44f1cd-584e-49b5-baf5-caef341d7e61">
+          <name>ВводДокументов</name>
+          <description>ВВОД НОВЫХ ДОКУМЕНТОВ</description>
+          <isFolder>true</isFolder>
+          <code>41100</code>
+          <type/>
+          <content id="da31dbee-94d4-4665-8928-bd8f51811413">
+            <name>ВариантСортировкиХозяйственныхОпераций</name>
+            <description>Вариант сортировки хозяйственных операций</description>
+            <code>41104</code>
+            <type>
+              <types>EnumRef.Scan_ВариантыСортировкиХО</types>
+            </type>
+          </content>
+          <content id="8e2ea9c7-f340-404f-9311-6f91b72c048b">
+            <name>КоличествоДнейДоДатыПродажиДляПодбораЗаявкиНаПродажу</name>
+            <description>Количество дней до даты продажи для подбора заявки на продажу</description>
+            <code>41108</code>
+            <type>
+              <types>Number</types>
+              <numberQualifiers>
+                <precision>10</precision>
+                <nonNegative>true</nonNegative>
+              </numberQualifiers>
+            </type>
+          </content>
+          <content id="f25312f5-b4db-47f9-b122-462f67257dfc">
+            <name>ОсновнойСкладДляЗаказаКомплектующих</name>
+            <description>Основной склад для заказа комплектующих</description>
+            <code>41103</code>
+            <type>
+              <types>CatalogRef.Scan_МестаХранения</types>
+            </type>
+          </content>
+          <content id="d8e10c44-14d7-4cc1-9217-2bdf1327c814">
+            <name>ПодписантПФДокументаЗакреплениеМенеджеровЗаДилерами</name>
+            <description>Подписант ПФ документа Закрепление менеджеров за дилерами</description>
+            <code>41106</code>
+            <type>
+              <types>CatalogRef.Scan_Сотрудники</types>
+            </type>
+          </content>
+          <content id="1d63ab38-903f-4539-a593-2548cf64938b">
+            <name>ПодразделениеДляВнешнихПользователей</name>
+            <description>Подразделение для внешних пользователей</description>
+            <code>41105</code>
+            <type>
+              <types>CatalogRef.Scan_Подразделения</types>
+            </type>
+          </content>
+          <content id="94e7311b-e6e3-4904-b34f-789101dbbf42">
+            <name>СпособДоставкиПоУмолчанию</name>
+            <description>Способ доставки по умолчанию</description>
+            <code>41102</code>
+            <type>
+              <types>EnumRef.Scan_СпособыДоставкиПродуктов</types>
+            </type>
+          </content>
+          <content id="7a0a7d48-aadf-4f2e-a456-1aed0d3ed620">
+            <name>ТекстПФУсловияАренды</name>
+            <description>Текст ПФ условия аренды</description>
+            <code>41109</code>
+            <type>
+              <types>String</types>
+              <stringQualifiers>
+                <length>1000</length>
+              </stringQualifiers>
+            </type>
+          </content>
+          <content id="58fe6013-9672-4103-8a74-c4346834a701">
+            <name>ТелефонВнештатныхСитуацийАктПриемаПередачи</name>
+            <description>Телефон по внештатным ситуациям во время движения ТС для акта приема-передачи в документе заявка перевозчику</description>
+            <code>41111</code>
+            <type>
+              <types>String</types>
+              <stringQualifiers>
+                <length>15</length>
+              </stringQualifiers>
+            </type>
+          </content>
+          <content id="96a2259e-1985-48db-80f5-3958be0cddfc">
+            <name>ТелефонПриемаТСАктПриемаПередачи</name>
+            <description>Телефон по вопросам приема ТС для акта приема-передачи в документе заявка перевозчику</description>
+            <code>41110</code>
+            <type>
+              <types>String</types>
+              <stringQualifiers>
+                <length>15</length>
+              </stringQualifiers>
+            </type>
+          </content>
+          <content id="b42a2c53-63f1-413f-920f-4ec2ae4486cc">
+            <name>ТребованияПоОформлениюЗапросаНаНадстройки</name>
+            <description>Требования по оформлению запроса на надстройки</description>
+            <code>41107</code>
+            <type>
+              <types>CatalogRef.Scan_ТребованияОформленияКПОтКузовостроителя</types>
+            </type>
+          </content>
+          <content id="20b8029c-c24d-487e-ac3c-fe6450561ff9">
+            <name>ФормироватьУбытиеИзУчета</name>
+            <description>Формировать убытие из учета</description>
+            <code>41101</code>
+            <type>
+              <types>Boolean</types>
+            </type>
+          </content>
+        </content>
+        <content id="6ab42319-56e2-4854-a5d6-a21f75369822">
+          <name>ЗаписьИПроведениеДокументов</name>
+          <description>ЗАПИСЬ И ПРОВЕДЕНИЕ ДОКУМЕНТОВ</description>
+          <isFolder>true</isFolder>
+          <code>41300</code>
+          <type/>
+          <content id="20358185-a212-4362-b47c-ecc9280225e1">
+            <name>ВыводитьДиалогПриПроведении</name>
+            <description>Выводить диалог при проведении</description>
+            <code>41306</code>
+            <type>
+              <types>Boolean</types>
+            </type>
+          </content>
+          <content id="232ddb94-90d2-459c-ab37-150878e9590d">
+            <name>ПроведениеЗаднимЧислом</name>
+            <description>Проведение задним числом</description>
+            <code>41304</code>
+            <type>
+              <types>Boolean</types>
+            </type>
+          </content>
+          <content id="98be2909-ba46-453e-a0d6-a485a0b9d323">
+            <name>ПроведениеРаньшеДокументаОснования</name>
+            <description>Проведение раньше документа основания</description>
+            <code>41305</code>
+            <type>
+              <types>Boolean</types>
+            </type>
+          </content>
+        </content>
+        <content id="21c34949-6bdf-4196-9be4-41611aa2dbd4">
+          <name>ПечатьИОформлениеДокументов</name>
+          <description>ПЕЧАТЬ И ОФОРМЛЕНИЕ ДОКУМЕНТОВ</description>
+          <isFolder>true</isFolder>
+          <code>41400</code>
+          <type/>
+          <content id="762cda09-19ae-437a-ad3b-aec47a7b4093">
+            <name>ДатаНачалаДействияПФТранспортнойНакладной2116</name>
+            <description>Дата начала действия ПФ транспортной накладной 2116</description>
+            <code>41401</code>
+            <type>
+              <types>Date</types>
+              <dateQualifiers>
+                <dateFractions>Date</dateFractions>
+              </dateQualifiers>
+            </type>
+          </content>
+        </content>
+        <content id="f88addc1-9920-41bd-9ec6-2d735c10d920">
+          <name>РедактированиеДокументов</name>
+          <description>РЕДАКТИРОВАНИЕ ДОКУМЕНТОВ</description>
+          <isFolder>true</isFolder>
+          <code>41200</code>
+          <type/>
+          <content id="40fe5f2b-14d7-43ec-a285-d280e15eb3a2">
+            <name>ВключитьУчетОказанныхУслуг</name>
+            <description>Включить учет оказанных услуг</description>
+            <code>41204</code>
+            <type>
+              <types>Boolean</types>
+            </type>
+          </content>
+          <content id="224b1bba-5790-40a1-8d09-1b3b7a58469d">
+            <name>ВыполнятьПроверкуЗаполненияОказанныхУслуг</name>
+            <description>Выполнять проверку заполнения оказанных услуг</description>
+            <code>41203</code>
+            <type>
+              <types>Boolean</types>
+            </type>
+          </content>
+          <content id="8ce2de7f-902b-47bd-b312-ce6fd1cbe697">
+            <name>ИнформироватьОКорректировкахЗаявокНаДействие</name>
+            <description>Информировать о корректировках заявок на действие</description>
+            <code>41201</code>
+            <type>
+              <types>Boolean</types>
+            </type>
+          </content>
+          <content id="925d1e09-4fb6-48d6-8bef-873375b6dde4">
+            <name>РазрешитьАннулированиеДокументаСпецификацияСтандартнойМодели</name>
+            <description>Разрешить аннулирование документа &quot;спецификация стандартной модели&quot;</description>
+            <code>41213</code>
+            <type>
+              <types>Boolean</types>
+            </type>
+          </content>
+          <content id="15a6730d-bd20-4ab5-adac-b61da96a27e2">
+            <name>РазрешитьРедактированиеДатыДоставкиФакт</name>
+            <description>Разрешить редактирование даты доставки (факт)</description>
+            <code>41202</code>
+            <type>
+              <types>Boolean</types>
+            </type>
+          </content>
+          <content id="a42ef623-7e3f-4c08-826a-f44479401f85">
+            <name>РазрешитьРедактированиеНомеровДокументов</name>
+            <description>Разрешить редактирование номеров документов</description>
+            <code>41212</code>
+            <type>
+              <types>Boolean</types>
+            </type>
+          </content>
+          <content id="e47c50e7-b32d-44f4-930a-126f026c7b76">
+            <name>РазрешитьРедактированиеПараметровДокументов</name>
+            <description>Разрешить редактирование параметров документов</description>
+            <code>41214</code>
+            <type>
+              <types>Boolean</types>
+            </type>
+          </content>
+          <content id="ceabb538-2626-4f3a-b6f8-46bf42b784ec">
+            <name>РедактированиеПроведенныхДокументов</name>
+            <description>Редактирование проведенных документов</description>
+            <code>41211</code>
+            <type>
+              <types>Boolean</types>
+            </type>
+          </content>
+        </content>
+      </content>
+      <content id="fe5b6cd6-9be3-43b9-9b67-a3e59f1acdaa">
+        <name>СогласованиеДокументов</name>
+        <description>СОГЛАСОВАНИЕ ДОКУМЕНТОВ</description>
+        <isFolder>true</isFolder>
+        <code>43000</code>
+        <type/>
+        <content id="1ca69c47-03ef-4d11-8af9-72fcad3cbad9">
+          <name>ЗаявкаНаДействиеШаблонСогласования</name>
+          <description>&quot;Заявка на действие&quot;  шаблон согласования корректировки/аннулирования</description>
+          <code>43005</code>
+          <type>
+            <types>CatalogRef.Scan_ШаблоныСогласования</types>
+          </type>
+        </content>
+        <content id="f7c83dd2-bce5-49eb-901b-664a4987ef66">
+          <name>КалькуляцияШаблонСогласования</name>
+          <description>&quot;Калькуляция&quot; шаблон согласования</description>
+          <code>43006</code>
+          <type>
+            <types>CatalogRef.Scan_ШаблоныСогласования</types>
+          </type>
+        </content>
+        <content id="09b23d34-43a9-444b-b232-e1a0a79038bf">
+          <name>РазрешитьИзменятьПараметрыСогласования</name>
+          <description>Разрешить изменять параметры согласования</description>
+          <code>43001</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+    </items>
+    <items id="5affdde9-0997-4ce7-b8e2-b110e1455d40">
+      <name>НастройкиАРМ</name>
+      <description>НАСТРОЙКИ &quot;АРМ&quot;</description>
+      <isFolder>true</isFolder>
+      <code>20000</code>
+      <type/>
+      <content id="9565712e-6390-466e-8756-7e38a5756c85">
+        <name>ВидПродуктаАвтобус</name>
+        <description>Вид продукта «Автобус»</description>
+        <code>20008</code>
+        <type>
+          <types>CatalogRef.Scan_ВидыПродуктов</types>
+        </type>
+      </content>
+      <content id="1e206bf4-53e0-4454-9fa7-c39cc6690c89">
+        <name>ВидПродуктаГрузовыеАвтомобили</name>
+        <description>Вид продукта «Грузовые автомобили»</description>
+        <code>20007</code>
+        <type>
+          <types>CatalogRef.Scan_ВидыПродуктов</types>
+        </type>
+      </content>
+      <content id="55ab0c86-45b4-4dfa-b316-c4e88cdd00a9">
+        <name>ВидПродуктаДвигатель</name>
+        <description>Вид продукта «Двигатель»</description>
+        <code>20010</code>
+        <type>
+          <types>CatalogRef.Scan_ВидыПродуктов</types>
+        </type>
+      </content>
+      <content id="1bbb0a3e-5a48-4e0e-b608-60d0c1f3f140">
+        <name>ИспользоватьПодсчетКоличестваСтрокВАРМ</name>
+        <description>Использовать подсчет количества строк в АРМ</description>
+        <code>20004</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="0b796062-6fb0-4d84-a61d-52feca3c0a1b">
+        <name>ОтображатьВнутренняяЛогистикаАРМ</name>
+        <description>Отображать группу колонок «Внутренняя логистика» в АРМ</description>
+        <code>20001</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="acb23dc9-83e6-49e5-b01d-99f0be8f0148">
+        <name>ОтображатьИмпортАРМ</name>
+        <description>Отображать группу колонок «Импорт» в АРМ</description>
+        <code>20002</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="ac438ae2-b614-442c-99b6-1588b4024eea">
+        <name>ОтображатьПрочиеДанныеАРМ</name>
+        <description>Отображать группу колонок «Прочие данные» в АРМ</description>
+        <code>20003</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="e05d5974-a4ac-494e-bfd4-4c987ecfb6ac">
+        <name>РМОтделаЛогистики</name>
+        <description>РМ ОТДЕЛА ЛОГИСТИКИ</description>
+        <isFolder>true</isFolder>
+        <code>21000</code>
+        <type/>
+        <content id="13753adf-9545-499c-a08b-6366df3e55fa">
+          <name>КонтрагентПриОтгрузкеИзПорта</name>
+          <description>Контрагент при отгрузке из порта</description>
+          <code>21016</code>
+          <type>
+            <types>CatalogRef.Scan_Контрагенты</types>
+          </type>
+        </content>
+        <content id="57690694-3079-49da-a53c-276a6b0715dc">
+          <name>РМОтделаЛогистики_ОтобразитьАренда</name>
+          <description>Отображать закладку «Аренда»</description>
+          <code>21005</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="7c91dc95-72dc-4929-82b6-34070a41594c">
+          <name>РМОтделаЛогистики_ОтобразитьАрхив</name>
+          <description>Отображать закладку «Архив»</description>
+          <code>21011</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="843c133c-f128-4362-a664-d6fc5765ad1b">
+          <name>РМОтделаЛогистики_ОтобразитьБУ</name>
+          <description>Отображать закладку «Б/У»</description>
+          <code>21003</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="2e4e75db-72db-47e9-9b44-32cb2d870a50">
+          <name>РМОтделаЛогистики_ОтобразитьДвижениеИзделий</name>
+          <description>Отображать закладку «Движение продуктов»</description>
+          <code>21013</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="d91d0bf4-e3b5-49a9-9a0c-b1133c018ec0">
+          <name>РМОтделаЛогистики_ОтобразитьДемоТест</name>
+          <description>Отображать закладку «Демо/Тест»</description>
+          <code>21004</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="1e459bf9-9123-4155-8a49-5fd40d718b56">
+          <name>РМОтделаЛогистики_ОтобразитьЗаявкиНаДействие</name>
+          <description>Отображать закладку «Заявки на действие»</description>
+          <code>21006</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="fa3a6ab1-505f-4a1c-96d4-404031ccbc10">
+          <name>РМОтделаЛогистики_ОтобразитьСтраницаЗаявкиНаОтгрузку</name>
+          <description>Отображать закладку «Заявки на отгрузку»</description>
+          <code>21012</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="c693562a-f3b0-4010-a40e-1bf53057375c">
+          <name>РМОтделаЛогистики_ОтобразитьЗаявкиПеревозчику</name>
+          <description>Отображать закладку «Заявки перевозчику»</description>
+          <code>21007</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="d441af91-f6fe-4009-a0b4-f45f9b962ffd">
+          <name>РМОтделаЛогистики_ОтобразитьЗаявки</name>
+          <description>Отображать закладку «Заявки»</description>
+          <code>21015</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="230960b4-e3cd-44b5-b73e-1d86624ad209">
+          <name>РМОтделаЛогистики_ОтобразитьМестаХранения</name>
+          <description>Отображать закладку «Места хранения»</description>
+          <code>21010</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="acc58a70-9fa9-4788-866b-37c3bc71f171">
+          <name>РМОтделаЛогистики_ОтобразитьНадстройки</name>
+          <description>Отображать закладку «Надстройки»</description>
+          <code>21014</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="5e69f420-b874-4130-b796-8d64bda8c8e3">
+          <name>РМОтделаЛогистики_ОтобразитьПеремещенияИзделий</name>
+          <description>Отображать закладку «Перемещения продуктов»</description>
+          <code>21008</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="91a9ecff-a739-4ab9-99bd-6d7f28d9d5f6">
+          <name>РМОтделаЛогистики_ОтобразитьПолныйСписокИзделий</name>
+          <description>Отображать закладку «Полный список продуктов»</description>
+          <code>21002</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="9e022eb2-a989-45e0-925c-c9a21de61af0">
+          <name>РМОтделаЛогистики_ОтобразитьИзделияНаМестахХранения</name>
+          <description>Отображать закладку «Продукты на местах хранения»</description>
+          <code>21001</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="a40ee879-3f54-4d9a-86b7-001c3f49c38c">
+          <name>РМОтделаЛогистики_ОтобразитьРаспределениеЗаявок</name>
+          <description>Отображать закладку «Распределение заявок»</description>
+          <code>21009</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+      <content id="53137d8a-7f1f-48ad-b807-4e333a7a0684">
+        <name>СсылкаНаРуководствоПользователя</name>
+        <description>Ссылка на руководство пользователя</description>
+        <code>20011</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>1000</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="c5ce1a0e-5661-4f23-a718-7de49b1dd1ee">
+        <name>OFMS_ТекстовоеCообщениеПоРекомендуемымДатамРазмещенияЗаказов_eng</name>
+        <description>Текстовое сообщение по рекомендуемым датам размещения заказов (английский язык)</description>
+        <code>20006</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>1000</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="483c3900-7f66-4068-a47b-bdccda6acaee">
+        <name>OFMS_ТекстовоеCообщениеПоРекомендуемымДатамРазмещенияЗаказов</name>
+        <description>Текстовое сообщение по рекомендуемым датам размещения заказов (русский язык)</description>
+        <code>20005</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>1000</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="e91717bd-5f49-4191-a20d-167c2ccb1bce">
+        <name>ТекстовоеСообщениеПоТекущейПродуктовойСтруктуре</name>
+        <description>Текстовое сообщение по текущей продуктовой структуре</description>
+        <code>20009</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>1000</length>
+          </stringQualifiers>
+        </type>
+      </content>
+    </items>
+    <items id="3a583e6c-6367-4375-b92d-7a95ac1b5d9f">
+      <name>НастройкиОтображенияИнформации</name>
+      <description>Настройки отображения информации</description>
+      <isFolder>true</isFolder>
+      <code>80000</code>
+      <type/>
+      <content id="10aeed80-361a-4657-9b96-ea305438a425">
+        <name>ОтображатьЗакладкуСистемныеПоляВЗаказеНаЗавод</name>
+        <description>Отображать закладку «Системные поля» в заказе на завод</description>
+        <code>80005</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="1ec6a6bf-4fd2-4c90-9bf8-b81e76356cff">
+        <name>ОтображатьКлючевыеДатыГруппыЛогистикаВЗаказеНаЗавод</name>
+        <description>Отображать ключевые даты группы «Логистика» в заказе на завод</description>
+        <code>80003</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="a6ca9a54-2df7-4102-b63b-7dd061669957">
+        <name>ОтображатьКлючевыеДатыГруппыНадстройкаВЗаказеНаЗавод</name>
+        <description>Отображать ключевые даты группы «Надстройка» в заказе на завод</description>
+        <code>80002</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="8d4291d1-d388-49be-93ab-24105d8eb7a8">
+        <name>ОтображатьКлючевыеДатыГруппыОтгрузкаВЗаказеНаЗавод</name>
+        <description>Отображать ключевые даты группы «Отгрузка» в заказе на завод</description>
+        <code>80004</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="77f0d9f9-a583-4e8d-a753-c585dbaeb24b">
+        <name>ОтображатьКлючевыеДатыГруппыПроизводствоВЗаказеНаЗавод</name>
+        <description>Отображать ключевые даты группы «Производство» в заказе на завод</description>
+        <code>80001</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+    </items>
+    <items id="b6309946-d31f-4a88-b897-5f9baf09fa49">
+      <name>НастройкиОтправкиНапоминанийИПисем</name>
+      <description>НАСТРОЙКИ ОТПРАВКИ НАПОМИНАНИЙ И ПИСЕМ</description>
+      <isFolder>true</isFolder>
+      <code>70000</code>
+      <type/>
+      <content id="9e441915-09f7-4a9f-a6cf-bd513a028765">
+        <name>НастройкиОтправкиНапоминаний</name>
+        <description>Настройки отправки напоминаний</description>
+        <isFolder>true</isFolder>
+        <code>71000</code>
+        <type/>
+        <content id="6a9e1ab6-f4f0-4f44-87ab-37a8d6919edd">
+          <name>КоличествоДнейДоОкончанияСроковБесплатногоХраненияИзделий</name>
+          <description>Количество дней до окончания сроков бесплатного хранения продуктов</description>
+          <code>71002</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>10</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="90a8ce3e-09df-4bbc-89df-b6421d390352">
+          <name>УведомлятьОЗагрузкеБукингЛиста</name>
+          <description>Уведомлять о загрузке букинг-листа</description>
+          <code>71005</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="8afe8178-a6ff-48e0-80d7-cf52f277628e">
+          <name>УведомлятьОНеобходимостиОтправитьЗаявку</name>
+          <description>Уведомлять о необходимости отправить заявку</description>
+          <code>71007</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="056648d1-4c89-43ea-94e3-030bc79a3459">
+          <name>УведомлятьОСозданииНовойЗаявкиПеревозчику</name>
+          <description>Уведомлять о создании новой заявки перевозчику</description>
+          <code>71006</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="a99fe6e3-9ace-4974-9f50-3791b6e9e55a">
+          <name>УведомлятьОбОтсутствииЗаявкиНаДействиеПриВывозеИзПорта</name>
+          <description>Уведомлять об отсутствии заявки на действие при вывозе из порта</description>
+          <code>71004</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+      <content id="40d286f3-f69d-4a63-8500-a9114ace4145">
+        <name>НастройкиОтправкиПисем</name>
+        <description>Настройки отправки писем</description>
+        <isFolder>true</isFolder>
+        <code>72000</code>
+        <type/>
+        <content id="b19f03ac-a534-4308-b4a7-01931ca04074">
+          <name>АвтоматическаяОтправкаПФАннулированнойЗаявкиНаДействие</name>
+          <description>Автоматическая отправка ПФ аннулированной &quot;Заявки на действие&quot;</description>
+          <code>72036</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="4def7de8-44c1-4d77-a6b5-4e8dac1d02f2">
+          <name>АвтоматическаяОтправкаПФАннулированнойЗаявкиПеревозчику</name>
+          <description>Автоматическая отправка ПФ аннулированной &quot;Заявки перевозчику&quot;</description>
+          <code>72030</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="5251c762-25ff-407c-a3a3-28f6fec49ac3">
+          <name>АвтоматическаяОтправкаПФЗаявокНаДействие</name>
+          <description>Автоматическая отправка ПФ заявок на действие</description>
+          <code>72022</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="d715bf10-68ac-4778-9df6-c2c1d6a1d03f">
+          <name>АдресЭлПочтыДляОтправкиПисемКонтактнымЛицам</name>
+          <description>Адрес эл. почты для отправки писем контактным лицам</description>
+          <code>72006</code>
+          <type>
+            <types>CatalogRef.ВидыКонтактнойИнформации</types>
+          </type>
+        </content>
+        <content id="79c035b1-28e8-4b38-ab1b-3b01554f601e">
+          <name>ДиапазонИзмененияДатPDDCDDCDD2</name>
+          <description>Диапазон изменения дат PDD, CDD, CDD2 для оповещений</description>
+          <code>72042</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>3</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="3ece9c8d-05af-4539-9123-3ab4a7862eab">
+          <name>УведомлятьОСозданииДокументовДвижениеИзделийПоступлениеНаСклад</name>
+          <description>Информировать о создании документов «Движение продуктов» поступление на склад</description>
+          <code>72048</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="67d7a16a-3afa-47b9-bb1e-05fc300cac23">
+          <name>УведомлятьОСписанииИзделий</name>
+          <description>Информировать о списании продуктов</description>
+          <code>72052</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="4a4d437e-0d06-4f1e-bda6-0b016e792544">
+          <name>ИнформироватьОбОтклоненияхПоКлючевымДатамЗаказаНаЗавод</name>
+          <description>Информировать об отклонениях по ключевым датам заказа на завод</description>
+          <code>72043</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="1d56b932-bd16-401a-a332-c6f88ed23544">
+          <name>ИспользоватьМеханизмШаблоновДляОтправкиПисем</name>
+          <description>Использовать механизм шаблонов для отправки писем</description>
+          <code>72029</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="cf982971-0a88-4235-93b6-27872eaf1667">
+          <name>КоличествоДнейДоОтправкиМ15</name>
+          <description>Количество дней до отправки М-15</description>
+          <code>72005</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>10</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="b9fbb9de-35e9-4a88-bb42-909289e86e70">
+          <name>КоличествоДнейУведомленияОНеотправленныхСобытиях</name>
+          <description>Количество дней до уведомления о неотправленных событиях в 1БД</description>
+          <code>72032</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>10</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="8a11fe11-52de-426d-abcb-1aabe4c82b83">
+          <name>ОтправлятьДетализированныйАктПриемаПередачи</name>
+          <description>Отправлять детализированный акт приема-передачи</description>
+          <code>72060</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="41f66a7f-dccb-41d1-af50-7a9d32406a62">
+          <name>ОтправлятьЗаявкуНаСервисныеРаботы</name>
+          <description>Отправлять заявку на сервисные работы</description>
+          <code>72035</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="f9d38f8e-419c-406d-905f-d832cd92473e">
+          <name>ОтправлятьПисьмаНапоминанияПоДоставкеИзделий</name>
+          <description>Отправлять письма напоминания по доставке продуктов</description>
+          <code>72010</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="91399e76-e176-421d-b94b-b8efe4d0d0d7">
+          <name>ОтправлятьПисьмаОбОшибкахПриОбменеС1БД</name>
+          <description>Отправлять письма об ошибках при обмене с 1 БД</description>
+          <code>72040</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="bedc0778-4e34-4041-90fc-71595dd62b07">
+          <name>ОтправлятьПисьмоОРасторженииЗаявкиНаСОП</name>
+          <description>Отправлять письмо о расторжении заявки на СОП</description>
+          <code>72054</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="f1c0fff4-8c97-4a22-8eb7-cbe918e99033">
+          <name>ОтправлятьПисьмоСОтчетомCow</name>
+          <description>Отправлять письмо с отчетом Cow</description>
+          <code>72046</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="46c30c33-e6d0-4d37-ba07-ac43be5208f6">
+          <name>ОтправлятьПисьмоСОтчетомDeliveriesReport</name>
+          <description>Отправлять письмо с отчетом Deliveries Report</description>
+          <code>72045</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="8379e2d0-0cc8-4fa4-9655-dbaf3ddddf3a">
+          <name>ОтправлятьПисьмоСОтчетомOrderIntake</name>
+          <description>Отправлять письмо с отчетом Order Intake</description>
+          <code>72044</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="77048cdb-797d-464a-b1e4-81a3f00bb74e">
+          <name>ОтправлятьПисьмоСОтчетомСписокОтгрузок</name>
+          <description>Отправлять письмо с отчетом Список отгрузок</description>
+          <code>72051</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="b2b6dab8-a764-40f0-9332-8de91a3b3462">
+          <name>ОтправлятьПФЗаявкиНаДействие</name>
+          <description>Отправлять ПФ заявки на действие</description>
+          <code>72024</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="d6e83424-0522-4080-add3-8e64a956000d">
+          <name>ОтправлятьПФЗаявкиПеревозчику</name>
+          <description>Отправлять ПФ заявки перевозчику</description>
+          <code>72012</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="241dddc8-c2a4-4ab9-af59-dc9fb475757c">
+          <name>ОтправлятьПФЗаявкиПеревозчикуПриВывозеОтКузовостроителей</name>
+          <description>Отправлять ПФ заявки перевозчику при взаимодействии с кузовостроителем</description>
+          <code>72015</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="0173eeec-2abd-4436-b59b-91715b33054d">
+          <name>ОтправлятьПФМ15</name>
+          <description>Отправлять ПФ М-15</description>
+          <code>72011</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="344df54c-86ec-4692-9ed8-d9f1ffbb46d5">
+          <name>ОтправлятьПФМХ1МХ3</name>
+          <description>Отправлять ПФ МХ-1/МХ-3</description>
+          <code>72028</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="db0ef907-af8c-458a-b4bd-966b8fed2841">
+          <name>ПовторноУведомлятьОКТС</name>
+          <description>Повторно уведомлять по почте о контроле техсостояния</description>
+          <code>72034</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="0ab8b13d-75dc-464a-81eb-0b8e8eccf444">
+          <name>ПовторноУведомлятьОНевозможностиСформироватьУбытие</name>
+          <description>Повторно уведомлять по почте о невозможности сформировать убытие из учета</description>
+          <code>72038</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="315c9c0e-99e6-45d7-80bc-c9242f55197e">
+          <name>ТекстПисьмаПриИнтерактивнойОтправке</name>
+          <description>Текст письма при интерактивной отправке</description>
+          <code>72014</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>1000</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="7a347dbd-5c36-4ccc-ac4f-7f759bda5f4f">
+          <name>ТекстПисьмаСПечатнойФормойМ15</name>
+          <description>Текст письма с печатной формой М-15</description>
+          <code>72004</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>1000</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="7fd3b77f-e669-4026-b072-50310c74551e">
+          <name>ТекстПисьмаНапоминанияДилерам</name>
+          <description>Текст письма-напоминания дилерам</description>
+          <code>72002</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>1000</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="cd47b4c8-f077-42dd-ac9f-7fa6f16c4ace">
+          <name>ТекстПисьмаУведомленияОЗагрузкеБукингЛиста</name>
+          <description>Текст письма-уведомления о загрузке букинг-листа</description>
+          <code>72018</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>1000</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="9027fbde-20f7-4f29-b1b6-743d7b6de72c">
+          <name>ТекстПисьмаУведомленияОЗагрузкеГрузовогоБилета</name>
+          <description>Текст письма-уведомления о загрузке грузового билета</description>
+          <code>72021</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>1000</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="89a30d9e-4e26-414a-a20e-cf09f67d3800">
+          <name>ТекстПисьмаУведомленияОПоявленииКодаАдресаДоставки</name>
+          <description>Текст письма-уведомления о появлении кода адреса доставки</description>
+          <code>72027</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>256</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="c5585fbc-a61f-4f52-8132-69787e1696c1">
+          <name>ТекстПовторногоПисьмаНапоминанияДилерам</name>
+          <description>Текст повторного письма-напоминания дилерам</description>
+          <code>72009</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>1000</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="f43ac1d6-b4a8-4ce6-995c-61b0e74263a5">
+          <name>ТемаПисьмаПриИнтерактивнойОтправке</name>
+          <description>Тема письма при интерактивной отправке</description>
+          <code>72013</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>256</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="eb952898-3b88-4495-8bdb-c2f21f8cfcfa">
+          <name>ТемаПисьмаСПечатнойФормойМ15</name>
+          <description>Тема письма с печатной формой М-15</description>
+          <code>72003</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>256</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="a77e28be-bceb-4220-9fb3-c402c37dbd09">
+          <name>ТемаПисьмаНапоминанияДилерам</name>
+          <description>Тема письма-напоминания дилерам</description>
+          <code>72001</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>256</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="731c6daf-c0a4-410e-bc05-1b70716fe537">
+          <name>ТемаПисьмаУведомленияОЗагрузкеБукингЛиста</name>
+          <description>Тема письма-уведомления о загрузке букинг-листа</description>
+          <code>72017</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>256</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="4c1129c6-c566-4425-b945-13436fd1b449">
+          <name>ТемаПисьмаУведомленияОЗагрузкеГрузовогоБилета</name>
+          <description>Тема письма-уведомления о загрузке грузового билета</description>
+          <code>72020</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>256</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="c2d00b85-df35-4d29-8ced-5ff69a5d91a1">
+          <name>ТемаПисьмаУведомленияОПоявленииКодаАдресаДоставки</name>
+          <description>Тема письма-уведомления о появлении кода адреса доставки</description>
+          <code>72026</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>256</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="497487fe-b6c0-48cb-8f33-9217e151423b">
+          <name>ТемаПовторногоПисьмаНапоминанияДилерам</name>
+          <description>Тема повторного письма-напоминания дилерам</description>
+          <code>72008</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>256</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="36507908-d341-4ba8-b8ad-ae54d26d29ee">
+          <name>УведомлятьОЗависшихРегламентныхЗаданиях</name>
+          <description>Уведомлять о зависших регламентных заданиях</description>
+          <code>72057</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="c58650a0-ed7c-4484-a803-36b8a0360834">
+          <name>УведомлятьОНеобходимостиЗаполнитьПорядковыйНомерКузовостроителя</name>
+          <description>Уведомлять о необходимости заполнить порядковый номер кузовостроителя</description>
+          <code>72061</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="5632f6d1-4c28-4c6d-aa8a-749f0427e16b">
+          <name>УведомлятьОНеотправленныхСобытиях</name>
+          <description>Уведомлять о неотправленных событиях в 1БД</description>
+          <code>72031</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="ff0bfe74-cbf6-4a4e-af9a-648e1f1a6585">
+          <name>УведомлятьОПоявленииМестХраненияБазАктивныхКЛ</name>
+          <description>Уведомлять о появлении мест хранения без активных контактных лиц</description>
+          <code>72059</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="d7170850-a456-4351-949a-0a0e3619f70b">
+          <name>УведомлятьОПоявленииНовогоДоговораИз1СДО</name>
+          <description>Уведомлять о появлении нового договора из 1С:ДО</description>
+          <code>72058</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="d7e9a5cc-897d-49f4-94d7-bcec1d34ab60">
+          <name>УведомлятьОПоявленииКодаАдресаДоставки</name>
+          <description>Уведомлять о появлении нового кода адреса доставки</description>
+          <code>72025</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="6b54ed6c-d626-4da7-a3f7-936a3453d2b0">
+          <name>УведомлятьОПоявленииНовогоЦветаКабиныПТС</name>
+          <description>Уведомлять о появлении нового цвета кабины ПТС</description>
+          <code>72050</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="5966e02d-d64c-4941-8edd-a02d5321f09c">
+          <name>УведомлятьПоПочтеОЗагрузкеБукингЛиста</name>
+          <description>Уведомлять по почте о загрузке букинг-листа</description>
+          <code>72016</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="84626fc3-f8c0-42fe-9a12-d4b873945496">
+          <name>УведомлятьОНевозможностиСформироватьУбытие</name>
+          <description>Уведомлять по почте о невозможности сформировать убытие из учета</description>
+          <code>72037</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="1d96e2dc-af79-4c57-8bde-3723fde606f3">
+          <name>УведомлятьОПриближенииСроковКТС</name>
+          <description>Уведомлять по почте о приближении сроков  контроля техсостояния</description>
+          <code>72033</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="4eee7e0a-d316-499a-af5b-9a7c4dff7f12">
+          <name>УведомлятьОПрикрепленииПТС</name>
+          <description>Уведомлять по почте о прикреплении ПТС</description>
+          <code>72039</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="57a22e5a-dbf9-4e5c-afe7-98e1c1dbb22c">
+          <name>УведомлятьОбИзмененииДатPDDCDDCDD2</name>
+          <description>Уведомлять по почте об изменении дат PDD, CDD, CDD2</description>
+          <code>72041</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="d4dee187-611c-4ea3-a5af-bdfb8a58cc13">
+          <name>УведомлятьПоПочтеОбИзмененииНаименованияТипаТопливаИз1БД</name>
+          <description>Уведомлять по почте об изменении наименования типа топлива из 1БД</description>
+          <code>72049</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="25f58999-06b5-4e41-86b2-cfa2d502b9f7">
+          <name>УведомлятьПоПочтеОбОтсутствииЗаявкиНаДействиеПриВывозеИзПорта</name>
+          <description>Уведомлять по почте об отсутствии заявки на действ. при вывозе из порта</description>
+          <code>72007</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="dd14dcd3-2f0b-4b68-ac86-40868659ac68">
+          <name>УведомлятьПоПочтеПриУстановкеЛокальногоСтатусаDeleted</name>
+          <description>Уведомлять по почте при установке локального статуса Deleted</description>
+          <code>72055</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="9edd5559-b521-4831-871b-1c426346f8d5">
+          <name>ФорматПрикрепленногоФайлаПриАвтоматическойОтправке</name>
+          <description>Формат прикрепленного файла при автоматической отправке</description>
+          <code>72023</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>256</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="5ad4324b-020c-4dc9-87fc-ba2226b043bf">
+          <name>ШаблоныПисем</name>
+          <description>Шаблоны писем</description>
+          <isFolder>true</isFolder>
+          <code>72100</code>
+          <type/>
+          <content id="03303873-c106-401d-b604-ca67975936e5">
+            <name>ШаблонПисьмаОЗависшихРегламентныхЗаданиях</name>
+            <description>Шаблон письма о зависших регламентных заданиях</description>
+            <code>72129</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+          <content id="466969c5-a97f-43ee-a9fa-cff5fd0c1659">
+            <name>ШаблонЗагрузкаБукингЛиста</name>
+            <description>Шаблон письма о загрузке букинг-листа</description>
+            <code>72105</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+          <content id="c4db59f1-e318-45c6-b160-2af49a7ec2f4">
+            <name>ШаблонОНевозможностиСформироватьУбытие</name>
+            <description>Шаблон письма о невозможности сформировать убытие из учета</description>
+            <code>72111</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+          <content id="489210bc-b6c1-4bbf-8108-cca7046a7902">
+            <name>ШаблонПисьмаОНеобходимостиЗаполнитьПорядковыйНомерКузовостроителя</name>
+            <description>Шаблон письма о необходимости заполнить порядковый номер кузовостроителя</description>
+            <code>72134</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+          <content id="09ab9044-dcae-4a17-a058-6dae75fd4fc2">
+            <name>ШаблонОтправкиПисемОНеобходимостиИзмененийEDD</name>
+            <description>Шаблон письма о необходимости изменения EDD</description>
+            <code>72116</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+          <content id="4c1b0ed7-1022-4d49-8052-09af48ed221f">
+            <name>ШаблонПисьмаОНеобходимостиУведомлятьОбИзмененииНаименованияТипаТоплива</name>
+            <description>Шаблон письма о необходимости уведомлять об изменении наименования типа топлива</description>
+            <code>72123</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+          <content id="4488e083-4d19-44d3-8899-ea48b654b3b1">
+            <name>ШаблонОтправкиПисемОНеотправленныхСобытиях</name>
+            <description>Шаблон письма о неотправленных событиях в 1БД</description>
+            <code>72102</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+          <content id="dd4cb457-02c9-4466-9a67-7ee6b2a0811b">
+            <name>ШаблонУведомленияОПодтвержденииЧекЛистаТехническогоСостояния</name>
+            <description>Шаблон письма о подтверждении документа &quot;Чек лист технического состояния&quot;</description>
+            <code>72109</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+          <content id="e314c4ec-e3ad-46c6-b33b-8c7faf793813">
+            <name>ШаблонПоявлениеКодаАдресаДоставки</name>
+            <description>Шаблон письма о появлении кода адреса доставки</description>
+            <code>72107</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+          <content id="bfa819b9-eb99-46d9-9879-7d116378d31f">
+            <name>ШаблонПисьмаОПоявленииМестХраненияБезАктивныхКЛ</name>
+            <description>Шаблон письма о появлении мест хранения без активных контактных лиц</description>
+            <code>72132</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+          <content id="905f0923-4553-48d3-8116-019f459dc657">
+            <name>ШаблонПисьмаОПоявленииНовогоДоговораИз1СДО</name>
+            <description>Шаблон письма о появлении нового договора из 1С:ДО</description>
+            <code>72131</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+          <content id="dade1134-919b-42cd-b810-b3c220c1ecae">
+            <name>ШаблонПисьмаОПоявленииНовогоЦветаКабиныПТС</name>
+            <description>Шаблон письма о появлении нового цвета кабины ПТС</description>
+            <code>72121</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+          <content id="d79ca3b9-c18c-41a9-9ff5-e45b700141be">
+            <name>ШаблонОПрикрепленииПТС</name>
+            <description>Шаблон письма о прикреплении ПТС</description>
+            <code>72113</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+          <content id="8ad071ae-b1d6-48bb-8f33-b1bfc036d27f">
+            <name>ШаблонПисьмаОСменеСтатусаЗаявкиНаОтгрузку</name>
+            <description>Шаблон письма о смене статуса заявки на отгрузку</description>
+            <code>72130</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+          <content id="6f762d32-9b5c-4c19-8d8a-a48d30296a27">
+            <name>ШаблонПисьмаОСозданииДокументовДвиженияИзделий</name>
+            <description>Шаблон письма о создании документов «Движения продуктов»</description>
+            <code>72122</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+          <content id="9103a3aa-2bc9-4c89-8406-28369e381c68">
+            <name>ШаблонПисьмаОСписанииИзделий</name>
+            <description>Шаблон письма о списании продуктов</description>
+            <code>72125</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+          <content id="72c1cc47-2698-4de5-b290-7db3fc25b16c">
+            <name>ШаблонОбИзмененииПлановойДатыДоставки</name>
+            <description>Шаблон письма об изменении плановой даты доставки</description>
+            <code>72114</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+          <content id="1c849e5e-43b8-4997-adb1-11630be72c36">
+            <name>ШаблонПисьмаОбОтклоненияхВДатахЗаказаНаЗавод</name>
+            <description>Шаблон письма об отклонениях в датах заказа на завод</description>
+            <code>72117</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+          <content id="63ff5165-3e11-491b-9d81-17c0cb83d90f">
+            <name>ШаблонПисьмаОбОтменеЗаявкиНаОтгрузку</name>
+            <description>Шаблон письма об отмене заявки на отгрузку</description>
+            <code>72128</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+          <content id="7ce706ff-1f48-4beb-ac20-9a11ca4db94f">
+            <name>ШаблонОтправкиПисемОбОшибкахПриОбменеС1БД</name>
+            <description>Шаблон письма об ошибках при обмене с 1БД</description>
+            <code>72115</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+          <content id="e6111e1f-7e4c-4aa7-98c8-4b77fa5903ca">
+            <name>ШаблонПисьмаОбУстановкеЛокальногоСтатусаDeleted</name>
+            <description>Шаблон письма об установке локального статуса Deleted</description>
+            <code>72127</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+          <content id="9bc11a26-53a7-427b-a32c-4f4b88804c5f">
+            <name>ШаблонПисьмаПриРасторженииЗаявкиНаСОППоПродукту</name>
+            <description>Шаблон письма при расторжении заявки на СОП по продукту</description>
+            <code>72126</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+          <content id="6dbfe924-3a38-4f4c-b471-53ca4aea1875">
+            <name>ШаблонПисьмаСДетализированнымАктомПриемаПередачи</name>
+            <description>Шаблон письма с детализированным актом приема-передачи</description>
+            <code>72133</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+          <content id="c59f81c7-0159-4673-a39c-c2dad9a1a97a">
+            <name>ШаблонПисьмаСОтчетомCow</name>
+            <description>Шаблон письма с отчетом Cow</description>
+            <code>72120</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+          <content id="a5b5f5ca-5759-4ddb-8534-47562d134c31">
+            <name>ШаблонПисьмаСОтчетомDeliveriesReport</name>
+            <description>Шаблон письма с отчетом Deliveries Report</description>
+            <code>72119</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+          <content id="73e2e2f2-8307-4aed-906a-01107663b870">
+            <name>ШаблонПисьмаСОтчетомOrderIntake</name>
+            <description>Шаблон письма с отчетом Order Intake</description>
+            <code>72118</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+          <content id="11125d75-d19e-4d69-9622-8461f121cef5">
+            <name>ШаблонПисьмаСОтчетомСписокОтгрузок</name>
+            <description>Шаблон письма с отчетом Список отгрузок</description>
+            <code>72124</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+          <content id="a68e9a28-c078-4fc5-a500-310b7f4f0797">
+            <name>ШаблонНапоминаниеДилерам</name>
+            <description>Шаблон письма-напоминания дилерам</description>
+            <code>72103</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+          <content id="a5faa519-b3ea-459c-b7ae-de38547ad1d2">
+            <name>ШаблонУведомленияХранителюПриКТСИзделий</name>
+            <description>Шаблон письма-уведомления хранителю при контроле тех. состояния продуктов</description>
+            <code>72108</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+          <content id="7346e5b3-5677-4c1c-9287-12d8cf9725a6">
+            <name>ШаблонПовторныйОНевозможностиСформироватьУбытие</name>
+            <description>Шаблон повторного письма о невозможности сформировать убытие из учета</description>
+            <code>72112</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+        </content>
+        <content id="34fec946-f176-4109-a4fd-b12eaa63c6ca">
+          <name>ШаблоныПисемСогласованияДокументовПоЭлектроннойПочте</name>
+          <description>Шаблоны писем согласования документов по электронной почте</description>
+          <isFolder>true</isFolder>
+          <code>72200</code>
+          <type/>
+          <content id="78235560-64e3-45ed-81df-b18a8db1530f">
+            <name>ШаблонСогласованияПоЭлектроннойПочтеДокументаКалькуляция</name>
+            <description>Шаблон согласования по электронной почте документа &quot;Калькуляция&quot;</description>
+            <code>72201</code>
+            <type>
+              <types>CatalogRef.Scan_ШаблоныПисем</types>
+            </type>
+          </content>
+        </content>
+        <content id="02acd2be-6a52-4b18-9499-136be411ba60">
+          <name>ЭлАдресПолучателяКопииПисьмаОбОтменеЗаявкиНаОтгрузку</name>
+          <description>Эл. адрес получателя копии письма об отмене заявки на отгрузку</description>
+          <code>72056</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>1000</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="c28e8c0c-7215-4a9e-82c5-bc9361f17a88">
+          <name>ЭлАдресПолучателяКопииПисьмаОПрикрепленииПТС</name>
+          <description>Эл.адрес получателя копии письма о прикреплении ПТС</description>
+          <code>72047</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>1000</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="ad40b9a5-5927-433d-8eff-e8580d408c06">
+          <name>ЭлАдресПолучателяКопииПисьмаОСписанииИзделий</name>
+          <description>Эл.адрес получателя копии письма о списании продуктов</description>
+          <code>72053</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>50</length>
+              <fixed>true</fixed>
+            </stringQualifiers>
+          </type>
+        </content>
+      </content>
+    </items>
+    <items id="91e6dfba-b77d-4d87-948e-0a8060d76d68">
+      <name>ОбщиеПраваДоступа</name>
+      <description>ОБЩИЕ ПРАВА ДОСТУПА</description>
+      <isFolder>true</isFolder>
+      <code>10000</code>
+      <type/>
+      <content id="f3f06c22-a0a8-49fc-ba37-aa206ff4e6f6">
+        <name>ПользовательЯвляетсяСотрудникомСканияРусь</name>
+        <description>Пользователь является сотрудником Скания-Русь</description>
+        <code>10004</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="7d0bacf4-9a6b-4332-ae58-2007a1f42fb1">
+        <name>РазрешитьИзменениеЛичныхНастроек</name>
+        <description>Разрешить изменение личных настроек</description>
+        <code>10003</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="6afa7e72-94eb-453f-9cfa-10a50610c7a0">
+        <name>РазрешитьИзменениеПравДоступа</name>
+        <description>Разрешить изменение прав доступа и настроек</description>
+        <code>10002</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="3f5020d7-ddcb-450d-808b-56b6175220d1">
+        <name>РазрешитьРаботуСПрограммой</name>
+        <description>Разрешить работу с программой</description>
+        <code>10001</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+    </items>
+    <items id="b785c5bb-bdf2-47db-83f8-08f9506b93e5">
+      <name>Отчеты</name>
+      <description>ОТЧЕТЫ</description>
+      <isFolder>true</isFolder>
+      <code>50000</code>
+      <type/>
+      <content id="3f5c38f0-3408-4a98-ac1a-2d2df4ff5d9c">
+        <name>ВыводитьОтчетОбОкончанииДействияДоговоровПоУмолчанию</name>
+        <description>Выводить отчет об окончании действия договоров по умолчанию</description>
+        <code>30007</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="41008c3e-ebca-45a3-bff7-fcf108cc55a4">
+        <name>КодАдресаДоставкиНидерланды</name>
+        <description>Код адреса доставки Нидерланды</description>
+        <code>50002</code>
+        <type>
+          <types>CatalogRef.Scan_КодыАдресовДоставки</types>
+        </type>
+      </content>
+      <content id="fa334427-f195-4aa8-887f-9dd52831a653">
+        <name>КодАдресаДоставкиСканияПитер</name>
+        <description>Код адреса доставки Скания-Питер</description>
+        <code>50001</code>
+        <type>
+          <types>CatalogRef.Scan_КодыАдресовДоставки</types>
+        </type>
+      </content>
+      <content id="7c8ec91f-654e-4268-aba1-8b4ea0318c0a">
+        <name>КонтрагентДляПризнакаFromEU</name>
+        <description>Контрагент для признака «From EU»</description>
+        <code>50055</code>
+        <type>
+          <types>CatalogRef.Scan_Контрагенты</types>
+        </type>
+      </content>
+    </items>
+    <items id="4939daba-b226-414b-9372-9af7279848ed">
+      <name>ПараметрыСистемы</name>
+      <description>ПАРАМЕТРЫ СИСТЕМЫ</description>
+      <isFolder>true</isFolder>
+      <code>60000</code>
+      <type/>
+      <content id="1afa0abf-1ec5-40ab-b209-dc7fed2b5d63">
+        <name>АдминистрированиеOFMS</name>
+        <description>Администрирование OFMS</description>
+        <isFolder>true</isFolder>
+        <code>63000</code>
+        <type/>
+        <content id="c544816c-893f-4e70-b185-766d0548d5ca">
+          <name>ВключитьСборСтатистикиИспользованияОбъектов</name>
+          <description>Включить сбор статистики использования объектов</description>
+          <code>63005</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="30f4c570-5e61-4f8e-a837-a04585d476a3">
+          <name>ЗаполнятьРегистрСводнаяИнформацияПоПродукту</name>
+          <description>Заполнять регистр &quot;Сводная информация по продукту&quot;</description>
+          <code>63003</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="3cda3857-fc3d-4c89-b071-ff7b1f336756">
+          <name>КаталогВыгрузкиФайловПараметровВидимостиОбъектов</name>
+          <description>Каталог выгрузки файлов параметров видимости объектов</description>
+          <code>63004</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>1000</length>
+            </stringQualifiers>
+          </type>
+        </content>
+      </content>
+      <content id="70343970-4706-4f47-9add-7a50c4038243">
+        <name>ВебСервис1СДО</name>
+        <description>Веб-сервис 1С:ДО</description>
+        <isFolder>true</isFolder>
+        <code>64000</code>
+        <type/>
+        <content id="a099310c-5458-42ef-96d0-c7b935962b3d">
+          <name>АдресВебСервиса1СДО</name>
+          <description>Адрес веб-сервиса 1С:ДО</description>
+          <code>64003</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>256</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="089b7408-189d-4077-aa2d-8540871ef64c">
+          <name>Логин1СДО</name>
+          <description>Логин 1С:ДО</description>
+          <code>64001</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>15</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="451b654e-cc2a-48e5-96e0-e7741ca7dd45">
+          <name>Пароль1СДО</name>
+          <description>Пароль 1С:ДО</description>
+          <code>64002</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>21</length>
+            </stringQualifiers>
+          </type>
+        </content>
+      </content>
+      <content id="18b5c00f-c3ea-46ee-a97c-0381e68f7a8c">
+        <name>ВебСервисScania</name>
+        <description>Веб-сервис Scania</description>
+        <isFolder>true</isFolder>
+        <code>61000</code>
+        <type/>
+        <content id="ed829381-46df-41c4-a0e3-859fe0ee0638">
+          <name>GUIDИсточникаOFMS</name>
+          <description>GUID источника OFMS</description>
+          <code>61015</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>36</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="b4be5cdf-7a71-4850-9d09-149025200b09">
+          <name>GUIDСтатусаПродуктаАренда</name>
+          <description>GUID статуса продукта Аренда/Rent</description>
+          <code>61016</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>36</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="962014e8-2e19-4e28-9715-414b8fd68519">
+          <name>GUIDСтатусаПродуктаДемо</name>
+          <description>GUID статуса продукта Демо/Demo</description>
+          <code>61017</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>36</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="70a9041d-7832-4a7a-bf84-20d96587a946">
+          <name>GUIDСтатусаПродуктаТест</name>
+          <description>GUID статуса продукта Тест/Test</description>
+          <code>61018</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>36</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="e33d9df3-e772-4d2d-af10-78b435ab3409">
+          <name>WSАдрес1DB</name>
+          <description>Веб-адрес 1БД</description>
+          <code>61004</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>256</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="83291313-b106-4f7d-b2ef-6e13282e507f">
+          <name>ДопустимыйДиапазонДатыCDD2</name>
+          <description>Допустимый диапазон даты CDD2</description>
+          <code>61008</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>10</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="d2aab459-49e1-40ac-9203-44d941a572a9">
+          <name>ИспользоватьЗадачиСНакладными</name>
+          <description>Использовать задачи с накладными</description>
+          <code>61013</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="96bbd15c-880c-455f-b758-84ceafe5952d">
+          <name>ИспользоватьНовыйАлгоритмСозданияДоговоров</name>
+          <description>Использовать новый алгоритм создания договоров в OFMS</description>
+          <code>61014</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="7b3ad65e-6eeb-42c5-8273-7f81906956fd">
+          <name>КоличествоЧасовПериодаИзменений</name>
+          <description>Количество часов, за которое требуется получать изменения по статусам СОП</description>
+          <code>61007</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>10</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="0cee45e5-cdff-469a-b904-a1c89a5054c2">
+          <name>КонтролироватьЗагрузкуПродуктовБезТипаИНаименования</name>
+          <description>Контролировать загрузку продуктов без &quot;Типа продукта&quot; и &quot;Наименования&quot;</description>
+          <code>61012</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="926f1e11-693d-4bff-95b5-9944767b8271">
+          <name>Логин1DB</name>
+          <description>Логин 1БД</description>
+          <code>61002</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>15</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="47d9eb8a-f019-4823-85d6-1832d7fe7bc9">
+          <name>ОбменСПредставительством</name>
+          <description>Обмен с представительством</description>
+          <code>61001</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="7037718a-074e-4e93-af85-30e31e797661">
+          <name>ОбратныйОбменС1БД</name>
+          <description>Обратный обмен с1 БД</description>
+          <code>61006</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="591fce42-e2f4-4c64-8d74-eefc426b4ee2">
+          <name>Пароль1DB</name>
+          <description>Пароль 1БД</description>
+          <code>61003</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>21</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="f5703ead-3d5c-4362-96b6-31b3207d8315">
+          <name>ПервоначальноеЗаполнение</name>
+          <description>Первоначальное заполнение базы</description>
+          <code>61005</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="113b9211-3d06-4db1-8b51-4043b8b13f3e">
+          <name>РазрешитьОтправкуЛокальныхСтатусовЗаказовНаЗаводВ1БД</name>
+          <description>Разрешить отправку локальных статусов продуктов в 1БД</description>
+          <code>61011</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="72c3b2ee-ee32-4efb-93cd-ffb3fa934257">
+          <name>СписокРегистровИПериодыОчисткиПредопределённыхРегистровСведений</name>
+          <description>Список регистров и периоды очистки предопределённых регистров сведений</description>
+          <code>61009</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>1000</length>
+            </stringQualifiers>
+          </type>
+        </content>
+      </content>
+      <content id="8a4305e6-6fd4-4e1f-89d9-f906441bb98b">
+        <name>ВебСервисПорталаScania</name>
+        <description>Веб-сервис портала Scania</description>
+        <isFolder>true</isFolder>
+        <code>62000</code>
+        <type/>
+        <content id="7c04bef8-f86e-4f09-ab9a-04fb6c60d8aa">
+          <name>АдресВебСервисаПортала</name>
+          <description>Адрес Веб-сервиса портала</description>
+          <code>62003</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>256</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="1b42c394-36e8-48d5-91f3-8101a7673654">
+          <name>ЛогинНаПортале</name>
+          <description>Логин на портале</description>
+          <code>62001</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>1000</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="0eaff576-0e5a-4db7-b818-c6e8953de0f2">
+          <name>ПарольНаПортале</name>
+          <description>Пароль на портале</description>
+          <code>62002</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>1000</length>
+            </stringQualifiers>
+          </type>
+        </content>
+      </content>
+    </items>
+    <items id="5556aece-815c-4269-a191-2db1d7ad3973">
+      <name>Справочники</name>
+      <description>СПРАВОЧНИКИ</description>
+      <isFolder>true</isFolder>
+      <code>30000</code>
+      <type/>
+      <content id="5042c226-0e0f-43f2-a156-96e739be5daa">
+        <name>ЗаказыНаЗавод</name>
+        <description>Заказы на завод</description>
+        <isFolder>true</isFolder>
+        <code>33000</code>
+        <type/>
+        <content id="65fb549c-d8f3-40a7-8352-c7aaecc9cd9c">
+          <name>DDИнформер</name>
+          <description>DD-информер</description>
+          <isFolder>true</isFolder>
+          <code>33100</code>
+          <type/>
+          <content id="aef9f7a2-8f63-476f-a32d-0c4c8b056f13">
+            <name>РазрешитьРедактироватьDDDeviationВЗаказеНаЗавод</name>
+            <description>Разрешить редактировать DD deviation в заказе на завод</description>
+            <code>30049</code>
+            <type>
+              <types>Boolean</types>
+            </type>
+          </content>
+          <content id="59c5db29-8cd0-4683-8edc-b881cb275f4e">
+            <name>РазрешитьРедактироватьDDPriorityВЗаказеНаЗавод</name>
+            <description>Разрешить редактировать DD priority в заказе на завод</description>
+            <code>30048</code>
+            <type>
+              <types>Boolean</types>
+            </type>
+          </content>
+        </content>
+        <content id="4d34ae30-a98a-4167-bfdd-cbdd2f1e9df0">
+          <name>ИспользоватьНовуюКарточкуЗаказаНаЗавод</name>
+          <description>Использовать новую карточку заказа на завод</description>
+          <code>30052</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="9f0cb3b2-dd55-4c3b-adf2-1f47f6734836">
+          <name>РазрешатьДобавлятьЗаказыНаЗавод</name>
+          <description>Разрешать добавлять заказы на завод</description>
+          <code>30012</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="1aef9cc5-efb1-45a8-8d29-7c28193b101f">
+          <name>РазрешатьИзменениеДатыОтгрузкиСЗаводаПриEXW</name>
+          <description>Разрешать изменение даты отгрузки с завода при EXW</description>
+          <code>30021</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="947dff4a-67de-4c76-b103-8f1a6a0d9a0e">
+          <name>РазрешатьРедактироватьEDDиRDB</name>
+          <description>Разрешать редактировать EDD и RDB</description>
+          <code>30022</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="29ee5d24-c6c3-4f4b-b29e-cd6a98a3554a">
+          <name>РазрешатьРедактироватьДатыПоНадстройкам</name>
+          <description>Разрешать редактировать даты по надстройкам</description>
+          <code>30027</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="52fd5745-c142-49fe-8bdb-c47c720483d0">
+          <name>РазрешатьРедактироватьПараметрыЗаказаНаЗавод</name>
+          <description>Разрешать редактировать параметры заказа на завод</description>
+          <code>30008</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="c9ec5d04-473d-4a30-90a7-afee4f6136fe">
+          <name>РазрешитьРедактироватьКвоту</name>
+          <description>Разрешить редактировать квоту</description>
+          <code>30064</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+      <content id="d7fa3c41-c9b9-4d02-a1da-d38181b27546">
+        <name>Заявка</name>
+        <description>Заявка</description>
+        <isFolder>true</isFolder>
+        <code>31000</code>
+        <type/>
+        <content id="7f076f23-b4b7-49dd-94a7-4f45e6fcd04a">
+          <name>ДатаНачалаДействияЛимитаНаИзменениеСпецификацииПоИнициативеЗавода</name>
+          <description>Дата начала действия лимита на сумму составляющей &quot;Изменение спецификации по ини</description>
+          <code>31013</code>
+          <type>
+            <types>Date</types>
+            <dateQualifiers>
+              <dateFractions>Date</dateFractions>
+            </dateQualifiers>
+          </type>
+        </content>
+        <content id="2d1c5559-d396-45bc-920e-4aa58cc53b0f">
+          <name>ЛимитКоличестваПродуктовВЗаявкеНаСОП</name>
+          <description>Лимит количества продуктов в заявке на СОП</description>
+          <code>31009</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>10</precision>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="a9046ce9-52cf-4b36-98bb-471fe2fe1dbe">
+          <name>ЛимитСуммыПродуктовВЗаявкеНаСОП</name>
+          <description>Лимит суммы продуктов в заявке на СОП</description>
+          <code>31010</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>10</precision>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="088cc284-ab7c-437a-bdfb-0baf2b4e846c">
+          <name>ЛимитСоставляющейИзменениеСпецификацииПоИнициативеЗавода</name>
+          <description>Лимит суммы составляющей цены &quot;Изменение спецификации по инициативе завода&quot;</description>
+          <code>31012</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>10</precision>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="4819eca2-cca1-467d-b5b5-da0514dea9fb">
+          <name>МинимальнаяДатаСОПДляКонтроляЛимитов</name>
+          <description>Минимальная дата СОП для контроля лимитов</description>
+          <code>31011</code>
+          <type>
+            <types>Date</types>
+            <dateQualifiers/>
+          </type>
+        </content>
+        <content id="d9188fcd-5efd-411f-ae47-42a19bc70abc">
+          <name>ПроцентДрайв</name>
+          <description>Процент Драйв</description>
+          <code>31003</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>4</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="02019602-1755-4c85-a34f-db1442498933">
+          <name>РазрешитьКорректировкуЦенПродуктовПриНаличииКлючевойДатыПродажи</name>
+          <description>Разрешает / Запрещает корректировку цен (применение специальных условий) по прод</description>
+          <code>31004</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="4b0e088f-22f3-48ad-959f-68886d0de89d">
+          <name>РазрешенныйПроцентМаржиСУ</name>
+          <description>Разрешенный процент маржи СУ</description>
+          <code>31002</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>10</precision>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="0f1ef827-0e01-4494-8893-7132b6318ca1">
+          <name>ТребованиеПоПрикреплениюКПОтКузовостроителяКЗаявке</name>
+          <description>Требование по прикреплению КП от кузовостроителя к заявке</description>
+          <code>31001</code>
+          <type>
+            <types>CatalogRef.Scan_ТребованияОформленияКПОтКузовостроителя</types>
+          </type>
+        </content>
+        <content id="b2238b0f-937b-46d9-b039-27bcfca25d94">
+          <name>ШаблонСтандартныхУсловийОплатыДляSTDДляНезависимыхДилеров</name>
+          <description>Шаблон стандартных условий оплаты для STD для независимых дилеров</description>
+          <code>31005</code>
+          <type>
+            <types>CatalogRef.Scan_ШаблоныУсловийОплаты</types>
+          </type>
+        </content>
+        <content id="cdb94393-515d-4fe3-b31d-2064447eca90">
+          <name>ШаблонСтандартныхУсловийОплатыДляSTDДляОСП</name>
+          <description>Шаблон стандартных условий оплаты для STD для ОСП</description>
+          <code>31007</code>
+          <type>
+            <types>CatalogRef.Scan_ШаблоныУсловийОплаты</types>
+          </type>
+        </content>
+        <content id="95bcfe0e-54c3-4830-ba88-bb5b9535f423">
+          <name>ШаблонСтандартныхУсловийОплатыДляUOUUOДляНезависимыхДилеров</name>
+          <description>Шаблон стандартных условий оплаты для UO/UUO для независимых дилеров</description>
+          <code>31006</code>
+          <type>
+            <types>CatalogRef.Scan_ШаблоныУсловийОплаты</types>
+          </type>
+        </content>
+        <content id="15f882ca-49a1-4146-a965-9d44cec845fe">
+          <name>ШаблонСтандартныхУсловийОплатыДляUOUUOДляОСП</name>
+          <description>Шаблон стандартных условий оплаты для UO/UUO для ОСП</description>
+          <code>31008</code>
+          <type>
+            <types>CatalogRef.Scan_ШаблоныУсловийОплаты</types>
+          </type>
+        </content>
+      </content>
+      <content id="4852e36c-7385-41ce-836e-b971c4a404d2">
+        <name>Компании</name>
+        <description>Компании</description>
+        <isFolder>true</isFolder>
+        <code>37000</code>
+        <type/>
+        <content id="26ac0c50-4003-48da-84c1-5d4862046885">
+          <name>ЗапретРаботыСНеактивнымиДилерами</name>
+          <description>Запрет работы с неактивными дилерами</description>
+          <code>30057</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="86684ebb-83e9-465e-90b2-1bb4598f0429">
+          <name>РазрешатьРедактированиеДоступныхМарокДилера</name>
+          <description>Разрешать редактирование доступных марок дилера</description>
+          <code>30066</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+      <content id="ebf3c345-9f57-4094-9a38-e157e413bfc2">
+        <name>Контрагенты</name>
+        <description>Контрагенты</description>
+        <isFolder>true</isFolder>
+        <code>35000</code>
+        <type/>
+        <content id="26cb5a04-40fc-4393-a6a2-b314c8ec484e">
+          <name>РазрешитьРедактироватьНаименованиеКонтрагентов</name>
+          <description>Разрешить редактировать наименование контрагентов</description>
+          <code>30030</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+      <content id="d0afc91a-e417-43c8-a426-7761e9cf082b">
+        <name>МестаХранения</name>
+        <description>Места хранения</description>
+        <isFolder>true</isFolder>
+        <code>36000</code>
+        <type/>
+        <content id="da644ecb-fa5f-42e1-8008-c3c1b0b392b0">
+          <name>КоличествоИспользованийМестаХранения</name>
+          <description>Количество использований места хранения для проверки частоты использования</description>
+          <code>36003</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>10</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="8a2b784e-39af-453a-8881-87669ed497cc">
+          <name>ПериодПроверкиМестХраненияНаЧастотуИспользования</name>
+          <description>Период проверки мест хранения на частоту использования</description>
+          <code>36002</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>10</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="3f04649b-95c6-45f9-93ea-ef66424fa31a">
+          <name>РазрешитьРедактироватьФормироватьЧекЛисты</name>
+          <description>Разрешать редактировать поле «Формировать чек-листы»</description>
+          <code>36001</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+      <content id="0bd41791-7250-482b-87c2-c48bdc1b559c">
+        <name>НастройкиАлгоритмовРасчетовСоответствий</name>
+        <description>Настройки алгоритмов, расчетов, соответствий</description>
+        <isFolder>true</isFolder>
+        <code>34000</code>
+        <type/>
+        <content id="21c1773e-3d59-4427-850c-1ea4770cd6c5">
+          <name>ИдентификаторГруппыНадстроекСправочникаТипыВ1БД</name>
+          <description>GUID группы надстроек справочника «Типы» в 1БД</description>
+          <code>30037</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>36</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="344b3338-30aa-4577-84d1-a3b541cb33ee">
+          <name>ИдентификаторГруппыОборудованияСправочникаТипыВ1БД</name>
+          <description>GUID группы оборудования справочника «Типы» в 1БД</description>
+          <code>30038</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>36</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="4e314dc6-4dcd-4620-b23b-bee42cb0f5d4">
+          <name>ИдентификаторГруппыУслугСправочникаТипыВ1БД</name>
+          <description>GUID группы услуг справочника «Типы» в 1БД</description>
+          <code>30043</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>36</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="cd1fcdcb-ff2c-49e9-8c6d-4cfa21b49a8b">
+          <name>ВидВзаимодействияДилер</name>
+          <description>Вид взаимодействия «Дилер»</description>
+          <code>30029</code>
+          <type>
+            <types>CatalogRef.Scan_ВидыВзаимодействий</types>
+          </type>
+        </content>
+        <content id="4b2b8426-8164-40fe-96a0-0c72d2d440ac">
+          <name>ВидВзаимодействияПоставщик</name>
+          <description>Вид взаимодействия «Поставщик»</description>
+          <code>30034</code>
+          <type>
+            <types>CatalogRef.Scan_ВидыВзаимодействий</types>
+          </type>
+        </content>
+        <content id="c89f9114-75b0-4750-b259-2cdeeb496827">
+          <name>ГруппаПродуктовНадстроекИОборудования</name>
+          <description>Группа продуктов надстроек и оборудования</description>
+          <code>30035</code>
+          <type>
+            <types>CatalogRef.Scan_ГруппыПродуктов</types>
+          </type>
+        </content>
+        <content id="ee307feb-f813-4aa4-9184-025b1a0c54f1">
+          <name>ГруппаПродуктовУслуг</name>
+          <description>Группа продуктов услуг</description>
+          <code>30036</code>
+          <type>
+            <types>CatalogRef.Scan_ГруппыПродуктов</types>
+          </type>
+        </content>
+        <content id="523ce0f6-b2bc-4644-9edc-26b295fed57e">
+          <name>ДопустимыйДиапазонДатыFinishDate</name>
+          <description>Допустимый диапазон даты FinishDate</description>
+          <code>30065</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>3</precision>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="cc7d7344-bdd9-47d5-8fc0-77be58265238">
+          <name>ИспользоватьАльтернативныйРасчетДатOrderIntake</name>
+          <description>Использовать альтернативный расчет дат Order Intake</description>
+          <code>30058</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="12374baf-ac7f-4d3c-9628-f2316a2fa6e4">
+          <name>КоличествоДнейДоОтправкиЧекЛиста</name>
+          <description>Кол-во дней  за которое отправляется чек-лист проверки техсостояния</description>
+          <code>30010</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>10</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="7b9b7f27-f9a0-46e8-81e9-ac9eb2df35b7">
+          <name>КоличествоДнейДоCDDДляОтправкиНапоминанияДилерам</name>
+          <description>Кол-во дней до CDD для отправки напоминания дилерам</description>
+          <code>30002</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>10</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="cc4bf39b-376a-4471-8517-76f8a1153809">
+          <name>КоличествоДнейДоCDDДляПроверкиЗаполненияИнфоПоДоставкеПродуктов</name>
+          <description>Кол-во дней до CDD для проверки заполнения инф. по доставке продуктов</description>
+          <code>30003</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>10</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="14568662-88a3-4f10-bb65-da541919794f">
+          <name>КоличествоДнейДоОкончанияДействияДоговоровСКонтрагентами</name>
+          <description>Кол-во дней до окончания действия договоров с контрагентами </description>
+          <code>30006</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>10</precision>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="cff43bbf-281f-43c4-bce7-839ae6d43ebd">
+          <name>КоличествоДнейПослеПроверкиТехсостоянияПриОтправкеПовторногоНапоминания</name>
+          <description>Кол-во дней после проверки техсостояния до отправки повторного напоминания</description>
+          <code>30011</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>10</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="46d346b6-f2c9-4a7f-848d-16cdd5b275c4">
+          <name>КоличествоДнейДляРасчетаDDДляИзделийБезНадстройки</name>
+          <description>Количество дней для расчета DD (для продуктов без надстройки)</description>
+          <code>30016</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>3</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="c785bcd8-4930-4b3e-8799-598749603527">
+          <name>КоличествоДнейДляРасчетаDDКузовостроительВРФ</name>
+          <description>Количество дней для расчета DD (кузовостроитель в РФ)</description>
+          <code>30017</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>3</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="719d4ee3-60cc-4041-8d58-0bddc9b43a47">
+          <name>КоличествоДнейДоПеремещенияВАрхив</name>
+          <description>Количество дней до перемещения в архив</description>
+          <code>30025</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>3</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="76c1e3c9-0e8b-4a5d-87d8-6d914c88e112">
+          <name>КоличествоРабочихДнейДляРасчетаСрокаДействияСУ</name>
+          <description>Количество рабочих дней для расчета срока действия СУ</description>
+          <code>30063</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>10</precision>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="ed583b8d-8351-415c-92fc-79a0d5709bef">
+          <name>КузовостроительСканияПитер</name>
+          <description>Кузовостроитель «Скания-Питер»</description>
+          <code>30018</code>
+          <type>
+            <types>CatalogRef.Scan_Контрагенты</types>
+          </type>
+        </content>
+        <content id="0c6338a3-709e-4ac2-957a-2770091d7d47">
+          <name>ЛьготноеРасстояниеПриДоставке</name>
+          <description>Льготное расстояние при доставке</description>
+          <code>30009</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>7</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="8ab85798-2a32-4e24-9082-108f3b490125">
+          <name>МинимальнаяРазницаМеждуДатамиPDDИRDBПродуктовСНадстройкой</name>
+          <description>Минимальная разница между датами PDD и RDB продуктов с надстройкой</description>
+          <code>30059</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>10</precision>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="ac4c6845-cb5b-43e4-98fc-77027bbb7637">
+          <name>МинимальныйОстатокВесовСобытийАльтернативногоOrderIntake</name>
+          <description>Минимальный остаток весов событий альтернативного Order Intake</description>
+          <code>30060</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>10</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="ef89d211-6c56-4053-92fd-a1968a6aa8ad">
+          <name>ПроверятьСоответствиеТиповВидовИГруппПродукта</name>
+          <description>Проверять соответствие типов, видов и групп продукта</description>
+          <code>30024</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="da2d5114-e8b2-4d33-b83d-00870b980714">
+          <name>РазрешатьИзменениеКоличестваДнейДляРасчетаДатыDD</name>
+          <description>Разрешать изменение количества дней для расчета даты DD</description>
+          <code>30019</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="aa3d68dd-4f53-4b00-9003-53266c6026e8">
+          <name>РазрешатьИзменениеКоличестваДнейДляРасчетаДатыDDКузовостроительВРФ</name>
+          <description>Разрешать изменение количества дней для расчета даты DD (кузовостроитель в РФ)</description>
+          <code>30020</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="a1609832-4991-486e-8fb2-a3d1e2c29959">
+          <name>СрокУстраненияНедостатковПослеПродажиИзделия</name>
+          <description>Срок устранения недостатков после продажи продукта</description>
+          <code>30004</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>10</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="a54c1a6f-5b2c-4d23-a140-25e1d46c470b">
+          <name>СтатусДействующийЭПТС</name>
+          <description>Статус «Действующий» ЭПТС</description>
+          <code>30061</code>
+          <type>
+            <types>CatalogRef.Scan_СтатусыЭПТС</types>
+          </type>
+        </content>
+        <content id="ee82e90d-de8e-4e63-b519-522efce5cbfc">
+          <name>СтатусНезавершенныйЭПТС</name>
+          <description>Статус «Незавершенный» ЭПТС</description>
+          <code>30062</code>
+          <type>
+            <types>CatalogRef.Scan_СтатусыЭПТС</types>
+          </type>
+        </content>
+        <content id="6640d222-e6da-4d3e-a045-8b39a5ed3182">
+          <name>СчетчикDDПриИспользованииЕвропейскихКузовостроителей</name>
+          <description>Счетчик DD (при использовании европейских кузовостроителей)</description>
+          <isFolder>true</isFolder>
+          <code>34100</code>
+          <type/>
+          <content id="be663b94-678b-462b-9855-93e0c6088450">
+            <name>КоличествоДнейДляРасчетаDD</name>
+            <description>Количество дней для расчета DD</description>
+            <code>30045</code>
+            <type>
+              <types>Number</types>
+              <numberQualifiers>
+                <precision>3</precision>
+                <nonNegative>true</nonNegative>
+              </numberQualifiers>
+            </type>
+          </content>
+          <content id="39ea44bf-8783-41ff-9a36-801cc0075640">
+            <name>КузовостроителиДляСчетчикаDDПриИспользованииЕвропейскихКузовостроителей</name>
+            <description>Кузовостроители для счетчика DD (при использовании европейских кузовостроителей)</description>
+            <code>30044</code>
+            <type>
+              <types>String</types>
+              <stringQualifiers>
+                <length>1000</length>
+              </stringQualifiers>
+            </type>
+          </content>
+          <content id="6aff76f0-eacb-4310-892d-f5b2de442a47">
+            <name>МестаХраненияДляРасчетаДатыDD</name>
+            <description>Места хранения для расчета даты DD</description>
+            <code>30047</code>
+            <type>
+              <types>String</types>
+              <stringQualifiers>
+                <length>1000</length>
+              </stringQualifiers>
+            </type>
+          </content>
+        </content>
+        <content id="e62b5dd6-c04b-41b5-b83e-0217899eade6">
+          <name>ТипПродуктаДляАлгоритмовОповещенияОНеобходимостиИзмененияEDD</name>
+          <description>Тип продукта для алгоритмов оповещения о необходимости изменения EDD</description>
+          <code>30023</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>1000</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="e7fe1cb8-ce3a-41e6-82de-614090646692">
+          <name>ТипыПродуктовБезНадстройки</name>
+          <description>Типы продуктов без надстройки</description>
+          <code>30039</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>1000</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="4fb031ef-7f32-4803-a322-2da17eb0d0dc">
+          <name>ТипыПродуктовСНадстройкой</name>
+          <description>Типы продуктов с надстройкой</description>
+          <code>30040</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>1000</length>
+            </stringQualifiers>
+          </type>
+        </content>
+      </content>
+      <content id="e7b49cb9-c2d2-48e6-8a99-5156bb7fd5ac">
+        <name>Продукты</name>
+        <description>Продукты</description>
+        <isFolder>true</isFolder>
+        <code>32000</code>
+        <type/>
+        <content id="84e34120-4c36-4529-a07b-127961b6ef10">
+          <name>ИспользоватьНовуюКарточкуПродукта</name>
+          <description>Использовать новую карточку продукта</description>
+          <code>30051</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="bc0fe162-7268-42e3-8ea3-b11a8c4d5d90">
+          <name>НастройкаВыводаНаименованияИзделия</name>
+          <description>Настройка формирования наименования продукта</description>
+          <code>30001</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>200</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="983776f9-8449-4041-9f7f-b8252b88b5ba">
+          <name>РазрешатьИзменениеСтатусовПродуктов</name>
+          <description>Разрешать изменение локальных статусов продуктов</description>
+          <code>30013</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="fc804a4f-c1ba-4518-81d9-475a5119cbba">
+          <name>РазрешатьРедактироватьДатуПродуктВАрхиве</name>
+          <description>Разрешать редактировать дату «Продукт в архиве»</description>
+          <code>30026</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="02ab8474-53d1-447f-b2c6-6a3570f89daf">
+          <name>РазрешатьРедактироватьТипСпецификацииПродукта</name>
+          <description>Разрешать редактировать тип спецификации продукта STD\UO\UUO (справочник «Продук</description>
+          <code>30031</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="43061a99-355d-4147-a971-ea8e982df06b">
+          <name>РазрешатьУстанавливатьЗапретНаИзменениеСкладаПродажи</name>
+          <description>Разрешать устанавливать/снимать запрет на изменение склада продажи</description>
+          <code>30050</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="1629a633-785b-4a55-b6db-5829df31c2fc">
+          <name>РазрешитьИзменятьКлиентаИПродавцаПродукта</name>
+          <description>Разрешить изменять клиента и продавца продукта</description>
+          <code>30055</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="875b4ebb-f068-403a-8585-8870fde0c28d">
+          <name>РазрешитьИзменятьСкладПродажиДляПродуктовБезНадстройки</name>
+          <description>Разрешить изменять склад продажи для продуктов без надстройки</description>
+          <code>30028</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="267e9772-84c8-4839-8bc7-7fc0f40b362d">
+          <name>РазрешитьИзменятьСкладПродажиДляПродуктовСНадстройкой</name>
+          <description>Разрешить изменять склад продажи для продуктов с надстройкой</description>
+          <code>30041</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="ff4b3c23-6b41-41ee-832d-e892000e1808">
+          <name>РазрешитьИзменятьСрокУстраненияНедостатков</name>
+          <description>Разрешить изменять сроки устранения недостатков</description>
+          <code>30005</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="c941caca-beab-4e2d-83d5-bf2b8413fe47">
+          <name>РазрешитьРедактироватьDLV</name>
+          <description>Разрешить редактировать DLV</description>
+          <code>30054</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="b5e7628b-9cd0-4322-bb47-efe959f9fa4d">
+          <name>РазрешитьРедактироватьСОП</name>
+          <description>Разрешить редактировать СОП</description>
+          <code>30056</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="b4ecf353-2741-462b-9df7-1dff48c0addc">
+          <name>РазрешитьРедактироватьСтоимостьПродажиПродуктаБУ</name>
+          <description>Разрешить редактировать стоимость продажи продукта Б/У</description>
+          <code>30053</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+      <content id="5f3b89c9-da8e-4dac-ad26-46629f876145">
+        <name>ТипыТопливаДвигателейПродуктов</name>
+        <description>Типы топлива двигателей продуктов</description>
+        <isFolder>true</isFolder>
+        <code>30032</code>
+        <type/>
+        <content id="d6e293dc-b5d0-444f-a7e9-04b0abba3a7d">
+          <name>РазрешатьДобавлятьТипыТопливаДвигателейПродуктов</name>
+          <description>Разрешать добавлять типы топлива двигателей продуктов</description>
+          <code>30033</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCharacteristicTypes.Scan_ПраваИНастройки.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>ChartOfCharacteristicTypes.Scan_ПраваИНастройки.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>ChartOfCharacteristicTypes.Scan_ПраваИНастройки.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>ChartOfCharacteristicTypes.Scan_ПраваИНастройки.Form.ФормаВыбора</defaultChoiceForm>
+  <defaultFolderChoiceForm>ChartOfCharacteristicTypes.Scan_ПраваИНастройки.Form.ФормаВыбораГруппы</defaultFolderChoiceForm>
+  <attributes uuid="fdbdbc8b-6eaf-4719-91b3-2b2ce61186b9">
+    <name>ЗначениеПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение по умолчанию</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Значение по умолчанию</value>
+    </synonym>
+    <comment>Значение права / настройки по умолчанию</comment>
+    <type>
+      <types>Characteristic.Scan_ПраваИНастройки</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Значение права / настройки по умолчанию</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Значение права / настройки по умолчанию</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="98ac9f03-1b50-4f3e-ae61-f3edaff71e03">
+    <name>Назначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Назначение</value>
+    </synonym>
+    <comment>Признак доступности права / настройки для компании / организации / подразделения / пользователя</comment>
+    <type>
+      <types>EnumRef.Scan_НазначениеПравИНастроек</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак доступности права / настройки для компании / организации / подразделения / пользователя</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Признак доступности права / настройки для компании / организации / подразделения / пользователя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1e013d24-7bca-4336-a9ab-dbc7bc42fa37">
+    <name>НастройкаОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка организации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Настройка организации</value>
+    </synonym>
+    <comment>Настройка организации</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Настройка организации</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Настройка организации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fc139869-7b13-4f27-b671-c9a2917c0f0a">
+    <name>НастройкаПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка пользователя</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Настройка пользователя</value>
+    </synonym>
+    <comment>Настройка пользователя</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Настройка пользователя</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Настройка пользователя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3d3cfbf3-0c50-4b77-a178-ff72c1a4995b">
+    <name>ЭтоНастройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это настройка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Это настройка</value>
+    </synonym>
+    <comment>Настройки могут изменяться пользователем, Права изменяются только администратором</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Настройки могут изменяться пользователем, Права изменяются только администратором</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Настройки могут изменяться пользователем, Права изменяются только администратором</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e0e36feb-34c8-421a-8e9e-0a1abdc54918">
+    <name>НастройкаПодразделения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка подразделения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Настройка подразделения</value>
+    </synonym>
+    <comment>Настройка подразделения</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Настройка подразделения</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Настройка подразделения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c3d88f9e-9802-4751-80a5-f1178db28d15">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="10305f92-badf-4aea-b479-f0cfa02797b8">
+    <name>ФормаВыбораГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="243cd94d-f301-4388-85ca-e649042765a5">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1cd319d4-60fb-4cef-bf3a-76a1194a10d6">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a5505c36-b756-41c8-a20f-838ccd688ee6">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="0e308268-095d-424d-8b30-939025d2bcf8">
+    <name>НастройкиПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки по умолчанию</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Настройки по умолчанию</value>
+    </synonym>
+    <comment>Макет в котором задаются права и настройки по умолчанию</comment>
+  </templates>
+</mdclass:ChartOfCharacteristicTypes>

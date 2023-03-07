@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25a6a6c8-48a7-4594-9e31-854eb49391c1">
+  <name>Scan_ОтчетыИОбработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты и обработки</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Reporting and Processing</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ДополнительныеОтчетыИОбработки</content>
+  <content>InformationRegister.ПользовательскиеМакетыПечати</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

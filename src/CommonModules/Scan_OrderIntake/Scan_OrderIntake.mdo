@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a768147-eca1-4a4f-b425-573e9e102ab1">
+  <name>Scan_OrderIntake</name>
+  <synonym>
+    <key>ru</key>
+    <value>Order intake (scania)</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

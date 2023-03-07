@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28877340-b061-41a0-b3b3-9b960d60b2b9">
+  <producedTypes>
+    <refType typeId="9d936b49-03dd-4629-9405-da006e56417c" valueTypeId="f175b558-1eac-4960-b0c3-a8bcd99a4cad"/>
+    <listType typeId="cc5471f4-0bd0-450b-97e8-d217b65f906b" valueTypeId="1f671195-d332-4e7c-8b7e-c47fa44b1fb6"/>
+    <managerType typeId="1cf3b3bf-e66d-4a34-a34e-3c3a9623f679" valueTypeId="efe96d30-286c-446d-8806-d7e3014b247a"/>
+  </producedTypes>
+  <name>Scan_ДополнительнаяИнформацияПоПродуктам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительная информация по продуктам</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Additional product Information</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2513e783-b617-4de8-929c-55ae140abb01">
+    <name>IDExternalSystem</name>
+    <synonym>
+      <key>ru</key>
+      <value>IDExternal system</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>IDExternal system</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4df7ef1b-5ee5-4942-a3d7-1c888ceaa52a">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of renewal</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9d8cab14-ecc9-45fa-b726-6766ccc460f7">
+    <name>ЗаказНаЗавод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ на завод</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Orders to the plant</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8c33f0a3-e588-4c8c-8af3-591dac66beee">
+    <name>Изделие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукт</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Product</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="37fb442c-fa03-472f-a116-25a2bce1851b">
+    <name>МодельПродукта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель продукта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Product model</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cec10b80-cf6d-4d5a-9160-3df288390599">
+    <name>ТипЛогистический</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип логистический</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Logistic Type</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="719cc17a-c325-43eb-b121-b3e3543e7e61">
+    <name>МаркаПродукта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Марка продукта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Product Brand</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="57f5d1f4-1535-4f2b-94f9-8d35f6d11ea1">
+    <name>ТипПродукта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип продукта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Type of product</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="18969fe4-ee40-45a1-93a7-e54c30893e1b">
+    <name>Спецификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спецификация</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Specification</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2ba3543c-1dc1-4004-9584-4fff79d0ebdf">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Customer</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7699b7f8-44e7-4b19-956e-155975767b46">
+    <name>МенеджерЛогистики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер логистики</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Logistics manager</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c8586ede-fc24-45b2-b425-43a16cd5a682">
+    <name>Заказчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказчик</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Customer</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5c6b749f-9d3c-4d61-99f4-0e97fc652bf5">
+    <name>ПродавецЗаказчика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продавец заказчика</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Customer`s manager</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b1ded308-f173-4ff3-8353-d45644ee820b">
+    <name>ДатаПродажиИзделия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата продажи продукта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of products sale</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c4f64bad-8e43-420a-a7d9-02b0abece713">
+    <name>ДатаПередачиИзделияДилеру</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата передачи продукта дилеру</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Delivery to dealer date</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c0cdd578-18f4-4e10-91d0-443d56910467">
+    <name>СОП</name>
+    <synonym>
+      <key>ru</key>
+      <value>СОП</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>SOP</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0e181e83-9f22-4d15-9981-7b49fe272e58">
+    <name>ПродуктВАрхиве</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукт в архиве</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Product is in the archive</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="05ce73c3-9ef4-4393-b3f7-5515ec797af0">
+    <name>СебестоимостьЛогистическая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Себестоимость логистическая</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Prime cost</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="765eef62-3fcf-4f2f-81c5-125a26ab60a0">
+    <name>НеОбновлятьМоделиИз1БД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не обновлять модели из1 БД</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Do not update models from 1C</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0e0b08b4-f0b1-48e6-8d1f-15beb272ff69">
+    <name>НеОбновлятьЛогистическиеТипыИз1БД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не обновлять логистические типы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Do not update logistic types</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18bf6916-83cc-41e5-a35b-1489450ae632">
+  <producedTypes>
+    <listType typeId="9e16ad15-d167-4333-93b1-dd05dfe4196d" valueTypeId="13494fee-f044-4f98-94ee-527ae8a7d2bb"/>
+    <managerType typeId="f3419e42-7083-4e23-8233-2155ef776262" valueTypeId="f672e9f7-cdcc-4293-b1f2-e4c26f912c00"/>
+  </producedTypes>
+  <name>СвязанныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связанные документы</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Related documents</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Scan_СпециальныеУсловия</types>
+    <types>DocumentRef.Scan_ЗаявкаПеревозчику</types>
+    <types>CatalogRef.Scan_СоглашенияОПоставке</types>
+    <types>BusinessProcessRef.Scan_Согласование</types>
+    <types>DocumentRef.Scan_ЗаявкаНаКомплектующие</types>
+    <types>DocumentRef.Scan_СпецификацияСтандартнойМодели</types>
+    <types>DocumentRef.Scan_Калькуляция</types>
+    <types>DocumentRef.Scan_ЗаявкаНаДействие</types>
+    <types>DocumentRef.Scan_ЗаявкаНаОтгрузку</types>
+    <types>DocumentRef.Scan_ЗапросНаНадстройки</types>
+    <types>CatalogRef.Scan_ДоговорыВзаиморасчетов</types>
+    <types>DocumentRef.Scan_УстановкаПланаПоОтгрузкам</types>
+    <types>DocumentRef.Scan_ДвижениеИзделий</types>
+    <types>DocumentRef.Scan_ПеремещениеИзделий</types>
+    <types>DocumentRef.Scan_ПоступлениеКомплектующих</types>
+    <types>DocumentRef.Scan_УстановкаПланаПоOrderIntake</types>
+    <types>DocumentRef.Scan_ПечатныйПрайсЛист</types>
+    <types>DocumentRef.Scan_ЗаказНаЗакупку</types>
+  </type>
+  <content>Catalog.Scan_ДоговорыВзаиморасчетов.Attribute.ДоговорОснование</content>
+  <content>Catalog.Scan_СоглашенияОПоставке.Attribute.Основание</content>
+  <content>Catalog.Scan_СоглашенияОПоставке.TabularSection.СписокПродуктов.Attribute.СпециальныеУсловия</content>
+  <content>Catalog.Scan_СпециальныеУсловия.Attribute.СтандартнаяСпецификация</content>
+  <content>Document.Scan_ЗаказНаЗакупку.Attribute.ДокументОснование</content>
+  <content>Document.Scan_ЗапросНаНадстройки.Attribute.СоглашениеОПоставке</content>
+  <content>Document.Scan_ЗаявкаНаДействие.Attribute.ДокументОснование</content>
+  <content>Document.Scan_ЗаявкаНаКомплектующие.Attribute.ДокументОснование</content>
+  <content>Document.Scan_ЗаявкаНаОтгрузку.Attribute.СоглашениеОПоставке</content>
+  <content>Document.Scan_ЗаявкаПеревозчику.TabularSection.ДокументыОснования.Attribute.Документ</content>
+  <content>Document.Scan_Калькуляция.Attribute.ДокументОснование</content>
+  <content>Document.Scan_ПеремещениеИзделий.Attribute.ДокументОснование</content>
+  <content>Document.Scan_ПечатныйПрайсЛист.Attribute.ДокументОснование</content>
+  <content>Document.Scan_ПоступлениеКомплектующих.Attribute.ДокументОснование</content>
+  <content>Document.Scan_СпецификацияСтандартнойМодели.Attribute.ДокументОснование</content>
+  <content>Document.Scan_УстановкаПланаПоOrderIntake.Attribute.ДокументОснование</content>
+  <content>Document.Scan_УстановкаПланаПоОтгрузкам.Attribute.ДокументОснование</content>
+  <content>BusinessProcess.Scan_Согласование.Attribute.Предмет</content>
+  <content>Document.Scan_ЗаявкаНаОтгрузку.Attribute.ИсходнаяЗаявкаНаОтгрузку</content>
+  <content>Catalog.Scan_СоглашенияОПоставке.Attribute.ИсходнаяЗаявка</content>
+</mdclass:FilterCriterion>

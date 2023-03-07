@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="feb874af-81b4-4fad-8d6b-afbd2d3b067f">
+  <producedTypes>
+    <containerType typeId="a7fa93ca-a88a-4208-b9ba-00792d934e4b" valueTypeId="6e42928d-ea0d-4dc7-997d-40b1abaffe93"/>
+  </producedTypes>
+  <name>Scan_ИсключенияЗначимыеСобытия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исключения значимые события (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Исключения значимые события (scania)</value>
+  </synonym>
+  <type>
+    <types>InformationRegisterRecordSet.НапоминанияПользователя</types>
+    <types>InformationRegisterRecordSet.ВерсииПодсистем</types>
+    <types>InformationRegisterRecordSet.КэшПрограммныхИнтерфейсов</types>
+    <types>InformationRegisterRecordSet.НазначениеДополнительныхОбработок</types>
+    <types>CatalogObject.ПользовательскиеНастройкиОтчетов</types>
+    <types>InformationRegisterRecordSet.НастройкиВариантовОтчетов</types>
+    <types>InformationRegisterRecordSet.ДополнительныеСведения</types>
+    <types>ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения</types>
+    <types>CatalogObject.ДополнительныеОтчетыИОбработки</types>
+    <types>InformationRegisterRecordSet.НомераОтсканированныхФайлов</types>
+    <types>CatalogObject.ПредопределенныеВариантыОтчетов</types>
+    <types>CatalogObject.ЗначенияСвойствОбъектов</types>
+    <types>CatalogObject.НаборыДополнительныхРеквизитовИСведений</types>
+    <types>CatalogObject.ИдентификаторыОбъектовМетаданных</types>
+    <types>CatalogObject.ВариантыОтчетов</types>
+    <types>InformationRegisterRecordSet.ВерсииОбъектов</types>
+  </type>
+</mdclass:DefinedType>

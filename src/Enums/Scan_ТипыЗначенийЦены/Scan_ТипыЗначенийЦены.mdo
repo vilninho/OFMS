@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ccf813fb-6ede-42e8-8947-0b5d5a7f138d">
+  <producedTypes>
+    <refType typeId="2c93b6fa-d429-4ddc-b459-6919844c0322" valueTypeId="a8a7b00b-8175-4f24-a753-5e9ed3927f5e"/>
+    <listType typeId="5cfd510f-546d-4d01-82bc-fe0f449b1ece" valueTypeId="87af1a22-bbc2-45b9-8817-2b13e6cbd0a7"/>
+    <managerType typeId="cb3be706-f25a-46d2-a8ec-f12e4385a74a" valueTypeId="83dc80c2-9848-4338-b53c-bd206b24ca94"/>
+  </producedTypes>
+  <name>Scan_ТипыЗначенийЦены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы значений цены (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Price value types (scania)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="db50a10f-5e2e-4437-b43d-a311ac856318">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="341c3fb3-1898-49c2-a9b7-031dd425550c">
+    <name>Процент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

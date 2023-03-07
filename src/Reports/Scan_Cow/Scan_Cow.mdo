@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8105a9aa-64e7-4f6c-9688-9a57c47f5cbd">
+  <producedTypes>
+    <objectType typeId="d4a632ae-269a-4c95-bbce-14b1700ab1ea" valueTypeId="741462de-b0c9-4f77-8188-ca5865d50841"/>
+    <managerType typeId="30230f24-dc04-43e2-9132-5ff30e335213" valueTypeId="da35b66f-3d45-4094-9285-7ca700270aa3"/>
+  </producedTypes>
+  <name>Scan_Cow</name>
+  <synonym>
+    <key>ru</key>
+    <value>Cow (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Cow (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.Scan_Cow.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.Scan_Cow.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="dcdb7ee0-6747-471d-8ef9-df251227bd8d">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1cbc3768-c621-4f46-a7a2-ad4227607e23">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

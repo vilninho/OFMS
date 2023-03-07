@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad4f35a6-b535-447b-be93-e34b8873b7b1">
+  <producedTypes>
+    <objectType typeId="b184307a-e71d-406b-9e11-04b07eb6999c" valueTypeId="a05b49f9-7f5d-4eba-b7bc-97e6e7abb0ed"/>
+    <refType typeId="eb02e59b-fa34-4d31-9f7e-8ffba2b83959" valueTypeId="074be1c2-437f-478c-97a3-30d13df6f060"/>
+    <selectionType typeId="381f5d00-74a5-47de-9dec-357c865c00e0" valueTypeId="30028378-9ae8-49ef-93d5-609ff2cb3696"/>
+    <listType typeId="ce30783e-6c3b-4259-b8cc-f027536fe503" valueTypeId="ad763c49-fe75-4d99-aa0f-0eb374c4beeb"/>
+    <managerType typeId="5a30a4ba-19ad-418d-9a86-c672fbc08a0a" valueTypeId="d4e2ddd3-5af5-44bd-8e22-6ae376a912ab"/>
+  </producedTypes>
+  <name>Scan_ПакетыСервисныхОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пакеты сервисных операций (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Пакеты сервисных операций (scania)</value>
+  </synonym>
+  <comment>Пакеты сервисных операций, выполняемых при контроле технического состояния</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_ПакетыСервисныхОпераций.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_ПакетыСервисныхОпераций.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование пакета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Наименование пакета</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <explanation>
+    <key>ru</key>
+    <value>Пакеты сервисных операций, выполняемых при контроле технического состояния</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>Пакеты сервисных операций, выполняемых при контроле технического состояния</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_ПакетыСервисныхОпераций.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_ПакетыСервисныхОпераций.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="bf660e2b-bd93-4d34-b566-009ae39e63e0">
+    <name>Недействителен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Недействителен</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Недействителен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пакет больше не используется, но сведения о нем сохранены. При автоматическом формировании документа &quot;Чек лист технического состояния продукта&quot; пакет использоваться не будет.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Пакет больше не используется, но сведения о нем сохранены. При автоматическом формировании документа &quot;Чек лист технического состояния продукта&quot; пакет использоваться не будет.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f9d6ad98-7fdb-4508-a934-195f1dc271de">
+    <name>СрокКТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок контроля технического состояния, дней</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Срок контроля технического состояния, дней</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="ba7a0c31-27e7-4667-953d-4953d55df1ca">
+    <producedTypes>
+      <objectType typeId="e596e6c1-89a8-4c3e-b276-8419021aef6f" valueTypeId="efb29f96-7028-4781-a228-b54b6221d2cf"/>
+      <rowType typeId="726bb29d-dac9-418f-a642-80310efb5f93" valueTypeId="97343eb1-0729-482b-a966-77e6be477c00"/>
+    </producedTypes>
+    <name>СервисныеОперацииПакета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервисные операции пакета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Сервисные операции пакета</value>
+    </synonym>
+    <attributes uuid="cb92eda2-b22b-4e1b-8e47-e5dd7b65e205">
+      <name>СервиснаяОперацияПакета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сервисная операция пакета</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Сервисная операция пакета</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_СервисныеОперации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="f7543ad1-a0c0-4835-90a2-81fe865a6ab8">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="834b0ceb-a69a-4fed-8bb8-5150494c3d11">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19de9f45-7c6e-4bfc-9680-845bcb6aa4d7">
+  <producedTypes>
+    <objectType typeId="c9084b19-19fd-4c82-bb99-76fe25046106" valueTypeId="f32a85d4-93a3-43c7-91d2-cdd21e1fcdb7"/>
+    <refType typeId="c4b8c4c4-c225-47b2-9c22-22c683fabca5" valueTypeId="5ffcf99d-5a14-4203-b0ee-2e7930344430"/>
+    <selectionType typeId="d71d6b1a-d04b-47d6-b95c-a2cc87faf5ec" valueTypeId="842ce462-9d07-47b4-a1ed-baa33f6809f0"/>
+    <listType typeId="431b33cd-d1c5-4a3a-a2d1-be31f121956d" valueTypeId="e2192cbc-4d32-44be-8026-68e9a4ff4d61"/>
+    <managerType typeId="78985a15-a4f1-4aec-ad18-3e7ddafd40a2" valueTypeId="520a2e41-3236-4cd4-a8b4-5b1c55be91bc"/>
+  </producedTypes>
+  <name>Scan_ТипыПродуктовЛогистика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы продуктов (логистика) (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Product Subtype (logistics) (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_ТипыПродуктовЛогистика.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_ТипыПродуктовЛогистика.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_ТипыПродуктовЛогистика.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_ТипыПродуктовЛогистика.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="8a88442a-3abb-4c4e-9584-fbe2afbb37f7">
+    <name>IDExternalSystem</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID External System</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ID External System</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fcdd02d7-f849-4298-93b4-34978747d112">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of renewal</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2c555a26-8f0f-4a4e-9a86-dd5c3a376dbe">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form element</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="de32da5a-4f66-4057-a4b9-2928c3c2f31e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

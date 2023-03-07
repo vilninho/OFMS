@@ -1,0 +1,77 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.scania.org/webservice/SRUService/CustPayments" elementFormQualified="false" attributeFormQualified="false">
+	<property name="Contract">
+		<typeDef xsi:type="ObjectType">
+			<property name="ContractAccount" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/CustPayments" ref="d4p1:Payment" upperBound="-1"/>
+		</typeDef>
+	</property>
+	<property name="CustPayments">
+		<typeDef xsi:type="ObjectType">
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/CustPayments" ref="d4p1:Customer" lowerBound="0" upperBound="-1"/>
+		</typeDef>
+	</property>
+	<property name="Customer">
+		<typeDef xsi:type="ObjectType">
+			<property name="KPP" lowerBound="0" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property name="INN" type="xs:string" lowerBound="0" form="Attribute"/>
+			<property name="CustomerAccount" type="xs:string" lowerBound="1" form="Attribute"/>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/CustPayments" ref="d4p1:Contract" upperBound="-1"/>
+		</typeDef>
+	</property>
+	<property name="Line">
+		<typeDef xsi:type="ObjectType">
+			<property name="GUID" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="36"/>
+			</property>
+			<property name="PREPAYMENT" type="xs:byte" lowerBound="1" form="Attribute"/>
+			<property name="RECID" type="xs:long" lowerBound="1" form="Attribute"/>
+			<property name="RECVERSION" type="xs:byte" lowerBound="1" form="Attribute"/>
+			<property name="THIRDPARTYBANKACCOUNTID" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property name="TXT" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property name="VOUCHER" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property name="AMOUNTMST" type="xs:decimal" lowerBound="1" form="Attribute"/>
+			<property name="AMOUNTCUR" type="xs:decimal" lowerBound="1" form="Attribute"/>
+			<property name="APPROVEDBY" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property name="COMPANYBANKACCOUNTID" type="xs:long" lowerBound="1" form="Attribute"/>
+			<property name="CORRECT" type="xs:byte" lowerBound="1" form="Attribute"/>
+			<property name="CREATEDBY" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property name="CREATEDDATE" type="xs:dateTime" lowerBound="1" form="Attribute"/>
+			<property name="CREATEDTIME" type="xs:int" lowerBound="1" form="Attribute"/>
+			<property name="CREATEDTRANSACTIONID" type="xs:long" lowerBound="1" form="Attribute"/>
+			<property name="CURRENCYCODE" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property name="DATAAREAID" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property name="MODIFIEDBY" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property name="MODIFIEDDATE" type="xs:dateTime" lowerBound="1" form="Attribute"/>
+			<property name="MODIFIEDTIME" type="xs:int" lowerBound="1" form="Attribute"/>
+			<property name="MODIFIEDTRANSACTIONID" type="xs:long" lowerBound="1" form="Attribute"/>
+		</typeDef>
+	</property>
+	<property name="Payment">
+		<typeDef xsi:type="ObjectType">
+			<property name="TRANSDATE" type="xs:dateTime" lowerBound="1" form="Attribute"/>
+			<property name="DOCUMENTNUM" type="xs:string" lowerBound="1" form="Attribute"/>
+			<property name="DOCUMENTDATE" type="xs:dateTime" lowerBound="1" form="Attribute"/>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/CustPayments" ref="d4p1:Line" upperBound="-1"/>
+		</typeDef>
+	</property>
+</package>

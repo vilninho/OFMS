@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a82957e4-24e8-43ad-8bdb-37d747a8aee6">
+  <producedTypes>
+    <objectType typeId="592fe47d-2724-4a73-9d86-40e22cd8f347" valueTypeId="a575bf67-ed5f-4035-b8cd-59862cc4f9a2"/>
+    <managerType typeId="10871f0e-46ed-4652-85c0-65f533a47350" valueTypeId="1204c301-9bd9-413f-8395-6c78268c4cb5"/>
+  </producedTypes>
+  <name>Scan_ПокупкаПродуктовУСканияПитер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Покупка продуктов у Скания-Питер (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.Scan_ПокупкаПродуктовУСканияПитер.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.Scan_ПокупкаПродуктовУСканияПитер.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="3cf90cdf-35ab-4865-a4e1-c44167a49aa5">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1c0ffb67-9d3c-430c-9a6f-13c9fd767c7d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

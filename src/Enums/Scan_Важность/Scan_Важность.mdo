@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fab5d877-ed21-407b-941b-a12b0664eba5">
+  <producedTypes>
+    <refType typeId="79a3f5bf-a840-4215-a2cb-dfe519a5a0e3" valueTypeId="389cb6f4-0c43-4e77-81a2-d99fde9f1841"/>
+    <listType typeId="5f7230d6-385f-48c8-96c8-d78ec41fab51" valueTypeId="1264539d-7b9b-4f9e-b185-d74b013eba4b"/>
+    <managerType typeId="2970a592-bbe4-4941-b6ac-340000ee2745" valueTypeId="f2aa74e3-c8cd-4928-9129-136dba21a4e4"/>
+  </producedTypes>
+  <name>Scan_Важность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Важность (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Важность (scania)</value>
+  </synonym>
+  <comment>Важность (scania)</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <explanation>
+    <key>ru</key>
+    <value>Важность (уат)</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>Важность (уат)</value>
+  </explanation>
+  <enumValues uuid="395fe2df-0849-4c56-8194-a871613b7a08">
+    <name>Высокая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высокая</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Высокая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9150950b-29fc-44df-b6ac-f0d45041d8a7">
+    <name>Средняя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средняя</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Средняя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="842547f9-627f-44a8-8305-521734bf91c4">
+    <name>Низкая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Низкая</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Низкая</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

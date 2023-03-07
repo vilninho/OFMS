@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c69a0ba-2293-40c2-bc12-2d87c2f3bfcd">
+  <producedTypes>
+    <selectionType typeId="083de39a-332c-47f4-8daa-a2b4b2f08afd" valueTypeId="321ddf71-9a4b-4ab9-ae99-5f6a51ddb3a2"/>
+    <listType typeId="c2cf02ad-c088-41f1-b096-1fb29656ae8a" valueTypeId="5bbe8367-1535-4526-a1c6-8fd783c5a8c5"/>
+    <managerType typeId="ef3cfea8-34b9-4af7-a137-dd07602ce966" valueTypeId="01e589ce-b884-425d-b1ad-558b4d8cf843"/>
+    <recordSetType typeId="5eaee088-8ebc-4d44-8bdd-fa7e9055db92" valueTypeId="4e363b91-461f-49c7-b581-8e8ea141fb8d"/>
+    <recordKeyType typeId="27ce6e5a-01f7-445e-81cf-7a63728cb4ae" valueTypeId="b7a7c781-a6d1-4486-b707-b943b1055a74"/>
+    <recordType typeId="34e685ff-550d-478d-8c11-9267e805dfee" valueTypeId="225b88a2-f354-4cc4-8fd6-cd573628222e"/>
+    <recordManagerType typeId="81f1cd07-1205-43a8-92d0-2171ff45dfe8" valueTypeId="f58a14a7-63d6-4e65-9c69-621d54be6a13"/>
+  </producedTypes>
+  <name>Scan_СведенияОСотрудниках</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения о сотрудниках</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Employee information</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_СведенияОСотрудниках.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_СведенияОСотрудниках.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b23dde38-859f-43a5-acb1-ebae8105154e">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="79178390-b4fb-4f6f-a4ca-712f0d956e6c">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Position</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7483c531-5545-43ff-bc9a-406466e00b68">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Division</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="27e3b18e-9b5a-4f53-99d9-fd86e3dcd649">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Organization</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="9bbf1bac-7a3e-468a-b3b3-d7dab1a94733">
+    <name>ПользовательАвтор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь (автор)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User (author)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="12891f93-d305-42b4-b1c6-18555a610605">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Employee</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="c6207627-221b-4132-84b2-789772f7c091">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Recording form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="20d4f8f5-1f6a-47a7-b8b6-4c83405ede83">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

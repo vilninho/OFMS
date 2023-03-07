@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce083b1a-dd4c-4bbf-af66-22a4ae9fea10">
+  <name>Scan_ПередЗаписьюДокументаЗаписьПараметров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перед записью документа запись параметров</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Перед записью документа запись параметров</value>
+  </synonym>
+  <comment>(Scania)</comment>
+  <source>
+    <types>DocumentObject.Scan_ЗакреплениеМенеджеровОКПЗаДилерами</types>
+    <types>DocumentObject.Scan_УстановкаЦенОпцийИПакетов</types>
+    <types>DocumentObject.Scan_ЧекЛистТехническогоСостоянияИзделия</types>
+    <types>DocumentObject.Scan_ЗакреплениеМенеджеровЗаДилерами</types>
+    <types>DocumentObject.Scan_ЗаказНаЗакупку</types>
+    <types>DocumentObject.Scan_ПечатныйПрайсЛист</types>
+    <types>DocumentObject.Scan_ИзменениеЦен</types>
+    <types>DocumentObject.Scan_ЗаявкаНаКомплектующие</types>
+    <types>DocumentObject.Scan_ЗаявкаНаОтгрузку</types>
+    <types>DocumentObject.Scan_Калькуляция</types>
+    <types>DocumentObject.Scan_УстановкаПланаПоОтгрузкам</types>
+    <types>DocumentObject.Scan_ЗаявкаНаСервисныеРаботы</types>
+    <types>DocumentObject.Scan_УстановкаПланаПоOrderIntake</types>
+    <types>DocumentObject.Scan_ДвижениеИзделий</types>
+    <types>DocumentObject.Scan_СпецификацияСтандартнойМодели</types>
+    <types>DocumentObject.Scan_ПеремещениеИзделий</types>
+    <types>DocumentObject.Scan_ПоступлениеКомплектующих</types>
+    <types>DocumentObject.Scan_ЗаявкаПеревозчику</types>
+    <types>DocumentObject.Scan_ПрайсЛистАренда</types>
+    <types>DocumentObject.Scan_УстановкаПлановыхЦенПродукта</types>
+    <types>DocumentObject.Scan_ЗаявкаНаДействие</types>
+    <types>DocumentObject.Scan_ЗапросНаНадстройки</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.Scan_ОбработчикиПодписокНаСобытия.ПередЗаписьюДокументаЗаписьПараметров</handler>
+</mdclass:EventSubscription>

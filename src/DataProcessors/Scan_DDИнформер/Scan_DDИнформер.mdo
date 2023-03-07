@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d8e6233-aff4-4991-a66f-d1705328d467">
+  <producedTypes>
+    <objectType typeId="a4d1f99d-d510-4743-a6e8-62d58b688344" valueTypeId="118800d6-1696-4f9a-8adb-1fe33b81dd2f"/>
+    <managerType typeId="0eedb4b8-532e-44a1-9082-79d097ce8525" valueTypeId="0e1e43fe-7283-469d-8938-63850fc62c08"/>
+  </producedTypes>
+  <name>Scan_DDИнформер</name>
+  <synonym>
+    <key>ru</key>
+    <value>DD-информер (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>DD-informer (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Scan_DDИнформер.Form.Форма</defaultForm>
+  <forms uuid="32af8544-36f4-47f6-997b-a913c2e34d4f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

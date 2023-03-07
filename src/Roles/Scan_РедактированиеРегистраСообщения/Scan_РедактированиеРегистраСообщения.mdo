@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2192b438-0f3e-480f-b9b6-fed231eeee7e">
+  <name>Scan_РедактированиеРегистраСообщения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактирование регистра Сообщения (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Редактирование регистра Сообщения (scania)</value>
+  </synonym>
+</mdclass:Role>

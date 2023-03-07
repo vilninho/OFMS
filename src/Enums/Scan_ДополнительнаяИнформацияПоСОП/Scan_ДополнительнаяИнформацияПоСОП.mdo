@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d13d1d6-1434-4e9c-8e46-bd71ce63c353">
+  <producedTypes>
+    <refType typeId="ac6d0bcc-8592-4f42-b228-19c546e59576" valueTypeId="a32988cc-1663-439a-8ca1-3e32e0016042"/>
+    <listType typeId="a33820dd-d2c0-426e-b09f-31749cfa1806" valueTypeId="148d9f55-7d96-4175-81b2-5933203f432a"/>
+    <managerType typeId="38b6b3b3-24f3-4510-aa90-3c5b0326a4b6" valueTypeId="fd1bd572-c189-472d-9b98-751d7d582b93"/>
+  </producedTypes>
+  <name>Scan_ДополнительнаяИнформацияПоСОП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительная информация по СОП (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Дополнительная информация по СОП (scania)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="14633da1-9fa1-45e8-be36-f945bfdee8c8">
+    <name>НомерДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер договора</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Number of contract</value>
+    </synonym>
+    <comment>используется</comment>
+  </enumValues>
+  <enumValues uuid="219079af-1367-4353-833d-751dd87396a4">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Валюта</value>
+    </synonym>
+    <comment>используется</comment>
+  </enumValues>
+  <enumValues uuid="1b9b70cb-8a6a-41f5-a067-c2e0dd50acd2">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дата начала</value>
+    </synonym>
+    <comment>используется</comment>
+  </enumValues>
+  <enumValues uuid="f61ac590-da9a-467e-b0ca-ece8b5c6ead2">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <comment>используется</comment>
+  </enumValues>
+  <enumValues uuid="652a6037-a7fa-4dae-8f3e-62daa984f4f4">
+    <name>Бессрочный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бессрочный</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Бессрочный</value>
+    </synonym>
+    <comment>используется</comment>
+  </enumValues>
+  <enumValues uuid="213d0ce7-4cad-4d00-adee-99ea3ee4326a">
+    <name>IDExternalSystem</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID External System</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ID External System</value>
+    </synonym>
+    <comment>используется</comment>
+  </enumValues>
+  <enumValues uuid="6686f903-2b4c-4522-88fb-90423fbba4ca">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Наименование</value>
+    </synonym>
+    <comment>используется</comment>
+  </enumValues>
+  <enumValues uuid="f422e9b4-7af4-4768-b57e-553cc4ae1048">
+    <name>ОсновнойДоговор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной договор</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Основной договор</value>
+    </synonym>
+    <comment>не используется</comment>
+  </enumValues>
+  <enumValues uuid="78853165-0288-49f9-a723-4ee3d3b09b3a">
+    <name>СтатусОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус оплаты</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Статус оплаты</value>
+    </synonym>
+    <comment>используется</comment>
+  </enumValues>
+  <enumValues uuid="d51dce98-c3b8-4530-a438-acb2dcf827ab">
+    <name>Закрыт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыт</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Закрыт</value>
+    </synonym>
+    <comment>не используется</comment>
+  </enumValues>
+  <enumValues uuid="1fafa5fb-3f8e-4ee5-9f2a-fad99db7e4c1">
+    <name>СрокПоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок поставки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Срок поставки</value>
+    </synonym>
+    <comment>не используется</comment>
+  </enumValues>
+  <enumValues uuid="ffa3edc8-4b81-4fa3-99fd-a1c8a0e419fd">
+    <name>МестоПоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место поставки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Место поставки</value>
+    </synonym>
+    <comment>не используется</comment>
+  </enumValues>
+  <enumValues uuid="8dee43c0-6f02-4aa3-b8e2-882e86c3ccfb">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Количество</value>
+    </synonym>
+    <comment>не используется</comment>
+  </enumValues>
+  <enumValues uuid="0430449f-2a5f-4be9-a564-dcc8a4e1cccd">
+    <name>ЦенаПродажиБезНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена продажи без НДС</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Цена продажи без НДС</value>
+    </synonym>
+    <comment>не используется</comment>
+  </enumValues>
+  <enumValues uuid="597949b8-2320-41de-b223-6e60d4436ca3">
+    <name>СуммаПродажиБезНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма продажи без НДС</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Сумма продажи без НДС</value>
+    </synonym>
+    <comment>не используется</comment>
+  </enumValues>
+  <enumValues uuid="abb8a2b5-3c38-4ce3-9670-34aeceb821a6">
+    <name>СебестоимостьБезНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Себестоимость без НДС</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Себестоимость без НДС</value>
+    </synonym>
+    <comment>не используется</comment>
+  </enumValues>
+  <enumValues uuid="1cdb9b4d-4be4-4f83-81df-d9eabff72944">
+    <name>Себестоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Себестоимость</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Себестоимость</value>
+    </synonym>
+    <comment>не используется</comment>
+  </enumValues>
+  <enumValues uuid="4337b6ad-3f40-4097-9408-5541c60bf98b">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <comment>СОП</comment>
+  </enumValues>
+  <enumValues uuid="9c2d7341-c6f8-4dfd-adf3-eaa530d0cd9a">
+    <name>СуммаПоСОПБезНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма по СОП без НДС</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Сумма по СОП без НДС</value>
+    </synonym>
+    <comment>не используется</comment>
+  </enumValues>
+  <enumValues uuid="b82ae9a6-5594-4d3c-a372-702adecbc16c">
+    <name>СебестоимостьСуммаБезНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Себестоимость сумма без НДС</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Себестоимость сумма без НДС</value>
+    </synonym>
+    <comment>не используется</comment>
+  </enumValues>
+  <enumValues uuid="411581ed-9286-4307-bb98-6c9a1abdabc6">
+    <name>СебестоимостьСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Себестоимость сумма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Себестоимость сумма</value>
+    </synonym>
+    <comment>не используется</comment>
+  </enumValues>
+  <enumValues uuid="2bd26664-999c-49d2-9a1c-b4c503427c41">
+    <name>ЗаказНаЗавод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ на завод</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Заказ на завод</value>
+    </synonym>
+    <comment>не используется</comment>
+  </enumValues>
+  <enumValues uuid="4f4ecb19-b689-42b1-ab80-0b5aa5462127">
+    <name>Изделие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукт</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Продукт</value>
+    </synonym>
+    <comment>не используется</comment>
+  </enumValues>
+  <enumValues uuid="402e06c9-236b-45d0-a375-3b886df01c48">
+    <name>Владелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Counterpart</value>
+    </synonym>
+    <comment>используется</comment>
+  </enumValues>
+  <enumValues uuid="aae26f80-bb1f-4584-9fac-add52c1ef315">
+    <name>ВидДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид договора</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Type of contract</value>
+    </synonym>
+    <comment>используется</comment>
+  </enumValues>
+  <enumValues uuid="475d5ee2-7b05-41b4-9cff-a052c041ab35">
+    <name>Компания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компания</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Company</value>
+    </synonym>
+    <comment>используется</comment>
+  </enumValues>
+  <enumValues uuid="fb2261f9-05cf-490d-989d-a306226123f7">
+    <name>СтавкаНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка НДС</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>VAT rate</value>
+    </synonym>
+    <comment>используется</comment>
+  </enumValues>
+  <enumValues uuid="38e1bfc3-e12a-4772-a36b-e89c23b4aa5b">
+    <name>ВключаетНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включает НДС</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Includes VAT</value>
+    </synonym>
+    <comment>используется</comment>
+  </enumValues>
+  <enumValues uuid="f80a7d14-75c0-4cae-8cc8-bbd9d4533f7b">
+    <name>Недействителен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Недействителен</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Not valid</value>
+    </synonym>
+    <comment>используется</comment>
+  </enumValues>
+  <enumValues uuid="5df0ec00-ed27-4673-b6a6-abe86e746d2f">
+    <name>Расторгнут</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расторгнут</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Terminated</value>
+    </synonym>
+    <comment>используется</comment>
+  </enumValues>
+  <enumValues uuid="f3cc6990-4043-4ad2-ac5b-2ff11dc64ca3">
+    <name>ДатаРасторжения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата расторжения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Termination date</value>
+    </synonym>
+    <comment>используется</comment>
+  </enumValues>
+</mdclass:Enum>

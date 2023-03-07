@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="552c3b59-8ed9-4c19-b639-e479a30a455b">
+  <producedTypes>
+    <objectType typeId="3e609a9a-4f53-4927-a1be-3fdf863f82f2" valueTypeId="50a486b2-541c-4bef-86c8-5dcf469988af"/>
+    <refType typeId="e7c5ce39-1899-4ce7-a12d-58223e0474fd" valueTypeId="4d46b28d-a0b7-487e-a0fa-975d8e67b239"/>
+    <selectionType typeId="8afc2334-a088-45bb-8948-441c1b808658" valueTypeId="f2aa2347-c025-469f-b086-9e652ad39ddc"/>
+    <listType typeId="7d44139c-b06a-4e1e-ab6b-8163aee01592" valueTypeId="b30a3db7-79b4-4119-8019-527692e2c907"/>
+    <managerType typeId="147d431a-2cff-4855-868b-e16d2772d646" valueTypeId="c56b670a-d315-40dd-ab85-9571edb2d60e"/>
+  </producedTypes>
+  <name>Scan_ЗаводскиеСтатусыЗаказаНаЗавод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заводские статусы заказа на завод (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Order to delivery statuses</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_ЗаводскиеСтатусыЗаказаНаЗавод.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_ЗаводскиеСтатусыЗаказаНаЗавод.StandardAttribute.Code</inputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Заводской статус заказа на завод</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>120</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_ЗаводскиеСтатусыЗаказаНаЗавод.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_ЗаводскиеСтатусыЗаказаНаЗавод.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Scan_ЗаводскиеСтатусыЗаказаНаЗавод.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="43d4d91e-61da-4d49-9c71-251e4a74dc0d">
+    <name>IDExternalSystem</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID External System</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ID External System</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2b0d3f16-cfe4-4657-b299-d1c6aa7bd08d">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of renovation</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5209bd22-dd9d-4726-8d24-16d14249dbab">
+    <name>СтатусCOW</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус COW</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>COW status</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="fcce8062-79a9-48c5-bd32-b681003381ef">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="23aa9f07-aa4c-4762-b4b2-27ce4871571f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="57c59e99-31a0-4d91-8dee-786cae82af43">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

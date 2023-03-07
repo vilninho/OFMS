@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="941028ca-c7fd-4c63-b8ad-eaf171777ae6">
+  <producedTypes>
+    <selectionType typeId="11823bbb-5066-43ca-9f49-57334602e3e1" valueTypeId="bf0f4fec-f899-403c-86c0-f4b17231f648"/>
+    <listType typeId="00950028-f758-44f8-bfe5-45e7eb96fb21" valueTypeId="cafd65bf-0b7e-4826-947b-1e9c597bff11"/>
+    <managerType typeId="0f05b2c5-cceb-4b57-abc6-c279d719859a" valueTypeId="498741a5-e938-46c6-8d48-12864752cb97"/>
+    <recordSetType typeId="094d1529-7da1-49df-b06d-832d4cf68b2e" valueTypeId="361d47e9-5f5a-4fac-b6f9-5d6e293ba0d2"/>
+    <recordKeyType typeId="196baab3-a210-4308-8b15-42fb118f8dd4" valueTypeId="09fe1b45-55ac-4255-84d5-b5f435fe8925"/>
+    <recordType typeId="47d5a0f3-5a24-4348-a13e-1747f55fd270" valueTypeId="f072cfc3-648b-4d14-ba26-33b86dd5e0ff"/>
+    <recordManagerType typeId="f8d11670-21e7-4734-8b06-6706fe1f44cd" valueTypeId="8eb97069-4e60-4b4c-9afc-8545296c07a9"/>
+  </producedTypes>
+  <name>Scan_ЗакреплениеМенеджеровДепартаментаПродажАвтобусовЗаДилерами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрепление менеджеров департамента продаж автобусов за дилерами</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Assigning managers to dealers (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="3d4b08ca-9c37-43a4-a780-702c15477ccf">
+    <name>Менеджер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Manager</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="79d4d232-0be0-4e71-9ca7-643ace39051f">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="add53d66-f23b-4eb1-a65c-4aafc2fb39cb">
+    <name>Дилер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дилер</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Dealer</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Компании</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

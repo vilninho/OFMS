@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09d24bd8-c93e-4e8f-9921-c9c60f76d374">
+  <name>Scan_ДобавлениеИзменениеСправочниковLeadTime</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение справочников Lead Time (scania)</value>
+  </synonym>
+</mdclass:Role>

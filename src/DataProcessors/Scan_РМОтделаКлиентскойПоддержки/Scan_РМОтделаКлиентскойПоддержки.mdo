@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2a9b7d3-d057-4cdf-a010-778477c37717">
+  <producedTypes>
+    <objectType typeId="1aff5d18-51a0-4464-a5e7-539b357b3536" valueTypeId="da2461cc-82cb-4701-8041-1a1985013c33"/>
+    <managerType typeId="962b4074-96ba-4c8e-a434-d0a30a55ada4" valueTypeId="d8791511-6018-46d2-ace1-a54089d3f4b5"/>
+  </producedTypes>
+  <name>Scan_РМОтделаКлиентскойПоддержки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочее место отдела клиентской поддержки (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Client support department workplace (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Scan_РМОтделаКлиентскойПоддержки.Form.Форма</defaultForm>
+  <forms uuid="75ef84f2-00e3-4e2e-b5e3-fbad8a78dd76">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

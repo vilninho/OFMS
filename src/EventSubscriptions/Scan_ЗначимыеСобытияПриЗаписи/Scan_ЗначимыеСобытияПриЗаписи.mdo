@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ba30188-6fbf-400a-b1f0-d831df4a4d50">
+  <name>Scan_ЗначимыеСобытияПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значимые события при записи (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Значимые события при записи (scania)</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Scan_МаркиПродуктов</types>
+    <types>CatalogObject.Scan_ДоговорыВзаиморасчетов</types>
+    <types>CatalogObject.Scan_ДополнительныеУсловияДоставки</types>
+    <types>CatalogObject.Scan_Компании</types>
+    <types>CatalogObject.Scan_ГруппыПродуктов</types>
+    <types>CatalogObject.Scan_Сотрудники</types>
+    <types>CatalogObject.Scan_МоделиПродуктов</types>
+    <types>CatalogObject.Scan_Подразделения</types>
+    <types>CatalogObject.Scan_ЗаказыНаЗавод</types>
+    <types>CatalogObject.Scan_ТипыПродуктов</types>
+    <types>CatalogObject.Scan_Изделия</types>
+    <types>CatalogObject.Scan_КонтрольныеТочкиБизнесПроцессов</types>
+    <types>CatalogObject.Scan_СтатусыЗаявокНаДействие</types>
+    <types>CatalogObject.Scan_АдресаХранения</types>
+    <types>CatalogObject.Scan_ТипыКабинИзделий</types>
+    <types>CatalogObject.Scan_ГруппыПользователейДляСогласования</types>
+    <types>CatalogObject.Организации</types>
+    <types>CatalogObject.Scan_ШаблоныСогласования</types>
+    <types>CatalogObject.Scan_СотрудникиПрисоединенныеФайлы</types>
+    <types>CatalogObject.Scan_КонтактныеЛица</types>
+    <types>CatalogObject.Scan_ХозяйственныеОперации</types>
+    <types>CatalogObject.Валюты</types>
+    <types>DocumentObject.Scan_ДвижениеИзделий</types>
+    <types>CatalogObject.Scan_ДействияНаЗначимыеСобытия</types>
+    <types>DocumentObject.Scan_ПеремещениеИзделий</types>
+    <types>DocumentObject.Scan_ЗаявкаПеревозчику</types>
+    <types>CatalogObject.Scan_Должности</types>
+    <types>CatalogObject.Scan_ВидыПродуктов</types>
+    <types>CatalogObject.Scan_ТипыПродуктовЛогистика</types>
+    <types>CatalogObject.Scan_ЗначимыеСобытия</types>
+    <types>CatalogObject.Scan_СпецификацииПродуктов</types>
+    <types>CatalogObject.Scan_ВидыТахографов</types>
+    <types>DocumentObject.Scan_ЗаявкаНаДействие</types>
+    <types>CatalogObject.Scan_Контрагенты</types>
+    <types>CatalogObject.Scan_МестаХранения</types>
+    <types>CatalogObject.Пользователи</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.Scan_ЗначимыеСобытия.ЗначимыеСобытияПриЗаписи</handler>
+</mdclass:EventSubscription>

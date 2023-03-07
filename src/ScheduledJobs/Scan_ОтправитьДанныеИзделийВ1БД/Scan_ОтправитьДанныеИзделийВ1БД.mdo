@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1630701d-89e7-48c5-b708-5a250a05806f">
+  <name>Scan_ОтправитьДанныеИзделийВ1БД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправить данные продуктов в 1БД</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Отправить данные продуктов в 1БД</value>
+  </synonym>
+  <methodName>CommonModule.Scan_РегламентныеЗадания.ОтправитьДанныеИзделийВ1БД</methodName>
+  <description>Отправить данные изделий в 1БД</description>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

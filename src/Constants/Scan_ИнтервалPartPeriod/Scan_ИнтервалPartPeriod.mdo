@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eaf74eca-73fb-4072-a552-1f630022106b">
+  <producedTypes>
+    <managerType typeId="41139ca4-49d1-4165-bc6e-981b2efe327a" valueTypeId="ff577ebd-fa51-45df-9e43-65ebe443c5c4"/>
+    <valueManagerType typeId="a85612a7-d1a5-4231-92e6-d3d1deeab223" valueTypeId="ffdfc280-bb0e-4f53-8a45-4b04199f5bdc"/>
+    <valueKeyType typeId="67918284-5e80-5d86-8c9d-21c4fdc5c67a" valueTypeId="cf5dbee7-d0ac-5811-98fd-34cd16a97221"/>
+  </producedTypes>
+  <name>Scan_ИнтервалPartPeriod</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество месяцев для проверки соответствия даты начала действия прайс-листа и Part Period</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Part Period Interval, months (scania)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Интервал Part Period в месяцах (scania)</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

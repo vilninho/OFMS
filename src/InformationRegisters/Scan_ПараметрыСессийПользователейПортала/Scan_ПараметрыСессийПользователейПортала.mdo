@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee2b56da-78b0-44ac-9581-118156ed0f3a">
+  <producedTypes>
+    <selectionType typeId="aa3442ea-80bd-41c9-b9a3-dd7ae4ff3160" valueTypeId="16af55e9-b199-4936-acac-e1cb88dba98f"/>
+    <listType typeId="ee862edb-a491-4932-a4e0-b9623b2fde76" valueTypeId="db25b5f0-0795-4c9b-9523-37cc0a0f1eda"/>
+    <managerType typeId="d66807d0-0abb-4be3-aa4b-c8f51778dca8" valueTypeId="c3a6b1f2-4624-4ed6-bc52-79742c584644"/>
+    <recordSetType typeId="319f2915-c650-4171-96f9-af192a37bfbe" valueTypeId="7c9c455b-c75a-4aea-8a7a-5344b034e579"/>
+    <recordKeyType typeId="c5e1a09e-0b96-4de9-a58d-eef97cfcefa6" valueTypeId="79a19cad-d592-48c9-a395-aa121c190ff6"/>
+    <recordType typeId="491c969b-08d3-49c6-ae80-455e02899fe2" valueTypeId="ad910f5c-2df3-4c2b-bb2f-e0259c6539e4"/>
+    <recordManagerType typeId="0690c824-1c35-4fd5-85c3-c7aad632307f" valueTypeId="39ede2ae-cbc9-481c-adc3-5d6b72b21d88"/>
+  </producedTypes>
+  <name>Scan_ПараметрыСессийПользователейПортала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры сессий пользователей портала (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.Scan_ПараметрыСессийПользователейПортала.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a8a697b4-7aec-4605-80f8-01abab9e7b49">
+    <name>НомерСессииПортала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер сессии портала</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="08b77f8e-a794-4307-88f5-271f76fc946e">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2873aa52-5340-4296-8523-e16d75b7398f">
+    <name>ПользовательПортала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь портала</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b05dc490-4b42-4413-aef2-85b89f318ea8">
+    <name>КодПользователяПортала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код пользователя портала</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="c604fa36-5b63-4b15-9733-761598e213f3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

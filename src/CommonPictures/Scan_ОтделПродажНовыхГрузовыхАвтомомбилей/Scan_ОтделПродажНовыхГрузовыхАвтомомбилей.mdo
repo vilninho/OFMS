@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="936261d6-63b7-4225-a279-f92482027fbd">
+  <name>Scan_ОтделПродажНовыхГрузовыхАвтомомбилей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отдел продаж новых грузовых автомомбилей (scania)</value>
+  </synonym>
+</mdclass:CommonPicture>

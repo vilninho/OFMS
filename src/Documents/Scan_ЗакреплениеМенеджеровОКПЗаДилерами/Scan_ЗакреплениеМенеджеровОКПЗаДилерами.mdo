@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9317d6b6-c25f-46a8-95bd-56769d4c957f">
+  <producedTypes>
+    <objectType typeId="0225cc3a-f758-4303-8271-7b639b260571" valueTypeId="e056f7a4-8b4b-4ef4-883e-df5ca278bf2f"/>
+    <refType typeId="76aef715-dd9a-4e9d-8f23-6bd4fbbe1dcb" valueTypeId="09cd971a-6558-42fe-80cb-35f067c3c803"/>
+    <selectionType typeId="13a1e3f4-efbf-42ef-83a0-e136b6f1f97a" valueTypeId="182b7e90-e768-4729-a27c-d4f6c0bba202"/>
+    <listType typeId="d03992a3-e60b-426d-8819-277e8d95218c" valueTypeId="b9717a8d-a7dc-4169-9e5f-7e1ecb4bc32f"/>
+    <managerType typeId="708d964b-848f-4120-ae9e-51057c169438" valueTypeId="bd2b1652-ee4c-477a-a8ee-7848257852fd"/>
+  </producedTypes>
+  <name>Scan_ЗакреплениеМенеджеровОКПЗаДилерами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрепление менеджеров ОКП за дилерами (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Assigning CSD managers to dealers (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Scan_ЗакреплениеМенеджеровОКПЗаДилерами.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Scan_ЗакреплениеМенеджеровОКПЗаДилерами.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.Scan_ЗакреплениеМенеджеровОКПЗаДилерами.Form.ФормаСписка</defaultListForm>
+  <registerRecords>InformationRegister.Scan_ЗакреплениеМенеджеровОКПЗаДилерами</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="f5b7cdbe-6f75-454c-884d-e228a3db0c26">
+    <name>НомерРаспоряжения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер распоряжения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Order number</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c2ed1f63-b9c1-438a-ac2b-3eb649cfc799">
+    <name>ДатаРаспоряжения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата распоряжения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Order date</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="49bfd420-dc8f-4202-8e87-ef8f8beeb12c">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="284a1c73-7205-4c8e-95ca-3ebfe8c51109">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="a8e42358-c7bd-4e4a-b815-e20777d768fd">
+    <producedTypes>
+      <objectType typeId="c21155bd-ee55-4a38-a8ae-c43f42994bf7" valueTypeId="b291832e-04e6-4eda-b0ec-4cd4a7d01adf"/>
+      <rowType typeId="bd75a27b-cc1b-4dce-9ff4-90416005a317" valueTypeId="0c8aebd7-7fed-4cff-a3cc-a7eb259bc219"/>
+    </producedTypes>
+    <name>Менеджеры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджеры</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Managers</value>
+    </synonym>
+    <attributes uuid="d0aab05e-8587-4f0e-836c-9e020c871407">
+      <name>Дилер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дилер</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Dealer</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_Компании</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a004ea19-e2e5-452f-8515-d3330de93bd1">
+      <name>Менеджер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Менеджер</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Manager</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

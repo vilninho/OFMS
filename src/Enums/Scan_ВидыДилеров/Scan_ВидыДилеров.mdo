@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59179b78-b69f-4313-9d21-6c6f999f268c">
+  <producedTypes>
+    <refType typeId="2afe9589-eb69-428c-a82b-aa6bd9da05a9" valueTypeId="376000a9-272c-4d87-adec-0427ef199995"/>
+    <listType typeId="b1337a6f-1e25-4049-b055-d78455c358ad" valueTypeId="bada6c5d-2c05-4057-9c8c-f46e45b03294"/>
+    <managerType typeId="9db1a956-d891-439a-ba0c-2e4ca6b61294" valueTypeId="f898a650-6ffd-45d6-b06e-4ec525926d46"/>
+  </producedTypes>
+  <name>Scan_ВидыДилеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды дилеров (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Types of dealers (scania)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e05350f8-c69a-41fd-be96-bfe076b1caff">
+    <name>Независимый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Независимый</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Independent</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a2cf80e3-2c77-4ea5-8414-6f6c93569f98">
+    <name>Собственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собственный</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Captive</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

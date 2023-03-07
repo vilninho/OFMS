@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08eccaa2-57ea-401e-9250-33bb08fc4bcf">
+  <name>Scan_ЗначимыеСобытияОбработкаПроведения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значимые события обработка проведения (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Значимые события обработка проведения (scania)</value>
+  </synonym>
+  <source>
+    <types>DocumentObject</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.Scan_ЗначимыеСобытия.ЗначимыеСобытияОбработкаПроведения</handler>
+</mdclass:EventSubscription>

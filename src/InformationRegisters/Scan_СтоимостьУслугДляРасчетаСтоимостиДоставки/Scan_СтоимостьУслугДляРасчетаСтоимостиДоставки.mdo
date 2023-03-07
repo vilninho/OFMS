@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a45e080-2ccc-4bdb-9c4f-bdc402176c09">
+  <producedTypes>
+    <selectionType typeId="91820c16-79a9-4e88-b0cd-5af6deb66606" valueTypeId="15c8463c-b1ce-4753-8e19-b853488a5973"/>
+    <listType typeId="f9d828cb-d460-420e-a80f-f1534997b5c6" valueTypeId="f344d17d-9e71-456f-a876-7498a91eac53"/>
+    <managerType typeId="9e7d9bd9-8e13-4f19-a475-837ea19a6529" valueTypeId="8beca28e-a5e1-4709-a6ed-aa452d8a2c43"/>
+    <recordSetType typeId="b2771fc0-10a5-437c-b770-dc92974262ac" valueTypeId="696a5592-1276-426b-b635-f6f8f2c13d22"/>
+    <recordKeyType typeId="650972ac-2969-4093-aeb6-9102df51ccba" valueTypeId="1a68636a-9da8-4fd1-8729-fb20e08b731f"/>
+    <recordType typeId="68aa5d09-b63a-4a92-b8cd-9f2c99b33e97" valueTypeId="4bb48d17-5b0e-4e47-9d6e-031cdfdb3c9f"/>
+    <recordManagerType typeId="e481cf52-fe8e-4e52-9019-a82a5746d975" valueTypeId="02f8c0c9-8e0d-4fdc-bcb1-899ec0398faa"/>
+  </producedTypes>
+  <name>Scan_СтоимостьУслугДляРасчетаСтоимостиДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стоимость услуг для расчета стоимости доставки (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Cost of services for the calculation of the cost of delivery (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_СтоимостьУслугДляРасчетаСтоимостиДоставки.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_СтоимостьУслугДляРасчетаСтоимостиДоставки.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="af520dc2-7945-4222-9c44-a574dd779a8a">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Cost of</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="9554d62a-5042-4b10-a6be-5979373f3291">
+    <name>ОсновнаяУслуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная услуга</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The basic service</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e3d8dd15-4a5d-4152-9140-58cba0d56ab2">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="bdb35419-a260-4eb1-b4a0-2cef83fbe220">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Service</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_НоменклатураУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3c82b241-a31f-43ee-a101-acc99fac7de6">
+    <name>СпособДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ доставки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Delivery method</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Scan_СпособыДоставкиПродуктов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="82bd058a-7972-413a-a54b-0ec5106c7466">
+    <name>АдресПолучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес получения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Email address</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_АдресаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ec8defa1-a8bb-4206-98b2-48c52ee1d2f1">
+    <name>АдресДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес доставки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Delivery address</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_АдресаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="72e725a7-1eea-4a03-88b6-ce5e7838768a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4ac7c46c-310b-4fca-8a5c-5a87b1a6479f">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Recording form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

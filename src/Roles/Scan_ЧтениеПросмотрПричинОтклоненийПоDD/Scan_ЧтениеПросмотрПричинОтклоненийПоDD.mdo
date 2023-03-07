@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92a94458-146a-487f-b6dc-86c26d061f08">
+  <name>Scan_ЧтениеПросмотрПричинОтклоненийПоDD</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение просмотр Причин отклонений по DD (scania)</value>
+  </synonym>
+</mdclass:Role>

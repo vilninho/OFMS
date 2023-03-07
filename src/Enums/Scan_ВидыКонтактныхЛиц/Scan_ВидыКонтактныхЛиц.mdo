@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8bd1bbd2-b7c1-4ef7-9a0e-307933a89c60">
+  <producedTypes>
+    <refType typeId="6269cce0-e1b0-4a73-9b84-b175621e0541" valueTypeId="151545f2-6334-4ebe-b69b-5742a8a33dd5"/>
+    <listType typeId="ea44036f-2146-4140-87f3-b58459627a90" valueTypeId="985d4076-e86b-44f6-80d5-ab01efc00ce5"/>
+    <managerType typeId="8f8b3169-854c-4916-b913-e5ce603393a7" valueTypeId="03448353-ea61-4568-9fd7-80ea5e782fb4"/>
+  </producedTypes>
+  <name>Scan_ВидыКонтактныхЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды контактных лиц (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Виды контактных лиц (scania)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ee096986-f4a2-48a4-933a-dcd16ab3f204">
+    <name>КонтактноеЛицоКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное лицо контрагента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Contact person of the counterparty</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="55280629-1fb4-4248-addf-54119675d65b">
+    <name>КонтактноеЛицоСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное лицо сотрудника</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Employee contact person</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0017f5c1-8a8e-4bfe-8cac-62c29a7524ab">
+    <name>КонтактноеЛицоКомпании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное лицо компании</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Company contact person</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

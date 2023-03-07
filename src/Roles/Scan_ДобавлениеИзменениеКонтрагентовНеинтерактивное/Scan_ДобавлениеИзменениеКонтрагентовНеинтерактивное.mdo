@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b6f563a-f6ba-4dd2-a554-8e1069ea5171">
+  <name>Scan_ДобавлениеИзменениеКонтрагентовНеинтерактивное</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение Контрагентов неинтерактивное (scania)</value>
+  </synonym>
+</mdclass:Role>

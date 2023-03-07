@@ -1,0 +1,1307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f31f3dab-5796-47ac-a54d-3081f8cad817">
+  <producedTypes>
+    <objectType typeId="44600bf4-9d74-4786-9f6b-e7484f53af5d" valueTypeId="bc36cccd-4727-4bdb-9f9b-6a181a74aeac"/>
+    <refType typeId="f223bc15-d6a5-4ad5-9a54-2b0ef1599929" valueTypeId="3b4e5a44-81e9-46a2-b2bc-a7724d49518a"/>
+    <selectionType typeId="0b2e4efa-a9b6-4d6a-a262-a51625735dc2" valueTypeId="ec991f76-b24a-4895-acec-45b915cbb422"/>
+    <listType typeId="6c6dc10e-c5a3-4f7c-97a4-64121b78fd1d" valueTypeId="8fbe4e6a-2bbe-46a6-bebd-777a7cab0f5e"/>
+    <managerType typeId="502a0b37-d721-49b3-8986-c373e526e041" valueTypeId="335b4f5d-db39-4d6c-aa4b-effdbddc81d0"/>
+  </producedTypes>
+  <name>ПрофилиГруппДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Профили групп доступа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПрофилиГруппДоступа.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа (папка)</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа (папка), объединяющая профили для удобства поиска</value>
+    </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ПрофилиГруппДоступа.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование профиля групп доступа</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Профиль групп доступа</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="6c4b0307-43a4-4141-9c35-3dd7e9586d41">
+      <name>Администратор</name>
+      <description>Администратор</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="18ec01fa-1c0b-4632-a2c0-4cb4c1b829d7">
+      <name>Аренда</name>
+      <description>Аренда</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d76b8aa3-a1db-4e23-94a2-dd0465fa298c">
+      <name>БазовыйПрофиль</name>
+      <description>Базовый профиль</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="211848b2-69c8-4398-858c-5ea31658b5c5">
+      <name>Дилеры</name>
+      <description>Дилеры</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="623e0e3c-3454-4fc5-b016-6808fc1dc55b">
+      <name>ДобавлениеИзменениеВзаимодействий</name>
+      <description>Добавление изменение Взаимодействий</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1aa26805-9274-4a2d-923d-c7dd966aa85d">
+      <name>ДобавлениеИзменениеДрафтовПродуктов</name>
+      <description>Добавление изменение Драфтов продуктов</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c4ae36a7-7c5d-490d-9d4a-406e467323f1">
+      <name>ДобавлениеИзменениеЗаказовНаЗакупку</name>
+      <description>Добавление изменение Заказов на закупку</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="83929a67-2c26-4ae9-bf0e-1093de39af78">
+      <name>ДобавлениеИзменениеЗакрепленияМенеджеровДепартаментаПродажАвтобусовЗаДилерами</name>
+      <description>Добавление изменение Закрепления менеджеров департамента продаж автобусов за дилерами</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7bc754f9-da45-4228-b83a-b38e57f64046">
+      <name>ДобавлениеИзменениеЗакрепленияМенеджеровЗаДилерами</name>
+      <description>Добавление изменение Закрепления менеджеров за дилерами</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3f0bbcf5-5f43-43bd-af26-16894381c907">
+      <name>ДобавлениеИзменениеЗакрепленияМенеджеровОКПЗаДилерами</name>
+      <description>Добавление изменение Закрепления менеджеров ОКП за дилерами</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ab66c83a-8390-4b5c-af4d-33ee7dd530b7">
+      <name>ДобавлениеИзменениеЗапросовНаНадстройки</name>
+      <description>Добавление изменение Запросов на надстройки</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d7ad970f-e147-4045-8654-bddb503fb4d3">
+      <name>ДобавлениеИзменениеЗаявок</name>
+      <description>Добавление изменение Заявок</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="cdf7ff00-9b87-45d8-8fcc-c74bacf0f08e">
+      <name>ДобавлениеИзменениеЗаявокНаОтгрузку</name>
+      <description>Добавление изменение Заявок на отгрузку</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3bc94b80-4efd-44e2-8a8e-2f5f4fb5beed">
+      <name>ДобавлениеИзменениеКалькуляции</name>
+      <description>Добавление изменение Калькуляции</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="979abfb5-b038-47af-b4eb-413faa7066c6">
+      <name>ДобавлениеИзменениеМоделейПродуктов</name>
+      <description>Добавление изменение Моделей продуктов</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6b148096-793c-4514-afd0-bda86c011829">
+      <name>ДобавлениеИзменениеОбщихСправочниковScania</name>
+      <description>Добавление изменение общих справочников Scania</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="757c2aea-d24b-475f-93d9-bfb859f67899">
+      <name>ДобавлениеИзменениеОпцийДляДетАкта</name>
+      <description>Добавление изменение опций для детализированного акта</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2ae231f3-b45f-43a0-9203-bbef9af2680a">
+      <name>ДобавлениеИзменениеПечатногоПрайсЛиста</name>
+      <description>Добавление изменение Печатного прайс-листа</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e867243d-fd27-4e8c-9920-65b7db23f3d8">
+      <name>ДобавлениеИзменениеПрайсЛистаНаДвигатели</name>
+      <description>Добавление изменение Прайс-листа SCV на двигатели</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6ab8fc0d-fbcc-49f1-a9e9-b450de985838">
+      <name>ДобавлениеИзменениеПрайсЛистаАренда</name>
+      <description>Добавление изменение Прайс-листа аренда</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="8807e475-30fd-4735-a852-5eaf25e0257e">
+      <name>ДобавлениеИзменениеПричинОтклоненийПоDD</name>
+      <description>Добавление изменение Причин отклонений по DD</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7520a88a-e6f2-4071-a50d-44939ff7b049">
+      <name>ДобавлениеИзменениеРазделовКалькуляции</name>
+      <description>Добавление изменение Разделов калькуляции</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="72f70e36-000b-436d-b02f-589628338a6d">
+      <name>ДобавлениеИзменениеСоставляющихРасчетаЦены</name>
+      <description>Добавление изменение Составляющих расчета цены</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2f074ff8-714d-4bb6-a67c-644ea3d92115">
+      <name>ДобавлениеИзменениеСпециальныхУсловий</name>
+      <description>Добавление изменение Специальных условий</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="dd15bfbf-8a68-4a7b-a755-b17d133efe5d">
+      <name>ДобавлениеИзменениеСпецификацийСтандартнойМодели</name>
+      <description>Добавление изменение Спецификаций стандартной модели</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2673a246-e05a-413f-b1b0-831a927af183">
+      <name>ДобавлениеИзменениеСправочниковLeadTime</name>
+      <description>Добавление изменение справочников Lead Time</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2c6338a3-83c5-42e2-94b6-0e982c1f9089">
+      <name>ДобавлениеИзменениеСтатусовСОПиСУ</name>
+      <description>Добавление изменение статусов СОП и СУ</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a0bd69bd-fd26-45a7-9527-0afbfcc375f0">
+      <name>ДобавлениеИзменениеУстановкаЦенОпцийИПакетов</name>
+      <description>Добавление изменение Установка цен опций и пакетов</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0f277a07-6cc1-483a-8993-f0947bd4d5f3">
+      <name>ДобавлениеИзменениеУстановкиПлановыхЦенПродукта</name>
+      <description>Добавление изменение Установки плановых цен продукта</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="917e40f0-9e4f-4035-ade5-a9939664ee01">
+      <name>ДобавлениеИзменениеУстановкиПлановыхЦенПродуктаНеинтерактивное</name>
+      <description>Добавление изменение Установки плановых цен продукта неинтерактивное</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="8fd1176c-43a9-4aeb-963a-cc6bfd490e58">
+      <name>ДобавлениеИзменениеШаблоновУсловийОплаты</name>
+      <description>Добавление изменение Шаблонов условий оплаты</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ad508113-de43-4751-88b3-fdbc39f5d31b">
+      <name>ДобавлениеСообщений</name>
+      <description>Добавление сообщений</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="896adaf8-5a97-4c3c-832b-0b66170f173b">
+      <name>ИспользованиеDDИнформера</name>
+      <description>Использование DD-информера</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2134250d-c7a0-4c82-9568-646dc837cba8">
+      <name>ИспользованиеDD2DDSИнформера</name>
+      <description>Использование DD2/DDS информера</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2a9c7721-77d2-4010-8ca1-1c124aad5d3b">
+      <name>ИспользованиеОбработчикаOrderIntake</name>
+      <description>Использование обработчика Order Intake</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fa85ed7d-bd6a-4c34-82c1-6e8a70231a54">
+      <name>МенеджерОтделаКлиентскойПоддержки</name>
+      <description>Менеджер отдела клиентской поддержки</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7dd8c837-6866-4cff-b15d-4830ddb40147">
+      <name>МенеджерОтделаЛогистики</name>
+      <description>Менеджер отдела логистики</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a6e448d8-28e7-4b53-98db-77bea0887de0">
+      <name>МенеджерОтделаПланированияПродажУправленияПродуктом</name>
+      <description>Менеджер отдела планирования продаж и управления продуктом</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="8819f989-0485-4ef7-82f8-c82434e5a8cc">
+      <name>МенеджерПоКонтролюЗаказов</name>
+      <description>Менеджер по контролю заказов</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f2aa685f-3d9c-4227-b38b-28a9adc5ea75">
+      <name>МенеджерПоУправлениюПродуктом</name>
+      <description>Менеджер по управлению продуктом</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fa3a1fff-b56b-42da-9239-c3632b29debb">
+      <name>ОбработкаКалькуляторТарифовНаДоставку</name>
+      <description>Обработка Калькулятор тарифов на доставку</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e63adb24-a752-446f-97b7-a7093bb532be">
+      <name>ОбработкУстановкаПравНастроек</name>
+      <description>Обработка Установка прав и настроек</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2edde300-73e0-4223-9acc-481e39bef7f1">
+      <name>Продажи</name>
+      <description>Продажи</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6a9716f6-c7c5-44ae-b0a3-6d5683257a15">
+      <name>ПродажиАвтобусов</name>
+      <description>Продажи автобусов</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7e267dfb-7a22-46af-8259-c7498380c423">
+      <name>ПродажиДвигателей</name>
+      <description>Продажи двигателей и ДЭС</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="612b1148-b792-415e-b19c-9febb91ca224">
+      <name>ПросмотрOFMS</name>
+      <description>Просмотр OFMS</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a231436a-46ea-4b51-a8db-92361e67174a">
+      <name>ПросмотрИспользованиеОбработкиМониторы</name>
+      <description>Просмотр использование обработки мониторы</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5cd21899-7d27-49bd-8cff-45c9e04916bb">
+      <name>ПросмотрИспользованиеРабочегоМестаOFMSПпросмотр</name>
+      <description>Просмотр использование рабочего места OFMS (просмотр)</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0fcfabb6-5407-46dd-a611-b5a5d69615b8">
+      <name>ПросмотрОтчетаCow</name>
+      <description>Просмотр отчета Cow</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="634bcb30-d676-48af-9817-f342333415d7">
+      <name>ПросмотрОтчетаDDDDS</name>
+      <description>Просмотр отчета DD - DDS</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7bc1e55d-ed40-47ea-87a7-11c0420c5043">
+      <name>ПросмотрОтчетаDeliveriesReport</name>
+      <description>Просмотр отчета Deliveries Report</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f64fa0c2-4a05-402d-b5f8-af3376e687ff">
+      <name>ПросмотрОтчетаLeadTimeReport</name>
+      <description>Просмотр отчета Lead Time Report</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4e19254b-689c-4da1-8735-3e6c0164de74">
+      <name>ПросмотрОтчетаMonthlyReport</name>
+      <description>Просмотр отчета Monthly report</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="288842f5-e921-4d0e-acff-6b8928d9e45e">
+      <name>ПросмотрОтчетаOrderBookMargin</name>
+      <description>Просмотр отчета Order book margin</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="28158e88-bcfe-47b6-8423-7e2f4e2cde68">
+      <name>ПросмотрОтчетаOrderBookStatistics</name>
+      <description>Просмотр отчета Order Book Statistics</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="87e600e8-fd31-44f0-a924-2de4c9ed8755">
+      <name>ПросмотрОтчетаOrderDeviation</name>
+      <description>Просмотр отчета Order Deviation</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3ab11934-1784-4ffb-854d-2b914c4b924d">
+      <name>ПросмотрОтчетаOrderIntake</name>
+      <description>Просмотр отчета Order Intake</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3c2f5a92-cbf8-491e-80e4-852b40087d90">
+      <name>ПросмотрОтчетаOrderIntakeAndOrderBook</name>
+      <description>Просмотр отчета Order Intake And Order Book</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="40bd84f9-e3a2-4699-8c7d-35fe18d25168">
+      <name>ПросмотрОтчетаЕженедельныйОтчет</name>
+      <description>Просмотр отчета Еженедельный Отчет</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3b955583-527c-48d7-87ff-91a0becd20f8">
+      <name>ПросмотрОтчетаИнформацияПоПлановымОтгрузкам</name>
+      <description>Просмотр отчета информация по плановым отгрузкам</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="73bb42b5-c78a-4596-bc7b-b05033ea5f7e">
+      <name>ПросмотрОтчетаИсторияЗаявокНаДействия</name>
+      <description>Просмотр отчета История заявок на действия</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="402c482f-179c-4fe2-a35c-5729a89701c5">
+      <name>ПросмотрОтчетаИсторияПеремещенийИзделий</name>
+      <description>Просмотр отчета История перемещений изделий</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5042065f-09bf-46f9-bfe8-697587ff10cf">
+      <name>ПросмотрОтчетаКонтрольCроковИстеченияДоговоровСКонтрагентами</name>
+      <description>Просмотр отчета Контроль cроков истечения договоров с контрагентами</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b6373c82-38b7-49d0-9481-c3e73c12102e">
+      <name>ПросмотрОтчетаМатрицаТарифовДляДилеров</name>
+      <description>Просмотр отчета Матрица тарифов для дилеров</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ae00e309-e53a-4946-8a55-88ee87bd4d26">
+      <name>ПросмотрОтчетаМатрицаТарифовПоДоставкеИзделий</name>
+      <description>Просмотр отчета Матрица тарифов по доставке изделий</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4f6ee829-2df4-4dab-9448-3430e8f464fe">
+      <name>ПросмотрОтчетаОбщийСписокДоставок</name>
+      <description>Просмотр отчета Общий список доставок</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4c0256d2-2894-4fe1-8d7c-126439396ce9">
+      <name>ПросмотрОтчетаПлановыеЦеныПродажиШасси</name>
+      <description>Просмотр отчета плановые цены продажи шасси</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6e7b14e3-9636-43a6-9043-8089b7bf18ad">
+      <name>ПросмотрОтчетаПокупкаПродуктовУСканияПитер</name>
+      <description>Просмотр отчета Покупка продуктов у Скания-Питер</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d0d1ae07-945c-4ae8-8138-bcbaf2dd3377">
+      <name>ПросмотрОтчетаПредпродажкаИРемонт</name>
+      <description>Просмотр отчета Предпродажка и ремонт</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="8346d259-2ce7-46bc-a45b-ff2fa5fafd5c">
+      <name>ПросмотрОтчетаПрименениеSOrderFFU</name>
+      <description>Просмотр отчета Применение S-Order и FFU</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="162f3a5d-cbba-4f4c-9daf-2056da060fa0">
+      <name>ПросмотрОтчетаПродажиСПрименениемСУ</name>
+      <description>Просмотр отчета Продажи с применением СУ</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3ecf0697-8346-42f0-b6d0-97c0d83cc0e0">
+      <name>ПросмотрОтчетаРеестрОказаныхУслугПоЛогистике</name>
+      <description>Просмотр отчета Реестр оказаных услуг по логистике</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0b14db98-bc26-499e-8af4-a85626f53432">
+      <name>ПросмотрОтчетаСводнаяИнформацияSOrderFFU</name>
+      <description>Просмотр отчета Сводная информация S-Order и FFU</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0d5cf37b-de52-4541-948b-51f2fa7f0941">
+      <name>ПросмотрОтчетаСводнаяИнформацияПоПродукту</name>
+      <description>Просмотр отчета Сводная информация по продукту</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1ed26f04-7e4b-4e21-8c4f-25116ed53746">
+      <name>ПросмотрОтчетаСписокОтгрузок</name>
+      <description>Просмотр отчета Список отгрузок</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3f156982-4b80-4edb-9718-1f16aed8c88a">
+      <name>ПросмотрОтчетаСравнениеСпецификаций</name>
+      <description>Просмотр отчета Сравнение спецификаций</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="597e7906-72d5-4380-a4af-e77dde1b6f04">
+      <name>ПросмотрОтчетаСтатистикаПорт</name>
+      <description>Просмотр отчета Статистика порт</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="48c4d50a-8c3b-43b2-8508-78416734465f">
+      <name>ПросмотрОтчетаЧекЛист</name>
+      <description>Просмотр отчета Чек-лист</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0f40919d-beef-4940-9307-c4c78ba3f1ee">
+      <name>ПросмотрОтчетовОтделаЛогистики</name>
+      <description>Просмотр отчетов отдела логистики</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="99c3b02f-84c2-48d9-8a11-a9bec666d550">
+      <name>ПросмотрПодсистемыНСИ</name>
+      <description>Просмотр подсистемы НСИ</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="924b713b-1492-40d4-bf51-ce7ac6c9c1e6">
+      <name>РедактированиеРегистраOrderIntake</name>
+      <description>Редактирование регистра Order Intake</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0f519ce3-4026-4e04-95dc-e15692c1341b">
+      <name>ТиповойФункционал</name>
+      <description>Типовой функционал</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9b46768b-571c-434a-ad2f-deb007775ac7">
+      <name>ТиповойФункционалДилеры</name>
+      <description>Типовой функционал для дилеров</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e6aa9820-8005-4672-b79e-79af2338fcc4">
+      <name>ХранениеПродуктов</name>
+      <description>Хранение продуктов</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b051128c-1352-4d75-a2ea-65814fe28760">
+      <name>ЧтениеДрафтовПродуктов</name>
+      <description>Чтение Драфтов продуктов</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9cbff7fc-ca0d-4ec8-a216-dce2002195c7">
+      <name>ЧтениеЗадачИз1ДБ</name>
+      <description>Чтение задач из 1 ДБ</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="85bdc030-501f-4c23-844e-149651f02893">
+      <name>ЧтениеЗаказовНаЗакупку</name>
+      <description>Чтение Заказов на закупку</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="79831388-ed7d-4b3a-9509-9193671bbe8f">
+      <name>ЧтениеЗакрепленияМенеджеровОКПЗаДилерами</name>
+      <description>Чтение Закрепления менеджеров ОКП за дилерами</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7d908afc-29c4-4ab7-992e-1f7057f851d2">
+      <name>ЧтениеЗапросовНаНадстройки</name>
+      <description>Чтение Запросов на надстройки</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="546da904-8a2c-4cce-a16e-a9bbdcc88a95">
+      <name>ЧтениеЗаявок</name>
+      <description>Чтение Заявок</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="cf443091-a571-4c13-9cef-d4c855d3c767">
+      <name>ЧтениеЗаявокНаОтгрузку</name>
+      <description>Чтение Заявок на отгрузку</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1d66adb6-3eb3-43f5-8e75-12b074e0c3cd">
+      <name>ЧтениеИзменениеПросмотрРегистраOrderIntake</name>
+      <description>Чтение изменение просмотр регистра Order Intake</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="32ed5eff-1ece-4e30-b288-d9fa3180b2fe">
+      <name>ЧтениеИзменениеПросмотрРегистраПланПоOrderIntake</name>
+      <description>Чтение изменение просмотр регистра план по Order Intake</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c542ba36-7620-45b3-b0d6-dff6fd71fb12">
+      <name>ЧтениеИзменениеПросмотрРегистровScania</name>
+      <description>Чтение изменение просмотр регистров Scania</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fa844bdf-2561-4059-b659-d2c6757b781b">
+      <name>ЧтениеИзменениеПросмотрРегистровScaniaДилеры</name>
+      <description>Чтение изменение просмотр регистров Scania дилеры</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f7a63ccf-9d17-417a-acfb-01b4ce529b12">
+      <name>ЧтениеИзменениеРегистровScania</name>
+      <description>Чтение изменение регистров Scania</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="759ca7ef-86d8-4dd6-bae3-9d55ed6da953">
+      <name>ЧтениеКалькуляции</name>
+      <description>Чтение Калькуляции</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="8a545939-bfe8-477d-af0f-ef225a911a68">
+      <name>ЧтениеОпцийДляДетАкта</name>
+      <description>Чтение опций для детализированного акта</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f1c1d765-38fe-433a-bb59-cfc0a58187bc">
+      <name>ЧтениеПечатногоПрайсЛиста</name>
+      <description>Чтение Печатного прайс-листа</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0c9dc8e2-7af8-4437-8715-2df178b4dedd">
+      <name>ЧтениеПрайсЛистаНаДвигатели</name>
+      <description>Чтение Прайс-листа SCV на двигатели</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9adfab2f-fd23-445c-85c3-b7ab8be99e22">
+      <name>ЧтениеПросмотрДокументовОтделаЛогистики</name>
+      <description>Чтение просмотр документов отдела логистики</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a3b6959e-0756-4ac5-ad6e-970d0915e65b">
+      <name>ЧтениеПросмотрЗакрепленияМенеджеровДепартаментаПродажАвтобусовЗаДилерами</name>
+      <description>Чтение просмотр Закрепления менеджеров департамента продаж автобусов за дилерами</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e631c62b-96d6-40f1-a792-280deb464c0f">
+      <name>ЧтениеПросмотрЗакрепленияМенеджеровЗаДилерами</name>
+      <description>Чтение просмотр Закрепления менеджеров за дилерами</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="90b0d954-73a1-442e-af7c-c5f09f8b3c6c">
+      <name>ЧтениеПросмотрМоделейПродуктов</name>
+      <description>Чтение просмотр Моделей продуктов</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0298f211-5fa9-4139-ad3a-92b3470a5d32">
+      <name>ЧтениеПросмотрОбщихСправочниковScania</name>
+      <description>Чтение просмотр общих справочников Scania</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6517d39c-e320-4983-91f6-c7f232850b7a">
+      <name>ЧтениеПросмотрПрайсЛистаАренда</name>
+      <description>Чтение просмотр Прайс-листа аренда</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="89b1646e-1c9b-41cf-90bd-e61e7a27d8ab">
+      <name>ЧтениеПросмотрПричинОтклоненийПоDD</name>
+      <description>Чтение просмотр Причин отклонений по DD</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="26b7eaa8-0757-4eda-8190-453f63858048">
+      <name>ЧтениеПросмотрРазделовКалькуляции</name>
+      <description>Чтение просмотр Разделов калькуляции</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d7c881d5-0c77-468b-a1c1-2fa6d22c320f">
+      <name>ЧтениеПросмотрСпецификацийСтандартнойМодели</name>
+      <description>Чтение просмотр Спецификаций стандартной модели</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="801862a6-7238-467c-be5b-5386b1d31061">
+      <name>ЧтениеПросмотрШаблоновУсловийОплаты</name>
+      <description>Чтение просмотр Шаблонов условий оплаты</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9aac65d8-85c9-45a2-a506-b467b1a37aea">
+      <name>ЧтениеСоставляющихРасчетаЦены</name>
+      <description>Чтение Составляющих расчета цены</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2af92520-c6d8-48a9-a249-1c42894daff1">
+      <name>ЧтениеСпециальныхУсловий</name>
+      <description>Чтение Специальных условий</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b8966757-c023-48f0-b0a4-74bbce287e9e">
+      <name>ЧтениеСправочниковLeadTime</name>
+      <description>Чтение справочников Lead Time</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5997a3ec-4036-429e-be50-40a90903d1c1">
+      <name>ЧтениеСтатусовСОПиСУ</name>
+      <description>Чтение Статусов СОП и СУ</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ff0b1d61-8348-4742-a5dd-94e12cab97bd">
+      <name>ЧтениеУстановкаЦенОпцийИПакетов</name>
+      <description>Чтение Установка цен опций и пакетов</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3094b3db-fe14-4d16-9ea7-74d5da78a09f">
+      <name>ЧтениеУстановкиПлановыхЦенПродукта</name>
+      <description>Чтение Установки плановых цен продукта</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПрофилиГруппДоступа.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.ПрофилиГруппДоступа.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.ПрофилиГруппДоступа.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ПрофилиГруппДоступа.Form.ФормаСписка</defaultChoiceForm>
+  <defaultFolderChoiceForm>Catalog.ПрофилиГруппДоступа.Form.ФормаВыбораГруппы</defaultFolderChoiceForm>
+  <attributes uuid="cd59707e-b9e4-4038-8203-ae22a8060e8d">
+    <name>ИдентификаторПоставляемыхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор поставляемых данных</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Для профилей, поставляемых в составе конфигурации, содержит идентификатор по которому можно найти описание поставляемого профиля.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="db497857-33d3-49a1-b328-dfc62c973ecb">
+    <name>ПоставляемыйПрофильИзменен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставляемый профиль изменен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Флажок установлен Истина, когда профиль групп доступа является поставляемым и был изменен администратором по сравнению с поставкой</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="139c001c-7b07-465a-9187-399ad32d294f">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Произвольная строка</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="5d228ce4-069e-4f98-beed-b8e1de17c3d9">
+    <producedTypes>
+      <objectType typeId="926989ac-849e-47f4-9491-3c7dc717d42c" valueTypeId="e47fdad6-6a00-4db3-8ba8-ecd6cb388e6d"/>
+      <rowType typeId="8a8d4fab-b7f3-482f-b7bf-9d51cb486e4f" valueTypeId="9ab86c34-1190-4dda-b1f6-03d5fa52df14"/>
+    </producedTypes>
+    <name>Роли</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роли</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="9770fc09-87bf-4fce-9b0d-410efd30edae">
+      <name>Роль</name>
+      <synonym>
+        <key>ru</key>
+        <value>Роль</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ИдентификаторыОбъектовРасширений</types>
+        <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Разрешенное действие (роль), заданное для профиля групп доступа</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="3d73d5ff-995e-40ed-a401-cec2a3d12c8f">
+    <producedTypes>
+      <objectType typeId="4386d851-6b14-42f0-b1d2-0f7834b5ed74" valueTypeId="80fc5a3b-610b-4176-91c2-af81a5fa95a2"/>
+      <rowType typeId="5ed52a66-d618-45aa-a604-a1cef7cf69d6" valueTypeId="e916ada5-d3d9-46d6-bbbf-b586f5c912a0"/>
+    </producedTypes>
+    <name>ВидыДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виды доступа</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="20156709-1481-4007-8e89-9ce79fc589fc">
+      <name>ВидДоступа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид доступа</value>
+      </synonym>
+      <comment>Представлен пустой ссылкой основного типа значений</comment>
+      <type>
+        <types>DefinedType.ЗначениеДоступа</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Возможный &quot;разрез&quot; ограничения прав доступа
+в заданном списке разрешенных действий (ролей)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fbcda361-0ef2-47b4-ba1c-1d1952898bd3">
+      <name>Предустановленный</name>
+      <synonym>
+        <key>ru</key>
+        <value>Предустановленный</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Доступ по предустановленному
+виду запрещен,
+разрешенные значения
+задаются в профиле,
+а не в группах доступа</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7e7c5abd-b645-4de5-a40e-5805ec4456e2">
+      <name>ВсеРазрешены</name>
+      <synonym>
+        <key>ru</key>
+        <value>Все разрешены</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Способ определения разрешенных значений доступа</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="763a16c3-a728-4b65-a485-705990310b4a">
+    <producedTypes>
+      <objectType typeId="c6b9ee21-63d0-468e-a640-3601fa356db6" valueTypeId="c07170f5-98ed-4b1a-aad2-8e2908e42d7c"/>
+      <rowType typeId="6e575b99-3c29-4541-a8a1-34c4db7e0d2f" valueTypeId="1aa8141e-446a-467f-ace4-8186fdbd01ad"/>
+    </producedTypes>
+    <name>ЗначенияДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значения доступа</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="65338920-c744-4d1e-b351-848b90a3feda">
+      <name>ВидДоступа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид доступа</value>
+      </synonym>
+      <comment>Представлен пустой ссылкой основного типа значений</comment>
+      <type>
+        <types>DefinedType.ЗначениеДоступа</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Предустановленный вид доступа, по которому задано предустановленное значение доступа</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2aedb1ac-caf1-45c7-913e-82a36637d5d4">
+      <name>ЗначениеДоступа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение доступа</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ЗначениеДоступа</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Предустановленное разрешенное или запрещенное значение доступа.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="65f3ad72-ed03-482b-a2f1-05053eef408a">
+      <name>ВключаяНижестоящие</name>
+      <synonym>
+        <key>ru</key>
+        <value>Включая нижестоящие</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="e177e258-7d0c-4fe1-80e5-3b89de9e23d9">
+    <producedTypes>
+      <objectType typeId="696a18e1-0956-43df-849f-6f767288e55c" valueTypeId="aeeb637b-215b-49a3-813f-496091e8d7f0"/>
+      <rowType typeId="8f17ac1f-6dbb-446c-bc3d-3d571bf1d177" valueTypeId="5dbbdcc8-1149-487b-a45c-45b7a01c7e64"/>
+    </producedTypes>
+    <name>Назначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="3f25ac9f-c6b4-4ccc-bec4-a90c99403823">
+      <name>ТипПользователей</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип пользователей</value>
+      </synonym>
+      <type>
+        <types>DefinedType.Пользователь</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Пустая ссылка на допустимый тип объектов авторизации</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="56177464-5e9f-4598-96bc-eb311993c503">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c2308e60-2844-4bd8-bc8a-c9c20e5fc62d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bdfe65f4-4174-4e66-915c-943137981cf0">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5271de2d-d3a0-4128-90e0-cd8e1ea2ad30">
+    <name>ФормаВыбораГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="c895d58a-5be1-4157-81af-f4f6db9b4b9e">
+    <name>ГруппыДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группы доступа</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.ПрофилиГруппДоступа</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>

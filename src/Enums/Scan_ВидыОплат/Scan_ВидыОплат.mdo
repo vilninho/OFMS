@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80e3b4ae-2038-461a-8b2b-e9155455205c">
+  <producedTypes>
+    <refType typeId="b08f7a11-629c-4687-91df-1f214971fc53" valueTypeId="3b717bb9-8477-4b3a-9e67-cb9cf5bc47c9"/>
+    <listType typeId="f9a37505-82b9-4d1a-8b52-669458640301" valueTypeId="0ac2f85b-0ed7-4408-b0cc-25b8e0445ca0"/>
+    <managerType typeId="8d8b2bf6-c843-4b00-838c-3e84de8cca6f" valueTypeId="55341ed4-0a04-4ff3-87c1-f668c100a0d5"/>
+  </producedTypes>
+  <name>Scan_ВидыОплат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды оплат (scania)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4a547b96-604a-4898-8d7b-ebbffecb3563">
+    <name>Предоплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предоплата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0beb0747-dc0b-42e0-9bdb-7a0614112ac1">
+    <name>Постоплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Постоплата</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

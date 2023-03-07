@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aee5bb82-4e64-4c3a-8682-e27729b21a47">
+  <producedTypes>
+    <objectType typeId="236a5fe1-e63c-4331-b518-1a20ee071f34" valueTypeId="8c7394e1-f434-49a1-89c3-f91453725570"/>
+    <managerType typeId="fbd82475-2ecd-48e3-9d4b-66287ab24cd8" valueTypeId="c1baaff9-5a26-4e7e-bc97-e390492fd957"/>
+  </producedTypes>
+  <name>Scan_СводнаяИнформацияSOrderFFU</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сводная информация по S-order и FFU (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Summary of S-order and FFU (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.Scan_СводнаяИнформацияSOrderFFU.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="a34c3320-fd5d-4db7-9c4e-9ddb2ecc75df">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

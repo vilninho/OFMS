@@ -1,0 +1,87 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.scania.org/webservice/SRUService/MultiSelectionList" elementFormQualified="false" attributeFormQualified="false">
+	<property name="MPheader">
+		<typeDef xsi:type="ObjectType">
+			<property name="sequenceNo" type="xs:int" lowerBound="1" form="Attribute"/>
+			<property name="mpHeadNo" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property name="mpHeadID" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property name="description" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/MultiSelectionList" ref="d4p1:Parts" lowerBound="0"/>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/MultiSelectionList" ref="d4p1:Times" lowerBound="0"/>
+		</typeDef>
+	</property>
+	<property name="MPheaders">
+		<typeDef xsi:type="ObjectType">
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/MultiSelectionList" ref="d4p1:MPheader" upperBound="-1"/>
+		</typeDef>
+	</property>
+	<property name="Order">
+		<typeDef xsi:type="ObjectType">
+			<property name="Number" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/MultiSelectionList" ref="d4p1:MPheaders" lowerBound="0"/>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/MultiSelectionList" ref="d4p1:Parts" lowerBound="0"/>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/MultiSelectionList" ref="d4p1:Times" lowerBound="0"/>
+		</typeDef>
+	</property>
+	<property name="Part">
+		<typeDef xsi:type="ObjectType">
+			<property name="sequenceNo" type="xs:int" lowerBound="1" form="Attribute"/>
+			<property name="quantity" type="xs:decimal" lowerBound="1" form="Attribute"/>
+			<property name="mpHeadNo" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property name="PartNo" type="xs:int" lowerBound="1" form="Attribute"/>
+		</typeDef>
+	</property>
+	<property name="Parts">
+		<typeDef xsi:type="ObjectType">
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/MultiSelectionList" ref="d4p1:Part" upperBound="-1"/>
+		</typeDef>
+	</property>
+	<property name="SelectionList">
+		<typeDef xsi:type="ObjectType">
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/MultiSelectionList" ref="d4p1:Order"/>
+		</typeDef>
+	</property>
+	<property name="Time">
+		<typeDef xsi:type="ObjectType">
+			<property name="timeCode" type="xs:string" lowerBound="1" form="Attribute"/>
+			<property name="stComplexity" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property name="sequenceNo" type="xs:int" lowerBound="1" form="Attribute"/>
+			<property name="mpHeadNo" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property name="localTime" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property name="invoiceText" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property name="factoryTime" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property name="description" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property name="debitCode" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property name="TU" type="xs:int" lowerBound="1" form="Attribute"/>
+			<property name="PU" type="xs:int" lowerBound="1" form="Attribute"/>
+		</typeDef>
+	</property>
+	<property name="Times">
+		<typeDef xsi:type="ObjectType">
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/MultiSelectionList" ref="d4p1:Time" upperBound="-1"/>
+		</typeDef>
+	</property>
+</package>

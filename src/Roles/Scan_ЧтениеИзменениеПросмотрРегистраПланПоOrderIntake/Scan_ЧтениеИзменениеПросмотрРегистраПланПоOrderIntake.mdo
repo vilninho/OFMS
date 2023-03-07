@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="842e28ae-d93c-48aa-be42-baf91b195327">
+  <name>Scan_ЧтениеИзменениеПросмотрРегистраПланПоOrderIntake</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение изменение просмотр регистра план по Order Intake (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Read Change View Register Plan by Order Intake (scania)</value>
+  </synonym>
+</mdclass:Role>

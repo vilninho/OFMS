@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea4d2767-cd03-4af3-a8a7-be1e6fb95cdd">
+  <name>Scan_ОтправитьСобытияВ1БД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправить события в 1БД</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Отправить события в 1БД</value>
+  </synonym>
+  <methodName>CommonModule.Scan_РегламентныеЗадания.ОтправитьСобытияВ1БД</methodName>
+  <description>Отправить события в 1БД</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

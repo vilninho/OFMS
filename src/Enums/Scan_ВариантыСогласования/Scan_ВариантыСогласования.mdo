@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4aae279-8caf-4f5f-8a08-84e3aa8ed879">
+  <producedTypes>
+    <refType typeId="55617272-15ea-4e68-a5a9-7d2a17fd19a9" valueTypeId="74554b06-ee5a-48ad-b872-94245b1be5a0"/>
+    <listType typeId="29628bdb-be74-4542-a8fb-2e012ffbc3f5" valueTypeId="471113ad-19da-4eaf-9979-25fd9d88e17e"/>
+    <managerType typeId="12faf28d-46a5-41c6-a4d3-4ec3def07610" valueTypeId="ad082994-5d56-4db9-8bc3-7f67c5fa9a53"/>
+  </producedTypes>
+  <name>Scan_ВариантыСогласования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты согласования (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Варианты согласования (scania)</value>
+  </synonym>
+  <comment>Варианты согласования (scania)</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8351b29e-4a4e-4323-911d-442231283f9e">
+    <name>Последовательно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последовательно</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Последовательно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9f33e629-c351-45fc-9c5a-5dbc71098be3">
+    <name>Параллельно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параллельно</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Параллельно</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

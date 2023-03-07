@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e1b7a51-5570-4983-af1b-edb011a58c40">
+  <name>Scan_ОчисткаРегистровСведений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очистка регистров сведений</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value> Clearing the information registers</value>
+  </synonym>
+  <methodName>CommonModule.Scan_РегламентныеЗадания.ОчисткаРегистровСведений</methodName>
+  <description>Очистка регистров сведений</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

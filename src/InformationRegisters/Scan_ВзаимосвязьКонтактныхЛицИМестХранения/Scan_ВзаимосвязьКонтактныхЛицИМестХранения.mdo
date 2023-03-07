@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="306d1fd6-1b7c-4542-8c96-b628b6020238">
+  <producedTypes>
+    <selectionType typeId="c4964432-196f-4171-9032-45e89ef0ce14" valueTypeId="d3779c3b-fcf6-4f24-be0a-e0e7c3a1af6f"/>
+    <listType typeId="f3d8dc42-3794-416a-9b07-df35f8e8c89a" valueTypeId="b887a045-b3b5-40c3-958a-e3e5045167d8"/>
+    <managerType typeId="871553b1-aa7d-4c0f-847d-49506420abde" valueTypeId="ced857e6-bf15-40fc-86f5-b424eb791ae3"/>
+    <recordSetType typeId="bf5ebb6b-e040-4042-964b-6803ecebfe89" valueTypeId="6d5c7643-9bcf-4f86-afa0-5c053696df52"/>
+    <recordKeyType typeId="ec11b4bd-fb79-455c-b5ea-b3fb31fde946" valueTypeId="4a62a972-cd53-4a07-8b23-9ed7b7a93303"/>
+    <recordType typeId="c7d5663d-e5ec-43a4-a3f9-2f2cc3a92e3f" valueTypeId="a1d9bf99-c108-400e-9afb-9d4ec5918b10"/>
+    <recordManagerType typeId="d20edc37-b49b-4f56-92a7-9b66163b51e9" valueTypeId="010cce63-58a9-43ce-a070-9427ab377285"/>
+  </producedTypes>
+  <name>Scan_ВзаимосвязьКонтактныхЛицИМестХранения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаимосвязь контактных лиц и мест хранения (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>The relationship of contact persons and storage areas</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_ВзаимосвязьКонтактныхЛицИМестХранения.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_ВзаимосвязьКонтактныхЛицИМестХранения.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="92be1668-678c-44bf-801d-3444cf862c04">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2a8ba35b-cc8c-4376-954f-7f4133a3e8f2">
+    <name>ДоступностьВПФ</name>
+    <synonym>
+      <key>ru</key>
+      <value> Доступность В ПФ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Availability at PF</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="07bb055a-a075-4c74-ab8b-cf32df018287">
+    <name>МестоХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Storage</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_МестаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8d1537d7-dff1-4fc9-9949-90cb5550ef06">
+    <name>КонтактноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное лицо</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Contact person</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_КонтактныеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="7a621842-fb8b-4b11-b326-cedbbd1b10e0">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d05e00cb-4316-4da9-969b-7785ac1e98ec">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Recording form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

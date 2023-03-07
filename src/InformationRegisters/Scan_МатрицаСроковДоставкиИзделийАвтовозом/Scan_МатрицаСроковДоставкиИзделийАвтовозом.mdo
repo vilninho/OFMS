@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d92a55df-9559-43a3-870f-5bc36e852b8e">
+  <producedTypes>
+    <selectionType typeId="8b3a9e3c-b7fe-4406-aace-08be4a01511a" valueTypeId="3c9912bf-294e-4c6a-a07c-1230fd0be242"/>
+    <listType typeId="cd3f1998-9215-401e-8eb8-703f27ae81c6" valueTypeId="a6ab5624-4392-49aa-becd-4a2149377b95"/>
+    <managerType typeId="11d9b2c6-4501-423a-b0a0-2a9b61ecd76f" valueTypeId="0bb1ead5-f4ce-430b-85a7-21ed819f9995"/>
+    <recordSetType typeId="62a18111-c019-4ee2-8564-8b7b01fae083" valueTypeId="1b633579-6567-434e-a141-6f4b68a61567"/>
+    <recordKeyType typeId="29c5c061-2511-4a3d-9681-0359a7412188" valueTypeId="f9d738e7-4220-474c-8b30-10ef97d3ba1f"/>
+    <recordType typeId="5cd91734-0505-4fab-8189-9a6532490b76" valueTypeId="9042f1a2-420c-44bf-9a0f-a2c867945803"/>
+    <recordManagerType typeId="3c216ab9-e078-490e-8462-9640da4c2369" valueTypeId="8f49c4e6-0014-4e2e-9aac-2fd98536f849"/>
+  </producedTypes>
+  <name>Scan_МатрицаСроковДоставкиИзделийАвтовозом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Матрица сроков доставки продуктов (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Matrix delivery time of products</value>
+  </synonym>
+  <comment>Матрица сроков доставки продуктов  (scania)</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_МатрицаСроковДоставкиИзделийАвтовозом.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_МатрицаСроковДоставкиИзделийАвтовозом.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="becfb80b-bec9-492f-bfcb-d3d32e4e1b08">
+    <name>СрокДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок доставки продукта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Delivery time</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <scale>1</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="56e083e9-9e63-4622-886d-7785e34b0ebe">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="f9fbaf8e-d45f-426e-b548-a17ca35cc8c7">
+    <name>АдресОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес отгрузки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Shipping address</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_АдресаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a42a473d-3941-45c3-a8fb-5ab1d2794fbc">
+    <name>АдресДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес доставки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Delivery address</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_АдресаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4312653f-253e-449b-95ba-d0395aba6d99">
+    <name>СпособДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ доставки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Delivery method</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Scan_СпособыДоставкиПродуктов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="0a4d3f1f-3fab-47e1-b7db-24b6fab95520">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Recording form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1abd915e-812e-4121-891e-0c7e31faf479">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

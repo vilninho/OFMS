@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2533b7c7-55dc-4216-adf5-188d9d2044ff">
+  <producedTypes>
+    <refType typeId="5e460856-398b-41d3-8038-beb38cee2e06" valueTypeId="db556a05-c81e-4b6f-976d-6a11ade133c0"/>
+    <listType typeId="f9e485ea-bf75-4b37-b347-3c74aeadbfe7" valueTypeId="005a1203-374c-451c-8053-a63e583123b6"/>
+    <managerType typeId="6d18b578-86a1-4c41-b3fe-070328c1d994" valueTypeId="101b1166-fef6-4791-bca9-1c900036e068"/>
+  </producedTypes>
+  <name>Scan_КлючевыеДаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключевые даты (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Key dates</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3a2c7b9a-2ab1-476c-98b8-25109ef73cca">
+    <name>AAD</name>
+    <synonym>
+      <key>ru</key>
+      <value>AAD</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>AAD</value>
+    </synonym>
+    <comment>Actual Audit Date	Фактическая дата проведения аудита ПК ТС. </comment>
+  </enumValues>
+  <enumValues uuid="ce4db5fd-d511-4ad5-b8ce-d452738317c3">
+    <name>ADD</name>
+    <synonym>
+      <key>ru</key>
+      <value>ADD</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ADD</value>
+    </synonym>
+    <comment>Actual Delivery Date	Фактическая дата прихода по первому адресу доставки, указанному в заказе, который отправлен на завод-изготовитель</comment>
+  </enumValues>
+  <enumValues uuid="f78f8a58-e77b-45ff-b3f8-04ef8b650269">
+    <name>ADDLBB</name>
+    <synonym>
+      <key>ru</key>
+      <value>ADDLBB</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ADDLBB</value>
+    </synonym>
+    <comment>Actual Delivery Date Local BB	Фактическая дата прихода шасси на площадку кузовостроителя</comment>
+  </enumValues>
+  <enumValues uuid="fce54580-d0e4-4d7a-9e47-41398aa2b2f2">
+    <name>AN</name>
+    <synonym>
+      <key>ru</key>
+      <value>AN</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>AN</value>
+    </synonym>
+    <comment>Audit Notification	Дата поступления вызова на аудит от кузовостроителя. </comment>
+  </enumValues>
+  <enumValues uuid="9004be1d-e46f-4751-8dd8-301df0775f11">
+    <name>CDD</name>
+    <synonym>
+      <key>ru</key>
+      <value>CDD</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>CDD</value>
+    </synonym>
+    <comment>Confirm Delivery Date	Подтвержденная дата прихода по первому адресу доставки. </comment>
+  </enumValues>
+  <enumValues uuid="800ebbf2-336d-4996-984e-febd9fb200ad">
+    <name>CDD2</name>
+    <synonym>
+      <key>ru</key>
+      <value>CDD2</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>CDD2</value>
+    </synonym>
+    <comment>Confirm Delivery Date	Подтвержденная дата прихода по первому адресу доставки. Отклонение от даты CDD</comment>
+  </enumValues>
+  <enumValues uuid="c0a8bffb-969c-4d6b-9ca1-6a3e8ae0ea0d">
+    <name>CDDX</name>
+    <synonym>
+      <key>ru</key>
+      <value>CDD-X</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>CDD-X</value>
+    </synonym>
+    <comment>Кол-во дней до даты CDD для отправки напоминания дилерам</comment>
+  </enumValues>
+  <enumValues uuid="ad627c09-9a56-4e0c-ac56-9b375db01d91">
+    <name>CDDПоставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>CDD поставщик</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>CDD supplier</value>
+    </synonym>
+    <comment>Confirm Delivery Date of contractor	Подтвержденная поставщиком дата прихода по первому адресу доставки. Дата из файла от поставщика</comment>
+  </enumValues>
+  <enumValues uuid="17de879a-ef2c-46d7-ba35-082b74a98dc2">
+    <name>CRD</name>
+    <synonym>
+      <key>ru</key>
+      <value>CRD</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>CRD</value>
+    </synonym>
+    <comment>Confirm Ready Date	Плановая дата выхода продукта с конвейера на заводе. </comment>
+  </enumValues>
+  <enumValues uuid="23c39551-1a93-4f6f-8757-69cfbf3dde58">
+    <name>DCD</name>
+    <synonym>
+      <key>ru</key>
+      <value>DCD</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>DCD</value>
+    </synonym>
+    <comment>Desired Customer Date Дата, когда клиент хочет получить готовый автомобиль у дилера</comment>
+  </enumValues>
+  <enumValues uuid="00383181-2eb8-4350-9c75-46d2f00be7ea">
+    <name>DD</name>
+    <synonym>
+      <key>ru</key>
+      <value>DD</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>DD</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="69c7f42a-7dfc-40b6-ac05-d3d0fb923fab">
+    <name>DD2</name>
+    <synonym>
+      <key>ru</key>
+      <value>DD2</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>DD2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c59b8b63-f7de-4486-9831-b60d89de155c">
+    <name>DDD</name>
+    <synonym>
+      <key>ru</key>
+      <value>DDD</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>DDD</value>
+    </synonym>
+    <comment>Desired Delivery Date Желаемый срок поставки по первому адресу доставки, указанному в заказе на завод изготовитель</comment>
+  </enumValues>
+  <enumValues uuid="85dddc9c-ad2e-4ed7-b866-9e675a10e6a8">
+    <name>DDS</name>
+    <synonym>
+      <key>ru</key>
+      <value>DDS</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>DDS</value>
+    </synonym>
+    <comment>DD of SOP</comment>
+  </enumValues>
+  <enumValues uuid="da23b09f-e473-4908-8baf-9090fb367855">
+    <name>EDD</name>
+    <synonym>
+      <key>ru</key>
+      <value>EDD</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>EDD</value>
+    </synonym>
+    <comment>Estimated Delivery Date	Предварительная дата готовности ПК ТС у кузовостроителя </comment>
+  </enumValues>
+  <enumValues uuid="961eadbe-a0ed-4946-9a42-2797dd3de324">
+    <name>ETA</name>
+    <synonym>
+      <key>ru</key>
+      <value>ETA</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ETA</value>
+    </synonym>
+    <comment>Estimated Time of Arrival	Ожидаемая дата прихода транспортного средства на склад отгрузки</comment>
+  </enumValues>
+  <enumValues uuid="5a118d49-835c-4f90-93ae-38db37891892">
+    <name>FinishDate</name>
+    <synonym>
+      <key>ru</key>
+      <value>Finish Date</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Finish Date</value>
+    </synonym>
+    <comment>Finish Date	Это дата физической готовности продукта на заводе.</comment>
+  </enumValues>
+  <enumValues uuid="4517d9eb-ba8a-4270-ad03-276bb632ce80">
+    <name>PAD</name>
+    <synonym>
+      <key>ru</key>
+      <value>PAD</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>PAD</value>
+    </synonym>
+    <comment>Planned Audit Date	Планируемая дата проведения аудита ПК ТС. </comment>
+  </enumValues>
+  <enumValues uuid="0b247d18-b68e-4df1-a8df-d7061b54762b">
+    <name>PDD</name>
+    <synonym>
+      <key>ru</key>
+      <value>PDD</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>PDD</value>
+    </synonym>
+    <comment>Preliminary Delivery Date	Предварительная дата прихода по первому адресу доставки</comment>
+  </enumValues>
+  <enumValues uuid="7604ae33-b410-4679-94b8-55bcbc800666">
+    <name>PODOD</name>
+    <synonym>
+      <key>ru</key>
+      <value>PO DOD</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>PO DOD</value>
+    </synonym>
+    <comment>Date of Delivery Дата поставки (дата, указываемая в заказе на закупку на надстройку/оборудование)</comment>
+  </enumValues>
+  <enumValues uuid="fbd644f2-b063-4a16-b59d-4991dc3ee554">
+    <name>PTSD</name>
+    <synonym>
+      <key>ru</key>
+      <value>PTSD</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>PTSD</value>
+    </synonym>
+    <comment>PTS Date	Дата выписки ПТС на ПК ТС. </comment>
+  </enumValues>
+  <enumValues uuid="1ddfa3c1-c783-4cfa-bcc5-36d47a72ac4a">
+    <name>RDB</name>
+    <synonym>
+      <key>ru</key>
+      <value>RDB</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>RDB</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fbe00293-84c1-4c44-96d6-db2517bf3057">
+    <name>RFT</name>
+    <synonym>
+      <key>ru</key>
+      <value>RFT</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>RFT</value>
+    </synonym>
+    <comment>Ready for Transfer	Фактическая дата готовности ПК ТС для передачи SRU. </comment>
+  </enumValues>
+  <enumValues uuid="2daad2e5-ae7f-498b-a8c8-9b40a43ef887">
+    <name>SDDate</name>
+    <synonym>
+      <key>ru</key>
+      <value>SD Date</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>SD Date</value>
+    </synonym>
+    <comment>Specification Definite Date Последний день, когда спецификация заказа может быть изменена. Дата доступна в FAIN\Rain</comment>
+  </enumValues>
+  <enumValues uuid="017b8148-bb73-448d-9df3-031cd7cc8741">
+    <name>SoW</name>
+    <synonym>
+      <key>ru</key>
+      <value>SoW</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>SoW</value>
+    </synonym>
+    <comment>Start of Warranty	Дата начала гарантии Скания. В SPII это Delivery Date</comment>
+  </enumValues>
+  <enumValues uuid="0c580971-6c32-451d-864d-4d35a261d513">
+    <name>WED</name>
+    <synonym>
+      <key>ru</key>
+      <value>WED</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>WED</value>
+    </synonym>
+    <comment>Warranty End Date	Дата окончания гарантии</comment>
+  </enumValues>
+  <enumValues uuid="2fc55595-32cb-4d84-ac99-6db46ffbdc2b">
+    <name>БроньДилера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отгрузки дилеру (план)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of shipment to the dealer (plan)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7dad8856-9b2f-44c1-a719-2cd6c96ab5b0">
+    <name>ВнутреннийРезервДилера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутренний резерв дилера</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Dealer's internal reserve</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c181d8fe-df1f-441f-8b22-a8f8baa38fa8">
+    <name>ДатаБукингЛиста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата букинг-листа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Booking list date</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4e88e20f-c19b-4080-8743-45504932aca5">
+    <name>ДатаИнвойса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата инвойса</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of invoice</value>
+    </synonym>
+    <comment>14434</comment>
+  </enumValues>
+  <enumValues uuid="405aa1ee-cec4-44c6-b781-7d8f7f1a580d">
+    <name>ДатаОтгрузкиСЗаводаПриEXW</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отгрузки с завода при EXW</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of shipment from factory to dealer at EXW</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f007b129-fed0-4e9f-8b95-b0cdd0a3779e">
+    <name>ДатаПередачиБУИзделияДилеру</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата передачи б\у продукта дилеру</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of transfer of the used product to the dealer</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0b703ebb-00a5-4387-bec8-060b5792ec2e">
+    <name>ДатаПередачиИзделияДилеру</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата передачи продукта дилеру</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Delivery to dealer date</value>
+    </synonym>
+    <comment>Дата фактической передачи продукта дилеру </comment>
+  </enumValues>
+  <enumValues uuid="2a56d921-7299-47d2-91ba-55c82f79886e">
+    <name>ДатаПокупкиБУИзделия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата покупки б/у продукта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Purchase date (used product)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a499e384-d3dc-4a74-9d32-967db9537c6d">
+    <name>ДатаПоступленияИзделияБУНаСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата поступления продукта б\у на склад</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of receipt of the used product at the warehouse</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="05001e21-06c4-4e62-89fd-50b51442d175">
+    <name>ДатаПоступленияИзделияНаСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата поступления продукта на склад</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of receipt of the product at the warehouse</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bfc30c57-d7c9-4ebb-a841-37cb671f2658">
+    <name>ДатаПоступленияИнвойса1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата поступления на фин. склад</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Invoice receipt date 1C</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d4185094-bdf6-46ea-a1ff-09bfffd0e5f5">
+    <name>ДатаПродажиБУДилеру</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата продажи б/у дилеру</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of sale to dealer (used product)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="75487a92-3ffd-49cd-9959-ae0ba314f84e">
+    <name>ДатаПродажиБУКлиенту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата продажи б/у клиенту</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of sale to client (used product)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd68b95b-74a3-49bc-b9c7-c4f170fee100">
+    <name>ДатаПродажиИзделия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата продажи продукта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of products sale</value>
+    </synonym>
+    <comment>Дата документа продажи продукта дилеру в 1С:УТ</comment>
+  </enumValues>
+  <enumValues uuid="9cfa0488-7416-4eff-b2f0-55d266548b03">
+    <name>ДатаПродажиКлиенту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата продажи от ОСП</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of sale from OSP</value>
+    </synonym>
+    <comment>Дата документа продажи продукта клиенту в SDMS (в SOWA.net – это дата поставки), либо дата документа продажи продукта клиенту в 1С:УТ</comment>
+  </enumValues>
+  <enumValues uuid="19b604c9-e41d-4b97-8dab-b2d7b4d98a01">
+    <name>ДатаПродажиПродуктаКлиенту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата продажи клиенту</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of sale to client</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ba2f498a-d2d1-4e5f-995a-e42de5f64d4e">
+    <name>ДатаСписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата списания</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Write-off date</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c3679dd3-504b-479c-903d-1fb1ca89ffae">
+    <name>Квота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квота</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Quota</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="36b1b6f3-3564-4c18-a83d-c57442bba8ff">
+    <name>ПортСПБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>CDD факт</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Actual CDD</value>
+    </synonym>
+    <comment>ПортСПБ</comment>
+  </enumValues>
+  <enumValues uuid="b4f93bcb-1a4f-4a1d-abb3-eab46806ba52">
+    <name>ПродуктВАрхиве</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукт в архиве</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Product in archive</value>
+    </synonym>
+    <comment>Техническая дата, означающая проданный продукт, убывший из учета</comment>
+  </enumValues>
+</mdclass:Enum>

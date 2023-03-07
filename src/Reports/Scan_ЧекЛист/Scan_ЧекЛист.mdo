@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86122d0f-7ec6-4a41-8f88-9cb02c129079">
+  <producedTypes>
+    <objectType typeId="9bb619ed-9383-42cc-92d9-c4a43ffb4013" valueTypeId="5d517f80-1271-4a69-9e54-0fcfc7a1e251"/>
+    <managerType typeId="3922fbbb-c873-49bb-a22b-929a10c4c0ab" valueTypeId="5ccd5e49-543a-42bf-a7db-b05415a42047"/>
+  </producedTypes>
+  <name>Scan_ЧекЛист</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чек-лист (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Check-list (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.Scan_ЧекЛист.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="c593aa74-8f68-4cc0-aed7-eebe00fc43d9">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

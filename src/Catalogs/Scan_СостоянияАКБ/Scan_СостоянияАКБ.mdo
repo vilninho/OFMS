@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0afea31-7a18-4c0c-9dcf-bbb925d56552">
+  <producedTypes>
+    <objectType typeId="605f4b7c-c3a9-425f-97ef-7b23262a6118" valueTypeId="c5e8fa9e-8cb4-413f-b7b8-41a5fa951aaa"/>
+    <refType typeId="d0166cae-24a7-417c-b10a-41c59ca8a551" valueTypeId="0afd3e15-f854-445e-83e8-c351de44deb5"/>
+    <selectionType typeId="a14e5eaa-113e-4f16-83ad-f58e74e7ac53" valueTypeId="4eab9e4f-25b9-4e5a-bff2-0830c4c45e39"/>
+    <listType typeId="5ac5d3d3-7605-4110-a914-7a7abfe71eb7" valueTypeId="4837386c-0f7b-4b6d-92d5-7fd6b639296c"/>
+    <managerType typeId="ef2ef6a3-3241-4301-997a-e57ffd9fca92" valueTypeId="78682dae-a6fb-468b-a45b-55a67be9d294"/>
+  </producedTypes>
+  <name>Scan_СостоянияАКБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния АКБ (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Состояния АКБ (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_СостоянияАКБ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_СостоянияАКБ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние АКБ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Состояние АКБ</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_СостоянияАКБ.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_СостоянияАКБ.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="dfb278c3-7755-44a0-b2d4-1dcc726dda1e">
+    <name>УровеньСостояния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень состояния</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Уровень состояния</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d5dcbdcf-fa4d-48c9-8450-ee23d1b641c2">
+    <name>Цвет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Цвет</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="7e355c08-739a-4e19-8997-759cc2e07b0f">
+    <producedTypes>
+      <objectType typeId="bc372de6-7472-45d3-beb0-e9b4ce4a7374" valueTypeId="ff44b59e-6d8f-4897-8136-f7bfc5aeb845"/>
+      <rowType typeId="89ec63f7-f557-44da-af10-8d0f8b4c6166" valueTypeId="f4a5754a-3b52-4a12-af3e-03e2776ec10a"/>
+    </producedTypes>
+    <name>ХарактеристикиАКБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристики АКБ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Характеристики АКБ</value>
+    </synonym>
+    <attributes uuid="08a040af-fef1-4533-b0fa-015388a876f1">
+      <name>Характеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Характеристика</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Характеристика</value>
+      </synonym>
+      <type>
+        <types>EnumRef.Scan_ХарактеристикиАКБ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f62b1ae7-777e-40ee-918d-66b50604c4c5">
+      <name>Емкость</name>
+      <synonym>
+        <key>ru</key>
+        <value>Емкость</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Емкость</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_ЕмкостиАКБ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2308cca3-052c-456c-b7ab-a6a54308b6d6">
+      <name>ВидСравненияЛевый</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид сравнения</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Вид сравнения</value>
+      </synonym>
+      <type>
+        <types>EnumRef.Scan_ВидСравнения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="869c9338-9030-4aa9-982c-99d1b674aa85">
+      <name>ЛеваяГраница</name>
+      <synonym>
+        <key>ru</key>
+        <value>Левая граница</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Левая граница</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="abbeb130-0bfb-4af4-b1b1-0568f35ff1bc">
+      <name>ВидСравненияПравый</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид сравнения</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Вид сравнения</value>
+      </synonym>
+      <type>
+        <types>EnumRef.Scan_ВидСравнения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="efeb9663-ca4a-434f-94df-ff74bfcb9011">
+      <name>ПраваяГраница</name>
+      <synonym>
+        <key>ru</key>
+        <value>Правая граница</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Правая граница</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="ebb6a314-779b-4f8b-964e-7bea4abacd77">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3349593a-0c01-4add-aa0a-e10ef755c63f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

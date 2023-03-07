@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbc4dda3-5ecf-43cf-bfea-f9692f9e7858">
+  <name>Scan_ПоддержкаИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поддержка интеграции</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Integration support</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.Scan_ВебСервисы</content>
+  <content>InformationRegister.Scan_Обмен1БДНастройкиПроверкиМетодов</content>
+  <content>InformationRegister.Scan_Обмен1БДПроверкаМетодовОбменаС1БД</content>
+  <content>InformationRegister.Scan_ИсторияПоступленийИПродажПродуктов</content>
+  <parentSubsystem>Subsystem.Администрирование.Subsystem.Scan_ИнтеграцияС1БД</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b644d89a-693b-4cf0-bd6b-439454bc546b">
+  <producedTypes>
+    <selectionType typeId="b4ac45ef-4c1f-49ab-9e5c-ece4cb558c29" valueTypeId="92489e8d-6fe1-4b74-bc8e-a4aa940e12fe"/>
+    <listType typeId="ea3b8998-129a-4eb0-be62-dc638089ab12" valueTypeId="04cb0df7-3587-4461-a685-763eab5606de"/>
+    <managerType typeId="1d874081-3cff-4940-8e67-c8b772fce9c4" valueTypeId="cd5e3e86-4091-4cd7-a2ce-468b2c4653cc"/>
+    <recordSetType typeId="ffd4088c-040c-41d2-a769-b421dcb9c4f2" valueTypeId="8990852b-e813-481f-b06c-9a2740aceec3"/>
+    <recordKeyType typeId="71157049-10db-4219-9c0d-6020863bd1c4" valueTypeId="3c9022d5-6543-4d08-bbce-1ea5635df2a0"/>
+    <recordType typeId="b88ee507-5bcc-4184-820d-648b97580d93" valueTypeId="8c9291a5-91ed-4bff-b933-67793c69f2e5"/>
+  </producedTypes>
+  <name>Scan_ЗаявкиНаДействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявки на действия (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Заявки на действия</value>
+  </synonym>
+  <comment>Заявки на действия (scania)</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>AccumulationRegister.Scan_ЗаявкиНаДействия.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="27c39ee7-a527-4ca2-9259-217a33a13576">
+    <name>Заказано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказано</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Заказано</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="c5670d20-095e-4aa8-a51a-a92f6621dcef">
+    <name>ЗаказаноПоставщику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказано поставщику</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Заказано поставщику</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="fc11be81-90d0-4dcb-b2a2-7c5da05e7d14">
+    <name>ХозяйственныеОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хозяйственные операции</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Хозяйственные операции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ХозяйственныеОперации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="fa3fb6d5-50c8-4ac0-866a-cd03bdf19bbd">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="6f036333-e8f9-4512-a0b3-2025a9b5d49d">
+    <name>Изделие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукт</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Product</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Изделия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="8342e830-34df-4ba5-be64-3d7a2ee87890">
+    <name>ЗаявкаНаДействие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка на действие</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Request for action</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Scan_ЗаявкаНаДействие</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="6a6b3f4e-eb08-4cb1-aea8-8e53f1ccbcfe">
+    <name>ЗаявкаПеревозчику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка перевозчику</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Order to carrier</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Scan_ЗаявкаПеревозчику</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <forms uuid="e9d5c26a-1bc2-4249-91c0-29c076e3155a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:AccumulationRegister>

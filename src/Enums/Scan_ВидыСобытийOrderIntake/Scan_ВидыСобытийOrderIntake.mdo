@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="093e2218-31dd-468f-bcf0-a9389acc37e7">
+  <producedTypes>
+    <refType typeId="2179af2b-dfe7-4d75-85ac-c3b193a7c990" valueTypeId="e38aad87-5412-4052-a40f-0c3ac41ee6dd"/>
+    <listType typeId="74a4e8de-076b-446c-bbf2-d0d8829b33d6" valueTypeId="bb870d6d-1b8b-472a-a461-e2de3901e0aa"/>
+    <managerType typeId="6b94470e-233e-4abe-baf8-69e130e3aa8c" valueTypeId="d680c0ff-56dd-4f23-8e69-8ccf2bcf36f2"/>
+  </producedTypes>
+  <name>Scan_ВидыСобытийOrderIntake</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды событий Order Intake (scania)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="94a13bea-e582-4aec-ae85-b497a01e5955">
+    <name>ГлобальноеСобытие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Глобальное событие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5425772a-8e7d-44f5-b926-9326fe55a3fb">
+    <name>СобытиеЗаказаНаЗавод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие Заказа на завод</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a372e573-8bc4-4b1f-84e4-4bf27d2836d9">
+    <name>СобытиеЗаявкиНаСОП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие Заявки на СОП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="083a52f1-1665-47f7-8ef7-07ec3f7bcf2b">
+    <name>СобытиеOrderIntake</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие Order Intake</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

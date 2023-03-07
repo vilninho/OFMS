@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87f12e94-75aa-4331-a82d-73d07d5f1e27">
+  <producedTypes>
+    <objectType typeId="bea040c1-363c-42c4-96f2-f6174421c531" valueTypeId="5626968f-a5b8-4f8e-94a3-5c10fb3b201c"/>
+    <refType typeId="27bbe866-359f-4e82-8a99-8e32d29a9c76" valueTypeId="73f8b61e-5d3f-4e6e-a2a2-534c9ab3a98a"/>
+    <selectionType typeId="200fc71e-06e4-4250-8bc4-5acce1b48ba9" valueTypeId="95c8a0f6-7e9c-4d19-a0b3-0faf0f20efe3"/>
+    <listType typeId="b0de07f1-f890-40c4-84cb-97f4ef5d4068" valueTypeId="94a5a14e-8739-4276-96e6-a28b43d618dd"/>
+    <managerType typeId="c4c944b4-6fbb-4cc6-82b4-8e8835d4af20" valueTypeId="a55a8b4a-bf1c-4ad9-a26e-aa61a65f5d39"/>
+  </producedTypes>
+  <name>Scan_ВидыПродуктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды продуктов (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Product Type (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_ВидыПродуктов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_ВидыПродуктов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_ВидыПродуктов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.Scan_ВидыПродуктов.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.Scan_ВидыПродуктов.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="7efb9822-f1a0-4594-8457-b39a40b65a0a">
+    <name>IDExternalSystem</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID External System</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ID External System</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="017adec1-a633-498d-b93c-9ee9d1356852">
+    <name>ГруппаПродукта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа продукта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Product Group</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ГруппыПродуктов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="094af5f0-886d-43e6-82d1-cdbad97846aa">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of renewal</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ac9c93e9-a267-415f-8f2e-90cf9e348a0c">
+    <name>НаименованиеАнглийское</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование английское</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Name English</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="7f3ffe45-6a75-404b-ad3e-f8e61717c2fd">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form element</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5f09001e-8e04-4525-aa4b-d233b7917691">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d3ddf47e-61d7-4e0a-99f8-3808db159088">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form groups</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

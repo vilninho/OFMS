@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97e2e474-46c8-4c14-a6ea-2f58a08f9ba9">
+  <producedTypes>
+    <refType typeId="7a87fdfe-cb7a-442e-9f15-fbe805a11adc" valueTypeId="a946e878-96b6-4d4a-b86a-ce7f7e2a6f77"/>
+    <listType typeId="0a7a692e-cabf-4690-a730-f791d60cb3a7" valueTypeId="cb540d53-18ce-42ca-8ab0-5f35e322b586"/>
+    <managerType typeId="3360ee08-9f53-452f-afcc-d04765adbb7d" valueTypeId="bae6b925-6e4e-49cb-9b27-fbac749ce1aa"/>
+  </producedTypes>
+  <name>Scan_СтатусыИзделий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы продуктов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Статусы продуктов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="baf799ee-2ed0-4312-81e1-59c46b62e17a">
+    <name>Новая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новая</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Новая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="00d42205-c848-4301-a92b-6e6f145ced26">
+    <name>СогласованиеДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласование доставки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Согласование доставки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7196dbfe-4c51-43d7-8a8b-f10d97c58797">
+    <name>ДоставкаПодтверждена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доставка подтверждена</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Доставка подтверждена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fda3d260-b476-4f40-9144-2ce1ac10bd38">
+    <name>Исполнена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнена</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Исполнена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

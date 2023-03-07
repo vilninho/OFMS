@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62aa65be-6bf5-4b31-98f6-f65858a7437d">
+  <producedTypes>
+    <objectType typeId="f7376582-3d19-47e1-8020-23650161cc9a" valueTypeId="5660a8b2-35eb-47c6-bdca-f4028bd5f8f3"/>
+    <refType typeId="cc3ad614-9b93-4224-9b0f-d5859af3ca15" valueTypeId="db766165-a783-4471-a126-9c5fc2fea9f4"/>
+    <selectionType typeId="8d6b9baa-2861-41d4-bd20-f35648e26b03" valueTypeId="ee3773d9-7af8-4aa6-89d0-40beeb9d2956"/>
+    <listType typeId="08bfd9e6-9f88-41f5-892c-6e5e5c3b0026" valueTypeId="b3c17887-8a8b-4b18-aafe-32fe3bd72fa4"/>
+    <managerType typeId="a0ccff6c-289b-4bd6-a408-d49c66072543" valueTypeId="dbdef94f-2b4f-44cc-9ed8-556eaa0ec476"/>
+  </producedTypes>
+  <name>Scan_ВерсииБазовыхСпецификаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версии базовых спецификаций (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Basic specification versions (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_ВерсииБазовыхСпецификаций.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_ВерсииБазовыхСпецификаций.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Scan_СпецификацииПродуктов</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_ВерсииБазовыхСпецификаций.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_ВерсииБазовыхСпецификаций.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="f1492469-743f-4ac9-94a6-426e9176e81c">
+    <name>IDExternalSystem</name>
+    <synonym>
+      <key>ru</key>
+      <value>IDExternalSystem</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7175a180-70b6-42b2-ab06-e440e6269fef">
+    <name>ВерсияСпецификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия спецификации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Specification version</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ee978eb5-18e3-477b-94c5-64098cf1eeac">
+    <name>ВидСпецификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид спецификации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Kind of specification</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ВидыСпецификацийПродуктов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cffc51f1-d59f-4f2d-9e2e-a2ceb854d15b">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of renewal</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="63d48325-d731-46db-bdd2-0fcaad502a80">
+    <name>ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Creation date</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ae165969-29c8-4452-b1d8-db17c912ce8a">
+    <name>Опции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опции</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Options</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="5ecbe351-91e5-4310-87e4-cc4ef3c30489">
+    <producedTypes>
+      <objectType typeId="62a78b10-4e53-4785-9582-6b3c00d6aff9" valueTypeId="21faf6aa-567c-4843-a870-8c9bb2d60868"/>
+      <rowType typeId="205fb1d4-5232-4e3f-ba35-09db9226e6b8" valueTypeId="15a27eac-2016-443a-9267-dfa43e192287"/>
+    </producedTypes>
+    <name>РасшифровкаОпций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расшифровка опций</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Transcript options</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="54a209c6-5a66-4eb9-9907-87e40b480e1f">
+      <name>Опция</name>
+      <synonym>
+        <key>ru</key>
+        <value>Опция</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Option</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_ОпцииПродуктов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="55eefbdd-4211-473a-832d-a793bf81fb87">
+    <producedTypes>
+      <objectType typeId="c44ddd7c-aaa3-4a28-b2dc-7a9017c1ce09" valueTypeId="9db8e1c0-405b-46d0-b290-6dd6e59c5297"/>
+      <rowType typeId="33be8be9-407c-4379-a340-9585e1421d9a" valueTypeId="acfb4344-a320-4b66-8036-735090504cb0"/>
+    </producedTypes>
+    <name>Использование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использование</value>
+    </synonym>
+    <attributes uuid="5c13cfa6-3ab1-46d5-9d3b-8ba68dc9b32c">
+      <name>ОбъектИспользования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект использования</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_СпециальныеУсловия</types>
+        <types>CatalogRef.Scan_СоглашенияОПоставке</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bea2a06c-0e6d-46a2-b809-ac7078499b7b">
+      <name>ВерсияСпецификации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Версия спецификации</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="5689166d-bc68-4db2-8d87-39f6b5703993">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="92ae9999-403c-462c-82ea-28f61740c606">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

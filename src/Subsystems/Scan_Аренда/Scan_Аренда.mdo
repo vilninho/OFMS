@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="238d896f-68ab-4b93-9d77-8af81c56dac7">
+  <name>Scan_Аренда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аренда</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Rent</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Scan_Аренда</picture>
+  </picture>
+  <content>CommonPicture.Scan_Аренда</content>
+  <content>DataProcessor.Scan_Аренда</content>
+  <content>Document.Scan_ПрайсЛистАренда</content>
+  <content>InformationRegister.Scan_ЦеныНаАренду</content>
+  <content>Role.Scan_ДобавлениеИзменениеРМАренда</content>
+  <content>Role.Scan_ПросмотрПодсистемыАренда</content>
+  <content>Role.Scan_ДобавлениеИзменениеПрайсЛистаАренда</content>
+  <content>Role.Scan_ЧтениеПросмотрПрайсЛистаАренда</content>
+</mdclass:Subsystem>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74dccf2e-0142-40aa-9a29-9e8e9a97d5a3">
+  <producedTypes>
+    <refType typeId="af2c01cf-2285-4d1d-bfb1-358a6e216356" valueTypeId="d0438079-7c10-4450-842c-84c027fe96aa"/>
+    <listType typeId="b2e8a4c2-6ca4-4610-8195-d54a35e1eda1" valueTypeId="c31c5fdf-2ba3-49b3-8313-39b5f5ac1b8a"/>
+    <managerType typeId="e921eafc-30ab-487b-9b8b-13c9b7bbeb39" valueTypeId="0cf0b97a-1d62-4150-8ed0-9ae157a0e9ab"/>
+  </producedTypes>
+  <name>Scan_НазначениеПравИНастроек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назначение прав и настроек (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Назначение прав и настроек (scania)</value>
+  </synonym>
+  <comment>Определяют уровень применимости права / настройки</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2bcc6f9e-14a6-4a96-9038-22b5a20202a8">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Организация</value>
+    </synonym>
+    <comment>Значение права определяется для каждой организации</comment>
+  </enumValues>
+  <enumValues uuid="47403b5f-cffb-4ca2-b2a3-097924a103ca">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Пользователь</value>
+    </synonym>
+    <comment>Значение права определяется для каждого пользователя</comment>
+  </enumValues>
+  <enumValues uuid="9adb20fe-ef78-42d6-8e17-baf49c016abd">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Подразделение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

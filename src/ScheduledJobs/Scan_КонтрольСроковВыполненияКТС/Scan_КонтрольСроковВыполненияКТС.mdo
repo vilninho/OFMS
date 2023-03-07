@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38855f1e-4674-440e-9136-eaa9cef71aad">
+  <name>Scan_КонтрольСроковВыполненияКТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль сроков выполнения КТС</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Контроль сроков выполнения КТС</value>
+  </synonym>
+  <methodName>CommonModule.Scan_РегламентныеЗадания.КонтрольСроковВыполненияКТС</methodName>
+  <description>Контроль сроков выполнения КТС</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

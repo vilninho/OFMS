@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3de89455-5acf-4476-97e1-b52ab2296a55">
+  <name>Справочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Directories</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Scan_КодыНеисправныхДеталей</content>
+  <content>Catalog.Scan_КодыДефектов</content>
+  <content>Catalog.Scan_СервисныеОперации</content>
+  <content>Catalog.Scan_СоставляющиеСервисныхОпераций</content>
+  <content>Catalog.Scan_ПакетыСервисныхОпераций</content>
+  <content>InformationRegister.Scan_СрокиВыполненияКонтроляТехническогоCостояния</content>
+  <content>InformationRegister.Scan_МатрицаХраненияИзделий</content>
+  <content>Catalog.Scan_ЧекЛистТехническогоСостоянияИзделияПрисоединенныеФайлы</content>
+  <parentSubsystem>Subsystem.Scan_ХранениеИзделий</parentSubsystem>
+</mdclass:Subsystem>

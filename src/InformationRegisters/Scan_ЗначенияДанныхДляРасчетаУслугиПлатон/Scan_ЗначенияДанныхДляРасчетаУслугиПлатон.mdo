@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49f48133-4527-487e-a6b5-b5497334e084">
+  <producedTypes>
+    <selectionType typeId="9209db78-0300-41bf-88a2-f9bb94650e3a" valueTypeId="35d02559-0f6c-445b-a4ee-a165227f537e"/>
+    <listType typeId="116aec08-589e-4bb3-a4d5-b22ba0a6ff11" valueTypeId="f2cfcb59-4fa3-4505-8449-89ed8020ca3f"/>
+    <managerType typeId="1ed8aa9e-591b-4704-99a4-072039694154" valueTypeId="494da90d-b17d-4767-8c7a-c083037a273b"/>
+    <recordSetType typeId="c15045ed-882e-4420-851a-45910c28e644" valueTypeId="1451a28d-2e88-4f83-b5ce-ebbf88c0764f"/>
+    <recordKeyType typeId="970a5277-f195-473b-b272-8f8947888a7f" valueTypeId="f9376885-c091-47b9-8f76-eb5cd2c0dd20"/>
+    <recordType typeId="f8e19396-7dc9-45f5-9492-ec6bb6500f6f" valueTypeId="600eae2d-bbf5-42f3-b8be-78fd004ed368"/>
+    <recordManagerType typeId="e8dc3a7b-0101-45a8-b032-813e319823d7" valueTypeId="7d879531-740d-4f41-adff-35c8b7bb99ee"/>
+  </producedTypes>
+  <name>Scan_ЗначенияДанныхДляРасчетаУслугиПлатон</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения данных для расчета услуги Платон (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Data values ​​for Plato service calculation (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_ЗначенияДанныхДляРасчетаУслугиПлатон.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_ЗначенияДанныхДляРасчетаУслугиПлатон.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="eecb7208-4c60-4e45-b17a-cc0dd47eeefe">
+    <name>КоэффициентВзиманияПлаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент взимания платы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Coefficient of charging</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d3f9ed0f-515a-4087-b8a2-3d0cfaf81dbb">
+    <name>ТарифОплатыЗа1Км</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф оплаты за1 км</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Payment tariff for 1 km </value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="40fa0775-e882-428e-859c-d5a71fa248de">
+    <name>ОснованиеИзменений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание изменений</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The base changes</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="59a77fa6-ea9d-42f2-8202-4914f5bb416c">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="838a626c-2994-4741-a413-3b7f1e04b204">
+    <name>ДействующийРазмерПлатыЗа1Км</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действующий размер платы за1 км</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Current payment for 1 km.</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>1</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="9daba4c5-3425-4b2a-b24e-751e6a2b5f76">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Service</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_НоменклатураУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="f722cc7d-4a60-47f3-89a7-e8d7efcfc6e3">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Recording form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="551d8f17-f1e1-45e0-b1ec-abefac0b834a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

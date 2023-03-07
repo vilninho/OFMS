@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91f8709a-bdc0-41df-a576-468ca6739218">
+  <name>Scan_НастройкиПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки программы</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Program settings</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ПанельАдминистрированияБСП</content>
+  <content>InformationRegister.Scan_КонтрольныеТочкиАРМ</content>
+  <content>DataProcessor.УдалениеПомеченныхОбъектов</content>
+  <content>DataProcessor.ПанельАдминистрированияБСП</content>
+  <content>Constant.Scan_ВидСвязиДилер</content>
+  <content>Constant.Scan_ИнтервалPartPeriod</content>
+  <content>4f8feef7-d146-479d-97ab-af999c6a6d74</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

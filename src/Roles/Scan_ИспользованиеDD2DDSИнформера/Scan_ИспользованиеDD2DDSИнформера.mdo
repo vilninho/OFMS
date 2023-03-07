@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0650d683-e03a-4537-8847-db54c5c64c2e">
+  <name>Scan_ИспользованиеDD2DDSИнформера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование DD2/DDS информера (scania)</value>
+  </synonym>
+</mdclass:Role>

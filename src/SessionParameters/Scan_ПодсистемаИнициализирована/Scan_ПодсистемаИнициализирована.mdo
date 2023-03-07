@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb97b7c3-1651-4f03-9203-2010620b675d">
+  <name>Scan_ПодсистемаИнициализирована</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема инициализирована</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Подсистема инициализирована</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+</mdclass:SessionParameter>

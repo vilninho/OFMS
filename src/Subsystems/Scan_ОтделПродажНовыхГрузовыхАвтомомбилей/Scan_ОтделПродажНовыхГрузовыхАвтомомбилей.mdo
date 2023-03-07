@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c87a667-cb3d-43bd-9648-5fd6a22fdff5">
+  <name>Scan_ОтделПродажНовыхГрузовыхАвтомомбилей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отдел продаж новых грузовых автомобилей</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Sales</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Scan_ОтделПродажНовыхГрузовыхАвтомомбилей</picture>
+  </picture>
+  <content>Enum.Scan_ТипыСтатусовЗаявки</content>
+  <content>Enum.Scan_ТипыСпецификации</content>
+  <content>CommonPicture.Scan_ОтделПродажНовыхГрузовыхАвтомомбилей</content>
+  <content>Enum.Scan_ТипыСоглашенийОПоставке</content>
+  <content>InformationRegister.Scan_ПараметрыВидимостиОбъектов</content>
+  <content>FilterCriterion.Scan_ИспользованиеСпециальныхУсловий</content>
+  <content>InformationRegister.Scan_ИсторияСтатусовСоглашенийОПоставкеИСпециальныхУсловий</content>
+  <content>Role.Scan_ДобавлениеИзменениеСоглашенияОПоставке</content>
+  <content>Role.Scan_ДобавлениеИзменениеСпециальныеУсловия</content>
+  <content>Role.Scan_ДобавлениеИзменениеСтатусовСОПиСУ</content>
+  <content>Role.Scan_ДобавлениеИзменениеРМОтделПродажНовыхГрузовыхАвтомомбилей</content>
+  <content>Role.Scan_ПросмотрПодсистемыОтделПродажНовыхГрузовыхАвтомобилей</content>
+  <content>Role.Scan_ЧтениеСоглашенияОПоставке</content>
+  <content>Role.Scan_ЧтениеСпециальныеУсловия</content>
+  <content>Role.Scan_ЧтениеСтатусовСОПиСУ</content>
+  <content>DataProcessor.Scan_РМРегиональногоМенеджера</content>
+  <content>Role.Scan_ДобавлениеИзменениеРММенеджераПоПродажамГрузовыхАвтомобилей</content>
+  <content>Catalog.Scan_КоммерческиеПредложения</content>
+  <content>InformationRegister.Scan_СоставСоглашенийОПоставке</content>
+  <content>InformationRegister.Scan_ЗакреплениеМенеджеровЗаДилерами</content>
+  <content>DataProcessor.Scan_МониторыПродаж</content>
+  <content>Report.Scan_ОтчетПоПлановымЦенамПродажиШасси</content>
+  <content>Report.Scan_OrderBookMargin</content>
+  <content>InformationRegister.Scan_ПлановаяСебестоимостьПродуктов</content>
+  <content>Report.Scan_MonthlyReport</content>
+  <content>Report.Scan_ПродажиСПрименениемСУ</content>
+  <subsystems>Scan_Справочники</subsystems>
+  <subsystems>Scan_Документы</subsystems>
+</mdclass:Subsystem>

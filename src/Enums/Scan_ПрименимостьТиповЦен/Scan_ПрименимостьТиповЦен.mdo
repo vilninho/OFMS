@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f6612e7-e77f-4e8e-8d43-e43f29d6a2c5">
+  <producedTypes>
+    <refType typeId="0f269cec-1811-4b56-8031-7d8b0da5c8b7" valueTypeId="52e78671-4f74-488e-9381-2722c5762144"/>
+    <listType typeId="ae1f1f07-464d-4061-a633-b2fea6abdfa6" valueTypeId="0022e765-c88b-4c8f-b32d-7dce6705e6d7"/>
+    <managerType typeId="e3524f07-4ae6-45a2-942a-57acef89eb44" valueTypeId="60e7d9ae-71e0-42ce-a9cc-cf6c553c9e4e"/>
+  </producedTypes>
+  <name>Scan_ПрименимостьТиповЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Применимость типов цен (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Applicability of prices types (scania)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="62d7e933-b50e-42a2-9098-1e873be4251b">
+    <name>ТранспортныеСредства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортные средства</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Vehicles</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84938893-8569-4603-a9c7-2b76ba18b576">
+    <name>Опции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опции</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Options</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="55599adf-ae0f-43a6-af8d-b72f9b4dedf1">
+    <name>ДвигателиИДЭС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Двигатели и ДЭС</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

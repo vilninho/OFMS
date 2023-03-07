@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4111a976-1436-4cc5-b47a-5450df27730f">
+  <producedTypes>
+    <objectType typeId="98157551-2e99-4c55-b8d3-85a641160ac0" valueTypeId="a9e0ee91-0aad-48f1-986b-3c24160a0d6e"/>
+    <refType typeId="6725e175-34fc-49be-b634-f4441df9fdf3" valueTypeId="6e1d5509-d478-4c2c-bbbf-f641a377f6c4"/>
+    <selectionType typeId="1267d7ed-8048-4a90-bee0-710f30d50e74" valueTypeId="7d7e1a77-526c-48a0-a54a-48bbcafea3f3"/>
+    <listType typeId="b59fe1d6-5fc6-49e5-b28e-192a0008509c" valueTypeId="a7a798e3-77c2-4a83-9175-673f7ad8770b"/>
+    <managerType typeId="0b4e0188-6536-41c8-a7cc-f8f225a57b6a" valueTypeId="04b9770d-0e92-483d-8d88-08a7f2609954"/>
+  </producedTypes>
+  <name>Scan_ВидыЗапроса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды запроса (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Types of request (scania)</value>
+  </synonym>
+  <comment>Виды запросов в 1БД</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_ВидыЗапроса.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_ВидыЗапроса.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид запроса</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="c8552ec2-ecbf-4441-ae6a-d4e252149e9c">
+      <name>AddUpdateUser</name>
+      <description>AddUpdateUser</description>
+      <code xsi:type="core:StringValue">
+        <value>000000075</value>
+      </code>
+    </items>
+    <items id="8501d306-b290-4164-95c0-ba8634bcdf54">
+      <name>CheckUserTokenIsOnline</name>
+      <description>CheckUserTokenIsOnline</description>
+      <code xsi:type="core:StringValue">
+        <value>000000076</value>
+      </code>
+    </items>
+    <items id="bb88e647-9332-43fa-a4f0-ff414818e758">
+      <name>CloseExchangeSession</name>
+      <description>CloseExchangeSession</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="ef3e4331-54a6-4f12-a834-e27ee526ab06">
+      <name>CreateProduct</name>
+      <description>CreateProduct</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="6e050e3b-79e6-4694-9ba0-f7f7919b37fc">
+      <name>CreateSOP</name>
+      <description>CreateSOP</description>
+      <code xsi:type="core:StringValue">
+        <value>000000062</value>
+      </code>
+    </items>
+    <items id="421d0070-940f-4ff5-a461-f3dce05fb4b7">
+      <name>GetAdditionalProperty</name>
+      <description>GetAdditionalProperty</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="1d4e6255-d6d6-410b-904a-02170a20ed2f">
+      <name>GetChassis</name>
+      <description>GetChassis</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="18fcf6e6-02dc-41d0-a95b-fca58e767623">
+      <name>GetCompany</name>
+      <description>GetCompany</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="eca31bd4-b126-49c9-9dfc-f88fda43dc2e">
+      <name>GetContragents</name>
+      <description>GetContragents</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="5f700095-ad07-4a00-943b-4ce243b5ee04">
+      <name>GetDealers</name>
+      <description>GetDealers</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="54e1c4bc-5d85-4c43-a227-a7d57373da2f">
+      <name>GetEngines</name>
+      <description>GetEngines</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="73f1455c-0bdd-4bdd-b481-57dd345ee466">
+      <name>GetEPTS</name>
+      <description>GetEPTS</description>
+      <code xsi:type="core:StringValue">
+        <value>000000077</value>
+      </code>
+    </items>
+    <items id="2fffb708-1472-4a5e-9a93-fd0ec4b05a9f">
+      <name>GetEPTSstatement</name>
+      <description>GetEPTSstatement</description>
+      <code xsi:type="core:StringValue">
+        <value>000000078</value>
+      </code>
+    </items>
+    <items id="abb2b7e8-44a4-433b-9fd7-b9b4c829b5ec">
+      <name>GetListContragent</name>
+      <description>GetListContragent</description>
+      <code xsi:type="core:StringValue">
+        <value>000000068</value>
+      </code>
+    </items>
+    <items id="fad98eb7-09cc-4df9-9679-ab38c075b9c4">
+      <name>GetListDogovorov</name>
+      <description>GetListDogovorov</description>
+      <code xsi:type="core:StringValue">
+        <value>000000069</value>
+      </code>
+    </items>
+    <items id="e6db921e-9384-4ed7-afdb-0e99064e7463">
+      <name>GetListOfCategories</name>
+      <description>GetListOfCategories</description>
+      <code xsi:type="core:StringValue">
+        <value>000000070</value>
+      </code>
+    </items>
+    <items id="34bd1454-8a78-402e-b7af-174290911454">
+      <name>GetListOfChassis</name>
+      <description>GetListOfChassis</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="c41756b0-c5be-4761-bcba-5205e3bad83f">
+      <name>GetListOfCommercialOffers</name>
+      <description>GetListOfCommercialOffers</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="caaa39bc-f380-46c3-b38f-266d08fd1b83">
+      <name>GetListOfCompany</name>
+      <description>GetListOfCompany</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+    </items>
+    <items id="6abdce55-1671-4dbb-b64a-a5db74065b59">
+      <name>GetListOfCompanyGroup</name>
+      <description>GetListOfCompanyGroup</description>
+      <code xsi:type="core:StringValue">
+        <value>000000012</value>
+      </code>
+    </items>
+    <items id="d3aa356e-7539-46e4-8cdb-f12a384c9ec5">
+      <name>GetListOfCompanyType</name>
+      <description>GetListOfCompanyType</description>
+      <code xsi:type="core:StringValue">
+        <value>000000013</value>
+      </code>
+    </items>
+    <items id="1346c581-f56d-4ad6-b067-18f1989dcf7b">
+      <name>GetListOfContragents</name>
+      <description>GetListOfContragents</description>
+      <code xsi:type="core:StringValue">
+        <value>000000014</value>
+      </code>
+    </items>
+    <items id="84235291-0d89-4a5f-acc8-28706487d18e">
+      <name>GetListOfCooperationType</name>
+      <description>GetListOfCooperationType</description>
+      <code xsi:type="core:StringValue">
+        <value>000000015</value>
+      </code>
+    </items>
+    <items id="765e8af1-ebd5-481f-94b2-02ea77e6686d">
+      <name>GetListOfCostCenters</name>
+      <description>GetListOfCostCenters</description>
+      <code xsi:type="core:StringValue">
+        <value>000000067</value>
+      </code>
+    </items>
+    <items id="1bece82b-1d4d-47e2-abd2-d169f13b1c02">
+      <name>GetListOfCountries</name>
+      <description>GetListOfCountries</description>
+      <code xsi:type="core:StringValue">
+        <value>000000016</value>
+      </code>
+    </items>
+    <items id="a474a07e-b1a4-40c2-86d1-8a0c3fd637cf">
+      <name>GetListOfDealers</name>
+      <description>GetListOfDealers</description>
+      <code xsi:type="core:StringValue">
+        <value>000000017</value>
+      </code>
+    </items>
+    <items id="deb4bf0c-8e87-4fe7-a149-53718c584cb0">
+      <name>GetListOfDealerType</name>
+      <description>GetListOfDealerType</description>
+      <code xsi:type="core:StringValue">
+        <value>000000018</value>
+      </code>
+    </items>
+    <items id="2fb55931-90a8-4771-bc1e-3f0727e109ca">
+      <name>GetListOfDeliveries</name>
+      <description>GetListOfDeliveries</description>
+      <code xsi:type="core:StringValue">
+        <value>000000071</value>
+      </code>
+    </items>
+    <items id="4d0baae7-f042-4e37-8b7e-b99723919911">
+      <name>GetListOfEngines</name>
+      <description>GetListOfEngines</description>
+      <code xsi:type="core:StringValue">
+        <value>000000019</value>
+      </code>
+    </items>
+    <items id="7d6e52ce-504e-45ce-8dff-fe9cbb364905">
+      <name>GetListOfManufacturers</name>
+      <description>GetListOfManufacturers</description>
+      <code xsi:type="core:StringValue">
+        <value>000000020</value>
+      </code>
+    </items>
+    <items id="50abdc3f-95c7-4d76-b1a7-cb1ee5119efc">
+      <name>GetListOfOptions</name>
+      <description>GetListOfOptions</description>
+      <code xsi:type="core:StringValue">
+        <value>000000021</value>
+      </code>
+    </items>
+    <items id="1082e3c0-1edd-488a-ba57-205924111ccc">
+      <name>GetListOfOrderToDelivery</name>
+      <description>GetListOfOrderToDelivery</description>
+      <code xsi:type="core:StringValue">
+        <value>000000022</value>
+      </code>
+    </items>
+    <items id="b062e8c6-8844-4d25-81e7-ac797c077fff">
+      <name>GetListOfProduct</name>
+      <description>GetListOfProduct</description>
+      <code xsi:type="core:StringValue">
+        <value>000000023</value>
+      </code>
+    </items>
+    <items id="6aa8f2e4-b367-461b-9c9d-6c0c01a157d5">
+      <name>GetListOfProductGroup</name>
+      <description>GetListOfProductGroup</description>
+      <code xsi:type="core:StringValue">
+        <value>000000024</value>
+      </code>
+    </items>
+    <items id="f59a75b9-c41d-49e5-9337-4530dcaf015d">
+      <name>GetListOfProductMark</name>
+      <description>GetListOfProductMark</description>
+      <code xsi:type="core:StringValue">
+        <value>000000025</value>
+      </code>
+    </items>
+    <items id="df8b9537-9f3c-490b-8979-33374dc30e93">
+      <name>GetListOfProductModel</name>
+      <description>GetListOfProductModel</description>
+      <code xsi:type="core:StringValue">
+        <value>000000026</value>
+      </code>
+    </items>
+    <items id="c444ad77-a854-4032-951f-75ad1ca79c46">
+      <name>GetListOfProductSubType</name>
+      <description>GetListOfProductSubType</description>
+      <code xsi:type="core:StringValue">
+        <value>000000027</value>
+      </code>
+    </items>
+    <items id="de2a6893-afea-47b2-8226-756bf96899e5">
+      <name>GetListOfProductType</name>
+      <description>GetListOfProductType</description>
+      <code xsi:type="core:StringValue">
+        <value>000000028</value>
+      </code>
+    </items>
+    <items id="8fcb2e01-30a7-4c6e-8b57-7dfd84049083">
+      <name>GetListOfProductTypeSPORT</name>
+      <description>GetListOfProductTypeSPORT</description>
+      <code xsi:type="core:StringValue">
+        <value>000000029</value>
+      </code>
+    </items>
+    <items id="e7dfe832-5152-4787-be30-b52b2a000f79">
+      <name>GetListOfQuotation</name>
+      <description>GetListOfQuotation</description>
+      <code xsi:type="core:StringValue">
+        <value>000000030</value>
+      </code>
+    </items>
+    <items id="79f0c147-8705-4361-80d1-8d8c096dadc2">
+      <name>GetListOfRegions</name>
+      <description>GetListOfRegions</description>
+      <code xsi:type="core:StringValue">
+        <value>000000073</value>
+      </code>
+    </items>
+    <items id="36236387-49a2-41b3-93ea-6d2bf2b5ca09">
+      <name>GetListOfSOP</name>
+      <description>GetListOfSOP</description>
+      <code xsi:type="core:StringValue">
+        <value>000000031</value>
+      </code>
+    </items>
+    <items id="d17b7d54-b0c0-495f-a7f9-e48175709567">
+      <name>GetListOfSpecifications</name>
+      <description>GetListOfSpecifications</description>
+      <code xsi:type="core:StringValue">
+        <value>000000032</value>
+      </code>
+    </items>
+    <items id="440d7d66-e3e7-4643-b475-b6fbd140e76c">
+      <name>GetListOfSpecificationType</name>
+      <description>GetListOfSpecificationType</description>
+      <code xsi:type="core:StringValue">
+        <value>000000033</value>
+      </code>
+    </items>
+    <items id="496c3aa0-4073-4fa0-8f18-fa88eebdd7cc">
+      <name>GetListOfSpecificationView</name>
+      <description>GetListOfSpecificationView</description>
+      <code xsi:type="core:StringValue">
+        <value>000000034</value>
+      </code>
+    </items>
+    <items id="3d823ef2-bcca-494f-8e57-9ba5342ac385">
+      <name>GetListOfSpecificationViewType</name>
+      <description>GetListOfSpecificationViewType</description>
+      <code xsi:type="core:StringValue">
+        <value>000000035</value>
+      </code>
+    </items>
+    <items id="2a567763-c89a-4fc9-8860-c82e537d2a1e">
+      <name>GetListOfStatuses</name>
+      <description>GetListOfStatuses</description>
+      <code xsi:type="core:StringValue">
+        <value>000000036</value>
+      </code>
+    </items>
+    <items id="1592e707-5736-4f0e-ad9d-4ae5897003ce">
+      <name>GetManufacturers</name>
+      <description>GetManufacturers</description>
+      <code xsi:type="core:StringValue">
+        <value>000000037</value>
+      </code>
+    </items>
+    <items id="39309e69-d429-4c4b-a81e-42fbba8c88c3">
+      <name>GetOrderStatus</name>
+      <description>GetOrderStatus</description>
+      <code xsi:type="core:StringValue">
+        <value>000000066</value>
+      </code>
+    </items>
+    <items id="9e838613-cf73-4d1c-b256-8242435dd18c">
+      <name>GetOrderToDelivery</name>
+      <description>GetOrderToDelivery</description>
+      <code xsi:type="core:StringValue">
+        <value>000000038</value>
+      </code>
+    </items>
+    <items id="876db7f6-ae41-4bd3-8582-03dfff05821e">
+      <name>GetProduct</name>
+      <description>GetProduct</description>
+      <code xsi:type="core:StringValue">
+        <value>000000039</value>
+      </code>
+    </items>
+    <items id="9d0415a3-ba97-4f1e-9c14-d0fcd56cdbe2">
+      <name>GetProductCommercialOffers</name>
+      <description>GetProductCommercialOffers</description>
+      <code xsi:type="core:StringValue">
+        <value>000000040</value>
+      </code>
+    </items>
+    <items id="9e67dae0-def3-4715-b524-9c8836d1c1f8">
+      <name>GetProductGroup</name>
+      <description>GetProductGroup</description>
+      <code xsi:type="core:StringValue">
+        <value>000000041</value>
+      </code>
+    </items>
+    <items id="93fa001c-402d-4c48-af02-89329e2bad1c">
+      <name>GetProductMark</name>
+      <description>GetProductMark</description>
+      <code xsi:type="core:StringValue">
+        <value>000000042</value>
+      </code>
+    </items>
+    <items id="62539d01-4833-47c2-a92d-8e738cc083b2">
+      <name>GetProductModel</name>
+      <description>GetProductModel</description>
+      <code xsi:type="core:StringValue">
+        <value>000000043</value>
+      </code>
+    </items>
+    <items id="da7e84ae-37b3-401d-8fec-2326fc708366">
+      <name>GetProductSubType</name>
+      <description>GetProductSubType</description>
+      <code xsi:type="core:StringValue">
+        <value>000000044</value>
+      </code>
+    </items>
+    <items id="4ef7ff92-8a90-48e9-a527-5fb9f0dcefae">
+      <name>GetProductType</name>
+      <description>GetProductType</description>
+      <code xsi:type="core:StringValue">
+        <value>000000045</value>
+      </code>
+    </items>
+    <items id="7e603762-abc1-4f95-888b-9f80b473b7b9">
+      <name>GetQuotation</name>
+      <description>GetQuotation</description>
+      <code xsi:type="core:StringValue">
+        <value>000000046</value>
+      </code>
+    </items>
+    <items id="8d23db86-ade7-4158-98b5-222e4a40b997">
+      <name>GetSOP</name>
+      <description>GetSOP</description>
+      <code xsi:type="core:StringValue">
+        <value>000000047</value>
+      </code>
+    </items>
+    <items id="965f47e6-c5be-4498-bbe9-2d09c22b7fbf">
+      <name>GetSpecification</name>
+      <description>GetSpecification</description>
+      <code xsi:type="core:StringValue">
+        <value>000000048</value>
+      </code>
+    </items>
+    <items id="1375b1fe-58db-4354-b01f-b4d0afeff642">
+      <name>GetSpecificationVersion</name>
+      <description>GetSpecificationVersion</description>
+      <code xsi:type="core:StringValue">
+        <value>000000049</value>
+      </code>
+    </items>
+    <items id="4ea4c03f-3889-46c1-aaa9-549d041e9e7e">
+      <name>GetSpecificationView</name>
+      <description>GetSpecificationView</description>
+      <code xsi:type="core:StringValue">
+        <value>000000050</value>
+      </code>
+    </items>
+    <items id="bdcce4c7-ec16-448c-9c3c-e5e8baa1af62">
+      <name>GetTaskOfExecution</name>
+      <description>GetTaskOfExecution</description>
+      <code xsi:type="core:StringValue">
+        <value>000000051</value>
+      </code>
+    </items>
+    <items id="f17250b5-5e0f-4bb5-8e36-6aa17c3045ba">
+      <name>GetUpdatesList</name>
+      <description>GetUpdatesList</description>
+      <code xsi:type="core:StringValue">
+        <value>000000052</value>
+      </code>
+    </items>
+    <items id="7424d597-ae4e-44e4-b2fc-c603a5c92771">
+      <name>GetUser</name>
+      <description>GetUser</description>
+      <code xsi:type="core:StringValue">
+        <value>000000074</value>
+      </code>
+    </items>
+    <items id="2a5fc47b-8537-484e-a19d-a2d18b6c3665">
+      <name>OpenExchangeSession</name>
+      <description>OpenExchangeSession</description>
+      <code xsi:type="core:StringValue">
+        <value>000000053</value>
+      </code>
+    </items>
+    <items id="3004570e-0832-4353-a5f5-ad23fef64051">
+      <name>SendProductActivityEvent</name>
+      <description>SendProductActivityEvent</description>
+      <code xsi:type="core:StringValue">
+        <value>000000054</value>
+      </code>
+    </items>
+    <items id="4c920099-fbaf-49c4-9515-f3b6bb731e3e">
+      <name>SetAdditionalProperty</name>
+      <description>SetAdditionalProperty</description>
+      <code xsi:type="core:StringValue">
+        <value>000000064</value>
+      </code>
+    </items>
+    <items id="bb3f1fe1-0e43-49ea-a89b-14c00efb290b">
+      <name>SetChassis</name>
+      <description>SetChassis</description>
+      <code xsi:type="core:StringValue">
+        <value>000000055</value>
+      </code>
+    </items>
+    <items id="a76764dd-c7d4-4d06-851d-d924b97afbfd">
+      <name>SetLocation</name>
+      <description>SetLocation</description>
+      <code xsi:type="core:StringValue">
+        <value>000000056</value>
+      </code>
+    </items>
+    <items id="40b8c130-6944-4a8d-8ad1-d39b81dc23b6">
+      <name>SetOrderToDelivery</name>
+      <description>SetOrderToDelivery</description>
+      <code xsi:type="core:StringValue">
+        <value>000000057</value>
+      </code>
+    </items>
+    <items id="5a9786d3-0701-4891-886e-7a32241d9d6b">
+      <name>SetProduct</name>
+      <description>SetProduct</description>
+      <code xsi:type="core:StringValue">
+        <value>000000058</value>
+      </code>
+    </items>
+    <items id="bad0b00a-b3bb-448e-8258-2baf36d8d983">
+      <name>SetProductPlace</name>
+      <description>SetProductPlace</description>
+      <code xsi:type="core:StringValue">
+        <value>000000059</value>
+      </code>
+    </items>
+    <items id="1f30078f-f87c-41d2-99f6-0c23e17e96b9">
+      <name>SetPurchaseOrder</name>
+      <description>SetPurchaseOrder</description>
+      <code xsi:type="core:StringValue">
+        <value>000000065</value>
+      </code>
+    </items>
+    <items id="8415ebd7-d867-4b61-8f99-8d1de8ec92b8">
+      <name>SetPurchaseOrderApproval</name>
+      <description>SetPurchaseOrderApproval</description>
+      <code xsi:type="core:StringValue">
+        <value>000000072</value>
+      </code>
+    </items>
+    <items id="816fc6d2-2a8c-4b57-a21a-026baf8733fd">
+      <name>SetSOP</name>
+      <description>SetSOP</description>
+      <code xsi:type="core:StringValue">
+        <value>000000063</value>
+      </code>
+    </items>
+    <items id="888cba77-593f-436b-a970-d6cbf8ffe73a">
+      <name>SetTaskOfExecution</name>
+      <description>SetTaskOfExecution</description>
+      <code xsi:type="core:StringValue">
+        <value>000000060</value>
+      </code>
+    </items>
+    <items id="0224fd69-cd15-40e6-abaa-56c8b9801fb1">
+      <name>StoreInfo</name>
+      <description>StoreInfo</description>
+      <code xsi:type="core:StringValue">
+        <value>000000061</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_ВидыЗапроса.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_ВидыЗапроса.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Scan_ВидыЗапроса.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="fb5d1af2-3eda-4580-a8a1-72bc1b257ae2">
+    <name>Запрос1СДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос 1С:ДО</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b294681e-8f16-40a0-a166-0ce9aa9aa3ba">
+    <name>ЗапросПортала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос портала</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ef1e07b4-ffb6-424e-814a-e312ee7e6b4f">
+    <name>НеОчищатьИсториюЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не очищать историю</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Don't clear history</value>
+    </synonym>
+    <comment>#18705</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="8b148d34-1855-49f5-8e95-cabfdfa4def2">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fd0a1c21-0241-4820-aedd-e1416639917a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e414b3d2-59a5-427e-a33e-bab6cfd59109">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

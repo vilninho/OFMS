@@ -1,0 +1,49 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://xmlns.scania.com/factory/schema/productdata/v1" elementFormQualified="true" attributeFormQualified="false">
+	<property name="ConfigurationTypeID" type="xs:unsignedByte"/>
+	<property name="ConfirmedPartPeriod" type="xs:unsignedInt"/>
+	<property name="DesiredDealerDate" type="xs:unsignedInt"/>
+	<property name="FactoryDenomination" type="xs:string"/>
+	<property name="ListOfPriceList">
+		<typeDef xsi:type="ObjectType">
+			<property name="PriceList" upperBound="-1">
+				<typeDef xsi:type="ObjectType">
+					<property name="PriceListHeader">
+						<typeDef xsi:type="ObjectType">
+							<property name="PriceListID" type="xs:unsignedShort"/>
+							<property name="PriceListName" type="xs:string"/>
+							<property name="ValidFromDate" type="xs:unsignedInt" lowerBound="0"/>
+							<property name="ValidFromPartPeriod" type="xs:unsignedInt" lowerBound="0"/>
+							<property name="Currency" type="xs:string"/>
+							<property name="PriceListType">
+								<typeDef xsi:type="ObjectType">
+									<property name="PriceListTypeID" type="xs:unsignedByte"/>
+									<property name="PriceListTypeName" type="xs:string"/>
+								</typeDef>
+							</property>
+						</typeDef>
+					</property>
+				</typeDef>
+			</property>
+		</typeDef>
+	</property>
+	<property name="ListOfVariant">
+		<typeDef xsi:type="ObjectType">
+			<property name="Variant" upperBound="-1">
+				<typeDef xsi:type="ObjectType">
+					<property name="VariantCode" type="xs:string" lowerBound="1" form="Attribute"/>
+					<property name="FamilyName" type="xs:unsignedShort"/>
+					<property name="FamilyDescription" type="xs:string"/>
+					<property name="Execution" type="xs:string"/>
+					<property name="ExecutionDescription" type="xs:string"/>
+					<property name="SelectionType" type="xs:string"/>
+					<property name="Quantity" type="xs:unsignedByte"/>
+				</typeDef>
+			</property>
+		</typeDef>
+	</property>
+	<property name="MarketDenomination" type="xs:string"/>
+	<property name="MarketID" type="xs:unsignedShort"/>
+	<property name="ModelDescription" type="xs:string"/>
+	<property name="ModelID" type="xs:unsignedInt"/>
+	<property name="VehicleTypeID" type="xs:unsignedByte"/>
+</package>

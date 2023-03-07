@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26a8a99f-f0cd-4005-9dff-12207fcaf87d">
+  <name>Scan_ФормаЗагрузкиФайла</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма загрузки файла</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Форма загрузки файла</value>
+  </synonym>
+  <comment>Форма загрузки файла Excel</comment>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

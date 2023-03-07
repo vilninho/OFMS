@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82cceb5c-bc4b-46ee-9eb9-ab66d75ce13a">
+  <producedTypes>
+    <selectionType typeId="083db00e-2a4c-4fee-a363-68ee65fb0eac" valueTypeId="65fe30b1-49e8-4054-ba0c-64e28b04b86a"/>
+    <listType typeId="6435d635-2ac0-4955-811d-45c638396281" valueTypeId="9c80adfd-f797-460a-ad89-a4bfb70d0a08"/>
+    <managerType typeId="273d1332-f0bf-4b0c-ab9d-bbabb0b2ff69" valueTypeId="eb4f9c62-3394-4143-8b0b-beafe4829c22"/>
+    <recordSetType typeId="812516c9-1254-436d-a213-98ac4a0b9acc" valueTypeId="eb92c16c-7a85-447d-bf07-d58757f4f079"/>
+    <recordKeyType typeId="08a68a7f-88c5-4cc9-b8d5-ce9aba77400d" valueTypeId="231c2181-58bb-4d01-9cf4-2617c634ec41"/>
+    <recordType typeId="730c4388-aa76-4c39-9aa1-35d65ceb07f8" valueTypeId="192ea242-6156-450a-a1d2-4460a5fc2392"/>
+    <recordManagerType typeId="9ae4d1ce-a1f3-457a-b5ec-f1b6aee5fd48" valueTypeId="bebbdb2a-ce32-444b-a14f-e476eaadbd08"/>
+  </producedTypes>
+  <name>Scan_КонтрольныеТочкиАРМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрольные точки АРМ (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Контрольные точки АРМ (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_КонтрольныеТочкиАРМ.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_КонтрольныеТочкиАРМ.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1f862484-5371-49b5-b473-6d2efbc68444">
+    <name>АРМДилера</name>
+    <synonym>
+      <key>ru</key>
+      <value>РМ Дилера</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="02bfba3c-9dc4-4028-85b8-ebf94263b2c3">
+    <name>АРМОтделаЛогистики</name>
+    <synonym>
+      <key>ru</key>
+      <value>РМ отдела логистики</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>РМ отдела логистики</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b82770a5-ca11-476e-b704-41071879ef67">
+    <name>АРМОтделаАдминистрирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>РМ отдела клиентской поддержки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>РМ отдела клиентской поддержки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fbe15ac3-66c5-46d6-ac25-497f4255d8d9">
+    <name>АРМОтделаПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>РМ отдела планирования</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>РМ отдела планирования</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="878bd4cc-0e2d-4bb3-9fff-5deba159aab9">
+    <name>АРММенеджераПоКонтролюЗаказов</name>
+    <synonym>
+      <key>ru</key>
+      <value>РМ менеджера по контролю заказов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>РМ менеджера по контролю заказов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c0f913d3-2ff1-444a-9420-4beb7b64065f">
+    <name>DDИнформер</name>
+    <synonym>
+      <key>ru</key>
+      <value>DD-информер</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2f69c3f7-506e-4bed-ae37-1d8b40a3a312">
+    <name>РММенеджераДепартаментаПродаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>РМ менеджера департамента продаж</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="4b2e2497-6e4d-40ad-87a6-968895c00075">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="b9551fdf-7857-48bf-b0f7-dade6a027b40">
+    <name>КонтрольнаяТочка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрольная точка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Контрольная точка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_КонтрольныеТочкиБизнесПроцессов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="4be85102-9d62-462a-9acb-0bc4c1d451c2">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="73bbb986-fe7c-4428-8046-c4ec4e92fcf8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

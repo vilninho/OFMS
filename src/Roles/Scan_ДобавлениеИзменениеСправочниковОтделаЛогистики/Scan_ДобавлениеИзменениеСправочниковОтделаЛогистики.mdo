@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08b6a2d4-8eb1-45e5-b849-ea606d2e938b">
+  <name>Scan_ДобавлениеИзменениеСправочниковОтделаЛогистики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение справочников отдела логистики (scania)</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fb18032-1c83-42ef-abba-9ab5273c4a03">
+  <name>Scan_ОтделПланирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отдел планирования продаж</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Volume Planning</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.АРМПланирования_2</picture>
+  </picture>
+  <content>Role.Scan_ДобавлениеИзменениеАРМОтделаПланирования</content>
+  <content>Document.Scan_ЗаявкаНаДействие</content>
+  <content>CommonCommand.Scan_ДополнительныеОтчетыОтделаПланирования</content>
+  <content>CommonCommand.Scan_ДополнительныеОбработкиОтделаПланирования</content>
+  <content>CommonForm.Scan_ПараметрыДокумента</content>
+  <content>CommonPicture.Операция</content>
+  <content>Role.Scan_ДобавлениеИзменениеДокументовОтделаПланированияПродаж</content>
+  <content>CommonPicture.ОтборКомпоновкиДанныхВключен</content>
+  <content>Report.Scan_ИсторияПеремещенийИзделий</content>
+  <content>DataProcessor.Scan_КалькуляторТарифовНаДоставку</content>
+  <content>Report.Scan_ИсторияЗаявокНаИзделия</content>
+  <content>Report.Scan_OrderDeviation</content>
+  <content>Enum.Scan_ТипыСочетанияОпций</content>
+  <content>Report.Scan_СравнениеСпецификаций</content>
+  <content>Report.Scan_DeliveriesReport</content>
+  <content>InformationRegister.Scan_ПланПоDeliveriesReport</content>
+  <content>Document.Scan_УстановкаПланаПоOrderIntake</content>
+  <content>Enum.Scan_ДатыДляФормированияОтчетаOI</content>
+  <content>InformationRegister.Scan_ПланПоOrderIntake</content>
+  <content>InformationRegister.Scan_OrderIntake</content>
+  <content>Report.Scan_OrderIntake</content>
+  <content>Report.Scan_OrderIntakeAndOrderBook</content>
+  <content>Report.Scan_OrderBookStatistics</content>
+  <content>InformationRegister.Scan_ЗакреплениеМенеджеровЗаЗаказамиНаЗавод</content>
+  <content>InformationRegister.Scan_ЛичныеКомментарииПользователей</content>
+  <content>DataProcessor.Scan_РММенеджераПоКонтролюЗаказов</content>
+  <content>Role.Scan_ДобавлениеИзменениеРМОтделаПланированияПродаж</content>
+  <content>Role.Scan_ДобавлениеИзменениеРММенеджераПоКонтролюЗаказов</content>
+  <content>Role.Scan_ДобавлениеИзменениеДокументовРММенеджераПоКонтролюЗаказов</content>
+  <content>Report.Scan_Cow</content>
+  <content>InformationRegister.Scan_ОпределяемыеПараметрыПоОпциямПродуктов</content>
+  <content>Role.Scan_ДобавлениеИзменениеСправочниковОтделаПланированияПродаж</content>
+  <content>Role.Scan_ПросмотрПодсистемыОтделПланированияПродаж</content>
+  <content>Role.Scan_ДобавлениеИзменениеУстановкаЦенОпцийИПакетов</content>
+  <content>Role.Scan_ЧтениеУстановкаЦенОпцийИПакетов</content>
+  <content>InformationRegister.Scan_СоответствиеЦеновыхПакетовИОпцийПродуктов</content>
+  <content>Document.Scan_ЗапросНаНадстройки</content>
+  <content>Document.Scan_ЗаказНаЗакупку</content>
+  <content>DataProcessor.Scan_DDИнформер</content>
+  <content>InformationRegister.Scan_ОчередьDDИнформера</content>
+  <content>DataProcessor.Scan_МониторыПродаж</content>
+  <content>DataProcessor.Scan_ОбработчикOI</content>
+  <content>Report.Scan_ОтчетПоПлановымЦенамПродажиШасси</content>
+  <content>Report.Scan_DD_DDS</content>
+  <content>Report.Scan_LeadTimeReport</content>
+  <content>DataProcessor.Scan_РМОтделаПланированияПродаж</content>
+  <content>Document.Scan_ПрайсЛистАренда</content>
+  <subsystems>Scan_Производство</subsystems>
+  <subsystems>Scan_УстановкаПлановыхПоказателейДляОтчетов</subsystems>
+  <subsystems>Scan_Ценообразование</subsystems>
+  <subsystems>Scan_OrderIntakeАльтернативный</subsystems>
+</mdclass:Subsystem>

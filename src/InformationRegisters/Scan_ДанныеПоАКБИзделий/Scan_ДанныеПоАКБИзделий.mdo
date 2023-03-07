@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac157905-80fd-48bd-bcb2-3e3f08a66a6f">
+  <producedTypes>
+    <selectionType typeId="531fe0bb-12d2-4ef8-8816-086bb1493f02" valueTypeId="a54f861e-0155-45be-a228-d754d39eb3a8"/>
+    <listType typeId="43455178-6da7-43e4-8175-14d4d012ca4e" valueTypeId="e8fb1b63-f2da-41e5-af97-9d66ee5e951a"/>
+    <managerType typeId="33750db9-c8a4-4d57-95d8-fd5f53e693f2" valueTypeId="69754e21-452d-4fc2-9a42-78226205fdff"/>
+    <recordSetType typeId="bec4b653-6564-40a4-a53a-dd362bf1a527" valueTypeId="189e77c1-5f4f-4e85-a81d-9a3403898512"/>
+    <recordKeyType typeId="b3fbff00-47c5-4fea-9793-a8d393950cac" valueTypeId="fab3bea3-3f52-4cd6-8956-43b2dd189200"/>
+    <recordType typeId="b25124ee-a0ac-42f0-b16a-4b135099c7d8" valueTypeId="4b018e76-21b4-4ffc-8611-69fe0650e3be"/>
+    <recordManagerType typeId="239b55b4-c669-4fe8-ab10-cc651308e3b9" valueTypeId="8865345b-977d-461f-980c-37086535c34e"/>
+  </producedTypes>
+  <name>Scan_ДанныеПоАКБИзделий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные по АКБ продуктов (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Данные по АКБ продуктов (scania)</value>
+  </synonym>
+  <comment>Данные по АКБ продуктов (scania)</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_ДанныеПоАКБИзделий.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_ДанныеПоАКБИзделий.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="40906f90-5eb7-42fd-a503-46279ff7a9d9">
+    <name>ПусковойТок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пусковой ток</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Starting current</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+  </resources>
+  <resources uuid="b34924f6-7944-4e82-b105-1e5851b892eb">
+    <name>Плотность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плотность</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Density</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fb6e9e4d-1ce2-408e-993c-45f5b67e5f58">
+    <name>НапряжениеБезНагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Напряжение без нагрузки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>No load voltage</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="136f1ce3-fb02-49dd-81b2-313b4afa30da">
+    <name>НапряжениеПодНагрузкой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Напряжение под нагрузкой</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Load voltage</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b0bed7da-f2d8-405e-b2a8-34018ea2acef">
+    <name>Емкость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Емкость</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Capacity</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ЕмкостиАКБ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a5dc8b41-4afd-48ed-af12-a55bdc820035">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Condition</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_СостоянияАКБ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="679ebc0e-a034-40a7-99fb-682d67c58709">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="aa609e16-622c-4c12-bc07-7d887fc87bf8">
+    <name>АКБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>АКБ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Battery</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_АккумуляторныеБатареи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a233de0e-31c1-4023-8cca-8b75ab628e61">
+    <name>Изделие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукт</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Product</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Изделия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="d3f144b4-b5b4-4e17-ab59-327cc266dfbc">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c2e02e68-262c-45db-bb79-3520efac1b28">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="96be6e58-55c4-4e67-a951-1b71628887b3">
+    <name>ФормаЗаполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение характеристик АКБ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Заполнение характеристик АКБ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

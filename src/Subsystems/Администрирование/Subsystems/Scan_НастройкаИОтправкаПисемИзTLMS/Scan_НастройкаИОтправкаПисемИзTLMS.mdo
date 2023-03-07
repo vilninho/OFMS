@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6950e8d8-99e5-4125-95c7-6f73314089dd">
+  <name>Scan_НастройкаИОтправкаПисемИзTLMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка и отправка писем из OFMS</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Setting  and sending emails from OFMS</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Scan_ШаблоныПисем</content>
+  <content>Enum.Scan_ФорматыСообщений</content>
+  <content>Catalog.Scan_Запросы</content>
+  <content>InformationRegister.Scan_ОтправленныеПисьма</content>
+  <content>InformationRegister.Scan_ОчередьПоОтправкеПисем</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

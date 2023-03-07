@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НоменклатураУслуги</dataPath>
+			<field>НоменклатураУслуги</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АдресПолучения</dataPath>
+			<field>АдресПолучения</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДоговорКонтрагента</dataPath>
+			<field>ДоговорКонтрагента</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АдресДоставки</dataPath>
+			<field>АдресДоставки</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерСтроки</dataPath>
+			<field>НомерСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Контрагент</dataPath>
+			<field>Контрагент</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Активность</dataPath>
+			<field>Активность</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтавкаНДС</dataPath>
+			<field>СтавкаНДС</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаНДС</dataPath>
+			<field>СуммаНДС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сумма</dataPath>
+			<field>Сумма</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Регистратор</dataPath>
+			<field>Регистратор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Изделие</dataPath>
+			<field>Изделие</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Пользователь</dataPath>
+			<field>Пользователь</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СпособДоставки</dataPath>
+			<field>СпособДоставки</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ГруппаПродукта</dataPath>
+			<field>ГруппаПродукта</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛогистическийТип</dataPath>
+			<field>ЛогистическийТип</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КолеснаяФормула</dataPath>
+			<field>КолеснаяФормула</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Количество</dataPath>
+			<field>Количество</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Количество</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дилер</dataPath>
+			<field>Дилер</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаУслугиДилеру</dataPath>
+			<field>СуммаУслугиДилеру</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СделкаСДилером</dataPath>
+			<field>СделкаСДилером</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МаржаСканияРусь</dataPath>
+			<field>МаржаСканияРусь</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Маржа Скания-Русь</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Маржа Скания-Русь</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИзмененаВручную</dataPath>
+			<field>ИзмененаВручную</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	Scan_РеестрОказанныхУслуг.Регистратор КАК Регистратор,
+	Scan_РеестрОказанныхУслуг.НомерСтроки КАК НомерСтроки,
+	Scan_РеестрОказанныхУслуг.Активность КАК Активность,
+	Scan_РеестрОказанныхУслуг.Изделие КАК Изделие,
+	Scan_РеестрОказанныхУслуг.Контрагент КАК Контрагент,
+	Scan_РеестрОказанныхУслуг.ДоговорКонтрагента КАК ДоговорКонтрагента,
+	Scan_РеестрОказанныхУслуг.НоменклатураУслуги КАК НоменклатураУслуги,
+	Scan_РеестрОказанныхУслуг.ГруппаПродукта КАК ГруппаПродукта,
+	Scan_РеестрОказанныхУслуг.СтавкаНДС КАК СтавкаНДС,
+	Scan_РеестрОказанныхУслуг.СпособДоставки КАК СпособДоставки,
+	Scan_РеестрОказанныхУслуг.АдресПолучения КАК АдресПолучения,
+	Scan_РеестрОказанныхУслуг.АдресДоставки КАК АдресДоставки,
+	Scan_РеестрОказанныхУслуг.Сумма КАК Сумма,
+	Scan_РеестрОказанныхУслуг.СуммаНДС КАК СуммаНДС,
+	Scan_РеестрОказанныхУслуг.Пользователь КАК Пользователь,
+	Scan_РеестрОказанныхУслуг.ЛогистическийТип КАК ЛогистическийТип,
+	Scan_РеестрОказанныхУслуг.КолеснаяФормула КАК КолеснаяФормула,
+	Scan_ЗаявкиНаДействия.ЗаявкаНаДействие КАК ЗаявкаНаДействие,
+	Scan_РеестрОказанныхУслуг.ИзмененаВручную КАК ИзмененаВручную
+ПОМЕСТИТЬ СвязьЗаказов
+ИЗ
+	РегистрСведений.Scan_РеестрОказанныхУслуг КАК Scan_РеестрОказанныхУслуг
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрНакопления.Scan_ЗаявкиНаДействия КАК Scan_ЗаявкиНаДействия
+		ПО Scan_РеестрОказанныхУслуг.Регистратор = Scan_ЗаявкиНаДействия.ЗаявкаПеревозчику
+			И Scan_РеестрОказанныхУслуг.Изделие = Scan_ЗаявкиНаДействия.Изделие
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	СвязьЗаказов.Регистратор КАК Регистратор,
+	СвязьЗаказов.НомерСтроки КАК НомерСтроки,
+	СвязьЗаказов.Активность КАК Активность,
+	СвязьЗаказов.Изделие КАК Изделие,
+	СвязьЗаказов.Контрагент КАК Контрагент,
+	СвязьЗаказов.ДоговорКонтрагента КАК ДоговорКонтрагента,
+	СвязьЗаказов.НоменклатураУслуги КАК НоменклатураУслуги,
+	СвязьЗаказов.ГруппаПродукта КАК ГруппаПродукта,
+	СвязьЗаказов.СтавкаНДС КАК СтавкаНДС,
+	СвязьЗаказов.СпособДоставки КАК СпособДоставки,
+	СвязьЗаказов.АдресПолучения КАК АдресПолучения,
+	СвязьЗаказов.АдресДоставки КАК АдресДоставки,
+	СвязьЗаказов.Сумма КАК Сумма,
+	СвязьЗаказов.СуммаНДС КАК СуммаНДС,
+	СвязьЗаказов.Пользователь КАК Пользователь,
+	СвязьЗаказов.ЛогистическийТип КАК ЛогистическийТип,
+	СвязьЗаказов.КолеснаяФормула КАК КолеснаяФормула,
+	1 КАК Количество,
+	ВЫБОР
+		КОГДА Scan_РеестрОказанныхУслугДилеру.Сумма = NULL
+			ТОГДА 0
+		ИНАЧЕ Scan_РеестрОказанныхУслугДилеру.Сумма
+	КОНЕЦ КАК СуммаУслугиДилеру,
+	Scan_РеестрОказанныхУслугДилеру.Регистратор КАК СделкаСДилером,
+	Scan_РеестрОказанныхУслугДилеру.Контрагент КАК Дилер,
+	ВЫБОР
+		КОГДА Scan_РеестрОказанныхУслугДилеру.Сумма ЕСТЬ NULL
+			ТОГДА СвязьЗаказов.Сумма * -1
+		ИНАЧЕ Scan_РеестрОказанныхУслугДилеру.Сумма - СвязьЗаказов.Сумма
+	КОНЕЦ КАК МаржаСканияРусь,
+	СвязьЗаказов.ИзмененаВручную КАК ИзмененаВручную
+ИЗ
+	СвязьЗаказов КАК СвязьЗаказов
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Scan_РеестрОказанныхУслугДилеру КАК Scan_РеестрОказанныхУслугДилеру
+		ПО СвязьЗаказов.Изделие = Scan_РеестрОказанныхУслугДилеру.Изделие
+			И СвязьЗаказов.ЗаявкаНаДействие = Scan_РеестрОказанныхУслугДилеру.Регистратор</query>
+	</dataSet>
+	<calculatedField>
+		<dataPath>СуммаВсего</dataPath>
+		<expression>Сумма+СуммаНДС</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Всего</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Всего</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<totalField>
+		<dataPath>Сумма</dataPath>
+		<expression>Сумма(Сумма)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаВсего</dataPath>
+		<expression>Сумма(СуммаВсего)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Количество</dataPath>
+		<expression>Сумма(Количество)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаУслугиДилеру</dataPath>
+		<expression>Сумма(СуммаУслугиДилеру)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>МаржаСканияРусь</dataPath>
+		<expression>Сумма(МаржаСканияРусь)</expression>
+	</totalField>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Изделие</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Контрагент</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДоговорКонтрагента</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЛогистическийТип</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СпособДоставки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КолеснаяФормула</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Регистратор</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>АдресПолучения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>АдресДоставки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Дилер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗаявкаНаДействие</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СделкаСДилером</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СтавкаНДС</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаНДС</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Сумма</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаВсего</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаУслугиДилеру</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МаржаСканияРусь</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Количество</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИзмененаВручную</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">СпособДоставки</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>5d752462-06e1-4828-873a-7cf2cbb4ca47</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ЛогистическийТип</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>4d58d7ba-ea39-4da7-969b-e022cf6d1a74</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Контрагент</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>0157c20b-922f-44d3-a559-855fb465d16d</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">АдресПолучения</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>2f5e11d9-1f7c-4422-b32d-50bd3d972f38</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">АдресДоставки</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>92000e00-614e-44b1-b7bb-0595a43ff40c</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Регистратор</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>9dfd510b-313c-4b55-9dd0-a615441c8bec</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Зеленый</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Контрагент</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Регистратор</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

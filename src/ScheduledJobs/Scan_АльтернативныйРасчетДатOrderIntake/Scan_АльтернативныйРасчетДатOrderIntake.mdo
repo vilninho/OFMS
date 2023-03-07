@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="acd7e46a-37b7-4141-bd3f-f7204ef4e587">
+  <name>Scan_АльтернативныйРасчетДатOrderIntake</name>
+  <synonym>
+    <key>ru</key>
+    <value>Альтернативный расчет дат Order Intake (scania)</value>
+  </synonym>
+  <methodName>CommonModule.Scan_РегламентныеЗадания.РасчетДатOrderIntake</methodName>
+  <description>Альтернативный расчет дат Order Intake (scania)</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

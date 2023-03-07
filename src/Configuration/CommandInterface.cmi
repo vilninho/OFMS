@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>Subsystem.Scan_НСИ</subsystems>
+    <subsystems>Subsystem.Scan_ОтделКлиентскойПоддержки</subsystems>
+    <subsystems>Subsystem.Scan_ОтделЛогистики</subsystems>
+    <subsystems>Subsystem.Scan_ОтделПланирования</subsystems>
+    <subsystems>Subsystem.Scan_ОтделПродажНовыхГрузовыхАвтомомбилей</subsystems>
+    <subsystems>Subsystem.Scan_РабочееМестоДепартаментаПродажАвтобусов</subsystems>
+    <subsystems>Subsystem.Scan_ОтделПродажДвигателейИДЭС</subsystems>
+    <subsystems>Subsystem.Scan_Дилеры</subsystems>
+    <subsystems>Subsystem.Scan_РабочееМестоМенеджераПоПродукту</subsystems>
+    <subsystems>Subsystem.Scan_ХранениеИзделий</subsystems>
+    <subsystems>Subsystem.Scan_OFMSПросмотр</subsystems>
+    <subsystems>Subsystem.Scan_Аренда</subsystems>
+    <subsystems>Subsystem.Администрирование</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="885b9f75-a214-41e5-b00f-9896976e0053">
+  <producedTypes>
+    <objectType typeId="06c9d623-8dea-4fc1-86ca-9f54f325ae2e" valueTypeId="8610d046-112a-40b3-9b0a-cd3635c73e1b"/>
+    <refType typeId="826e029e-4085-4e81-9402-91c91b38fc2c" valueTypeId="5184a12f-dd25-4b6e-88b1-4c1c61fc0007"/>
+    <selectionType typeId="e6d6438a-1c78-4a89-bb43-098b752b64a4" valueTypeId="69e0af8b-764d-460e-93b6-e936ad27247e"/>
+    <listType typeId="8561bd8d-77f6-4abf-b366-6332101bbdf6" valueTypeId="eb6ea4bc-36d7-4889-b4b1-40fec0c86699"/>
+    <managerType typeId="25f6e552-46d2-4379-873c-de8aaefbe3d0" valueTypeId="8d8f356a-c096-465d-bd2e-326aaa204c48"/>
+  </producedTypes>
+  <name>Scan_УстановкаЦенОпцийИПакетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка цен опций продуктов и ценовых пакетов (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Setting prices of product options and packages (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Scan_УстановкаЦенОпцийИПакетов.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Scan_УстановкаЦенОпцийИПакетов.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.Scan_УстановкаЦенОпцийИПакетов.Form.ФормаСписка</defaultListForm>
+  <registerRecords>InformationRegister.Scan_ЦеныКомпонентовСпецификаций</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="aa7d7e2f-abb8-45e0-b593-0bb3a4d0f96f">
+    <name>ИдентификаторПрайсЛиста</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID прайс-листа (ETBO)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Price list ID (ETBO)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="077e2d5d-a72b-44d1-af3f-f0ade4c04102">
+    <name>КоэффициентDealerNet</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэф. Dealer Net</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Dealer Net factor</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_СоставляющиеРасчетаЦеныПродуктов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bd9d6ca4-72ea-4ed7-bf33-992a57b53f4a">
+    <name>КоэффициентRetailPrice</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэф. Retail Price</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Retail Price factor</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_СоставляющиеРасчетаЦеныПродуктов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f375d77f-7e85-489e-9a96-b389ba36de93">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0e5e72a9-ae68-4e81-8e44-233e06810a69">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="f89b8b04-9e97-46e9-b7fb-392eaed8fc74">
+    <producedTypes>
+      <objectType typeId="add24504-034d-4acc-8f79-943c1fc92e5a" valueTypeId="5a41f9f4-0287-4f37-a355-a5a9bef402e2"/>
+      <rowType typeId="6ddd31d4-f46d-405d-933b-e6981ae015f4" valueTypeId="cfe9c6b0-207c-4ce5-9837-394a481e3529"/>
+    </producedTypes>
+    <name>ОпцииПродуктов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опции продуктов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Product options</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="84c4c1e9-bbb6-40ae-a5ef-b1c9c304aacd">
+      <name>Опция</name>
+      <synonym>
+        <key>ru</key>
+        <value>Опция</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Product option</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_ОпцииПродуктов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="583a10e8-6bcb-4942-af4f-78af4439286b">
+      <name>ДействуетСДаты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Действует с даты</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>From date</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="81862793-eaf2-417f-a145-ad15b4a33727">
+      <name>ДействуетСPartPeriod</name>
+      <synonym>
+        <key>ru</key>
+        <value>Действует с PP</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>From PP</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>7</length>
+        </stringQualifiers>
+      </type>
+      <mask>99 99 9</mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="01adb65f-d97a-4f34-9c32-87ee76c55473">
+      <name>Скидка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Скидка</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Discount</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2448fb06-12fd-4cd4-8ba1-87db24212e9b">
+      <name>ЦенаDistrNet</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена Distr Net</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Distr Net price</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d9645c1d-18d3-4886-9b5e-6b267828ca82">
+      <name>ЦенаDealerNet</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена Dealer Net</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Dealer Net price</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e4f958aa-c0fe-4bb7-bccd-60d75203048b">
+      <name>ЦенаRetailPrice</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена Retail Price</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Retail Price</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="96e0e470-b9fd-4a76-9a6a-ea57c97f9009">
+      <name>Файл</name>
+      <synonym>
+        <key>ru</key>
+        <value>Файл</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>File</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Наименование файла из которого выполнялась загрузка</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="b33815be-da38-4d89-a0c5-176d40d238ec">
+    <producedTypes>
+      <objectType typeId="42e942b2-ab66-4784-9f31-9133cbdba5ee" valueTypeId="6cbb1529-6368-46f5-9a20-2292b6464da6"/>
+      <rowType typeId="aa77d32c-3aa4-4db1-94c8-55e812f56ef8" valueTypeId="4438cab9-e9be-410c-87ac-6d47b4103aef"/>
+    </producedTypes>
+    <name>НезагруженныеОпции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Незагруженные опции</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Oprions not loaded</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="89978cd1-7848-463b-91d4-451f058b2581">
+      <name>Исполнение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Исполнение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Execution</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1991d702-14d1-4a2c-afbe-9a4ce9be219e">
+      <name>Описание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Description</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="a73a5696-bb53-4789-9510-8514a816c82b">
+    <producedTypes>
+      <objectType typeId="bdf224a1-a044-4e96-bdf9-868c9a886224" valueTypeId="a938dfa6-ff6d-4365-8dcd-53cb88555855"/>
+      <rowType typeId="93bec392-dc3b-4b7c-9a6d-52f96a617889" valueTypeId="53a9c416-789d-4eda-b64b-af167f5c86a9"/>
+    </producedTypes>
+    <name>ЦеновыеПакеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ценовые пакеты</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Price packages</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="07d3262e-85d5-4458-83cd-0274fbb8b4ec">
+      <name>ЦеновойПакет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ценовой пакет</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Price package</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_ЦеновыеПакеты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4cfae156-3a84-4464-bf5f-0bd77a238212">
+      <name>ТипЗначенияЦены</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип значения цены</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Price value type</value>
+      </synonym>
+      <type>
+        <types>EnumRef.Scan_ТипыЗначенийЦены</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b29cdda1-f34a-45ae-892f-811ccdbaa0f0">
+      <name>ДействуетСДаты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Действует с даты</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>From date</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="90247e8a-a97d-4611-81f6-65dbb7c1392a">
+      <name>ДействуетДоДаты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Действует до даты</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>To date</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ccfd63cf-b9a8-4361-ad4d-4ed090c6b3ba">
+      <name>ДействуетСPartPeriod</name>
+      <synonym>
+        <key>ru</key>
+        <value>Действует с PP</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>From PP</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>7</length>
+        </stringQualifiers>
+      </type>
+      <mask>99 99 9</mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b2bda6aa-aa77-4650-88da-be0186f4cb5f">
+      <name>ДействуетДоPartPeriod</name>
+      <synonym>
+        <key>ru</key>
+        <value>Действует до PP</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>To PP</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>7</length>
+        </stringQualifiers>
+      </type>
+      <mask>99 99 9</mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="27f4c27d-d6b4-4b56-b53a-75535e19340f">
+      <name>ЦенаDistrNet</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена Distr Net</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Distr Net Price</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="96615833-f7cc-4d80-a237-1419d97b3100">
+      <name>ЦенаDealerNet</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена Dealer Net</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Dealer Net Price</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="62376de3-8bf7-49c2-9730-5f2f433b985d">
+      <name>ЦенаRetailPrice</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена Retail Price</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Retail Price</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1379d53f-40ff-4a44-b010-91bfc937770f">
+      <name>Файл</name>
+      <synonym>
+        <key>ru</key>
+        <value>Файл</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>File</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Наименование файла из которого выполнялась загрузка</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

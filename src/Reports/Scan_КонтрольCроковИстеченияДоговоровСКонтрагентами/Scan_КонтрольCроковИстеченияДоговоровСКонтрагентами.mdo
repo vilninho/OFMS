@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2dc8a66-dca9-4245-bee6-3179a6df196c">
+  <producedTypes>
+    <objectType typeId="a2021d22-38ee-4057-80d5-17b743f5cece" valueTypeId="fbfa3bb9-329f-45ba-825e-f671a6375220"/>
+    <managerType typeId="5875accf-e3cc-4d16-87d9-95daa2bd5748" valueTypeId="51df0a19-0d35-4cb0-98aa-84b9521600d6"/>
+  </producedTypes>
+  <name>Scan_КонтрольCроковИстеченияДоговоровСКонтрагентами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль cроков истечения договоров с контрагентами (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Контроль cроков истечения договоров с контрагентами </value>
+  </synonym>
+  <comment>Контроль cроков истечения договоров с контрагентами (scania)</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.Scan_КонтрольCроковИстеченияДоговоровСКонтрагентами.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.Scan_КонтрольCроковИстеченияДоговоровСКонтрагентами.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>Report.Scan_КонтрольCроковИстеченияДоговоровСКонтрагентами.Form.ФормаНастроек</defaultSettingsForm>
+  <forms uuid="bcd0ddf5-1fab-4b1a-944d-77e20dfa9a20">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e4e8c349-7b75-412f-a026-275ac7737075">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d01244b5-0e71-44b2-b1d1-edc34059e4d7">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

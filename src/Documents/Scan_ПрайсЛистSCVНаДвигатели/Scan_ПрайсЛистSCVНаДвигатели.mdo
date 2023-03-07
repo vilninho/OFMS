@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c0865d6-36d6-44e0-8ef9-bdf470e9e3ab">
+  <producedTypes>
+    <objectType typeId="48a0416d-72e3-40a7-837b-d21fb15201c0" valueTypeId="7c69884d-4d78-4cd4-a002-0f6b27ac4f03"/>
+    <refType typeId="f1dfd4a2-c28a-40c7-a840-0b4e6f0bb56a" valueTypeId="34759744-c7ee-44da-8c88-c0ab4e34b685"/>
+    <selectionType typeId="cc813956-0bcc-423b-89cf-c95194dda5ca" valueTypeId="4e0c4b16-98be-41c2-90bc-47cc2d43f97f"/>
+    <listType typeId="9df804df-b4f4-4d5f-ad0f-e71bee261796" valueTypeId="a7fe56dd-080d-4bee-8921-d1a0b405032f"/>
+    <managerType typeId="45dcd634-d721-4c50-aeba-cd67bf645f66" valueTypeId="7f53f94a-c08a-4d84-8f5b-b432d16b365c"/>
+  </producedTypes>
+  <name>Scan_ПрайсЛистSCVНаДвигатели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прайс-лист SCV на двигатели (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Scan_ПрайсЛистSCVНаДвигатели.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Прайс-лист SCV на двигатели (scania)</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Прайс-листы SCV на двигатели (scania)</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Scan_ПрайсЛистSCVНаДвигатели.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.Scan_ПрайсЛистSCVНаДвигатели.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.Scan_ПрайсЛистSCVНаДвигатели.Form.ФормаВыбора</defaultChoiceForm>
+  <registerRecords>InformationRegister.Scan_ДанныеПрайсЛистаНаДвигатели</registerRecords>
+  <registerRecords>InformationRegister.Scan_ЦеныДвигателейПоПрайсЛистуSCV</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="e8f9c282-c02d-4047-b59f-2e901d3cfe7f">
+    <name>ПрайсЛистДействуетСДаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала действия прайс-листа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="25882150-b5fe-456b-bb1f-213248240cd3">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bc654c37-5179-4bc4-b9a3-ad2d98eff424">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="50c640d6-e1c3-4c61-9534-72a61827d9e9">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="9a701219-d751-4ba4-897f-c472c0eda592">
+    <producedTypes>
+      <objectType typeId="41f32171-ada4-41e1-8667-458c42297ed6" valueTypeId="66ceda3f-4cc4-451d-b030-a1966369771b"/>
+      <rowType typeId="a04c0e60-cee7-412a-9a9a-baa66d17c90e" valueTypeId="29a4538c-2956-422a-b774-54bf70218b5c"/>
+    </producedTypes>
+    <name>ПрайсЛист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прайс-лист</value>
+    </synonym>
+    <attributes uuid="d9ecc6d1-a854-4618-bb9c-71f846d3d889">
+      <name>ТипПродукта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип продукта</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_ТипыПродуктов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0aaea1f6-20d5-4556-ba4b-bcc5161a5a27">
+      <name>Объем</name>
+      <synonym>
+        <key>ru</key>
+        <value>09/13/16</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3f0d51de-040f-46ec-ad43-f978f158e334">
+      <name>Тип</name>
+      <synonym>
+        <key>ru</key>
+        <value>Type</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b25bd356-a37d-40ed-accf-4ccbd17735a1">
+      <name>VariantCode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Variant code</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="74b27547-42e6-42b4-9712-808f34ad8c24">
+      <name>RefCode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ref. code</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8a156505-17bb-4154-9df8-67db4d63aa73">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>RUB</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a94ee8e4-9b1e-444c-9e80-76d529d7f52d">
+      <name>ЦенаEUR</name>
+      <synonym>
+        <key>ru</key>
+        <value>EUR</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2c1cecf7-377a-4fd7-8412-55ec2b0e76fb">
+      <name>КлассМощности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Rating</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1ce7d5b1-6f39-4e1b-8c50-d405f9b2108d">
+      <name>КлассЭкологический</name>
+      <synonym>
+        <key>ru</key>
+        <value>Emission compliance</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="193aaa6b-edd6-4d85-8694-1c0653c27386">
+      <name>КлассЭкологическийСпособПовышения</name>
+      <synonym>
+        <key>ru</key>
+        <value>ATS</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>25</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f61a7b3e-efd1-40c5-a3ec-ffc04dfd3332">
+      <name>СистемаВпрыска</name>
+      <synonym>
+        <key>ru</key>
+        <value>Injection system</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6a491827-1765-47a4-9a67-1834b0a50b2b">
+      <name>СистемаОхлаждения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Cooling system</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>25</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5965c560-8bbf-4e41-b656-30b49cfe0002">
+      <name>КрутящийМомент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Max torque. Nm</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="44e0a139-389a-4ac4-8b39-3cc36f22be1e">
+      <name>КрутящийМоментОбороты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Max torque. at rpm</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="061d488c-8655-4b09-af7b-4506358c7454">
+      <name>МощностьКВТ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Output (kW)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9a03bfca-3cad-461a-b576-fc7e86e5e6fa">
+      <name>МощностьЛС</name>
+      <synonym>
+        <key>ru</key>
+        <value>Output. hp (metric)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="204549be-d3a2-4289-844e-5d820c400872">
+      <name>МощностьОбороты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Rpm</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5cac3f84-52be-48f8-a2cb-fd823d6d4324">
+      <name>МощностьКВТ1500</name>
+      <synonym>
+        <key>ru</key>
+        <value>Output (kW) 1500 rpm (50 Hz)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="007e2842-d211-43d7-a73e-c39f1ecccc17">
+      <name>МощностьКВТ1800</name>
+      <synonym>
+        <key>ru</key>
+        <value>Output (kW) 1800 rpm (60 Hz)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bad0faf3-1cd2-4d11-af0e-ac763a82f76b">
+      <name>МощностьКВА1500</name>
+      <synonym>
+        <key>ru</key>
+        <value>Output (kVA) 1500 rpm (50 Hz)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0b423b4a-e600-43b7-b4a8-49e95bce92cd">
+      <name>МощностьКВА1800</name>
+      <synonym>
+        <key>ru</key>
+        <value>Output (kVA) 1800 rpm (60 Hz)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="592e6255-ae6c-423e-8e36-84ef9b1b5a0d">
+      <name>МощностьКВЕ1500</name>
+      <synonym>
+        <key>ru</key>
+        <value>Output (kWe) 1500 rpm (50 Hz)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3cc668de-5bdd-4bef-b097-68e8f8f72ff9">
+      <name>МощностьКВЕ1800</name>
+      <synonym>
+        <key>ru</key>
+        <value>Output (kWe) 1800 rpm (60 Hz)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ab6e25cd-b4fa-470a-b9ed-f913d9aceedc">
+      <name>КоэффициентПроизводительностиКВТ1500</name>
+      <synonym>
+        <key>ru</key>
+        <value>COP output (kW) 1500 rpm (50 Hz)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f4b52990-f2d4-482a-b143-2b55f76f601a">
+      <name>КоэффициентПроизводительностиКВТ1800</name>
+      <synonym>
+        <key>ru</key>
+        <value>COP output (kW) 1800 rpm (60 Hz)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d12f4e20-d405-4dd5-bd38-3c95ba91a9bd">
+      <name>КоэффициентПроизводительностиКВА1500</name>
+      <synonym>
+        <key>ru</key>
+        <value>COP output (kVA) 1500 rpm (50 Hz)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a8472d38-dcaf-4e7f-aea5-a28bf061beba">
+      <name>КоэффициентПроизводительностиКВА1800</name>
+      <synonym>
+        <key>ru</key>
+        <value>COP output (kVA) 1800 rpm (60 Hz)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="dbc73f5e-3583-40f6-b6a8-0227201a56a5">
+      <name>ИсточникЗагрузки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Источник загрузки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="b7b99635-7b48-4522-a14d-916897926007">
+    <producedTypes>
+      <objectType typeId="eee003fb-c0d4-4d7a-8103-c14f10e0708e" valueTypeId="4e72df3b-bcac-477e-a25a-dbc715aeb1b0"/>
+      <rowType typeId="84147f9c-3887-475e-9839-dd684a3579a7" valueTypeId="1eeef25c-a8eb-438f-95e4-64e7f0e61bd4"/>
+    </producedTypes>
+    <name>ОпцииОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опции оборудования</value>
+    </synonym>
+    <attributes uuid="c603e2cf-4857-41eb-9617-7efeb0730755">
+      <name>ТипПродукта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип продукта</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_ТипыПродуктов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f87443ee-a102-438e-b8fb-d4ca5dd6754d">
+      <name>RefCode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ref. code</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4877da88-2574-4589-9d58-ac5c07f6a5ea">
+      <name>VariantCode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Variant code</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e00612fa-0f8d-4ac6-be14-25b1f325149f">
+      <name>ОписаниеОпции</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание опции</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1da0fe83-6964-4258-af76-54fbb1f61632">
+      <name>Опция</name>
+      <synonym>
+        <key>ru</key>
+        <value>Опция</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_ОпцииПродуктов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="04aa793b-7069-4a1e-a053-75e3117e3442">
+      <name>Объем</name>
+      <synonym>
+        <key>ru</key>
+        <value>09/13/16</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="26c2afa6-5a70-43e7-98d3-7b71b6a93669">
+      <name>Применимость</name>
+      <synonym>
+        <key>ru</key>
+        <value>Применимость</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cc38c4d2-b1a6-45a3-9585-ea77b3883b00">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>RUB</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6a9d2f72-43c3-49cd-8fea-3aa8c62d0fdc">
+      <name>ЦенаEUR</name>
+      <synonym>
+        <key>ru</key>
+        <value>EUR</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="b26179c5-a82c-45a3-9733-cf7be58dcca7">
+    <producedTypes>
+      <objectType typeId="ef17b171-41ae-4c90-9704-a35fab20d0f7" valueTypeId="f2ad4eb0-6fb0-420b-9369-c4603dde1ef0"/>
+      <rowType typeId="bbc103f7-ec52-4ab6-9b7b-115e15c838e2" valueTypeId="2ddaedc8-6dd7-42ff-994d-8f34e56ee77e"/>
+    </producedTypes>
+    <name>ТаблицаСоответствия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица соответствия</value>
+    </synonym>
+    <attributes uuid="48cb8c72-a2ba-4ee8-aaf1-266d46e15e45">
+      <name>RefCode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ref. code</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3bdcaae5-acd5-47af-b80d-f586e54c52d5">
+      <name>VariantCode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Variant code</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b133e8ab-53e7-4a80-8632-a5fa9d8bc487">
+      <name>Опция</name>
+      <synonym>
+        <key>ru</key>
+        <value>Опция</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_ОпцииПродуктов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6ce75fd4-99c7-4a26-93b8-8f8cf64dca64">
+      <name>ИсточникЗагрузки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Источник загрузки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

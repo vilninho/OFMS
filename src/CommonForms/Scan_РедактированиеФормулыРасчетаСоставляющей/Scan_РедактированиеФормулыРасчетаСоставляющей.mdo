@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7628c0db-af20-457a-bc77-3a5022c4c1dd">
+  <name>Scan_РедактированиеФормулыРасчетаСоставляющей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактирование формулы расчета составляющей (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Editing component formula (scania)</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

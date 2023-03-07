@@ -1,0 +1,66 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.scania.org/webservice/SRUService/Payments" elementFormQualified="false" attributeFormQualified="false">
+	<property name="ACCOUNTNUM" type="xs:int"/>
+	<property name="AMOUNTMST" type="xs:decimal"/>
+	<property name="DATAAREAID">
+		<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+	</property>
+	<property name="DEALERCODE">
+		<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+	</property>
+	<property name="Dealer">
+		<typeDef xsi:type="ObjectType">
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/Payments" ref="d4p1:DEALERCODE"/>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/Payments" ref="d4p1:DATAAREAID"/>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/Payments" ref="d4p1:Vouchers"/>
+		</typeDef>
+	</property>
+	<property name="INN" type="xs:long"/>
+	<property name="NAME">
+		<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+	</property>
+	<property name="PURPOSETEXT" type="xs:string"/>
+	<property name="RECID" type="xs:long"/>
+	<property name="RECVERSION" type="xs:byte"/>
+	<property name="Recipient">
+		<typeDef xsi:type="ObjectType">
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/Payments" ref="d4p1:ACCOUNTNUM"/>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/Payments" ref="d4p1:INN"/>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/Payments" ref="d4p1:NAME"/>
+		</typeDef>
+	</property>
+	<property name="SESSIONID">
+		<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+	</property>
+	<property name="TRANSDATE" type="xs:dateTime"/>
+	<property name="TXT">
+		<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+	</property>
+	<property name="VATAMOUNTMST" type="xs:decimal"/>
+	<property name="VendPayment">
+		<typeDef xsi:type="ObjectType">
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/Payments" ref="d4p1:Dealer" lowerBound="0" upperBound="-1"/>
+		</typeDef>
+	</property>
+	<property name="Voucher">
+		<typeDef xsi:type="ObjectType">
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/Payments" ref="d4p1:VoucherCode"/>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/Payments" ref="d4p1:Recipient"/>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/Payments" ref="d4p1:TRANSDATE"/>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/Payments" ref="d4p1:TXT"/>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/Payments" ref="d4p1:PURPOSETEXT"/>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/Payments" ref="d4p1:AMOUNTMST"/>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/Payments" ref="d4p1:VATAMOUNTMST"/>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/Payments" ref="d4p1:SESSIONID"/>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/Payments" ref="d4p1:RECVERSION"/>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/Payments" ref="d4p1:RECID"/>
+		</typeDef>
+	</property>
+	<property name="VoucherCode">
+		<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+	</property>
+	<property name="Vouchers">
+		<typeDef xsi:type="ObjectType">
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/Payments" ref="d4p1:Voucher" upperBound="-1"/>
+		</typeDef>
+	</property>
+</package>

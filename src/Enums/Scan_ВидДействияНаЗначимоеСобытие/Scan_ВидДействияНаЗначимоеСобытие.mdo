@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb9ea71c-2481-4a2a-bffd-3c224e969b56">
+  <producedTypes>
+    <refType typeId="150d196e-ab3a-420f-8016-c43b4d976ab4" valueTypeId="3c763664-dfec-4f4c-bcc3-0b02af75ba7f"/>
+    <listType typeId="1182f82e-be6e-4413-a519-2b556b07f8ed" valueTypeId="80634a22-198a-4aa1-b424-f8eb9d6e9810"/>
+    <managerType typeId="2f7ff583-71d0-4d90-b3b5-edf12c50a13d" valueTypeId="59eb7810-f03f-49e5-b893-8ddad043355d"/>
+  </producedTypes>
+  <name>Scan_ВидДействияНаЗначимоеСобытие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид действия на значимое событие (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Вид действия на значимое событие (scania)</value>
+  </synonym>
+  <comment>Вид действия на значимое событие</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e800dacd-cc51-425c-b486-1f7bc57863c9">
+    <name>СоздатьИЗаписатьОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать и записать объект</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Создать и записать объект</value>
+    </synonym>
+    <comment>Создать и записать объект</comment>
+  </enumValues>
+  <enumValues uuid="ca767c96-6911-45be-9787-efa91b7e6fde">
+    <name>СоздатьНапоминание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать напоминание</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Создать напоминание</value>
+    </synonym>
+    <comment>Создать напоминание</comment>
+  </enumValues>
+  <enumValues uuid="59ca98a0-0c02-4860-9341-e8ed50303153">
+    <name>СоздатьЗаписьЖурналаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать запись в журнале регистрации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Создать запись в журнале регистрации</value>
+    </synonym>
+    <comment>Создать запись в журнале регистрации</comment>
+  </enumValues>
+  <enumValues uuid="1c6328b1-13e3-4c2a-8d93-55dd394e54e1">
+    <name>НаписатьЭлектронноеПисьмо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Написать электронное письмо</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Написать электронное письмо</value>
+    </synonym>
+    <comment>Написать электронное письмо</comment>
+  </enumValues>
+  <enumValues uuid="02cfc1b5-7860-4a55-8f72-8325738674ef">
+    <name>НаписатьЭлектронноеПисьмоСВложением</name>
+    <synonym>
+      <key>ru</key>
+      <value>Написать электронное письмо с вложением</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Написать электронное письмо с вложением</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f41f9c33-f35e-4be7-9a67-3e7007a5d927">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольное выражение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Произвольное выражение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

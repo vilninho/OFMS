@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0f6edc6-652a-404c-bf66-e66de02dbae7">
+  <producedTypes>
+    <refType typeId="56a2864a-3986-4f48-9223-61d1b5cdf610" valueTypeId="709d0833-4c2d-4428-a0a8-5f86b443b039"/>
+    <listType typeId="3a99fbb9-e7f1-4494-8b14-1be8be438347" valueTypeId="3e965d26-1813-4177-92e8-638e34189d02"/>
+    <managerType typeId="5de099ca-4891-437e-9b94-7d16a19d2fea" valueTypeId="62e53333-6297-48b7-8d84-33b8f4e1dd9e"/>
+  </producedTypes>
+  <name>Scan_СпособыДоставкиПродуктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы доставки продуктов  (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Methods for delivering products (scania)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1f83a5ee-43c4-4aa5-8b86-a169771bd7c3">
+    <name>СвоимХодом</name>
+    <synonym>
+      <key>ru</key>
+      <value>своим ходом</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Own wheels</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="61957e2f-088a-43f3-a19d-72b1aca82b1d">
+    <name>Автовозом</name>
+    <synonym>
+      <key>ru</key>
+      <value>автовозом</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Autocart</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="555dfe9a-b360-4a85-a6d2-793fe2b466de">
+    <name>Контейнеровозом</name>
+    <synonym>
+      <key>ru</key>
+      <value>контейнеровозом</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Container ship</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1bd254b4-58f3-4f2c-b0fe-675ea2a922ec">
+    <name>ТентованнымПолуприцепом</name>
+    <synonym>
+      <key>ru</key>
+      <value>тентованным полуприцепом</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Tilt semitrailer</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

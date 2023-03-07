@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bea9b1d-515f-485b-899a-b69d1a4ae968">
+  <producedTypes>
+    <refType typeId="f825a1e0-9bcd-4ac2-aacb-e810e60a664c" valueTypeId="a61fcb44-666c-42c4-b637-a30ab3a75ece"/>
+    <listType typeId="4d958750-e639-42d3-a903-2a7f00fc84d6" valueTypeId="897be285-5d74-4ffb-a968-769661c6bd00"/>
+    <managerType typeId="1c8b8cb1-c749-48c7-9568-29976eb50acc" valueTypeId="5721f48d-f390-4cb4-825b-8e210fdfaba6"/>
+  </producedTypes>
+  <name>Scan_ВидыПравДляСправочников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды прав для справочников(УЭ) (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Виды прав для справочников(УЭ) (scania)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a2a7f311-57c7-4cd2-b287-5d67fc918008">
+    <name>Редактирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Редактирование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="261baac7-9814-47aa-a116-cd25149e0b04">
+    <name>РедактированиеПоГруппам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование по группам</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Редактирование по группам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="13846e02-826b-4d89-8152-6912d0a89ace">
+    <name>Чтение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чтение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Чтение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="821d53b9-d91e-42a4-aade-c084d0239127">
+    <name>НетДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нет доступа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Нет доступа</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

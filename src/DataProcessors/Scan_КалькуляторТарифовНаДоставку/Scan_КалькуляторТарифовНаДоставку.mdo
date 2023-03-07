@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a6b8855-9400-4746-a8b4-ab829f81e85f">
+  <producedTypes>
+    <objectType typeId="e7b33985-e971-4774-bd39-a2bb665ac2de" valueTypeId="7b215a26-e76b-47a0-bd56-86d925e92aaf"/>
+    <managerType typeId="808602f3-469d-449b-8405-16608ab8b076" valueTypeId="a71fb8b0-9d39-453b-b1d1-9e6d0f9c68f5"/>
+  </producedTypes>
+  <name>Scan_КалькуляторТарифовНаДоставку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Калькулятор тарифов на доставку (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Delivery tariffs calculator (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Scan_КалькуляторТарифовНаДоставку.Form.Форма</defaultForm>
+  <forms uuid="19ba08e6-d16a-4a9e-9537-dc72e0156c2c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

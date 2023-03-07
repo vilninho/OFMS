@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>Subsystem.Администрирование.Subsystem.Scan_ИнтеграцияС1БД.Subsystem.Scan_НастройкиИнтеграции</subsystems>
+    <subsystems>Subsystem.Администрирование.Subsystem.Scan_ИнтеграцияС1БД.Subsystem.Scan_ДанныеДля1БД</subsystems>
+    <subsystems>Subsystem.Администрирование.Subsystem.Scan_ИнтеграцияС1БД.Subsystem.Scan_КонтрольСостоянияИнтеграции</subsystems>
+    <subsystems>Subsystem.Администрирование.Subsystem.Scan_ИнтеграцияС1БД.Subsystem.Scan_ПоддержкаИнтеграции</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

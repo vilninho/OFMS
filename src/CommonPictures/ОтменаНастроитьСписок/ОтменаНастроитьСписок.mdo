@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84b2daa6-7bd8-43d1-abc6-94471be901f6">
+  <name>ОтменаНастроитьСписок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отмена настроить список</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Отмена настроить список</value>
+  </synonym>
+</mdclass:CommonPicture>

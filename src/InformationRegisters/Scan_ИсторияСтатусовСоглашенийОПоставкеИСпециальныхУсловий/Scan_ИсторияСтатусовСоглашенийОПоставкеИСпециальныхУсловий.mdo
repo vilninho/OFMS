@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fcfce596-323f-4a0b-afb0-b248364edba5">
+  <producedTypes>
+    <selectionType typeId="fe59f248-d539-460d-a963-c06419566af1" valueTypeId="4213e732-2395-4447-8ffe-6b960146f1c0"/>
+    <listType typeId="ee303259-c5e4-4bab-8dfd-7f349937b27e" valueTypeId="a69a167d-6b2c-4aa5-8163-43aa707d85ae"/>
+    <managerType typeId="bac3751d-e9a4-41a4-8568-88644a8ff8b9" valueTypeId="5a1644b7-d479-40b9-9353-110efdd93e11"/>
+    <recordSetType typeId="d26d499d-91ff-46d0-86b8-1c6178f1ee29" valueTypeId="7f9fae28-bac2-4a3f-9249-9d3c74e104ca"/>
+    <recordKeyType typeId="5c61ec2c-28a9-4703-a775-c13b925d2848" valueTypeId="285a6fd2-eed2-4d3b-8697-4652bb28710c"/>
+    <recordType typeId="fe655e4d-f363-47ba-b6eb-83a6817f988e" valueTypeId="8c478336-0199-4a99-b7f8-1d852976d087"/>
+    <recordManagerType typeId="61b23c24-e5ce-4a26-9a12-cb884ae31292" valueTypeId="4ce9fc8b-96a2-4795-9f11-4bf7acffe4f0"/>
+  </producedTypes>
+  <name>Scan_ИсторияСтатусовСоглашенийОПоставкеИСпециальныхУсловий</name>
+  <synonym>
+    <key>ru</key>
+    <value>История статусов заявок и специальных условий (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.Scan_ИсторияСтатусовСоглашенийОПоставкеИСпециальныхУсловий.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="315d1a04-15f4-4b37-8458-a86d93ba8884">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_СтатусыСоглашенийОПоставкеИСпециальныхУсловий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="fec03365-1716-49c0-b90a-64b3e3315320">
+    <name>ОбъектСтатуса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект статуса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_СпециальныеУсловия</types>
+      <types>CatalogRef.Scan_СоглашенияОПоставке</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a3c4cfec-b8ed-4f13-bc7d-fc4a1986b8f3">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e4ae1cb9-4820-4a76-bda4-4f8480a6ee29">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

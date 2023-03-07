@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2415eb8-e01e-44e1-810a-387fb5d7e087">
+  <producedTypes>
+    <selectionType typeId="5fe4134f-529c-45e3-aab3-345de0a86f94" valueTypeId="6e364aef-3644-41d2-aeca-fe7297af6a45"/>
+    <listType typeId="21d319fe-d4a0-472f-9c4b-3a7177fca91d" valueTypeId="c99acf94-9643-4d7a-9347-99b2b3c461a6"/>
+    <managerType typeId="76c5a1c2-2452-4a3a-bb90-a405ab98926b" valueTypeId="2cad82f3-7662-4d3b-865e-fdd251e48867"/>
+    <recordSetType typeId="ccedfd12-c65b-4b47-96bb-5f804177d28a" valueTypeId="f3ecfe90-b55e-4a54-bd67-2cd3677553dc"/>
+    <recordKeyType typeId="259bad4c-e06c-45fd-b310-0ccbdeeddd98" valueTypeId="c06bccd9-7911-4060-9cbe-ca52eff1347d"/>
+    <recordType typeId="81c62574-ef50-4718-81ef-1ccd4677c87c" valueTypeId="f2169de7-80f3-44e5-b05c-aa9c12b39c7d"/>
+    <recordManagerType typeId="d3e647d4-1ab1-4eea-af1b-6d79154b71f4" valueTypeId="8cd97717-2f20-40a2-a269-774886b5565e"/>
+  </producedTypes>
+  <name>Scan_ХарактеристикиИзделия</name>
+  <synonym>
+    <key>ru</key>
+    <value>История продуктов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Product history</value>
+  </synonym>
+  <comment>Характеристики продукта (scania)</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_ХарактеристикиИзделия.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_ХарактеристикиИзделия.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="1d868c4f-73a1-4c12-af49-12912682f5bd">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Value</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Scan_ГруппыИзделийOFMS</types>
+      <types>CatalogRef.Scan_Изделия</types>
+      <types>CatalogRef.Scan_ЦветаКабиныПТС</types>
+      <types>CatalogRef.Scan_СоглашенияОПоставке</types>
+      <types>CatalogRef.Scan_ТипыКабинИзделий</types>
+      <types>DocumentRef.Scan_СпецификацияСтандартнойМодели</types>
+      <types>CatalogRef.Scan_ТипыПродуктов</types>
+      <types>CatalogRef.Scan_НоменклатураУслуг</types>
+      <types>CatalogRef.Scan_Сотрудники</types>
+      <types>CatalogRef.Scan_ТипыГИБДД</types>
+      <types>DocumentRef.Scan_УстановкаПлановыхЦенПродукта</types>
+      <types>CatalogRef.Scan_МаркетинговыеТипыПродуктов</types>
+      <types>CatalogRef.Scan_ЗаказыНаЗавод</types>
+      <types>CatalogRef.Scan_ПаромныеЛинии</types>
+      <types>EnumRef.Scan_ТипыСпецификации</types>
+      <types>Boolean</types>
+      <types>CatalogRef.Scan_МаркиПродуктов</types>
+      <types>CatalogRef.Scan_ЛокальныеСтатусыПродуктов</types>
+      <types>CatalogRef.Scan_СтавкиНДС</types>
+      <types>CatalogRef.Scan_МоделиПродуктов</types>
+      <types>CatalogRef.Scan_Компании</types>
+      <types>CatalogRef.Scan_ДоговорыВзаиморасчетов</types>
+      <types>CatalogRef.Scan_Контрагенты</types>
+      <types>CatalogRef.Scan_ТипыКузова</types>
+      <types>CatalogRef.Scan_КонтактныеЛица</types>
+      <types>CatalogRef.Scan_СпецификацииПродуктов</types>
+      <types>String</types>
+      <types>CatalogRef.Scan_МоделиПоПТС</types>
+      <types>Date</types>
+      <types>Number</types>
+      <types>CatalogRef.Scan_ТипыПродуктовЛогистика</types>
+      <types>CatalogRef.Scan_МестаХранения</types>
+      <types>CatalogRef.Scan_ТипыТопливаДвигателейПродуктов</types>
+      <types>CatalogRef.Scan_Склады</types>
+      <types>CatalogRef.Scan_Подразделения</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="f5bc94c5-cf59-4602-b075-cdd8310dda28">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6b276ffa-fc91-413e-8e06-0d1e0b9e34dd">
+    <name>Источник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_СоглашенияОПоставке</types>
+      <types>DocumentRef.Scan_ЗаявкаНаОтгрузку</types>
+      <types>String</types>
+      <types>CatalogRef.Пользователи</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="73b5a577-fbcd-41b3-889c-8ed417486096">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_СтатусыСоглашенийОПоставкеИСпециальныхУсловий</types>
+      <types>CatalogRef.Scan_СтатусыЗаявокНаОтгрузку</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="ae850e6f-ea06-4a0f-ba89-203bf63ab659">
+    <name>Изделие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукт</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Product</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Изделия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6f045fc4-8751-4807-9d7a-6f786517a71b">
+    <name>ВидЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид значения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Value type</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Scan_ДополнительнаяИнформацияПоИзделиям</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="3aa54b0f-08c6-49f5-b761-0e9dc1ad36b1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ee2f0912-1561-40b8-b744-84e5f0aeb224">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Recording form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

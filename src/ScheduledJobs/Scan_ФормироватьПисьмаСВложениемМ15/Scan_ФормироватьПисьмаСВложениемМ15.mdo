@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8580bd6a-d600-4523-b2c2-0db3158ef19f">
+  <name>Scan_ФормироватьПисьмаСВложениемМ15</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формировать письма с вложением М-15</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Формировать письма с вложением М-15</value>
+  </synonym>
+  <methodName>CommonModule.Scan_РегламентныеЗадания.СформироватьПисьмаСВложениемМ15</methodName>
+  <description>Сформировать письмо с вложением М-15</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

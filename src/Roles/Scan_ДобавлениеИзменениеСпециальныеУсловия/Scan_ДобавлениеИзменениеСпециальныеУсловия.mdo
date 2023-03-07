@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40e39b8a-c511-45cf-8601-c251fe4856a9">
+  <name>Scan_ДобавлениеИзменениеСпециальныеУсловия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение специальные условия (scania)</value>
+  </synonym>
+</mdclass:Role>

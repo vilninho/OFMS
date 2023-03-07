@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="470d846c-fbb8-4c56-a894-66afa170687c">
+  <producedTypes>
+    <refType typeId="747921dc-6841-4f18-bcde-ef71050d77b5" valueTypeId="251f9d81-a021-46d0-a94d-7d08e477fa98"/>
+    <listType typeId="68871c68-8128-4623-8d60-dc2d68b58a41" valueTypeId="26d3b73e-0c20-450c-a04c-b1132d2dee73"/>
+    <managerType typeId="301a13cc-6d35-4f1f-adc1-d28f69bfb895" valueTypeId="0e8ce9e0-fe28-478d-a6a5-d16f571a4909"/>
+  </producedTypes>
+  <name>Scan_ВариантыСортировкиХО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты сортировки ХО</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Варианты сортировки ХО</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="96c0d433-5c46-4cc1-b724-935d29163c29">
+    <name>ПоНаименованию</name>
+    <synonym>
+      <key>ru</key>
+      <value>По наименованию</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>По наименованию</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="576a7647-5ce8-4578-9b06-2a7c1f8fcfae">
+    <name>ПоКоду</name>
+    <synonym>
+      <key>ru</key>
+      <value>По коду</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>По коду</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c28740a0-547e-411e-901b-e332f4e9657d">
+    <name>ПоПорядковомуНомеру</name>
+    <synonym>
+      <key>ru</key>
+      <value>По № п/п</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>По № п/п</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

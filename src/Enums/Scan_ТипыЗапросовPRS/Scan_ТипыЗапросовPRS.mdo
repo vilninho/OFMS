@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f0642e0-96cc-4447-8365-ca0709e419a2">
+  <producedTypes>
+    <refType typeId="4980545a-eb01-48bb-a32b-e7736e7a5ae6" valueTypeId="0c98d79c-fd31-42be-abd3-b7c51454ddec"/>
+    <listType typeId="fa073fe1-6309-4858-9aff-cc71b4bf282a" valueTypeId="6a193284-2317-4b55-a90a-bcb748fdd09a"/>
+    <managerType typeId="973e22cc-2074-4048-bf9e-1d04acf67387" valueTypeId="dbd251f4-273a-43d6-ac7a-de1791cb8e85"/>
+  </producedTypes>
+  <name>Scan_ТипыЗапросовPRS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы Запросов PRS (sania)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b7b2a4e9-4417-453f-864c-18013cb8f68a">
+    <name>SOrder</name>
+    <synonym>
+      <key>ru</key>
+      <value>S-Order</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="78e4ec27-4f87-4150-a88f-9ba92df3a855">
+    <name>FFU</name>
+    <synonym>
+      <key>ru</key>
+      <value>FFU</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

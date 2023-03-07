@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fb540df-43b6-4691-b423-5dc03023d215">
+  <producedTypes>
+    <objectType typeId="dcb41553-63e2-448f-af84-13e83795109f" valueTypeId="d694f817-e62c-4476-a2cb-7225e87a171c"/>
+    <managerType typeId="b63a3ed5-4dec-4c4b-bd5f-eac05f23d684" valueTypeId="7e86fbe9-6db2-499f-b45d-6aede3f1e127"/>
+  </producedTypes>
+  <name>Scan_ПредпродажкаИРемонт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предпродажка и ремонт</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Предпродажка и ремонт</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.Scan_ПредпродажкаИРемонт.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.Scan_ПредпродажкаИРемонт.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="3e3fd578-8f09-4390-b9c6-c05a18c2aa79">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="da602d07-86be-4977-87ff-cea7ce69f04e">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

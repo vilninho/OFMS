@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3aef7040-2ab5-4449-8613-d2cd9bf1aa32">
+  <name>ПодтверждениеПеревозчиком</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подтверждение перевозчиком</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Подтверждение перевозчиком</value>
+  </synonym>
+</mdclass:CommonPicture>

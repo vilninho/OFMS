@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ddfb87b-1126-48a0-8d7c-f3a4218500bc">
+  <name>Scan_ФормированиеПеремещенийККузовостроителю</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование перемещений к кузовостроителю</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Формирование перемещений к кузовостроителю</value>
+  </synonym>
+  <methodName>CommonModule.Scan_РегламентныеЗадания.ФормированиеПеремещенийККузовостроителю</methodName>
+  <description>Формирование перемещений к кузовостроителю</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

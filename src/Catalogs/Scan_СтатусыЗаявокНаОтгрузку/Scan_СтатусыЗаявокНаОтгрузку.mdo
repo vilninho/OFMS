@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6fc591d-1e9d-4495-81ae-d64ad1fcc42c">
+  <producedTypes>
+    <objectType typeId="6861b054-c1b1-4c97-a4ab-91aa7dc5e476" valueTypeId="6510f46d-9e43-4e38-a029-1bfd285b5f57"/>
+    <refType typeId="a05865f0-c102-4143-90d2-2d2f44618062" valueTypeId="2e8007e0-59b2-4cff-9acd-ebb4e4e8d191"/>
+    <selectionType typeId="8a82c493-c5b1-47f9-98c2-cbbab182cc0e" valueTypeId="189b8dd2-9ebb-413c-9f62-e1c8e32f4d6c"/>
+    <listType typeId="49449d23-3fe4-4d87-b8b5-18f2cb64a363" valueTypeId="c2a8a01f-610f-4a7b-9976-b9d76d789771"/>
+    <managerType typeId="8320e474-1e47-46d8-958d-f36876856841" valueTypeId="09eab300-daba-463b-9b71-a8f7bcbf4a08"/>
+  </producedTypes>
+  <name>Scan_СтатусыЗаявокНаОтгрузку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заявок на отгрузку (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Statuses of shipment requests</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_СтатусыЗаявокНаОтгрузку.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_СтатусыЗаявокНаОтгрузку.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="83791d8c-2424-41d8-b4a1-1d7d148b9791">
+      <name>ЗаявкаНаОтгрузку</name>
+      <description>Заявка на отгрузку</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="e76ef0d6-c654-422e-964a-f894cd16262c">
+      <name>Исполнена</name>
+      <description>Исполнена</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="bc38ef6d-bf90-42cd-925b-8c6b185f2ebc">
+      <name>Одобрена</name>
+      <description>Одобрена</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="e34d7f1f-9d98-470a-b790-46b09e033651">
+      <name>Отказ</name>
+      <description>Отказ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="407c19d1-3971-4e41-9707-e3cc918808c4">
+      <name>Отменена</name>
+      <description>Отменена</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="c2c21158-265b-4d5a-9c98-266d226bf4f1">
+      <name>Пересмотр</name>
+      <description>Пересмотр</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="b131d206-e827-44c7-af9c-57ce6a20fd5e">
+      <name>ПроектЗаявкиНаОтгрузку</name>
+      <description>Проект заявки на отгрузку</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="cb367524-5fab-43d3-832f-7f89181eca0c">
+      <name>Согласование</name>
+      <description>Согласование</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="f3584061-d648-43d7-985f-b444d3220703">
+      <name>ЧастичноИсполнена</name>
+      <description>Частично исполнена</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_СтатусыЗаявокНаОтгрузку.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_СтатусыЗаявокНаОтгрузку.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="71e931d8-5bc4-4d52-b224-575f43a500e2">
+    <name>ЦветТекста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет текста</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Text color</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="43296f6f-bf41-4e0c-8cea-264c9d4ee0d1">
+    <name>ЦветФона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет фона</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Background color</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="edaceb82-a0f7-4bc3-97be-dd2dfaa7e5a1">
+    <name>Шрифт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шрифт</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Font</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9af020dc-1bad-43d1-b271-e616246942dc">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="029ef83c-bce0-4eb0-98b4-3088eba961a7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

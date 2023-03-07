@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ddb55dd8-d9f2-419b-9a66-1aea97193591">
+  <name>Scan_ЧтениеИзменениеПросмотрРегистровScania</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение изменение просмотр регистров Scania (Scania)</value>
+  </synonym>
+</mdclass:Role>

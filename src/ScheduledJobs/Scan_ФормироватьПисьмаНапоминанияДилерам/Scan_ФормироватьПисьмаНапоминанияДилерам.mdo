@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3f285f5-41bf-4023-8ff8-e2b48859745e">
+  <name>Scan_ФормироватьПисьмаНапоминанияДилерам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формировать письма-напоминания дилерам</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Формировать письма-напоминания дилерам</value>
+  </synonym>
+  <methodName>CommonModule.Scan_РегламентныеЗадания.СформироватьИОтправитьПисьмаНапоминанияДилерам</methodName>
+  <description>Сформировать и отправить напоминания дилерам</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

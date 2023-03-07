@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebd5ac04-83ec-4cce-bdf6-3dd7b66317c5">
+  <producedTypes>
+    <refType typeId="7ec2f02e-6c63-429d-ba7c-663e19d69150" valueTypeId="75126741-871e-48a3-9486-080e642a7a74"/>
+    <listType typeId="7b7ba993-81b0-4afc-aa74-ae3ecaab410b" valueTypeId="cdbc361a-610f-4da2-8007-36dcc3723040"/>
+    <managerType typeId="0337ddaf-4503-4a5d-a3b2-7dbc4b1b067d" valueTypeId="1f89225a-d7f3-47a2-ab54-d87f40772722"/>
+  </producedTypes>
+  <name>Scan_ТипыСоглашенийОПоставке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы соглашений о поставке (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Types of Scheduling Agreements</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ab77db41-ebf7-48e8-912d-8591780660cb">
+    <name>ЗаявкаНаСОП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка на СОП</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Application for supply agreement</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="462f930c-b674-4692-ab67-1b4eaafdc94d">
+    <name>ЗаявкаНаСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка на склад</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Application for warehouse</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf765b10-d9b3-407a-8e4a-5880a4397a34">
+    <name>ЗаявкаНаСОПSRU</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка на СОП (SRU)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Application for supply agreement (SRU)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

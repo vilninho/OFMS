@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1309bf56-3279-41f8-abaa-7396b9b53e40">
+  <name>ДополнительныеРаботыИДоукомплектование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервисные работы и доукомплектация</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Servicing and retrofit</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Scan_ВидыСервисныхРабот</content>
+  <content>Catalog.Scan_СтатусыЗаявокНаРаботы</content>
+  <content>InformationRegister.Scan_ВыполненныеРаботыНаИзделиях</content>
+  <content>Document.Scan_ЗаявкаНаСервисныеРаботы</content>
+  <content>EventSubscription.Scan_ПриЗаписиОтправленныеПисьма</content>
+  <content>CommonModule.Scan_ДопРаботыИДоукомплектование</content>
+  <content>DataProcessor.Scan_ВводДанныхПоЗаявкеНаСервис</content>
+  <content>Report.Scan_ПредпродажкаИРемонт</content>
+  <content>Catalog.Scan_ЗаявкаНаСервисныеРаботыПрисоединенныеФайлы</content>
+  <content>ScheduledJob.Scan_УстановкаСтатусаВРаботеЗаявкиНаСервисныеРаботы</content>
+  <content>Enum.Scan_СтатусыЗаявокНаКомплектующие</content>
+  <content>Document.Scan_ЗаявкаНаКомплектующие</content>
+  <content>Catalog.Scan_Комплектующие</content>
+  <content>Document.Scan_ПоступлениеКомплектующих</content>
+  <content>InformationRegister.Scan_НаличиеКомплектующихНаСкладе</content>
+  <content>AccumulationRegister.Scan_ДвиженияКомплектующих</content>
+  <content>InformationRegister.Scan_СоответствиеКодовНеисправныхДеталейИСервисныхРабот</content>
+  <parentSubsystem>Subsystem.Scan_ХранениеИзделий</parentSubsystem>
+</mdclass:Subsystem>

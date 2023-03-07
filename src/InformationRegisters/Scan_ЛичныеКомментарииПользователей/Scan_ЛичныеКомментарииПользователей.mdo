@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0dfbb2d7-8f92-47a5-81e4-c8986891d96f">
+  <producedTypes>
+    <selectionType typeId="a04383fd-1794-433e-9534-b1c89681d341" valueTypeId="6d63ced2-e991-4b95-a6c0-5467d469b8ac"/>
+    <listType typeId="ead709ff-ad8b-4ad1-ace3-173929f2a495" valueTypeId="9a7e81ee-161b-4c8d-8f7c-6bcc35dc0819"/>
+    <managerType typeId="b05dfa2d-52ef-42a6-80f4-1dd0ccbfda96" valueTypeId="d382ff76-213d-47e3-ab96-ef42b6addc21"/>
+    <recordSetType typeId="1c21f292-d5ff-4895-86f6-b81b72b54a27" valueTypeId="280e49bf-20ac-4c80-8f09-2466bbfa8866"/>
+    <recordKeyType typeId="c2432c13-bbd1-43a9-9838-71cbf7b9e4b7" valueTypeId="c5dede6b-6a89-4261-bbb8-17e530906a56"/>
+    <recordType typeId="e06e6c13-f9b6-45e4-a63c-6844ac054975" valueTypeId="e4c2d2af-5f8c-47cd-9528-c598a3992447"/>
+    <recordManagerType typeId="5496220b-d640-475a-8fe3-87fe5020aded" valueTypeId="9664e22e-649b-4991-9aee-a5c4d284ab35"/>
+  </producedTypes>
+  <name>Scan_ЛичныеКомментарииПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Личные комментарии пользователей (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Personal user comments (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.Scan_ЛичныеКомментарииПользователей.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="3408ad5a-9282-476a-b171-9bc0c0bef00c">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Comment</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="f1f37dbe-e546-473a-82a8-88c8e0776f1a">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ece622d1-0c8a-4767-915b-a927dd3ca952">
+    <name>ЗаказНаЗавод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ на завод</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Order to the plant</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ЗаказыНаЗавод</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="d593bbd6-1e8a-47c8-bb77-56a4cda63f6c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="0b5b992e-ac91-4d4b-9edf-b21b2b205c01">
+    <name>Scan_ЛичныеКомментарииПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Личные комментарии пользователей (scania)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Personal user comments (scania)</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

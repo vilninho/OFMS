@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="baa06bd4-6d4d-41a5-8387-02fac7018e36">
+  <producedTypes>
+    <refType typeId="8e8a7f4d-34e3-4858-8e55-01fa570d5430" valueTypeId="a83f4824-89db-4501-b5a4-fbae25792a3b"/>
+    <listType typeId="7a3a5d4b-bdad-47b1-9c53-113767a6c82a" valueTypeId="c3708303-8f0e-4280-8c2f-f8ca1bc06050"/>
+    <managerType typeId="b1c6bbf9-14a3-411f-bb2e-014eb777d378" valueTypeId="e9ce8c61-4854-459f-8de8-c2318979cd3a"/>
+  </producedTypes>
+  <name>Scan_ПринадлежностьСоставляющихКалькуляции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Принадлежность составляющих калькуляции (scania)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a72fd17f-08b2-41d4-843b-f62dcd596df3">
+    <name>НеЗадана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не задана</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Unset</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3ef3caf5-de39-4ed4-a969-9516b001e98c">
+    <name>Шасси</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шасси</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Chassis</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="460c84de-096a-47a2-95b7-ba91b6c616ec">
+    <name>Надстройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Надстройка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Body</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5de4ad6-9578-4cc0-a20d-c4447971c31f">
+  <producedTypes>
+    <selectionType typeId="ac10c35a-6a7a-417b-8da5-9b5e309cb939" valueTypeId="6f3b3c54-7615-49c2-bdaf-6f4bb3021b1f"/>
+    <listType typeId="0182df98-99f5-4895-b7f6-5639b4bb8ced" valueTypeId="fcc51096-07e4-4ea8-ba78-9b385cae4060"/>
+    <managerType typeId="42f4172a-5a5a-4b20-bd0a-02b4c5bbec18" valueTypeId="6754b9c2-fc2c-4f78-a025-09e0ee1567dc"/>
+    <recordSetType typeId="8e9671f0-2e47-4152-b30d-3c9361d99a31" valueTypeId="5835fc8a-94fd-4a06-95f8-a3d575ed5bb8"/>
+    <recordKeyType typeId="27aa28fc-d8a4-4689-9b08-e2cec191b2a9" valueTypeId="b968b1a0-5134-4504-b2e7-27cb20d7a3c9"/>
+    <recordType typeId="d7f93332-61f6-450d-88f2-9d09e5613058" valueTypeId="5c304c64-a340-4041-a467-5ef99a049b06"/>
+    <recordManagerType typeId="be76eb5b-b844-442c-a485-a384c71257fd" valueTypeId="814cc8dd-36cb-4fc1-bc8f-ce466dc648a7"/>
+  </producedTypes>
+  <name>Scan_ИсторияПоступленийИПродажПродуктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>История поступлений и продаж продуктов (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Product Revenue and Sales History (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.Scan_ИсторияПоступленийИПродажПродуктов.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача 1ДБ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Task 1DB</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="2184291e-d7cc-4152-8d29-8b72c27e02e5">
+    <name>Продукт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукт</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Product</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Изделия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5f515405-6263-4ccd-9003-5e4d2d96feb3">
+    <name>Задача1БД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача 1БД</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Task 1BD</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Scan_ЗадачаИз1ДБ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="d8418511-ed1e-4d4a-a796-5aec57469e6b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

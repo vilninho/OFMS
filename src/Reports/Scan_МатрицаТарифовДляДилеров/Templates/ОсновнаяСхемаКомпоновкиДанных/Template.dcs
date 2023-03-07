@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Услуга</dataPath>
+			<field>Услуга</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АдресПолучения</dataPath>
+			<field>АдресПолучения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Стоимость</dataPath>
+			<field>Стоимость</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>(без НДС)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>(без НДС)</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СпособДоставки</dataPath>
+			<field>СпособДоставки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛогистическийТип</dataPath>
+			<field>ЛогистическийТип</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КолеснаяФормула</dataPath>
+			<field>КолеснаяФормула</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АдресДоставки</dataPath>
+			<field>АдресДоставки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОсновнаяУслуга</dataPath>
+			<field>ОсновнаяУслуга</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗЛИЧНЫЕ
+	Scan_МатрицаТарифовДляДилеровПоДоставкеИзделийСрезПоследних.ЛогистическийТип КАК ЛогистическийТип,
+	Scan_МатрицаТарифовДляДилеровПоДоставкеИзделийСрезПоследних.КолеснаяФормула КАК КолеснаяФормула,
+	Scan_МатрицаТарифовДляДилеровПоДоставкеИзделийСрезПоследних.СпособДоставки КАК СпособДоставки,
+	Scan_МатрицаТарифовДляДилеровПоДоставкеИзделийСрезПоследних.АдресПолучения КАК АдресПолучения,
+	Scan_МатрицаТарифовДляДилеровПоДоставкеИзделийСрезПоследних.АдресДоставки КАК АдресДоставки
+ПОМЕСТИТЬ ЛогистическиеТипыИКолесныеФормулы
+ИЗ
+	РегистрСведений.Scan_МатрицаТарифовДляДилеровПоДоставкеИзделий.СрезПоследних(&amp;НаДату, ) КАК Scan_МатрицаТарифовДляДилеровПоДоставкеИзделийСрезПоследних
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ЕСТЬNULL(Scan_СтоимостьУслугДляРасчетаСтоимостиДоставкиСрезПоследних.Услуга, ЗНАЧЕНИЕ(Справочник.Scan_НоменклатураУслуг.УслугаПлатон)) КАК Услуга,
+	ЕСТЬNULL(Scan_СтоимостьУслугДляРасчетаСтоимостиДоставкиСрезПоследних.СпособДоставки, ЛогистическиеТипыИКолесныеФормулы.СпособДоставки) КАК СпособДоставки,
+	ЕСТЬNULL(Scan_СтоимостьУслугДляРасчетаСтоимостиДоставкиСрезПоследних.АдресПолучения, ЛогистическиеТипыИКолесныеФормулы.АдресПолучения) КАК АдресПолучения,
+	ЕСТЬNULL(Scan_СтоимостьУслугДляРасчетаСтоимостиДоставкиСрезПоследних.АдресДоставки, ЛогистическиеТипыИКолесныеФормулы.АдресДоставки) КАК АдресДоставки,
+	ЛогистическиеТипыИКолесныеФормулы.ЛогистическийТип КАК ЛогистическийТип,
+	ЛогистическиеТипыИКолесныеФормулы.КолеснаяФормула КАК КолеснаяФормула,
+	ЕСТЬNULL(Scan_СтоимостьУслугДляРасчетаСтоимостиДоставкиСрезПоследних.Стоимость, 0) КАК Стоимость
+ПОМЕСТИТЬ СтоимостьПлатона
+ИЗ
+	ЛогистическиеТипыИКолесныеФормулы КАК ЛогистическиеТипыИКолесныеФормулы
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Scan_СтоимостьУслугДляРасчетаСтоимостиДоставки.СрезПоследних(&amp;НаДату, Услуга = ЗНАЧЕНИЕ(Справочник.Scan_НоменклатураУслуг.УслугаПлатон)) КАК Scan_СтоимостьУслугДляРасчетаСтоимостиДоставкиСрезПоследних
+		ПО ЛогистическиеТипыИКолесныеФормулы.АдресПолучения = Scan_СтоимостьУслугДляРасчетаСтоимостиДоставкиСрезПоследних.АдресПолучения
+			И ЛогистическиеТипыИКолесныеФормулы.АдресДоставки = Scan_СтоимостьУслугДляРасчетаСтоимостиДоставкиСрезПоследних.АдресДоставки
+			И ЛогистическиеТипыИКолесныеФормулы.СпособДоставки = Scan_СтоимостьУслугДляРасчетаСтоимостиДоставкиСрезПоследних.СпособДоставки
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ЕСТЬNULL(Scan_СтоимостьУслугДляРасчетаСтоимостиДоставкиСрезПоследних.Услуга, ЗНАЧЕНИЕ(Справочник.Scan_НоменклатураУслуг.ПолисОСАГО)) КАК Услуга,
+	ЕСТЬNULL(Scan_СтоимостьУслугДляРасчетаСтоимостиДоставкиСрезПоследних.СпособДоставки, ЛогистическиеТипыИКолесныеФормулы.СпособДоставки) КАК СпособДоставки,
+	ЕСТЬNULL(Scan_СтоимостьУслугДляРасчетаСтоимостиДоставкиСрезПоследних.Стоимость, 0) КАК Стоимость,
+	ЛогистическиеТипыИКолесныеФормулы.АдресПолучения КАК АдресПолучения,
+	ЛогистическиеТипыИКолесныеФормулы.АдресДоставки КАК АдресДоставки,
+	ЛогистическиеТипыИКолесныеФормулы.ЛогистическийТип КАК ЛогистическийТип,
+	ЛогистическиеТипыИКолесныеФормулы.КолеснаяФормула КАК КолеснаяФормула
+ПОМЕСТИТЬ СтоимостьОСАГО
+ИЗ
+	ЛогистическиеТипыИКолесныеФормулы КАК ЛогистическиеТипыИКолесныеФормулы
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Scan_СтоимостьУслугДляРасчетаСтоимостиДоставки.СрезПоследних(&amp;НаДату, Услуга = ЗНАЧЕНИЕ(Справочник.Scan_НоменклатураУслуг.ПолисОСАГО)) КАК Scan_СтоимостьУслугДляРасчетаСтоимостиДоставкиСрезПоследних
+		ПО ЛогистическиеТипыИКолесныеФормулы.СпособДоставки = Scan_СтоимостьУслугДляРасчетаСтоимостиДоставкиСрезПоследних.СпособДоставки
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ЕСТЬNULL(Scan_СтоимостьУслугДляРасчетаСтоимостиДоставкиСрезПоследних.Услуга, ЗНАЧЕНИЕ(Справочник.Scan_НоменклатураУслуг.ПолучениеТранзитныхНомеров)) КАК Услуга,
+	ЕСТЬNULL(Scan_СтоимостьУслугДляРасчетаСтоимостиДоставкиСрезПоследних.СпособДоставки, ЛогистическиеТипыИКолесныеФормулы.СпособДоставки) КАК СпособДоставки,
+	ЕСТЬNULL(Scan_СтоимостьУслугДляРасчетаСтоимостиДоставкиСрезПоследних.Стоимость, 0) КАК Стоимость,
+	ЛогистическиеТипыИКолесныеФормулы.АдресПолучения КАК АдресПолучения,
+	ЛогистическиеТипыИКолесныеФормулы.АдресДоставки КАК АдресДоставки,
+	ЛогистическиеТипыИКолесныеФормулы.ЛогистическийТип КАК ЛогистическийТип,
+	ЛогистическиеТипыИКолесныеФормулы.КолеснаяФормула КАК КолеснаяФормула
+ПОМЕСТИТЬ СтоимостьТранзитныхНомеров
+ИЗ
+	ЛогистическиеТипыИКолесныеФормулы КАК ЛогистическиеТипыИКолесныеФормулы
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Scan_СтоимостьУслугДляРасчетаСтоимостиДоставки.СрезПоследних(&amp;НаДату, Услуга = ЗНАЧЕНИЕ(Справочник.Scan_НоменклатураУслуг.ПолучениеТранзитныхНомеров)) КАК Scan_СтоимостьУслугДляРасчетаСтоимостиДоставкиСрезПоследних
+		ПО ЛогистическиеТипыИКолесныеФормулы.СпособДоставки = Scan_СтоимостьУслугДляРасчетаСтоимостиДоставкиСрезПоследних.СпособДоставки
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Scan_МатрицаТарифовДляДилеровПоДоставкеИзделийСрезПоследних.УслугаПакета КАК Услуга,
+	Scan_МатрицаТарифовДляДилеровПоДоставкеИзделийСрезПоследних.ЛогистическийТип КАК ЛогистическийТип,
+	Scan_МатрицаТарифовДляДилеровПоДоставкеИзделийСрезПоследних.СпособДоставки КАК СпособДоставки,
+	Scan_МатрицаТарифовДляДилеровПоДоставкеИзделийСрезПоследних.КолеснаяФормула КАК КолеснаяФормула,
+	Scan_МатрицаТарифовДляДилеровПоДоставкеИзделийСрезПоследних.АдресПолучения КАК АдресПолучения,
+	Scan_МатрицаТарифовДляДилеровПоДоставкеИзделийСрезПоследних.АдресДоставки КАК АдресДоставки,
+	Scan_МатрицаТарифовДляДилеровПоДоставкеИзделийСрезПоследних.Стоимость КАК Стоимость,
+	ЛОЖЬ КАК ОсновнаяУслуга
+ПОМЕСТИТЬ ПолнаяЛьготнаяПлатон
+ИЗ
+	РегистрСведений.Scan_МатрицаТарифовДляДилеровПоДоставкеИзделий.СрезПоследних(&amp;НаДату, ) КАК Scan_МатрицаТарифовДляДилеровПоДоставкеИзделийСрезПоследних
+ГДЕ
+	Scan_МатрицаТарифовДляДилеровПоДоставкеИзделийСрезПоследних.УслугаПакета &lt;&gt; ЗНАЧЕНИЕ(Справочник.Scan_НоменклатураУслуг.ПустаяСсылка)
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	СтоимостьПлатона.Услуга,
+	СтоимостьПлатона.ЛогистическийТип,
+	СтоимостьПлатона.СпособДоставки,
+	СтоимостьПлатона.КолеснаяФормула,
+	СтоимостьПлатона.АдресПолучения,
+	СтоимостьПлатона.АдресДоставки,
+	СтоимостьПлатона.Стоимость,
+	ЛОЖЬ
+ИЗ
+	СтоимостьПлатона КАК СтоимостьПлатона
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	СтоимостьОСАГО.Услуга,
+	СтоимостьОСАГО.ЛогистическийТип,
+	СтоимостьОСАГО.СпособДоставки,
+	СтоимостьОСАГО.КолеснаяФормула,
+	СтоимостьОСАГО.АдресПолучения,
+	СтоимостьОСАГО.АдресДоставки,
+	СтоимостьОСАГО.Стоимость,
+	ЛОЖЬ
+ИЗ
+	СтоимостьОСАГО КАК СтоимостьОСАГО
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	СтоимостьТранзитныхНомеров.Услуга,
+	СтоимостьТранзитныхНомеров.ЛогистическийТип,
+	СтоимостьТранзитныхНомеров.СпособДоставки,
+	СтоимостьТранзитныхНомеров.КолеснаяФормула,
+	СтоимостьТранзитныхНомеров.АдресПолучения,
+	СтоимостьТранзитныхНомеров.АдресДоставки,
+	СтоимостьТранзитныхНомеров.Стоимость,
+	ЛОЖЬ
+ИЗ
+	СтоимостьТранзитныхНомеров КАК СтоимостьТранзитныхНомеров
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Scan_СтоимостьУслугДляРасчетаСтоимостиДоставкиСрезПоследних.Услуга КАК Услуга,
+	ВЫБОР
+		КОГДА Scan_СтоимостьУслугДляРасчетаСтоимостиДоставкиСрезПоследних.ОсновнаяУслуга
+			// rarus tenkam 24.12.2018 mantis 13896 +++
+			//ТОГДА Scan_СтоимостьУслугДляРасчетаСтоимостиДоставкиСрезПоследних.Стоимость * 1.18
+			ТОГДА Scan_СтоимостьУслугДляРасчетаСтоимостиДоставкиСрезПоследних.Стоимость * (1 + Scan_СтавкиНДС.Ставка/100)
+			// rarus tenkam 24.12.2018 mantis 13896 ---
+		ИНАЧЕ Scan_СтоимостьУслугДляРасчетаСтоимостиДоставкиСрезПоследних.Стоимость
+	КОНЕЦ КАК Стоимость,
+	ЛогистическиеТипыИКолесныеФормулы.ЛогистическийТип КАК ЛогистическийТип,
+	ЛогистическиеТипыИКолесныеФормулы.СпособДоставки КАК СпособДоставки,
+	ЛогистическиеТипыИКолесныеФормулы.КолеснаяФормула КАК КолеснаяФормула,
+	ЛогистическиеТипыИКолесныеФормулы.АдресПолучения КАК АдресПолучения,
+	ЛогистическиеТипыИКолесныеФормулы.АдресДоставки КАК АдресДоставки,
+	Scan_СтоимостьУслугДляРасчетаСтоимостиДоставкиСрезПоследних.ОсновнаяУслуга КАК ОсновнаяУслуга
+ПОМЕСТИТЬ ОснИДопУслуги
+ИЗ
+	РегистрСведений.Scan_СтоимостьУслугДляРасчетаСтоимостиДоставки.СрезПоследних(
+			&amp;НаДату,
+			Услуга &lt;&gt; ЗНАЧЕНИЕ(Справочник.Scan_НоменклатураУслуг.УслугаПлатон)
+				И Услуга &lt;&gt; ЗНАЧЕНИЕ(Справочник.Scan_НоменклатураУслуг.ПолисОСАГО)) КАК Scan_СтоимостьУслугДляРасчетаСтоимостиДоставкиСрезПоследних,
+	ЛогистическиеТипыИКолесныеФормулы КАК ЛогистическиеТипыИКолесныеФормулы,
+	Справочник.Scan_СтавкиНДС КАК Scan_СтавкиНДС
+ГДЕ
+	Scan_СтавкиНДС.Ссылка = ЗНАЧЕНИЕ(Справочник.Scan_СтавкиНДС.ОсновнаяСтавкаНДС)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ПолнаяЛьготнаяПлатон.Услуга КАК Услуга,
+	ПолнаяЛьготнаяПлатон.ЛогистическийТип КАК ЛогистическийТип,
+	ПолнаяЛьготнаяПлатон.СпособДоставки КАК СпособДоставки,
+	ПолнаяЛьготнаяПлатон.КолеснаяФормула КАК КолеснаяФормула,
+	ПолнаяЛьготнаяПлатон.АдресПолучения КАК АдресПолучения,
+	ПолнаяЛьготнаяПлатон.АдресДоставки КАК АдресДоставки,
+	ПолнаяЛьготнаяПлатон.Стоимость КАК Стоимость,
+	ПолнаяЛьготнаяПлатон.ОсновнаяУслуга КАК ОсновнаяУслуга
+ПОМЕСТИТЬ ВсеУслуги
+ИЗ
+	ПолнаяЛьготнаяПлатон КАК ПолнаяЛьготнаяПлатон
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ОснИДопУслуги.Услуга,
+	ОснИДопУслуги.ЛогистическийТип,
+	ОснИДопУслуги.СпособДоставки,
+	ОснИДопУслуги.КолеснаяФормула,
+	ОснИДопУслуги.АдресПолучения,
+	ОснИДопУслуги.АдресДоставки,
+	ОснИДопУслуги.Стоимость,
+	ОснИДопУслуги.ОсновнаяУслуга
+ИЗ
+	ОснИДопУслуги КАК ОснИДопУслуги
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВсеУслуги.Услуга КАК Услуга,
+	ВсеУслуги.ЛогистическийТип КАК ЛогистическийТип,
+	ВсеУслуги.СпособДоставки КАК СпособДоставки,
+	ВсеУслуги.КолеснаяФормула КАК КолеснаяФормула,
+	ВсеУслуги.АдресПолучения КАК АдресПолучения,
+	ВсеУслуги.АдресДоставки КАК АдресДоставки,
+	ВсеУслуги.Стоимость КАК Стоимость,
+	ВсеУслуги.ОсновнаяУслуга КАК ОсновнаяУслуга
+{ВЫБРАТЬ
+	Услуга.*,
+	ЛогистическийТип.*,
+	СпособДоставки.*,
+	КолеснаяФормула.*,
+	АдресПолучения.*,
+	АдресДоставки.*,
+	Стоимость,
+	ОсновнаяУслуга}
+ИЗ
+	ВсеУслуги КАК ВсеУслуги
+{ГДЕ
+	ВсеУслуги.Услуга.*,
+	ВсеУслуги.ЛогистическийТип.*,
+	ВсеУслуги.СпособДоставки.*,
+	ВсеУслуги.КолеснаяФормула.*,
+	ВсеУслуги.АдресПолучения.*,
+	ВсеУслуги.АдресДоставки.*,
+	ВсеУслуги.Стоимость,
+	ВсеУслуги.ОсновнаяУслуга}</query>
+		<autoFillFields>false</autoFillFields>
+	</dataSet>
+	<totalField>
+		<dataPath>Стоимость</dataPath>
+		<expression>Стоимость</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ОсновнаяУслуга</dataPath>
+		<expression>ОсновнаяУслуга</expression>
+	</totalField>
+	<parameter>
+		<name>НаДату</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Date</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>АдресПолучения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>АдресДоставки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КолеснаяФормула</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЛогистическийТип</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СпособДоставки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СпособДоставки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Стоимость</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>Услуга</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">АдресПолучения</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>39b7e2b6-fde7-452a-bcc4-03b54ea4ab37</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">АдресДоставки</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>98fc8f5a-e23c-4bf9-a96f-7b6cdd279634</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">КолеснаяФормула</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>434c1768-4c3e-453a-8ee7-0330f44203b6</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ЛогистическийТип</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>9dda44e4-c208-4e0b-87be-324ec239ab0e</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">СпособДоставки</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>cd16f76a-47bc-4ba3-aec6-f0b62e999525</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>НаДату</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcsset:userSettingID>1a3a1f49-260d-4611-8836-cb93309d129c</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>Стоимость</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemGroup">
+							<dcsset:groupType>OrGroup</dcsset:groupType>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">Услуга</dcsset:left>
+								<dcsset:comparisonType>InList</dcsset:comparisonType>
+								<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.Scan_НоменклатураУслуг.ДоставкаЛьготная</dcsset:right>
+								<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.Scan_НоменклатураУслуг.ДоставкаПолная</dcsset:right>
+								<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.Scan_НоменклатураУслуг.ДоставкаЛьготнаяПоСкидке</dcsset:right>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ОсновнаяУслуга</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+							</dcsset:item>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Текст</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>(с НДС)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>(с НДС)</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+					<dcsset:useInGroup>DontUse</dcsset:useInGroup>
+					<dcsset:useInHierarchicalGroup>DontUse</dcsset:useInHierarchicalGroup>
+					<dcsset:useInOverall>DontUse</dcsset:useInOverall>
+					<dcsset:useInParameters>DontUse</dcsset:useInParameters>
+					<dcsset:useInFilter>DontUse</dcsset:useInFilter>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Зеленый</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>РасположениеИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">Auto</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>РасположениеРеквизитов</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionAttributesPlacement">Together</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemTable">
+				<dcsset:column>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Услуга</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:column>
+				<dcsset:row>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>АдресПолучения</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>АдресДоставки</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>КолеснаяФормула</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>СпособДоставки</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ЛогистическийТип</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:row>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

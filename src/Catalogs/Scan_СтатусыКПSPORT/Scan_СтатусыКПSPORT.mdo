@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40d12852-0d4f-4fbe-bf2f-501a43df51d5">
+  <producedTypes>
+    <objectType typeId="5cf1e374-4a8a-4e00-8500-ab75e47cef36" valueTypeId="932ae8f2-333a-4de0-8b82-12cab945da46"/>
+    <refType typeId="d4236406-4dba-4752-8996-614fdb8c9b10" valueTypeId="d1c40904-5081-4f3a-99be-0e483afda1cb"/>
+    <selectionType typeId="47f3f81f-e4ce-4980-a31f-045ae092df91" valueTypeId="d78862f6-a4e2-421d-b0a8-f6b2695152a7"/>
+    <listType typeId="aaeced48-d584-43cf-90ab-52d29654c51c" valueTypeId="d809fb69-91d8-40d3-961b-86609e525e4b"/>
+    <managerType typeId="d8298410-4454-4296-86bd-acf8a3607eeb" valueTypeId="67743da9-dcb9-4d93-9e32-e3855b534b2b"/>
+  </producedTypes>
+  <name>Scan_СтатусыКПSPORT</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы КП SPORT (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_СтатусыКПSPORT.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_СтатусыКПSPORT.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_СтатусыКПSPORT.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_СтатусыКПSPORT.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="5f5a8e9c-9708-495a-b599-1ad394555a2e">
+    <name>IDExternalSystem</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID external system</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9da60a57-9fa7-4a25-8f54-289914bf789f">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of renewal</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="84484032-8ba2-4248-8820-1d09cd4ff06a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2437b286-749e-40a5-be4c-1538e601e4e8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

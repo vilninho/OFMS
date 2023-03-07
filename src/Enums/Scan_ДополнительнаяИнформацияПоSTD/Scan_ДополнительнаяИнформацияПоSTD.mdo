@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20829515-4416-46b9-8119-9838769f751b">
+  <producedTypes>
+    <refType typeId="749fccd3-824c-4297-b546-e5d1cd7b69d5" valueTypeId="019201d6-8928-44cb-b188-0bea1545d099"/>
+    <listType typeId="307b2d2f-fede-4a5d-baff-75b525000603" valueTypeId="7da3d193-e3da-4568-87ed-5e271bab8671"/>
+    <managerType typeId="8afdfe98-712f-4395-bbad-4e8b7c99f369" valueTypeId="774180a5-618a-41fc-9c63-358c2cb3b872"/>
+  </producedTypes>
+  <name>Scan_ДополнительнаяИнформацияПоSTD</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительная информация по спецификациям стандартных моделей (scania)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="490f90f1-490e-453c-94fb-d20f3db1a8e9">
+    <name>ДействуетСДаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует с даты</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>From date</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="833c6e2a-66e7-45c5-8ec0-4b9e31eaf811">
+    <name>ДействуетСPP</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует с Part Period</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>From Part Period</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eef1b983-7b0a-4cdb-bbee-6d0c3809ae4a">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Base document</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9da948a0-30d1-486c-be8b-22e3da89de5d">
+    <name>НомерСпецификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер спецификации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Specification number</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4ca47d2a-af94-4a7c-ac37-68252cbc19e8">
+    <name>ОписаниеСпецификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание спецификации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Specification description</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0e504d84-a1f2-4c30-9e4b-7801fe2de226">
+    <name>ИспользуетсяВРазделеКалькуляции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел калькуляции</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Calculation section</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="05efcade-958c-4296-8e4a-125b7bd9f59e">
+    <name>ПоставщикНадстроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик надстроек</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Body builder</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d839fb45-8749-46be-be3e-82382cd466e8">
+    <name>ПоставщикОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик оборудования</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Supplier of equipment</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5395b46b-f137-4a5c-b90c-736e77f5ac22">
+    <name>ИспользуетсяВКалькуляции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется в калькуляции</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Used in calculation</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2384cffb-912a-44ae-a7cc-c53733be438c">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Status</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="67f61695-1378-4b38-96bd-ac7201f9caba">
+    <name>Сторнирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сторнирован</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Reversed</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="28debd5a-4b62-4f72-b79e-37a849d055d3">
+    <name>SOrder</name>
+    <synonym>
+      <key>ru</key>
+      <value>S-Order</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>S-Order</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0b07b4a4-cdfd-4a9a-92bf-1dee1d0be158">
+    <name>FFU</name>
+    <synonym>
+      <key>ru</key>
+      <value>FFU</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>FFU</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6cd4a180-2e4c-45c0-aa83-6be3262115b6">
+    <name>Модель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cc95711b-9162-49d1-86ae-d2417aafbb45">
+    <name>ПричинаАннулирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина аннулирования</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f7353422-a5d5-4b4d-82e9-63ae9f44ff2d">
+    <name>ПлановаяСебестоимостьСНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плановая себестоимость с НДС</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core">
+	<filter>
+		<item xsi:type="FilterItemComparison">
+			<left xsi:type="dcscor:Field">Дилер</left>
+			<comparisonType>InList</comparisonType>
+			<right xsi:type="v8:ValueListType">
+				<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+			</right>
+			<userSettingID>75ad5421-45ea-470b-b756-101600bc8112</userSettingID>
+			<userSettingPresentation xsi:type="xs:string">Дилер</userSettingPresentation>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">СтатусОплаты</left>
+			<comparisonType>Equal</comparisonType>
+			<userSettingID>9f224444-f76f-43ff-aed4-4d09440e6249</userSettingID>
+			<userSettingPresentation xsi:type="xs:string">Статус оплаты</userSettingPresentation>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">Статус</left>
+			<comparisonType>Equal</comparisonType>
+			<userSettingID>50bef942-156a-4983-b7cf-64934814687b</userSettingID>
+			<userSettingPresentation xsi:type="xs:string">Статус</userSettingPresentation>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<left xsi:type="dcscor:Field">Статус</left>
+			<comparisonType>NotEqual</comparisonType>
+			<right xsi:type="dcscor:DesignTimeValue">Справочник.Scan_СтатусыСоглашенийОПоставкеИСпециальныхУсловий.НеактуальноЕстьДС</right>
+			<userSettingID>7f875c9e-005e-4327-8c1c-85b6c4cb4ef2</userSettingID>
+			<userSettingPresentation xsi:type="xs:string">Статус</userSettingPresentation>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<left xsi:type="dcscor:Field">ЗаявкаНаБУПродукты</left>
+			<comparisonType>Equal</comparisonType>
+			<right xsi:type="xs:boolean">false</right>
+			<userSettingID>80d3636c-d42b-4e49-979e-e27b8510616d</userSettingID>
+			<userSettingPresentation xsi:type="xs:string">Заявка на Б/У продукты</userSettingPresentation>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">УникальностьСпецификации</left>
+			<comparisonType>Equal</comparisonType>
+			<userSettingID>95a72019-0632-429c-b7e2-245b757ab29d</userSettingID>
+			<userSettingPresentation xsi:type="xs:string">Тип спецификации</userSettingPresentation>
+		</item>
+		<viewMode>Normal</viewMode>
+		<userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</userSettingID>
+	</filter>
+	<order>
+		<item xsi:type="OrderItemField">
+			<field>ДоговорСОП</field>
+			<orderType>Asc</orderType>
+		</item>
+		<viewMode>Normal</viewMode>
+		<userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</userSettingID>
+	</order>
+	<conditionalAppearance>
+		<item>
+			<selection>
+				<item>
+					<field>СтатусОплаты</field>
+				</item>
+				<item>
+					<field>ДоговорСОП</field>
+				</item>
+			</selection>
+			<filter>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">СтатусОплаты</left>
+					<comparisonType>InList</comparisonType>
+					<right xsi:type="dcscor:DesignTimeValue">Перечисление.Scan_СтатусыОплатПоСОП.Оплачено</right>
+					<right xsi:type="dcscor:DesignTimeValue">Перечисление.Scan_СтатусыОплатПоСОП.ПредоплатаПолученаСоответствуетГрафику</right>
+					<right xsi:type="dcscor:DesignTimeValue">Перечисление.Scan_СтатусыОплатПоСОП.ПредоплатаВнесенаПолностью</right>
+					<right xsi:type="dcscor:DesignTimeValue">Перечисление.Scan_СтатусыОплатПоСОП.ПредоплатаНеТребуется</right>
+					<right xsi:type="dcscor:DesignTimeValue">Перечисление.Scan_СтатусыОплатПоСОП.ОплаченоПолностью</right>
+					<right xsi:type="dcscor:DesignTimeValue">Перечисление.Scan_СтатусыОплатПоСОП.НеТребуется</right>
+				</item>
+			</filter>
+			<appearance>
+				<dcscor:item xsi:type="SettingsParameterValue">
+					<dcscor:parameter>ЦветФона</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:Color">#C8FFC8</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ЦветТекста</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:Color">#C8FFC8</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</item>
+		<item>
+			<selection>
+				<item>
+					<field>СтатусОплаты</field>
+				</item>
+				<item>
+					<field>ДоговорСОП</field>
+				</item>
+			</selection>
+			<filter>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">СтатусОплаты</left>
+					<comparisonType>InList</comparisonType>
+					<right xsi:type="dcscor:DesignTimeValue">Перечисление.Scan_СтатусыОплатПоСОП.ОплаченоЧастично</right>
+					<right xsi:type="dcscor:DesignTimeValue">Перечисление.Scan_СтатусыОплатПоСОП.ПредоплатаПолученаНесоответствуетГрафику</right>
+				</item>
+			</filter>
+			<appearance>
+				<dcscor:item xsi:type="SettingsParameterValue">
+					<dcscor:parameter>ЦветФона</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:Color">#FFFF99</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ЦветТекста</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:Color">#FFFF99</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</item>
+		<item>
+			<selection>
+				<item>
+					<field>СтатусОплаты</field>
+				</item>
+				<item>
+					<field>ДоговорСОП</field>
+				</item>
+			</selection>
+			<filter>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">СтатусОплаты</left>
+					<comparisonType>InList</comparisonType>
+					<right xsi:type="dcscor:DesignTimeValue">Перечисление.Scan_СтатусыОплатПоСОП.НеОплачено</right>
+					<right xsi:type="dcscor:DesignTimeValue">Перечисление.Scan_СтатусыОплатПоСОП.ПредоплатаОтсутствует</right>
+				</item>
+			</filter>
+			<appearance>
+				<dcscor:item xsi:type="SettingsParameterValue">
+					<dcscor:parameter>ЦветФона</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:Color">style:SpecialTextColor</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ЦветТекста</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:Color">style:SpecialTextColor</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</item>
+		<viewMode>Normal</viewMode>
+		<userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</userSettingID>
+	</conditionalAppearance>
+	<itemsViewMode>Normal</itemsViewMode>
+	<itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</itemsUserSettingID>
+</Settings>

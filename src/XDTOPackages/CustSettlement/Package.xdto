@@ -1,0 +1,44 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.scania.org/webservice/SRUService/CustSettlement" elementFormQualified="false" attributeFormQualified="false">
+	<property name="Contract">
+		<typeDef xsi:type="ObjectType">
+			<property name="ContractAccount" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/CustSettlement" ref="d4p1:Invoice" lowerBound="0" upperBound="-1"/>
+		</typeDef>
+	</property>
+	<property name="CustSettlement">
+		<typeDef xsi:type="ObjectType">
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/CustSettlement" ref="d4p1:Customer" lowerBound="0" upperBound="-1"/>
+		</typeDef>
+	</property>
+	<property name="Customer">
+		<typeDef xsi:type="ObjectType">
+			<property name="DATAAREAID" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property name="CustomerAccount" type="xs:string" lowerBound="1" form="Attribute"/>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/CustSettlement" ref="d4p1:Contract" upperBound="-1"/>
+		</typeDef>
+	</property>
+	<property name="Invoice">
+		<typeDef xsi:type="ObjectType">
+			<property name="InvoiceID" type="xs:int" lowerBound="1" form="Attribute"/>
+			<property name="InvoiceDate" type="xs:dateTime" lowerBound="1" form="Attribute"/>
+			<property name="FactureNum" type="xs:int" lowerBound="1" form="Attribute"/>
+			<property name="FactureDate" type="xs:dateTime" lowerBound="1" form="Attribute"/>
+			<property xmlns:d4p1="http://www.scania.org/webservice/SRUService/CustSettlement" ref="d4p1:Payment" lowerBound="0" upperBound="-1"/>
+		</typeDef>
+	</property>
+	<property name="Payment">
+		<typeDef xsi:type="ObjectType">
+			<property name="SettleAmountCur" type="xs:decimal" lowerBound="1" form="Attribute"/>
+			<property name="PaymDocNum" type="xs:short" lowerBound="1" form="Attribute"/>
+			<property name="PaymDate" type="xs:dateTime" lowerBound="1" form="Attribute"/>
+			<property name="CurrencyCode" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+			</property>
+			<property name="Cancelled" type="xs:byte" lowerBound="1" form="Attribute"/>
+		</typeDef>
+	</property>
+</package>

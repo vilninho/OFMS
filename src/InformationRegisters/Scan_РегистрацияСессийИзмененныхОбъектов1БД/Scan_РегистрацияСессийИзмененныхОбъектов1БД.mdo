@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e6dca32-3045-4a0a-9b9e-2ed049e8fd58">
+  <producedTypes>
+    <selectionType typeId="0062b3af-3518-4a69-ab33-7e4aa2d46685" valueTypeId="67925b08-e44b-47c6-abce-72f4cf705426"/>
+    <listType typeId="e00b76c5-5855-46ce-b4e0-03127e887b49" valueTypeId="98eb486b-183c-48fe-b11c-f6ad04bbbd02"/>
+    <managerType typeId="4fb630b7-a25f-464a-92a3-1ec18400989f" valueTypeId="b5f0a4e8-e75b-42e3-813c-a82e5b9bb04a"/>
+    <recordSetType typeId="ad376194-5434-4adb-8141-058225822f65" valueTypeId="261734a3-c6e0-4147-8e03-871a537cee40"/>
+    <recordKeyType typeId="04554f15-24ec-4c83-bff3-873ec607063c" valueTypeId="0ed971d5-b10e-4c8a-a4cf-3a7bc03c368a"/>
+    <recordType typeId="18da3247-90c8-42c2-a43e-15aa0a128e04" valueTypeId="ae457778-7841-4634-b665-ada96eb72986"/>
+    <recordManagerType typeId="16887527-ed2e-48a6-a213-cbba1c214f3b" valueTypeId="c27ac43f-6135-456d-834f-62f45690cf4f"/>
+  </producedTypes>
+  <name>Scan_РегистрацияСессийИзмененныхОбъектов1БД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация сессий измененных объектов 1БД (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Registering sessions of modified 1DB objects (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_РегистрацияСессийИзмененныхОбъектов1БД.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_РегистрацияСессийИзмененныхОбъектов1БД.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f7375afb-1ff2-4455-8c19-f353910dec1d">
+    <name>UpdateSubjectGUID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Update subject GUID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value>                                    </value>
+    </fillValue>
+  </resources>
+  <resources uuid="c40727f9-a942-4a41-93d9-2f89e6f34fe9">
+    <name>UpdateSubject</name>
+    <synonym>
+      <key>ru</key>
+      <value>Update subject</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Scan_ТипыИзмененныхОбъектов1БД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="0232d733-bac7-46a6-946f-47d650281000">
+    <name>SessionStartDate</name>
+    <synonym>
+      <key>ru</key>
+      <value>Session start date</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f15640af-9d25-4a4a-baff-6ea994165d48">
+    <name>SessionAuthor</name>
+    <synonym>
+      <key>ru</key>
+      <value>Session author</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cd78c756-c5cd-4a00-9919-d05d75b7c2ce">
+    <name>SessionSize</name>
+    <synonym>
+      <key>ru</key>
+      <value>Session size</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c4af84d4-a99c-4fae-9a85-6140c9f33ddc">
+    <name>PacketSize</name>
+    <synonym>
+      <key>ru</key>
+      <value>Packet size</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="ce1765e1-c892-4ee8-88ce-c48e2677dd86">
+    <name>SessionGUID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Session GUID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value>                                    </value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="49fb9358-f179-46ec-bb79-a64b3c60e3cf">
+    <name>ТипСессии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип сессии</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Type of session</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Scan_ТипыСессии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a1bd9b2b-6e4f-44d7-8b72-4803a3bbfb48">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="92b659f9-c8fd-4700-9de5-b44e0817c60e">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

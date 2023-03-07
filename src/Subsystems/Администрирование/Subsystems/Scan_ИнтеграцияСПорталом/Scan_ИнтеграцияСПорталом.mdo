@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0126bb21-865d-42a8-bc53-264fb1a5fa2b">
+  <name>Scan_ИнтеграцияСПорталом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с порталом</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.Scan_РегистрацияОбменаСПорталом</content>
+  <content>InformationRegister.Scan_ПараметрыСессийПользователейПортала</content>
+  <content>ScheduledJob.Scan_ОбновлениеПаролейПользователейПортала</content>
+  <content>ScheduledJob.Scan_ПроверкаСессииПользователяПортала</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

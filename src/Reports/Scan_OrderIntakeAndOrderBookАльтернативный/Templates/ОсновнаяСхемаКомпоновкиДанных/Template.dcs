@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Отгрузки</dataPath>
+			<field>Отгрузки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отгрузки</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Компания</dataPath>
+			<field>Компания</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Контрагент</dataPath>
+			<field>Контрагент</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидВзаимодействия</dataPath>
+			<field>ВидВзаимодействия</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаказНаЗавод</dataPath>
+			<field>ЗаказНаЗавод</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дилер</dataPath>
+			<field>Дилер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>OrderIntake</dataPath>
+			<field>OrderIntake</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Order intake</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>OrderBook</dataPath>
+			<field>OrderBook</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Order book</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Менеджер</dataPath>
+			<field>Менеджер</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Manager</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КодДилера</dataPath>
+			<field>КодДилера</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Dealer code</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидДилера</dataPath>
+			<field>ВидДилера</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Dealer type</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Клиент</dataPath>
+			<field>Клиент</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Клиент</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Изделие</dataPath>
+			<field>Изделие</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продукт</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НаименованиеДилера</dataPath>
+			<field>НаименованиеДилера</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Наименование дилера</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Реквизит</dataPath>
+			<field>Реквизит</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Заказ</dataPath>
+			<field>Заказ</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	Scan_OrderIntake.Период КАК Период,
+	Scan_OrderIntake.ЗаказНаЗавод КАК ЗаказНаЗавод,
+	1 КАК OrderBook,
+	NULL КАК OrderIntake,
+	NULL КАК Отгрузки
+ПОМЕСТИТЬ ВТ_База
+ИЗ
+	РегистрСведений.Scan_OrderIntakeАльтернативный КАК Scan_OrderIntake
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Scan_OrderIntakeАльтернативный КАК Scan_OrderIntake1
+		ПО Scan_OrderIntake.ЗаказНаЗавод = Scan_OrderIntake1.ЗаказНаЗавод
+			И (Scan_OrderIntake1.ВидДаты = &amp;ДатаОтгрузки)
+			И (Scan_OrderIntake1.Период &lt; &amp;ДатаОкончания)
+			И (Scan_OrderIntake1.ИспользоватьВОтчетах)
+ГДЕ
+	Scan_OrderIntake.Период &lt; &amp;ДатаОкончания
+	И Scan_OrderIntake.ВидДаты = &amp;ДатаOrderIntake
+	И Scan_OrderIntake1.ВидДаты ЕСТЬ NULL
+	И Scan_OrderIntake.ИспользоватьВОтчетах
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	Scan_OrderIntake.Период,
+	Scan_OrderIntake.ЗаказНаЗавод,
+	NULL,
+	ВЫБОР
+		КОГДА Scan_OrderIntake.ВидДаты = &amp;ДатаOrderIntake
+			ТОГДА 1
+		ИНАЧЕ -1
+	КОНЕЦ,
+	NULL
+ИЗ
+	РегистрСведений.Scan_OrderIntakeАльтернативный КАК Scan_OrderIntake
+ГДЕ
+	Scan_OrderIntake.Период &gt;= &amp;ДатаНачала
+	И Scan_OrderIntake.Период &lt;= &amp;ДатаОкончания
+	И (Scan_OrderIntake.ВидДаты = &amp;ДатаOrderIntake
+			ИЛИ Scan_OrderIntake.ВидДаты = &amp;Cancellation)
+	И Scan_OrderIntake.ИспользоватьВОтчетах
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	Scan_OrderIntake.Период,
+	Scan_OrderIntake.ЗаказНаЗавод,
+	NULL,
+	NULL,
+	1
+ИЗ
+	РегистрСведений.Scan_OrderIntakeАльтернативный КАК Scan_OrderIntake
+ГДЕ
+	Scan_OrderIntake.Период &gt;= &amp;ДатаНачала
+	И Scan_OrderIntake.Период &lt;= &amp;ДатаОкончания
+	И Scan_OrderIntake.ВидДаты = &amp;ДатаОтгрузки
+	И Scan_OrderIntake.ИспользоватьВОтчетах
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	Scan_OrderIntake.Период,
+	Scan_OrderIntake.ЗаказНаЗавод,
+	NULL,
+	NULL,
+	-1
+ИЗ
+	РегистрСведений.Scan_OrderIntakeАльтернативный КАК Scan_OrderIntake
+ГДЕ
+	Scan_OrderIntake.Период &gt;= &amp;ДатаНачала
+	И Scan_OrderIntake.Период &lt;= &amp;ДатаОкончания
+	И Scan_OrderIntake.ВидДаты = &amp;ОтменаОтгрузки
+	И Scan_OrderIntake.ИспользоватьВОтчетах
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_База.ЗаказНаЗавод КАК ЗаказНаЗавод,
+	СУММА(ВТ_База.OrderBook) КАК OrderBook,
+	СУММА(ВТ_База.OrderIntake) КАК OrderIntake,
+	СУММА(ВТ_База.Отгрузки) КАК Отгрузки
+ПОМЕСТИТЬ ВТ_Показатели
+ИЗ
+	ВТ_База КАК ВТ_База
+
+СГРУППИРОВАТЬ ПО
+	ВТ_База.ЗаказНаЗавод
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_Показатели.ЗаказНаЗавод КАК ЗаказНаЗавод,
+	ВТ_Показатели.ЗаказНаЗавод.Заказчик КАК Заказчик,
+	МАКСИМУМ(Scan_ВзаимосвязьКомпанийСКонтрагентамиСрезПоследних.Период) КАК Период
+ПОМЕСТИТЬ ВТ_ДилерМаксимумДата
+ИЗ
+	ВТ_Показатели КАК ВТ_Показатели
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Scan_ВзаимосвязьКомпанийСКонтрагентами.СрезПоследних(
+				&amp;ДатаОкончания {(&amp;ДатаОкончания)},
+				ВидВзаимодействия В
+					(ВЫБРАТЬ
+						Константы.Scan_ВидСвязиДилер
+					ИЗ
+						Константы КАК Константы)) КАК Scan_ВзаимосвязьКомпанийСКонтрагентамиСрезПоследних
+		ПО ВТ_Показатели.ЗаказНаЗавод.Заказчик = Scan_ВзаимосвязьКомпанийСКонтрагентамиСрезПоследних.Контрагент
+
+СГРУППИРОВАТЬ ПО
+	ВТ_Показатели.ЗаказНаЗавод,
+	ВТ_Показатели.ЗаказНаЗавод.Заказчик
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_ДилерМаксимумДата.ЗаказНаЗавод КАК ЗаказНаЗавод,
+	ВТ_ДилерМаксимумДата.Заказчик КАК Заказчик,
+	ВТ_ДилерМаксимумДата.Период КАК Период,
+	ЕСТЬNULL(Scan_ВзаимосвязьКомпанийСКонтрагентамиСрезПоследних.Компания, ЗНАЧЕНИЕ(Справочник.Scan_Компании.ПустаяСсылка)) КАК Компания
+ПОМЕСТИТЬ ВТ_ВзаимосвязьКонтрагентДилер
+ИЗ
+	ВТ_ДилерМаксимумДата КАК ВТ_ДилерМаксимумДата
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Scan_ВзаимосвязьКомпанийСКонтрагентами.СрезПоследних(
+				&amp;ДатаОкончания {(&amp;ДатаОкончания)},
+				ВидВзаимодействия В
+					(ВЫБРАТЬ
+						Константы.Scan_ВидСвязиДилер
+					ИЗ
+						Константы КАК Константы)) КАК Scan_ВзаимосвязьКомпанийСКонтрагентамиСрезПоследних
+		ПО ВТ_ДилерМаксимумДата.Заказчик = Scan_ВзаимосвязьКомпанийСКонтрагентамиСрезПоследних.Контрагент
+			И ВТ_ДилерМаксимумДата.Период = Scan_ВзаимосвязьКомпанийСКонтрагентамиСрезПоследних.Период
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_Показатели.ЗаказНаЗавод КАК ЗаказНаЗавод,
+	ВТ_Показатели.OrderBook КАК OrderBook,
+	ВТ_Показатели.OrderIntake КАК OrderIntake,
+	ВТ_Показатели.Отгрузки КАК Отгрузки,
+	ВТ_ВзаимосвязьКонтрагентДилер.Компания КАК Дилер
+ПОМЕСТИТЬ ВТ_Дилер
+ИЗ
+	ВТ_Показатели КАК ВТ_Показатели
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_ВзаимосвязьКонтрагентДилер КАК ВТ_ВзаимосвязьКонтрагентДилер
+		ПО (ВТ_ВзаимосвязьКонтрагентДилер.ЗаказНаЗавод = ВТ_Показатели.ЗаказНаЗавод)
+ГДЕ
+	(ВТ_Показатели.OrderBook &gt; 0
+			ИЛИ ВТ_Показатели.OrderIntake &gt; 0
+			ИЛИ ВТ_Показатели.Отгрузки &gt; 0)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_Дилер.ЗаказНаЗавод КАК ЗаказНаЗавод,
+	ВЫБОР
+		КОГДА ВТ_Дилер.OrderBook &gt; 0
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК OrderBook,
+	ВЫБОР
+		КОГДА ВТ_Дилер.OrderIntake &gt; 0
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК OrderIntake,
+	ВЫБОР
+		КОГДА ВТ_Дилер.Отгрузки &gt; 0
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК Отгрузки,
+	ВЫБОР
+		КОГДА Scan_ЗакреплениеМенеджеровЗаЗаказамиНаЗаводСрезПоследних.Менеджер ЕСТЬ NULL
+			ТОГДА ЕСТЬNULL(Scan_ЗакреплениеМенеджеровЗаДилерамиСрезПоследних.Менеджер, ЗНАЧЕНИЕ(Справочник.Scan_Сотрудники.ПустаяССылка))
+		ИНАЧЕ Scan_ЗакреплениеМенеджеровЗаЗаказамиНаЗаводСрезПоследних.Менеджер
+	КОНЕЦ КАК Менеджер,
+	ВЫБОР
+		КОГДА Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке = ЗНАЧЕНИЕ(Справочник.Scan_СоглашенияОПоставке.ПустаяСсылка)
+				ИЛИ Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке ЕСТЬ NULL
+			ТОГДА ВТ_Дилер.Дилер
+		ИНАЧЕ Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке.Дилер
+	КОНЕЦ КАК Дилер,
+	ВЫБОР
+		КОГДА Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке = ЗНАЧЕНИЕ(Справочник.Scan_СоглашенияОПоставке.ПустаяСсылка)
+				ИЛИ Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке ЕСТЬ NULL
+			ТОГДА ВТ_Дилер.Дилер.КодДилераSOWA
+		ИНАЧЕ Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке.Дилер.КодДилераSOWA
+	КОНЕЦ КАК КодДилера,
+	ВЫБОР
+		КОГДА Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке = ЗНАЧЕНИЕ(Справочник.Scan_СоглашенияОПоставке.ПустаяСсылка)
+				ИЛИ Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке ЕСТЬ NULL
+			ТОГДА ВЫБОР
+					КОГДА ВТ_Дилер.Дилер.НаименованиеАнглийское = ""
+						ТОГДА ВТ_Дилер.Дилер.Наименование
+					ИНАЧЕ ВТ_Дилер.Дилер.НаименованиеАнглийское
+				КОНЕЦ
+		ИНАЧЕ ВЫБОР
+				КОГДА Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке.Дилер.НаименованиеАнглийское = ""
+					ТОГДА Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке.Дилер.Наименование
+				ИНАЧЕ Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке.Дилер.НаименованиеАнглийское
+			КОНЕЦ
+	КОНЕЦ КАК НаименованиеДилера,
+	ВЫБОР
+		КОГДА Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке = ЗНАЧЕНИЕ(Справочник.Scan_СоглашенияОПоставке.ПустаяСсылка)
+				ИЛИ Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке ЕСТЬ NULL
+			ТОГДА ЕСТЬNULL(ВТ_Дилер.Дилер.ВидДилера, ЗНАЧЕНИЕ(Перечисление.Scan_ВидыДилеров.ПустаяСсылка))
+		ИНАЧЕ ЕСТЬNULL(Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке.Дилер.ВидДилера, ЗНАЧЕНИЕ(Перечисление.Scan_ВидыДилеров.ПустаяСсылка))
+	КОНЕЦ КАК ВидДилера,
+	Scan_Изделия.Ссылка КАК Изделие,
+	ВЫБОР
+		КОГДА Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке = ЗНАЧЕНИЕ(Справочник.Scan_СоглашенияОПоставке.ПустаяСсылка)
+				ИЛИ Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке ЕСТЬ NULL
+			ТОГДА Scan_ХарактеристикиЗаказовНаЗаводСрезПоследних.Значение
+		ИНАЧЕ Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке.КонечныйКлиент
+	КОНЕЦ КАК Клиент
+ИЗ
+	ВТ_Дилер КАК ВТ_Дилер
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Scan_Изделия КАК Scan_Изделия
+			ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Scan_СоставСоглашенийОПоставке.СрезПоследних(&amp;ДатаОкончания {(&amp;ДатаОкончания)}, ) КАК Scan_СоставСоглашенийОПоставкеСрезПоследних
+			ПО Scan_Изделия.Ссылка = Scan_СоставСоглашенийОПоставкеСрезПоследних.Изделие
+		ПО ВТ_Дилер.ЗаказНаЗавод = Scan_Изделия.ЗаказНаЗавод
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Scan_ХарактеристикиЗаказовНаЗавод.СрезПоследних(
+				{(&amp;ДатаОкончанияФиктивная)},
+				Заказ В
+						(ВЫБРАТЬ
+							ВТ_Дилер.ЗаказНаЗавод
+						ИЗ
+							ВТ_Дилер КАК ВТ_Дилер)
+					И Реквизит = ЗНАЧЕНИЕ(Перечисление.Scan_ДополнительнаяИнформацияПоЗаказамНаЗавод.Клиент)) КАК Scan_ХарактеристикиЗаказовНаЗаводСрезПоследних
+		ПО ВТ_Дилер.ЗаказНаЗавод = Scan_ХарактеристикиЗаказовНаЗаводСрезПоследних.Заказ
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Scan_ЗакреплениеМенеджеровЗаДилерами.СрезПоследних(&amp;ДатаОкончания {(&amp;ДатаОкончания)}, ) КАК Scan_ЗакреплениеМенеджеровЗаДилерамиСрезПоследних
+		ПО (ВЫБОР
+				КОГДА Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке = ЗНАЧЕНИЕ(Справочник.Scan_СоглашенияОПоставке.ПустаяСсылка)
+						ИЛИ Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке ЕСТЬ NULL
+					ТОГДА ВТ_Дилер.Дилер = Scan_ЗакреплениеМенеджеровЗаДилерамиСрезПоследних.Дилер
+				ИНАЧЕ Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке.Дилер = Scan_ЗакреплениеМенеджеровЗаДилерамиСрезПоследних.Дилер
+			КОНЕЦ)
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Scan_ЗакреплениеМенеджеровЗаЗаказамиНаЗавод.СрезПоследних(&amp;ДатаОкончания {(&amp;ДатаОкончания)}, ) КАК Scan_ЗакреплениеМенеджеровЗаЗаказамиНаЗаводСрезПоследних
+		ПО ВТ_Дилер.ЗаказНаЗавод = Scan_ЗакреплениеМенеджеровЗаЗаказамиНаЗаводСрезПоследних.ЗаказНаЗавод
+ГДЕ
+	Scan_Изделия.ЛокальныйСтатусПродукта &lt;&gt; ЗНАЧЕНИЕ(Справочник.Scan_ЛокальныеСтатусыПродуктов.DELETED)</query>
+	</dataSet>
+	<totalField>
+		<dataPath>OrderBook</dataPath>
+		<expression>Сумма(OrderBook)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>OrderIntake</dataPath>
+		<expression>Сумма(OrderIntake)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Отгрузки</dataPath>
+		<expression>Сумма(Отгрузки)</expression>
+	</totalField>
+	<parameter>
+		<name>Cancellation</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Cancellation</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.Scan_ДатыДляФормированияОтчетаOI</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.Scan_ДатыДляФормированияОтчетаOI.ДатаРасторжения</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ДатаНачала</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата начала</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаНачала</expression>
+	</parameter>
+	<parameter>
+		<name>ДатаОкончания</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата окончания</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаОкончания</expression>
+	</parameter>
+	<parameter>
+		<name>ДатаОтгрузки</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата отгрузки</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.Scan_ДатыДляФормированияОтчетаOI</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.Scan_ДатыДляФормированияОтчетаOI.ДатаОтгрузки</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ДатаOrderIntake</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата order intake</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.Scan_ДатыДляФормированияОтчетаOI</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.Scan_ДатыДляФормированияОтчетаOI.ДатаOrderIntake</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Period</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">ThisMonth</v8:variant>
+		</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ДатаОкончанияФиктивная</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата окончания фиктивная</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ОтменаОтгрузки</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Отмена отгрузки</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.Scan_ДатыДляФормированияОтчетаOI</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.Scan_ДатыДляФормированияОтчетаOI.ОтменаОтгрузки</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Order Intake and Order Book (альтернативный)</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Order Intake and Order Book (alt)</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗаказНаЗавод</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Клиент</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>OrderBook</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>OrderIntake</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Отгрузки</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отгрузки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Shipment</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ВидВзаимодействия</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>f8003b59-6d6b-4fd3-9ff5-6a4dbc6aad55</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ВидДилера</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>174f78b6-f374-4b6e-bd74-6b6bed1fe4b9</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Дилер</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>519624d8-b59f-43a8-856f-16b21d278ced</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">КодДилера</dcsset:left>
+					<dcsset:comparisonType>Contains</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:string"/>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>98e78340-7668-45cd-8bec-ee9712b961ed</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Менеджер</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>69b70d40-beb7-4b55-8ee5-75896cdf6272</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">Изделие.БУ</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>9f98b369-0781-421b-b98a-c935415720e9</dcsset:userSettingID>
+					<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Продукты БУ</v8:content>
+						</v8:item>
+					</dcsset:userSettingPresentation>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Изделие.ТипПродукта.ВидПродукта</dcsset:left>
+					<dcsset:comparisonType>InList</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+					</dcsset:right>
+					<dcsset:userSettingID>a8fed258-385d-47fe-8b4b-27bbf83a94a9</dcsset:userSettingID>
+					<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид продукта</v8:content>
+						</v8:item>
+					</dcsset:userSettingPresentation>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">Изделие.ЛокальныйСтатусПродукта</dcsset:left>
+					<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+					<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.Scan_ЛокальныеСтатусыПродуктов.DELETED</dcsset:right>
+					<dcsset:userSettingID>ca0938f3-867b-4022-bfce-47b2c1d15f65</dcsset:userSettingID>
+					<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Локальный статус</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Local status</v8:content>
+						</v8:item>
+					</dcsset:userSettingPresentation>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">Изделие.Демо</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+					<dcsset:userSettingID>1da0d743-dfaf-48cd-b1f3-71e8b923c769</dcsset:userSettingID>
+					<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Демо</v8:content>
+						</v8:item>
+					</dcsset:userSettingPresentation>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">Изделие.Аренда</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+					<dcsset:userSettingID>3456b368-ffb6-4391-8d80-c62f0e499e8b</dcsset:userSettingID>
+					<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Аренда</v8:content>
+						</v8:item>
+					</dcsset:userSettingPresentation>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">Изделие.Тест</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+					<dcsset:userSettingID>8d9adb48-3018-40da-abb3-e5777651b02f</dcsset:userSettingID>
+					<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тест </v8:content>
+						</v8:item>
+					</dcsset:userSettingPresentation>
+				</dcsset:item>
+				<dcsset:viewMode>Normal</dcsset:viewMode>
+				<dcsset:userSettingID>1272c5f5-7173-43e9-ba7b-78ee334dfc21</dcsset:userSettingID>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Cancellation</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ДатаНачала</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcsset:userSettingID>0f889604-39eb-4294-8d5c-17320096653d</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ДатаОкончания</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcsset:userSettingID>98636811-7393-4e00-8e6a-1a975ac70af1</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ДатаОтгрузки</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">ThisMonth</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>62bdef29-03c9-4e67-b78f-3cfa97605f1e</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Арктика</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>РасположениеРеквизитов</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionAttributesPlacement">Separately</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьЗаголовок</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">Output</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Order Intake and Order Book</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ВидДилера</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:outputParameters>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Заголовок</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Dealer type</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</dcsset:outputParameters>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>НаименованиеДилера</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>КодДилера</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Менеджер</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

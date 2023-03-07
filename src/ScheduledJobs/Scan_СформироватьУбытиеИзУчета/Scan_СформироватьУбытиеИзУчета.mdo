@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7adb8b4f-7c8b-4f2a-836f-4cc1d76002e5">
+  <name>Scan_СформироватьУбытиеИзУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сформировать убытие из учета</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Сформировать убытие из учета</value>
+  </synonym>
+  <methodName>CommonModule.Scan_РегламентныеЗадания.СФормироватьУбытиеИзУчета</methodName>
+  <description>Сформировать убытие из учета</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

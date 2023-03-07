@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51c9762e-e8e6-42db-a625-8ceb31e5d535">
+  <producedTypes>
+    <objectType typeId="5e6e9efa-55ab-49bf-bb03-99c98756bc90" valueTypeId="8b7529d3-053f-4106-8766-bf287009742b"/>
+    <managerType typeId="2ba1b365-2f72-4f30-b558-e27dc966f734" valueTypeId="d8ed6746-3345-4982-af43-e15341e4cb70"/>
+  </producedTypes>
+  <name>Scan_ПервоначальноеЗаполнениеРасстоянийМеждуАдресами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Первоначальное заполнение расстояний между адресами (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Initial filling of the distance between the addresses (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Scan_ПервоначальноеЗаполнениеРасстоянийМеждуАдресами.Form.Форма</defaultForm>
+  <tabularSections uuid="299952e2-8d13-40bb-9af9-7b29dd3671e2">
+    <producedTypes>
+      <objectType typeId="0ed8c02d-ab08-4573-9168-729718936ca6" valueTypeId="08aabf74-a44e-4c29-8220-6ac7dbc31e9a"/>
+      <rowType typeId="5f4fb7db-3376-491c-b22d-d7250029f795" valueTypeId="0270e047-695f-43de-9f6d-f43c6bea16bc"/>
+    </producedTypes>
+    <name>ТаблицаРасстояний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица расстояний</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Table of distances</value>
+    </synonym>
+    <attributes uuid="2dc47b35-73ea-4b23-9a7b-a32ee85c8138">
+      <name>АдресПолучения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Адрес получения</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Email address</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_АдресаХранения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ff1442a1-effa-4f9a-8c34-727cd9275319">
+      <name>АдресДоставки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Адрес доставки</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Delivery address</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_АдресаХранения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e422656f-7879-4b97-a0a5-f0c6f551ba85">
+      <name>Расстояние</name>
+      <synonym>
+        <key>ru</key>
+        <value>Расстояние</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Distance</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>7</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="108dbc00-8f31-4bcc-997c-f30b012d097e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

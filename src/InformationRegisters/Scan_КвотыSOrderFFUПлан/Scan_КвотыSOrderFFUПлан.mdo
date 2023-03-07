@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eebb8e8d-3a0d-4750-9aae-5107f8010820">
+  <producedTypes>
+    <selectionType typeId="6c6db168-25f4-463e-8e1e-f3de32082814" valueTypeId="eab13358-6e91-481f-9ce3-c853f4240a08"/>
+    <listType typeId="8e3a7b07-30cb-4e60-9e1b-cc82ff2a9791" valueTypeId="bd0b1177-51f9-413a-b027-85c7b3a71bf8"/>
+    <managerType typeId="fff1e12b-0f24-4c36-bba5-27385e4fb3f7" valueTypeId="a7d844fa-79ee-46c6-acf5-8f37df23ba08"/>
+    <recordSetType typeId="cf8a3436-6a28-41a2-b3e6-7b9efabcbb0d" valueTypeId="e1fa3e51-eb64-4647-80d9-0814b4c56b88"/>
+    <recordKeyType typeId="0e0bfc84-6ed7-452f-b297-89b6ca63a028" valueTypeId="8dad87bc-12b1-4221-801d-204a9306db0e"/>
+    <recordType typeId="05b95e86-8b33-4cc7-a018-b623d232951d" valueTypeId="f1477e47-1589-436e-8825-1059f3e4fd8c"/>
+    <recordManagerType typeId="3a450e9e-141c-476e-a3b1-06b28819745e" valueTypeId="e7c42b4d-87ae-47d0-b855-26af5815289d"/>
+  </producedTypes>
+  <name>Scan_КвотыSOrderFFUПлан</name>
+  <synonym>
+    <key>ru</key>
+    <value>Квоты S-Order \ FFU план (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Quota of S-Order \ FFU plan (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.Scan_КвотыSOrderFFUПлан.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="838d5f94-00b1-4a9c-97e1-c46b8ebedd15">
+    <name>КвотаSOrderFFU</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квота S-Order \  FFU</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Quota S-Order \  FFU</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="adbfa22a-a721-4c2b-8c83-46f1cff2826d">
+    <name>ДатаС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата с</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Valid From</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>8</length>
+      </stringQualifiers>
+    </type>
+    <mask>99 99 9</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="7c9f8d09-a40b-4988-aa1d-277625f26856">
+    <name>ДатаПо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата по</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Valid To</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>8</length>
+      </stringQualifiers>
+    </type>
+    <mask>99 99 9</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="fbc869f5-94ac-4e4c-ba63-7a2d0cab9e2e">
+    <name>Опция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опция</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Option</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ОпцииПродуктов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="fa685e29-c1fb-4e6e-8435-5412e2a78a04">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6ac930c1-9796-473e-a2de-ba126a23a26c">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bdf62733-7849-4090-a4ab-af9b0468b30f">
+  <producedTypes>
+    <objectType typeId="adad774c-e664-4bac-a96f-5815e8ecf57a" valueTypeId="cfb315a6-fbfe-4e5b-a966-41963f052a3b"/>
+    <managerType typeId="a7e1c80e-87ce-4bfb-a31c-a767e2e8a44e" valueTypeId="30386af8-db71-46b4-b23b-641d4cbb2fc3"/>
+  </producedTypes>
+  <name>Scan_ВводДанныхПоЗаявкеНаСервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод данных по заявке на сервисные работы</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Ввод данных по заявке на сервисные работы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Scan_ВводДанныхПоЗаявкеНаСервис.Form.Форма</defaultForm>
+  <forms uuid="10e17ab2-a208-463c-8cd7-ecf672570414">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bc8c2ff6-dd17-4cbf-8e8f-25f5aadce320">
+    <name>ФормаВыбораИзделий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора продуктов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма выбора продуктов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

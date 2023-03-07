@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b907dd3-886f-4300-9df4-72b6a4f980ca">
+  <producedTypes>
+    <refType typeId="c295785b-5643-43e5-ab8f-a9e1b44bd019" valueTypeId="d1ce4ec7-dce6-49a8-8cb5-463bb45136f8"/>
+    <listType typeId="00a65609-b9df-464c-8caf-54f942a1e2f0" valueTypeId="972b08f2-911a-445a-85a1-0bb528484d90"/>
+    <managerType typeId="c40cbe36-fd15-4c6c-88bb-9a641355c4e8" valueTypeId="6c5b867a-cad3-4e57-9c8a-5482aa3a9456"/>
+  </producedTypes>
+  <name>Scan_КомплектностьПоставкиЗначения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комплектность поставки значения</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Assembly level values</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="63fda41d-e02a-402f-945a-aef464daa184">
+    <name>CBU</name>
+    <synonym>
+      <key>ru</key>
+      <value>CBU</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>CBU</value>
+    </synonym>
+    <comment>Completely build unit</comment>
+  </enumValues>
+  <enumValues uuid="dc2ceb7b-8646-479e-878c-401f4ea0c5da">
+    <name>CKD</name>
+    <synonym>
+      <key>ru</key>
+      <value>CKD</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>CKD</value>
+    </synonym>
+    <comment>Completely knock down</comment>
+  </enumValues>
+  <enumValues uuid="75f65cea-c1e0-4a58-a365-cde9d43df0f3">
+    <name>SKD</name>
+    <synonym>
+      <key>ru</key>
+      <value>SKD</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>SKD</value>
+    </synonym>
+    <comment>Semi-knock down</comment>
+  </enumValues>
+</mdclass:Enum>

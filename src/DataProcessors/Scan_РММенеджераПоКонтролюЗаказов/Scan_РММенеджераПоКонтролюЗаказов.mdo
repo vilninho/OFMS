@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="828a076d-4f90-49c8-be08-22703c30c107">
+  <producedTypes>
+    <objectType typeId="e8cffc3b-13f3-489e-a11c-ed038f1b1158" valueTypeId="53006f5c-dd8b-4cbd-a55a-b02721074b9f"/>
+    <managerType typeId="914b20d9-1d86-4b3e-b72c-fd0f6e18079b" valueTypeId="b0383fef-66b4-441b-800f-5bc9d55803b4"/>
+  </producedTypes>
+  <name>Scan_РММенеджераПоКонтролюЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочее место менеджера по контролю заказов (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Workplace of the order control manager (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Scan_РММенеджераПоКонтролюЗаказов.Form.Форма</defaultForm>
+  <forms uuid="b9162919-72c1-4a4c-95ce-f69438582a89">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4be3242b-316d-4a2e-ae77-1c16df4bfc25">
+    <name>ФормаВыбораКузовостроителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора кузовостроителя</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

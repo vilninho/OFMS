@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="226515a8-686b-49ac-bcdf-8129dc8ac244">
+  <producedTypes>
+    <refType typeId="75cef7c9-ad05-448c-8d96-cb0a92bf5efe" valueTypeId="5137bd56-1004-4d30-b7df-0244c3b7cdbf"/>
+    <listType typeId="143ca23e-ec22-4d11-8c02-079b9bf55c7c" valueTypeId="1afbebb6-6744-445a-9c23-75e8db18fcf1"/>
+    <managerType typeId="e20247dc-3df8-4200-bec7-a06a69783861" valueTypeId="5c36c044-9420-4f72-9c79-a54c816dd4f7"/>
+  </producedTypes>
+  <name>Scan_ВидыДоговоров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды договоров (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Виды договоров (scania)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9200fab6-8f5f-4e55-a7f5-6f303fc87135">
+    <name>Агентский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Агентский</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Агентский</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="02f3579f-637e-4a09-84c6-930988269f7a">
+    <name>Аренды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аренды</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Аренды</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2a29831c-0c3c-4992-92c9-0118e66711a0">
+    <name>Перевозки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перевозки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Перевозки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ddfbb5bb-0745-409c-92ef-6981cb78cbbf">
+    <name>Подряда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подряда</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Подряда</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="11b0c002-57f7-4333-9ca3-6baa7a36834e">
+    <name>Соглашение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соглашение о поставке</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>SOP</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="551a2640-5a88-4c15-a374-0fb1970a4b34">
+    <name>СПокупателем</name>
+    <synonym>
+      <key>ru</key>
+      <value>С покупателем</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>С покупателем</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="701a3293-152d-4566-90b6-d40bdef786e9">
+    <name>СПоставщиком</name>
+    <synonym>
+      <key>ru</key>
+      <value>С поставщиком</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>С поставщиком</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f07be551-0071-4b64-a4c1-ce40a2f8a485">
+    <name>Хранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Хранения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5701e7fd-e302-4cb5-8542-392a50223964">
+    <name>ДопСоглашениеКСОП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп. соглашение к СОП</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

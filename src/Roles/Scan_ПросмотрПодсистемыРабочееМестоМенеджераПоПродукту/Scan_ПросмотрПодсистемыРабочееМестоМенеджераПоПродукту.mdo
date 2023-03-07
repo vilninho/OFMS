@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52006b24-e768-40ca-a456-8ac57ac28e8c">
+  <name>Scan_ПросмотрПодсистемыРабочееМестоМенеджераПоПродукту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр подсистемы Рабочее место менеджера по продукту (scania)</value>
+  </synonym>
+</mdclass:Role>

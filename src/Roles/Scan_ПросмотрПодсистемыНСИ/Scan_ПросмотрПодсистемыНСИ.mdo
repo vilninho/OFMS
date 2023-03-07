@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a417dff-8ff8-4a0d-80f2-f5d24cfa79a9">
+  <name>Scan_ПросмотрПодсистемыНСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр подсистемы НСИ (scania)</value>
+  </synonym>
+</mdclass:Role>

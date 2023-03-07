@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48faff4b-bfbe-4262-8e5c-57121174d902">
+  <producedTypes>
+    <selectionType typeId="44dd0a28-dbb0-47c9-9b0d-bf8f1ec95193" valueTypeId="4324d7ed-7966-4206-814d-abbce4fef4f4"/>
+    <listType typeId="af33b2d9-a786-4d33-b90d-e30a74c46078" valueTypeId="f3412d19-638c-4d3d-baef-2f51ca5b1044"/>
+    <managerType typeId="1ab7641e-def4-49df-8b54-cebe33dba2be" valueTypeId="b34ed737-7cd4-4a07-a23c-8f83a846e577"/>
+    <recordSetType typeId="179040e0-e152-40f9-8455-d04edca53322" valueTypeId="f522d483-ccad-49b9-9f31-32e584b01232"/>
+    <recordKeyType typeId="00e052b1-87ac-48c1-ae0e-d0ee6bc6646b" valueTypeId="2ed374ef-3a63-49d3-9575-ce8de7537510"/>
+    <recordType typeId="03ad9997-910b-4658-9734-fb1ae0c027cf" valueTypeId="7b4e408f-8876-475b-86c6-027f9b0fea0d"/>
+    <recordManagerType typeId="e3a5332f-74fe-4002-9e12-9808fc1f7208" valueTypeId="1a486304-9f43-4ef7-a8e5-212ec7385df7"/>
+  </producedTypes>
+  <name>Scan_КвотыSOrderFFUФакт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Квоты S-Order \ FFU факт (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Quota of S-Order \ FFU fact (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_КвотыSOrderFFUФакт.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_КвотыSOrderFFUФакт.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9a993bbe-37c3-402b-8a82-2f9bb61bf513">
+    <name>Опция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опция</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Option</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ОпцииПродуктов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6185a026-458f-483b-be0d-be64bc11359f">
+    <name>ЗаказНаЗавод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ на завод</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Order factory</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ЗаказыНаЗавод</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="114092c3-a99a-4f9b-ab24-81ea88c6263f">
+    <name>ТипОпции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип опции</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Option type</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ТипыОпций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e6de0a9f-b94d-4f67-9a8b-07c3b0980523">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="700310be-3968-49e7-bad0-96f3b2f93da4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

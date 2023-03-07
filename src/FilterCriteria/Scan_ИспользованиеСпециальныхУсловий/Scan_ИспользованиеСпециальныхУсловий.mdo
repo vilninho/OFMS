@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a045ea79-d70a-409c-925f-dacc6355d8e7">
+  <producedTypes>
+    <listType typeId="0378f69b-35c6-45e9-bdf5-d7f37fafe8b6" valueTypeId="9f65ca8a-911f-4a46-afca-fb7061986564"/>
+    <managerType typeId="dc880721-7555-489b-80af-bedced206e19" valueTypeId="67fa0f14-b98c-46ee-967d-9bae8690a1dd"/>
+  </producedTypes>
+  <name>Scan_ИспользованиеСпециальныхУсловий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование специальных условий (scania)</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Scan_СпециальныеУсловия</types>
+    <types>CatalogRef.Scan_СоглашенияОПоставке</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Catalog.Scan_СоглашенияОПоставке.TabularSection.СписокПродуктов.Attribute.СпециальныеУсловия</content>
+  <defaultForm>FilterCriterion.Scan_ИспользованиеСпециальныхУсловий.Form.ФормаСписка</defaultForm>
+  <forms uuid="92c12e48-a798-49d7-bd65-167088f352a1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:FilterCriterion>

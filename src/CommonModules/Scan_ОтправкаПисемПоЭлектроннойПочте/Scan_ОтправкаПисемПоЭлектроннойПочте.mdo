@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b96ddc2f-9f39-4834-a2d1-73be3d7f94f0">
+  <name>Scan_ОтправкаПисемПоЭлектроннойПочте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка писем по электронной почте (сервер) (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Отправка писем по электронной почте (сервер) (scania)</value>
+  </synonym>
+  <comment>Защищенные функции (сервер) (scania)</comment>
+  <server>true</server>
+  <serverCall>true</serverCall>
+  <privileged>true</privileged>
+</mdclass:CommonModule>

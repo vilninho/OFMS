@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0dad3647-473a-4c3c-af9e-02f694d58a41">
+  <producedTypes>
+    <refType typeId="e8df02b7-72c8-4913-920d-34921345c4bf" valueTypeId="5df7f403-e83e-4c69-96b1-2a8e91f60292"/>
+    <listType typeId="7753ce8d-74e2-43c5-9585-bcaf5d260eee" valueTypeId="96ce1b38-4dbb-4284-95fc-bbb464541893"/>
+    <managerType typeId="10b6a25b-cd76-415e-895f-76e35bcd926b" valueTypeId="e01afc9c-20fb-46b5-b5ef-5aed3b7f6f2d"/>
+  </producedTypes>
+  <name>Scan_ХарактеристикиАКБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Характеристики АКБ (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Характеристики АКБ (scania)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="15002a03-468b-4226-8478-388722fee86b">
+    <name>Плотность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плотность, г*см3</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Плотность, г*см3</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="793c20fd-bab7-4172-8920-6b1e00499282">
+    <name>ПусковойТок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пусковой ток, А</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Пусковой ток, А</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="37907733-780e-476b-be1f-44f5c1216890">
+    <name>НапряжениеБезНагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Напряжение без нагрузки, В</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Напряжение без нагрузки, В</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3efbd06d-3a55-471a-b55f-0376333bdf0a">
+    <name>НапряжениеПодНагрузкой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Напряжение под нагрузкой, В</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Напряжение под нагрузкой, В</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

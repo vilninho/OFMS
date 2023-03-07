@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bd23f90-7653-4779-a971-09dd9260ca29">
+  <producedTypes>
+    <objectType typeId="374312ac-a2ea-4a78-934e-4f3c3d43d338" valueTypeId="bc6c6350-fa36-4b25-9969-f684c9104c88"/>
+    <managerType typeId="b492204d-7f8d-43f4-ab72-6523148d7b8e" valueTypeId="708cd034-363f-4370-9c85-7dcd45ad5235"/>
+  </producedTypes>
+  <name>Scan_РаспределениеЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Распределение заявок</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Распределение заявок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Scan_РаспределениеЗаявок.Form.Форма</defaultForm>
+  <forms uuid="30d40444-68bb-45ea-ad06-e80fe66a312c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e4d3b70f-092c-4097-a4d7-a43b0d51efbe">
+    <name>ФормаКорректировкиЗаявкиНаДействие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма корректировки заявки на действие</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма корректировки заявки на действие</value>
+    </synonym>
+    <comment>УДАЛИТЬ_TLMS_011</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="aeb43173-6f7d-4ad0-ad0e-acf501de875d">
+    <name>ФормаКорректировкиЗаявкиПеревозчику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма корректировки заявки перевозчику</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма корректировки заявки перевозчику</value>
+    </synonym>
+    <comment>УДАЛИТЬ_TLMS_011</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

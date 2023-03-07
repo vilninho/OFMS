@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e3c84ae-f304-41b0-8312-380759fbe62d">
+  <name>CustReceivables</name>
+  <synonym>
+    <key>ru</key>
+    <value>Cust receivables</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Cust receivables</value>
+  </synonym>
+  <namespace>http://www.scania.org/webservice/SRUService/CustReceivables</namespace>
+</mdclass:XDTOPackage>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d683e02-a788-4938-9e9e-77665633bd53">
+  <name>Scan_ДокументыЛогистика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Documents</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.Scan_ДвижениеИзделий</content>
+  <content>Document.Scan_ПеремещениеИзделий</content>
+  <content>Document.Scan_ЗаявкаНаДействие</content>
+  <content>Document.Scan_ЗаявкаПеревозчику</content>
+  <content>DocumentJournal.Scan_ДокументыПоЛогистике</content>
+  <content>Document.Scan_ЗаявкаНаОтгрузку</content>
+  <content>Document.Scan_ПрайсЛистАренда</content>
+  <parentSubsystem>Subsystem.Scan_ОтделЛогистики</parentSubsystem>
+</mdclass:Subsystem>

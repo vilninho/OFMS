@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60b4f92c-3dbe-4e70-9587-70d108c2df6a">
+  <name>Scan_ЧтениеПросмотрДокументовОтделаЛогистики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение просмотр документов отдела логистики (scania)</value>
+  </synonym>
+</mdclass:Role>

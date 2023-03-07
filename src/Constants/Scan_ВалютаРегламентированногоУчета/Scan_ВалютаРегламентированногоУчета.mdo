@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1896ee2-9b8c-4e2c-a671-ead07ef42a0a">
+  <producedTypes>
+    <managerType typeId="f9e2ddcc-4a2a-41fd-8516-f34a5edddc4c" valueTypeId="07c5b672-93d7-479c-ab53-db0a541c4c6c"/>
+    <valueManagerType typeId="6b52fd70-33e5-4489-8718-0dd903ed432e" valueTypeId="d5eaf75e-ad90-4872-b1ce-ae37830748dd"/>
+    <valueKeyType typeId="0d1fd9f3-1593-5035-9959-27e0da505b1a" valueTypeId="d89f4dc4-61dc-5809-8d03-a677ff856ede"/>
+  </producedTypes>
+  <name>Scan_ВалютаРегламентированногоУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюта регламентированного учета (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Regulated currency (scania)</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Валюты</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7999b07a-5c8a-431e-a9ae-29f260d8bdbd">
+  <producedTypes>
+    <selectionType typeId="75e16de3-1603-48ee-a61a-ac51f56c3e40" valueTypeId="8c3a36ba-4b38-40be-9ba8-f3619c28f2a8"/>
+    <listType typeId="83af0269-e4a5-4747-9dc1-e717e3ffc972" valueTypeId="e5729155-0e6d-48c3-a799-4efbc7e588cd"/>
+    <managerType typeId="241777b4-073b-474a-9a04-e8085a6e78a2" valueTypeId="08099d51-b5e4-4fc5-997b-5efa8cc46818"/>
+    <recordSetType typeId="a7b4e7fe-3686-4d27-b716-4c0067612ccf" valueTypeId="c3798018-8621-495b-a55e-47f0de7684d5"/>
+    <recordKeyType typeId="399639b6-78aa-415e-98ae-82a58c184b20" valueTypeId="273167ed-ae8f-4c20-92c4-84959e5598ae"/>
+    <recordType typeId="1c2536c5-d8db-48d8-8515-c148ab8d4e09" valueTypeId="1a4a9a37-3297-4fd4-98c4-9c61099fc5cb"/>
+    <recordManagerType typeId="f6a87c67-223a-451b-b1c8-aa22077ffa48" valueTypeId="659299f9-4a15-4709-a401-3370941c2127"/>
+  </producedTypes>
+  <name>Scan_ЗакреплениеМенеджеровЗаЗаказамиНаЗавод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрепление менеджеров за заказами на завод (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Assigning managers to orders to the plant (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="78a8539d-ce82-44e4-8ac4-1f8d18fac159">
+    <name>Менеджер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Manager</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="db556230-d671-49a2-b5be-e49ff5cac809">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="e66c6c92-dff9-46e7-8458-c4a6092b15f4">
+    <name>ЗаказНаЗавод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ на завод</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Orders to the plant</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ЗаказыНаЗавод</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

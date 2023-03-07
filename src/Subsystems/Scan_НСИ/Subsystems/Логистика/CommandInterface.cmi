@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>InformationRegister.Scan_ЛогКонтрольныхТочек.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:8ca10d9b-5e2f-4bd7-a8b4-be58a444d659</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.Scan_ХозяйственныеОперации.StandardCommand.OpenList</commands>
+      <commands>Catalog.Scan_КонтрольныеТочкиБизнесПроцессов.StandardCommand.OpenList</commands>
+      <commands>Catalog.Scan_МестаХранения.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.Scan_ЛогКонтрольныхТочек.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.Scan_ОстаткиПродуктовНаПлощадках.StandardCommand.OpenList</commands>
+      <commands>0:8ca10d9b-5e2f-4bd7-a8b4-be58a444d659</commands>
+      <commands>AccumulationRegister.Scan_ЗаявкиНаДействия.StandardCommand.OpenList</commands>
+      <commands>Catalog.Scan_СтатусыЗаявокНаДействие.StandardCommand.OpenList</commands>
+      <commands>Catalog.Scan_АдресаХранения.StandardCommand.OpenList</commands>
+      <commands>Catalog.Scan_ВидыТахографов.StandardCommand.OpenList</commands>
+      <commands>Catalog.Scan_ДополнительныеУсловияДоставки.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.Scan_МатрицаСроковДоставкиИзделийАвтовозом.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.Scan_МестонахождениеИзделий.StandardCommand.OpenList</commands>
+      <commands>Catalog.Scan_НоменклатураУслуг.StandardCommand.OpenList</commands>
+      <commands>Catalog.Scan_ТипыКабинИзделий.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

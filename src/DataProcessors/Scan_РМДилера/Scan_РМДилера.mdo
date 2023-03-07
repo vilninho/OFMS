@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64b28a18-57a7-4a44-aaa1-0488f70b5354">
+  <producedTypes>
+    <objectType typeId="1dc06244-2625-475c-8d47-ec4d8824ded2" valueTypeId="734d4a2c-9e9c-464c-9936-390aa1f17787"/>
+    <managerType typeId="0f196ba1-7522-44aa-aa6e-cf7787688e13" valueTypeId="e0b956cb-584a-4e22-aec7-e7e794dcf6d5"/>
+  </producedTypes>
+  <name>Scan_РМДилера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочее место дилера (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Dealer workplace (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Scan_РМДилера.Form.Форма</defaultForm>
+  <forms uuid="a932d7a7-1abe-4033-9337-2cc429d51b88">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7d45f03e-521f-41af-8f3b-f75bfbfa892f">
+    <name>ФормаЗапросНаНадстройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос на надстройки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

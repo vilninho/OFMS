@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="520f2377-8bd4-4b0a-af63-75e93bc8f832">
+  <producedTypes>
+    <objectType typeId="741cf058-f717-491f-8463-70bfeb7e3761" valueTypeId="99a32543-e1a4-4274-adc2-c47290096aed"/>
+    <refType typeId="19081cfa-5f59-4ac3-b521-c8ed4015cb8e" valueTypeId="cea9382c-59f1-4dd7-94cd-18354167bf75"/>
+    <selectionType typeId="37146abd-6a43-466d-82d3-6a749acafa77" valueTypeId="fe270aff-5f74-401e-a323-f39e747aa7e1"/>
+    <listType typeId="d027d007-894f-40c3-9acf-2ac68f29ddfa" valueTypeId="e364a153-a201-43f7-829e-099f65ea4dda"/>
+    <managerType typeId="c896aab9-8dbc-446d-bd66-6747a26d8470" valueTypeId="1197398d-3bf5-41ac-b801-f51a47da10b8"/>
+  </producedTypes>
+  <name>Scan_КонтрольныеТочкиLeadTime</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрольные точки Lead Time (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Lead Time Control Points (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_КонтрольныеТочкиLeadTime.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_КонтрольныеТочкиLeadTime.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Name</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Code</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Контрольная точка Lead Time</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>en</key>
+    <value>Lead Time Control Point</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Контрольные точки Lead Time</value>
+  </listPresentation>
+  <listPresentation>
+    <key>en</key>
+    <value>Lead Time Control Points</value>
+  </listPresentation>
+  <dataHistory>Use</dataHistory>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_КонтрольныеТочкиLeadTime.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_КонтрольныеТочкиLeadTime.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Scan_КонтрольныеТочкиLeadTime.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="f728e530-5f03-48fc-9be3-87056abce89a">
+    <name>Используется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Used</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fe9c835e-4027-4298-ab2a-3a345a2f2c86">
+    <name>КонтрольнаяТочка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрольная точка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Control point</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Scan_КлючевыеДаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="8122d85f-5f01-46f1-bb54-3635b6853303">
+    <producedTypes>
+      <objectType typeId="9e63c542-03ab-429b-93cb-dda4006873f1" valueTypeId="8be046e2-3add-4700-9f46-9a0de5adf410"/>
+      <rowType typeId="dd704481-57f2-46bd-99ed-d07db17661ae" valueTypeId="16b4c6cc-e53b-4d8e-9bb1-537479651276"/>
+    </producedTypes>
+    <name>ВидыLeadTime</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виды Lead Time</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Lead Time types</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="762dc95e-5c85-41eb-9c59-74380336e5c6">
+      <name>ВидLeadTime</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид Lead Time</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Lead Time type</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_ВидыLeadTime</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1f1f7e17-e27a-4963-908a-018cccdbc5b3">
+      <name>Порядок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Порядок</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Order</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="6b5ebbea-336a-4f2f-8d66-bf402a05fad9">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8a257382-ef08-4cb9-8c2d-e3c30b6e9443">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="79d1b20c-21c7-4cd0-badd-6fba0eef82a3">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="750ca5ea-3452-4aa4-9e08-5a913bb45320">
+    <name>КонтрольныеТочкиПоВидамLeadTime</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрольные точки по видам Lead Time</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

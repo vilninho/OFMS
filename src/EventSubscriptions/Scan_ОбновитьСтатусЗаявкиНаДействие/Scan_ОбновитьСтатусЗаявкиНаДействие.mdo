@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="163a367f-da84-41bf-9049-a6dae6f57842">
+  <name>Scan_ОбновитьСтатусЗаявкиНаДействие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Scan обновить статус заявки на действие</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Scan обновить статус заявки на действие</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Scan_ЗаявкаНаДействиеПрисоединенныеФайлы</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.Scan_ВспомогательныеФункцииСервер.ОбновитьСтатусЗаявкиНаДействиеОбработчик</handler>
+</mdclass:EventSubscription>

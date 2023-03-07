@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="200d292b-68d1-4b6b-982e-473bf997f1c8">
+  <name>Scan_ДобавлениеИзменениеАРМОтделаКлиентскойПоддержки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение АРМ отдела клиентской поддержки (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Добавление и изменение АРМ отдела клиентской поддержки</value>
+  </synonym>
+</mdclass:Role>

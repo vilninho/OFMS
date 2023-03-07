@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4a82633-e7fa-4f04-a70b-1df0b8f09d54">
+  <producedTypes>
+    <objectType typeId="d62c488a-18cd-480d-9ac2-a6572b8ee5e0" valueTypeId="c1e1c36d-3ee8-4851-af4c-9918e12aac1a"/>
+    <refType typeId="a3443678-39a8-406b-b5a0-375b81691790" valueTypeId="42ef8778-78ec-45d5-bb23-96731886a86c"/>
+    <selectionType typeId="c9f90b79-a7be-4f5f-afbf-8ee0301c528c" valueTypeId="daab9412-dd45-4a97-9027-56c19f3a83b7"/>
+    <listType typeId="8eb3d5bf-6454-40da-9ea7-cd88b716aa0f" valueTypeId="9a99b09c-0825-48aa-a363-5e1aab9bffef"/>
+    <managerType typeId="cdc8fb92-e948-4274-abfe-63d349414405" valueTypeId="44b7e523-f4eb-4e8d-8ae1-4873095b74c4"/>
+  </producedTypes>
+  <name>Scan_ОпцииПродуктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Опции продуктов (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Product options (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_ОпцииПродуктов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_ОпцииПродуктов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Семейство опций / Исполнение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Family / Variant Code</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>3</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>7</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <predefined>
+    <items id="3b624388-80b2-41b0-a03a-5caa38979252">
+      <name>БазовыеОпции</name>
+      <description>Базовые</description>
+      <code xsi:type="core:StringValue">
+        <value>0000001</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="aba04d9e-8669-496d-8e92-48af66f05062">
+      <name>SOrderОпции</name>
+      <description>S-order</description>
+      <code xsi:type="core:StringValue">
+        <value>0000002</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="2ec9c395-5ef4-4027-b06d-f5f42e2e1238">
+        <name>Нет_SOrder</name>
+        <description>Нет</description>
+        <code xsi:type="core:StringValue">
+          <value>0000007</value>
+        </code>
+      </content>
+    </items>
+    <items id="2f0f5946-6d59-49b0-9547-d4f6765fac07">
+      <name>FFUОпции</name>
+      <description>FFU</description>
+      <code xsi:type="core:StringValue">
+        <value>0000003</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="f12591b4-c3c5-49f6-b6f3-437550866d94">
+        <name>Нет_FFU</name>
+        <description>Нет</description>
+        <code xsi:type="core:StringValue">
+          <value>0000008</value>
+        </code>
+      </content>
+    </items>
+    <items id="854c9a05-2efe-4bc3-8de8-5f06d706cc8a">
+      <name>ЛокальныеОпции</name>
+      <description>Локальные опции</description>
+      <code xsi:type="core:StringValue">
+        <value>0000006</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_ОпцииПродуктов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.Scan_ОпцииПродуктов.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.Scan_ОпцииПродуктов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Scan_ОпцииПродуктов.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="5781b8a7-7006-4f9d-8ed1-6579e9cd082e">
+    <name>IDExternalSystem</name>
+    <synonym>
+      <key>ru</key>
+      <value>IDExternalSystem</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7a8ba91b-36a5-4ee3-a207-18ddf50ad232">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of renewal</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c5536a4c-fc19-42f9-b083-8aa67858c9a0">
+    <name>ИспользоватьВСпецификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать в спецификации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use in bill of materials</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolder</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0ce6ec8f-6b80-47d6-a30f-235159be4955">
+    <name>ИспользуетсяНаРынкеРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется на рынке РФ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Used in the Russian market</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="385e0a6c-bb77-40ac-937b-92d046c7878b">
+    <name>НаименованиеАнглийское</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование английское</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Description eng</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="686213af-c563-4c99-885a-14bd9e1159c6">
+    <name>ОсновнаяОпция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная опция</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Main option</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolder</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cbf881f8-8b22-4f1e-a628-227d62ab778b">
+    <name>ТипОпции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип опции</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Option type</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ТипыОпций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c9961779-0957-4592-abd2-a07befc1a370">
+    <name>RefCode</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ref.code</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="23ef45cd-5a92-40e7-9e9b-b9eb791333f9">
+    <name>ИсточникRefCode</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник Ref.code</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0cc1b4c6-76b3-4a5a-8c78-925fb582964d">
+    <name>ВидПродукта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид продукта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ВидыПродуктов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="8504c7f8-8664-4e19-85e4-be9535f2b877">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1428b9ba-ec47-4b97-8d5b-5233a2523a81">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1e19cb31-36ef-43a0-a1a4-a6f20befda16">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0d988f17-e420-434e-88e4-1c7ad53b79d9">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

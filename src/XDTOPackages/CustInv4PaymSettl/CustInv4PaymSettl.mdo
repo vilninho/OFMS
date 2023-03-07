@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a78cdac-0e9d-4e2d-bb89-80cdf8605a9d">
+  <name>CustInv4PaymSettl</name>
+  <synonym>
+    <key>ru</key>
+    <value>Cust inv4 paym settl</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Cust inv4 paym settl</value>
+  </synonym>
+  <namespace>http://www.scania.org/webservice/SRUService/CustInv4PaymSettl</namespace>
+</mdclass:XDTOPackage>

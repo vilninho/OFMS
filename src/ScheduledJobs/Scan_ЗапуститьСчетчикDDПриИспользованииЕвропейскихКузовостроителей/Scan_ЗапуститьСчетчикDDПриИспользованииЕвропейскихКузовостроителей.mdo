@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed508110-0878-4ba7-b139-3bc125674ac5">
+  <name>Scan_ЗапуститьСчетчикDDПриИспользованииЕвропейскихКузовостроителей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запустить счетчик DD при использовании европейских кузовостроителей</value>
+  </synonym>
+  <methodName>CommonModule.Scan_РегламентныеЗадания.ЗапуститьСчетчикDDПриИспользованииЕвропейскихКузовостроителей</methodName>
+  <description>Запустить счетчик DD при использовании европейских кузовостроителей</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

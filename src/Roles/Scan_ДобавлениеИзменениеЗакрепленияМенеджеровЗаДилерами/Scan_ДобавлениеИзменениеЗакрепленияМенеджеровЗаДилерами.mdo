@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbd9993d-231c-4482-a92c-303f29674a12">
+  <name>Scan_ДобавлениеИзменениеЗакрепленияМенеджеровЗаДилерами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение Закрепления менеджеров за дилерами (scania)</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="722c8648-5812-4dc9-b914-6d4576822f18">
+  <name>Scan_ЗагрузитьДанныеПоСОП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузить данные по СОП (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Загрузить данные по СОП (scania)</value>
+  </synonym>
+  <methodName>CommonModule.Scan_РегламентныеЗадания.ЗагрузитьДанныеПоСОП</methodName>
+  <description>Загрузить данные по СОП (scania)</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

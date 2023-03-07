@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14e20294-f573-45ad-b813-763b2b137b31">
+  <producedTypes>
+    <objectType typeId="64143ff4-d171-4cf8-9c34-9ce3baec29f5" valueTypeId="07a64e4e-5898-4ba1-a5ff-189180f53508"/>
+    <refType typeId="2424a996-5c5a-407b-a345-1a7e23baa45e" valueTypeId="e5b357ff-8cd3-4dcd-afc7-099d4aec9d38"/>
+    <selectionType typeId="dc91a758-b0bd-4f3b-8998-099274d42f0c" valueTypeId="840c4966-9d9e-483d-bc75-108fccf6652d"/>
+    <listType typeId="41fe0881-ead7-405c-85d0-3a9e1feb038f" valueTypeId="27ed6426-64f2-49f9-b10c-7c21583e200e"/>
+    <managerType typeId="ccd3f022-00c2-4afd-9fff-f4ed637f8c73" valueTypeId="329b45d0-093f-408f-9129-0ecb737a71ce"/>
+  </producedTypes>
+  <name>Scan_ТипыКабинИзделий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы кабин продуктов (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Types of cabins product (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_ТипыКабинИзделий.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_ТипыКабинИзделий.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_ТипыКабинИзделий.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_ТипыКабинИзделий.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="9a497a6a-b7af-4345-8ecf-8fed7790c133">
+    <name>IDExternalSystem</name>
+    <synonym>
+      <key>ru</key>
+      <value>IDExternal system</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>IDExternal system</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f2c6c185-1c57-404f-8909-69dcef9ffdba">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of renewal</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="983e0461-528a-4365-bd15-0a65d0dbbacf">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form element</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8bde9272-c3bb-4d8b-9798-9cee74c52761">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

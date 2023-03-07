@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11e88480-739b-4f47-ba35-09122fed9699">
+  <producedTypes>
+    <objectType typeId="b78b05e6-f11c-4af6-897f-ab5c472556e2" valueTypeId="b886a3cc-eefd-4435-b20c-8020556cc717"/>
+    <refType typeId="fb90cd01-4a29-4619-9753-93948dc1d553" valueTypeId="bf19b36e-76fb-41fc-9505-a5669e552a69"/>
+    <selectionType typeId="a73275fd-fce5-434c-9ae8-3843da58566d" valueTypeId="6f663a2b-a83a-4c1c-9502-a3e98837c347"/>
+    <listType typeId="6d8647eb-edfd-4c02-831e-aaaf33dc62d6" valueTypeId="ba933b46-3414-4015-b6fc-29f1cab79867"/>
+    <managerType typeId="e993e511-f1a3-4d56-a8fa-cfb067391ad0" valueTypeId="413ffaa3-bedd-4ff4-b04d-8dc5eeb99b23"/>
+  </producedTypes>
+  <name>Scan_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Positions (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_Должности.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_Должности.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_Должности.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Scan_Должности.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="606e17fe-774c-402e-8514-e9f16e05b485">
+    <name>IDExternalSystem</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID External System</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ID External System</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="013ef24f-0d43-4f0c-b395-7d1c1fb9a916">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of renewal</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ab0c08bf-2b7d-46c3-a74d-a43021aa5602">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form element</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0b3a4844-dd1c-4ce6-8f66-bb2e002d8d95">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

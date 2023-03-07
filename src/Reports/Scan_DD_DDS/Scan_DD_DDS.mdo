@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ae76f81-5150-4895-88fe-b31210d50d84">
+  <producedTypes>
+    <objectType typeId="4ca35f48-db8f-4ef8-8ba7-a0b13253d3a5" valueTypeId="02bf6026-9128-4d96-9671-e3351b3d6718"/>
+    <managerType typeId="7d62b5da-44f7-4682-b446-f2f4fbf81d2d" valueTypeId="a0bf1d07-3f40-494d-a3fe-0766f133cf96"/>
+  </producedTypes>
+  <name>Scan_DD_DDS</name>
+  <synonym>
+    <key>ru</key>
+    <value>DD/DDS (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.Scan_DD_DDS.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.Scan_DD_DDS.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <forms uuid="7a15a9c0-1696-4aa7-93ce-048dbcf37c8e">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="649321af-fd63-4b7f-8b01-82dee96ddd04">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

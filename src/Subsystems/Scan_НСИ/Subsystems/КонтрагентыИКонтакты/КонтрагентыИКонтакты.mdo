@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="629c2da6-b73e-46a2-b70e-ef8527bdea21">
+  <name>КонтрагентыИКонтакты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты и контакты</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Counterparties and contacts</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Scan_Контрагенты</content>
+  <content>Catalog.Scan_КонтактныеЛица</content>
+  <content>Catalog.Scan_ДоговорыВзаиморасчетов</content>
+  <content>Catalog.ВидыКонтактнойИнформации</content>
+  <content>Catalog.Scan_Компании</content>
+  <content>InformationRegister.Scan_ВзаимосвязьКонтактныхЛицИМестХранения</content>
+  <content>Enum.Scan_РежимУстановкиВидаВзаимодействия</content>
+  <content>Catalog.Scan_ГруппыКомпаний</content>
+  <content>Catalog.Scan_СтатусыКомпаний</content>
+  <content>Catalog.Scan_ФормыКомпаний</content>
+  <content>Catalog.Scan_ТипыДилеров</content>
+  <content>Catalog.Scan_ВидыВзаимодействий</content>
+  <content>InformationRegister.Scan_ВзаимосвязьКомпанийСКонтрагентами</content>
+  <content>Enum.Scan_ВидыДилеров</content>
+  <content>InformationRegister.Scan_ИсторияПоКонтрагентам</content>
+  <content>InformationRegister.Scan_ИсторияКомпаний</content>
+  <content>Catalog.Scan_Регионы</content>
+  <content>Catalog.Scan_ФедеральныеОкруга</content>
+  <parentSubsystem>Subsystem.Scan_НСИ</parentSubsystem>
+</mdclass:Subsystem>

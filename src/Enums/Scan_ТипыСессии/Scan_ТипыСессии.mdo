@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4bc6ab5b-551c-4299-9fa6-f4552fe3f7af">
+  <producedTypes>
+    <refType typeId="cc596e5f-6491-4dfd-98c0-f856aa16fc26" valueTypeId="277e31e6-3ed4-416b-b619-d508ada55c54"/>
+    <listType typeId="c9574f98-37b7-4c96-9274-bb6692f08bbb" valueTypeId="de394e94-68e5-4a08-b18b-50141902f736"/>
+    <managerType typeId="4b8cedc0-c23d-4d0d-bc7d-4949e5a0a971" valueTypeId="a02f01b3-f33f-4bba-b870-ddc9d5c8b18a"/>
+  </producedTypes>
+  <name>Scan_ТипыСессии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы сессии (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Session types (scania)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="787faa84-3920-441b-8ffc-cadae5fce52f">
+    <name>СессияСоздана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сессия создана</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Session created</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="88420aae-5e99-4b01-b5a4-c0c701668fbd">
+    <name>ДанныеПолученыЗагружены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные получены/загружены</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Data received/uploaded</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3a9857c0-5c20-4494-a071-cf33ca921ad0">
+    <name>СессияОткрыта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сессия открыта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The session is open</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="83a8d5c9-fea5-4989-bd17-9fcffb6c3673">
+    <name>СессияЗакрыта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сессия закрыта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The session closed</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="485f94cf-eb6d-4232-bb35-76e026afe718">
+    <name>СтатусОтправлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус отправлен</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>A status of sent</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

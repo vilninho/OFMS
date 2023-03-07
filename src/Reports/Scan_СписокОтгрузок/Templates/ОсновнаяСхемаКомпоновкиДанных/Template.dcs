@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Продукт</dataPath>
+			<field>Продукт</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Примечание</dataPath>
+			<field>Примечание</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Примечание</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дилер</dataPath>
+			<field>Дилер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СкладОтгрузки</dataPath>
+			<field>СкладОтгрузки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запрашиваемое место передачи</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Менеджер</dataPath>
+			<field>Менеджер</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закрепленный менеджер ОКП</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Цена</dataPath>
+			<field>Цена</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Цена</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Шасси</dataPath>
+			<field>Шасси</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шасси</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Модель</dataPath>
+			<field>Модель</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Модель</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СОП</dataPath>
+			<field>СОП</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>СОП</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НаличиеПредоплаты</dataPath>
+			<field>НаличиеПредоплаты</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Наличие предоплаты</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаОтгрузки</dataPath>
+			<field>ДатаОтгрузки</field>
+			<useRestriction>
+				<condition>true</condition>
+			</useRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПродуктСОП</dataPath>
+			<field>ПродуктСОП</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>СОПСсылка</v8:content>
+				</v8:item>
+			</title>
+			<attributeUseRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПродуктЗапрашиваемоеМестоПередачи</dataPath>
+			<field>ПродуктЗапрашиваемоеМестоПередачи</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продукт. Запрашиваемое место передачи</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПродуктСкладПродажи</dataPath>
+			<field>ПродуктСкладПродажи</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Склад продажи</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПродуктМестоПередачи</dataPath>
+			<field>ПродуктМестоПередачи</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Место передачи</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаказНаЗакупку</dataPath>
+			<field>ЗаказНаЗакупку</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заказ на закупку</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Кузовщик</dataPath>
+			<field>Кузовщик</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кузовщик</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	Scan_ЗаявкаНаОтгрузкуПродукты.Продукт КАК Продукт,
+	Scan_ЗаявкаНаОтгрузкуПродукты.Ссылка.СкладОтгрузки КАК СкладОтгрузки,
+	Scan_ЗаявкаНаОтгрузкуПродукты.Ссылка.Дилер КАК Дилер,
+	Scan_ЗаявкаНаОтгрузкуПродукты.Ссылка.Дилер.Наименование КАК ДилерНаименование, //rarus kabany 29.04.2021 17694 +
+	Scan_ЗаявкаНаОтгрузкуПродукты.Продукт.НомерИзделия КАК Шасси,
+	Scan_ЗаявкаНаОтгрузкуПродукты.Продукт.СОП.НомерДоговора КАК СОП,
+	Scan_ЗаявкаНаОтгрузкуПродукты.Продукт.МодельПродукта КАК Модель,
+	Scan_ЗаявкаНаОтгрузкуПродукты.Продукт.СОП.СОП_СтатусОплаты КАК НаличиеПредоплаты,
+	ВЫБОР
+		КОГДА Scan_ЗаявкаНаОтгрузкуПродукты.Ссылка.ТребуетсяХранение
+			ТОГДА "Остается на хранении"
+	КОНЕЦ КАК Примечание,
+	Scan_ЗаявкаНаОтгрузкуПродукты.Ссылка.ДатаОтгрузки КАК ДатаОтгрузки,
+	Scan_ЗаявкаНаОтгрузкуПродукты.Продукт.СОП КАК ПродуктСОП,
+	Scan_ЗаявкаНаОтгрузкуПродукты.Продукт.ДокументУстановкиПлановыхЦенПродукта.ЦенаDealerNetСоСкидкой КАК Цена,
+	Scan_ЗаявкаНаОтгрузкуПродукты.Продукт.ЗапрашиваемоеМестоПередачи КАК ПродуктЗапрашиваемоеМестоПередачи,
+	Scan_ЗаявкаНаОтгрузкуПродукты.Продукт.СкладПродажи КАК ПродуктСкладПродажи,
+	Scan_ЗаявкаНаОтгрузкуПродукты.Продукт.МестоПередачи КАК ПродуктМестоПередачи,
+	Scan_ЗаявкаНаОтгрузкуПродукты.Продукт.ЗаказНаЗавод.КузовщикиПредставление Как Кузовщик,
+	Scan_ЗаявкаНаОтгрузкуПродукты.Продукт.ЗаказНаЗавод.ЗаказыНаЗакупкуПредставление Как ЗаказНаЗакупку
+ПОМЕСТИТЬ ДанныеЗаявок
+ИЗ
+	Документ.Scan_ЗаявкаНаОтгрузку.Продукты КАК Scan_ЗаявкаНаОтгрузкуПродукты
+ГДЕ
+	Scan_ЗаявкаНаОтгрузкуПродукты.Ссылка.Статус = ЗНАЧЕНИЕ(Справочник.Scan_СтатусыЗаявокНаОтгрузку.Одобрена)
+{ГДЕ
+	(Scan_ЗаявкаНаОтгрузкуПродукты.Ссылка.ДатаОтгрузки &gt;= &amp;ДатаНачала),
+	(Scan_ЗаявкаНаОтгрузкуПродукты.Ссылка.ДатаОтгрузки &lt; &amp;ДатаОкончания),
+	(Scan_ЗаявкаНаОтгрузкуПродукты.Ссылка.Статус = &amp;СтатусЗаявки)} //rarus kabany 29.04.2021 17694 +
+//rarus kabany 29.04.2021 17694 +++
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	Scan_ЗаявкаНаОтгрузкуПродукты.Продукт,
+	Scan_ЗаявкаНаОтгрузкуПродукты.Ссылка.СкладОтгрузки,
+	Scan_ЗаявкаНаОтгрузкуПродукты.Ссылка.Дилер,
+	Scan_ЗаявкаНаОтгрузкуПродукты.Ссылка.Дилер.Наименование КАК ДилерНаименование, //rarus kabany 29.04.2021 17694 +
+	Scan_ЗаявкаНаОтгрузкуПродукты.Продукт.НомерИзделия,
+	Scan_ЗаявкаНаОтгрузкуПродукты.Продукт.СОП.НомерДоговора,
+	Scan_ЗаявкаНаОтгрузкуПродукты.Продукт.МодельПродукта,
+	Scan_ЗаявкаНаОтгрузкуПродукты.Продукт.СОП.СОП_СтатусОплаты,
+	ВЫБОР
+		КОГДА Scan_ЗаявкаНаОтгрузкуПродукты.Ссылка.ТребуетсяХранение
+			ТОГДА "Остается на хранении"
+	КОНЕЦ,
+	Scan_ЗаявкаНаОтгрузкуПродукты.Ссылка.ДатаОтгрузки,
+	Scan_ЗаявкаНаОтгрузкуПродукты.Продукт.СОП,
+	Scan_ЗаявкаНаОтгрузкуПродукты.Продукт.ДокументУстановкиПлановыхЦенПродукта.ЦенаDealerNetСоСкидкой,
+	Scan_ЗаявкаНаОтгрузкуПродукты.Продукт.ЗапрашиваемоеМестоПередачи,
+	Scan_ЗаявкаНаОтгрузкуПродукты.Продукт.СкладПродажи,
+	Scan_ЗаявкаНаОтгрузкуПродукты.Продукт.МестоПередачи,
+	Scan_ЗаявкаНаОтгрузкуПродукты.Продукт.ЗаказНаЗавод.КузовщикиПредставление,
+	Scan_ЗаявкаНаОтгрузкуПродукты.Продукт.ЗаказНаЗавод.ЗаказыНаЗакупкуПредставление
+ИЗ
+	Документ.Scan_ЗаявкаНаОтгрузку.Продукты КАК Scan_ЗаявкаНаОтгрузкуПродукты
+ГДЕ
+	Scan_ЗаявкаНаОтгрузкуПродукты.Ссылка.Статус = ЗНАЧЕНИЕ(Справочник.Scan_СтатусыЗаявокНаОтгрузку.ЧастичноИсполнена)
+	ИЛИ Scan_ЗаявкаНаОтгрузкуПродукты.Ссылка.Статус = ЗНАЧЕНИЕ(Справочник.Scan_СтатусыЗаявокНаОтгрузку.Исполнена)
+	И Scan_ЗаявкаНаОтгрузкуПродукты.Ссылка.ДатаОтгрузки = &amp;ТекущаяДата
+	
+	{ГДЕ 
+	(Scan_ЗаявкаНаОтгрузкуПродукты.Ссылка.ДатаОтгрузки &gt;= &amp;ДатаНачала),
+	(Scan_ЗаявкаНаОтгрузкуПродукты.Ссылка.ДатаОтгрузки &lt; &amp;ДатаОкончания),
+	(Scan_ЗаявкаНаОтгрузкуПродукты.Ссылка.Статус = &amp;СтатусЗаявки)} 
+;
+//rarus kabany 29.04.2021 17694 ---
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Scan_ЗакреплениеМенеджеровОКПЗаДилерамиСрезПоследних.Менеджер КАК Менеджер,
+	Scan_ЗакреплениеМенеджеровОКПЗаДилерамиСрезПоследних.Дилер КАК Дилер
+ПОМЕСТИТЬ ЗакрепленныеМенеджеры
+ИЗ
+	РегистрСведений.Scan_ЗакреплениеМенеджеровОКПЗаДилерами.СрезПоследних(
+			,
+			Дилер В
+				(ВЫБРАТЬ
+					ДанныеЗаявок.Дилер
+				ИЗ
+					ДанныеЗаявок)) КАК Scan_ЗакреплениеМенеджеровОКПЗаДилерамиСрезПоследних
+
+ИНДЕКСИРОВАТЬ ПО
+	Дилер
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ДанныеЗаявок.Продукт КАК Продукт,
+	ДанныеЗаявок.СкладОтгрузки КАК СкладОтгрузки,
+	ДанныеЗаявок.Дилер КАК Дилер,
+	ДанныеЗаявок.Шасси КАК Шасси,
+	ДанныеЗаявок.СОП КАК СОП,
+	ДанныеЗаявок.Модель КАК Модель,
+	ДанныеЗаявок.НаличиеПредоплаты КАК НаличиеПредоплаты,
+	ДанныеЗаявок.Примечание КАК Примечание,
+	ДанныеЗаявок.ДатаОтгрузки КАК ДатаОтгрузки,
+	ДанныеЗаявок.ПродуктСОП КАК ПродуктСОП,
+	ДанныеЗаявок.Цена КАК Цена,
+	ЗакрепленныеМенеджеры.Менеджер КАК Менеджер,
+	ДанныеЗаявок.ПродуктЗапрашиваемоеМестоПередачи КАК ПродуктЗапрашиваемоеМестоПередачи,
+	ДанныеЗаявок.ПродуктСкладПродажи КАК ПродуктСкладПродажи,
+	ДанныеЗаявок.ПродуктМестоПередачи КАК ПродуктМестоПередачи,
+	ДанныеЗаявок.Кузовщик Как Кузовщик,
+	ДанныеЗаявок.ЗаказНаЗакупку Как ЗаказНаЗакупку
+ИЗ
+	ДанныеЗаявок КАК ДанныеЗаявок
+		ЛЕВОЕ СОЕДИНЕНИЕ ЗакрепленныеМенеджеры КАК ЗакрепленныеМенеджеры
+		ПО ДанныеЗаявок.Дилер = ЗакрепленныеМенеджеры.Дилер		
+//rarus kabany 29.04.2021 17694 +++
+
+УПОРЯДОЧИТЬ ПО
+     ДанныеЗаявок.ДилерНаименование ВОЗР
+     //rarus kabany 29.04.2021 17694 ---</query>
+	</dataSet>
+	<totalField>
+		<dataPath>Шасси</dataPath>
+		<expression>Количество(Шасси)</expression>
+	</totalField>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ДатаНачала</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата начала</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;СтандартныйПериод.ДатаНачала</expression>
+	</parameter>
+	<parameter>
+		<name>ДатаОкончания</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата окончания</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;СтандартныйПериод.ДатаОкончания</expression>
+	</parameter>
+	<parameter>
+		<name>СтандартныйПериод</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>СтатусЗаявки</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Статус заявки</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Scan_СтатусыЗаявокНаОтгрузку</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+		<availableValue>
+			<value xsi:type="dcscor:DesignTimeValue">Справочник.Scan_СтатусыЗаявокНаОтгрузку.Одобрена</value>
+		</availableValue>
+		<availableValue>
+			<value xsi:type="dcscor:DesignTimeValue">Справочник.Scan_СтатусыЗаявокНаОтгрузку.ЧастичноИсполнена</value>
+		</availableValue>
+		<availableValue>
+			<value xsi:type="dcscor:DesignTimeValue">Справочник.Scan_СтатусыЗаявокНаОтгрузку.Исполнена</value>
+		</availableValue>
+	</parameter>
+	<parameter>
+		<name>ТекущаяДата</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Текущая дата</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>НачалоПериода(ТекущаяДата(), "День")</expression>
+		<use>Always</use>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>На заданную дату (Основной)</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаОтгрузки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Дилер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Шасси</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СОП</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Цена</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПродуктСкладПродажи</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПродуктМестоПередачи</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Менеджер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Модель</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Кузовщик</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗаказНаЗакупку</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НаличиеПредоплаты</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Примечание</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Дилер</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>a863016a-ac13-4d0e-a09a-20d54a972d7f</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Шасси</dcsset:left>
+					<dcsset:comparisonType>InList</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+					</dcsset:right>
+					<dcsset:userSettingID>97627718-a944-48f4-998d-45533737d109</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ПродуктСОП</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>0a180464-f697-4f8a-82b1-b78d2a40a990</dcsset:userSettingID>
+					<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>СОП</v8:content>
+						</v8:item>
+					</dcsset:userSettingPresentation>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Продукт.ТипПродукта.ВидПродукта</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>8834fa5b-6ac9-42df-ba91-fef16c5fce40</dcsset:userSettingID>
+					<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид продукта</v8:content>
+						</v8:item>
+					</dcsset:userSettingPresentation>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ДатаНачала</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcsset:userSettingID>ac9cdf35-b266-4c56-9ffc-dbb8edf8a6f3</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ДатаОкончания</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcsset:userSettingID>f751cd7f-57c0-4edc-8ea9-966e5c97a61f</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>СтандартныйПериод</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Today</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>18925e7f-6d3e-45ff-af20-a89b40742b88</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>СтатусЗаявки</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>451c8960-8ade-400c-81fa-53f2af7e007f</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>ДатаОтгрузки</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Море</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">End</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>АвтоПозицияРесурсов</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionResourcesAutoPosition">DontUse</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ДатаОтгрузки</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Дилер</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Шасси</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СОП</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Цена</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ПродуктСкладПродажи</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ПродуктМестоПередачи</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Менеджер</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Модель</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Кузовщик</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ЗаказНаЗакупку</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>НаличиеПредоплаты</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Примечание</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

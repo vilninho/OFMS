@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9219009b-d2eb-4519-9666-10bd261a3933">
+  <name>Scan_УстановкаПлановыхПоказателейДляОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка плановых показателей для отчетов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Setting targets for reports</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.Scan_УстановкаПланаПоОтгрузкам</content>
+  <content>InformationRegister.Scan_ПланПоDeliveriesReport</content>
+  <content>Document.Scan_УстановкаПланаПоOrderIntake</content>
+  <content>InformationRegister.Scan_ПланПоOrderIntake</content>
+  <content>Catalog.Scan_ВидыLeadTime</content>
+  <content>Catalog.Scan_КонтрольныеТочкиLeadTime</content>
+  <parentSubsystem>Subsystem.Scan_ОтделПланирования</parentSubsystem>
+</mdclass:Subsystem>

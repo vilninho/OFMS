@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04c4e556-7f6c-46ff-85a5-31a8b37c14c7">
+  <producedTypes>
+    <selectionType typeId="ef278b6e-b626-45e0-9862-7febe34f1120" valueTypeId="cff5f208-a758-48d5-98a2-2d1ac5e6209e"/>
+    <listType typeId="1d8516f3-8329-48f8-a04d-518536f75dae" valueTypeId="8a27c11d-e96a-459f-b3cf-6850c5fe8225"/>
+    <managerType typeId="f938b3c1-e8e3-41f2-a0f3-035625636614" valueTypeId="1d333a3f-4ed5-436d-b742-0b89a2f94f8e"/>
+    <recordSetType typeId="ab63c5b2-314f-42b3-83f8-5d9cac4d267e" valueTypeId="a6e08ce6-3523-45bd-9ccc-380cece7105d"/>
+    <recordKeyType typeId="a7651b0b-08da-4e77-b309-d6e6b8bb0e51" valueTypeId="9fc46fbd-75cc-4818-b2cd-a008e8446e13"/>
+    <recordType typeId="ae0c9d1e-433e-4388-a250-5c0cf349bc72" valueTypeId="4fca77c0-3ab3-4f46-9c40-7d9ae230d1c5"/>
+    <recordManagerType typeId="52516c5e-5b5d-4be2-9397-37d174bb7e80" valueTypeId="b7000168-efd9-4738-bc25-2956e5b6976c"/>
+  </producedTypes>
+  <name>Scan_СрокиБесплатногоХраненияПродуктовУПоставщиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сроки бесплатного хранения продуктов у поставщиков (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Period for free storage of products at suppliers (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Scan_СрокиБесплатногоХраненияПродуктовУПоставщиков.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Scan_СрокиБесплатногоХраненияПродуктовУПоставщиков.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="53c909ad-c809-4acc-ab82-dfc384098bce">
+    <name>СрокХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок хранения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Storage period</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="f9d2c217-a529-47ca-ab59-ddfbdc3548df">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="a82a4a7f-d25b-4798-8ee4-56c631b625d2">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Counterpart</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5800cea2-147f-46c6-92f8-017bff62193f">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Contract</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ДоговорыВзаиморасчетов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="0aa7d1a6-4814-402d-9bb6-28258924cb9e">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Recording form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="882329fd-f471-4d26-8d0c-25a9e0d2ca7c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

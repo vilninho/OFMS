@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3df148a6-3890-4a85-a926-895d01676ffc">
+  <producedTypes>
+    <objectType typeId="6a9cbabb-4676-44c4-9440-68f7f45cc371" valueTypeId="93bd6990-4099-474f-968d-d7dc8be95e38"/>
+    <refType typeId="ba588e1d-f0a4-4b19-b12b-183175975f55" valueTypeId="ba4e0c3b-634e-4a58-85fa-9a6e9981bc0e"/>
+    <selectionType typeId="6c62fae8-0931-4db5-b2bd-f8be7cde57ff" valueTypeId="870ce5a6-9966-4a05-9db3-3ca9e14b6e5d"/>
+    <listType typeId="71bca4d3-9cd3-4f14-a1b0-ed3d7b9eedc1" valueTypeId="6664a501-acbf-4b2a-93e3-755b4724d012"/>
+    <managerType typeId="9b56cc45-32e4-41b5-a8d8-be6159e444dd" valueTypeId="896b3f03-47c8-4772-b273-55f7a50d31ec"/>
+  </producedTypes>
+  <name>Scan_ОпцииДляДетализированногоАкта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Опции для детализированного акта (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Scan_ОпцииДляДетализированногоАкта.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Scan_ОпцииДляДетализированногоАкта.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Scan_ОпцииДляДетализированногоАкта.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.Scan_ОпцииДляДетализированногоАкта.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.Scan_ОпцииДляДетализированногоАкта.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="3ed6abff-fe88-4d93-af21-0ebcf5dd0641">
+    <name>ПредставлениеДляДетализированногоАкта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление для дет. акта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f2e3f53c-0e77-41b8-a85c-12c908bdb12d">
+    <name>ИспользоватьВДетализированномАкте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать в дет. акте</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="44660fe2-a1b0-46e3-9020-56062807d15b">
+    <name>ПорядковыйНомерВДетализированномАкте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядковый номер в дет. акте</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="99145797-21f4-4d5c-8d12-c21103aa2eda">
+    <name>ПорядковыйНомерГруппыВДетализированномАкте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядковый номер группы в дет. акте</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolder</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="21ab6e32-4174-4b52-b0bd-45d75f53eb32">
+    <name>ИсключитьОпции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключить опции</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bdc0aee0-4270-43a4-a04e-dec7c4eeb1f4">
+    <name>ВключаетОпции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включает опции</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3826822d-53d1-46b3-9183-fefe23a5d526">
+    <name>БезОпций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без опций</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="85874929-e4a2-4f04-b79e-6316c9c3d0b5">
+    <producedTypes>
+      <objectType typeId="5258642b-3499-4d88-a582-9949693931b2" valueTypeId="647fd57d-e485-41b1-a606-72a7accfed5f"/>
+      <rowType typeId="748ea9b1-f3fd-46b9-9b15-fd458e9ed00a" valueTypeId="51744472-1e44-4d79-8780-f48f9d6c9192"/>
+    </producedTypes>
+    <name>Опции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опции</value>
+    </synonym>
+    <attributes uuid="32c7bea1-165f-4c69-87f3-162968674d15">
+      <name>Опция</name>
+      <synonym>
+        <key>ru</key>
+        <value>Опция</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_ОпцииПродуктов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="f2f97c52-27db-4bfe-8de3-2fb18ad1675f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="34d57472-3ded-4dbe-a556-bde96173bb8d">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f3bf85da-c404-463e-a07d-adad373cc926">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

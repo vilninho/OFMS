@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4c1ae85-5581-42b6-98d8-cda5c792bd19">
+  <producedTypes>
+    <refType typeId="ce5e0dea-3863-4b20-836e-6236ca54fc48" valueTypeId="8c0dd6dd-0223-4163-85a7-e8ae76be0ba5"/>
+    <listType typeId="12880615-8b3c-4126-a73c-150938df6e08" valueTypeId="8ac7a818-fd54-49d3-b49d-d8ba1c3b28dc"/>
+    <managerType typeId="866b7415-94b0-4ab5-8f07-6e2c561c8473" valueTypeId="93d70d5e-ddc8-4f1b-86e1-4410de08fb7d"/>
+  </producedTypes>
+  <name>Scan_ТипыСтатусовЗаявки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы статусов заявки (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Types of Application Statuses</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6520286b-f7a5-4b83-93b4-517e511d3704">
+    <name>Normal</name>
+    <synonym>
+      <key>ru</key>
+      <value>Normal</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Normal</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3a6de3f1-c36d-47e2-9812-d4b7cd837996">
+    <name>Urgent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Urgent</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Urgent</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

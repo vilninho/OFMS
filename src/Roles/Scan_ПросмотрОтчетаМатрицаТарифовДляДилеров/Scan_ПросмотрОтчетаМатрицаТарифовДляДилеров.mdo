@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73059834-251f-46e0-8514-8a43ab843d95">
+  <name>Scan_ПросмотрОтчетаМатрицаТарифовДляДилеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр отчета Матрица тарифов для дилеров (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Просмотр отчета Матрица тарифов для дилеров (scania)</value>
+  </synonym>
+</mdclass:Role>

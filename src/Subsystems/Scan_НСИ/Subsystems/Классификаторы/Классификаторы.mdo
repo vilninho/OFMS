@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c55a4915-5dfa-4125-b271-524f1134fbf4">
+  <name>Классификаторы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классификаторы</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Classifiers</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Валюты</content>
+  <parentSubsystem>Subsystem.Scan_НСИ</parentSubsystem>
+</mdclass:Subsystem>

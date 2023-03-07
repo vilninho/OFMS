@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62a9f066-2167-4bd7-86e0-20851ca60771">
+  <name>Scan_ДопРаботыИДоукомплектование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доп работы и доукомплектование</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Доп работы и доукомплектование</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

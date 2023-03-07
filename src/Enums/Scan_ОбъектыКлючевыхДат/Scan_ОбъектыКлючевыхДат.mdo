@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94ed9d40-f38a-49ac-8ba1-62178fc824f4">
+  <producedTypes>
+    <refType typeId="031f5f0f-c247-46fe-b008-93c7f5043268" valueTypeId="18fa0207-496e-4acd-b1a6-6cde04f41b25"/>
+    <listType typeId="272e10f6-873b-48a1-8d6a-faf330397251" valueTypeId="ee6ae010-5ff1-4618-9b02-f3de063b12a3"/>
+    <managerType typeId="440407bd-4837-461c-94e0-9baccd6392b5" valueTypeId="accb3f05-8b22-4ebf-9e30-3bb2fe891c3a"/>
+  </producedTypes>
+  <name>Scan_ОбъектыКлючевыхДат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты ключевых дат (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Key dates objects</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="80ac3d7d-1641-4836-ab2e-712dfb8e35fe">
+    <name>ЗаказНаЗавод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ на завод</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Order to delivery (Factory order)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="212f4ddb-897d-438b-b5da-6bbab8488f14">
+    <name>Изделие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукт</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Chassis</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eedd61cc-f214-4cec-97df-9f373ba008df">
+    <name>ЗаказНаЗакупку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ на закупку</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Purchase order</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

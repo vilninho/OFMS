@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bded704b-b97c-4870-87d7-883ff549c49a">
+  <producedTypes>
+    <objectType typeId="9888ba87-8fae-4fdd-9477-e8705e95f8ce" valueTypeId="4447b7b7-b54d-48c2-8d60-662807d7418f"/>
+    <refType typeId="950b6cde-21e3-4499-b001-8dd1c017deb8" valueTypeId="cd8def2f-8aef-4508-8804-c9a78b936687"/>
+    <selectionType typeId="f5efb597-c74a-4870-aadc-4c8c9614f2bd" valueTypeId="6fdbf1e9-74bd-4692-826d-6ad0340074d5"/>
+    <listType typeId="adaeb53d-0e22-4e59-9cd8-02051d52b11e" valueTypeId="1851ab5b-cafb-40d3-b6c0-43ac9f7e532f"/>
+    <managerType typeId="bda8f299-7b8b-4a83-8e4a-decefc06f7b7" valueTypeId="bc997fa7-777f-4b8c-b6e8-d5b42db48d08"/>
+  </producedTypes>
+  <name>Scan_ДвижениеИзделий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движение продуктов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Движение продуктов</value>
+  </synonym>
+  <comment>Движение продуктов (scania)</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Scan_ДвижениеИзделий.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Scan_ДвижениеИзделий.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.Scan_ДвижениеИзделий.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.Scan_МестонахождениеИзделий</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="f488e728-f227-4529-8c0d-99cc74098371">
+    <name>МестоХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Место хранения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_МестаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5b6cfe91-7987-499e-8dc5-c688fbda8fba">
+    <name>ДатаПрихода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата прихода</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дата прихода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="061e0f74-3c17-48d8-8135-e074345bd387">
+    <name>НакладнаяТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер накладной из 1С:УТ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Consignment note number from 1C: UT</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>70</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="4dcfd0a3-41f2-4cef-b13e-97ac48aeaacd">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="061f603e-07c5-4509-90e1-a6ee902604e2">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="097cbd13-0401-4dcf-bd4e-11e441f0e029">
+    <producedTypes>
+      <objectType typeId="70359d82-aa0d-47a1-9e91-2072b229a292" valueTypeId="1a4e5405-5819-4f00-a452-22c93c8d01dc"/>
+      <rowType typeId="41a5d91a-ddc2-49c9-9d56-901d08ad2a9f" valueTypeId="5d99fc87-db62-4bf6-9900-eca60974d4ce"/>
+    </producedTypes>
+    <name>СоставЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав заявки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Состав заявки</value>
+    </synonym>
+    <attributes uuid="24c427ed-4b18-4a42-a831-4a254a38e5fd">
+      <name>Изделие</name>
+      <synonym>
+        <key>ru</key>
+        <value>Продукт</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Продукт</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_Изделия</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d8069333-0323-4da9-abb3-924e56ef0315">
+      <name>ДатаПрихода</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата прихода</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Дата прихода</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="c0788f2a-dc0d-42ba-a833-71c7463b489f">
+    <name>ЗагрузкаИзФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка из файла</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Загрузка из файла</value>
+    </synonym>
+  </templates>
+</mdclass:Document>

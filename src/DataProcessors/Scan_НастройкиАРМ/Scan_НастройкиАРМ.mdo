@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99d68201-729b-4c97-a9f9-0f1ede49dec9">
+  <producedTypes>
+    <objectType typeId="2abbcbda-1a0c-476d-a4ca-9d41f6ba9f26" valueTypeId="4a341285-62d7-4a01-aeeb-af7195f0f02f"/>
+    <managerType typeId="7215fddc-b15c-4efe-9914-33cefe5bccd3" valueTypeId="64dabca3-53da-4fec-91f9-d9ac54784dc0"/>
+  </producedTypes>
+  <name>Scan_НастройкиАРМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки АРМ (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Настройки АРМ (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Scan_НастройкиАРМ.Form.Форма</defaultForm>
+  <forms uuid="f11b4684-7f83-4fcf-846c-8c559baae6f5">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

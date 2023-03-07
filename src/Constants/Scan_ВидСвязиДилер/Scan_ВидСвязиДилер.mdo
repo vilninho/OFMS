@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f95757e-afd4-41e8-9a5e-b3a19a0e61d9">
+  <producedTypes>
+    <managerType typeId="40cf7b54-635e-49c0-8c68-02bf89d18888" valueTypeId="dea5df4a-bc85-4bb3-93f6-9224dbcfc065"/>
+    <valueManagerType typeId="c9240d23-6e03-4210-ae4f-affff38fc4e6" valueTypeId="2460ea34-0281-4cee-8865-5651a4ee2d47"/>
+    <valueKeyType typeId="3ef09223-1b30-58f4-ae5a-6a235d936bd2" valueTypeId="26c287a6-719d-5c02-842f-0efc98f98e6f"/>
+  </producedTypes>
+  <name>Scan_ВидСвязиДилер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид связи дилер (Scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Dealer matching type (Scania)</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Scan_ВидыВзаимодействий</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

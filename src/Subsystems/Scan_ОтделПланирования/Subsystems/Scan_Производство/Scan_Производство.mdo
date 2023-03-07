@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d976cb6-104e-4d48-b0a3-b39b60f0bb6e">
+  <name>Scan_Производство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производство</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Production</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Scan_ЗаводскиеСтатусыЗаказаНаЗавод</content>
+  <content>Enum.Scan_КлючевыеДаты</content>
+  <content>Enum.Scan_ОбъектыКлючевыхДат</content>
+  <content>InformationRegister.Scan_КлючевыеДатыПроцессов</content>
+  <content>Catalog.Scan_ТипыОпций</content>
+  <content>Catalog.Scan_ОпцииПродуктов</content>
+  <content>Catalog.Scan_ВидыСпецификацийПродуктов</content>
+  <content>Catalog.Scan_ДополнительныеПараметрыПродуктов</content>
+  <content>Catalog.Scan_ОпределяемыеПараметрыПоОпциямПродуктов</content>
+  <content>Catalog.Scan_ВерсииБазовыхСпецификаций</content>
+  <content>Catalog.Scan_СпецификацииПродуктов</content>
+  <content>InformationRegister.Scan_НастройкиКлючевыхДатЗаказаНаЗаводПоГруппамДат</content>
+  <content>Catalog.Scan_КонтролируемыеПараметрыЗаказаНаЗаводПриМониторинге</content>
+  <content>Catalog.Scan_ПредставленияСпецификаций</content>
+  <content>Catalog.Scan_ВидыПредставленийСпецификаций</content>
+  <content>Catalog.Scan_ИерархияОпцийПредставленийСпецификации</content>
+  <content>Catalog.Scan_ПричиныОтклоненийПоDD</content>
+  <parentSubsystem>Subsystem.Scan_ОтделПланирования</parentSubsystem>
+</mdclass:Subsystem>

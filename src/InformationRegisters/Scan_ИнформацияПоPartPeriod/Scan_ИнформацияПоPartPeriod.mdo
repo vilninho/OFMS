@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f691d110-c580-44d3-945f-3f01ee946e27">
+  <producedTypes>
+    <selectionType typeId="f82166fc-276b-4a5a-a5ec-3715ebd8605d" valueTypeId="9cfa34ad-3d36-4ca0-90f5-e81d6e9bcf6b"/>
+    <listType typeId="7cb613c1-fb2a-42af-ab8f-15de771da386" valueTypeId="00420c05-9196-4898-982e-3e67ba19cc7b"/>
+    <managerType typeId="2724ff7b-e0f9-4225-817e-89dadffe7bf9" valueTypeId="9b3fc44e-409f-472e-9f55-1cc57553c068"/>
+    <recordSetType typeId="e879be2e-485b-4469-af77-2465cddcb4ae" valueTypeId="9c0ecf3f-bf9e-4fa1-8145-0e9080e03caa"/>
+    <recordKeyType typeId="d8d6b5db-9e10-4978-ab64-f1831bb70a8b" valueTypeId="b94cc388-ebd1-4f35-b311-7b4ff806e190"/>
+    <recordType typeId="7f39ef42-ba78-46cd-b1ef-72e183416339" valueTypeId="d458ca29-5d6e-4a09-bffe-9eabb7f290a8"/>
+    <recordManagerType typeId="57fb1f52-1c76-424b-9448-7e5f74c23574" valueTypeId="2c07f9e5-e084-4b8a-96cf-52a00b7c38e8"/>
+  </producedTypes>
+  <name>Scan_ИнформацияПоPartPeriod</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информация по Part Period (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Information by Part Period (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.Scan_ИнформацияПоPartPeriod.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="23c90ada-305a-475b-9b5e-ed599f90be3b">
+    <name>КрайнийСрокРазмещенияЗаказаНаЗавод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Крайний срок размещения заказа на завод</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Specification Definite Date</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e535e2a5-d1cd-4d1c-aa6a-202396a80ca3">
+    <name>PartPeriod</name>
+    <synonym>
+      <key>ru</key>
+      <value>Part Period</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Part period</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>7</length>
+      </stringQualifiers>
+    </type>
+    <mask>99 99 9</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="258e22e5-3e61-4932-969d-abb3531a1ffe">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

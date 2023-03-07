@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcc57a21-39df-4b7c-b906-1befec0cac2b">
+  <producedTypes>
+    <objectType typeId="0a85eb6c-cd0c-4dd4-8efa-4cdb9c16c8c7" valueTypeId="c8a3744b-3641-496c-8c49-0fc15b40d79a"/>
+    <managerType typeId="6868becb-85ba-4d9f-83a5-2a6f2de5db10" valueTypeId="b1055626-a217-4a1b-876c-4bfa54e26bd8"/>
+  </producedTypes>
+  <name>Scan_ЗаполнениеТарифовДоставкиДляДилеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение тарифов доставки для дилеров (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Filling delivery rates for dealers (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Scan_ЗаполнениеТарифовДоставкиДляДилеров.Form.Форма</defaultForm>
+  <forms uuid="368e244e-0786-4e8a-a73e-2980778e94af">
+    <name>ФормаСтарая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма старая</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Old form</value>
+    </synonym>
+    <comment>10589</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7c575dc7-4208-48b1-9bb6-f911c2f92ffb">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

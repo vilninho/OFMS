@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef8378b1-2de7-4d08-ba0b-f0407ef17304">
+  <name>Scan_ДобавлениеИзменениеУстановкиПлановыхЦенПродуктаНеинтерактивное</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение Установки плановых цен продукта неинтерактивное (scania)</value>
+  </synonym>
+</mdclass:Role>

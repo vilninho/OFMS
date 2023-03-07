@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6edf4f1b-dd6f-49e2-a35b-f3a277da8133">
+  <name>Scan_ИсправлениеРасхожденийКлючевыхДат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исправление расхождений ключевых дат</value>
+  </synonym>
+  <comment>Устраняет расхождения значений ключевых дат в регистрах &quot;Ключевые даты процессов&quot; и &quot;Cводная информация по заказу и продукту&quot;</comment>
+  <methodName>CommonModule.Scan_РегламентныеЗадания.ИсправлениеРасхожденийКлючевыхДат</methodName>
+  <description>Исправление расхождений ключевых дат</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

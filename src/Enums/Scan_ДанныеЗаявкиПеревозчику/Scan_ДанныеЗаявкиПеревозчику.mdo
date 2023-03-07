@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="edbc9e66-d957-41ca-a82d-aecc670332dd">
+  <producedTypes>
+    <refType typeId="9b458e9c-df47-4860-b9e5-6f815a73e4d0" valueTypeId="2602576c-f4a3-4832-a36a-2de1fa1c1785"/>
+    <listType typeId="415b747c-ba87-43a3-bf5b-d535a78184a1" valueTypeId="b5088199-0044-4f64-b1e3-1be07f1f1782"/>
+    <managerType typeId="bc63ff8b-f45b-40ee-90b5-2a57bb35950f" valueTypeId="beeb2097-4a16-42a3-8807-e2775b21c6bf"/>
+  </producedTypes>
+  <name>Scan_ДанныеЗаявкиПеревозчику</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные заявки перевозчика</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Данные заявки перевозчика</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4a283043-530f-41f9-aeaf-c6e5fc33998a">
+    <name>ТЧДатаДоставкиПлан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть. Дата доставки (план)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Табличная часть. Дата доставки (план)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

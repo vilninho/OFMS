@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e63eb393-9894-41e3-a4b5-1bd53babe768">
+  <producedTypes>
+    <objectType typeId="cc2beb86-f639-45f8-9ae5-5e3d4c977d9c" valueTypeId="80d197af-3fb8-4005-876c-69a64b9c0fff"/>
+    <managerType typeId="40250a3e-5617-4921-8d93-895ff74c903d" valueTypeId="c8b856f7-61b3-434f-8179-0e62ab52a8b8"/>
+  </producedTypes>
+  <name>Scan_РММенеджераДепартаментаПродажАвтобусов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочее место менеджера департамента продаж автобусов (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Regional manager worplace (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Scan_РММенеджераДепартаментаПродажАвтобусов.Form.Форма</defaultForm>
+  <forms uuid="5a5d6dd1-17d1-44f5-90ef-0d3745ae6547">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

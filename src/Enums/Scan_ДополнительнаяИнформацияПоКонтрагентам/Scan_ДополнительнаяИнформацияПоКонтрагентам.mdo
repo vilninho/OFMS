@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73ca56ba-4011-4e67-96d3-cde834d401e5">
+  <producedTypes>
+    <refType typeId="508db76d-17a5-4144-8864-949942836605" valueTypeId="10e0a940-1117-4c5b-b6f5-860434a55145"/>
+    <listType typeId="bd63f747-4cbe-4650-88e5-367b425c61d7" valueTypeId="04345776-791c-423c-ad09-ad2d09bf95ec"/>
+    <managerType typeId="f68ef383-19a8-4a3a-ab7e-6b2167bdd69a" valueTypeId="e7be6693-3f30-4df1-9d6d-5d0e44a12edd"/>
+  </producedTypes>
+  <name>Scan_ДополнительнаяИнформацияПоКонтрагентам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительная информация по контрагентам (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Additional information on counterparties (scania)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a0e72c05-a537-4b15-8645-3302d4010908">
+    <name>IDExternalSystem</name>
+    <synonym>
+      <key>ru</key>
+      <value>IDExternalSystem</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>IDExternalSystem</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="63b4fda2-c06d-467f-995d-98482978f8a3">
+    <name>ГруппаJenty</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа jenty</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Group Jenty</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cb04d287-3083-40cc-9b61-c7622ef74dbb">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of renovation</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="48fd5e94-da6a-44e2-a631-f919517849cb">
+    <name>ИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИНН</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>TIN</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0b73c612-1e36-4314-a881-c38fb7e7d63b">
+    <name>КПП</name>
+    <synonym>
+      <key>ru</key>
+      <value>КПП</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Gearbox</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b5330657-d07c-4769-a879-bf8390ceec43">
+    <name>Кузовостроитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кузовостроитель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Body builder</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="10476266-037b-488e-a8a2-7f61a1030417">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Name</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f1472169-647b-4389-b278-4561a991099d">
+    <name>НаименованиеДоп</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование доп</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>NameDop</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="044165f6-ad0b-4568-beb3-55af901dd21c">
+    <name>НаименованиеОсн</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование осн</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Name Main</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cd35aeff-dd01-44f9-b80f-6f0b152a46bb">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование полное</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Full name</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="475414a3-fecb-43d5-aa3c-8422d2b711ba">
+    <name>НаименованиеПолноеДоп</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование полное доп</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Name Full dop</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2d32e943-ed4f-43fb-95ea-daf8e8d0ad0f">
+    <name>НаименованиеПолноеОсн</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование полное осн</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Name Full Main</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3554e94d-7ec0-4349-a0df-3d8ec1449d4f">
+    <name>НаименованиеСокращенноеДоп</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование сокращенное доп</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Name AbbreviatedAd</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ce22f41e-c283-41ed-886d-52379aaf0a21">
+    <name>ОКПО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОКПО</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>OKPO</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1394e912-80f5-4544-af52-e88a090136c9">
+    <name>ОсновнойДоговорКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной договор контрагента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The main contract of the counterparty</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f9117bff-5781-47fb-9994-fee31dfede54">
+    <name>Резидент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резидент</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Resident</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c7259f1a-30a5-41ab-9702-67504d6d45ba">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>A comment</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8bf07da2-b446-4330-8309-e16cfa8c3995">
+    <name>Недействителен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Недействителен</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Not valid</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3898325d-cd71-4111-8d0a-b8d706b9c7ba">
+    <name>ДатаОкончанияДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания действия</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Expiration date</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

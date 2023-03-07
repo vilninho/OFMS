@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c739a22-2e7e-403c-a557-a31c482bef39">
+  <producedTypes>
+    <objectType typeId="83daab98-68a9-426d-881d-bf5d91d34498" valueTypeId="e666ef73-a4e8-4574-977b-89720b3efc23"/>
+    <managerType typeId="abc734e7-4543-416f-8e72-257e993f3d92" valueTypeId="cd3690a9-c731-4b35-9dcd-b97c2271f1cd"/>
+  </producedTypes>
+  <name>Scan_LeadTimeReport</name>
+  <synonym>
+    <key>ru</key>
+    <value>Lead Time Report (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Lead Time Report (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.Scan_LeadTimeReport.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.Scan_LeadTimeReport.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>Report.Scan_LeadTimeReport.Form.ФормаНастроекОтчета</defaultSettingsForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <forms uuid="c648118b-a58a-4a5e-874b-e7458310bb0d">
+    <name>ФормаНастроекОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек отчета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма настроек отчета</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6550048e-b049-48d9-9345-5ef7959e84a3">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="aa493bdf-51da-43ce-8497-91d59d90f2b3">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,1212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc293a37-bb1b-4f84-8b32-3815836fb9c8">
+  <producedTypes>
+    <objectType typeId="e8dd1b13-c4b0-465a-b9c4-223128449609" valueTypeId="f74a356e-8a13-40e9-b553-d2a3b675cf3e"/>
+    <refType typeId="4311cc64-aaab-4487-891a-1a6108d0dfd3" valueTypeId="aab8e9f8-30e6-477e-8bbb-e97398b99ad6"/>
+    <selectionType typeId="be148d91-a807-49c2-9fff-eaa30bd904ee" valueTypeId="4c065358-1474-45c0-8718-68f9b15a89d4"/>
+    <listType typeId="40ba18eb-68f5-40ac-8dd8-b2ae771dc0a4" valueTypeId="6aac4606-6f8d-4c0c-b8d0-8d3e519b786e"/>
+    <managerType typeId="3a63e2fe-424d-4398-851b-7b6b561e231c" valueTypeId="fc52ba2d-7e5e-4e12-ac78-d73e1ee76766"/>
+  </producedTypes>
+  <name>Scan_ЗаявкаНаДействие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявка на действие</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Заявка на действие</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Scan_ЗаявкаНаДействие.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Scan_ЗаявкаНаДействие.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.Scan_ЗаявкаНаДействие.Form.ФормаСписка</defaultListForm>
+  <registerRecords>InformationRegister.Scan_КорректировкаИнформацииПоЗаявкам</registerRecords>
+  <registerRecords>InformationRegister.Scan_РеестрОказанныхУслугДилеру</registerRecords>
+  <registerRecords>AccumulationRegister.Scan_ЗаявкиНаДействия</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="80310d73-d8ad-4512-afe4-9d05492c5cfe">
+    <name>СтатусЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус заявки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Статус заявки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_СтатусыЗаявокНаДействие</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f8d09143-567b-4d09-84c9-f39edeb4d516">
+    <name>ДатаДоставкиПлановая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата доставки (плановая)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дата доставки (плановая)</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="71669b0d-ae78-43d4-9dad-0a016d6fd765">
+    <name>Грузополучатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грузополучатель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Грузополучатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4268bf64-6acb-4bc7-82af-396d5fc04b88">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ДоговорыВзаиморасчетов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1467e6cd-8eb8-4bb6-86f5-2921306a3f28">
+    <name>МестоДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место доставки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Место доставки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_МестаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e10f1273-41b7-425b-958c-a2a8d2861771">
+    <name>ПриемВВыходныеИПраздничные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прием в выходные и праздничные</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Прием в выходные и праздничные</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cdce306b-893f-4632-be33-85a8a0bed53b">
+    <name>СпособДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ доставки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Способ доставки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Scan_СпособыДоставкиПродуктов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="621d45f4-eb1a-4666-9781-de60eaa9aaf6">
+    <name>ДатаПродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата продажи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дата продажи</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1ba06178-b9fd-43ec-8943-cac7c6ef81a6">
+    <name>ДатаВыкупа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выкупа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дата выкупа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="58ea7d9d-373d-4d1c-88eb-ea079f08b613">
+    <name>Подрядчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик услуг</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Поставщик услуг</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a2a4eb42-041b-4a25-9cda-4da14ec106e3">
+    <name>ДатаПередачиВПроизводство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата передачи в производство</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дата передачи в производство</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b14d3ab9-0ea6-4369-ac20-9b2a480a4022">
+    <name>ТребуетСогласования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требует согласования</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Требует согласования</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2cd0dbfd-368a-4fbc-93bd-4b641dd62516">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Scan_ЗаявкаНаДействие</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="17be5018-42b9-433a-b5aa-c81002d29248">
+    <name>Сторнирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сторнирован</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Сторнирован</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2c15f378-dd44-4204-bfc2-bf4d0c0411b0">
+    <name>Корректировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Корректировка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="359a1f3b-c247-406c-8a33-f3c2e0ef9fa0">
+    <name>ДоговорСПоставщиком</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор с поставщиком</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Договор с поставщиком</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ДоговорыВзаиморасчетов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bf8f78e8-8b9e-4a44-9489-a0ba0f53748c">
+    <name>ДатаИВремяПоручения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата и время поручения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дата и время поручения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d26e684f-ff7a-4436-9af8-c63b3c70c596">
+    <name>Хранитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранитель 2</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Хранитель 2</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f3bedc55-dee9-427b-be47-99af3722ae12">
+    <name>ПровереноАП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверено адм.продаж</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Проверено адм.продаж</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="327e1e95-7b2b-44ab-97cc-b0b991bd0b7b">
+    <name>ДатаПолучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата получения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дата получения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ae7ad794-50d6-4083-84f9-3b4d268b065c">
+    <name>МестоПолучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место получения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Место получения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_МестаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7bf106ca-0d54-454f-8fda-7f1a1b1d5d14">
+    <name>Грузоотправитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грузоотправитель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Грузоотправитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e8ef8f0b-46a9-4296-a09f-18478fb9d6ee">
+    <name>ПакетУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пакет услуг для дилера</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Пакет услуг для дилера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_ПакетыУслугДоставки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="289eab65-ddb1-4894-b81c-90acae6cbe41">
+    <name>ВыездСотрудникаОЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выезд сотрудника ОЛ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Выезд сотрудника ОЛ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="fea26524-6441-4b58-aa45-7a8f8006bb67">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d5996478-26bc-4ae5-8386-18dce83eab3c">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="43f716e6-ad18-4d66-a1b9-e9e286fea95a">
+    <name>ФормаНастроекПечати</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек печати</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма настроек печати</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="762d15ec-b9e3-4c8e-891c-1266c650e258">
+    <name>ФормаВыбораДатыМХ1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор даты составления МХ-1</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Выбор даты составления МХ-1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="4337ddfb-9e70-40b5-b03a-490422693e47">
+    <producedTypes>
+      <objectType typeId="db29478d-46c8-400c-b210-e3097a636561" valueTypeId="59661ee1-d1ed-442b-8cb0-b80aa2140934"/>
+      <rowType typeId="fd7af306-866f-4216-89c0-7862a756a5c7" valueTypeId="11b3154d-b259-4a3a-a13b-84b1f78e6b37"/>
+    </producedTypes>
+    <name>КонтактныеЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактные лица</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Контактные лица</value>
+    </synonym>
+    <attributes uuid="5c0441ad-30f4-4b69-a503-75ad35998cf4">
+      <name>КонтактноеЛицо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контактное лицо</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Контактное лицо</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_КонтактныеЛица</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d18a3c30-86a2-4119-a4a3-9fce563ff916">
+      <name>ВидКонтактнойИнформации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид контактной информации</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Вид контактной информации</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыКонтактнойИнформации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5163baf5-66ff-4e16-84ed-c7c8974d7b5b">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Представление</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="b5b394db-44e1-4110-8eb3-4128908fa8c9">
+    <producedTypes>
+      <objectType typeId="fc69a2ff-87e7-4260-b639-582f9b59bed9" valueTypeId="0d203383-1664-404a-bc75-011c5d289bd0"/>
+      <rowType typeId="d43c5731-5ed1-4956-8c90-da6009683eb8" valueTypeId="8b932987-c067-4295-a0ea-6d3f6ad469b1"/>
+    </producedTypes>
+    <name>ПродуктыПоЗаявке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукты по заявке</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Продукты по заявке</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="0a8467bb-0bf9-46c4-9780-637d7c13fe1e">
+      <name>Изделие</name>
+      <synonym>
+        <key>ru</key>
+        <value>Продукт</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Продукт</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_Изделия</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="f31895fb-0d7c-4cfd-b615-d6598e1879ce">
+    <producedTypes>
+      <objectType typeId="65294e3b-d4ea-430a-a233-a3141377b127" valueTypeId="000e747b-46f8-4bfd-9af8-0d2a1daf21c4"/>
+      <rowType typeId="646c3e0f-8c2f-4b1a-b14b-590993b0787b" valueTypeId="66a5a97a-83fb-4008-9847-2f8c63210fe7"/>
+    </producedTypes>
+    <name>ОказанныеУслуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оказанные услуги</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Оказанные услуги</value>
+    </synonym>
+    <attributes uuid="41310bb1-7b3e-4b3b-9954-0796b8084803">
+      <name>Изделие</name>
+      <synonym>
+        <key>ru</key>
+        <value>Продукт</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Продукт</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Scan_Изделия</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d6cb426e-8447-466c-80cc-12d514f3cc10">
+      <name>Стоимость</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стоимость</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Стоимость</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="75097ce9-ff31-41ff-a7b5-bb428d000595">
+    <name>ПФ_MXL_Тест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка на действие (ПФ_MXL_тест)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Заявка на действие (ПФ_MXL_тест)</value>
+    </synonym>
+  </templates>
+  <templates uuid="9ca3bde5-a094-42fb-8ba3-efd4f142e0a1">
+    <name>ПФ_MXL_ПокупкаУПоставщикаИПередачаТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупка у поставщика и передача ТК</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Покупка у поставщика и передача ТК</value>
+    </synonym>
+  </templates>
+  <templates uuid="9b9c16dc-b8da-4c3f-ab44-fe1283a0ceb4">
+    <name>ПФ_MXL_ПокупкаУПоставщикаИПродажаТретьемуЛицу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупка у поставщика и продажа 3-му лицу</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Покупка у поставщика и продажа 3-му лицу</value>
+    </synonym>
+  </templates>
+  <templates uuid="a049f750-df56-48bc-98d2-fc6654f60699">
+    <name>ПФ_MXL_ПокупкаУПоставщикаПродажаТретьемуЛицуИПередачаТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупка у поставщика, продажа 3-му лицу и передача ТК</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Покупка у поставщика, продажа 3-му лицу и передача ТК</value>
+    </synonym>
+  </templates>
+  <templates uuid="8508f3fa-438d-4ff3-b8c0-afe5e3b70e11">
+    <name>ПФ_MXL_ПокупкаУПоставщикаСПостановкойНаХранение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупка у поставщика с постановкой на хранение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Покупка у поставщика с постановкой на хранение</value>
+    </synonym>
+  </templates>
+  <templates uuid="864ba414-4e23-428f-ad91-aabf196c2aca">
+    <name>ПФ_MXL_ПостановкаНаХранение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Постановка на хранение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Постановка на хранение</value>
+    </synonym>
+  </templates>
+  <templates uuid="861a0982-5245-4b5a-a8ea-b706d37211fb">
+    <name>ПФ_MXL_СнятиеСХраненияИПередачаТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снятие с хранения и передача ТК</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Снятие с хранения и передача ТК</value>
+    </synonym>
+  </templates>
+  <templates uuid="d0c94d23-0921-4400-a742-42abd250f378">
+    <name>ПФ_MXL_СнятиеСХраненияИПродажаТретьемуЛицу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снятие с хранения и продажа 3-му лицу</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Снятие с хранения и продажа 3-му лицу</value>
+    </synonym>
+  </templates>
+  <templates uuid="fa3ea53a-0f4a-4640-892e-734b5798474d">
+    <name>ПФ_MXL_СнятиеСХраненияПродажаТретьемуЛицуИПередачаТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снятие с хранения, продажа 3-му лицу и передача ТК</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Снятие с хранения, продажа 3-му лицу и передача ТК</value>
+    </synonym>
+  </templates>
+  <templates uuid="6880bec7-c3e9-4559-bc85-868e5fc0617c">
+    <name>ПФ_MXL_СнятиеСХраненияИПередачаВПроизводство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снятие с хранения и передача в производство</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Снятие с хранения и передача в производство</value>
+    </synonym>
+  </templates>
+  <templates uuid="e027c467-a236-4a2d-8c78-dbb317713d98">
+    <name>ПФ_MXL_ПередачаВПроизводство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передача в производство</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Передача в производство</value>
+    </synonym>
+  </templates>
+  <templates uuid="5a19255f-eedb-424f-b8e5-241255ba5ab4">
+    <name>ПФ_MXL_СнятиеСХраненияИПередачаНаХранениеТретьемуЛицу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снятие с хранения и передача на хранение 3-му лицу</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Снятие с хранения и передача на хранение 3-му лицу</value>
+    </synonym>
+  </templates>
+  <templates uuid="46f4686c-0f44-454b-9b01-943907b3ead4">
+    <name>ПФ_MXL_ПокупкаУПоставщикаИПередачаНаХранениеТретьемуЛицу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупка у поставщика и передача на хранение 3-му лицу</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Покупка у поставщика и передача на хранение 3-му лицу</value>
+    </synonym>
+  </templates>
+  <templates uuid="6e962ee5-9973-4885-9b05-c71eb1e0af0f">
+    <name>М15</name>
+    <synonym>
+      <key>ru</key>
+      <value>М-15</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>М-15</value>
+    </synonym>
+    <comment>Печатная форма накладной на отпуск материалов на сторону</comment>
+  </templates>
+  <templates uuid="7be66750-8861-470f-8e3f-c64a3e4c23d0">
+    <name>МХ3</name>
+    <synonym>
+      <key>ru</key>
+      <value>МХ-3</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>МХ-3</value>
+    </synonym>
+  </templates>
+  <templates uuid="0203f992-5848-410e-8137-8aab16aa26e6">
+    <name>МХ1</name>
+    <synonym>
+      <key>ru</key>
+      <value>МХ-1</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>МХ-1</value>
+    </synonym>
+  </templates>
+  <commands uuid="937df0ed-3bb3-4135-884f-7030b4d3da30">
+    <name>Печать_ПокупкаУПоставщикаИПередачаТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупка у поставщика и передача ТК</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Покупка у поставщика и передача ТК</value>
+    </synonym>
+    <group>CommandGroup.Печать</group>
+    <commandParameterType>
+      <types>DocumentRef.Scan_ЗаявкаНаДействие</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Print</picture>
+    </picture>
+  </commands>
+  <commands uuid="f5fdecb5-8e47-42e8-8332-e01bbd3f1091">
+    <name>Печать_ПокупкаУПоставщикаИПродажаТретьемуЛицу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупка у поставщика и продажа 3-му лицу</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Покупка у поставщика и продажа 3-му лицу</value>
+    </synonym>
+    <group>CommandGroup.Печать</group>
+    <commandParameterType>
+      <types>DocumentRef.Scan_ЗаявкаНаДействие</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Print</picture>
+    </picture>
+  </commands>
+  <commands uuid="a19bba0a-0094-4b13-b968-a7c347a6d0d6">
+    <name>Печать_ПокупкаУПоставщикаПродажаТретьемуЛицуИПередачаТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупка у поставщика, продажа 3-му лицу и передача ТК</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Покупка у поставщика, продажа 3-му лицу и передача ТК</value>
+    </synonym>
+    <group>CommandGroup.Печать</group>
+    <commandParameterType>
+      <types>DocumentRef.Scan_ЗаявкаНаДействие</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Print</picture>
+    </picture>
+  </commands>
+  <commands uuid="b954bb42-a0b6-4f81-a08e-bef131f58579">
+    <name>Печать_ПокупкаУПоставщикаСПостановкойНаХранение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупка у поставщика с постановкой на хранение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Покупка у поставщика с постановкой на хранение</value>
+    </synonym>
+    <group>CommandGroup.Печать</group>
+    <commandParameterType>
+      <types>DocumentRef.Scan_ЗаявкаНаДействие</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Print</picture>
+    </picture>
+  </commands>
+  <commands uuid="90f66724-90b3-4f63-8e58-8a3843d7e9b8">
+    <name>Печать_ПостановкаНаХранение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Постановка на хранение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Постановка на хранение</value>
+    </synonym>
+    <group>CommandGroup.Печать</group>
+    <commandParameterType>
+      <types>DocumentRef.Scan_ЗаявкаНаДействие</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Print</picture>
+    </picture>
+  </commands>
+  <commands uuid="ef5721bd-07dd-4f03-95ad-edc7fccf1bcb">
+    <name>Печать_СнятиеСХраненияИПередачаТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снятие с хранения и передача ТК</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Снятие с хранения и передача ТК</value>
+    </synonym>
+    <group>CommandGroup.Печать</group>
+    <commandParameterType>
+      <types>DocumentRef.Scan_ЗаявкаНаДействие</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Print</picture>
+    </picture>
+  </commands>
+  <commands uuid="59b63428-9b46-4ede-9ade-4bb0a5c6e337">
+    <name>Печать_СнятиеСХраненияИПродажаТретьемуЛицу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снятие с хранения и продажа 3-му лицу</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Снятие с хранения и продажа 3-му лицу</value>
+    </synonym>
+    <group>CommandGroup.Печать</group>
+    <commandParameterType>
+      <types>DocumentRef.Scan_ЗаявкаНаДействие</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Print</picture>
+    </picture>
+  </commands>
+  <commands uuid="d814a08e-4658-48bc-b1e4-4531b8e0f9fc">
+    <name>Печать_СнятиеСХраненияПродажаТретьемуЛицуИПередачаТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снятие с хранения, продажа 3-му лицу и передача ТК</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Снятие с хранения, продажа 3-му лицу и передача ТК</value>
+    </synonym>
+    <group>CommandGroup.Печать</group>
+    <commandParameterType>
+      <types>DocumentRef.Scan_ЗаявкаНаДействие</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Print</picture>
+    </picture>
+  </commands>
+  <commands uuid="dfa437b8-b688-4e1f-84d1-d28f52c8df35">
+    <name>Печать_СнятиеСХраненияИПередачаВПроизводство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снятие с хранения и передача в производство</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Снятие с хранения и передача в производство</value>
+    </synonym>
+    <group>CommandGroup.Печать</group>
+    <commandParameterType>
+      <types>DocumentRef.Scan_ЗаявкаНаДействие</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Print</picture>
+    </picture>
+  </commands>
+  <commands uuid="90e05a83-2ec7-4374-84f3-39c69a9a6656">
+    <name>Печать_ПередачаВПроизводство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передача в производство</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Передача в производство</value>
+    </synonym>
+    <group>CommandGroup.Печать</group>
+    <commandParameterType>
+      <types>DocumentRef.Scan_ЗаявкаНаДействие</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Print</picture>
+    </picture>
+  </commands>
+  <commands uuid="179009a0-020e-424b-811e-fd27202f6afb">
+    <name>Печать_СнятиеСХраненияИПередачаНаХранениеТретьемуЛицу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снятие с хранения и передача на хранение 3-му лицу</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Снятие с хранения и передача на хранение 3-му лицу</value>
+    </synonym>
+    <group>CommandGroup.Печать</group>
+    <commandParameterType>
+      <types>DocumentRef.Scan_ЗаявкаНаДействие</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Print</picture>
+    </picture>
+  </commands>
+  <commands uuid="e5c26843-c478-45e0-8ee7-fd6b394932ad">
+    <name>Печать_ПокупкаУПоставщикаИПередачаНаХранениеТретьемуЛицу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупка у поставщика и передача на хранение 3-му лицу</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Покупка у поставщика и передача на хранение 3-му лицу</value>
+    </synonym>
+    <group>CommandGroup.Печать</group>
+    <commandParameterType>
+      <types>DocumentRef.Scan_ЗаявкаНаДействие</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Print</picture>
+    </picture>
+  </commands>
+  <commands uuid="6e7e629f-343b-4ee8-a8d1-c091470154ff">
+    <name>Печать_М15</name>
+    <synonym>
+      <key>ru</key>
+      <value>М-15</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>М-15</value>
+    </synonym>
+    <group>CommandGroup.Печать</group>
+    <commandParameterType>
+      <types>DocumentRef.Scan_ЗаявкаНаДействие</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Print</picture>
+    </picture>
+  </commands>
+  <commands uuid="93de071b-42b4-41ac-8c74-dd3e6a4a1e36">
+    <name>Печать_МХ3</name>
+    <synonym>
+      <key>ru</key>
+      <value>МХ-3</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>МХ-3</value>
+    </synonym>
+    <group>CommandGroup.Печать</group>
+    <commandParameterType>
+      <types>DocumentRef.Scan_ЗаявкаНаДействие</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Print</picture>
+    </picture>
+  </commands>
+  <commands uuid="a9bee24a-b2b0-4e78-bd36-a6846f72ec39">
+    <name>Печать_МХ1</name>
+    <synonym>
+      <key>ru</key>
+      <value>МХ-1</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>МХ-1</value>
+    </synonym>
+    <group>CommandGroup.Печать</group>
+    <commandParameterType>
+      <types>DocumentRef.Scan_ЗаявкаНаДействие</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Print</picture>
+    </picture>
+  </commands>
+  <commands uuid="aa393fe1-4338-4f37-9faa-92a594e8353d">
+    <name>Создать_ЗаявкаНаСервисныеРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка на сервисные работы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Заявка на сервисные работы</value>
+    </synonym>
+    <group>FormCommandBarCreateBasedOn</group>
+    <commandParameterType>
+      <types>DocumentRef.Scan_ЗаявкаНаДействие</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Document>

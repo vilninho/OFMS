@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73149d7b-2e6e-4246-b8a5-9eb39b8171f4">
+  <name>Scan_НастройкаКлючевыхДатПоПользователям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки отображения ключевых дат</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Key date display settings</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8fdc09e4-d642-4c0a-8a9c-6e6abd0d565b">
+  <producedTypes>
+    <selectionType typeId="e71a7ebd-af28-47fd-ba42-1995948df936" valueTypeId="dd7546a0-9827-4e12-b0ae-178743e5e06d"/>
+    <listType typeId="304c22f7-6ea3-43ad-9e59-613a5d490c16" valueTypeId="049ad4ee-6a57-4e15-9afd-e2cf1148065d"/>
+    <managerType typeId="f0f13880-8309-4d30-bde7-c67aebb831c3" valueTypeId="e1c30bf2-b186-4475-898e-c4e5fea862a1"/>
+    <recordSetType typeId="d0c6f861-f600-4d6b-b3f9-07d0e75d4eec" valueTypeId="2a745903-1b47-4e0f-8517-2dbbd926bb20"/>
+    <recordKeyType typeId="b51cf2cc-372b-450d-9a3b-9752ab598f6c" valueTypeId="b8d7f121-a6b5-419f-8b89-30b291fc0a37"/>
+    <recordType typeId="24e37582-4643-4774-9e7c-47b8852f9b4e" valueTypeId="1cf6b920-ca3b-4d3c-a53b-743172b472e6"/>
+    <recordManagerType typeId="27ccdfad-8924-4de5-8cc1-4f1756d4c521" valueTypeId="9eca413f-99ac-4c33-b90b-92e6875de4d8"/>
+  </producedTypes>
+  <name>Scan_КомпанииПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Компании пользователей (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.Scan_КомпанииПользователей.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="86e8ae9a-00a3-4ffc-9a81-f6243821f1be">
+    <name>ПользовательАвтор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="8292d942-4c2d-4376-9404-9ee53f8d8bf1">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a9f7cdef-4893-4434-90f1-dce2f0eba476">
+    <name>Компания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компания</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Scan_Компании</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3966d0b9-2f3d-4756-9547-e551ce74b11c">
+    <name>Основной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="6884431c-c1dd-4a70-9df7-e25c71600804">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

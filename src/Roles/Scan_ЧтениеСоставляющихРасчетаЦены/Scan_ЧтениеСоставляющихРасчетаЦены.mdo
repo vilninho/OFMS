@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad7cc4a0-059e-4226-8f9d-40feffce86ee">
+  <name>Scan_ЧтениеСоставляющихРасчетаЦены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение составляющих расчета цены (scania)</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f84325c5-0ce1-4d9a-b49f-9efbe816b50d">
+  <producedTypes>
+    <objectType typeId="950a0c7d-998a-4ce1-b1ba-846d0f0127a9" valueTypeId="184ce3b7-c63d-4082-915d-4e2c60d7b6f3"/>
+    <refType typeId="89bbd573-9baa-402f-8b3f-6f3866f23327" valueTypeId="196e84a7-d074-4742-8d7e-fe9641427008"/>
+    <selectionType typeId="361632d0-acaa-43af-9514-74a9d5eba650" valueTypeId="cb3e3744-51ed-4357-a1ed-8576fb69a122"/>
+    <listType typeId="9b8dff6e-dc84-4ea2-920e-735f9631642c" valueTypeId="6431c9b2-30b8-4d6d-91fe-9d06dab51ba4"/>
+    <managerType typeId="c2608b8f-fdf5-43c4-8a60-0efd509001f3" valueTypeId="d1e9b22b-c202-48ef-b3d3-05b8ee1b7729"/>
+  </producedTypes>
+  <name>Scan_УстановкаПланаПоОтгрузкам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка плана по отгрузкам (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Installation of Plan to deliveries (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Scan_УстановкаПланаПоОтгрузкам.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.Scan_УстановкаПланаПоОтгрузкам</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>en</key>
+    <value>Installation of Plan to deliveries (scania)</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>en</key>
+    <value>Installation of Plan to deliveries (scania)</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>en</key>
+    <value>Installation of Plan to deliveries (scania)</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>en</key>
+    <value>Installation of Plan to deliveries (scania)</value>
+  </extendedListPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Scan_УстановкаПланаПоОтгрузкам.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.Scan_УстановкаПланаПоОтгрузкам.Form.ФормаСписка</defaultListForm>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecords>InformationRegister.Scan_ПланПоDeliveriesReport</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="c1d83c82-1c66-45b4-b3e3-26078ef0a83e">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Scan_УстановкаПланаПоОтгрузкам</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cf7bcc1e-95db-4769-a6bc-cbf84a05a290">
+    <name>ГодПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год планирования</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Year of planning</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧЦ=4; ЧДЦ=0; ЧГ=</value>
+    </format>
+    <format>
+      <key>en</key>
+      <value>ЧЦ=4; ЧДЦ=0; ЧГ=</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧЦ=4; ЧДЦ=0; ЧГ=</value>
+    </editFormat>
+    <editFormat>
+      <key>en</key>
+      <value>ЧЦ=4; ЧДЦ=0; ЧГ=</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d08317b3-b2e1-4d79-9fd6-0fcff31b1341">
+    <name>ИтогоЗаМесяцcaptive</name>
+    <synonym>
+      <key>ru</key>
+      <value>Итого captive, за месяц</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Total captive, per month</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6ad4ae0c-82c8-4a9f-b370-7b18f22bd7b4">
+    <name>ИтогоЗаМесяцindependent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Итого independent, за месяц</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Total independent, per month</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d98bbf19-d08e-4675-8ddf-a4cb40dd8368">
+    <name>МесяцПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц планирования</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Planning month</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a2d1d2b5-f1d0-42a0-a31b-5d4f2e53a1cc">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="38035912-576d-4758-8b05-e9ca5d1958f1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

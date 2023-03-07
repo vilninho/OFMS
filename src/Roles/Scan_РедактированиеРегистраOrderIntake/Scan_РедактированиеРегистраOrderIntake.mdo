@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa677f4a-19b8-489e-95c9-cec97aba9af7">
+  <name>Scan_РедактированиеРегистраOrderIntake</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактирование регистра Order Intake (scania)</value>
+  </synonym>
+</mdclass:Role>

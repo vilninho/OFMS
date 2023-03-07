@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Изделие</dataPath>
+			<field>Изделие</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЦенаПоПрайсуИзСУ</dataPath>
+			<field>ЦенаПоПрайсуИзСУ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Цена по прайсу из СУ</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:VerticalAlign">Bottom</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаОдобренияСУ</dataPath>
+			<field>ДатаОдобренияСУ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата одобрения СУ</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДФ=dd.MM.yyyy</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дилер</dataPath>
+			<field>Дилер</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дилер</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаказНаЗавод</dataPath>
+			<field>ЗаказНаЗавод</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заказ на завод</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Продукт</dataPath>
+			<field>Продукт</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сегмент</dataPath>
+			<field>Сегмент</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сегмент</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КлиентКонтрагентИзСУ</dataPath>
+			<field>КлиентКонтрагентИзСУ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Клиент контрагент из СУ</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Шасси</dataPath>
+			<field>Шасси</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шасси</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Модель</dataPath>
+			<field>Модель</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Модель</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерSTD</dataPath>
+			<field>НомерSTD</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>№ STD</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЦенаНаДилераИзСУ</dataPath>
+			<field>ЦенаНаДилераИзСУ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Цена на дилера из СУ</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:VerticalAlign">Bottom</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЦенаНаКлиентаИзСУ</dataPath>
+			<field>ЦенаНаКлиентаИзСУ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Цена на клиента из СУ</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:VerticalAlign">Bottom</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КлиентКомпанияИзСУ</dataPath>
+			<field>КлиентКомпанияИзСУ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Клиент компания из СУ</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерСОП</dataPath>
+			<field>НомерСОП</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>№ СОП</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаСОП</dataPath>
+			<field>ДатаСОП</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата СОП</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">10</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">10</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СоставляющаяЦены</dataPath>
+			<field>СоставляющаяЦены</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЦенаПродажиПоСОПСНДС</dataPath>
+			<field>ЦенаПродажиПоСОПСНДС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Цена продажи по СОП с НДС</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:VerticalAlign">Bottom</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаПродажи</dataPath>
+			<field>ДатаПродажи</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата продажи</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">10</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">10</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЦенаПродажиДилеруСНДС</dataPath>
+			<field>ЦенаПродажиДилеруСНДС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Цена продажи дилеру с НДС</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:VerticalAlign">Bottom</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">10</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">10</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РегиональныйМенеджер</dataPath>
+			<field>РегиональныйМенеджер</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Региональный менеджер</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СУ</dataPath>
+			<field>СУ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>№ СУ</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ГруппаКомпаний</dataPath>
+			<field>ГруппаКомпаний</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа компаний</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Продан</dataPath>
+			<field>Продан</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продан</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Заявка</dataPath>
+			<field>Заявка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заявка</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	Scan_ЗакреплениеМенеджеровЗаДилерамиСрезПоследних.Менеджер КАК РегиональныйМенеджер,
+	Scan_СоставСоглашенийОПоставкеСрезПоследних.Изделие КАК Продукт,
+	Scan_СоставСоглашенийОПоставкеСрезПоследних.Изделие.СегментРынкаПродуктов КАК Сегмент,
+	Scan_СоставСоглашенийОПоставкеСрезПоследних.Изделие.ЗаказНаЗавод КАК ЗаказНаЗавод,
+	Scan_СоставСоглашенийОПоставкеСрезПоследних.Изделие.НомерИзделия КАК Шасси,
+	Scan_СоставСоглашенийОПоставкеСрезПоследних.Изделие.МодельПродукта КАК Модель,
+	Scan_СоставСоглашенийОПоставкеСрезПоследних.Изделие.СтандартнаяСпецификация.НомерСпецификации КАК НомерSTD,
+	Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке.Дилер.ГруппыКомпаний КАК ГруппаКомпаний,
+	Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке.Дилер КАК Дилер,
+	Scan_СоглашенияОПоставкеСписокПродуктов.СпециальныеУсловия КАК СУ,
+	МАКСИМУМ(Scan_ИсторияСтатусовСоглашенийОПоставкеИСпециальныхУсловий.Период) КАК ДатаОдобренияСУ,
+	Scan_СоглашенияОПоставкеСписокПродуктов.СпециальныеУсловия.ПрайсDealerNet КАК ЦенаПоПрайсуИзСУ,
+	Scan_СоглашенияОПоставкеСписокПродуктов.СпециальныеУсловия.СпецDealerNet КАК ЦенаНаДилераИзСУ,
+	Scan_СоглашенияОПоставкеСписокПродуктов.СпециальныеУсловия.СпецCustomerPrice КАК ЦенаНаКлиентаИзСУ,
+	Scan_СоглашенияОПоставкеСписокПродуктов.СпециальныеУсловия.КонечныйКлиентКомпания КАК КлиентКомпанияИзСУ,
+	Scan_СоглашенияОПоставкеСписокПродуктов.СпециальныеУсловия.КонечныйКлиент КАК КлиентКонтрагентИзСУ,
+	Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке.Договор.НомерДоговора КАК НомерСОП,
+	Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке.Договор.ДатаНачала КАК ДатаСОП,
+	Scan_ПлановыеЗначенияСоставляющихЦеныПродуктаСрезПоследнихБазоваяЦена.ЦенаСНДС КАК ЦенаПродажиПоСОПСНДС,
+	ВЫБОР
+		КОГДА Scan_СоставСоглашенийОПоставкеСрезПоследних.Изделие.БУ
+			ТОГДА ВЫБОР
+					КОГДА Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке.Дилер.ВидДилера = ЗНАЧЕНИЕ(Перечисление.Scan_ВидыДилеров.Собственный)
+						ТОГДА Scan_СводнаяИнформацияПоПродукту.ДатаПродажиБУКлиенту
+					ИНАЧЕ Scan_СводнаяИнформацияПоПродукту.ДатаПродажиБУДилеру
+				КОНЕЦ
+		ИНАЧЕ ВЫБОР
+				КОГДА Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке.Дилер.ВидДилера = ЗНАЧЕНИЕ(Перечисление.Scan_ВидыДилеров.Собственный)
+					ТОГДА Scan_СводнаяИнформацияПоПродукту.ДатаПродажиКлиенту
+				ИНАЧЕ Scan_СводнаяИнформацияПоПродукту.ДатаПродажиИзделия
+			КОНЕЦ
+	КОНЕЦ КАК ДатаПродажи,
+	Scan_ПлановыеЗначенияСоставляющихЦеныПродуктаСрезПоследнихИтоговаяЦена.ЦенаСНДС КАК ЦенаПродажиДилеруСНДС,
+	ВЫБОР
+		КОГДА Scan_СоставСоглашенийОПоставкеСрезПоследних.Изделие.БУ
+			ТОГДА ВЫБОР
+					КОГДА Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке.Дилер.ВидДилера = ЗНАЧЕНИЕ(Перечисление.Scan_ВидыДилеров.Собственный)
+						ТОГДА Scan_СводнаяИнформацияПоПродукту.ДатаПродажиБУКлиенту &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)
+					ИНАЧЕ Scan_СводнаяИнформацияПоПродукту.ДатаПродажиБУДилеру &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)
+				КОНЕЦ
+		ИНАЧЕ ВЫБОР
+				КОГДА Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке.Дилер.ВидДилера = ЗНАЧЕНИЕ(Перечисление.Scan_ВидыДилеров.Собственный)
+					ТОГДА Scan_СводнаяИнформацияПоПродукту.ДатаПродажиКлиенту &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)
+				ИНАЧЕ Scan_СводнаяИнформацияПоПродукту.ДатаПродажиИзделия &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)
+			КОНЕЦ
+	КОНЕЦ КАК Продан,
+	Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке КАК Заявка
+ИЗ
+	РегистрСведений.Scan_СоставСоглашенийОПоставке.СрезПоследних КАК Scan_СоставСоглашенийОПоставкеСрезПоследних
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.Scan_СоглашенияОПоставке.СписокПродуктов КАК Scan_СоглашенияОПоставкеСписокПродуктов
+			ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Scan_ИсторияСтатусовСоглашенийОПоставкеИСпециальныхУсловий КАК Scan_ИсторияСтатусовСоглашенийОПоставкеИСпециальныхУсловий
+			ПО Scan_СоглашенияОПоставкеСписокПродуктов.СпециальныеУсловия = Scan_ИсторияСтатусовСоглашенийОПоставкеИСпециальныхУсловий.ОбъектСтатуса
+				И (Scan_ИсторияСтатусовСоглашенийОПоставкеИСпециальныхУсловий.Статус = ЗНАЧЕНИЕ(Справочник.Scan_СтатусыСоглашенийОПоставкеИСпециальныхУсловий.ОдобреноНетВСОП))
+		ПО Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке = Scan_СоглашенияОПоставкеСписокПродуктов.Ссылка
+			И Scan_СоставСоглашенийОПоставкеСрезПоследних.Изделие = Scan_СоглашенияОПоставкеСписокПродуктов.Продукт
+			И (НЕ Scan_СоглашенияОПоставкеСписокПродуктов.СпециальныеУсловия = ЗНАЧЕНИЕ(Справочник.Scan_СпециальныеУсловия.ПустаяСсылка))
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Scan_ПлановыеЗначенияСоставляющихЦеныПродукта.СрезПоследних(, СоставляющаяЦены = ЗНАЧЕНИЕ(Справочник.Scan_СоставляющиеРасчетаЦеныПродуктов.ЦенаДилера)) КАК Scan_ПлановыеЗначенияСоставляющихЦеныПродуктаСрезПоследнихБазоваяЦена
+		ПО Scan_СоставСоглашенийОПоставкеСрезПоследних.Изделие = Scan_ПлановыеЗначенияСоставляющихЦеныПродуктаСрезПоследнихБазоваяЦена.Продукт
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Scan_СводнаяИнформацияПоПродукту КАК Scan_СводнаяИнформацияПоПродукту
+		ПО Scan_СоставСоглашенийОПоставкеСрезПоследних.Изделие = Scan_СводнаяИнформацияПоПродукту.Продукт
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Scan_ЗакреплениеМенеджеровЗаДилерами.СрезПоследних КАК Scan_ЗакреплениеМенеджеровЗаДилерамиСрезПоследних
+		ПО Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке.Дилер = Scan_ЗакреплениеМенеджеровЗаДилерамиСрезПоследних.Дилер
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Scan_ПлановыеЗначенияСоставляющихЦеныПродукта.СрезПоследних(, СоставляющаяЦены = ЗНАЧЕНИЕ(Справочник.Scan_СоставляющиеРасчетаЦеныПродуктов.ЦенаDealerNetСоСкидкой)) КАК Scan_ПлановыеЗначенияСоставляющихЦеныПродуктаСрезПоследнихИтоговаяЦена
+		ПО Scan_СоставСоглашенийОПоставкеСрезПоследних.Изделие = Scan_ПлановыеЗначенияСоставляющихЦеныПродуктаСрезПоследнихИтоговаяЦена.Продукт
+{ГДЕ
+	(Scan_ИсторияСтатусовСоглашенийОПоставкеИСпециальныхУсловий.Период &gt;= &amp;ДатаОдобренияСУНачало),
+	(Scan_ИсторияСтатусовСоглашенийОПоставкеИСпециальныхУсловий.Период &lt;= &amp;ДатаОдобренияСУКонец),
+	(ВЫБОР
+			КОГДА Scan_СоставСоглашенийОПоставкеСрезПоследних.Изделие.БУ
+				ТОГДА ВЫБОР
+						КОГДА Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке.Дилер.ВидДилера = ЗНАЧЕНИЕ(Перечисление.Scan_ВидыДилеров.Собственный)
+							ТОГДА Scan_СводнаяИнформацияПоПродукту.ДатаПродажиБУКлиенту
+						ИНАЧЕ Scan_СводнаяИнформацияПоПродукту.ДатаПродажиБУДилеру
+					КОНЕЦ
+			ИНАЧЕ ВЫБОР
+					КОГДА Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке.Дилер.ВидДилера = ЗНАЧЕНИЕ(Перечисление.Scan_ВидыДилеров.Собственный)
+						ТОГДА Scan_СводнаяИнформацияПоПродукту.ДатаПродажиКлиенту
+					ИНАЧЕ Scan_СводнаяИнформацияПоПродукту.ДатаПродажиИзделия
+				КОНЕЦ
+		КОНЕЦ &gt;= &amp;ДатаПродажиНачало),
+	(ВЫБОР
+			КОГДА Scan_СоставСоглашенийОПоставкеСрезПоследних.Изделие.БУ
+				ТОГДА ВЫБОР
+						КОГДА Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке.Дилер.ВидДилера = ЗНАЧЕНИЕ(Перечисление.Scan_ВидыДилеров.Собственный)
+							ТОГДА Scan_СводнаяИнформацияПоПродукту.ДатаПродажиБУКлиенту
+						ИНАЧЕ Scan_СводнаяИнформацияПоПродукту.ДатаПродажиБУДилеру
+					КОНЕЦ
+			ИНАЧЕ ВЫБОР
+					КОГДА Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке.Дилер.ВидДилера = ЗНАЧЕНИЕ(Перечисление.Scan_ВидыДилеров.Собственный)
+						ТОГДА Scan_СводнаяИнформацияПоПродукту.ДатаПродажиКлиенту
+					ИНАЧЕ Scan_СводнаяИнформацияПоПродукту.ДатаПродажиИзделия
+				КОНЕЦ
+		КОНЕЦ &lt;= &amp;ДатаПродажиКонец)}
+
+СГРУППИРОВАТЬ ПО
+	Scan_ЗакреплениеМенеджеровЗаДилерамиСрезПоследних.Менеджер,
+	Scan_СоставСоглашенийОПоставкеСрезПоследних.Изделие,
+	Scan_СоставСоглашенийОПоставкеСрезПоследних.Изделие.СегментРынкаПродуктов,
+	Scan_СоставСоглашенийОПоставкеСрезПоследних.Изделие.ЗаказНаЗавод,
+	Scan_СоставСоглашенийОПоставкеСрезПоследних.Изделие.НомерИзделия,
+	Scan_СоставСоглашенийОПоставкеСрезПоследних.Изделие.МодельПродукта,
+	Scan_СоставСоглашенийОПоставкеСрезПоследних.Изделие.СтандартнаяСпецификация.НомерСпецификации,
+	Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке.Дилер.ГруппыКомпаний,
+	Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке.Дилер,
+	Scan_СоглашенияОПоставкеСписокПродуктов.СпециальныеУсловия,
+	Scan_СоглашенияОПоставкеСписокПродуктов.СпециальныеУсловия.ПрайсDealerNet,
+	Scan_СоглашенияОПоставкеСписокПродуктов.СпециальныеУсловия.СпецDealerNet,
+	Scan_СоглашенияОПоставкеСписокПродуктов.СпециальныеУсловия.СпецCustomerPrice,
+	Scan_СоглашенияОПоставкеСписокПродуктов.СпециальныеУсловия.КонечныйКлиентКомпания,
+	Scan_СоглашенияОПоставкеСписокПродуктов.СпециальныеУсловия.КонечныйКлиент,
+	Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке.Договор.НомерДоговора,
+	Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке.Договор.ДатаНачала,
+	Scan_ПлановыеЗначенияСоставляющихЦеныПродуктаСрезПоследнихБазоваяЦена.ЦенаСНДС,
+	Scan_ПлановыеЗначенияСоставляющихЦеныПродуктаСрезПоследнихИтоговаяЦена.ЦенаСНДС,
+	ВЫБОР
+		КОГДА Scan_СоставСоглашенийОПоставкеСрезПоследних.Изделие.БУ
+			ТОГДА ВЫБОР
+					КОГДА Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке.Дилер.ВидДилера = ЗНАЧЕНИЕ(Перечисление.Scan_ВидыДилеров.Собственный)
+						ТОГДА Scan_СводнаяИнформацияПоПродукту.ДатаПродажиБУКлиенту
+					ИНАЧЕ Scan_СводнаяИнформацияПоПродукту.ДатаПродажиБУДилеру
+				КОНЕЦ
+		ИНАЧЕ ВЫБОР
+				КОГДА Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке.Дилер.ВидДилера = ЗНАЧЕНИЕ(Перечисление.Scan_ВидыДилеров.Собственный)
+					ТОГДА Scan_СводнаяИнформацияПоПродукту.ДатаПродажиКлиенту
+				ИНАЧЕ Scan_СводнаяИнформацияПоПродукту.ДатаПродажиИзделия
+			КОНЕЦ
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА Scan_СоставСоглашенийОПоставкеСрезПоследних.Изделие.БУ
+			ТОГДА ВЫБОР
+					КОГДА Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке.Дилер.ВидДилера = ЗНАЧЕНИЕ(Перечисление.Scan_ВидыДилеров.Собственный)
+						ТОГДА Scan_СводнаяИнформацияПоПродукту.ДатаПродажиБУКлиенту &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)
+					ИНАЧЕ Scan_СводнаяИнформацияПоПродукту.ДатаПродажиБУДилеру &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)
+				КОНЕЦ
+		ИНАЧЕ ВЫБОР
+				КОГДА Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке.Дилер.ВидДилера = ЗНАЧЕНИЕ(Перечисление.Scan_ВидыДилеров.Собственный)
+					ТОГДА Scan_СводнаяИнформацияПоПродукту.ДатаПродажиКлиенту &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)
+				ИНАЧЕ Scan_СводнаяИнформацияПоПродукту.ДатаПродажиИзделия &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)
+			КОНЕЦ
+	КОНЕЦ,
+	Scan_СоставСоглашенийОПоставкеСрезПоследних.СоглашениеОПоставке
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	Scan_ЗакреплениеМенеджеровЗаДилерамиСрезПоследних.Менеджер,
+	Scan_СоглашенияОПоставкеСписокПродуктов.Продукт,
+	Scan_СоглашенияОПоставкеСписокПродуктов.Продукт.СегментРынкаПродуктов,
+	Scan_СоглашенияОПоставкеСписокПродуктов.Продукт.ЗаказНаЗавод,
+	Scan_СоглашенияОПоставкеСписокПродуктов.Продукт.НомерИзделия,
+	Scan_СоглашенияОПоставкеСписокПродуктов.Продукт.МодельПродукта,
+	Scan_СоглашенияОПоставкеСписокПродуктов.Продукт.СтандартнаяСпецификация.НомерСпецификации,
+	Scan_СоглашенияОПоставкеСписокПродуктов.Ссылка.Дилер.ГруппыКомпаний,
+	Scan_СоглашенияОПоставкеСписокПродуктов.Ссылка.Дилер,
+	Scan_СоглашенияОПоставкеСписокПродуктов.СпециальныеУсловия,
+	МАКСИМУМ(Scan_ИсторияСтатусовСоглашенийОПоставкеИСпециальныхУсловий.Период),
+	Scan_СоглашенияОПоставкеСписокПродуктов.СпециальныеУсловия.ПрайсDealerNet,
+	Scan_СоглашенияОПоставкеСписокПродуктов.СпециальныеУсловия.СпецDealerNet,
+	Scan_СоглашенияОПоставкеСписокПродуктов.СпециальныеУсловия.СпецCustomerPrice,
+	Scan_СоглашенияОПоставкеСписокПродуктов.СпециальныеУсловия.КонечныйКлиентКомпания,
+	Scan_СоглашенияОПоставкеСписокПродуктов.СпециальныеУсловия.КонечныйКлиент,
+	Scan_СоглашенияОПоставкеСписокПродуктов.Ссылка.Договор.НомерДоговора,
+	Scan_СоглашенияОПоставкеСписокПродуктов.Ссылка.Договор.ДатаНачала,
+	0,
+	ВЫБОР
+		КОГДА Scan_СоглашенияОПоставкеСписокПродуктов.Продукт.БУ
+			ТОГДА ВЫБОР
+					КОГДА Scan_СоглашенияОПоставкеСписокПродуктов.Ссылка.Дилер.ВидДилера = ЗНАЧЕНИЕ(Перечисление.Scan_ВидыДилеров.Собственный)
+						ТОГДА Scan_СводнаяИнформацияПоПродукту.ДатаПродажиБУКлиенту
+					ИНАЧЕ Scan_СводнаяИнформацияПоПродукту.ДатаПродажиБУДилеру
+				КОНЕЦ
+		ИНАЧЕ ВЫБОР
+				КОГДА Scan_СоглашенияОПоставкеСписокПродуктов.Ссылка.Дилер.ВидДилера = ЗНАЧЕНИЕ(Перечисление.Scan_ВидыДилеров.Собственный)
+					ТОГДА Scan_СводнаяИнформацияПоПродукту.ДатаПродажиКлиенту
+				ИНАЧЕ Scan_СводнаяИнформацияПоПродукту.ДатаПродажиИзделия
+			КОНЕЦ
+	КОНЕЦ,
+	0,
+	ВЫБОР
+		КОГДА Scan_СоглашенияОПоставкеСписокПродуктов.Продукт.БУ
+			ТОГДА ВЫБОР
+					КОГДА Scan_СоглашенияОПоставкеСписокПродуктов.Ссылка.Дилер.ВидДилера = ЗНАЧЕНИЕ(Перечисление.Scan_ВидыДилеров.Собственный)
+						ТОГДА Scan_СводнаяИнформацияПоПродукту.ДатаПродажиБУКлиенту &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)
+					ИНАЧЕ Scan_СводнаяИнформацияПоПродукту.ДатаПродажиБУДилеру &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)
+				КОНЕЦ
+		ИНАЧЕ ВЫБОР
+				КОГДА Scan_СоглашенияОПоставкеСписокПродуктов.Ссылка.Дилер.ВидДилера = ЗНАЧЕНИЕ(Перечисление.Scan_ВидыДилеров.Собственный)
+					ТОГДА Scan_СводнаяИнформацияПоПродукту.ДатаПродажиКлиенту &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)
+				ИНАЧЕ Scan_СводнаяИнформацияПоПродукту.ДатаПродажиИзделия &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)
+			КОНЕЦ
+	КОНЕЦ,
+	Scan_СоглашенияОПоставкеСписокПродуктов.Ссылка
+ИЗ
+	Справочник.Scan_СоглашенияОПоставке.СписокПродуктов КАК Scan_СоглашенияОПоставкеСписокПродуктов
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Scan_ИсторияСтатусовСоглашенийОПоставкеИСпециальныхУсловий КАК Scan_ИсторияСтатусовСоглашенийОПоставкеИСпециальныхУсловий
+		ПО Scan_СоглашенияОПоставкеСписокПродуктов.СпециальныеУсловия = Scan_ИсторияСтатусовСоглашенийОПоставкеИСпециальныхУсловий.ОбъектСтатуса
+			И (Scan_ИсторияСтатусовСоглашенийОПоставкеИСпециальныхУсловий.Статус = ЗНАЧЕНИЕ(Справочник.Scan_СтатусыСоглашенийОПоставкеИСпециальныхУсловий.ОдобреноНетВСОП))
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Scan_СводнаяИнформацияПоПродукту КАК Scan_СводнаяИнформацияПоПродукту
+		ПО Scan_СоглашенияОПоставкеСписокПродуктов.Продукт = Scan_СводнаяИнформацияПоПродукту.Продукт
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Scan_ЗакреплениеМенеджеровЗаДилерами.СрезПоследних КАК Scan_ЗакреплениеМенеджеровЗаДилерамиСрезПоследних
+		ПО Scan_СоглашенияОПоставкеСписокПродуктов.Ссылка.Дилер = Scan_ЗакреплениеМенеджеровЗаДилерамиСрезПоследних.Дилер
+ГДЕ
+	Scan_СоглашенияОПоставкеСписокПродуктов.Ссылка.Статус = ЗНАЧЕНИЕ(Справочник.Scan_СтатусыСоглашенийОПоставкеИСпециальныхУсловий.ПроектЗаявкиНаСОП)
+	И НЕ Scan_СоглашенияОПоставкеСписокПродуктов.СпециальныеУсловия = ЗНАЧЕНИЕ(Справочник.Scan_СпециальныеУсловия.ПустаяСсылка)
+	И Scan_СоглашенияОПоставкеСписокПродуктов.Продукт ССЫЛКА Справочник.Scan_Изделия
+{ГДЕ
+	(Scan_ИсторияСтатусовСоглашенийОПоставкеИСпециальныхУсловий.Период &gt;= &amp;ДатаОдобренияСУНачало),
+	(Scan_ИсторияСтатусовСоглашенийОПоставкеИСпециальныхУсловий.Период &lt;= &amp;ДатаОдобренияСУКонец),
+	(ВЫБОР
+			КОГДА Scan_СоглашенияОПоставкеСписокПродуктов.Продукт.БУ
+				ТОГДА ВЫБОР
+						КОГДА Scan_СоглашенияОПоставкеСписокПродуктов.Ссылка.Дилер.ВидДилера = ЗНАЧЕНИЕ(Перечисление.Scan_ВидыДилеров.Собственный)
+							ТОГДА Scan_СводнаяИнформацияПоПродукту.ДатаПродажиБУКлиенту
+						ИНАЧЕ Scan_СводнаяИнформацияПоПродукту.ДатаПродажиБУДилеру
+					КОНЕЦ
+			ИНАЧЕ ВЫБОР
+					КОГДА Scan_СоглашенияОПоставкеСписокПродуктов.Ссылка.Дилер.ВидДилера = ЗНАЧЕНИЕ(Перечисление.Scan_ВидыДилеров.Собственный)
+						ТОГДА Scan_СводнаяИнформацияПоПродукту.ДатаПродажиКлиенту
+					ИНАЧЕ Scan_СводнаяИнформацияПоПродукту.ДатаПродажиИзделия
+				КОНЕЦ
+		КОНЕЦ &gt;= &amp;ДатаПродажиНачало),
+	(ВЫБОР
+			КОГДА Scan_СоглашенияОПоставкеСписокПродуктов.Продукт.БУ
+				ТОГДА ВЫБОР
+						КОГДА Scan_СоглашенияОПоставкеСписокПродуктов.Ссылка.Дилер.ВидДилера = ЗНАЧЕНИЕ(Перечисление.Scan_ВидыДилеров.Собственный)
+							ТОГДА Scan_СводнаяИнформацияПоПродукту.ДатаПродажиБУКлиенту
+						ИНАЧЕ Scan_СводнаяИнформацияПоПродукту.ДатаПродажиБУДилеру
+					КОНЕЦ
+			ИНАЧЕ ВЫБОР
+					КОГДА Scan_СоглашенияОПоставкеСписокПродуктов.Ссылка.Дилер.ВидДилера = ЗНАЧЕНИЕ(Перечисление.Scan_ВидыДилеров.Собственный)
+						ТОГДА Scan_СводнаяИнформацияПоПродукту.ДатаПродажиКлиенту
+					ИНАЧЕ Scan_СводнаяИнформацияПоПродукту.ДатаПродажиИзделия
+				КОНЕЦ
+		КОНЕЦ &lt;= &amp;ДатаПродажиКонец)}
+
+СГРУППИРОВАТЬ ПО
+	Scan_ЗакреплениеМенеджеровЗаДилерамиСрезПоследних.Менеджер,
+	Scan_СоглашенияОПоставкеСписокПродуктов.Продукт,
+	Scan_СоглашенияОПоставкеСписокПродуктов.Продукт.СегментРынкаПродуктов,
+	Scan_СоглашенияОПоставкеСписокПродуктов.Продукт.ЗаказНаЗавод,
+	Scan_СоглашенияОПоставкеСписокПродуктов.Продукт.НомерИзделия,
+	Scan_СоглашенияОПоставкеСписокПродуктов.Продукт.МодельПродукта,
+	Scan_СоглашенияОПоставкеСписокПродуктов.Продукт.СтандартнаяСпецификация.НомерСпецификации,
+	Scan_СоглашенияОПоставкеСписокПродуктов.Ссылка.Дилер.ГруппыКомпаний,
+	Scan_СоглашенияОПоставкеСписокПродуктов.Ссылка.Дилер,
+	Scan_СоглашенияОПоставкеСписокПродуктов.СпециальныеУсловия,
+	Scan_СоглашенияОПоставкеСписокПродуктов.СпециальныеУсловия.ПрайсDealerNet,
+	Scan_СоглашенияОПоставкеСписокПродуктов.СпециальныеУсловия.СпецDealerNet,
+	Scan_СоглашенияОПоставкеСписокПродуктов.СпециальныеУсловия.СпецCustomerPrice,
+	Scan_СоглашенияОПоставкеСписокПродуктов.СпециальныеУсловия.КонечныйКлиентКомпания,
+	Scan_СоглашенияОПоставкеСписокПродуктов.СпециальныеУсловия.КонечныйКлиент,
+	Scan_СоглашенияОПоставкеСписокПродуктов.Ссылка.Договор.НомерДоговора,
+	Scan_СоглашенияОПоставкеСписокПродуктов.Ссылка.Договор.ДатаНачала,
+	ВЫБОР
+		КОГДА Scan_СоглашенияОПоставкеСписокПродуктов.Продукт.БУ
+			ТОГДА ВЫБОР
+					КОГДА Scan_СоглашенияОПоставкеСписокПродуктов.Ссылка.Дилер.ВидДилера = ЗНАЧЕНИЕ(Перечисление.Scan_ВидыДилеров.Собственный)
+						ТОГДА Scan_СводнаяИнформацияПоПродукту.ДатаПродажиБУКлиенту
+					ИНАЧЕ Scan_СводнаяИнформацияПоПродукту.ДатаПродажиБУДилеру
+				КОНЕЦ
+		ИНАЧЕ ВЫБОР
+				КОГДА Scan_СоглашенияОПоставкеСписокПродуктов.Ссылка.Дилер.ВидДилера = ЗНАЧЕНИЕ(Перечисление.Scan_ВидыДилеров.Собственный)
+					ТОГДА Scan_СводнаяИнформацияПоПродукту.ДатаПродажиКлиенту
+				ИНАЧЕ Scan_СводнаяИнформацияПоПродукту.ДатаПродажиИзделия
+			КОНЕЦ
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА Scan_СоглашенияОПоставкеСписокПродуктов.Продукт.БУ
+			ТОГДА ВЫБОР
+					КОГДА Scan_СоглашенияОПоставкеСписокПродуктов.Ссылка.Дилер.ВидДилера = ЗНАЧЕНИЕ(Перечисление.Scan_ВидыДилеров.Собственный)
+						ТОГДА Scan_СводнаяИнформацияПоПродукту.ДатаПродажиБУКлиенту &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)
+					ИНАЧЕ Scan_СводнаяИнформацияПоПродукту.ДатаПродажиБУДилеру &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)
+				КОНЕЦ
+		ИНАЧЕ ВЫБОР
+				КОГДА Scan_СоглашенияОПоставкеСписокПродуктов.Ссылка.Дилер.ВидДилера = ЗНАЧЕНИЕ(Перечисление.Scan_ВидыДилеров.Собственный)
+					ТОГДА Scan_СводнаяИнформацияПоПродукту.ДатаПродажиКлиенту &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)
+				ИНАЧЕ Scan_СводнаяИнформацияПоПродукту.ДатаПродажиИзделия &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)
+			КОНЕЦ
+	КОНЕЦ,
+	Scan_СоглашенияОПоставкеСписокПродуктов.Ссылка</query>
+	</dataSet>
+	<totalField>
+		<dataPath>ЦенаПоПрайсуИзСУ</dataPath>
+		<expression>Сумма(ЦенаПоПрайсуИзСУ)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ЦенаНаДилераИзСУ</dataPath>
+		<expression>Сумма(ЦенаНаДилераИзСУ)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ЦенаНаКлиентаИзСУ</dataPath>
+		<expression>Сумма(ЦенаНаКлиентаИзСУ)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ЦенаПродажиПоСОПСНДС</dataPath>
+		<expression>Сумма(ЦенаПродажиПоСОПСНДС)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ЦенаПродажиДилеруСНДС</dataPath>
+		<expression>Сумма(ЦенаПродажиДилеруСНДС)</expression>
+	</totalField>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<denyIncompleteValues>true</denyIncompleteValues>
+	</parameter>
+	<parameter>
+		<name>ДатаПродажи</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата продажи</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ДатаПродажиНачало</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата продажи начало</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ДатаПродажи.ДатаНачала</expression>
+		<denyIncompleteValues>true</denyIncompleteValues>
+	</parameter>
+	<parameter>
+		<name>ДатаПродажиКонец</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата продажи конец</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ДатаПродажи.ДатаОкончания</expression>
+		<denyIncompleteValues>true</denyIncompleteValues>
+	</parameter>
+	<parameter>
+		<name>ДатаОдобренияСУ</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата одобрения СУ</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ДатаОдобренияСУНачало</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата одобрения СУНачало</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ДатаОдобренияСУ.ДатаНачала</expression>
+		<denyIncompleteValues>true</denyIncompleteValues>
+	</parameter>
+	<parameter>
+		<name>ДатаОдобренияСУКонец</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата одобрения СУКонец</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ДатаОдобренияСУ.ДатаОкончания</expression>
+		<denyIncompleteValues>true</denyIncompleteValues>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Продажи с применением СУ</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>РегиональныйМенеджер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Сегмент</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ГруппаКомпаний</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Дилер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СУ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗаказНаЗавод</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Шасси</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Модель</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НомерSTD</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаОдобренияСУ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЦенаПоПрайсуИзСУ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЦенаНаДилераИзСУ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЦенаНаКлиентаИзСУ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КлиентКомпанияИзСУ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КлиентКонтрагентИзСУ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НомерСОП</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаСОП</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЦенаПродажиПоСОПСНДС</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаПродажи</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЦенаПродажиДилеруСНДС</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Продукт</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>81b2ea41-c210-437a-95c0-fb3cdc5335a6</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ЗаказНаЗавод</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>ae9cde83-8f4d-42c7-8b22-5d7fee826df4</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">РегиональныйМенеджер</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>3071e8e5-1b8b-4182-aaee-c0e07798d60e</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ГруппаКомпаний</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>52344dee-b28f-4eae-81c8-29ab19368c33</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">СУ</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>8f18f6bc-3fdc-47c0-9a4a-c878d4180a72</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Продан</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+					<dcsset:userSettingID>332218fd-65d3-4e60-a8ff-a8774fdb8e80</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ДатаПродажи</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</dcscor:value>
+					<dcsset:userSettingID>a6570a01-0ab0-4e81-a69a-4265b3d48c2c</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ДатаОдобренияСУ</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</dcscor:value>
+					<dcsset:userSettingID>ac8d8dd3-c257-4784-bacd-8a4a39c802f6</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Море</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>РасположениеПолейГруппировки</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionGroupFieldsPlacement">Together</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьЗаголовок</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">Output</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Продажи с применением СУ</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>АвтоПозицияРесурсов</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionResourcesAutoPosition">DontUse</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>РегиональныйМенеджер</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>РегиональныйМенеджер</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ЦенаПоПрайсуИзСУ</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ЦенаНаДилераИзСУ</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ЦенаНаКлиентаИзСУ</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ЦенаПродажиПоСОПСНДС</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ЦенаПродажиДилеруСНДС</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Сегмент</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Сегмент</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ЦенаПоПрайсуИзСУ</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ЦенаНаДилераИзСУ</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ЦенаНаКлиентаИзСУ</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ЦенаПродажиПоСОПСНДС</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ЦенаПродажиДилеруСНДС</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>ГруппаКомпаний</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>ГруппаКомпаний</dcsset:field>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>ЦенаПоПрайсуИзСУ</dcsset:field>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>ЦенаНаДилераИзСУ</dcsset:field>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>ЦенаНаКлиентаИзСУ</dcsset:field>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>ЦенаПродажиПоСОПСНДС</dcsset:field>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>ЦенаПродажиДилеруСНДС</dcsset:field>
+							</dcsset:item>
+						</dcsset:selection>
+						<dcsset:item xsi:type="dcsset:StructureItemGroup">
+							<dcsset:groupItems>
+								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:field>Дилер</dcsset:field>
+									<dcsset:groupType>Items</dcsset:groupType>
+									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+								</dcsset:item>
+							</dcsset:groupItems>
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>Дилер</dcsset:field>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>ЦенаПоПрайсуИзСУ</dcsset:field>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>ЦенаНаДилераИзСУ</dcsset:field>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>ЦенаНаКлиентаИзСУ</dcsset:field>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>ЦенаПродажиПоСОПСНДС</dcsset:field>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>ЦенаПродажиДилеруСНДС</dcsset:field>
+								</dcsset:item>
+							</dcsset:selection>
+							<dcsset:item xsi:type="dcsset:StructureItemGroup">
+								<dcsset:groupItems>
+									<dcsset:item xsi:type="dcsset:GroupItemField">
+										<dcsset:field>СУ</dcsset:field>
+										<dcsset:groupType>Items</dcsset:groupType>
+										<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+										<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+										<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+									</dcsset:item>
+								</dcsset:groupItems>
+								<dcsset:order>
+									<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+								</dcsset:order>
+								<dcsset:selection>
+									<dcsset:item xsi:type="dcsset:SelectedItemField">
+										<dcsset:field>СУ</dcsset:field>
+									</dcsset:item>
+									<dcsset:item xsi:type="dcsset:SelectedItemField">
+										<dcsset:field>ЦенаПоПрайсуИзСУ</dcsset:field>
+									</dcsset:item>
+									<dcsset:item xsi:type="dcsset:SelectedItemField">
+										<dcsset:field>ЦенаНаДилераИзСУ</dcsset:field>
+									</dcsset:item>
+									<dcsset:item xsi:type="dcsset:SelectedItemField">
+										<dcsset:field>ЦенаНаКлиентаИзСУ</dcsset:field>
+									</dcsset:item>
+									<dcsset:item xsi:type="dcsset:SelectedItemField">
+										<dcsset:field>ЦенаПродажиПоСОПСНДС</dcsset:field>
+									</dcsset:item>
+									<dcsset:item xsi:type="dcsset:SelectedItemField">
+										<dcsset:field>ЦенаПродажиДилеруСНДС</dcsset:field>
+									</dcsset:item>
+								</dcsset:selection>
+								<dcsset:item xsi:type="dcsset:StructureItemGroup">
+									<dcsset:order>
+										<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+									</dcsset:order>
+									<dcsset:selection>
+										<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+									</dcsset:selection>
+								</dcsset:item>
+							</dcsset:item>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+			<dcsset:itemsUserSettingID>0dd74a01-78cc-496c-a4d2-e490b49a7f8e</dcsset:itemsUserSettingID>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

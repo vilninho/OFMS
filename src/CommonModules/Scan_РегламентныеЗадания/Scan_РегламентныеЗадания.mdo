@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b71c333e-4ac2-42c9-916d-b8c8e0ce5941">
+  <name>Scan_РегламентныеЗадания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентные задания (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Регламентные задания (scania)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

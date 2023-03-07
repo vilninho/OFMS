@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e020ae1-ce68-484a-b189-4f3f2a8649ec">
+  <producedTypes>
+    <objectType typeId="5c3d4726-2cee-4dd1-9f3f-eb10532a39db" valueTypeId="7c0f6b6c-99e4-4f9b-81fb-ea9805df5f94"/>
+    <managerType typeId="06169aa0-5de4-4f03-af48-bc740dc5ad95" valueTypeId="167366aa-2ce5-41af-88ea-1485833072d1"/>
+  </producedTypes>
+  <name>Scan_СравнениеСпецификаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сравнение спецификаций (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Comparison of specifications (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.Scan_СравнениеСпецификаций.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.Scan_СравнениеСпецификаций.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="f6f70df9-f97d-42da-9e40-f447beb5c90e">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="36ce53a4-5489-4ac5-8921-6d3f5595b009">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

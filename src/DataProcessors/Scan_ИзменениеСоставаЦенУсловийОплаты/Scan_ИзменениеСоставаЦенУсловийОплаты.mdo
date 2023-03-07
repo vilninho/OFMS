@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="479ce3aa-0520-4894-ba9b-321e43132cb4">
+  <producedTypes>
+    <objectType typeId="0b704b00-9fec-4eec-98bf-4ea160bef471" valueTypeId="b9a81969-9136-4f45-bae2-f836aac9af78"/>
+    <managerType typeId="b0c90d38-2bf3-4f31-8900-17c1abd1798f" valueTypeId="55cc7fa5-c07c-44be-999d-a5d0d7bcf55a"/>
+  </producedTypes>
+  <name>Scan_ИзменениеСоставаЦенУсловийОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение состава, цен и условий оплаты (scania)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Scan_ИзменениеСоставаЦенУсловийОплаты.Form.Форма</defaultForm>
+  <forms uuid="1e657974-c796-40a1-9cb4-b4bc3a044e8a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

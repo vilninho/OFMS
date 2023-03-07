@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="921ce91f-c83f-46e4-b83e-6c12fef6db32">
+  <producedTypes>
+    <refType typeId="091d5c08-5b7d-40ff-9e50-081375e70dbd" valueTypeId="08c1b57d-02a6-41bc-b71a-4c5fbcb3c88b"/>
+    <listType typeId="ed92f164-536b-4e49-9937-63e30ba54616" valueTypeId="b4632cec-f10b-4864-8c2b-1d356639397c"/>
+    <managerType typeId="a2aac3fa-b532-4e4f-a576-2979f6a3ef95" valueTypeId="dfb71e3b-13a4-4249-9d4b-3ef3dea4239f"/>
+  </producedTypes>
+  <name>Scan_ГруппыИзделийOFMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы продуктов OFMS</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>OFMS product groups</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d8208f85-5909-4862-86c0-3476d85859a1">
+    <name>ТранспортноеСредство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортное средство</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Chassis</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="20824f4d-9e58-45a3-80ab-2c7737f86923">
+    <name>Двигатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Двигатель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Engines</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="10cdd581-75a2-4e17-9727-cd594803313d">
+    <name>Надстройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Надстройка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Superstructure</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5a8f042b-de07-44d8-911f-5e01975a7396">
+    <name>Оборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Equipment</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="898d40a3-faad-48f2-bc4c-cd8ec0f413b2">
+    <name>ПрицепнаяТехника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прицепная техника</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Trailers</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="215e1510-90cc-4c76-a11a-0b21531f8a5c">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1c60a82-3c6e-41a8-8a2c-c46eb6f093a8">
+  <producedTypes>
+    <refType typeId="2bddf43c-0a2a-45f1-b40f-9fac1b5f71ba" valueTypeId="45035345-cf39-4afe-855e-705792570fff"/>
+    <listType typeId="110a472d-f11b-494d-abb4-92d8b1ea2ec1" valueTypeId="06c1f6f0-77de-493c-8154-595339b21572"/>
+    <managerType typeId="645ba021-2427-4b84-9107-42715772ae51" valueTypeId="619c9e40-210c-4d93-990c-3e5eb8989025"/>
+  </producedTypes>
+  <name>Scan_ДополнительнаяИнформацияПоКомпаниям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительная информация по компаниям (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Additional company information (scania)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2e34c2a1-19bc-4bde-9786-b72844cc030d">
+    <name>IDExternalSystem</name>
+    <synonym>
+      <key>ru</key>
+      <value>IDExternal system</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="760c911a-da07-4a7a-8dca-890a9201dec6">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4f9c189b-8573-487b-bb9b-720d3d0880ae">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e559f9dd-2c64-48a0-9a55-9f950fc164b1">
+    <name>КодДилера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код дилера</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dcb6bb11-ecf7-4a86-9b5b-54ffb9e5e931">
+    <name>КодДилераSOWA</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код дилера SOWA</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="216ba674-5f9b-4f44-98fb-f32baed8c268">
+    <name>НаименованиеАнглийское</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование английское</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5ea0ae7d-6939-402e-a3ee-2e0c88972fd9">
+    <name>ГруппыКомпаний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группы компаний</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="56af3bac-8a99-4d65-96eb-a077ee494173">
+    <name>СтатусыКомпаний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статусы компаний</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="da003f9f-a373-416a-82d7-a50874610701">
+    <name>ФормыКомпаний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формы компаний</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="90d1bdbd-71c2-4252-bf95-f6fdbe4ca695">
+    <name>ТипыДилеров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Типы дилеров</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="983a4529-9f5f-448c-9a22-8d8aa2b406f6">
+    <name>ВидДилера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид дилера</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32239878-610d-46fb-9960-dfa47811d2e5">
+    <name>DealerID_COW</name>
+    <synonym>
+      <key>ru</key>
+      <value>Dealer ID COW</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="76616206-06a1-430a-985c-826cff1c6cb2">
+    <name>ПриоритетныйСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритетный склад</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3542037f-b20a-4e90-8d59-e99cecaa9b90">
+    <name>Дилер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дилер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0b55114f-92f3-4cae-9652-35a3b3f20639">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eb4372bd-e5ae-45b3-a438-6d0af4a9604f">
+    <name>ДилерАктивен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дилер активен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d826921-c296-408c-97d1-7a02382b7528">
+  <name>Scan_ОбщегоНазначения_проф</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общего назначение (проф) (scania)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Общего назначение (проф) (scania)</value>
+  </synonym>
+  <comment>Общего назначение (проф)</comment>
+  <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

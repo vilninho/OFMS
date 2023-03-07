@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c66cd3fe-5698-4030-a3b7-54b5b3bf94c2">
+  <name>Scan_ЗначимыеСобытия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Scan значимые события</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Scan important events</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Enum.Scan_ВидСравнения</content>
+  <content>Enum.Scan_ВидДействияНаЗначимоеСобытие</content>
+  <content>Constant.Scan_ИспользоватьЗначимыеСобытия</content>
+  <content>DefinedType.Scan_ИсключенияЗначимыеСобытия</content>
+  <content>FunctionalOption.ИспользоватьЗначимыеСобытия</content>
+  <content>Enum.Scan_ВидыПравил</content>
+  <content>Enum.Scan_РежимыВыполненияДействий</content>
+  <content>Catalog.Scan_ДействияНаЗначимыеСобытия</content>
+  <content>Catalog.Scan_ЗначимыеСобытия</content>
+  <content>CommonForm.Scan_АдреснаяКнига</content>
+  <content>CommonModule.Scan_ЗначимыеСобытия</content>
+  <content>CommonModule.Scan_ВзаимодействияВызовСервера</content>
+  <content>CommonModule.Scan_ВзаимодействияКлиент</content>
+  <content>CommonModule.Scan_Взаимодействия</content>
+  <content>CommonModule.Scan_ВзаимодействияКлиентСервер</content>
+  <content>CommonModule.Scan_ВзаимодействияПереопределяемый</content>
+  <content>CommonForm.Scan_ОтчетВыборЗначенияОтбораИзСписка</content>
+  <content>InformationRegister.Scan_ОтправленныеПисьма</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

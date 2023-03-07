@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5051fed4-a9f7-48dd-b692-57c350b1736c">
+  <name>Scan_ОтделКлиентскойПоддержки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отдел клиентской поддержки</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Customer support</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.АРМАдминистратораПродаж48</picture>
+  </picture>
+  <content>Enum.Scan_КритерииПоискаАРМ</content>
+  <content>Document.Scan_ЗаявкаНаДействие</content>
+  <content>Role.Scan_ДобавлениеИзменениеАРМОтделаКлиентскойПоддержки</content>
+  <content>CommonCommand.Scan_ДополнительныеОтчетыОтделаАдминистрирования</content>
+  <content>CommonCommand.Scan_ДополнительныеОбработкиОтделаАдминистрирования</content>
+  <content>CommonForm.Scan_ПараметрыДокумента</content>
+  <content>Enum.Scan_СтатусыИзделий</content>
+  <content>CommonPicture.Операция</content>
+  <content>Role.Scan_ДобавлениеИзменениеДокументовОтделаКлиентскойПоддержки</content>
+  <content>CommonPicture.ОтборКомпоновкиДанныхВключен</content>
+  <content>Report.Scan_ИсторияПеремещенийИзделий</content>
+  <content>DataProcessor.Scan_КалькуляторТарифовНаДоставку</content>
+  <content>Report.Scan_ИсторияЗаявокНаИзделия</content>
+  <content>DataProcessor.Scan_РМОтделаКлиентскойПоддержки</content>
+  <content>Role.Scan_ПросмотрПодсистемыОтделКлиентскойПоддержки</content>
+  <content>Role.Scan_ДобавлениеИзменениеРММенеджераПоПродажамГрузовыхАвтомобилей</content>
+  <content>Role.Scan_ДобавлениеИзменениеСправочниковОтделаКлиентскойПоддержки</content>
+  <content>Role.Scan_ДобавлениеИзменениеРМОтделаКлиентскойПоддержки</content>
+  <content>Report.Scan_СписокОтгрузок</content>
+  <content>Document.Scan_ЗакреплениеМенеджеровОКПЗаДилерами</content>
+  <content>InformationRegister.Scan_ЗакреплениеМенеджеровОКПЗаДилерами</content>
+  <content>Catalog.Scan_ПричиныОтклоненийПоDD</content>
+  <content>DataProcessor.Scan_DDИнформер</content>
+  <content>InformationRegister.Scan_ОчередьDDИнформера</content>
+  <content>Report.Scan_ИнформацияПоПлановымОтгрузкам</content>
+  <content>Report.Scan_ОтчетПоПлановымЦенамПродажиШасси</content>
+  <content>Catalog.Scan_ШаблоныУсловийОплаты</content>
+  <content>InformationRegister.Scan_ОчередьDD2DDSИнформера</content>
+  <content>DataProcessor.Scan_DD2DDSИнформер</content>
+  <content>Catalog.Scan_ВидыLeadTime</content>
+  <content>Catalog.Scan_КонтрольныеТочкиLeadTime</content>
+  <content>Report.Scan_ЧекЛист</content>
+  <content>Document.Scan_ПрайсЛистАренда</content>
+</mdclass:Subsystem>
